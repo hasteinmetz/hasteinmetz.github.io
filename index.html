@@ -400,7 +400,7 @@ timeline.push(anb_timeline_final);
       function on_end(){
         var hits = HIT_3;
         var fas = FA_3;
-        var URL = window.open("https://ssd.az1.qualtrics.com/jfe/form/SV_dmv2EB5errcAJdb?subid="+sid+"&gid="+gid+"&hits="+hits+"&fas="+fas);
+        var URL = "https://ssd.az1.qualtrics.com/jfe/form/SV_dmv2EB5errcAJdb?subid="+sid+"&gid="+gid+"&hits="+hits+"&fas="+fas;
         return URL;
       }
 
@@ -410,7 +410,7 @@ timeline.push(anb_timeline_final);
         on_finish: function () {
                 url = on_end();
                 document.body.innerHTML = '<p> Please wait. You will be redirected back to Prolific in a few moments. <p>If you are not, click <a href='+url+'here> </a>.  </p>'
-                setTimeout(function () { location.href = url }, 10000)
+                setTimeout(function () { location.href = url }, 2000)
             },
       });
 
