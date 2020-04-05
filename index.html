@@ -401,13 +401,16 @@ timeline.push(anb_timeline_final);
         var hits = HIT_3;
         var fas = FA_3;
         var URL = window.open("https://ssd.az1.qualtrics.com/jfe/form/SV_dmv2EB5errcAJdb?subid="+sid+"&gid="+gid+"&hits="+hits+"&fas="+fas);
-        window.open(URL);
+        return URL;
       }
 
      jsPsych.init({
         timeline: timeline,
 		    preload_audio: anb_letters,
-        on_finish: on_end(),
+        on_finish: function () {
+                document.body.innerHTML = '<p> Please wait. You will be redirected back to Prolific in a few moments.</p>'
+                setTimeout(function () { url = on_end(); location.href = url }, 10000)
+            },
       });
 
     </script>
