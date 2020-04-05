@@ -34,8 +34,8 @@
       return urlparameter;
     }
 
-    var sid = getURLParam('sid', 'na')
-    var gid = getURLParam('gid', 'na')
+    var sid = getUrlParam('sid', 'na')
+    var gid = getUrlParam('gid', 'na')
 		var userip; // get user IP for purposes of checking duplicate responses
 		var timestamp = new Date(); //timestamp of participation
 		var today = new Date();
@@ -397,8 +397,7 @@ timeline.push(anb_timeline_final);
       };
 
       timeline.push(goodbye);
-
-      function on_end() = {
+      function on_end(){
         var hits = HIT_3;
         var fas = FA_3;
         var URL = window.open("https://ssd.az1.qualtrics.com/jfe/form/SV_dmv2EB5errcAJdb?subid="+sid+"&gid="+gid+"&hits="hits+"&fas="fas);
