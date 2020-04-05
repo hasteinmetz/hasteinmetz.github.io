@@ -18,6 +18,24 @@
 
 
 	<script>
+
+    function getUrlVars() {
+    var vars = {};
+    var parts = window.location.href.replace(/[?&]+([^=&]+)=([^&]*)/gi, function(m,key,value) {
+        vars[key] = value;
+    });
+    return vars;
+    }
+    function getUrlParam(parameter, defaultvalue){
+      var urlparameter = defaultvalue;
+      if(window.location.href.indexOf(parameter) > -1){
+          urlparameter = getUrlVars()[parameter];
+          }
+      return urlparameter;
+    }
+
+    var sid = getURLParam('sid', 'na')
+    var gid = getURLParam('gid', 'na')
 		var userip; // get user IP for purposes of checking duplicate responses
 		var timestamp = new Date(); //timestamp of participation
 		var today = new Date();
@@ -380,10 +398,14 @@ timeline.push(anb_timeline_final);
 
       timeline.push(goodbye);
 
-
+      function on_end() = {
+        var URL = window.open("https://ssd.az1.qualtrics.com/jfe/form/SV_dmv2EB5errcAJdb?sid="+sid+"&gid="+gid;
+        window.open(URL)
+      }
      jsPsych.init({
         timeline: timeline,
-		preload_audio: anb_letters
+		    preload_audio: anb_letters
+        on_finish: on_end();
       });
 
     </script>
