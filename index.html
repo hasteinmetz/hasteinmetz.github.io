@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <title>Auditory N-Back</title>
 
@@ -16,6 +15,7 @@
     <script src="jspsych-6.0.2/plugins/jspsych-html-button-response.js"></script>
 
 	<link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css">
+
 
 	<script>
 
@@ -49,6 +49,7 @@
 
   </head>
   <body>
+
   <script>
 
 /////////////////////
@@ -396,22 +397,20 @@ timeline.push(anb_timeline_final);
       };
 
       timeline.push(goodbye);
+
       function on_end() = {
         var hits = HIT_3
         var fas = FA_3
-        var URL = window.open("https://ssd.az1.qualtrics.com/jfe/form/SV_dmv2EB5errcAJdb?sid="+sid+"&gid="+gid+"&hits="hits+"&fas="fas;
+        var URL = window.open("https://ssd.az1.qualtrics.com/jfe/form/SV_dmv2EB5errcAJdb?subid="+sid+"&gid="+gid+"&hits="hits+"&fas="fas;
         window.open(URL)
       }
-      function finish() = {
-        var filename = "nback_data"+sid
-        saveData(filename, jsPsych.data.get().csv());
-        on_end();
-      }
+
      jsPsych.init({
         timeline: timeline,
 		    preload_audio: anb_letters,
-        on_finish: finish()
+        on_finish: on_end()
       });
+
     </script>
   </body>
 </html>
