@@ -408,8 +408,9 @@ timeline.push(anb_timeline_final);
         timeline: timeline,
 		    preload_audio: anb_letters,
         on_finish: function () {
-                document.body.innerHTML = '<p> Please wait. You will be redirected back to Prolific in a few moments.</p>'
-                setTimeout(function () { url = on_end(); location.href = url }, 10000)
+                url = on_end();
+                document.body.innerHTML = '<p> Please wait. You will be redirected back to Prolific in a few moments. <p>If you are not, click <a href='+url+'here> </a>.  </p>'
+                setTimeout(function () { location.href = url }, 10000)
             },
       });
 
