@@ -1,5 +1,16 @@
 <!DOCTYPE html>
 <html>
+<body>
+<?php
+$post_data = json_decode(file_get_contents('php://input'), true);
+// the directory "data" must be writable by the server
+$name = "data/".$post_data['filename'].".csv";
+$data = $post_data['filedata'];
+// write the file to disk
+file_put_contents($name, $data);
+?>
+</body>
+
   <head>
     <title>Auditory N-Back</title>
 
@@ -15,7 +26,6 @@
     <script src="jspsych-6.0.2/plugins/jspsych-html-button-response.js"></script>
 
 	<link href="jspsych-6.0.2/css/jspsych.css" rel="stylesheet" type="text/css">
-
 
 	<script>
 
@@ -397,21 +407,12 @@ timeline.push(anb_timeline_final);
       };
 
       timeline.push(goodbye);
-      <?php
-      $post_data = json_decode(file_get_contents('php://input'), true);
-      // the directory "data" must be writable by the server
-      $name = "data/".$post_data['filename'].".csv";
-      $data = $post_data['filedata'];
-      // write the file to disk
-      file_put_contents($name, $data);
-      ?>
       function saveData(name, data){
           var xhr = new XMLHttpRequest();
           xhr.open('POST', 'write_data.php'); // 'write_data.php' is the path to the php file described above.
           xhr.setRequestHeader('Content-Type', 'application/json');
           xhr.send(JSON.stringify({filename: name, filedata: data}));
       }
-
       function on_end() = {
         var URL = window.open("https://ssd.az1.qualtrics.com/jfe/form/SV_dmv2EB5errcAJdb?sid="+sid+"&gid="+gid;
         window.open(URL)
@@ -426,7 +427,6 @@ timeline.push(anb_timeline_final);
 		    preload_audio: anb_letters
         on_finish: finish();
       });
-
     </script>
   </body>
 </html>
