@@ -49,12 +49,6 @@
 
   </head>
   <body>
-    <?php
-    $post_data = json_decode(file_get_contents('php://input'), true);
-    $name = "data/".$post_data['filename'].".csv";
-    $data = $post_data['filedata'];
-    file_put_contents($name, $data);
-    ?>
   <script>
 
 /////////////////////
@@ -402,14 +396,10 @@ timeline.push(anb_timeline_final);
       };
 
       timeline.push(goodbye);
-      function saveData(name, data){
-          var xhr = new XMLHttpRequest();
-          xhr.open('POST', 'write_data.php'); // 'write_data.php' is the path to the php file described above.
-          xhr.setRequestHeader('Content-Type', 'application/json');
-          xhr.send(JSON.stringify({filename: name, filedata: data}));
-      }
       function on_end() = {
-        var URL = window.open("https://ssd.az1.qualtrics.com/jfe/form/SV_dmv2EB5errcAJdb?sid="+sid+"&gid="+gid;
+        var hits = HIT_3
+        var fas = FA_3
+        var URL = window.open("https://ssd.az1.qualtrics.com/jfe/form/SV_dmv2EB5errcAJdb?sid="+sid+"&gid="+gid+"&hits="hits+"&fas="fas;
         window.open(URL)
       }
       function finish() = {
@@ -419,8 +409,8 @@ timeline.push(anb_timeline_final);
       }
      jsPsych.init({
         timeline: timeline,
-		    preload_audio: anb_letters
-        on_finish: finish();
+		    preload_audio: anb_letters,
+        on_finish: finish()
       });
     </script>
   </body>
