@@ -3,6 +3,7 @@ safe: true
 source: .
 incremental: false
 highlighter: rouge
+disable_disk_cache: true
 gist:
   noscript: false
 kramdown:
