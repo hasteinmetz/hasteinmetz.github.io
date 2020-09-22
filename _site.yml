@@ -1,0 +1,13 @@
+name: "Hillel Steinmetz"
+navbar:
+  title: "Hillel Steinmetz"
+  left:
+    - text: "About Me"
+      href: post.md
+  right:
+    - icon: fa-linkedin fa-lg
+      href: https://www.linkedin.com/in/hillel-steinmetz/
+output:
+  html_document:
+    theme: paper
+    css: 'styles.css'
