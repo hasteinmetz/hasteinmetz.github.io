@@ -105,6 +105,25 @@
       z-index: 1;
     }
 
+    .dropdown-content a {
+      float: left;
+      color: #FEFEFE;
+      text-align: center;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-size: 16px;
+      letter-spacing: 2px;
+      font-family: "Verdana";
+      border-bottom: 4px rgba(175, 165, 140, .9);
+    }
+
+    .dropdown a:hover {
+      background-color: rgba(175, 165, 140, 1);
+      color: maroon;
+      font-family: "Verdana";
+      border-bottom: 4px solid grey;
+    }
+
     h1 {
       font-family: "Verdana";
       font-size:45px;
@@ -136,6 +155,7 @@
      @media only screen and (min-width: 200px) and (max-width:1100px) {
        .topnav{display: none;}
        .mobile{display: inline-block;}
+       .name{font-size: 16px}
        .dropdown{display: inline-block;}
        .dropbtn{display: inline-block;}
      }
@@ -168,7 +188,7 @@
     <div class="name">
        Hillel Steinmetz
     </div class="dropdown">
-      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+      <button onclick="myFunction()" class="dropbtn">|||</button>
         <div id="myDropdown" class="dropdown-content">
            {% if page.title == 'Home' %}
              <a href="{{ site.url }}" class="active">Home</a>
