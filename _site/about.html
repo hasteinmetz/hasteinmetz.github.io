@@ -5,6 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <title>About Me | Hillel Steinmetz</title>
     <style>
     body {
       background-color: #F5E8D8;
@@ -17,6 +18,17 @@
       margin-bottom: 1%;
       margin-left: 5%;
       margin-right: 5%;
+      text-align: center;
+    }
+    h2 {
+      font-family: "Verdana";
+      font-size:30px;
+      letter-spacing: 4px;
+      word-spacing: 8px;
+      margin-bottom: 2%;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
     }
     p {
       font-family: "Verdana";
@@ -50,11 +62,28 @@
       justify-content: center;
       display: block;
     }
-    @media only screen and (min-width: 300px) and (max-width:1000px) {
+    div.pdf{
+      height: 80vh;
+      width: 80vw;
+      margin:auto;
+      align-items: center;
+      justify-content: center;
+      display: block;
+    }
+    p.mobile{
+      font-family: "Verdana";
+      font-size:18px;
+      word-spacing: 2px;
+      line-height: 1.5;
+      margin-left: 20%;
+      margin-right: 20%;
+      display: none;
+    }
+    @media only screen and (min-width: 200px) and (max-width:1100px) {
       p {margin-left: 5%; margin-right: 5%; font-size:16px}
+      p.mobile{display: block;}
     }
     </style>
-    <h1 style="text-align: center">About Me</h1>
     
   </head>
   <body>
