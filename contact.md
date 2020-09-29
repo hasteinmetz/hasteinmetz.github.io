@@ -16,7 +16,7 @@ tag: navbar mail
 <a id="mail">
 
 <div class="email">
-  <form id="mail" enctype="text/plain">
+  <form id="mail" method="post" enctype="text/plain">
   <script type="text/javascript" language="javascript">
   <!--
   // Email obfuscator script 2.1 by Tim Williams, University of Arizona
