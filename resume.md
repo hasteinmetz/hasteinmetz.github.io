@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Resume
+tag: navbar
 ---
 <h2>{{page.title}}</h2>
 <div class="container">
@@ -21,7 +22,7 @@ My resume may not accessible on your mobile device at this time. If the PDF belo
   <div class="mobileblock"></div>
 </div>
 <div class="pdf">
-<embed src="contents/resume-hsteinmetz.pdf" type="application/pdf" height="100%" width="100%">
+<embed src="content/resume-hsteinmetz.pdf" type="application/pdf" height="100%" width="100%">
 </div>
 <div class="container">
   <div class="block"></div>

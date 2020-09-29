@@ -1,6 +1,7 @@
 ---
 layout: default
 title: CV
+tag: academics
 ---
 <h2>{{page.title}}</h2>
 <div class="container">
@@ -21,7 +22,7 @@ My {{page.title}} may not accessible on your mobile device at this time. If the 
   <div class="mobileblock"></div>
 </div>
 <div class="pdf">
-<embed src="contents/cv-hsteinmetz.pdf" type="application/pdf" height="100%" width="100%">
+<embed src="cv-hsteinmetz.pdf" type="application/pdf" height="100%" width="100%">
 </div>
 <div class="container">
   <div class="block"></div>

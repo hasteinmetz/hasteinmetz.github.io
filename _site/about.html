@@ -1,4 +1,113 @@
 <!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="google-site-verification" content="AWRwPyqaQPcVwUDaChKxc68D2tGveyxKpdiKaj5R7VA" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <style>
+    body {
+      margin:0;
+      background-color: #F5E8D8;
+    }
+    .topnav {
+      overflow: hidden;
+      background-color: rgba(175, 165, 140, .9);
+      border-bottom: 4px rgba(175, 165, 140, .9)
+    }
+
+    .topnav a {
+      float: left;
+      color: #FEFEFE;
+      text-align: center;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-family: "Verdana";
+      border-bottom: 4px rgba(175, 165, 140, .9)
+    }
+
+    .topnav a:hover {
+      background-color: rgba(175, 165, 140, 1);
+      color: maroon;
+      font-family: "Verdana";
+      border-bottom: 4px solid grey
+    }
+
+    .topnav a.active {
+      background-color: rgba(120, 61, 80, 1);
+      color: white;
+      border-bottom: 4px solid grey
+    }
+
+    .name{
+      float: right;
+      background-color: rgba(120, 61, 80, 0.6);
+      color: #FEFEFE;
+      overflow: hidden;
+      text-align: center;
+      padding: 14px 24px;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: 3px;
+      word-spacing: 6px;
+      font-family: "Verdana";
+      z-index: 1;
+      position:relative;
+    }
+
+    h1 {
+      font-family: "Verdana";
+      font-size:45px;
+      letter-spacing: 4px;
+      word-spacing: 8px;
+      margin-bottom: 1%;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+    }
+    h2 {
+      font-family: "Verdana";
+      font-size:30px;
+      letter-spacing: 4px;
+      word-spacing: 8px;
+      margin-bottom: 2%;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+    }
+    p {
+      font-family: "Verdana";
+      font-size:18px;
+      word-spacing: 2px;
+      line-height: 1.5;
+      margin-left: 20%;
+      margin-right: 20%;
+     }
+  </style>
+  </head>
+  <body>
+  <div class="topnav">
+    <div class="name">
+       Hillel Steinmetz
+    </div>
+     
+       <a href="http://localhost:4000">Home</a>
+     
+
+     
+       <a href="/about.html" class="active">About Me</a>
+     
+
+     
+       <a href="/resume.html">Resume</a>
+     
+  </div>
+  </body>
+</html>
+
 <html>
   <head>
     <meta name="google-site-verification" content="AWRwPyqaQPcVwUDaChKxc68D2tGveyxKpdiKaj5R7VA" />
@@ -10,6 +119,7 @@
     body {
       background-color: #F5E8D8;
     }
+
     h1 {
       font-family: "Verdana";
       font-size:45px;
@@ -72,6 +182,18 @@
       justify-content: center;
       display: block;
     }
+    div.email{
+      font-family: "Verdana";
+      font-size:18px;
+      word-spacing: 2px;
+      line-height: 1.5;
+      margin-left: 25%;
+      margin-right: 25%;
+      margin-bottom: 2%;
+      align-items: center;
+      justify-content: center;
+      display: block;
+    }
     p.mobile{
       font-family: "Verdana";
       font-size:18px;
@@ -88,7 +210,6 @@
       margin-bottom: 2%;
     }
     .mobileblock {
-      display: inline-block;
       width: 5px;
       height: 5px;
       margin-left: 7px;
@@ -100,13 +221,39 @@
       p {margin-left: 5%; margin-right: 5%; font-size:16px}
       p.mobile{display: block;}
       .mobilecont{display: block;}
-      .mobileblock{display: block;}
+      .mobileblock{display: inline-block;}
     }
     </style>
     
   </head>
   <body>
-    <p>This page tells you a little something about me!</p>
+    <h2>About Me</h2>
+<div class="container">
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+</div>
+
+<p>Until recently, I’ve worked as a research assistant at the University of Chicago’s
+Department of Psychology where I was involved with project on the psychology of civic virtue,
+the social effects of metaphorical language, and how meaning is conveyed through paralinguistic
+(e.g., pitch) gestures.</p>
+
+<p>My current interests, however, are in social psychology and sociology.
+I’m fascinated by the ways in which the ways individuals understand the world are shaped by their communities and societies.
+I’m particularly interested in how different aspects of our identity inform our political decisions.</p>
+
+<p>You can check out my academic CV (Sept 2020) by clicking <a href="/academics/cv.html">here</a>.&lt;/p&gt;</p>
+
+<div class="container">
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+  <div class="block"></div>
+</div>
 
   </body>
 </html>

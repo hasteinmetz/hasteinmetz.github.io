@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta name="google-site-verification" content="AWRwPyqaQPcVwUDaChKxc68D2tGveyxKpdiKaj5R7VA" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <style>
+    body {
+      margin:0;
+      background-color: #F5E8D8;
+    }
+    .topnav {
+      overflow: hidden;
+      background-color: rgba(175, 165, 140, .9);
+      border-bottom: 4px rgba(175, 165, 140, .9)
+    }
+
+    .topnav a {
+      float: left;
+      color: #FEFEFE;
+      text-align: center;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-family: "Verdana";
+      border-bottom: 4px rgba(175, 165, 140, .9)
+    }
+
+    .topnav a:hover {
+      background-color: rgba(175, 165, 140, 1);
+      color: maroon;
+      font-family: "Verdana";
+      border-bottom: 4px solid grey
+    }
+
+    .topnav a.active {
+      background-color: rgba(120, 61, 80, 1);
+      color: white;
+      border-bottom: 4px solid grey
+    }
+
+    .name{
+      float: right;
+      background-color: rgba(120, 61, 80, 0.6);
+      color: #FEFEFE;
+      overflow: hidden;
+      text-align: center;
+      padding: 14px 24px;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: 3px;
+      word-spacing: 6px;
+      font-family: "Verdana";
+      z-index: 1;
+      position:relative;
+    }
+
+    h1 {
+      font-family: "Verdana";
+      font-size:45px;
+      letter-spacing: 4px;
+      word-spacing: 8px;
+      margin-bottom: 1%;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+    }
+    h2 {
+      font-family: "Verdana";
+      font-size:30px;
+      letter-spacing: 4px;
+      word-spacing: 8px;
+      margin-bottom: 2%;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+    }
+    p {
+      font-family: "Verdana";
+      font-size:18px;
+      word-spacing: 2px;
+      line-height: 1.5;
+      margin-left: 20%;
+      margin-right: 20%;
+     }
+  </style>
+  </head>
+  <body>
+  <div class="topnav">
+    <div class="name">
+       Hillel Steinmetz
+    </div>
+     {% if page.title == 'Home' %}
+       <a href="{{ site.url }}" class="active">Home</a>
+     {% else %}
+       <a href="{{ site.url }}">Home</a>
+     {% endif %}
+
+     {% if page.url == "/about.html" %}
+       <a href="/about.html" class="active">About Me</a>
+     {% else %}
+       <a href="/about.html">About Me</a>
+     {% endif %}
+
+     {% if page.url == "/resume.html" %}
+       <a href="/resume.html" class="active">Resume</a>
+     {% else %}
+       <a href="/resume.html">Resume</a>
+     {% endif %}
+  </div>
+  </body>
+</html>
