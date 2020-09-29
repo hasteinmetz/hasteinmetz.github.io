@@ -115,6 +115,7 @@
       letter-spacing: 2px;
       font-family: "Verdana";
       border-bottom: 4px rgba(175, 165, 140, .9);
+      z-index: 1;
     }
 
     .dropdown a:hover {
@@ -187,7 +188,8 @@
   <div class="mobile">
     <div class="name">
        Hillel Steinmetz
-    </div class="dropdown">
+     </div>
+    <div class="dropdown">
       <button onclick="myFunction()" class="dropbtn">|||</button>
         <div id="myDropdown" class="dropdown-content">
            {% if page.title == 'Home' %}
