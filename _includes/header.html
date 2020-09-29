@@ -13,7 +13,7 @@
     .topnav {
       overflow: hidden;
       background-color: rgba(175, 165, 140, .9);
-      border-bottom: 4px rgba(175, 165, 140, .9)
+      border-bottom: 4px rgba(175, 165, 140, .9);
     }
 
     .topnav a {
@@ -25,20 +25,20 @@
       font-size: 20px;
       letter-spacing: 2px;
       font-family: "Verdana";
-      border-bottom: 4px rgba(175, 165, 140, .9)
+      border-bottom: 4px rgba(175, 165, 140, .9);
     }
 
     .topnav a:hover {
       background-color: rgba(175, 165, 140, 1);
       color: maroon;
       font-family: "Verdana";
-      border-bottom: 4px solid grey
+      border-bottom: 4px solid grey;
     }
 
     .topnav a.active {
       background-color: rgba(120, 61, 80, 1);
       color: white;
-      border-bottom: 4px solid grey
+      border-bottom: 4px solid grey;
     }
 
     .name{
@@ -55,6 +55,54 @@
       font-family: "Verdana";
       z-index: 1;
       position:relative;
+    }
+
+    .mobile{
+      overflow: hidden;
+      background-color: rgba(175, 165, 140, .9);
+      border-bottom: 4px rgba(175, 165, 140, .9);
+      display: none;
+    }
+
+    .dropbtn {
+      display: none;
+      background-color: rgba(120, 61, 80, 1);
+      text-align: center;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-family: "Verdana";
+      border-bottom: 4px solid grey;
+    }
+
+    .dropbtn:hover, .dropbtn:focus {
+      background-color: rgba(175, 165, 140, 1);
+      color: maroon;
+      font-family: "Verdana";
+      border-bottom: 4px solid grey;
+    }
+
+    .dropdown {
+      position: relative;
+      display: none;
+    }
+
+    .dropdown-content {
+      display: none;
+      float: left;
+      color: #FEFEFE;
+      text-align: center;
+      padding: 12px 24px;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: 2px;
+      font-family: "Verdana";
+      border-bottom: 4px rgba(175, 165, 140, .9);
+      min-width: 160px;
+      overflow: auto;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
     }
 
     h1 {
@@ -85,6 +133,12 @@
       margin-left: 20%;
       margin-right: 20%;
      }
+     @media only screen and (min-width: 200px) and (max-width:1100px) {
+       .topnav{display: none;}
+       .mobile{display: inline-block;}
+       .dropdown{display: inline-block;}
+       .dropbtn{display: inline-block;}
+     }
   </style>
   </head>
   <body>
@@ -110,5 +164,52 @@
        <a href="/resume.html">Resume</a>
      {% endif %}
   </div>
+  <div class="mobile">
+    <div class="name">
+       Hillel Steinmetz
+    </div class="dropdown">
+      <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+           {% if page.title == 'Home' %}
+             <a href="{{ site.url }}" class="active">Home</a>
+           {% else %}
+             <a href="{{ site.url }}">Home</a>
+           {% endif %}
+
+           {% if page.url == "/about.html" %}
+             <a href="/about.html" class="active">About Me</a>
+           {% else %}
+             <a href="/about.html">About Me</a>
+           {% endif %}
+
+           {% if page.url == "/resume.html" %}
+             <a href="/resume.html" class="active">Resume</a>
+           {% else %}
+             <a href="/resume.html">Resume</a>
+           {% endif %}
+         </div>
+       </div>
+  </div>
+  <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    }
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i <  dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    }
+    </script>
   </body>
 </html>
