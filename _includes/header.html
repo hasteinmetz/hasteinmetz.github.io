@@ -31,14 +31,20 @@
     .topnav a:hover {
       background-color: rgba(175, 165, 140, 1);
       color: maroon;
+      padding: 12px 24px;
       font-family: "Verdana";
       border-bottom: 4px solid grey;
     }
 
     .topnav a.active {
       background-color: rgba(120, 61, 80, 1);
+      padding: 12px 24px;
       color: white;
       border-bottom: 4px solid grey;
+    }
+
+    div.desktop{
+      display: block;
     }
 
     .name{
@@ -47,92 +53,77 @@
       color: #FEFEFE;
       overflow: hidden;
       text-align: center;
-      padding: 12px 20px;
+      padding: 14px 24px;
       text-decoration: none;
       font-size: 20px;
       letter-spacing: 3px;
       word-spacing: 6px;
       font-family: "Verdana";
       z-index: 1;
-      position:relative;
-    }
-
-    .mobile{
-      overflow: hidden;
-      background-color: rgba(175, 165, 140, .9);
-      border-bottom: 4px rgba(175, 165, 140, .9);
-      display: none;
     }
 
     .dropbtn {
-      display: none;
-      background-color: rgba(120, 61, 80, 1);
+      border: 0px transparent black;
+      background-color: rgba(175, 165, 140, .9);
+      color: maroon;
       text-align: center;
-      padding: 12px 20px;
-      text-decoration: none;
+      padding: 12px 24px;
       font-size: 20px;
       letter-spacing: 2px;
       font-family: "Verdana";
-      border-bottom: 4px solid grey;
     }
 
-    .dropbtn:hover, .dropbtn:focus {
-      background-color: rgba(175, 165, 140, 1);
-      color: maroon;
+    .dropbtn:hover {
+      background-color: rgba(120, 61, 80, 1);
+      color: #FEFEFE;
       font-family: "Verdana";
       border-bottom: 4px solid grey;
     }
 
-    .dropdown {
-      position: relative;
+    div.dropdown {
+      position: absolute;
       display: none;
     }
 
     .dropdown-content {
       display: none;
       position: absolute;
-      float: left;
+      background-color: rgba(175, 165, 140, .9);
       color: #FEFEFE;
+      float: left;
       text-align: center;
-      padding: 12px 20px;
       text-decoration: none;
       font-size: 20px;
       letter-spacing: 2px;
+      padding: 12px 24px;
       font-family: "Verdana";
       border-bottom: 4px rgba(175, 165, 140, .9);
       min-width: 160px;
-      overflow: auto;
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      overflow: hidden;
       z-index: 1;
     }
 
     .dropdown-content a {
-      display: block;
       float: left;
       color: #FEFEFE;
       text-align: center;
-      padding: 12px 20px;
+      min-width: 160px;
       text-decoration: none;
       font-size: 16px;
       letter-spacing: 2px;
       font-family: "Verdana";
       border-bottom: 4px rgba(175, 165, 140, .9);
-      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
       z-index: 1;
     }
 
     .dropdown-content a.active {
-      position: relative;
-      display: inline-block;
       background-color: rgba(120, 61, 80, 1);
-      color: white;
       border-bottom: 4px solid grey;
+      min-width: 160px;
     }
 
     .dropdown a:hover {
-      position: relative;
-      display: inline-block;
-      background-color: rgba(175, 165, 140, 1);
+      background-color: white;
       color: maroon;
       font-family: "Verdana";
       border-bottom: 4px solid grey;
@@ -166,13 +157,12 @@
       margin-left: 20%;
       margin-right: 20%;
      }
+
      .show {display: block;}
+
      @media only screen and (min-width: 200px) and (max-width:1100px) {
-       .topnav{display: none;}
-       .mobile{display: block;}
-       .name{font-size: 16px}
-       .dropdown{display: inline-block;}
-       .dropbtn{display: inline-block;}
+       div.dropdown{display: block;}
+       div.desktop{display: none;}
      }
   </style>
   </head>
@@ -181,6 +171,7 @@
     <div class="name">
        Hillel Steinmetz
     </div>
+    <div class="desktop">
      {% if page.title == 'Home' %}
        <a href="{{ site.url }}" class="active">Home</a>
      {% else %}
@@ -198,11 +189,7 @@
      {% else %}
        <a href="/resume.html">Resume</a>
      {% endif %}
-  </div>
-  <div class="mobile">
-    <div class="name">
-       Hillel Steinmetz
-     </div>
+   </div>
     <div class="dropdown">
       <button onclick="myFunction()" class="dropbtn">|||</button>
         <div id="myDropdown" class="dropdown-content">
@@ -225,6 +212,7 @@
            {% endif %}
          </div>
        </div>
+     </div>
   </div>
   <script>
     /* When the user clicks on the button,
