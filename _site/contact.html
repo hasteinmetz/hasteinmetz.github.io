@@ -74,7 +74,7 @@
       border: none;
       background-color: transparent;
       color: maroon;
-      padding: 14px 14px;
+      padding: 14px 12px;
       font-size: 20px;
       font-weight: bolder;
       letter-spacing: 2px;
@@ -82,7 +82,7 @@
     }
 
     .dropbtn:hover, .dropbtn:focus{
-      padding: 14px 14px;
+      padding: 14px 12px;
       border: none;
       font-weight: bolder;
       background-color: rgba(120, 61, 80, 1);
@@ -176,6 +176,9 @@
              font-size: 20px;
              letter-spacing: 1px;
              word-spacing: 2px;}
+       .dropbtn:hover, .dropbtn:focus{
+         padding: 12px 12px;
+       }
      }
   </style>
   </head>
@@ -186,7 +189,7 @@
     </div>
     <div class="desktop">
      
-       <a href="http://localhost:4000">Home</a>
+       <a href="http://0.0.0.0:4000">Home</a>
      
 
      
@@ -199,11 +202,11 @@
    </div>
     <div class="dropdown">
       <div class="btncontainer">
-      <button onclick="myFunction()" class="dropbtn">|||</button>
+      <button onclick="myFunction()" class="dropbtn" style="font-size: 22px">≡</button>
     </div>
         <div id="myDropdown" class="dropdown-content">
            
-             <a href="http://localhost:4000">Home</a>
+             <a href="http://0.0.0.0:4000">Home</a>
            
 
            
@@ -266,7 +269,7 @@
     h2 {
       font-family: "Verdana";
       font-size:30px;
-      letter-spacing: 4px;
+      letter-spacing: 5px;
       word-spacing: 8px;
       margin-bottom: 2%;
       margin-left: 5%;
@@ -356,6 +359,7 @@
       .mobilecont{display: block;}
       .mobileblock{display: inline-block;}
       div.email{margin-left: 5%; margin-right: 5%; font-size:16px}
+      div.pdf{display: none;}
     }
     </style>
     
