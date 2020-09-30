@@ -23,7 +23,7 @@ My current interests, however, are in social psychology and sociology.
 I'm fascinated by the ways in which the ways individuals understand the world are shaped by their communities and societies.
 I'm particularly interested in how different aspects of our identity inform our political decisions.
 
-You can check out my academic CV (Sept 2020) by clicking <a href="/academics/cv.html">here</a>.</p>
+You can check out my academic CV (Sept 2020) by clicking <a href="/academics/cv.html">here</a>.
 
 <div class="container">
   <div class="block"></div>
