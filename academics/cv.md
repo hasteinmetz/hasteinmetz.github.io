@@ -12,15 +12,8 @@ tag: academics
   <div class="block"></div>
 </div>
 <p class="mobile">
-If you are using a mobile device, my CV may not accessible on your device at this time. If the PDF below doesn't load, please try again on your personal computer.
+Please click <a href="cv-hsteinmetz.pdf">here</a> to view my resume.
 </p>
-<div class="mobilecont" style="margin-bottom: 2%;">
-  <div class="mobileblock"></div>
-  <div class="mobileblock"></div>
-  <div class="mobileblock"></div>
-  <div class="mobileblock"></div>
-  <div class="mobileblock"></div>
-</div>
 <div class="pdf">
 <embed src="cv-hsteinmetz.pdf" type="application/pdf" height="100%" width="100%">
 </div>
