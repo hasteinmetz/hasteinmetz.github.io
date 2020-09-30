@@ -4,6 +4,8 @@ title: Contact Me
 description: A page with a form to reach out to me
 tag: navbar mail
 ---
+<h2>{{page.title: Coming soon!}}</h2>
+<!--
 <h2>{{page.title}}</h2>
 <div class="container">
   <div class="block"></div>
@@ -40,7 +42,7 @@ tag: navbar mail
     var strlink = "mailto:" + link
   document.getElementById("mail").setAttribute("action",strlink);
   }
-  //-->
+  //--><!--
   </script>
   <noscript>Sorry, you need Javascript on to email me.</noscript>
   Name:<br>
