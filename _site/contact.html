@@ -63,22 +63,31 @@
       z-index: 1;
     }
 
-    .dropbtn {
-      border: 0px transparent black;
-      background-color: rgba(175, 165, 140, .9);
-      color: maroon;
+    div.btncontainer{
       text-align: center;
-      padding: 12px 24px;
+      justify-content: center;
+      border: none;
+      background-color: transparent;
+    }
+
+    .dropbtn {
+      border: none;
+      background-color: transparent;
+      color: maroon;
+      padding: 14px 14px;
       font-size: 20px;
+      font-weight: bolder;
       letter-spacing: 2px;
       font-family: "Verdana";
     }
 
-    .dropbtn:hover {
+    .dropbtn:hover, .dropbtn:focus{
+      padding: 14px 14px;
+      border: none;
+      font-weight: bolder;
       background-color: rgba(120, 61, 80, 1);
       color: #FEFEFE;
       font-family: "Verdana";
-      border-bottom: 4px solid grey;
     }
 
     div.dropdown {
@@ -127,7 +136,6 @@
       background-color: white;
       color: maroon;
       font-family: "Verdana";
-      border-bottom: 4px solid grey;
     }
 
     h1 {
@@ -161,9 +169,13 @@
 
      .show {display: block;}
 
-     @media only screen and (min-width: 200px) and (max-width:1100px) {
+     @media only screen and (min-width: 200px) and (max-width:700px) {
        div.dropdown{display: block;}
        div.desktop{display: none;}
+       .name{padding: 14px 18px;
+             font-size: 20px;
+             letter-spacing: 1px;
+             word-spacing: 2px;}
      }
   </style>
   </head>
@@ -186,7 +198,9 @@
      
    </div>
     <div class="dropdown">
+      <div class="btncontainer">
       <button onclick="myFunction()" class="dropbtn">|||</button>
+    </div>
         <div id="myDropdown" class="dropdown-content">
            
              <a href="http://localhost:4000">Home</a>
@@ -336,7 +350,7 @@
       background-color: black;
       display:none;
     }
-    @media only screen and (min-width: 200px) and (max-width:1100px) {
+    @media only screen and (min-width: 200px) and (max-width:700px) {
       p {margin-left: 5%; margin-right: 5%; font-size:16px}
       p.mobile{display: block;}
       .mobilecont{display: block;}
@@ -347,7 +361,9 @@
     
   </head>
   <body>
-    <h2>Contact Me</h2>
+    <h2>Contact Me:Coming soon!</h2>
+<!--
+<h2>Contact Me</h2>
 <div class="container">
   <div class="block"></div>
   <div class="block"></div>
@@ -356,7 +372,7 @@
   <div class="block"></div>
 </div>
 
-<p><a id="mail"></a></p>
+<a id="mail">
 
 <div class="email">
   <form id="mail" method="post" enctype="text/plain">
@@ -384,9 +400,10 @@
   document.getElementById("mail").setAttribute("action",strlink);
   }
   //-->
-  </script>
-  <noscript>Sorry, you need Javascript on to email me.</noscript>
-  Name:<br />
+<p>&lt;!–
+  &lt;/script&gt;</p>
+<noscript>Sorry, you need Javascript on to email me.</noscript>
+<p>Name:<br />
   <input type="text" name="name" /><br />
   E-mail:<br />
   <input type="text" name="mail" /><br />
@@ -394,8 +411,8 @@
   <input type="text" name="comment" size="80" style="line-height:80px; valign:top" /><br /><br />
   <input type="submit" value="Send" />
   <input type="reset" value="Reset" />
-  </form>
-</div>
+  &lt;/form&gt;
+&lt;/div&gt;</p>
 
 <div class="container">
   <div class="block"></div>

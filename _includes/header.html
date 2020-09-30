@@ -62,20 +62,28 @@
       z-index: 1;
     }
 
+    div.btncontainer{
+      text-align: center;
+      justify-content: center;
+      border: none;
+      background-color: transparent;
+    }
+
     .dropbtn {
       border: none;
-      background-color: rgba(175, 165, 140, .9);
+      background-color: transparent;
       color: maroon;
-      text-align: center;
-      padding: 0;
+      padding: 14px 14px;
       font-size: 20px;
+      font-weight: bolder;
       letter-spacing: 2px;
       font-family: "Verdana";
     }
 
     .dropbtn:hover, .dropbtn:focus{
-      padding: 0;
+      padding: 14px 14px;
       border: none;
+      font-weight: bolder;
       background-color: rgba(120, 61, 80, 1);
       color: #FEFEFE;
       font-family: "Verdana";
@@ -160,7 +168,7 @@
 
      .show {display: block;}
 
-     @media only screen and (min-width: 200px) and (max-width:1100px) {
+     @media only screen and (min-width: 200px) and (max-width:700px) {
        div.dropdown{display: block;}
        div.desktop{display: none;}
        .name{padding: 14px 18px;
@@ -195,7 +203,9 @@
      {% endif %}
    </div>
     <div class="dropdown">
+      <div class="btncontainer">
       <button onclick="myFunction()" class="dropbtn">|||</button>
+    </div>
         <div id="myDropdown" class="dropdown-content">
            {% if page.title == 'Home' %}
              <a href="{{ site.url }}" class="active">Home</a>

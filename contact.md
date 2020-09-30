@@ -4,7 +4,7 @@ title: Contact Me
 description: A page with a form to reach out to me
 tag: navbar mail
 ---
-<h2>{{page.title: Coming soon!}}</h2>
+<h2>{{page.title}}:Coming soon!</h2>
 <!--
 <h2>{{page.title}}</h2>
 <div class="container">
