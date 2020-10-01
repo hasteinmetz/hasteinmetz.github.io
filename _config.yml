@@ -11,4 +11,4 @@ kramdown:
   syntax_highlighter: rouge
 plugins:
   - jekyll-seo-tag
-theme: minimal
+theme: jekyll-theme-minimal

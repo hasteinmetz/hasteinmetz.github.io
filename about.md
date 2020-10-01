@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: mydefault
 title: About Me
 description: An "about me" page for my personal website
 tag: navbar
