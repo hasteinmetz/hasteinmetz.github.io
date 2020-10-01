@@ -162,6 +162,13 @@
       margin-right: 5%;
       text-align: center;
     }
+    p.center{
+      font-family: "Verdana";
+      font-size:18px;
+      word-spacing: 2px;
+      line-height: 1.5;
+      margin: auto;
+    }
     p {
       font-family: "Verdana";
       font-size:18px;
@@ -169,6 +176,16 @@
       line-height: 1.5;
       margin-left: 20%;
       margin-right: 20%;
+     }
+
+     .cover {
+       position: absolute;
+       height: 100%;
+       width: 100%;
+       top:0;
+       left: 0;
+       background-color: #F5E8D8;
+       display: block;
      }
 
      .show {display: block;}
@@ -185,66 +202,70 @@
   </style>
   </head>
   <body onload="myload()">
-  <div class="topnav" id="topnav">
-    <div class="name" id="name">
-       Hillel Steinmetz
+    <div class="cover" id="cover">
+      <p class="center" style=""></p>
     </div>
-    <div class="desktop" id="navbardesktop">
-     {% if page.title == 'Home' %}
-       <a href="{{ site.url }}" class="active">Home</a>
-     {% else %}
-       <a href="{{ site.url }}">Home</a>
-     {% endif %}
+    <div class="topnav" id="topnav">
+      <div class="name" id="name">
+         Hillel Steinmetz
+      </div>
+      <div class="desktop" id="navbardesktop">
+       {% if page.title == 'Home' %}
+         <a href="{{ site.url }}" class="active">Home</a>
+       {% else %}
+         <a href="{{ site.url }}">Home</a>
+       {% endif %}
 
-     {% if page.url == "/about.html" %}
-       <a href="/about.html" class="active">About Me</a>
-     {% else %}
-       <a href="/about.html">About Me</a>
-     {% endif %}
+       {% if page.url == "/about.html" %}
+         <a href="/about.html" class="active">About Me</a>
+       {% else %}
+         <a href="/about.html">About Me</a>
+       {% endif %}
 
-     {% if page.url == "/resume.html" %}
-       <a href="/resume.html" class="active">Resume</a>
-     {% else %}
-       <a href="/resume.html">Resume</a>
-     {% endif %}
+       {% if page.url == "/resume.html" %}
+         <a href="/resume.html" class="active">Resume</a>
+       {% else %}
+         <a href="/resume.html">Resume</a>
+       {% endif %}
 
-     {% if page.url == "/contact.html" %}
-       <a href="/contact.html" class="active">Contact Me</a>
-     {% else %}
-       <a href="/contact.html">Contact Me</a>
-     {% endif %}
-   </div>
-    <div class="dropdown" id="navbarmobile">
-      <div class="btncontainer">
-      <button onclick="myFunction()" class="dropbtn" style="font-size: 22px">≡</button>
-    </div>
-        <div id="myDropdown" class="dropdown-content">
-           {% if page.title == 'Home' %}
-             <a href="{{ site.url }}" class="active">Home</a>
-           {% else %}
-             <a href="{{ site.url }}">Home</a>
-           {% endif %}
+       {% if page.url == "/contact.html" %}
+         <a href="/contact.html" class="active">Contact Me</a>
+       {% else %}
+         <a href="/contact.html">Contact Me</a>
+       {% endif %}
+     </div>
+      <div class="dropdown" id="navbarmobile">
+        <div class="btncontainer">
+        <button onclick="myFunction()" class="dropbtn" style="font-size: 22px">≡</button>
+      </div>
+          <div id="myDropdown" class="dropdown-content">
+             {% if page.title == 'Home' %}
+               <a href="{{ site.url }}" class="active">Home</a>
+             {% else %}
+               <a href="{{ site.url }}">Home</a>
+             {% endif %}
 
-           {% if page.url == "/about.html" %}
-             <a href="/about.html" class="active">About Me</a>
-           {% else %}
-             <a href="/about.html">About Me</a>
-           {% endif %}
+             {% if page.url == "/about.html" %}
+               <a href="/about.html" class="active">About Me</a>
+             {% else %}
+               <a href="/about.html">About Me</a>
+             {% endif %}
 
-           {% if page.url == "/resume.html" %}
-             <a href="/resume.html" class="active">Resume</a>
-           {% else %}
-             <a href="/resume.html">Resume</a>
-           {% endif %}
+             {% if page.url == "/resume.html" %}
+               <a href="/resume.html" class="active">Resume</a>
+             {% else %}
+               <a href="/resume.html">Resume</a>
+             {% endif %}
 
-           {% if page.url == "/contact.html" %}
-             <a href="/contact.html" class="active">Contact Me</a>
-           {% else %}
-             <a href="/contact.html">Contact Me</a>
-           {% endif %}
+             {% if page.url == "/contact.html" %}
+               <a href="/contact.html" class="active">Contact Me</a>
+             {% else %}
+               <a href="/contact.html">Contact Me</a>
+             {% endif %}
+           </div>
          </div>
        </div>
-     </div>
+  </div>
   </div>
   <script>
     /* When the user clicks on the button,
@@ -315,6 +336,8 @@
     function myload(){
       getinit();
       initNavbar();
+      var x = document.getElementById("cover");
+      x.style.display="none";
     };
 
     function resizeNavbar(){

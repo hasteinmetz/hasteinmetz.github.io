@@ -87,7 +87,7 @@
     }
 
     .dropbtn:hover, .dropbtn:focus{
-      padding: 14px 12px;
+      padding: 12px 12px;
       border: none;
       font-weight: bolder;
       background-color: rgba(120, 61, 80, 1);
@@ -163,6 +163,13 @@
       margin-right: 5%;
       text-align: center;
     }
+    p.center{
+      font-family: "Verdana";
+      font-size:18px;
+      word-spacing: 2px;
+      line-height: 1.5;
+      margin: auto;
+    }
     p {
       font-family: "Verdana";
       font-size:18px;
@@ -170,6 +177,16 @@
       line-height: 1.5;
       margin-left: 20%;
       margin-right: 20%;
+     }
+
+     .cover {
+       position: absolute;
+       height: 100%;
+       width: 100%;
+       top:0;
+       left: 0;
+       background-color: #F5E8D8;
+       display: block;
      }
 
      .show {display: block;}
@@ -181,57 +198,59 @@
              font-size: 20px;
              letter-spacing: 1px;
              word-spacing: 2px;}
-       .dropbtn:hover, .dropbtn:focus{
-         padding: 12px 12px;
        }
      }
   </style>
   </head>
   <body onload="myload()">
-  <div class="topnav" id="topnav">
-    <div class="name" id="name">
-       Hillel Steinmetz
+    <div class="cover" id="cover">
+      <p class="center" style=""></p>
     </div>
-    <div class="desktop" id="navbardesktop">
-     
-       <a href="http://localhost:4000">Home</a>
-     
+    <div class="topnav" id="topnav">
+      <div class="name" id="name">
+         Hillel Steinmetz
+      </div>
+      <div class="desktop" id="navbardesktop">
+       
+         <a href="http://localhost:4000">Home</a>
+       
 
-     
-       <a href="/about.html">About Me</a>
-     
+       
+         <a href="/about.html">About Me</a>
+       
 
-     
-       <a href="/resume.html">Resume</a>
-     
+       
+         <a href="/resume.html">Resume</a>
+       
 
-     
-       <a href="/contact.html" class="active">Contact Me</a>
-     
-   </div>
-    <div class="dropdown" id="navbarmobile">
-      <div class="btncontainer">
-      <button onclick="myFunction()" class="dropbtn" style="font-size: 22px">≡</button>
-    </div>
-        <div id="myDropdown" class="dropdown-content">
-           
-             <a href="http://localhost:4000">Home</a>
-           
+       
+         <a href="/contact.html" class="active">Contact Me</a>
+       
+     </div>
+      <div class="dropdown" id="navbarmobile">
+        <div class="btncontainer">
+        <button onclick="myFunction()" class="dropbtn" style="font-size: 22px">≡</button>
+      </div>
+          <div id="myDropdown" class="dropdown-content">
+             
+               <a href="http://localhost:4000">Home</a>
+             
 
-           
-             <a href="/about.html">About Me</a>
-           
+             
+               <a href="/about.html">About Me</a>
+             
 
-           
-             <a href="/resume.html">Resume</a>
-           
+             
+               <a href="/resume.html">Resume</a>
+             
 
-           
-             <a href="/contact.html" class="active">Contact Me</a>
-           
+             
+               <a href="/contact.html" class="active">Contact Me</a>
+             
+           </div>
          </div>
        </div>
-     </div>
+  </div>
   </div>
   <script>
     /* When the user clicks on the button,
@@ -302,6 +321,8 @@
     function myload(){
       getinit();
       initNavbar();
+      var x = document.getElementById("cover");
+      x.style.display="none";
     };
 
     function resizeNavbar(){
@@ -501,7 +522,7 @@
 <meta property="og:url" content="http://localhost:4000/contact.html" />
 <meta property="og:site_name" content="hasteinmetz.github.io" />
 <script type="application/ld+json">
-{"@type":"WebPage","url":"http://localhost:4000/contact.html","description":"A page with a form to reach out to me","headline":"Contact Me","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/contact.html","headline":"Contact Me","description":"A page with a form to reach out to me","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
   </head>
@@ -519,12 +540,8 @@
   <div class="email-inner">
   <form action="https://formspree.io/f/xyybzloz" method="POST">
     <label>
-      Your email:<br />
+      Your email address:<br />
       <input type="text" name="_replyto" />
-    </label><br /><br />
-    <label>
-      Subject:<br />
-      <input type="text" />
     </label><br /><br />
     <label>
       Your message:<br />
@@ -546,4 +563,5 @@
 </div>
 
   </body>
+  </div>
 </html>
