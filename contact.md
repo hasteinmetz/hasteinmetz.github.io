@@ -18,7 +18,7 @@ tag: navbar mail
   <div class="email-inner">
   <form action="https://formspree.io/f/xyybzloz" method="POST">
     <label>
-      Your email:<br>
+      Your email address:<br>
       <input type="text" name="_replyto">
     </label><br><br>
     <label>
