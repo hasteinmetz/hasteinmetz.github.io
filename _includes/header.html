@@ -12,12 +12,14 @@
     }
     .topnav {
       overflow: hidden;
+      visibility: hidden;
       background-color: rgba(175, 165, 140, .9);
       border-bottom: 4px rgba(175, 165, 140, .9);
     }
 
     .topnav a {
       float: left;
+      display: inline-block;
       color: #FEFEFE;
       text-align: center;
       padding: 12px 24px;
@@ -26,6 +28,7 @@
       letter-spacing: 2px;
       font-family: "Verdana";
       border-bottom: 4px rgba(175, 165, 140, .9);
+      overflow: hidden;
     }
 
     .topnav a:hover {
@@ -43,12 +46,14 @@
       border-bottom: 4px solid grey;
     }
 
-    div.desktop{
+    .desktop{
+      float: left;
       display: block;
     }
 
     .name{
       float: right;
+      display: block;
       background-color: rgba(120, 61, 80, 0.6);
       color: #FEFEFE;
       overflow: hidden;
@@ -181,12 +186,12 @@
      }
   </style>
   </head>
-  <body>
-  <div class="topnav">
-    <div class="name">
+  <body onload="myload()">
+  <div class="topnav" id="topnav">
+    <div class="name" id="name">
        Hillel Steinmetz
     </div>
-    <div class="desktop">
+    <div class="desktop" id="navbardesktop">
      {% if page.title == 'Home' %}
        <a href="{{ site.url }}" class="active">Home</a>
      {% else %}
@@ -204,8 +209,14 @@
      {% else %}
        <a href="/resume.html">Resume</a>
      {% endif %}
+
+     {% if page.url == "/contact.html" %}
+       <a href="/contact.html" class="active">Contact Me</a>
+     {% else %}
+       <a href="/contact.html">Contact Me</a>
+     {% endif %}
    </div>
-    <div class="dropdown">
+    <div class="dropdown" id="navbarmobile">
       <div class="btncontainer">
       <button onclick="myFunction()" class="dropbtn" style="font-size: 22px">≡</button>
     </div>
@@ -227,6 +238,12 @@
            {% else %}
              <a href="/resume.html">Resume</a>
            {% endif %}
+
+           {% if page.url == "/contact.html" %}
+             <a href="/contact.html" class="active">Contact Me</a>
+           {% else %}
+             <a href="/contact.html">Contact Me</a>
+           {% endif %}
          </div>
        </div>
      </div>
@@ -236,7 +253,7 @@
     toggle between hiding and showing the dropdown content */
     function myFunction() {
       document.getElementById("myDropdown").classList.toggle("show");
-    }
+    };
 
     // Close the dropdown if the user clicks outside of it
     window.onclick = function(event) {
@@ -250,7 +267,87 @@
           }
         }
       }
+    };
+    // from: https://www.tutorialrepublic.com/faq/how-to-capture-browser-window-resize-event-in-javascript.php#:~:text=Answer%3A%20Use%20the%20addEventListener(),the%20browser%20window%20on%20resize.
+    function getWindowSize(){
+    // Get width and height of the window excluding scrollbars
+    var w = document.documentElement.clientWidth;
+    var h = document.documentElement.clientHeight;
+    // Display result inside a div element
+    return([w, h]);
+    };
+
+    // from: https://stackoverflow.com/questions/12066870/how-to-check-if-an-element-is-overlapping-other-elements
+
+    var init1 = 0;
+    var init2 = "nothing";
+
+    function getinit(){
+      var e2 = document.getElementById('navbardesktop');
+      var r2 = e2.getBoundingClientRect();
+      updateinit(r2.right);
+    };
+
+    function updateinit(n){
+      window.init1 = n;
+      if(window.init1==0)
+        {window.init2="mobile";}
+      else{window.init2="desktop";}
     }
+
+    function initNavbar(){
+      var e1 = document.getElementById('name');
+      var r1 = e1.getBoundingClientRect();
+      var e2 = document.getElementById('navbardesktop');
+      var r2 = e2.getBoundingClientRect();
+      if(window.init2=="desktop"){
+        overlap = ((r1.left - 15) < window.init1);
+        if(overlap) {
+          document.getElementById("navbarmobile").style.display="block";
+          document.getElementById("navbardesktop").style.display="none";
+        } else {
+          document.getElementById("navbarmobile").style.display="none";
+          document.getElementById("navbardesktop").style.display="block";
+        }
+      }
+      var x = document.getElementById('topnav');
+      x.style.visibility="visible"
+    };
+
+    function myload(){
+      getinit();
+      initNavbar();
+    };
+
+    function resizeNavbar(){
+      var e1 = document.getElementById('name');
+      var r1 = e1.getBoundingClientRect();
+      var e2 = document.getElementById('navbardesktop');
+      var r2 = e2.getBoundingClientRect();
+      if(r2.right>window.init1) {
+        updateinit(r2.right);
+      }
+      if(window.init2=="desktop"){
+        overlap = ((r1.left - 15) < window.init1);
+        if(overlap) {
+          document.getElementById("navbarmobile").style.display="block";
+          document.getElementById("navbardesktop").style.display="none";
+        } else {
+          document.getElementById("navbarmobile").style.display="none";
+          document.getElementById("navbardesktop").style.display="block";
+        }
+      }
+    };
+
+    function test(){
+      var e1 = document.getElementById('name');
+      var r1 = e1.getBoundingClientRect();
+      right1 = r1.right;
+      alert("right" + right1);
+    };
+
+    window.addEventListener("resize", resizeNavbar);
+
     </script>
   </body>
 </html>

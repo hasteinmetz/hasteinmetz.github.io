@@ -13,12 +13,14 @@
     }
     .topnav {
       overflow: hidden;
+      visibility: hidden;
       background-color: rgba(175, 165, 140, .9);
       border-bottom: 4px rgba(175, 165, 140, .9);
     }
 
     .topnav a {
       float: left;
+      display: inline-block;
       color: #FEFEFE;
       text-align: center;
       padding: 12px 24px;
@@ -27,6 +29,7 @@
       letter-spacing: 2px;
       font-family: "Verdana";
       border-bottom: 4px rgba(175, 165, 140, .9);
+      overflow: hidden;
     }
 
     .topnav a:hover {
@@ -44,12 +47,14 @@
       border-bottom: 4px solid grey;
     }
 
-    div.desktop{
+    .desktop{
+      float: left;
       display: block;
     }
 
     .name{
       float: right;
+      display: block;
       background-color: rgba(120, 61, 80, 0.6);
       color: #FEFEFE;
       overflow: hidden;
@@ -182,12 +187,12 @@
      }
   </style>
   </head>
-  <body>
-  <div class="topnav">
-    <div class="name">
+  <body onload="myload()">
+  <div class="topnav" id="topnav">
+    <div class="name" id="name">
        Hillel Steinmetz
     </div>
-    <div class="desktop">
+    <div class="desktop" id="navbardesktop">
      
        <a href="http://localhost:4000">Home</a>
      
@@ -199,8 +204,12 @@
      
        <a href="/resume.html">Resume</a>
      
+
+     
+       <a href="/contact.html" class="active">Contact Me</a>
+     
    </div>
-    <div class="dropdown">
+    <div class="dropdown" id="navbarmobile">
       <div class="btncontainer">
       <button onclick="myFunction()" class="dropbtn" style="font-size: 22px">≡</button>
     </div>
@@ -216,6 +225,10 @@
            
              <a href="/resume.html">Resume</a>
            
+
+           
+             <a href="/contact.html" class="active">Contact Me</a>
+           
          </div>
        </div>
      </div>
@@ -225,7 +238,7 @@
     toggle between hiding and showing the dropdown content */
     function myFunction() {
       document.getElementById("myDropdown").classList.toggle("show");
-    }
+    };
 
     // Close the dropdown if the user clicks outside of it
     window.onclick = function(event) {
@@ -239,7 +252,87 @@
           }
         }
       }
+    };
+    // from: https://www.tutorialrepublic.com/faq/how-to-capture-browser-window-resize-event-in-javascript.php#:~:text=Answer%3A%20Use%20the%20addEventListener(),the%20browser%20window%20on%20resize.
+    function getWindowSize(){
+    // Get width and height of the window excluding scrollbars
+    var w = document.documentElement.clientWidth;
+    var h = document.documentElement.clientHeight;
+    // Display result inside a div element
+    return([w, h]);
+    };
+
+    // from: https://stackoverflow.com/questions/12066870/how-to-check-if-an-element-is-overlapping-other-elements
+
+    var init1 = 0;
+    var init2 = "nothing";
+
+    function getinit(){
+      var e2 = document.getElementById('navbardesktop');
+      var r2 = e2.getBoundingClientRect();
+      updateinit(r2.right);
+    };
+
+    function updateinit(n){
+      window.init1 = n;
+      if(window.init1==0)
+        {window.init2="mobile";}
+      else{window.init2="desktop";}
     }
+
+    function initNavbar(){
+      var e1 = document.getElementById('name');
+      var r1 = e1.getBoundingClientRect();
+      var e2 = document.getElementById('navbardesktop');
+      var r2 = e2.getBoundingClientRect();
+      if(window.init2=="desktop"){
+        overlap = ((r1.left - 15) < window.init1);
+        if(overlap) {
+          document.getElementById("navbarmobile").style.display="block";
+          document.getElementById("navbardesktop").style.display="none";
+        } else {
+          document.getElementById("navbarmobile").style.display="none";
+          document.getElementById("navbardesktop").style.display="block";
+        }
+      }
+      var x = document.getElementById('topnav');
+      x.style.visibility="visible"
+    };
+
+    function myload(){
+      getinit();
+      initNavbar();
+    };
+
+    function resizeNavbar(){
+      var e1 = document.getElementById('name');
+      var r1 = e1.getBoundingClientRect();
+      var e2 = document.getElementById('navbardesktop');
+      var r2 = e2.getBoundingClientRect();
+      if(r2.right>window.init1) {
+        updateinit(r2.right);
+      }
+      if(window.init2=="desktop"){
+        overlap = ((r1.left - 15) < window.init1);
+        if(overlap) {
+          document.getElementById("navbarmobile").style.display="block";
+          document.getElementById("navbardesktop").style.display="none";
+        } else {
+          document.getElementById("navbarmobile").style.display="none";
+          document.getElementById("navbardesktop").style.display="block";
+        }
+      }
+    };
+
+    function test(){
+      var e1 = document.getElementById('name');
+      var r1 = e1.getBoundingClientRect();
+      right1 = r1.right;
+      alert("right" + right1);
+    };
+
+    window.addEventListener("resize", resizeNavbar);
+
     </script>
   </body>
 </html>
@@ -318,17 +411,46 @@
       justify-content: center;
       display: block;
     }
-    div.email{
+    .email-outer{
+      border-radius: 10px;
+      color: solid black;
+      padding: 20px;
+      margin: auto;
+      width: 55%;
+      height: 55%;
+      background: rgba(175, 165, 140, .4);
+      text-align: center;
+      margin-bottom: 2%;
+    }
+    .email-inner{
+      border-radius: 10px;
       font-family: "Verdana";
       font-size:18px;
-      word-spacing: 2px;
+      word-spacing: 4px;
+      letter-spacing: 2px;
       line-height: 1.5;
-      margin-left: 25%;
-      margin-right: 25%;
-      margin-bottom: 2%;
-      align-items: center;
-      justify-content: center;
-      display: block;
+      margin: auto;
+      width: 90%;
+      height: 90%;
+      padding: 10px;
+      text-align: left;
+    }
+    textarea{width: 100%}
+    .center{
+      text-align: center;
+      margin: auto;
+    }
+    button.submit{
+      width: 90%;
+      background-color: rgba(120, 61, 80, 0.75);
+      color: #FEFEFE;
+      overflow: hidden;
+      padding: 14px 24px;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: 3px;
+      word-spacing: 6px;
+      font-family: "Verdana";
     }
     p.mobile{
       font-family: "Verdana";
@@ -353,6 +475,11 @@
       background-color: black;
       display:none;
     }
+
+    input[type="text"]{
+      font-family: "Verdana"
+    }
+
     @media only screen and (min-width: 200px) and (max-width:700px) {
       p {margin-left: 5%; margin-right: 5%; font-size:16px}
       p.mobile{display: block;}
@@ -360,14 +487,26 @@
       .mobileblock{display: inline-block;}
       div.email{margin-left: 5%; margin-right: 5%; font-size:16px}
       div.pdf{display: none;}
+      .email{width: 85%}
     }
     </style>
-    
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Contact Me | hasteinmetz.github.io</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Contact Me" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="A page with a form to reach out to me" />
+<meta property="og:description" content="A page with a form to reach out to me" />
+<link rel="canonical" href="http://localhost:4000/contact.html" />
+<meta property="og:url" content="http://localhost:4000/contact.html" />
+<meta property="og:site_name" content="hasteinmetz.github.io" />
+<script type="application/ld+json">
+{"@type":"WebPage","url":"http://localhost:4000/contact.html","description":"A page with a form to reach out to me","headline":"Contact Me","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
   </head>
   <body>
-    <h2>Contact Me:Coming soon!</h2>
-<!--
-<h2>Contact Me</h2>
+    <h2>Contact Me</h2>
 <div class="container">
   <div class="block"></div>
   <div class="block"></div>
@@ -376,47 +515,27 @@
   <div class="block"></div>
 </div>
 
-<a id="mail">
-
-<div class="email">
-  <form id="mail" method="post" enctype="text/plain">
-  <script type="text/javascript" language="javascript">
-  <!--
-  // Email obfuscator script 2.1 by Tim Williams, University of Arizona
-  // Random encryption key feature coded by Andrew Moulden
-  // This code is freeware provided these four comment lines remain intact
-  // A wizard to generate this code is at http://www.jottings.com/obfuscator/
-  { coded = "3chch3@dELeK.IhE"
-    key = "oIzNl5M8BAnjFDCxhtkmK4qgOJpsWf9y3Y1EaGUdiR7PQV6cwbu2LTXZeHv0rS"
-    shift=coded.length
-    link=""
-    for (i=0; i<coded.length; i++) {
-      if (key.indexOf(coded.charAt(i))==-1) {
-        ltr = coded.charAt(i)
-        link += (ltr)
-      }
-      else {     
-        ltr = (key.indexOf(coded.charAt(i))-shift+key.length) % key.length
-        link += (key.charAt(ltr))
-      }
-    }
-    var strlink = "mailto:" + link
-  document.getElementById("mail").setAttribute("action",strlink);
-  }
-  //-->
-<p>&lt;!–
-  &lt;/script&gt;</p>
-<noscript>Sorry, you need Javascript on to email me.</noscript>
-<p>Name:<br />
-  <input type="text" name="name" /><br />
-  E-mail:<br />
-  <input type="text" name="mail" /><br />
-  Message:<br />
-  <input type="text" name="comment" size="80" style="line-height:80px; valign:top" /><br /><br />
-  <input type="submit" value="Send" />
-  <input type="reset" value="Reset" />
-  &lt;/form&gt;
-&lt;/div&gt;</p>
+<div class="email-outer">
+  <div class="email-inner">
+  <form action="https://formspree.io/f/xyybzloz" method="POST">
+    <label>
+      Your email:<br />
+      <input type="text" name="_replyto" />
+    </label><br /><br />
+    <label>
+      Subject:<br />
+      <input type="text" />
+    </label><br /><br />
+    <label>
+      Your message:<br />
+      <textarea name="message" rows="8"></textarea>
+    </label><br /><br />
+    <div class="center">
+    <button type="submit" class="submit">Submit</button>
+    </div>
+  </form>
+  </div>
+</div>
 
 <div class="container">
   <div class="block"></div>

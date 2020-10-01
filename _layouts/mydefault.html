@@ -74,17 +74,46 @@
       justify-content: center;
       display: block;
     }
-    div.email{
+    .email-outer{
+      border-radius: 10px;
+      color: solid black;
+      padding: 20px;
+      margin: auto;
+      width: 55%;
+      height: 55%;
+      background: rgba(175, 165, 140, .4);
+      text-align: center;
+      margin-bottom: 2%;
+    }
+    .email-inner{
+      border-radius: 10px;
       font-family: "Verdana";
       font-size:18px;
-      word-spacing: 2px;
+      word-spacing: 4px;
+      letter-spacing: 2px;
       line-height: 1.5;
-      margin-left: 25%;
-      margin-right: 25%;
-      margin-bottom: 2%;
-      align-items: center;
-      justify-content: center;
-      display: block;
+      margin: auto;
+      width: 90%;
+      height: 90%;
+      padding: 10px;
+      text-align: left;
+    }
+    textarea{width: 100%}
+    .center{
+      text-align: center;
+      margin: auto;
+    }
+    button.submit{
+      width: 90%;
+      background-color: rgba(120, 61, 80, 0.75);
+      color: #FEFEFE;
+      overflow: hidden;
+      padding: 14px 24px;
+      text-decoration: none;
+      font-size: 20px;
+      letter-spacing: 3px;
+      word-spacing: 6px;
+      font-family: "Verdana";
     }
     p.mobile{
       font-family: "Verdana";
@@ -109,6 +138,11 @@
       background-color: black;
       display:none;
     }
+
+    input[type="text"]{
+      font-family: "Verdana"
+    }
+
     @media only screen and (min-width: 200px) and (max-width:700px) {
       p {margin-left: 5%; margin-right: 5%; font-size:16px}
       p.mobile{display: block;}
@@ -116,9 +150,10 @@
       .mobileblock{display: inline-block;}
       div.email{margin-left: 5%; margin-right: 5%; font-size:16px}
       div.pdf{display: none;}
+      .email{width: 85%}
     }
     </style>
-    {{ raw }}{{ seo }}
+    {% seo %}
   </head>
   <body>
     {{ content }}
