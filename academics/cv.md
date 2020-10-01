@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: mydefault
 title: CV
 tag: academics
 ---
