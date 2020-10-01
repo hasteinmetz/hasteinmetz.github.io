@@ -22,10 +22,6 @@ tag: navbar mail
       <input type="text" name="_replyto">
     </label><br><br>
     <label>
-      Subject:<br>
-      <input type="text">
-    </label><br><br>
-    <label>
       Your message:<br>
       <textarea name="message" rows="8"></textarea>
     </label><br><br>
