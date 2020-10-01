@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: mydefault
 title: Resume
 tag: navbar
 ---
