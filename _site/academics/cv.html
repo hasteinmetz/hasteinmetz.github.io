@@ -1,11 +1,544 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html>
   <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google-site-verification" content="AWRwPyqaQPcVwUDaChKxc68D2tGveyxKpdiKaj5R7VA" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="/favicon.png">
+    <style>
+    body {
+      margin:0;
+      background-color: #FFFFFF;
+    }
+    .topnav {
+      overflow: hidden;
+      visibility: hidden;
+      background-color: #1C9EFF;
+      border-bottom: 4px rgba(175, 165, 140, .9);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
 
-<!-- Begin Jekyll SEO tag v2.6.1 -->
+    .topnav a {
+      float: left;
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 12px 22px;
+      text-decoration: none;
+      font-size: 22px;
+      letter-spacing: 2px;
+      font-family: "Book Antiqua";
+      border-bottom: 4px rgba(175, 165, 140, .9);
+      overflow: hidden;
+    }
+
+    .topnav a:hover {
+      background-color: #2850CE;
+      color: white;
+      padding: 12px 22px;
+      font-family: "Book Antiqua";
+      border-bottom: 4px solid grey;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    .topnav a.active {
+      background-color: rgba(40, 80, 206, .8);
+      padding: 12px 22px;
+      color: white;
+      border-bottom: 4px solid grey;
+      box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .desktop{
+      float: left;
+      display: block;
+    }
+
+    .name{
+      float: right;
+      display: block;
+      background-color: rgba(120, 61, 80, 0.6);
+      color: #FFFFFF;
+      overflow: hidden;
+      text-align: center;
+      padding: 14px 22px;
+      text-decoration: none;
+      font-size: 22px;
+      letter-spacing: 3px;
+      word-spacing: 6px;
+      font-family: "Book Antiqua";
+      z-index: 1;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    div.btncontainer{
+      text-align: center;
+      justify-content: center;
+      border: none;
+      background-color: transparent;
+    }
+
+    .dropbtn {
+      border: none;
+      background-color: transparent;
+      color: rgba(120, 61, 80, 0.6);
+      padding: 14px 12px;
+      font-size: 22px;
+      font-weight: bolder;
+      letter-spacing: 2px;
+      font-family: "Book Antiqua";
+    }
+
+    .dropbtn:hover, .dropbtn:focus{
+      padding: 14px 12px;
+      border: none;
+      font-weight: bolder;
+      background-color: rgba(125, 70, 90, 0.6);
+      color: #FFFFFF;
+      font-family: "Book Antiqua";
+      box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    div.dropdown {
+      position: absolute;
+      display: none;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: rgba(28, 158, 255, .8);
+      color: #FFFFFF;
+      float: left;
+      text-align: center;
+      text-decoration: none;
+      font-size: 22px;
+      letter-spacing: 2px;
+      padding: 12px 22px;
+      font-family: "Book Antiqua";
+      border-bottom: 4px rgba(175, 165, 140, .9);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      min-width: 160px;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      float: left;
+      color: #FFFFFF;
+      text-align: center;
+      min-width: 160px;
+      text-decoration: none;
+      font-size: 16px;
+      letter-spacing: 2px;
+      font-family: "Book Antiqua";
+      border-bottom: 4px rgba(175, 165, 140, .9);
+      z-index: 1;
+    }
+
+    .dropdown-content a.active {
+      background-color: rgba(40, 80, 206, .8);
+      color: white;
+      border-bottom: 4px solid grey;
+      min-width: 160px;
+      box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown a:hover {
+      background-color: #2850CE;
+      color: white;
+      font-family: "Book Antiqua";
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+    p.center{
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size:18px;
+      word-spacing: 2px;
+      line-height: 1.5;
+      margin: auto;
+    }
+    p {
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size:18px;
+      word-spacing: 2px;
+      line-height: 1.5;
+      margin-left: 20%;
+      margin-right: 20%;
+     }
+
+     .cover {
+       position: absolute;
+       height: 100%;
+       width: 100%;
+       top:0;
+       left: 0;
+       background-color: #FFFFFF;
+       display: block;
+     }
+
+     .show {display: block;}
+
+     @media only screen and (min-width: 200px) and (max-width:700px) {
+       div.dropdown{display: block;}
+       div.desktop{display: none;}
+       .name{padding: 14px 18px;
+             font-size: 22px;
+             letter-spacing: 1px;
+             word-spacing: 2px;}
+       }
+     }
+  </style>
+  </head>
+  <body onload="myload()">
+    <div class="cover" id="cover">
+      <p class="center" style=""></p>
+    </div>
+    <div class="topnav" id="topnav">
+      <div class="name" id="name">
+         Hillel Steinmetz
+      </div>
+      <div class="desktop" id="navbardesktop">
+       
+         <a href="http://localhost:4000">Home</a>
+       
+
+       
+         <a href="/about.html">About Me</a>
+       
+
+       
+         <a href="/resume.html">Resume</a>
+       
+
+       
+         <a href="/contact.html">Contact Me</a>
+       
+     </div>
+      <div class="dropdown" id="navbarmobile">
+        <div class="btncontainer">
+        <button onclick="myFunction()" class="dropbtn" style="font-size: 22px">≡</button>
+      </div>
+          <div id="myDropdown" class="dropdown-content">
+             
+               <a href="http://localhost:4000">Home</a>
+             
+
+             
+               <a href="/about.html">About Me</a>
+             
+
+             
+               <a href="/resume.html">Resume</a>
+             
+
+             
+               <a href="/contact.html">Contact Me</a>
+             
+           </div>
+         </div>
+       </div>
+  </div>
+  </div>
+  <script>
+    /* When the user clicks on the button,
+    toggle between hiding and showing the dropdown content */
+    function myFunction() {
+      document.getElementById("myDropdown").classList.toggle("show");
+    };
+
+    // Close the dropdown if the user clicks outside of it
+    window.onclick = function(event) {
+      if (!event.target.matches('.dropbtn')) {
+        var dropdowns = document.getElementsByClassName("dropdown-content");
+        var i;
+        for (i = 0; i <  dropdowns.length; i++) {
+          var openDropdown = dropdowns[i];
+          if (openDropdown.classList.contains('show')) {
+            openDropdown.classList.remove('show');
+          }
+        }
+      }
+    };
+    // from: https://www.tutorialrepublic.com/faq/how-to-capture-browser-window-resize-event-in-javascript.php#:~:text=Answer%3A%20Use%20the%20addEventListener(),the%20browser%20window%20on%20resize.
+    function getWindowSize(){
+    // Get width and height of the window excluding scrollbars
+    var w = document.documentElement.clientWidth;
+    var h = document.documentElement.clientHeight;
+    // Display result inside a div element
+    return([w, h]);
+    };
+
+    // from: https://stackoverflow.com/questions/12066870/how-to-check-if-an-element-is-overlapping-other-elements
+
+    var init1 = 0;
+    var init2 = "nothing";
+
+    function getinit(){
+      var e2 = document.getElementById('navbardesktop');
+      var r2 = e2.getBoundingClientRect();
+      updateinit(r2.right);
+    };
+
+    function updateinit(n){
+      window.init1 = n;
+      if(window.init1==0)
+        {window.init2="mobile";}
+      else{window.init2="desktop";}
+    }
+
+    function initNavbar(){
+      var e1 = document.getElementById('name');
+      var r1 = e1.getBoundingClientRect();
+      var e2 = document.getElementById('navbardesktop');
+      var r2 = e2.getBoundingClientRect();
+      if(window.init2=="desktop"){
+        overlap = ((r1.left - 15) < window.init1);
+        if(overlap) {
+          document.getElementById("navbarmobile").style.display="block";
+          document.getElementById("navbardesktop").style.display="none";
+        } else {
+          document.getElementById("navbarmobile").style.display="none";
+          document.getElementById("navbardesktop").style.display="block";
+        }
+      }
+      var x = document.getElementById('topnav');
+      x.style.visibility="visible"
+    };
+
+    function myload(){
+      getinit();
+      initNavbar();
+      var x = document.getElementById("cover");
+      x.style.display="none";
+    };
+
+    function resizeNavbar(){
+      var e1 = document.getElementById('name');
+      var r1 = e1.getBoundingClientRect();
+      var e2 = document.getElementById('navbardesktop');
+      var r2 = e2.getBoundingClientRect();
+      if(r2.right>window.init1) {
+        updateinit(r2.right);
+      }
+      if(window.init2=="desktop"){
+        overlap = ((r1.left - 15) < window.init1);
+        if(overlap) {
+          document.getElementById("navbarmobile").style.display="block";
+          document.getElementById("navbardesktop").style.display="none";
+        } else {
+          document.getElementById("navbarmobile").style.display="none";
+          document.getElementById("navbardesktop").style.display="block";
+        }
+      }
+    };
+
+    function test(){
+      var e1 = document.getElementById('name');
+      var r1 = e1.getBoundingClientRect();
+      right1 = r1.right;
+      alert("right" + right1);
+    };
+
+    window.addEventListener("resize", resizeNavbar);
+
+    </script>
+    <noscript><META HTTP-EQUIV="Refresh" CONTENT="0;URL=error.html">
+      Uh oh! Your browser either doesn't support JavaScript or has JavaScript disabled. My site might not be accessible to you.</noscript>
+  </body>
+</html>
+
+<html>
+  <head>
+    <meta name="google-site-verification" content="AWRwPyqaQPcVwUDaChKxc68D2tGveyxKpdiKaj5R7VA" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="favicon.png">
+    <title>CV | Hillel Steinmetz</title>
+    <style>
+    body {
+      background-color: #FFFFFF;
+    }
+
+    h1 {
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size:45px;
+      letter-spacing: 4px;
+      word-spacing: 8px;
+      margin-bottom: 1%;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+    }
+    h2 {
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size:36px;
+      letter-spacing: 3px;
+      word-spacing: 8px;
+      margin-bottom: 2%;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+    }
+    p {
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size:18px;
+      word-spacing: 2px;
+      line-height: 1.5;
+      margin-left: 20%;
+      margin-right: 20%;
+     }
+    img {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .block {
+      display: inline-block;
+      width: 5px;
+      height: 5px;
+      margin-left: 7px;
+      margin-right: 7px;
+      background-color: black;
+    }
+    .container  {
+      text-align: center;
+      margin-bottom: 2%;
+    }
+    div.image{
+      height: 50vh;
+      width: 80vw;
+      margin:auto;
+      align-items: center;
+      justify-content: center;
+      display: block;
+    }
+    div.pdf{
+      display: block;
+    }
+    .email-outer{
+      border-radius: 10px;
+      color: solid black;
+      padding: 18px;
+      margin: auto;
+      width: 55%;
+      height: 55%;
+      border: 2px solid black;
+      text-align: center;
+      margin-bottom: 2%;
+      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+    }
+    .email-inner{
+      border-radius: 10px;
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size:18px;
+      word-spacing: 4px;
+      letter-spacing: 2px;
+      line-height: 1.5;
+      margin: auto;
+      width: 90%;
+      height: 90%;
+      padding: 10px;
+      text-align: left;
+    }
+    textarea{width: 100%}
+    .center{
+      text-align: center;
+      margin: auto;
+    }
+    button.submit{
+      width: 90%;
+      background-color: #2850CE;
+      color: #FEFEFE;
+      overflow: hidden;
+      padding: 14px 24px;
+      text-decoration: none;
+      font-size: 18px;
+      letter-spacing: 3px;
+      word-spacing: 6px;
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    button.submit:hover{
+      background-color: #2850CE;
+      box-shadow: inset 0 12px 24px 0 rgba(0, 0, 0, 0.2);
+    }
+    p.mobile{
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-size:18px;
+      word-spacing: 2px;
+      line-height: 1.5;
+      margin-left: 5%;
+      margin-right: 5%;
+      text-align: center;
+      display: none;
+    }
+    div.resume{
+      font-family: "Book Antiqua";
+      font-size:18px;
+      word-spacing: 2px;
+      margin-right: 12%;
+      margin-left: 12%;
+      margin-bottom: 2%;
+      line-height: 1.5;
+      text-align: left;
+    }
+    p.resume{
+      font-family: "Book Antiqua";
+      font-size:18px;
+      word-spacing: 2px;
+      margin-right: 12%;
+      margin-left: 12%;
+      margin-top: 1px;
+      margin-bottom: 1px;
+      line-height: 2;
+      text-align: left;
+    }
+    h3 {
+      font-family: "Book Antiqua";
+      font-size:24px;
+      word-spacing: 2px;
+      letter-spacing: 4px;
+      text-align: left;
+      margin-bottom: : 2px;
+    }
+    .mobilecont{
+      text-align: center;
+      display:none;
+      margin-bottom: 2%;
+    }
+    .mobileblock {
+      width: 5px;
+      height: 5px;
+      margin-left: 7px;
+      margin-right: 7px;
+      background-color: black;
+      display:none;
+    }
+
+    div.desk{
+      display: inline-block;
+    }
+
+    input[type="text"]{
+      font-family: "B612"
+    }
+
+    @media only screen and (min-width: 200px) and (max-width:700px) {
+      p {margin-left: 5%; margin-right: 5%; font-size:16px}
+      p.mobile{display: block;}
+      .mobilecont{display: block;}
+      .mobileblock{display: inline-block;}
+      div.email{margin-left: 5%; margin-right: 5%; font-size:16px}
+      div.desk{display: block;}
+      div.resume{margin-left: 5%; margin-right: 5%}
+      div.resume{font-size:16px;}
+      div.pdf{display: none;}
+      .email{width: 85%}
+    }
+    </style>
+    <!-- Begin Jekyll SEO tag v2.6.1 -->
 <title>CV | hasteinmetz.github.io</title>
 <meta name="generator" content="Jekyll v3.9.0" />
 <meta property="og:title" content="CV" />
@@ -19,15 +552,9 @@
 {"url":"http://localhost:4000/academics/cv.html","headline":"CV","description":"Personal Website","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=a352333dac1c98dc5680cea6d8a76e97abe3fb64">
   </head>
   <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      
-      <h1><a href="http://localhost:4000/">hasteinmetz.github.io</a></h1>
-      
-
-      <h2>CV</h2>
+    <h2>CV</h2>
 <div class="container">
   <div class="block"></div>
   <div class="block"></div>
@@ -49,11 +576,6 @@ Please click <a href="cv-hsteinmetz.pdf">here</a> to view my resume.
   <div class="block"></div>
 </div>
 
-
-      
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-    
   </body>
+  </div>
 </html>

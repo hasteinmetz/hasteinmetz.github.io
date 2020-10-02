@@ -8,42 +8,45 @@
     <style>
     body {
       margin:0;
-      background-color: #F5E8D8;
+      background-color: #FFFFFF;
     }
     .topnav {
       overflow: hidden;
       visibility: hidden;
-      background-color: rgba(175, 165, 140, .9);
+      background-color: #1C9EFF;
       border-bottom: 4px rgba(175, 165, 140, .9);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .topnav a {
       float: left;
       display: inline-block;
-      color: #FEFEFE;
+      color: white;
       text-align: center;
-      padding: 12px 24px;
+      padding: 12px 22px;
       text-decoration: none;
-      font-size: 20px;
+      font-size: 22px;
       letter-spacing: 2px;
-      font-family: "Verdana";
+      font-family: "Book Antiqua";
       border-bottom: 4px rgba(175, 165, 140, .9);
       overflow: hidden;
     }
 
     .topnav a:hover {
-      background-color: rgba(175, 165, 140, 1);
-      color: maroon;
-      padding: 12px 24px;
-      font-family: "Verdana";
+      background-color: #2850CE;
+      color: white;
+      padding: 12px 22px;
+      font-family: "Book Antiqua";
       border-bottom: 4px solid grey;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     .topnav a.active {
-      background-color: rgba(120, 61, 80, 1);
-      padding: 12px 24px;
+      background-color: rgba(40, 80, 206, .8);
+      padding: 12px 22px;
       color: white;
       border-bottom: 4px solid grey;
+      box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
     .desktop{
@@ -55,16 +58,17 @@
       float: right;
       display: block;
       background-color: rgba(120, 61, 80, 0.6);
-      color: #FEFEFE;
+      color: #FFFFFF;
       overflow: hidden;
       text-align: center;
-      padding: 14px 24px;
+      padding: 14px 22px;
       text-decoration: none;
-      font-size: 20px;
+      font-size: 22px;
       letter-spacing: 3px;
       word-spacing: 6px;
-      font-family: "Verdana";
+      font-family: "Book Antiqua";
       z-index: 1;
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
     div.btncontainer{
@@ -77,21 +81,22 @@
     .dropbtn {
       border: none;
       background-color: transparent;
-      color: maroon;
+      color: rgba(120, 61, 80, 0.6);
       padding: 14px 12px;
-      font-size: 20px;
+      font-size: 22px;
       font-weight: bolder;
       letter-spacing: 2px;
-      font-family: "Verdana";
+      font-family: "Book Antiqua";
     }
 
     .dropbtn:hover, .dropbtn:focus{
-      padding: 12px 12px;
+      padding: 14px 12px;
       border: none;
       font-weight: bolder;
-      background-color: rgba(120, 61, 80, 1);
-      color: #FEFEFE;
-      font-family: "Verdana";
+      background-color: rgba(125, 70, 90, 0.6);
+      color: #FFFFFF;
+      font-family: "Book Antiqua";
+      box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
     div.dropdown {
@@ -102,16 +107,17 @@
     .dropdown-content {
       display: none;
       position: absolute;
-      background-color: rgba(175, 165, 140, .9);
-      color: #FEFEFE;
+      background-color: rgba(28, 158, 255, .8);
+      color: #FFFFFF;
       float: left;
       text-align: center;
       text-decoration: none;
-      font-size: 20px;
+      font-size: 22px;
       letter-spacing: 2px;
-      padding: 12px 24px;
-      font-family: "Verdana";
+      padding: 12px 22px;
+      font-family: "Book Antiqua";
       border-bottom: 4px rgba(175, 165, 140, .9);
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
       min-width: 160px;
       overflow: hidden;
       z-index: 1;
@@ -119,58 +125,41 @@
 
     .dropdown-content a {
       float: left;
-      color: #FEFEFE;
+      color: #FFFFFF;
       text-align: center;
       min-width: 160px;
       text-decoration: none;
       font-size: 16px;
       letter-spacing: 2px;
-      font-family: "Verdana";
+      font-family: "Book Antiqua";
       border-bottom: 4px rgba(175, 165, 140, .9);
       z-index: 1;
     }
 
     .dropdown-content a.active {
-      background-color: rgba(120, 61, 80, 1);
+      background-color: rgba(40, 80, 206, .8);
+      color: white;
       border-bottom: 4px solid grey;
       min-width: 160px;
+      box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
     .dropdown a:hover {
-      background-color: white;
-      color: maroon;
-      font-family: "Verdana";
+      background-color: #2850CE;
+      color: white;
+      font-family: "Book Antiqua";
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
 
-    h1 {
-      font-family: "Verdana";
-      font-size:45px;
-      letter-spacing: 4px;
-      word-spacing: 8px;
-      margin-bottom: 1%;
-      margin-left: 5%;
-      margin-right: 5%;
-      text-align: center;
-    }
-    h2 {
-      font-family: "Verdana";
-      font-size:30px;
-      letter-spacing: 4px;
-      word-spacing: 8px;
-      margin-bottom: 2%;
-      margin-left: 5%;
-      margin-right: 5%;
-      text-align: center;
-    }
     p.center{
-      font-family: "Verdana";
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
       font-size:18px;
       word-spacing: 2px;
       line-height: 1.5;
       margin: auto;
     }
     p {
-      font-family: "Verdana";
+      font-family: "Trebuchet MS", Helvetica, sans-serif;
       font-size:18px;
       word-spacing: 2px;
       line-height: 1.5;
@@ -184,7 +173,7 @@
        width: 100%;
        top:0;
        left: 0;
-       background-color: #F5E8D8;
+       background-color: #FFFFFF;
        display: block;
      }
 
@@ -194,7 +183,7 @@
        div.dropdown{display: block;}
        div.desktop{display: none;}
        .name{padding: 14px 18px;
-             font-size: 20px;
+             font-size: 22px;
              letter-spacing: 1px;
              word-spacing: 2px;}
        }
