@@ -40,6 +40,14 @@
       margin-left: 20%;
       margin-right: 20%;
      }
+     p.main {
+     font-family: "Trebuchet MS", Helvetica, sans-serif;
+     font-size:18px;
+     word-spacing: 2px;
+     line-height: 1.5;
+     margin-left: 5%;
+     margin-right: 5%;
+    }
     img {
       display: block;
       margin-left: auto;
@@ -63,10 +71,14 @@
       margin:auto;
       align-items: center;
       justify-content: center;
-      display: block;
+      display: inline-block;
     }
     div.pdf{
+      text-align: center;
       display: block;
+      margin: auto;
+      height: 80vh;
+      width: 80vw;
     }
     .email-outer{
       border-radius: 10px;
@@ -168,12 +180,32 @@
       display:none;
     }
 
-    div.desk{
-      display: inline-block;
+    * {
+      box-sizing: border-box;
+    }
+
+    /* Create two equal columns that floats next to each other */
+    .column1 {
+      width: 40%;
+      float: left;
+      padding: 20px 10px 20px 7%;
+    }
+
+    .column2 {
+      width: 60%;
+      float: left;
+      padding: 20px 7% 20px 10px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
     }
 
     input[type="text"]{
-      font-family: "B612"
+      font-family: "Trebuchet MS"
     }
 
     @media only screen and (min-width: 200px) and (max-width:700px) {
@@ -182,7 +214,9 @@
       .mobilecont{display: block;}
       .mobileblock{display: inline-block;}
       div.email{margin-left: 5%; margin-right: 5%; font-size:16px}
-      div.desk{display: block;}
+      .column1{width:100%; padding: 2% 5% 2% 5%}
+      .column2{width:100%; padding: 2% 5% 2% 5%}
+      img{max-height: 40vh}
       div.resume{margin-left: 5%; margin-right: 5%}
       div.resume{font-size:16px;}
       div.pdf{display: none;}

@@ -101,17 +101,19 @@
       overflow: hidden;
     }
 
-    .dropbtn:focus{
-      font-weight: bolder;
+    .dropbtnup{
+      float: left;
+      border: none;
+      background-color: transparent;
       color: #FFFFFF;
+      box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      height: 100%;
+      padding: 12px 20px;
+      font-size: 22px;
+      font-weight: bolder;
+      letter-spacing: 2px;
       font-family: "Book Antiqua";
-      box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-      overflow: hidden;
-    }
-
-    .unfocus{
-      color: #4d6093;
-      box-shadow: none;
+      text-shadow: 1px 1px black;
     }
 
     div.dropdown {
@@ -312,12 +314,14 @@
         case "down":
           butn.value="up";
           butn.innerHTML="&#9650;";
-          butn.style.padding="12px 22px";
+          butn.removeAttribute("dropbtn");
+          butn.className="dropbtnup";
           break;
         case "up":
           butn.value="down";
           butn.innerHTML="&#9660;";
-          butn.style.padding="13px 22px";
+          butn.removeAttribute("dropbtnup");
+          butn.className="dropbtn";
           break;
         default:
           butn.value="down";
@@ -336,7 +340,7 @@
 
     // Close the dropdown if the user clicks OUTSIDE of it
     window.onclick = function(event) {
-      if (!event.target.matches('.dropbtn')) {
+      if (!event.target.matches('.dropbtn') && !event.target.matches('.dropbtnup')) {
         var dropdowns = document.getElementsByClassName("dropdown-content");
         var i;
         for (i = 0; i <  dropdowns.length; i++) {
@@ -347,10 +351,6 @@
         }
         if(document.getElementById("realbutton").value=="up"){
           togglevalue();
-        } else {
-          document.getElementById("blur-hack").focus();
-          document.getElementById("realbutton").blur();
-          document.getElementById("but").blur();
         }
       }
     };
