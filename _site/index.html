@@ -311,6 +311,14 @@
       }
     };
 
+    function focustoggle(){
+      if(document.getElementById("realbutton").value=="down"){
+        document.getElementById("blur-hack").focus();
+        document.getElementById("realbutton").blur();
+        document.getElementById("but").blur();
+      }
+    };
+
     // Close the dropdown if the user clicks OUTSIDE of it
     window.onclick = function(event) {
       if (!event.target.matches('.dropbtn')) {
@@ -324,6 +332,7 @@
         }
         if(document.getElementById("realbutton").value=="up"){
           togglevalue();
+        } else {
           document.getElementById("blur-hack").focus();
           document.getElementById("realbutton").blur();
           document.getElementById("but").blur();
