@@ -77,13 +77,16 @@
       justify-content: center;
       border: none;
       background-color: transparent;
+      overflow: hidden;
     }
 
     .dropbtn {
+      float: left;
       border: none;
       background-color: transparent;
       color: rgba(120, 61, 80, 0.6);
-      padding: 14px 12px;
+      height: 100%;
+      padding: 13px 20px;
       font-size: 22px;
       font-weight: bolder;
       letter-spacing: 2px;
@@ -91,17 +94,16 @@
     }
 
     .dropbtn:hover, .dropbtn:focus{
-      padding: 14px 12px;
-      border: none;
       font-weight: bolder;
-      background-color: rgba(125, 70, 90, 0.6);
       color: #FFFFFF;
       font-family: "Book Antiqua";
-      box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+      overflow: hidden;
     }
 
     div.dropdown {
       position: absolute;
+      vertical-align: middle;
       display: none;
     }
 
@@ -178,10 +180,10 @@
        display: block;
      }
 
-     .show {display: block;}
+     .show {display: inline-block;}
 
      @media only screen and (min-width: 200px) and (max-width:700px) {
-       div.dropdown{display: block;}
+       div.dropdown{display: inline-block;}
        div.desktop{display: none;}
        .name{padding: 14px 18px;
              font-size: 22px;
@@ -217,8 +219,8 @@
        
      </div>
       <div class="dropdown" id="navbarmobile">
-        <div class="btncontainer">
-        <button onclick="myFunction()" class="dropbtn" style="font-size: 22px">≡</button>
+        <div class="btncontainer" id='but'>
+        <button onclick="myFunction()" class="dropbtn" id="realbutton" style="font-size: 22px">&#9660;</button>
       </div>
           <div id="myDropdown" class="dropdown-content">
              
@@ -239,8 +241,6 @@
            </div>
          </div>
        </div>
-  </div>
-  </div>
   <script>
     /* When the user clicks on the button,
     toggle between hiding and showing the dropdown content */
@@ -296,15 +296,17 @@
       if(window.init2=="desktop"){
         overlap = ((r1.left - 15) < window.init1);
         if(overlap) {
-          document.getElementById("navbarmobile").style.display="block";
+          document.getElementById("navbarmobile").style.display="inline-block";
           document.getElementById("navbardesktop").style.display="none";
         } else {
           document.getElementById("navbarmobile").style.display="none";
-          document.getElementById("navbardesktop").style.display="block";
+          document.getElementById("navbardesktop").style.display="inline-block";
         }
       }
+      var but = document.getElementById('navbarmobile');
+      but.style.maxHeight = r1.bottom;
       var x = document.getElementById('topnav');
-      x.style.visibility="visible"
+      x.style.visibility="visible";
     };
 
     function myload(){
@@ -325,11 +327,11 @@
       if(window.init2=="desktop"){
         overlap = ((r1.left - 15) < window.init1);
         if(overlap) {
-          document.getElementById("navbarmobile").style.display="block";
+          document.getElementById("navbarmobile").style.display="inline-block";
           document.getElementById("navbardesktop").style.display="none";
         } else {
           document.getElementById("navbarmobile").style.display="none";
-          document.getElementById("navbardesktop").style.display="block";
+          document.getElementById("navbardesktop").style.display="inline-block";
         }
       }
     };
