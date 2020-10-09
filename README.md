@@ -1,4 +1,4 @@
 # hasteinmetz.github.io
 A Personal Website
 
-I made this repository to serve as a website as I move forward in life.
+I made this repository to serve as a personal website while I apply to jobs and graduate schools.
