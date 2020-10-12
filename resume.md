@@ -44,10 +44,10 @@ administrative and academic developments, student life, and crime<br>
 • Computer: SPSS, Excel, PowerPoint, Word, Qualtrics, LaTeX, R, Python (basic), C (basic)</p>
 </div>
 </div>
-<div class="container">
-  <div class="block"></div>
-  <div class="block"></div>
-  <div class="block"></div>
-  <div class="block"></div>
-  <div class="block"></div>
+<div class="mobilecont">
+  <div class="mobileblock"></div>
+  <div class="mobileblock"></div>
+  <div class="mobileblock"></div>
+  <div class="mobileblock"></div>
+  <div class="mobileblock"></div>
 </div>
