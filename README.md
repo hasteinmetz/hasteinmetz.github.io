@@ -1,6 +1,6 @@
 # hasteinmetz.github.io
 
-This repository serves as a personal website: **[hasteinmetz.github.io](https://hasteinmetz.github.io)**.
+This repository serves as a personal website for Hillel Steinmetz: **[hasteinmetz.github.io](https://hasteinmetz.github.io)**.
 
 Please feel free to make use of the HTML template I made (with a huge help from W3 Schools).
 
