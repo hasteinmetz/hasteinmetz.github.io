@@ -256,7 +256,6 @@ DEPENDENCIES
   github-pages
   jekyll
   jekyll-seo-tag
-  jekyll-sitemap
   kramdown-parser-gfm (~> 1.1)
 
 BUNDLED WITH

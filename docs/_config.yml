@@ -1,3 +1,4 @@
+url: "https://hasteinmetz.github.io"
 lsi: false
 safe: true
 source: .
@@ -11,3 +12,4 @@ kramdown:
   syntax_highlighter: rouge
 plugins:
   - jekyll-seo-tag
+  - jekyll-sitemap
