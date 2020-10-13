@@ -1,4 +1,3 @@
-url: "https://hasteinmetz.github.io"
 lsi: false
 safe: true
 source: .
@@ -10,6 +9,7 @@ gist:
 kramdown:
   math_engine: mathjax
   syntax_highlighter: rouge
+url: "https://hasteinmetz.github.io"
 plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
