@@ -6,14 +6,6 @@ tag: navbar mail
 ---
 
 <h2>{{page.title}}</h2>
-<div class="container">
-  <div class="block"></div>
-  <div class="block"></div>
-  <div class="block"></div>
-  <div class="block"></div>
-  <div class="block"></div>
-</div>
-
 <div class="email-outer">
   <div class="email-inner">
   <form action="https://formspree.io/f/xyybzloz" method="POST">
@@ -30,12 +22,4 @@ tag: navbar mail
     </div>
   </form>
   </div>
-</div>
-
-<div class="container">
-  <div class="block"></div>
-  <div class="block"></div>
-  <div class="block"></div>
-  <div class="block"></div>
-  <div class="block"></div>
 </div>
