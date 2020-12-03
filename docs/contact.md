@@ -1,7 +1,7 @@
 ---
 layout: mydefault
-title: Contact Me
-description: A page with a form to reach out to me
+title: "Contact Me | Hillel Steinmetz"
+description: "A page with a form to reach out to me"
 tag: navbar mail
 ---
 
