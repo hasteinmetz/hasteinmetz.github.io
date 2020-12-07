@@ -5,7 +5,7 @@ description: "A page with a form to reach out to me"
 tag: navbar mail
 ---
 
-<h2>{{page.title}}</h2>
+<h2>Contact Me</h2>
 <div class="email-outer">
   <div class="email-inner">
   <form action="https://formspree.io/f/xyybzloz" method="POST">
