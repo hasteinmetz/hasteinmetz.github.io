@@ -1,0 +1,103 @@
+---
+layout: mydefault
+title: "Language Quiz"
+---
+<html lang="en-US">
+<head>
+  <script>
+    var questions = JSON.parse("cia_json_data.txt")
+
+    function randomq(){
+      const keys = questions.keys(name)
+      var ran_key = keys[Math.floor(Math.random() * keys.length)]
+      return(questions[ran_key])
+    }
+
+    function randomans(array){
+      const keys = questions.keys(name)
+      var ran_key = keys[Math.floor(Math.random() * keys.length)]
+      var tmp = questions[ran_key]
+      if(array.includes(tmp)){
+        return randomans(array)
+      }
+      else {
+        return tmp
+      }
+    }
+
+    var questiontypes = ["where", "what"]
+
+    var difficulty = ["easy", "medium", "hard"]
+
+    var where = [
+      {
+        name: "where",
+        question: "What language is spoken in",
+        answers: {
+          a: "",
+          b: "",
+          c: "",
+          d: ""
+        },
+        correct: "",
+      }
+    ]
+    var what = [
+      {
+        name: "what",
+        question: "is spoke in:",
+        answers: {
+          a: "",
+          b: "",
+          c: "",
+          d: ""
+        },
+        correct: ""
+      }
+    ]
+
+    var lives = 3
+
+    var score = 0
+
+    function getquestion(){
+      var array = []
+      ques = randomq()
+      array.push(ques)
+      answers = ["a", "b", "c", "d"]
+      for i in answers{
+        tmp = randomans(array)
+        answers[i] = tmp
+        array.push(tmp)
+      }
+      return([ques, answers])
+    }
+
+    function replacetext(question){
+      if(typeof question == "object" && typeof question!== null){
+        if(question.name=="what"){
+          q = getquestion()
+          country = q[1][]
+        }
+        if(question.name=="where"){
+
+        }
+      }
+    }
+  </script>
+</head>
+
+<div class="center">
+<input type="radio" id="q.a" value="1">
+<label for="q.a"></label><br>
+<input type="radio" id="q.b" value="1">
+<label for="q.b"></label><br>
+<input type="radio" id="q.c" value="1">
+<label for="q.c"></label><br>
+<input type="radio" id="q.d" value="1">
+<label for="q.d"></label><br>
+<p class="center" id='question'>
+</p>
+<button type="submit" class="submit">>></button>
+</div>
+</html>
