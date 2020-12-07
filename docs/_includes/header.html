@@ -212,7 +212,7 @@
          Hillel Steinmetz
       </div>
       <div class="desktop" id="navbardesktop">
-       {% if page.url == "/index.html" %}
+       {% if page.title == 'Hillel Steinmetz' %}
          <a href="{{ site.url }}" class="active">Home</a>
        {% else %}
          <a href="{{ site.url }}">Home</a>
@@ -241,7 +241,7 @@
         <button onclick="myFunction()" class="dropbtn" id="realbutton" value="down" style="font-size: 22px">&#9660;</button>
       </div>
           <div id="myDropdown" class="dropdown-content">
-             {% if page.url == "/index.html" %}
+             {% if page.title == 'Hillel Steinmetz' %}
                <a href="{{ site.url }}" class="active">Home</a>
              {% else %}
                <a href="{{ site.url }}">Home</a>
