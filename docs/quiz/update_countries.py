@@ -16,8 +16,12 @@ cdata=json.loads(ccountries)
 del cdata["countries"]["world"]
 # add to dictionary when it is people
 newdict = {}
+counts = {}
 for countries in cdata["countries"]:
-    print(cdata["countries"][countries]["data"]["people"])
+    if "people" in cdata["countries"][countries]["data"]:
+        if "languages" in cdata["countries"][countries]["data"]["people"]:
+            newdict.update({countries:"name", countries:cdata["countries"][countries]["data"]["people"]["languages"]})
+            counts.update({countries:"nameofcountry"})
 
 with open("country_json_data.txt",'w') as outf:
     json.dump(rdata, outf)
@@ -25,12 +29,14 @@ with open("country_json_data.txt",'w') as outf:
 with open("cia_json_data.txt",'w') as outf:
     json.dump(cdata, outf)
 
-with open("README.txt",'r') as inf:
-    with open("README.txt",'w') as outf:
-        for line in inf:
-            if "Last updated" in line:
-                outf.write(line)
-                outf.write("\t" + today)
-                break
-            else:
-                outf.write(line)
+with open("pre_languages.txt",'w') as outfile:
+    json.dump(newdict, outfile)
+
+with open("countries.json",'w') as outfile:
+    json.dump(counts, outfile)
+
+with open("languages.js",'w') as outfile:
+    with open("pre_languages.txt",'r') as infile:
+        outfile.write("var languages = ")
+        for line in infile:
+            outfile.write(line)

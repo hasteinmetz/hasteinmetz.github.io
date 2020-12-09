@@ -1,33 +1,66 @@
----
-layout: mydefault
-title: "Language Quiz"
----
+
 <html lang="en-US">
 <head>
+  <pre id="test1"></pre>
+  <pre id="test2"></pre>
+  <pre id="test3"></pre>
+  <pre id="test4"></pre>
+  <script src="languages.js"></script>
   <script>
-    var questions = JSON.parse("cia_json_data.txt")
+
+    document.getElementById("test1").textContent = JSON.stringify(randomq());
+    var testarry = [];
+    document.getElementById("test2").textContent = String(randomans(testarry));
+    document.getElementById("test3").textContent = String(getquestion());
+    document.getElementById("test4").textContent = String(randompos(["1","2","3","4","5"],[1,2,3,4,5]));
+
+    function randomno(n){
+      var num = Math.floor(Math.random() * n);
+      return num;
+    }
+
+    function removeelem(arr, e){
+      for(i= 0; i < arr.length; i++){
+        if (arr[i] === e) {
+            var arr1 = arr.slice(0,i);
+            var arr2 = arr.slice(i+1,arr.length);
+            return(arr1.concat(arr2));
+        }
+      }
+    return(arr);
+  }
 
     function randomq(){
-      const keys = questions.keys(name)
-      var ran_key = keys[Math.floor(Math.random() * keys.length)]
-      return(questions[ran_key])
-    }
+      const keys = Object.keys(languages);
+      var ran_key = keys[randomno(keys.length)];
+      var countrieslanguages = []
+      for(i=0; i<languages[ran_key]["language"].length;i++){
+        var tmp = languages[ran_key]["language"][i]["name"]
+        if (tmp != "unspecified"){
+          countrieslanguages.push(languages[ran_key]["language"][i]["name"]);
+        }
+      }
+      return([ran_key, countrieslanguages]);
+    };
 
     function randomans(array){
-      const keys = questions.keys(name)
-      var ran_key = keys[Math.floor(Math.random() * keys.length)]
-      var tmp = questions[ran_key]
+      var ran_key = randomno(listoflanguages.length);
+      var tmp = listoflanguages[ran_key];
       if(array.includes(tmp)){
-        return randomans(array)
+        return randomans(array);
       }
       else {
-        return tmp
-      }
-    }
+        return tmp;
+      };
+    };
 
-    var questiontypes = ["where", "what"]
+    function randomqtype(){
+      var ran_key = randomno(2);
+      var questiontypes = ["where", "what"]
+      return(questiontypes[ran_key]);
+    };
 
-    var difficulty = ["easy", "medium", "hard"]
+    var difficulty = ["easy", "medium", "hard"];
 
     var where = [
       {
@@ -41,7 +74,7 @@ title: "Language Quiz"
         },
         correct: "",
       }
-    ]
+    ];
     var what = [
       {
         name: "what",
@@ -54,40 +87,69 @@ title: "Language Quiz"
         },
         correct: ""
       }
-    ]
+    ];
 
-    var lives = 3
+    var lives = 3;
 
-    var score = 0
+    var score = 0;
+
+    function randompos(init, ref){
+      if(ref.length>0){
+        position = randomno(ref.length);
+        pos = init[position];
+        newref = removeelem(ref, ref[position]);
+        newinit = removeelem(init, pos);
+        array1 = [pos];
+        if(ref.length===1) {
+          return(array1)
+        } else {
+          return (array1.concat(randompos(newinit, newref)));
+        }
+      }
+    }
 
     function getquestion(){
       var array = []
-      ques = randomq()
-      array.push(ques)
-      answers = ["a", "b", "c", "d"]
-      for i in answers{
-        tmp = randomans(array)
-        answers[i] = tmp
-        array.push(tmp)
+      var ques = randomq()
+      array.push(String(ques[1][0]))
+      for(i=0; i < 4; i++){
+        tmp = randomans(array);
+        array.push(tmp);
       }
-      return([ques, answers])
-    }
+      return([ques[0], array]);
+    };
 
-    function replacetext(question){
-      if(typeof question == "object" && typeof question!== null){
-        if(question.name=="what"){
-          q = getquestion()
-          country = q[1][]
-        }
-        if(question.name=="where"){
-
-        }
+    function replacetext(){
+      var q = getquestion();
+      var country = q[0];
+      var correct = q[1][0]
+      var answers = randompos(q[1], [1, 2, 3, 4, 5], q[1].length)
+      qtype = randomqtype();
+      if(qtype=="what"){
+        document.getElementById("question").innerHTML = "What language is spoken in " + country + "?"
+        document.getElementById("q.a").nextSibling.textContent = answers[0]
+        document.getElementById("q.b").nextSibling.textContent = answers[1]
+        document.getElementById("q.c").nextSibling.textContent = answers[2]
+        document.getElementById("q.d").nextSibling.textContent = answers[3]
+        document.getElementById("q.e").nextSibling.textContent = answers[4]
       }
-    }
+      if(qtype=="where"){
+        document.getElementById("question").innerHTML = "(TBD) Where is " + country + " spoken?"
+        document.getElementById("q.a").nextSibling.textContent = answers[0]
+        document.getElementById("q.b").nextSibling.textContent = answers[1]
+        document.getElementById("q.c").nextSibling.textContent = answers[2]
+        document.getElementById("q.d").nextSibling.textContent = answers[3]
+        document.getElementById("q.e").nextSibling.textContent = answers[4]
+      }
+    };
+
   </script>
 </head>
-
-<div class="center">
+<body onload="replacetext()">
+<div class="center" on>
+  <p id="demo"></p>
+<p class="center" id='question'>
+  </p>
 <input type="radio" id="q.a" value="1">
 <label for="q.a"></label><br>
 <input type="radio" id="q.b" value="1">
@@ -96,8 +158,9 @@ title: "Language Quiz"
 <label for="q.c"></label><br>
 <input type="radio" id="q.d" value="1">
 <label for="q.d"></label><br>
-<p class="center" id='question'>
-</p>
+<input type="radio" id="q.e" value="1">
+<label for="q.e"></label><br>
 <button type="submit" class="submit">>></button>
 </div>
+</body>
 </html>
