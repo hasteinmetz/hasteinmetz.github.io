@@ -21,8 +21,10 @@ for line in infile:
             if "Native" in row.text:
                 if "Native speakers" in row.text:
                     # find not in brackets later
+                    # find a way to add stuff
                     speakers = row.text[15:len(row.text)]
                 else:
+                    # make this an array...
                     places = row.text[9:len(row.text)]
         languagedict.update({title : {"speakers": speakers, "places":places}})
     lcount += 1
