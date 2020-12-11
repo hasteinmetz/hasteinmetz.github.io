@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 import requests
 from bs4 import BeautifulSoup
 import json
@@ -12,7 +14,7 @@ for line in infile:
     wikipage = wikipage[0:len(wikipage)-1]
     wpage = requests.get(url=wikipage)
     wiki = BeautifulSoup(wpage.content, "html.parser")
-    title = wiki.find(id='firstHeading')
+    title = str(wiki.find(id='firstHeading').text.encode("UTF-8"))
     table = wiki.find("table", {"class":"infobox vevent"})
     if not(table is None):
         for row in table.find_all("tr"):
@@ -29,5 +31,8 @@ for line in infile:
         mark += 100
 
 with open("wikipedia_languages.json",'w') as outfile:
-    json.dump(languagedict, outfile)
+    json.dump(languagedict, outfile, indent=4)
+with open("wikipedia_languages.txt",'w') as outfile:
+    for key in languagedict:
+        outfile.write("{"+ "\"" + key + "\":" + str(languagedict[key]))
 print("all done!")
