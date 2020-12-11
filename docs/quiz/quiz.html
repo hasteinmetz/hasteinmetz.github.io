@@ -12,7 +12,7 @@ description: "The gist: a curious linguist and data journalist. Check out this p
   <pre id="test4"></pre>
   <script src="languages.js"></script>
   <script>
-
+    // testing functions
     document.getElementById("test1").textContent = JSON.stringify(randomq());
     var testarry = [];
     document.getElementById("test2").textContent = String(randomans(testarry));
@@ -146,8 +146,12 @@ description: "The gist: a curious linguist and data journalist. Check out this p
         document.getElementById("q.d").nextSibling.textContent = answers[3]
         document.getElementById("q.e").nextSibling.textContent = answers[4]
       }
+      return(correct)
     };
-
+    // need interactive elements (click, check correct, etc.)
+    // need difficulty formula
+    // need score formula
+    // make functions idiot proof to demonstrate good coding
   </script>
 </head>
 <body onload="replacetext()">
