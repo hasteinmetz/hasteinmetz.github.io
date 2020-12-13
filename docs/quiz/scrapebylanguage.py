@@ -15,6 +15,8 @@ for line in infile:
     # initiliaze to ensure it doesn't carry over
     speakers = "NA"
     places = "NA"
+    languagefam = "NA"
+    difficulty = "NA"
     wikipage = "https://en.wikipedia.org" + line
     wikipage = wikipage[0:len(wikipage)-1]
     wpage = requests.get(url=wikipage)
@@ -31,9 +33,33 @@ for line in infile:
                     # find not in brackets later
                     # find a way to add stuff
                     speakers = row.text[15:len(row.text)].encode("UTF-8")
+                    if speakers.find("(") == -1:
+                        continue
+                    if speakers is None:
+                        continue
+                    try:
+                        newspeakers = speakers.split(" ")[0]
+                        diff = newspeakers.replace(",", "")
+                        number = float(diff)
+                    except:
+                        number = -1
+                    if "million" in speakers:
+                        if number > 0 and number < 999:
+                            if number >= 1 and number < 10:
+                                difficulty = "hard"
+                            if number >= 10 and number < 100:
+                                difficulty = "medium"
+                            if number >= 100 and number < 999:
+                                difficulty = "easy"
+                    else:
+                        if number > 0 and number < 999999:
+                            if number >= 100000 and number < 999999:
+                                difficulty = "very hard"
+                            if number >= 10000 and number < 99999:
+                                difficulty = "super hard"
+                            if number >= 1 and number < 10000:
+                                difficulty = "whizkid"
                 else:
-                    # make this an array...
-                    # figure out a way to find countries and move through
                     countryarray = []
                     geo = row.text[9:len(row.text)].encode("UTF-8").lower()
                     for pays in countries:
@@ -62,7 +88,11 @@ for line in infile:
                                 if "\n" in newthing:
                                     newthing = newthing[1:len(newthing)]
                                 famarray.append(newthing)
-        languagedict.update({title : {"speakers": speakers, "places":places, "family":languagefam}})
+            if isinstance(places, list):
+                for pl in places:
+                    if title[0:4] in pl:
+                        difficulty = "name"
+        languagedict.update({title : {"speakers": speakers, "places":places, "family":languagefam, "difficulty":difficulty}})
     lcount += 1
     if lcount > mark:
         print(mark, "done")
