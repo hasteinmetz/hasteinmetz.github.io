@@ -9,17 +9,18 @@ infile = open("languagelinks.txt", "r")
 cfile = open("countries.txt", "r")
 countries = cfile.read().split(",")
 lcount = 0
+retries = 10
 mark = 100
 languagedict = {}
-for line in infile:
+failures = []
+
+def scrape(wikipg):
     # initiliaze to ensure it doesn't carry over
     speakers = "NA"
     places = "NA"
     languagefam = "NA"
     difficulty = "NA"
-    wikipage = "https://en.wikipedia.org" + line
-    wikipage = wikipage[0:len(wikipage)-1]
-    wpage = requests.get(url=wikipage)
+    wpage = requests.get(url=wikipg)
     wiki = BeautifulSoup(wpage.content, "html.parser")
     title = wiki.find(id='firstHeading').text.encode("UTF-8")
     table = wiki.find("table", {"class":"infobox vevent"})
@@ -88,15 +89,41 @@ for line in infile:
                                 if "\n" in newthing:
                                     newthing = newthing[1:len(newthing)]
                                 famarray.append(newthing)
+                    languagefam = languagefam + famarray
             if isinstance(places, list):
                 for pl in places:
                     if title[0:4] in pl:
                         difficulty = "name"
         languagedict.update({title : {"speakers": speakers, "places":places, "family":languagefam, "difficulty":difficulty}})
+
+for line in infile:
+    wikipage = "https://en.wikipedia.org" + line
+    wikipage = wikipage[0:len(wikipage)-1]
+    try:
+        scrape(wikipage)
+    except:
+        if retries > 0:
+            failures.append(wikipage)
+            retries -= 1
+        else:
+            break
+            print("TOO MANY RETRIES: ENDED SCRIPT")
     lcount += 1
     if lcount > mark:
         print(mark, "done")
         mark += 100
+
+for fail in failures:
+    try:
+        scrape(wikipage)
+    except:
+        if retries > 0:
+            failures.append(wikipage)
+            retries -= 1
+        else:
+            break
+            print("TOO MANY RETRIES: ENDED SCRIPT")
+            quit()
 
 with open("wikipedia_dump.json",'w') as outfile:
     json.dump(languagedict, outfile, indent=4)
@@ -104,3 +131,4 @@ with open("wikipedia_languages.txt",'w') as outfile:
     for key in languagedict:
         outfile.write("{"+ "\"" + key + "\":" + str(languagedict[key]))
 print("all done!")
+quit()
