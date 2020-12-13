@@ -132,12 +132,19 @@ def main():
         lcount += 1
         if lcount > mark and mark < 800:
             try:
-                avg = round(sum(timearray)/len(timearray), 2)
+                if mark < 200:
+                    avg = 0.5
+                else:
+                    avg = round(sum(timearray)/len(timearray), 2)
                 total = avg*800
                 eta = round((total - (time.time() - starttime))/60,2)
                 print("~" + str(mark/8) + "% complete" + " | Average request time: " + str(avg) + "s | (Bad) estimate of time left: " + str(eta) + "min.")
                 sys.stdout.flush()
             except:
+                if mark < 200:
+                    avg = 0.5
+                else:
+                    avg = round(sum(timearray)/len(timearray), 2)
                 avg = round(sum(timearray)/len(timearray), 2)
                 total = avg*800
                 eta = round((total - (time.time() - starttime))/60,2)
@@ -150,8 +157,9 @@ def main():
     with open("wikipedia_languages.txt",'w') as outfile:
         for key in languagedict:
             outfile.write("{"+ "\"" + key + "\":" + str(languagedict[key]))
-    print("all done! program may take a moment to finish")
+    print("All done! The program may take a moment to finish")
 
+starttime = time.time()
 main()
 print("Time:" + str(time.time() - starttime))
 exit()
