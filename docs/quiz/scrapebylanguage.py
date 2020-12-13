@@ -1,20 +1,9 @@
-# -*- coding: utf-8 -*-
-
 import requests
 from bs4 import BeautifulSoup
 import json
 import math
 
-infile = open("languagelinks.txt", "r")
-cfile = open("countries.txt", "r")
-countries = cfile.read().split(",")
-lcount = 0
-retries = 10
-mark = 100
-languagedict = {}
-failures = []
-
-def scrape(wikipg):
+def scrape(wikipg, countries, dict):
     # initiliaze to ensure it doesn't carry over
     speakers = "NA"
     places = "NA"
@@ -24,6 +13,7 @@ def scrape(wikipg):
     wiki = BeautifulSoup(wpage.content, "html.parser")
     title = wiki.find(id='firstHeading').text.encode("UTF-8")
     table = wiki.find("table", {"class":"infobox vevent"})
+    wiki = None # to save memory
     if not(table is None):
         for row in table.find_all("tr"):
             if "region" in row.text:
@@ -90,45 +80,63 @@ def scrape(wikipg):
                                     newthing = newthing[1:len(newthing)]
                                 famarray.append(newthing)
                     languagefam = languagefam + famarray
+
             if isinstance(places, list):
                 for pl in places:
                     if title[0:4] in pl:
                         difficulty = "name"
-        languagedict.update({title : {"speakers": speakers, "places":places, "family":languagefam, "difficulty":difficulty}})
+        dict.update({title : {"speakers": speakers, "places":places, "family":languagefam, "difficulty":difficulty}})
 
-for line in infile:
-    wikipage = "https://en.wikipedia.org" + line
-    wikipage = wikipage[0:len(wikipage)-1]
-    try:
-        scrape(wikipage)
-    except:
-        if retries > 0:
-            failures.append(wikipage)
-            retries -= 1
-        else:
-            break
-            print("TOO MANY RETRIES: ENDED SCRIPT")
-    lcount += 1
-    if lcount > mark:
-        print(mark, "done")
-        mark += 100
+def retryfail(failarr, retries, countries, dict):
+    for fail in failarr:
+        try:
+            scrape(fail, countries, dict)
+        except:
+            if retries > 0:
+                failures.append(fail)
+                retries -= 1
+            else:
+                break
+                print("TOO MANY RETRIES: ENDING SCRIPT. GOODBYE.")
+                exit()
 
-for fail in failures:
-    try:
-        scrape(wikipage)
-    except:
-        if retries > 0:
-            failures.append(wikipage)
-            retries -= 1
-        else:
-            break
-            print("TOO MANY RETRIES: ENDED SCRIPT")
-            quit()
+def main():
+    infile = open("languagelinks.txt", "r")
+    cfile = open("countries.txt", "r")
+    countries = cfile.read().split(",")
+    lcount = 0
+    retries = 10
+    mark = 25
+    languagedict = {}
+    failures = []
+    for line in infile:
+        wikipage = "https://en.wikipedia.org" + line
+        wikipage = wikipage[0:len(wikipage)-1]
+        try:
+            scrape(wikipage, countries, languagedict)
+        except:
+            if retries > 0:
+                print("Failure:" + wikipage + " retries left: " + str(retries))
+                failures.append(wikipage)
+                retries -= 1
+            else:
+                print("TOO MANY RETRIES: ENDED SCRIPT")
+                exit()
+        lcount += 1
+        if lcount > mark and mark < 800:
+            try:
+                print("~" + str(mark/8) + "% complete", flush=True)
+            except:
+                print("~" + str(mark/8) + "% complete", flush=True)
+            mark += 25
+    if failures:
+        retryfail(failures, retries, countries, languagedict)
+    with open("wikipedia_dump.json",'w') as outfile:
+        json.dump(languagedict, outfile, indent=4)
+    with open("wikipedia_languages.txt",'w') as outfile:
+        for key in languagedict:
+            outfile.write("{"+ "\"" + key + "\":" + str(languagedict[key]))
+    print("all done!")
+    exit()
 
-with open("wikipedia_dump.json",'w') as outfile:
-    json.dump(languagedict, outfile, indent=4)
-with open("wikipedia_languages.txt",'w') as outfile:
-    for key in languagedict:
-        outfile.write("{"+ "\"" + key + "\":" + str(languagedict[key]))
-print("all done!")
-quit()
+main()
