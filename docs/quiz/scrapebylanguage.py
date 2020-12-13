@@ -2,6 +2,7 @@ import requests
 from bs4 import BeautifulSoup
 import json
 import math
+import sys
 
 def scrape(wikipg, countries, dict):
     # initiliaze to ensure it doesn't carry over
@@ -120,14 +121,15 @@ def main():
                 failures.append(wikipage)
                 retries -= 1
             else:
-                print("TOO MANY RETRIES: ENDED SCRIPT")
+                print("TOO MANY RETRIES: ENDING SCRIPT. \n Check your internet connection, or try again later.")
                 exit()
         lcount += 1
         if lcount > mark and mark < 800:
             try:
-                print("~" + str(mark/8) + "% complete", flush=True)
+                print("~" + str(mark/8) + "% complete")
+                sys.stdout.flush()
             except:
-                print("~" + str(mark/8) + "% complete", flush=True)
+                print("~" + str(mark/8) + "% complete")
             mark += 25
     if failures:
         retryfail(failures, retries, countries, languagedict)
