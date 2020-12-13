@@ -17,13 +17,8 @@ def scrape(wikipg, countries, dict):
     wiki = None # to save memory
     if not(table is None):
         for row in table.find_all("tr"):
-            if "region" in row.text:
-                if places == "NA":
-                    places = row.text[9:len(row.text)].encode("UTF-8")
             if "Native" in row.text:
                 if "Native speakers" in row.text:
-                    # find not in brackets later
-                    # find a way to add stuff
                     speakers = row.text[15:len(row.text)].encode("UTF-8")
                     if speakers.find("(") == -1:
                         continue
@@ -53,12 +48,18 @@ def scrape(wikipg, countries, dict):
                                 difficulty = "whizkid"
                 else:
                     countryarray = []
-                    geo = row.text[9:len(row.text)].encode("UTF-8").lower()
+                    geo = row.text[9:len(row.text)].encode("UTF-8").lower().replace(", ",",")
+                    geolist = geo.split(",")
                     for pays in countries:
-                        if pays in geo:
-                            countryarray.append(pays)
-                    places = countryarray
+                        for plcs in geolist:
+                            if pays==geo:
+                                countryarray.append(pays)
+                    if countryarray:
+                        places = countryarray
             if "Official" in row.text and "language" in row.text:
+                if places == "NA":
+                    places = row.text[9:len(row.text)].encode("UTF-8")
+            if "region" in row.text:
                 if places == "NA":
                     places = row.text[9:len(row.text)].encode("UTF-8")
             if "Language family" in row.text:
@@ -122,7 +123,7 @@ def main():
                 retries -= 1
             else:
                 print("TOO MANY RETRIES: ENDING SCRIPT. \n Check your internet connection, or try again later.")
-                exit()
+                sys.exit()
         lcount += 1
         if lcount > mark and mark < 800:
             try:
@@ -138,7 +139,7 @@ def main():
     with open("wikipedia_languages.txt",'w') as outfile:
         for key in languagedict:
             outfile.write("{"+ "\"" + key + "\":" + str(languagedict[key]))
-    print("all done!")
-    exit()
+    print("all done! program may take a moment to finish")
 
 main()
+exit()
