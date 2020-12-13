@@ -9,7 +9,9 @@
             "Kuvi\u2013Kui", 
             "Kui"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Kashubian language": {
         "difficulty": "NA", 
@@ -26,7 +28,9 @@
             "?", 
             "Kashubian"
         ], 
-        "places": []
+        "places": [
+            "poland"
+        ]
     }, 
     "Veps language": {
         "difficulty": "NA", 
@@ -37,7 +41,9 @@
             "Northern Finnic", 
             "Veps"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Nihali language": {
         "difficulty": "NA", 
@@ -58,7 +64,9 @@
             "Southern", 
             "Toba Batak"
         ], 
-        "places": []
+        "places": [
+            "indonesia"
+        ]
     }, 
     "German language": {
         "difficulty": "medium", 
@@ -70,7 +78,7 @@
             "High German", 
             "German"
         ], 
-        "places": []
+        "places": "language\u00a0in\n6 countries\n\u00a0Austria\n\u00a0Belgium\n\u00a0Germany\n\u00a0Liechtenstein\n\u00a0Luxembourg\n\u00a0\u00a0Switzerland\n\n\n\n3 dependencies\n\u00a0South Tyrol (Italy)\n                   31 gminas in Poland (Opole Voivodeship and Silesia Voivodeship)\n 13 municipalities in Brazil\n                 \n\nSeveral international institutions"
     }, 
     "Chenchu language": {
         "difficulty": "NA", 
@@ -83,7 +91,9 @@
             "Telugu", 
             "Chenchu"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Sicilian language": {
         "difficulty": "hard", 
@@ -95,7 +105,9 @@
             "Italo-Dalmatian", 
             "Sicilian"
         ], 
-        "places": []
+        "places": [
+            "italy"
+        ]
     }, 
     "Khasi language": {
         "difficulty": "NA", 
@@ -107,7 +119,7 @@
             "Khasi-Pnar-Lyngngam", 
             "Khasi"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Chuj language": {
         "difficulty": "NA", 
@@ -118,7 +130,7 @@
             "Chujean", 
             "Chuj"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Upper Sorbian language": {
         "difficulty": "NA", 
@@ -131,7 +143,9 @@
             "Sorbian", 
             "Upper Sorbian"
         ], 
-        "places": []
+        "places": [
+            "germany"
+        ]
     }, 
     "Choctaw language": {
         "difficulty": "NA", 
@@ -141,7 +155,7 @@
             "Western", 
             "Choctaw"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0United States\u00a0 \u2003 \u00a0\u00a0Oklahoma (Choctaw Nation only)"
     }, 
     "Karachay-Balkar": {
         "difficulty": "NA", 
@@ -156,7 +170,9 @@
             "]", 
             "Karachay-Balkar"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Tojolab\u02bcal language": {
         "difficulty": "NA", 
@@ -167,7 +183,9 @@
             "Chujean", 
             "Tojolabal"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Chipaya language": {
         "difficulty": "NA", 
@@ -176,7 +194,9 @@
             "Uru\u2013Chipaya", 
             "Chipaya"
         ], 
-        "places": []
+        "places": [
+            "bolivia"
+        ]
     }, 
     "Chechen language": {
         "difficulty": "NA", 
@@ -187,7 +207,7 @@
             "Vainakh", 
             "Chechen"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Russia\n\u00a0Chechnya\n\u00a0Dagestan\n"
     }, 
     "Gilbertese language": {
         "difficulty": "NA", 
@@ -200,7 +220,9 @@
             "Micronesian Proper", 
             "Gilbertese"
         ], 
-        "places": []
+        "places": [
+            "kiribati"
+        ]
     }, 
     "Brahui language": {
         "difficulty": "hard", 
@@ -222,7 +244,7 @@
             "Northern Athabaskan", 
             "Gwich\u02bcin"
         ], 
-        "places": []
+        "places": "language\u00a0inCanada (Northwest Territories)[2][3]United States(Alaska)[4]"
     }, 
     "Isan language": {
         "difficulty": "NA", 
@@ -235,7 +257,9 @@
             "Lao", 
             "Isan"
         ], 
-        "places": []
+        "places": [
+            "thailand"
+        ]
     }, 
     "Sango language": {
         "difficulty": "NA", 
@@ -247,7 +271,7 @@
             "creole", 
             "Sango"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Central African Republic"
     }, 
     "Luvale language": {
         "difficulty": "NA", 
@@ -267,7 +291,7 @@
             " (K.10)", 
             "Luvale"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Ruthenian language": {
         "difficulty": "NA", 
@@ -279,7 +303,7 @@
             "East Slavic", 
             "Ruthenian"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Bunjevac dialect": {
         "difficulty": "NA", 
@@ -295,7 +319,7 @@
             "Bosnian\u2013Dalmatian (Western Ikavian)", 
             "Bunjevac"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Bhili language": {
         "difficulty": "NA", 
@@ -309,7 +333,9 @@
             "Central", 
             "Bhili"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Dutch language": {
         "difficulty": "medium", 
@@ -324,7 +350,7 @@
             ")", 
             "Dutch"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Belgium\u00a0Netherlands\u00a0Suriname\n\nDependent entities\n\u00a0Aruba\n\u00a0Cura\u00e7ao\n\u00a0Sint Maarten\n\n\n\nOrganisations\n\u00a0Benelux\n\u00a0European Union\nSouth American Union\n Caribbean Community\n\n"
     }, 
     "Bambara language": {
         "difficulty": "hard", 
@@ -338,7 +364,9 @@
             "Bambara\u2013Dyula", 
             "Bambara"
         ], 
-        "places": []
+        "places": [
+            "mali"
+        ]
     }, 
     "Faroese language": {
         "difficulty": "NA", 
@@ -351,7 +379,7 @@
             "Insular Scandinavian", 
             "Faroese"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Faroe Islands"
     }, 
     "Norwegian language": {
         "difficulty": "hard", 
@@ -366,7 +394,9 @@
             ")", 
             "Norwegian"
         ], 
-        "places": []
+        "places": [
+            "norway"
+        ]
     }, 
     "Filipino language": {
         "difficulty": "medium", 
@@ -379,7 +409,9 @@
             "Tagalog", 
             "Filipino"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Turkmen language": {
         "difficulty": "hard", 
@@ -391,7 +423,7 @@
             "Eastern Oghuz", 
             "Turkmen"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Turkmenistan"
     }, 
     "H\u00e4n language": {
         "difficulty": "NA", 
@@ -403,7 +435,7 @@
             "Northern Athabaskan", 
             "H\u00e4n"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Alaska[2]"
     }, 
     "Tahitian language": {
         "difficulty": "super hard", 
@@ -417,7 +449,7 @@
             "Tahitic", 
             "Tahitian"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Gujarati language": {
         "difficulty": "medium", 
@@ -431,7 +463,9 @@
             "Gujarati languages", 
             "Gujarati"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Boro language (India)": {
         "difficulty": "hard", 
@@ -443,7 +477,7 @@
             "Boroic", 
             "Boro"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0India\nBodoland (Assam)\n"
     }, 
     "Bats language": {
         "difficulty": "NA", 
@@ -453,7 +487,9 @@
             "Nakh", 
             "Bats"
         ], 
-        "places": []
+        "places": [
+            "georgia"
+        ]
     }, 
     "Nahuatl": {
         "difficulty": "NA", 
@@ -463,7 +499,9 @@
             "Nahuan", 
             "Nahuatl"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Luri language": {
         "difficulty": "NA", 
@@ -476,7 +514,7 @@
             "Southwestern", 
             "Luri"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "\u01c3Kung languages": {
         "difficulty": "super hard", 
@@ -485,7 +523,7 @@
             "Kx\u02bca", 
             "\u01c3Kung"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Ta\u00edno language": {
         "difficulty": "NA", 
@@ -496,7 +534,7 @@
             "Ta-Arawakan", 
             "Ta\u00edno"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Ket language": {
         "difficulty": "NA", 
@@ -507,7 +545,9 @@
             "Northern Yeniseian", 
             "Ket"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Ossetian language": {
         "difficulty": "NA", 
@@ -522,7 +562,7 @@
             "[2]", 
             "Ossetian"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Russia\n\u00a0North Ossetia-Alania\n\u00a0Georgia[citation needed]\n\n Provisional Administrative Entity of South Ossetia\n\u00a0South Ossetia"
     }, 
     "Abaza language": {
         "difficulty": "NA", 
@@ -532,7 +572,7 @@
             "Abazgi", 
             "Abaza"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Russia\u00a0Karachay-Cherkessia"
     }, 
     "Nepali language": {
         "difficulty": "medium", 
@@ -545,7 +585,7 @@
             "Eastern Pahari", 
             "Nepali"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0\u00a0\u00a0Nepal\u00a0India\nSikkim\nWest Bengal (GTA)(additional)\n"
     }, 
     "Ga language": {
         "difficulty": "whizkid", 
@@ -566,7 +606,7 @@
             "Tanoan", 
             "Jemez"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Nganasan language": {
         "difficulty": "NA", 
@@ -576,7 +616,9 @@
             "Samoyedic", 
             "Nganasan"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Bezhta language": {
         "difficulty": "NA", 
@@ -587,7 +629,9 @@
             "Bezhta\u2013Hunzib\u2013Khwarshi", 
             "Bezhta"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "If\u00e8 language": {
         "difficulty": "NA", 
@@ -603,7 +647,7 @@
             "Ede", 
             "If\u00e8"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Shilha language": {
         "difficulty": "NA", 
@@ -615,7 +659,9 @@
             "Atlas", 
             "Shilha"
         ], 
-        "places": []
+        "places": [
+            "morocco"
+        ]
     }, 
     "Cornish language": {
         "difficulty": "NA", 
@@ -628,7 +674,7 @@
             "Southwestern", 
             "Cornish"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Cebuano language": {
         "difficulty": "NA", 
@@ -642,7 +688,9 @@
             "Visayan", 
             "Cebuano"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Southern Ndebele language": {
         "difficulty": "NA", 
@@ -660,7 +708,7 @@
             "Zunda", 
             "Southern Ndebele"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0South Africa"
     }, 
     "Ayoreo language": {
         "difficulty": "NA", 
@@ -669,7 +717,7 @@
             "Zamucoan", 
             "Ayoreo"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Chocho language": {
         "difficulty": "NA", 
@@ -680,7 +728,9 @@
             "Chocho\u2013Popoloca", 
             "Chocho"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Turoyo language": {
         "difficulty": "NA", 
@@ -695,7 +745,7 @@
             "Central Neo-Aramaic", 
             "Turoyo"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Lao language": {
         "difficulty": "NA", 
@@ -708,7 +758,7 @@
             "Lao\u2013Phutai", 
             "Lao"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Laos\n\n ASEAN[2]"
     }, 
     "Irula language": {
         "difficulty": "NA", 
@@ -721,7 +771,9 @@
             "Tamil\u2013Malayalam", 
             "Irula"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Istro-Romanian language": {
         "difficulty": "NA", 
@@ -735,7 +787,9 @@
             "Balkan Romance", 
             "Istro-Romanian"
         ], 
-        "places": []
+        "places": [
+            "croatia"
+        ]
     }, 
     "Koyra Chiini language": {
         "difficulty": "NA", 
@@ -746,7 +800,9 @@
             "Southern", 
             "Koyra Chiini"
         ], 
-        "places": []
+        "places": [
+            "mali"
+        ]
     }, 
     "Tzeltal language": {
         "difficulty": "NA", 
@@ -757,7 +813,9 @@
             "Tzeltalan", 
             "Tzeltal"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Tacana language": {
         "difficulty": "NA", 
@@ -769,7 +827,9 @@
             "Tacana Proper", 
             "Tacana"
         ], 
-        "places": []
+        "places": [
+            "bolivia"
+        ]
     }, 
     "Mirandese language": {
         "difficulty": "NA", 
@@ -784,7 +844,9 @@
             "Astur-Leonese", 
             "Mirandese"
         ], 
-        "places": []
+        "places": [
+            "portugal"
+        ]
     }, 
     "Wagiman language": {
         "difficulty": "NA", 
@@ -802,7 +864,7 @@
             "Circassian", 
             "Kabardian"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Russia\n\u00a0Kabardino-Balkaria\n\u00a0Karachay-Cherkessia\n"
     }, 
     "Meru language": {
         "difficulty": "hard", 
@@ -819,7 +881,9 @@
             "Kikuyu\u2013Kamba", 
             "Meru"
         ], 
-        "places": []
+        "places": [
+            "kenya"
+        ]
     }, 
     "Tonga language (Zambia and Zimbabwe)": {
         "difficulty": "hard", 
@@ -833,7 +897,7 @@
             "Botatwe", 
             "Tonga"
         ], 
-        "places": []
+        "places": "language\u00a0inZimbabwe"
     }, 
     "Yazghulami language": {
         "difficulty": "NA", 
@@ -846,7 +910,9 @@
             "Shugni\u2013Yazgulami", 
             "Yazgulyam"
         ], 
-        "places": []
+        "places": [
+            "tajikistan"
+        ]
     }, 
     "Dzongkha": {
         "difficulty": "NA", 
@@ -860,7 +926,9 @@
             "Dzongkha\u2013Lhok\u00e4", 
             "Dzongkha"
         ], 
-        "places": []
+        "places": [
+            "bhutan"
+        ]
     }, 
     "Karay-a language": {
         "difficulty": "NA", 
@@ -874,7 +942,9 @@
             "Western Bisayan", 
             "Karay-a"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Tigre language": {
         "difficulty": "NA", 
@@ -888,7 +958,9 @@
             "Ge\u02bdez", 
             "Tigre"
         ], 
-        "places": []
+        "places": [
+            "eritrea"
+        ]
     }, 
     "Ch\u02bcol language": {
         "difficulty": "NA", 
@@ -900,7 +972,9 @@
             "Chol\u2013Chontal", 
             "Ch\u02bcol"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Mongolian language": {
         "difficulty": "hard", 
@@ -909,7 +983,7 @@
             "Mongolic", 
             "Mongolian"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Mongolia\n\u00a0China\n\nInner Mongolia[2]\nXinjiang\nBortala Mongol Autonomous Prefecture\nBayingolin Mongol Autonomous Prefecture\nHoboksar Mongol Autonomous County\nQinghai\nHaixi Mongol and Tibetan Autonomous Prefecture\n"
     }, 
     "Maore dialect": {
         "difficulty": "NA", 
@@ -925,7 +999,7 @@
             "Comorian", 
             "Maore"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Northern Ndebele language": {
         "difficulty": "hard", 
@@ -958,7 +1032,9 @@
             "Northern Chamic", 
             "Tsat"
         ], 
-        "places": []
+        "places": [
+            "china"
+        ]
     }, 
     "Swahili language": {
         "difficulty": "NA", 
@@ -976,7 +1052,7 @@
             "Sabaki", 
             "Swahili"
         ], 
-        "places": []
+        "places": "language\u00a0in\n5 countries\n Kenya\n Rwanda\n South Sudan\n Tanzania\n Uganda\n\n\n\nOrganizations\n African Union\n East African Community\n Southern African Development Community\n\n"
     }, 
     "Shan language": {
         "difficulty": "hard", 
@@ -988,7 +1064,7 @@
             "Northwestern", 
             "Tai Yai"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Aymara language": {
         "difficulty": "NA", 
@@ -997,7 +1073,7 @@
             "Aymaran", 
             "Aymara"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Bolivia\u00a0Peru[a]"
     }, 
     "Sidamo language": {
         "difficulty": "hard", 
@@ -1008,7 +1084,9 @@
             "Highland East", 
             "Sidama Afoo"
         ], 
-        "places": []
+        "places": [
+            "ethiopia"
+        ]
     }, 
     "Riffian language": {
         "difficulty": "NA", 
@@ -1020,7 +1098,7 @@
             "Zenati", 
             "Riffian"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Extremaduran language": {
         "difficulty": "NA", 
@@ -1035,7 +1113,9 @@
             "Asturleonese", 
             "Extremaduran"
         ], 
-        "places": []
+        "places": [
+            "spain"
+        ]
     }, 
     "Korwa language": {
         "difficulty": "NA", 
@@ -1048,7 +1128,9 @@
             "Mundaric", 
             "Korwa"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Shona language": {
         "difficulty": "hard", 
@@ -1065,7 +1147,7 @@
             " (S.10)", 
             "Shona"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Zimbabwe"
     }, 
     "Inuktitut": {
         "difficulty": "NA", 
@@ -1076,7 +1158,7 @@
             "Inuit", 
             "Inuktitut"
         ], 
-        "places": []
+        "places": "language\u00a0inNunavutNorthwest Territories"
     }, 
     "Cree language": {
         "difficulty": "super hard", 
@@ -1086,7 +1168,7 @@
             "Algonquian", 
             "Cree"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Northwest Territories[2]"
     }, 
     "Fon language": {
         "difficulty": "hard", 
@@ -1099,7 +1181,7 @@
             "Gbe", 
             "Fon"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Benin"
     }, 
     "Comanche language": {
         "difficulty": "NA", 
@@ -1110,7 +1192,7 @@
             "Central Numic", 
             "Comanche"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Arabic": {
         "difficulty": "easy", 
@@ -1123,7 +1205,7 @@
             "North Arabian", 
             "Arabic"
         ], 
-        "places": []
+        "places": "language\u00a0inModern Standard Arabic is an official language of 26 states and 1 disputed territory, the third most after English and French[2]\nList\n\u00a0Algeria\u00a0Bahrain\u00a0Comoros\u00a0Chad\u00a0Djibouti\u00a0Egypt\u00a0Iraq\u00a0Jordan\u00a0Kuwait\u00a0Lebanon\u00a0Libya\u00a0Mauritania\u00a0Morocco\u00a0Oman\u00a0Palestine\u00a0Qatar\u00a0Saudi Arabia\u00a0Somalia\u00a0Sudan\u00a0Syria\u00a0Tunisia\u00a0United Arab Emirates\u00a0Yemen\u00a0Zanzibar(\u00a0Tanzania) \u00a0Western Sahara(disputed territory)OrganizationsAfrican UnionArab LeagueOrganisation of Islamic CooperationUnited Nations\n"
     }, 
     "Svan language": {
         "difficulty": "NA", 
@@ -1132,7 +1214,9 @@
             "Kartvelian", 
             "Svan"
         ], 
-        "places": []
+        "places": [
+            "georgia"
+        ]
     }, 
     "Sandawe language": {
         "difficulty": "NA", 
@@ -1140,7 +1224,9 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": [
+            "tanzania"
+        ]
     }, 
     "Mi\ua78ckmaq language": {
         "difficulty": "whizkid", 
@@ -1151,7 +1237,7 @@
             "Eastern Algonquian", 
             "Mi\ua78ckmaq"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Dungan language": {
         "difficulty": "NA", 
@@ -1162,7 +1248,7 @@
             "Mandarin", 
             "Dungan"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Mopan language": {
         "difficulty": "NA", 
@@ -1173,7 +1259,7 @@
             "Mopan\u2013Itza", 
             "Mopan"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Gangte language": {
         "difficulty": "NA", 
@@ -1196,7 +1282,7 @@
             "Dardic", 
             "Kashmiri"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0India\nJammu and Kashmir[4][5]\n"
     }, 
     "Maltese language": {
         "difficulty": "NA", 
@@ -1213,7 +1299,9 @@
             "Siculo-Arabic", 
             "Maltese"
         ], 
-        "places": []
+        "places": [
+            "malta"
+        ]
     }, 
     "Bonan language": {
         "difficulty": "NA", 
@@ -1223,7 +1311,9 @@
             "Shirongolic", 
             "Bonan"
         ], 
-        "places": []
+        "places": [
+            "china"
+        ]
     }, 
     "Dena\u02bcina language": {
         "difficulty": "NA", 
@@ -1235,7 +1325,7 @@
             "Northern Athabaskan", 
             "Dena\u02bcina"
         ], 
-        "places": []
+        "places": "ska (Cook Inlet region, Lake Clark, Lake Iliamna)"
     }, 
     "Yanyuwa language": {
         "difficulty": "NA", 
@@ -1245,7 +1335,9 @@
             "Ngarna", 
             "Yanyuwa"
         ], 
-        "places": []
+        "places": [
+            "australia"
+        ]
     }, 
     "Cherokee language": {
         "difficulty": "whizkid", 
@@ -1255,7 +1347,7 @@
             "Southern Iroquoian", 
             "Cherokee"
         ], 
-        "places": []
+        "places": "language\u00a0inEastern Band of Cherokee Indians in North CarolinaCherokee Nation[6][7][8][9]  of Oklahoma"
     }, 
     "Abenaki language": {
         "difficulty": "whizkid", 
@@ -1266,7 +1358,7 @@
             "Eastern Algonquian", 
             "Abenaki"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Hindustani language": {
         "difficulty": "NA", 
@@ -1279,7 +1371,7 @@
             "Western Hindi", 
             "Hindustani"
         ], 
-        "places": []
+        "places": "language\u00a0in\n\u00a0India (as Hindi, Urdu)\n\u00a0Pakistan  (as Urdu)\n"
     }, 
     "P\u00e1ez language": {
         "difficulty": "NA", 
@@ -1288,7 +1380,9 @@
             "Paezan", 
             "P\u00e1ez"
         ], 
-        "places": []
+        "places": [
+            "colombia"
+        ]
     }, 
     "Sawai language": {
         "difficulty": "NA", 
@@ -1304,7 +1398,9 @@
             "Buli", 
             "Sawai"
         ], 
-        "places": []
+        "places": [
+            "indonesia"
+        ]
     }, 
     "Ligbi language": {
         "difficulty": "NA", 
@@ -1319,7 +1415,9 @@
             "Jogo", 
             "Ligbi"
         ], 
-        "places": []
+        "places": [
+            "ghana"
+        ]
     }, 
     "Bulgarian language": {
         "difficulty": "NA", 
@@ -1332,7 +1430,7 @@
             "Eastern", 
             "Bulgarian"
         ], 
-        "places": []
+        "places": "language\u00a0inBulgaria, European Union"
     }, 
     "Lak language": {
         "difficulty": "NA", 
@@ -1341,7 +1439,9 @@
             "Northeast Caucasian", 
             "Lak"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Khitan language": {
         "difficulty": "NA", 
@@ -1350,7 +1450,7 @@
             "Para-Mongolic", 
             "Khitan"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Xipaya language": {
         "difficulty": "NA", 
@@ -1371,7 +1471,9 @@
             "Northern", 
             "Korandje"
         ], 
-        "places": []
+        "places": [
+            "algeria"
+        ]
     }, 
     "Santali language": {
         "difficulty": "hard", 
@@ -1384,7 +1486,7 @@
             "Santhalic", 
             "Santali"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0India\nJharkhand (additional)\nWest Bengal (additional)\n"
     }, 
     "Klallam language": {
         "difficulty": "NA", 
@@ -1396,7 +1498,7 @@
             "Straits Salish", 
             "Klallam"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Niellim language": {
         "difficulty": "NA", 
@@ -1408,7 +1510,7 @@
             "Bua", 
             "Niellim"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Hiri Motu": {
         "difficulty": "NA", 
@@ -1435,7 +1537,9 @@
             "Northwest Sumatra\u2013Barrier Islands", 
             "Gayo"
         ], 
-        "places": []
+        "places": [
+            "indonesia"
+        ]
     }, 
     "Argobba language": {
         "difficulty": "NA", 
@@ -1450,7 +1554,9 @@
             "Amharic\u2013Argobba", 
             "Argobba"
         ], 
-        "places": []
+        "places": [
+            "ethiopia"
+        ]
     }, 
     "Kalanga language": {
         "difficulty": "NA", 
@@ -1464,7 +1570,7 @@
             "Shona group (S.10)", 
             "Kalanga"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Zimbabwe (both Kalanga and Nambya)"
     }, 
     "Nyangumarta language": {
         "difficulty": "NA", 
@@ -1474,7 +1580,9 @@
             "Marrngu", 
             "Nyangumarta"
         ], 
-        "places": []
+        "places": [
+            "australia"
+        ]
     }, 
     "Mansi language": {
         "difficulty": "NA", 
@@ -1485,7 +1593,9 @@
             "? (traditional grouping)", 
             "Mansi"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "English language": {
         "difficulty": "NA", 
@@ -1508,7 +1618,7 @@
             "Aymaran", 
             "Jaqaru"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Wallisian language": {
         "difficulty": "NA", 
@@ -1521,7 +1631,7 @@
             "Nuclear Polynesian", 
             "Wallisian"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Norfuk language": {
         "difficulty": "NA", 
@@ -1542,7 +1652,7 @@
             "Western Saharan", 
             "Kanuri"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Malvi language": {
         "difficulty": "hard", 
@@ -1555,7 +1665,9 @@
             "Rajasthani", 
             "Malvi"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Khwe language": {
         "difficulty": "NA", 
@@ -1566,7 +1678,7 @@
             "Northwest", 
             "Khwe"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Marquesan language": {
         "difficulty": "NA", 
@@ -1580,7 +1692,7 @@
             "Marquesic", 
             "Marquesan"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Bukusu dialect": {
         "difficulty": "hard", 
@@ -1600,7 +1712,9 @@
             "[2]", 
             "Bukusu"
         ], 
-        "places": []
+        "places": [
+            "kenya"
+        ]
     }, 
     "Alsatian dialect": {
         "difficulty": "NA", 
@@ -1617,7 +1731,9 @@
             "Upper Rhenish", 
             "Alsatian"
         ], 
-        "places": []
+        "places": [
+            "france"
+        ]
     }, 
     "Pirah\u00e3 language": {
         "difficulty": "NA", 
@@ -1626,7 +1742,9 @@
             "Mura", 
             "Pirah\u00e3"
         ], 
-        "places": []
+        "places": [
+            "brazil"
+        ]
     }, 
     "Arvanitika": {
         "difficulty": "NA", 
@@ -1637,7 +1755,9 @@
             "Tosk", 
             "Arvanitika"
         ], 
-        "places": []
+        "places": [
+            "greece"
+        ]
     }, 
     "Kabyle language": {
         "difficulty": "NA", 
@@ -1648,7 +1768,9 @@
             "Northern Berber", 
             "Kabyle"
         ], 
-        "places": []
+        "places": [
+            "algeria"
+        ]
     }, 
     "Boholano dialect": {
         "difficulty": "NA", 
@@ -1676,7 +1798,7 @@
             "Nuer-Atwot", 
             "Nuer"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Occitan language": {
         "difficulty": "NA", 
@@ -1690,7 +1812,7 @@
             "Occitano-Romance", 
             "Occitan"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Catalonia (\u00a0Spain)"
     }, 
     "Seto dialect": {
         "difficulty": "NA", 
@@ -1703,7 +1825,9 @@
             "?", 
             "Seto"
         ], 
-        "places": []
+        "places": [
+            "estonia"
+        ]
     }, 
     "Evenki language": {
         "difficulty": "NA", 
@@ -1714,7 +1838,7 @@
             "Evenki group", 
             "Evenki"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "North Straits Salish language": {
         "difficulty": "NA", 
@@ -1765,7 +1889,7 @@
             "Tongic", 
             "Tongan"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Tonga"
     }, 
     "Rotuman language": {
         "difficulty": "NA", 
@@ -1779,7 +1903,9 @@
             "West Fijian \u2013 Rotuman", 
             "Rotuman"
         ], 
-        "places": []
+        "places": [
+            "fiji"
+        ]
     }, 
     "Cuyonon language": {
         "difficulty": "NA", 
@@ -1794,7 +1920,9 @@
             "Kuyan", 
             "Cuyonon"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Unserdeutsch": {
         "difficulty": "NA", 
@@ -1802,7 +1930,7 @@
         "family": [
             "German-based creole"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Malagasy language": {
         "difficulty": "medium", 
@@ -1814,7 +1942,7 @@
             "East Barito", 
             "Malagasy"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Madagascar"
     }, 
     "Uzbek language": {
         "difficulty": "medium", 
@@ -1826,7 +1954,7 @@
             "[2]", 
             "Uzbek"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Uzbekistan"
     }, 
     "Batak Karo language": {
         "difficulty": "NA", 
@@ -1839,7 +1967,9 @@
             "Northern", 
             "Karo"
         ], 
-        "places": []
+        "places": [
+            "indonesia"
+        ]
     }, 
     "Hani language": {
         "difficulty": "NA", 
@@ -1855,7 +1985,7 @@
             "Hanoid", 
             "Hani"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "'Auhelawa language": {
         "difficulty": "NA", 
@@ -1870,7 +2000,7 @@
             "Suauic", 
             "\u2019Auhelawa"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Vafsi dialect": {
         "difficulty": "NA", 
@@ -1884,7 +2014,9 @@
             "Tati", 
             "Vafsi"
         ], 
-        "places": []
+        "places": [
+            "iran"
+        ]
     }, 
     "Futuna-Aniwa language": {
         "difficulty": "NA", 
@@ -1908,7 +2040,7 @@
             "Alabama\u2013Koasati", 
             "Koasati"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Sanskrit": {
         "difficulty": "NA", 
@@ -1931,7 +2063,7 @@
             "Koch", 
             "Atong"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Okinawan language": {
         "difficulty": "NA", 
@@ -1942,7 +2074,9 @@
             "Northern Ryukyuan", 
             "Okinawan"
         ], 
-        "places": []
+        "places": [
+            "japan"
+        ]
     }, 
     "Mam language": {
         "difficulty": "NA", 
@@ -1954,7 +2088,7 @@
             "Mamean", 
             "Mam"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Javanese language": {
         "difficulty": "medium", 
@@ -1964,7 +2098,7 @@
             "Malayo-Polynesian", 
             "Javanese"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Skolt Sami": {
         "difficulty": "NA", 
@@ -1976,7 +2110,7 @@
             "Mainland", 
             "Skolt Sami"
         ], 
-        "places": []
+        "places": "i is 6 on this regional map of Sami languages."
     }, 
     "Palula language": {
         "difficulty": "NA", 
@@ -2000,7 +2134,9 @@
             " (Lir)", 
             "Chuvash"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Mnong language": {
         "difficulty": "NA", 
@@ -2012,7 +2148,7 @@
             "Sre\u2013Mnong", 
             "Mnong"
         ], 
-        "places": []
+        "places": "oughout T\u00e2y Nguy\u00ean region, especially in \u0110\u1eafk L\u1eafk, L\u00e2m \u0110\u1ed3ng, \u0110\u1eafk N\u00f4ng and B\u00ecnh Ph\u01b0\u1edbc provinces; Mondulkiri in Cambodia"
     }, 
     "Parya language": {
         "difficulty": "whizkid", 
@@ -2024,7 +2160,7 @@
             "Central Zone", 
             "Parya"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Sara Bakati' language": {
         "difficulty": "NA", 
@@ -2036,7 +2172,9 @@
             "Bekati\u2019", 
             "Sara"
         ], 
-        "places": []
+        "places": [
+            "indonesia"
+        ]
     }, 
     "Northern Sotho language": {
         "difficulty": "hard", 
@@ -2053,7 +2191,7 @@
             "Sotho\u2013Tswana", 
             "Northern Sotho"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0South Africa"
     }, 
     "Altai language": {
         "difficulty": "NA", 
@@ -2064,7 +2202,9 @@
             "Siberian Turkic", 
             "Altai"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Tabasaran language": {
         "difficulty": "NA", 
@@ -2077,7 +2217,9 @@
             "Lezgi\u2013Aghul\u2013Tabasaran", 
             "Tabasaran"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Zapotec languages": {
         "difficulty": "NA", 
@@ -2087,7 +2229,9 @@
             "Zapotecan", 
             "Zapotec"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Mehri language": {
         "difficulty": "NA", 
@@ -2100,7 +2244,7 @@
             "Mehri\u2013Soqotri", 
             "Mehri"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Ingrian language": {
         "difficulty": "whizkid", 
@@ -2111,7 +2255,9 @@
             "Northern Finnic", 
             "Ingrian"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Yaeyama language": {
         "difficulty": "NA", 
@@ -2123,7 +2269,9 @@
             "Macro-Yaeyama", 
             "Yaeyama"
         ], 
-        "places": []
+        "places": [
+            "japan"
+        ]
     }, 
     "Nisenan language": {
         "difficulty": "NA", 
@@ -2132,7 +2280,7 @@
             "Maiduan", 
             "Nisenan"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Khakas language": {
         "difficulty": "NA", 
@@ -2147,7 +2295,9 @@
             "[3]", 
             "Khakas"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Alabama language": {
         "difficulty": "NA", 
@@ -2158,7 +2308,7 @@
             "Alabama\u2013Koasati", 
             "Alabama"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Dogri language": {
         "difficulty": "hard", 
@@ -2171,7 +2321,9 @@
             "Pahari", 
             "Dogri"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Shina language": {
         "difficulty": "very hard", 
@@ -2183,7 +2335,7 @@
             "Dardic", 
             "Shina"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Gagauz language": {
         "difficulty": "very hard", 
@@ -2195,7 +2347,7 @@
             "Western Oghuz", 
             "Gagauz"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Moldova\n\u00a0Gagauzia\n"
     }, 
     "Luba-Kasai language": {
         "difficulty": "NA", 
@@ -2212,7 +2364,7 @@
             "Luba languages", 
             "Luba-Kasai"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Democratic Republic of Congo (national language)"
     }, 
     "Taa language": {
         "difficulty": "NA", 
@@ -2222,7 +2374,7 @@
             "Taa\u2013Lower Nossob", 
             "Taa"
         ], 
-        "places": []
+        "places": "thern Ghanzi, northern Kgalagadi, western Southern and western Kweneng districts in Botswana; southern Omaheke and northeastern Hardap regions in Namibia."
     }, 
     "Assamese language": {
         "difficulty": "NA", 
@@ -2250,7 +2402,7 @@
             "Kipchak\u2013Bulgar", 
             "Tatar"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Russia\n\u00a0Tatarstan\n"
     }, 
     "Mandaic language": {
         "difficulty": "NA", 
@@ -2265,7 +2417,7 @@
             "Southeastern Aramaic", 
             "Mandaic"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Beja language": {
         "difficulty": "NA", 
@@ -2276,7 +2428,7 @@
             "North Cushitic", 
             "Beja"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Picard language": {
         "difficulty": "NA", 
@@ -2290,7 +2442,7 @@
             "O\u00efl", 
             "Picard"
         ], 
-        "places": []
+        "places": "language\u00a0inNone"
     }, 
     "Gondi language": {
         "difficulty": "hard", 
@@ -2302,7 +2454,9 @@
             "Gondi languages", 
             "Gondi (Koytor)"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Santa language": {
         "difficulty": "NA", 
@@ -2312,7 +2466,9 @@
             "Shirongolic", 
             "Santa"
         ], 
-        "places": []
+        "places": [
+            "china"
+        ]
     }, 
     "Belhare language": {
         "difficulty": "NA", 
@@ -2339,13 +2495,13 @@
             "Fula\u2013Serer", 
             "Fula"
         ], 
-        "places": []
+        "places": "peripheral Fula speaking regions."
     }, 
     "Esperanto": {
         "difficulty": "NA", 
         "speakers": "NA", 
         "family": "NA", 
-        "places": []
+        "places": "NA"
     }, 
     "Sindhi language": {
         "difficulty": "medium", 
@@ -2358,7 +2514,7 @@
             "Sindhi languages", 
             "Sindhi"
         ], 
-        "places": []
+        "places": "language\u00a0in\n\u00a0Pakistan(\u00a0Sindh)[3][4][5]\n\u00a0India\n"
     }, 
     "Ndau dialect": {
         "difficulty": "hard", 
@@ -2388,7 +2544,9 @@
             "Ge\u02bdez", 
             "Dahalik"
         ], 
-        "places": []
+        "places": [
+            "eritrea"
+        ]
     }, 
     "Tundra Yukaghir language": {
         "difficulty": "whizkid", 
@@ -2397,7 +2555,9 @@
             "Yukaghir", 
             "Tundra Yukaghir"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Mono-Alu language": {
         "difficulty": "NA", 
@@ -2429,7 +2589,9 @@
             "Kikuyu\u2013Kamba", 
             "Sonjo"
         ], 
-        "places": []
+        "places": [
+            "tanzania"
+        ]
     }, 
     "Tzotzil language": {
         "difficulty": "NA", 
@@ -2440,7 +2602,9 @@
             "Tzeltalan", 
             "Tzotzil"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Kaw\u00e9sqar language": {
         "difficulty": "NA", 
@@ -2449,7 +2613,9 @@
             "Alacalufan", 
             "Kaw\u00e9sqar"
         ], 
-        "places": []
+        "places": [
+            "chile"
+        ]
     }, 
     "Kurukh language": {
         "difficulty": "hard", 
@@ -2460,7 +2626,9 @@
             "Kurukh\u2013Malto", 
             "Kurukh"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Kalto language": {
         "difficulty": "NA", 
@@ -2481,7 +2649,7 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Gula Iro language": {
         "difficulty": "NA", 
@@ -2494,7 +2662,9 @@
             "Gula", 
             "Gula Iro"
         ], 
-        "places": []
+        "places": [
+            "chad"
+        ]
     }, 
     "Timbisha language": {
         "difficulty": "NA", 
@@ -2505,7 +2675,7 @@
             "Central", 
             "Timbisha"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Krymchak language": {
         "difficulty": "NA", 
@@ -2518,7 +2688,7 @@
             "Cuman", 
             "Krymchak"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Balti language": {
         "difficulty": "NA", 
@@ -2532,7 +2702,7 @@
             "Ladakhi\u2013Balti", 
             "Balti"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Hausa language": {
         "difficulty": "medium", 
@@ -2544,7 +2714,7 @@
             "Hausa\u2013Gwandara (A.1)", 
             "Hausa"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Niger (national status)\u00a0Nigeria (national status)\u00a0Ghana (national status)"
     }, 
     "Kapampangan language": {
         "difficulty": "hard", 
@@ -2556,7 +2726,9 @@
             "Central Luzon", 
             "Kapampangan"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Adele language": {
         "difficulty": "NA", 
@@ -2577,7 +2749,9 @@
             "Ainu", 
             "Ainu"
         ], 
-        "places": []
+        "places": [
+            "japan"
+        ]
     }, 
     "Kuy language": {
         "difficulty": "NA", 
@@ -2588,7 +2762,7 @@
             "West Katuic", 
             "Kuy"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Cavine\u00f1a language": {
         "difficulty": "NA", 
@@ -2600,7 +2774,9 @@
             "Cavinena\u2013Tacana", 
             "Cavine\u00f1a"
         ], 
-        "places": []
+        "places": [
+            "bolivia"
+        ]
     }, 
     "Ho language": {
         "difficulty": "NA", 
@@ -2613,7 +2789,9 @@
             "Mundaric", 
             "Ho"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Koraga language": {
         "difficulty": "super hard", 
@@ -2624,7 +2802,9 @@
             "Tulu", 
             "Koraga"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Odia language": {
         "difficulty": "medium", 
@@ -2636,7 +2816,9 @@
             "Eastern", 
             "Odia"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Banyumasan dialect": {
         "difficulty": "NA", 
@@ -2647,7 +2829,7 @@
             "Javanese", 
             "Banyumasan"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Dalecarlian language": {
         "difficulty": "NA", 
@@ -2658,7 +2840,9 @@
             "North Germanic", 
             "Dalecarlian"
         ], 
-        "places": []
+        "places": [
+            "sweden"
+        ]
     }, 
     "Chewa language": {
         "difficulty": "medium", 
@@ -2674,7 +2858,7 @@
             "Nyasa", 
             "Chewa"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Malawi \u00a0Zambia"
     }, 
     "Catalan language": {
         "difficulty": "hard", 
@@ -2690,7 +2874,7 @@
             "[3]", 
             "Catalan/Valencian"
         ], 
-        "places": []
+        "places": "language\u00a0in\n\u00a0Andorra\nAlso in 3 communities of Spain:\n\u00a0Balearic Islands\n\u00a0Catalonia\n\u00a0Valencian Community (as Valencian)\n"
     }, 
     "Yankunytjatjara dialect": {
         "difficulty": "NA", 
@@ -2713,7 +2897,7 @@
             "Dakotan", 
             "Sioux"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0United States\u00a0 \u2003 \u00a0\u00a0South Dakota[3]"
     }, 
     "Bru language": {
         "difficulty": "NA", 
@@ -2725,7 +2909,7 @@
             "Brou\u2013So", 
             "Bru"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Estonian language": {
         "difficulty": "hard", 
@@ -2736,7 +2920,9 @@
             "Southern Finnic", 
             "Estonian"
         ], 
-        "places": []
+        "places": [
+            "estonia"
+        ]
     }, 
     "Amdang language": {
         "difficulty": "NA", 
@@ -2746,7 +2932,7 @@
             "Fur", 
             "Amdang"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Torwali language": {
         "difficulty": "NA", 
@@ -2773,7 +2959,7 @@
             "Anglic", 
             "Scots"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Sarikoli language": {
         "difficulty": "NA", 
@@ -2787,7 +2973,7 @@
             "Shughnani", 
             "Sarikoli"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Meroitic language": {
         "difficulty": "NA", 
@@ -2795,7 +2981,7 @@
         "family": [
             "Unclassified"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Selkup language": {
         "difficulty": "NA", 
@@ -2807,7 +2993,9 @@
             "Kamas\u2013Selkup", 
             "Selkup"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Cora language": {
         "difficulty": "NA", 
@@ -2828,7 +3016,9 @@
             "Udege Group", 
             "Udege"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Khmer language": {
         "difficulty": "medium", 
@@ -2838,7 +3028,7 @@
             "Central Mon-Khmer", 
             "Khmer"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Cambodia\n\n\u00a0ASEAN[2]"
     }, 
     "Aleut language": {
         "difficulty": "NA", 
@@ -2847,7 +3037,7 @@
             "Eskimo\u2013Aleut", 
             "Aleut"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Alaska[2]"
     }, 
     "Cham language": {
         "difficulty": "NA", 
@@ -2861,7 +3051,7 @@
             "Coastal", 
             "Cham"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Lezgian language": {
         "difficulty": "NA", 
@@ -2874,7 +3064,7 @@
             "Lezgi\u2013Aghul\u2013Tabasaran", 
             "Lezgian"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Russia\n\u00a0Dagestan\n"
     }, 
     "Nogai language": {
         "difficulty": "NA", 
@@ -2886,7 +3076,9 @@
             "Kipchak\u2013Nogai", 
             "Nogai"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Michif": {
         "difficulty": "NA", 
@@ -2894,7 +3086,9 @@
         "family": [
             "Mixed"
         ], 
-        "places": []
+        "places": [
+            "canada"
+        ]
     }, 
     "Harsusi language": {
         "difficulty": "NA", 
@@ -2906,7 +3100,9 @@
             "Modern South Arabian", 
             "Harsusi"
         ], 
-        "places": []
+        "places": [
+            "oman"
+        ]
     }, 
     "Saraiki language": {
         "difficulty": "medium", 
@@ -2920,7 +3116,9 @@
             "Lahnda", 
             "Saraiki"
         ], 
-        "places": []
+        "places": [
+            "pakistan"
+        ]
     }, 
     "Yucatec Maya language": {
         "difficulty": "NA", 
@@ -2931,7 +3129,7 @@
             "Yucatec\u2013Lacandon", 
             "Yucatec"
         ], 
-        "places": []
+        "places": "language\u00a0inMexico[2]"
     }, 
     "Carrier language": {
         "difficulty": "NA", 
@@ -2943,7 +3141,9 @@
             "Northern Athabaskan", 
             "Dakelh (aka Carrier)"
         ], 
-        "places": []
+        "places": [
+            "canada"
+        ]
     }, 
     "North Frisian language": {
         "difficulty": "NA", 
@@ -2957,7 +3157,9 @@
             "Frisian", 
             "North Frisian"
         ], 
-        "places": []
+        "places": [
+            "germany"
+        ]
     }, 
     "Tol language": {
         "difficulty": "NA", 
@@ -2978,7 +3180,9 @@
             "Manchu group", 
             "Manchu"
         ], 
-        "places": []
+        "places": [
+            "china"
+        ]
     }, 
     "Gullah language": {
         "difficulty": "NA", 
@@ -2992,7 +3196,7 @@
             "\u2013Gullah)", 
             "Gullah"
         ], 
-        "places": []
+        "places": "stal low country region of South Carolina and Georgia including the Sea Islands"
     }, 
     "Mazahua language": {
         "difficulty": "NA", 
@@ -3017,7 +3221,9 @@
             "Dorbet", 
             "Kalmyk"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Oromo language": {
         "difficulty": "medium", 
@@ -3029,7 +3235,7 @@
             "Oromoid", 
             "Oromo"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Oromia Region(\u00a0Ethiopia)"
     }, 
     "Nuosu language": {
         "difficulty": "hard", 
@@ -3042,7 +3248,9 @@
             "Nisoid", 
             "Nuosu"
         ], 
-        "places": []
+        "places": [
+            "china"
+        ]
     }, 
     "Rajasthani language": {
         "difficulty": "medium", 
@@ -3055,7 +3263,9 @@
             "[2]", 
             "Rajasthani"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Laz language": {
         "difficulty": "NA", 
@@ -3066,7 +3276,7 @@
             "Zan", 
             "Laz"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Pahari-Pothwari": {
         "difficulty": "NA", 
@@ -3081,7 +3291,7 @@
             "Punjabic", 
             "Pahari-Pothwari"
         ], 
-        "places": []
+        "places": "hohar region, Azad Kashmir and western parts of Jammu and Kashmir"
     }, 
     "Domaaki language": {
         "difficulty": "NA", 
@@ -3093,7 +3303,9 @@
             "Central Zone", 
             "Domaaki"
         ], 
-        "places": []
+        "places": [
+            "pakistan"
+        ]
     }, 
     "Ash\u00e1ninka language": {
         "difficulty": "NA", 
@@ -3104,7 +3316,7 @@
             "Campa", 
             "Ash\u00e1ninka"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Zeelandic": {
         "difficulty": "NA", 
@@ -3118,7 +3330,7 @@
             "Dutch", 
             "Zeelandic"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Ongota language": {
         "difficulty": "NA", 
@@ -3126,7 +3338,9 @@
         "family": [
             "unclassified"
         ], 
-        "places": []
+        "places": [
+            "ethiopia"
+        ]
     }, 
     "Iban language": {
         "difficulty": "NA", 
@@ -3138,7 +3352,7 @@
             "Ibanic", 
             "Iban"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Shipibo language": {
         "difficulty": "NA", 
@@ -3150,7 +3364,7 @@
             "Chama", 
             "Shipibo-Conibo"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "A-Pucikwar language": {
         "difficulty": "NA", 
@@ -3160,7 +3374,9 @@
             "Central", 
             "Pucikwar"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Xhosa language": {
         "difficulty": "hard", 
@@ -3178,7 +3394,7 @@
             "Zunda", 
             "Xhosa"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0South Africa\u00a0Zimbabwe"
     }, 
     "Czech language": {
         "difficulty": "medium", 
@@ -3191,7 +3407,7 @@
             "Czech\u2013Slovak", 
             "Czech"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Czech Republic\u00a0European Union"
     }, 
     "Algonquin language": {
         "difficulty": "NA", 
@@ -3203,7 +3419,9 @@
             "Ojibwe", 
             "Algonquin"
         ], 
-        "places": []
+        "places": [
+            "canada"
+        ]
     }, 
     "Aimaq dialect": {
         "difficulty": "NA", 
@@ -3218,7 +3436,7 @@
             " (eastern)", 
             "Aimaq dialect"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Yiddish": {
         "difficulty": "NA", 
@@ -3231,7 +3449,7 @@
             "High German", 
             "Yiddish"
         ], 
-        "places": []
+        "places": "ope, Israel, North America, other regions with Jewish populations[1]"
     }, 
     "Chuukese language": {
         "difficulty": "NA", 
@@ -3246,7 +3464,7 @@
             "Chuukic", 
             "Chuukese"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Federated States of Micronesia"
     }, 
     "Waima language": {
         "difficulty": "NA", 
@@ -3275,7 +3493,9 @@
             "Gujarati", 
             "Saurashtra"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Croatian language": {
         "difficulty": "NA", 
@@ -3292,7 +3512,7 @@
             "[3]", 
             "Croatian"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Croatia\u00a0Bosnia and Herzegovina (co-official)\u00a0Serbia (in Vojvodina)\u00a0Austria (in Burgenland)\u00a0European Union"
     }, 
     "Lingala": {
         "difficulty": "NA", 
@@ -3312,7 +3532,7 @@
             "Bangi", 
             "Lingala"
         ], 
-        "places": []
+        "places": "language\u00a0in\n\u00a0Democratic Republic of the Congo\n\u00a0Republic of the Congo\n"
     }, 
     "Innu language": {
         "difficulty": "super hard", 
@@ -3324,7 +3544,9 @@
             "Cree", 
             "Montagnais"
         ], 
-        "places": []
+        "places": [
+            "canada"
+        ]
     }, 
     "Ingush language": {
         "difficulty": "whizkid", 
@@ -3337,7 +3559,7 @@
             "(Chechen\u2013Ingush)", 
             "Ingush"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Russia\u00a0Ingushetia"
     }, 
     "Shawiya language": {
         "difficulty": "NA", 
@@ -3349,7 +3571,9 @@
             "Zenati", 
             "Shawiya"
         ], 
-        "places": []
+        "places": [
+            "algeria"
+        ]
     }, 
     "Tlingit language": {
         "difficulty": "whizkid", 
@@ -3359,7 +3583,7 @@
             "Na-Dene", 
             "Tlingit"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Alaska[4]"
     }, 
     "Flemish": {
         "difficulty": "hard", 
@@ -3373,7 +3597,7 @@
             "Dutch", 
             "Flemish"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Thai language": {
         "difficulty": "medium", 
@@ -3394,7 +3618,7 @@
             "Koreanic", 
             "Korean"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0South Korea\u00a0North Korea\u00a0China (Yanbian Prefecture and Changbai County)"
     }, 
     "Koti language": {
         "difficulty": "NA", 
@@ -3409,7 +3633,9 @@
             "Makua", 
             "Koti"
         ], 
-        "places": []
+        "places": [
+            "mozambique"
+        ]
     }, 
     "Adyghe language": {
         "difficulty": "NA", 
@@ -3419,7 +3645,7 @@
             "Circassian", 
             "Western Adyghe"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Adygea"
     }, 
     "Syriac language": {
         "difficulty": "NA", 
@@ -3450,7 +3676,7 @@
             "Makua languages", 
             "Makhuwa"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Ilocano language": {
         "difficulty": "hard", 
@@ -3462,7 +3688,9 @@
             "Northern Luzon", 
             "Ilocano"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Erzya language": {
         "difficulty": "very hard", 
@@ -3472,7 +3700,9 @@
             "Mordvinic", 
             "Erzya"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Dogrib language": {
         "difficulty": "whizkid", 
@@ -3484,7 +3714,9 @@
             "Northern Athabaskan", 
             "Dogrib"
         ], 
-        "places": []
+        "places": [
+            "canada"
+        ]
     }, 
     "Lacandon language": {
         "difficulty": "NA", 
@@ -3495,7 +3727,9 @@
             "Yucatec\u2013Lacandon", 
             "Lacandon"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Mikasuki language": {
         "difficulty": "NA", 
@@ -3505,7 +3739,7 @@
             "Eastern", 
             "Mikasuki"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Abkhaz language": {
         "difficulty": "very hard", 
@@ -3515,7 +3749,7 @@
             "Abazgi", 
             "Abkhaz"
         ], 
-        "places": []
+        "places": "language\u00a0inRepublic of Abkhazia;[a] Autonomous Republic of Abkhazia, Georgia"
     }, 
     "Ojibwe language": {
         "difficulty": "NA", 
@@ -3525,7 +3759,7 @@
             "Algonquian", 
             "Ojibwe"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Kujarg\u00e9 language": {
         "difficulty": "NA", 
@@ -3535,7 +3769,7 @@
             "(unclassified)", 
             "Kujarg\u00e9"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Tigrinya language": {
         "difficulty": "hard", 
@@ -3549,7 +3783,7 @@
             "Ge\u02bdez", 
             "Tigrinya"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Eritrea"
     }, 
     "Pashto": {
         "difficulty": "NA", 
@@ -3561,7 +3795,7 @@
             "Eastern Iranian", 
             "Pashto"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Afghanistan[1]"
     }, 
     "Kota language (India)": {
         "difficulty": "NA", 
@@ -3574,7 +3808,9 @@
             "Toda\u2013Kota", 
             "Kota"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Tausug language": {
         "difficulty": "hard", 
@@ -3589,7 +3825,7 @@
             "Southern Bisayan", 
             "Tausug"
         ], 
-        "places": []
+        "places": "language\u00a0inRegional language in the Philippines"
     }, 
     "Makassarese language": {
         "difficulty": "hard", 
@@ -3601,7 +3837,9 @@
             "Makassaric", 
             "Makassar"
         ], 
-        "places": []
+        "places": [
+            "indonesia"
+        ]
     }, 
     "Latvian language": {
         "difficulty": "hard", 
@@ -3613,7 +3851,9 @@
             "Eastern Baltic", 
             "Latvian"
         ], 
-        "places": []
+        "places": [
+            "latvia"
+        ]
     }, 
     "Nanai language": {
         "difficulty": "NA", 
@@ -3624,7 +3864,7 @@
             "Nanai group", 
             "Nanai"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Futunan language": {
         "difficulty": "NA", 
@@ -3652,7 +3892,9 @@
             "Serbo-Croatian", 
             "Montenegrin"
         ], 
-        "places": []
+        "places": [
+            "montenegro"
+        ]
     }, 
     "Tupi language": {
         "difficulty": "NA", 
@@ -3662,7 +3904,9 @@
             "Tup\u00ed\u2013Guarani", 
             "Tup\u00ed"
         ], 
-        "places": []
+        "places": [
+            "brazil"
+        ]
     }, 
     "Kankanaey language": {
         "difficulty": "NA", 
@@ -3678,7 +3922,9 @@
             "Bontok\u2013Kankanay", 
             "Kankanaey"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Amuzgo language": {
         "difficulty": "NA", 
@@ -3689,7 +3935,9 @@
             "Amuzgo\u2013Mixtecan?", 
             "Amuzgo"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Luxembourgish": {
         "difficulty": "NA", 
@@ -3704,7 +3952,7 @@
             "Moselle Franconian", 
             "Luxembourgish"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Luxembourg"
     }, 
     "Yakut language": {
         "difficulty": "very hard", 
@@ -3716,7 +3964,9 @@
             "Northern", 
             "Yakutian"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Kumyk language": {
         "difficulty": "NA", 
@@ -3728,7 +3978,9 @@
             "Kypchak\u2013Cuman", 
             "Kumyk"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Bahnar language": {
         "difficulty": "very hard", 
@@ -3739,7 +3991,9 @@
             "Central", 
             "Bahnar"
         ], 
-        "places": []
+        "places": [
+            "vietnam"
+        ]
     }, 
     "Salar language": {
         "difficulty": "NA", 
@@ -3753,7 +4007,9 @@
             "[4]", 
             "Salar"
         ], 
-        "places": []
+        "places": [
+            "china"
+        ]
     }, 
     "Dida language": {
         "difficulty": "NA", 
@@ -3776,7 +4032,7 @@
             "Northwest Sumatra\u2013Barrier Islands", 
             "Mentawai"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Central Kilimanjaro language": {
         "difficulty": "NA", 
@@ -3794,7 +4050,9 @@
             "Chaga", 
             "Central Kilimanjaro"
         ], 
-        "places": []
+        "places": [
+            "tanzania"
+        ]
     }, 
     "Urum language": {
         "difficulty": "NA", 
@@ -3806,7 +4064,7 @@
             "West Kypchak", 
             "Urum"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Kaonde language": {
         "difficulty": "NA", 
@@ -3821,7 +4079,7 @@
             "Luba languages", 
             "Kaonde"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Dyula language": {
         "difficulty": "NA", 
@@ -3835,7 +4093,7 @@
             "Bambara\u2013Dyula", 
             "Dyula"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Masaba language": {
         "difficulty": "hard", 
@@ -3853,7 +4111,9 @@
             "Masaba\u2013Luhya (J.30)", 
             "Masaba"
         ], 
-        "places": []
+        "places": [
+            "uganda"
+        ]
     }, 
     "Breton language": {
         "difficulty": "very hard", 
@@ -3866,7 +4126,9 @@
             "Southwestern", 
             "Breton"
         ], 
-        "places": []
+        "places": [
+            "france"
+        ]
     }, 
     "Bartangi language": {
         "difficulty": "NA", 
@@ -3880,7 +4142,7 @@
             "Shughnani", 
             "Bartangi"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Harauti language": {
         "difficulty": "NA", 
@@ -3894,7 +4156,7 @@
             "Marwari", 
             "Harauti"
         ], 
-        "places": []
+        "places": "India (Hadoti region of Rajasthan)"
     }, 
     "Muria language": {
         "difficulty": "NA", 
@@ -3906,7 +4168,9 @@
             "Gondi languages", 
             "Muria"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Bengali language": {
         "difficulty": "easy", 
@@ -3919,7 +4183,7 @@
             "Bengali-Assamese", 
             "Bengali"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Bangladesh (national)\n\u00a0India\n\nWest Bengal\nTripura\nAssam (Barak Valley) (additional)\nJharkhand (additional)[4]\n"
     }, 
     "Bemba language": {
         "difficulty": "hard", 
@@ -3939,7 +4203,7 @@
             "South Sabi", 
             "Bemba"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Tuvan language": {
         "difficulty": "NA", 
@@ -3952,7 +4216,7 @@
             "Sayan Turkic", 
             "Tuvan"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Russia\u00a0Tuva"
     }, 
     "Gilaki language": {
         "difficulty": "hard", 
@@ -3966,7 +4230,7 @@
             "Caspian", 
             "Gilaki"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Buginese language": {
         "difficulty": "hard", 
@@ -3986,7 +4250,7 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Khoekhoe language": {
         "difficulty": "very hard", 
@@ -3996,7 +4260,7 @@
             "Khoekhoe", 
             "Khoekhoe"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Namibia"
     }, 
     "Sonsorolese language": {
         "difficulty": "NA", 
@@ -4010,7 +4274,7 @@
             "Trukic", 
             "Sonsorolese"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Palau"
     }, 
     "Romani language": {
         "difficulty": "NA", 
@@ -4034,7 +4298,7 @@
             "Piro", 
             "Piro"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Chinese language": {
         "difficulty": "whizkid", 
@@ -4043,7 +4307,7 @@
             "Sino-Tibetan", 
             "Chinese"
         ], 
-        "places": []
+        "places": "language\u00a0in\nMandarin:\nMainland ChinaSingaporeTaiwanMyanmar\nWa State\nKokang\nMong La\n\n\nCantonese (de facto):[a]\nHong KongMacau\n\n"
     }, 
     "Vietnamese language": {
         "difficulty": "NA", 
@@ -4054,7 +4318,7 @@
             "Viet\u2013Muong", 
             "Vietnamese"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Vietnam\n\n\u00a0ASEAN[2]"
     }, 
     "Muong language": {
         "difficulty": "hard", 
@@ -4065,7 +4329,9 @@
             "Viet\u2013Muong", 
             "Thi\u1ec3ng M\u01b0\u1eddng"
         ], 
-        "places": []
+        "places": [
+            "vietnam"
+        ]
     }, 
     "Punjabi language": {
         "difficulty": "easy", 
@@ -4077,7 +4343,7 @@
             "Northwestern Indo-Aryan", 
             "Punjabi"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0India  Punjab[2][3]Haryana (additional[4])Delhi (additional[5])West Bengal (additional, in blocks and divisions with more than 10% of the population[6])"
     }, 
     "Tok Pisin": {
         "difficulty": "NA", 
@@ -4088,7 +4354,7 @@
             "Melanesian Pidgin", 
             "Tok Pisin"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Papua New Guinea"
     }, 
     "Shughni language": {
         "difficulty": "NA", 
@@ -4102,7 +4368,7 @@
             "Shughnani", 
             "Shughni"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Jurchen language": {
         "difficulty": "NA", 
@@ -4124,7 +4390,7 @@
             "Northern Tiwa", 
             "Taos"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Romanian language": {
         "difficulty": "NA", 
@@ -4137,7 +4403,7 @@
             "Balkan Romance", 
             "Romanian"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Romania\u00a0Moldova\u00a0Vojvodina (Serbia)"
     }, 
     "Venda language": {
         "difficulty": "hard", 
@@ -4153,7 +4419,7 @@
             "Southern Bantu", 
             "Venda"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0South Africa\u00a0Zimbabwe"
     }, 
     "Korku language": {
         "difficulty": "very hard", 
@@ -4175,7 +4441,9 @@
             "Continental Chon", 
             "Tehuelche"
         ], 
-        "places": []
+        "places": [
+            "argentina"
+        ]
     }, 
     "Fur language": {
         "difficulty": "NA", 
@@ -4185,7 +4453,7 @@
             "Fur", 
             "Fur"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Georgian language": {
         "difficulty": "hard", 
@@ -4217,7 +4485,7 @@
             "Delta\u2013Californian", 
             "Cocopah"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Mingrelian language": {
         "difficulty": "NA", 
@@ -4228,7 +4496,9 @@
             "Zan", 
             "Mingrelian"
         ], 
-        "places": []
+        "places": [
+            "georgia"
+        ]
     }, 
     "Wakhi language": {
         "difficulty": "NA", 
@@ -4240,7 +4510,7 @@
             "Eastern", 
             "Wakhi"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Banjarese language": {
         "difficulty": "hard", 
@@ -4252,7 +4522,7 @@
             "Malayic", 
             "Banjarese"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Mari language": {
         "difficulty": "NA", 
@@ -4275,7 +4545,7 @@
             "Tupi", 
             "Nheengatu"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Brazil (S\u00e3o Gabriel da Cachoeira)"
     }, 
     "Ukrainian language": {
         "difficulty": "medium", 
@@ -4288,7 +4558,9 @@
             "Ruthenian", 
             "Ukrainian"
         ], 
-        "places": []
+        "places": [
+            "ukraine"
+        ]
     }, 
     "Zuni language": {
         "difficulty": "NA", 
@@ -4296,7 +4568,7 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Bashkardi language": {
         "difficulty": "NA", 
@@ -4309,7 +4581,9 @@
             "Southwestern", 
             "Bashkardi"
         ], 
-        "places": []
+        "places": [
+            "iran"
+        ]
     }, 
     "Sucite language": {
         "difficulty": "NA", 
@@ -4321,7 +4595,7 @@
             "Suppire\u2013Mamara", 
             "Sucite"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Ewe language": {
         "difficulty": "NA", 
@@ -4333,7 +4607,7 @@
             "Gbe", 
             "Ewe"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Shehri language": {
         "difficulty": "NA", 
@@ -4346,7 +4620,9 @@
             "Modern South Arabian", 
             "Shehri"
         ], 
-        "places": []
+        "places": [
+            "oman"
+        ]
     }, 
     "Niuean language": {
         "difficulty": "whizkid", 
@@ -4359,7 +4635,7 @@
             "Tongic", 
             "Niuean"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Niue"
     }, 
     "Cayuga language": {
         "difficulty": "NA", 
@@ -4372,7 +4648,7 @@
             "Seneca\u2013Cayuga", 
             "Cayuga"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Polish language": {
         "difficulty": "NA", 
@@ -4385,7 +4661,7 @@
             "Lechitic", 
             "Polish"
         ], 
-        "places": []
+        "places": "Poland, Germany, Czech Republic, Slovakia, Hungary, Lithuania, parts of Latvia, bordering Kresy regions of Western Ukraine and Western Belarus"
     }, 
     "Wasi-wari": {
         "difficulty": "NA", 
@@ -4397,7 +4673,9 @@
             "Northern", 
             "Wasi-wari"
         ], 
-        "places": []
+        "places": [
+            "afghanistan"
+        ]
     }, 
     "Are language": {
         "difficulty": "NA", 
@@ -4414,7 +4692,7 @@
             "Are", 
             "Are"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Yaghan language": {
         "difficulty": "NA", 
@@ -4422,7 +4700,7 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Shoshoni language": {
         "difficulty": "NA", 
@@ -4434,7 +4712,7 @@
             "Central", 
             "Shoshoni"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Ndonga dialect": {
         "difficulty": "NA", 
@@ -4450,7 +4728,7 @@
             "Ovambo", 
             "Ndonga"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Yeni language": {
         "difficulty": "NA", 
@@ -4490,7 +4768,7 @@
             "Hokan", 
             "Washo"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Malay language": {
         "difficulty": "NA", 
@@ -4504,7 +4782,7 @@
             "Malayan", 
             "Malay"
         ], 
-        "places": []
+        "places": "language\u00a0in\n\u00a0Brunei\n\u00a0Indonesia (as Indonesian)\n\u00a0Malaysia (also\u00a0called\u00a0Malaysian)\n\u00a0Singapore\n\n\u00a0ASEAN [4]\n"
     }, 
     "Susu language": {
         "difficulty": "hard", 
@@ -4517,7 +4795,7 @@
             "Soso\u2013Yalunka", 
             "Soso"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Ormuri": {
         "difficulty": "NA", 
@@ -4529,7 +4807,7 @@
             "Eastern", 
             "Ormuri"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Pangasinan language": {
         "difficulty": "NA", 
@@ -4545,7 +4823,9 @@
             "West Southern Cordilleran", 
             "Pangasinan"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Aari language": {
         "difficulty": "NA", 
@@ -4556,7 +4836,9 @@
             "South", 
             "Aari"
         ], 
-        "places": []
+        "places": [
+            "ethiopia"
+        ]
     }, 
     "Mazanderani language": {
         "difficulty": "NA", 
@@ -4569,7 +4851,7 @@
             "Caspian", 
             "Mazandarani"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Meitei language": {
         "difficulty": "NA", 
@@ -4594,7 +4876,9 @@
             "[3]", 
             "Western Yugur"
         ], 
-        "places": []
+        "places": [
+            "china"
+        ]
     }, 
     "Orok language": {
         "difficulty": "NA", 
@@ -4605,7 +4889,7 @@
             "Central-Western/Nanai group", 
             "Orok"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Kurdish languages": {
         "difficulty": "NA", 
@@ -4618,7 +4902,7 @@
             "Northwestern", 
             "Kurdish"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Iraq[6][a]\n\u00a0Kurdistan Region[7]\n\u00a0Rojava[8][9]"
     }, 
     "Nias language": {
         "difficulty": "NA", 
@@ -4631,7 +4915,9 @@
             "Nias\u2013Sikule", 
             "Nias"
         ], 
-        "places": []
+        "places": [
+            "indonesia"
+        ]
     }, 
     "Avar language": {
         "difficulty": "NA", 
@@ -4641,7 +4927,7 @@
             "Avar\u2013Andic", 
             "Avar"
         ], 
-        "places": []
+        "places": "language\u00a0inDagestan (Russia)"
     }, 
     "Burushaski": {
         "difficulty": "very hard", 
@@ -4649,7 +4935,7 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Haida language": {
         "difficulty": "whizkid", 
@@ -4657,7 +4943,7 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": "language\u00a0in Council of the Haida Nation   Alaska"
     }, 
     "Kosraean language": {
         "difficulty": "NA", 
@@ -4671,7 +4957,7 @@
             "Nuclear Micronesian", 
             "Kosraean"
         ], 
-        "places": []
+        "places": "language\u00a0inFederated States of Micronesia"
     }, 
     "Chamorro language": {
         "difficulty": "NA", 
@@ -4681,7 +4967,7 @@
             "Malayo-Polynesian", 
             "Chamorro"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Guam  \u00a0Northern Mariana Islands"
     }, 
     "Abanyom language": {
         "difficulty": "NA", 
@@ -4695,7 +4981,9 @@
             "Efutop\u2013Ekajuk", 
             "Abanyom"
         ], 
-        "places": []
+        "places": [
+            "nigeria"
+        ]
     }, 
     "Kerek language": {
         "difficulty": "NA", 
@@ -4705,7 +4993,9 @@
             "Chukotkan", 
             "Kerek"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Tepehu\u00e1n language": {
         "difficulty": "NA", 
@@ -4715,7 +5005,9 @@
             "Tepiman", 
             "Tepehu\u00e1n"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Udmurt language": {
         "difficulty": "very hard", 
@@ -4725,7 +5017,9 @@
             "Permic", 
             "Udmurt"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Irish language": {
         "difficulty": "NA", 
@@ -4737,7 +5031,9 @@
             "Goidelic", 
             "Irish"
         ], 
-        "places": []
+        "places": [
+            "ireland"
+        ]
     }, 
     "Sawi language (Dardic)": {
         "difficulty": "NA", 
@@ -4750,7 +5046,9 @@
             "Shina", 
             "Sawi"
         ], 
-        "places": []
+        "places": [
+            "afghanistan"
+        ]
     }, 
     "Yapese language": {
         "difficulty": "NA", 
@@ -4763,7 +5061,7 @@
             "?", 
             "Yapese"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Basque language": {
         "difficulty": "NA", 
@@ -4771,7 +5069,7 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Basque Autonomous Community\u00a0Navarre"
     }, 
     "Rutul language": {
         "difficulty": "NA", 
@@ -4783,7 +5081,7 @@
             "Western Samur", 
             "Rutul"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Dagestan"
     }, 
     "Angika": {
         "difficulty": "NA", 
@@ -4796,7 +5094,7 @@
             "Bihari", 
             "Angika"
         ], 
-        "places": []
+        "places": "ar and Jharkhand states of India and Terai region of Nepal[1]"
     }, 
     "Soga language": {
         "difficulty": "hard", 
@@ -4814,7 +5112,9 @@
             "Nyoro-Ganda", 
             "Soga"
         ], 
-        "places": []
+        "places": [
+            "uganda"
+        ]
     }, 
     "Yuchi language": {
         "difficulty": "NA", 
@@ -4822,7 +5122,7 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Ladakhi language": {
         "difficulty": "NA", 
@@ -4835,7 +5135,7 @@
             "Ladakhi\u2013Balti", 
             "Ladakhi"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0India (LAHDC Leh, Ladakh)"
     }, 
     "Dameli language": {
         "difficulty": "NA", 
@@ -4848,7 +5148,9 @@
             "Kunar", 
             "Dameli"
         ], 
-        "places": []
+        "places": [
+            "pakistan"
+        ]
     }, 
     "Bosnian language": {
         "difficulty": "NA", 
@@ -4862,7 +5164,7 @@
             "Serbo-Croatian", 
             "Bosnian"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Bosnia and Herzegovina\u00a0Montenegro (co-official)"
     }, 
     "Yaghnobi language": {
         "difficulty": "NA", 
@@ -4877,7 +5179,9 @@
             "[2]", 
             "Yaghnobi"
         ], 
-        "places": []
+        "places": [
+            "tajikistan"
+        ]
     }, 
     "Khanty language": {
         "difficulty": "NA", 
@@ -4888,7 +5192,9 @@
             "? (traditional grouping)", 
             "Khanty"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Tsonga language": {
         "difficulty": "NA", 
@@ -4905,7 +5211,7 @@
             "Tswa\u2013Ronga", 
             "Tsonga"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0South Africa\u00a0Zimbabwe (as 'Shangani')"
     }, 
     "Minangkabau language": {
         "difficulty": "hard", 
@@ -4916,7 +5222,7 @@
             "Malayic", 
             "Minangkabau"
         ], 
-        "places": []
+        "places": "language\u00a0in (West Sumatra)"
     }, 
     "Iraqw language": {
         "difficulty": "NA", 
@@ -4930,7 +5236,9 @@
             "Iraqwoid", 
             "Iraqw"
         ], 
-        "places": []
+        "places": [
+            "tanzania"
+        ]
     }, 
     "Keres language": {
         "difficulty": "NA", 
@@ -4938,7 +5246,7 @@
         "family": [
             "language isolate"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Koya language": {
         "difficulty": "NA", 
@@ -4950,7 +5258,9 @@
             "Kuvi\u2013Kui", 
             "Koya"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Tiv language": {
         "difficulty": "hard", 
@@ -4979,7 +5289,7 @@
             "Gbe", 
             "Gen"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Huilliche language": {
         "difficulty": "NA", 
@@ -4988,7 +5298,9 @@
             "Araucanian", 
             "Huilliche"
         ], 
-        "places": []
+        "places": [
+            "chile"
+        ]
     }, 
     "H\u00e9rtevin language": {
         "difficulty": "NA", 
@@ -5004,7 +5316,9 @@
             "Northeastern", 
             "H\u00e9rtevin"
         ], 
-        "places": []
+        "places": [
+            "turkey"
+        ]
     }, 
     "Amharic": {
         "difficulty": "NA", 
@@ -5020,7 +5334,9 @@
             "Amharic\u2013Argobba", 
             "Amharic"
         ], 
-        "places": []
+        "places": [
+            "ethiopia"
+        ]
     }, 
     "Marshallese language": {
         "difficulty": "NA", 
@@ -5034,7 +5350,7 @@
             "Nuclear Micronesian", 
             "Marshallese"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Marshall Islands (with English)"
     }, 
     "Lotha language": {
         "difficulty": "NA", 
@@ -5043,7 +5359,9 @@
             "Sino-Tibetan", 
             "Lotha"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "'Are'are language": {
         "difficulty": "NA", 
@@ -5059,7 +5377,7 @@
             "'", 
             "Are'are"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Urdu": {
         "difficulty": "NA", 
@@ -5074,7 +5392,7 @@
             "[4]", 
             "Urdu"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Pakistan(national) \n\u00a0India(state-official) \n\nJammu and Kashmir\nNational Capital Territory of Delhi\nBihar\nUttar Pradesh\nJharkhand\nWest Bengal\nTelangana[7][8]\n"
     }, 
     "Garhwali language": {
         "difficulty": "hard", 
@@ -5087,7 +5405,9 @@
             "Central Pahari", 
             "Garhwali"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Enets language": {
         "difficulty": "NA", 
@@ -5099,7 +5419,9 @@
             "Enets\u2013Nenets", 
             "Enets"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Yoruba language": {
         "difficulty": "medium", 
@@ -5114,7 +5436,7 @@
             "Edekiri", 
             "Yoruba"
         ], 
-        "places": []
+        "places": "language\u00a0inNigeria, Benin, Togo, Ghana"
     }, 
     "Saramaccan language": {
         "difficulty": "NA", 
@@ -5123,7 +5445,7 @@
             "English", 
             "Saramaccan"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Hopi language": {
         "difficulty": "NA", 
@@ -5133,7 +5455,7 @@
             "Northern", 
             "Hopi"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Matsiguenga language": {
         "difficulty": "NA", 
@@ -5144,7 +5466,7 @@
             "Campa", 
             "Machiguenga"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Mbunda language": {
         "difficulty": "NA", 
@@ -5164,7 +5486,7 @@
             " (K.10)", 
             "Mbunda"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Megleno-Romanian language": {
         "difficulty": "NA", 
@@ -5179,7 +5501,7 @@
             "[1]", 
             "Megleno-Romanian"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Nyabwa language": {
         "difficulty": "NA", 
@@ -5192,7 +5514,7 @@
             "Wee", 
             "Nyabwa"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Havasupai\u2013Hualapai language": {
         "difficulty": "NA", 
@@ -5217,7 +5539,9 @@
             "Bisayan", 
             "Hiligaynon"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Japhug language": {
         "difficulty": "NA", 
@@ -5229,7 +5553,9 @@
             "Gyalrong", 
             "Japhug"
         ], 
-        "places": []
+        "places": [
+            "china"
+        ]
     }, 
     "Chipewyan language": {
         "difficulty": "super hard", 
@@ -5241,7 +5567,9 @@
             "Northern Athabaskan", 
             "Chipewyan"
         ], 
-        "places": []
+        "places": [
+            "canada"
+        ]
     }, 
     "Chintang language": {
         "difficulty": "NA", 
@@ -5269,7 +5597,9 @@
             "West Frisian languages", 
             "West Frisian"
         ], 
-        "places": []
+        "places": [
+            "netherlands"
+        ]
     }, 
     "Jarai language": {
         "difficulty": "NA", 
@@ -5283,7 +5613,7 @@
             "Highlands", 
             "Jarai"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Manx language": {
         "difficulty": "NA", 
@@ -5295,7 +5625,7 @@
             "Goidelic", 
             "Manx"
         ], 
-        "places": []
+        "places": "language\u00a0inIsle of Man"
     }, 
     "Judaeo-Spanish": {
         "difficulty": "very hard", 
@@ -5311,7 +5641,7 @@
             "Castilian languages", 
             "Judaeo-Spanish"
         ], 
-        "places": []
+        "places": "iterranean Basin (native region), North America, Western Europe and South America"
     }, 
     "Matumbi language": {
         "difficulty": "NA", 
@@ -5327,7 +5657,9 @@
             "Matandu", 
             "Matumbi"
         ], 
-        "places": []
+        "places": [
+            "tanzania"
+        ]
     }, 
     "Semnani language": {
         "difficulty": "NA", 
@@ -5358,7 +5690,9 @@
             "Logooli\u2013Kuria (E.40)", 
             "Gusii"
         ], 
-        "places": []
+        "places": [
+            "kenya"
+        ]
     }, 
     "Acehnese language": {
         "difficulty": "hard", 
@@ -5371,7 +5705,9 @@
             "Chamic", 
             "Acehnese"
         ], 
-        "places": []
+        "places": [
+            "indonesia"
+        ]
     }, 
     "Shuswap language": {
         "difficulty": "NA", 
@@ -5382,7 +5718,9 @@
             "Northern", 
             "Shuswap"
         ], 
-        "places": []
+        "places": [
+            "canada"
+        ]
     }, 
     "Chukchi language": {
         "difficulty": "whizkid", 
@@ -5392,7 +5730,9 @@
             "Chukotkan", 
             "Chukchi"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Bantoanon language": {
         "difficulty": "NA", 
@@ -5406,7 +5746,9 @@
             "Bantoanon", 
             "[1]"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Muscogee language": {
         "difficulty": "NA", 
@@ -5416,7 +5758,7 @@
             "Eastern", 
             "Muscogee"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0United States\u00a0 \u2003 \u00a0\u00a0Oklahoma (Creek Nation only)"
     }, 
     "Qashqai language": {
         "difficulty": "NA", 
@@ -5428,7 +5770,9 @@
             "Southern Oghuz", 
             "Qashqai"
         ], 
-        "places": []
+        "places": [
+            "iran"
+        ]
     }, 
     "Goaria language": {
         "difficulty": "NA", 
@@ -5442,7 +5786,9 @@
             "Marwari", 
             "Goaria"
         ], 
-        "places": []
+        "places": [
+            "pakistan"
+        ]
     }, 
     "Serbo-Croatian": {
         "difficulty": "medium", 
@@ -5455,7 +5801,7 @@
             "Western South Slavic", 
             "Serbo-Croatian"
         ], 
-        "places": []
+        "places": "language\u00a0in\n\u00a0Serbia (as Serbian)\n\u00a0Croatia (as Croatian)\n\u00a0Bosnia and Herzegovina (as Bosnian, Croatian, Serbian)\n\u00a0Montenegro(as Montenegrin)\n\u00a0Kosovo[a] (as Serbian)[2]\n\u00a0European Union(as Croatian)\n"
     }, 
     "Bhojpuri language": {
         "difficulty": "medium", 
@@ -5468,7 +5814,7 @@
             "Bihari", 
             "Bhojpuri"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Fiji (as the Fiji Hindi language)\u00a0India\nJharkhand (additional)[4]\n"
     }, 
     "Yavapai language": {
         "difficulty": "NA", 
@@ -5492,7 +5838,9 @@
             "Sayan Turkic", 
             "Tofa"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Ulch language": {
         "difficulty": "NA", 
@@ -5503,7 +5851,9 @@
             "Nanai group", 
             "Ulch"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Shenwa language": {
         "difficulty": "NA", 
@@ -5515,7 +5865,9 @@
             "Zenati", 
             "Shenwa"
         ], 
-        "places": []
+        "places": [
+            "algeria"
+        ]
     }, 
     "Shumashti language": {
         "difficulty": "NA", 
@@ -5528,7 +5880,9 @@
             "Kunar", 
             "Shumashti"
         ], 
-        "places": []
+        "places": [
+            "afghanistan"
+        ]
     }, 
     "Paya language": {
         "difficulty": "NA", 
@@ -5537,7 +5891,9 @@
             "Chibchan", 
             "Pech"
         ], 
-        "places": []
+        "places": [
+            "honduras"
+        ]
     }, 
     "Silesian language": {
         "difficulty": "NA", 
@@ -5551,7 +5907,7 @@
             "[2]", 
             "Silesian"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Buryat language": {
         "difficulty": "NA", 
@@ -5561,7 +5917,7 @@
             "Central Mongolic", 
             "Buryat"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Russia\u00a0Buryatia"
     }, 
     "Itelmen language": {
         "difficulty": "NA", 
@@ -5571,7 +5927,9 @@
             "Kamchatkan", 
             "Itelmen"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Nyah Kur language": {
         "difficulty": "NA", 
@@ -5581,7 +5939,9 @@
             "Monic", 
             "Nyah Kur"
         ], 
-        "places": []
+        "places": [
+            "thailand"
+        ]
     }, 
     "Guarayu language": {
         "difficulty": "NA", 
@@ -5592,7 +5952,9 @@
             "Guarayu\u2013Sirion\u00f3", 
             "Guarayu"
         ], 
-        "places": []
+        "places": [
+            "bolivia"
+        ]
     }, 
     "Khalaj language": {
         "difficulty": "NA", 
@@ -5604,7 +5966,9 @@
             "[2]", 
             "Khalaj"
         ], 
-        "places": []
+        "places": [
+            "iran"
+        ]
     }, 
     "Church Slavonic": {
         "difficulty": "NA", 
@@ -5641,7 +6005,9 @@
             "Tsez\u2013Hinukh", 
             "Tsez"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Miskito language": {
         "difficulty": "NA", 
@@ -5650,7 +6016,7 @@
             "Misumalpan", 
             "Miskito"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Hmu language": {
         "difficulty": "NA", 
@@ -5661,7 +6027,9 @@
             "Core Hmongic", 
             "Hmu"
         ], 
-        "places": []
+        "places": [
+            "china"
+        ]
     }, 
     "Nauruan language": {
         "difficulty": "NA", 
@@ -5673,7 +6041,7 @@
             "Micronesian", 
             "Nauruan"
         ], 
-        "places": []
+        "places": "language\u00a0in Nauru"
     }, 
     "Tobian language": {
         "difficulty": "NA", 
@@ -5688,7 +6056,7 @@
             "Echangese", 
             "Tobian"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Palau"
     }, 
     "Scottish Gaelic": {
         "difficulty": "super hard", 
@@ -5700,7 +6068,7 @@
             "Goidelic", 
             "Scottish Gaelic"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Koryak language": {
         "difficulty": "whizkid", 
@@ -5710,7 +6078,9 @@
             "Chukotkan", 
             "Koryak"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Lambadi": {
         "difficulty": "NA", 
@@ -5724,7 +6094,9 @@
             "Rajasthani", 
             "Lambadi"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Negidal language": {
         "difficulty": "NA", 
@@ -5735,7 +6107,9 @@
             "Evenki group", 
             "Negidal"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Pur\u00e9pecha language": {
         "difficulty": "NA", 
@@ -5743,7 +6117,9 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Balochi language": {
         "difficulty": "hard", 
@@ -5756,7 +6132,7 @@
             "Northwestern", 
             "Balochi"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Bororo language": {
         "difficulty": "NA", 
@@ -5766,7 +6142,9 @@
             "Bororoan", 
             "Bor\u00f4ro"
         ], 
-        "places": []
+        "places": [
+            "brazil"
+        ]
     }, 
     "Xavante language": {
         "difficulty": "NA", 
@@ -5778,7 +6156,9 @@
             "Akuw\u1ebd (Central J\u00ea)", 
             "Xavante"
         ], 
-        "places": []
+        "places": [
+            "brazil"
+        ]
     }, 
     "Crimean Tatar language": {
         "difficulty": "NA", 
@@ -5791,7 +6171,7 @@
             "Cuman", 
             "Crimean Tatar"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Russia\n\u00a0Republic of Crimea[2]\n\u00a0Ukraine[3]\n\n\u00a0Autonomous Republic of Crimea[2]\n\u00a0Sevastopol"
     }, 
     "Karakalpak language": {
         "difficulty": "NA", 
@@ -5803,7 +6183,7 @@
             "Kipchak\u2013Nogai", 
             "Karakalpak"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Uzbekistan\n\u00a0Karakalpakstan\n"
     }, 
     "Kumzari language": {
         "difficulty": "NA", 
@@ -5816,7 +6196,9 @@
             "Southwestern", 
             "Kumzari"
         ], 
-        "places": []
+        "places": [
+            "oman"
+        ]
     }, 
     "Mon language": {
         "difficulty": "NA", 
@@ -5826,7 +6208,7 @@
             "Monic", 
             "Mon"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Ibibio language": {
         "difficulty": "hard", 
@@ -5841,7 +6223,7 @@
             "Ibibio-Efik", 
             "Ibibio"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Sundanese language": {
         "difficulty": "medium", 
@@ -5855,7 +6237,7 @@
             "Greater North Borneo", 
             "Sundanese"
         ], 
-        "places": []
+        "places": "language\u00a0inBanten (regional)West Java (regional)"
     }, 
     "Hixkaryana language": {
         "difficulty": "NA", 
@@ -5866,7 +6248,9 @@
             "Waiwai", 
             "Hixkary\u00e1na"
         ], 
-        "places": []
+        "places": [
+            "brazil"
+        ]
     }, 
     "Laki language": {
         "difficulty": "NA", 
@@ -5883,7 +6267,7 @@
             ")", 
             "Laki"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Malto language": {
         "difficulty": "NA", 
@@ -5894,7 +6278,9 @@
             "Kurukh\u2013Malto", 
             "Malto"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Jingpho language": {
         "difficulty": "NA", 
@@ -5905,7 +6291,7 @@
             "Jingpho\u2013Luish", 
             "Jingpho"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Sardinian language": {
         "difficulty": "NA", 
@@ -5916,7 +6302,9 @@
             "Romance", 
             "Sardinian"
         ], 
-        "places": []
+        "places": [
+            "italy"
+        ]
     }, 
     "Siberian Tatar language": {
         "difficulty": "NA", 
@@ -5928,7 +6316,9 @@
             "Kipchak-Nogay", 
             "Siberian Tatar"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Mono language (California)": {
         "difficulty": "NA", 
@@ -5939,7 +6329,7 @@
             "Western Numic", 
             "Mono"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Khowar language": {
         "difficulty": "NA", 
@@ -5951,7 +6341,9 @@
             "Dardic", 
             "Khowar"
         ], 
-        "places": []
+        "places": [
+            "pakistan"
+        ]
     }, 
     "Dhatki language": {
         "difficulty": "NA", 
@@ -5965,7 +6357,7 @@
             "Marwari", 
             "Dhatki"
         ], 
-        "places": []
+        "places": "Pakistan and India (Marwar region of Rajasthan and Thar region of Sindh)(sociolect)"
     }, 
     "Aguaruna language": {
         "difficulty": "NA", 
@@ -5974,7 +6366,7 @@
             "Chicham", 
             "Aguaruna"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Puelche language": {
         "difficulty": "NA", 
@@ -5984,7 +6376,9 @@
             "Puelche\u2013Het\u00a0?", 
             "Puelche"
         ], 
-        "places": []
+        "places": [
+            "argentina"
+        ]
     }, 
     "Kham language": {
         "difficulty": "NA", 
@@ -5995,7 +6389,9 @@
             "Magaric", 
             "Kham"
         ], 
-        "places": []
+        "places": [
+            "nepal"
+        ]
     }, 
     "Huave language": {
         "difficulty": "NA", 
@@ -6003,7 +6399,9 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Tangut language": {
         "difficulty": "NA", 
@@ -6014,7 +6412,7 @@
             "Northern", 
             "Tangut"
         ], 
-        "places": []
+        "places": "language\u00a0inWestern Xia"
     }, 
     "Puma language": {
         "difficulty": "NA", 
@@ -6041,7 +6439,9 @@
             "Sorbian", 
             "Lower Sorbian"
         ], 
-        "places": []
+        "places": [
+            "germany"
+        ]
     }, 
     "Ollari language": {
         "difficulty": "super hard", 
@@ -6052,7 +6452,9 @@
             "Parji\u2013Gadaba", 
             "Ollari Kondekor"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Latgalian language": {
         "difficulty": "NA", 
@@ -6066,7 +6468,7 @@
             "Latgalian", 
             " Eastern Latvian"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Somali language": {
         "difficulty": "medium", 
@@ -6091,7 +6493,9 @@
             "Mehri\u2013Soqotri", 
             "Soqotri"
         ], 
-        "places": []
+        "places": [
+            "yemen"
+        ]
     }, 
     "Lipan language": {
         "difficulty": "NA", 
@@ -6104,7 +6508,7 @@
             "Eastern", 
             "Lipan"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Swazi language": {
         "difficulty": "hard", 
@@ -6122,7 +6526,7 @@
             "Tekela", 
             "Swazi"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0South Africa\u00a0Eswatini"
     }, 
     "Dagur language": {
         "difficulty": "super hard", 
@@ -6131,7 +6535,7 @@
             "Mongolic", 
             "Dagur"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Lillooet language": {
         "difficulty": "NA", 
@@ -6142,7 +6546,9 @@
             "Northern", 
             "Lillooet"
         ], 
-        "places": []
+        "places": [
+            "canada"
+        ]
     }, 
     "Bashkir language": {
         "difficulty": "hard", 
@@ -6154,7 +6560,7 @@
             "North Kipchak", 
             "Bashkir"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Russia\n\u00a0Bashkortostan\n"
     }, 
     "Livonian language": {
         "difficulty": "NA", 
@@ -6165,7 +6571,9 @@
             "Southern Finnic", 
             "Livonian"
         ], 
-        "places": []
+        "places": [
+            "latvia"
+        ]
     }, 
     "Gora dialect": {
         "difficulty": "super hard", 
@@ -6179,7 +6587,7 @@
             "Torlakian", 
             "Gorani language"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Greek language": {
         "difficulty": "medium", 
@@ -6201,7 +6609,7 @@
             "Guaran\u00ed", 
             "Guaran\u00ed"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Paraguay  \u00a0Bolivia  \u00a0Argentina (Corrientes Province)[2] \u00a0Brazil (Mato Grosso do Sul) Mercosur"
     }, 
     "Chimane language": {
         "difficulty": "NA", 
@@ -6210,7 +6618,9 @@
             "Moseten\u2013Chonan", 
             "Chimane"
         ], 
-        "places": []
+        "places": [
+            "bolivia"
+        ]
     }, 
     "Muher language": {
         "difficulty": "NA", 
@@ -6237,7 +6647,9 @@
             "Kannada\u2013Badaga", 
             "Kannada"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Portuguese language": {
         "difficulty": "NA", 
@@ -6252,7 +6664,7 @@
             "Galician-Portuguese", 
             "Portuguese"
         ], 
-        "places": []
+        "places": "language\u00a0in\n9 countries\n \u00a0Angola\n \u00a0Brazil\n \u00a0Cape Verde\n \u00a0East Timor\n \u00a0Equatorial Guinea[2]\n \u00a0Guinea-Bissau\n \u00a0Mozambique\n \u00a0Portugal\n \u00a0S\u00e3o Tom\u00e9 and Pr\u00edncipe\n\n\n\n1 dependency\n\u00a0Macau\n\n"
     }, 
     "Oroch language": {
         "difficulty": "NA", 
@@ -6263,7 +6675,9 @@
             "Oroch Group", 
             "Oroch"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Azerbaijani language": {
         "difficulty": "NA", 
@@ -6275,7 +6689,7 @@
             "Western Oghuz", 
             "Azerbaijani"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Azerbaijan\u00a0Dagestan (Russia)\n\nOrganisations:\n Turkic Council\n\n"
     }, 
     "Yevanic language": {
         "difficulty": "NA", 
@@ -6287,7 +6701,7 @@
             "Attic", 
             "Yevanic"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Berta language": {
         "difficulty": "very hard", 
@@ -6297,7 +6711,7 @@
             "Berta languages", 
             "Berta"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Ladin language": {
         "difficulty": "NA", 
@@ -6311,7 +6725,7 @@
             "Rhaeto-Romance", 
             "Ladin"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Lakota language": {
         "difficulty": "whizkid", 
@@ -6324,7 +6738,7 @@
             "Sioux", 
             "Lakota"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Chickasaw language": {
         "difficulty": "NA", 
@@ -6334,7 +6748,7 @@
             "Western Muskogean", 
             "Chickasaw"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Italian language": {
         "difficulty": "medium", 
@@ -6347,7 +6761,7 @@
             "Italo-Dalmatian", 
             "Italian"
         ], 
-        "places": []
+        "places": "language\u00a0in\n4 countries\n\u00a0Italy\n\u00a0San Marino\n\u00a0\u00a0Switzerland\n\u00a0\u00a0Vatican City\n\n\n\n2 dependencies\n Slovene Istria (Slovenia)\n\u00a0Istria County (Croatia)\n\n\n\nAn order and various organisations\n \u00a0Sovereign Military Order of Malta[5]\n\u00a0European Union\n FAO\n\u00a0\u00a0Holy See\n OSCE\n IDLO\n IIHL\nMediterranean Universities Union\nUNICRI\nUNIDROIT\nand others\n\n"
     }, 
     "Tarahumara language": {
         "difficulty": "NA", 
@@ -6357,7 +6771,9 @@
             "Tarahumaran languages", 
             "Tarahumara"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Ratagnon language": {
         "difficulty": "NA", 
@@ -6372,7 +6788,9 @@
             "Kuyan", 
             "Ratagnon"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Komi language": {
         "difficulty": "NA", 
@@ -6382,7 +6800,9 @@
             "Permic", 
             "Komi language"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Askunu language": {
         "difficulty": "NA", 
@@ -6394,7 +6814,9 @@
             "Southern", 
             "Asku\u0148u"
         ], 
-        "places": []
+        "places": [
+            "afghanistan"
+        ]
     }, 
     "Tulu language": {
         "difficulty": "NA", 
@@ -6405,7 +6827,9 @@
             "Tulu languages", 
             "Tulu"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Tagalog language": {
         "difficulty": "medium", 
@@ -6417,7 +6841,9 @@
             "Central Philippine", 
             "Tagalog"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Juang language": {
         "difficulty": "super hard", 
@@ -6428,7 +6854,9 @@
             "South", 
             "Juang"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Balinese language": {
         "difficulty": "hard", 
@@ -6464,7 +6892,9 @@
             "Eastern Baltic", 
             "Lithuanian"
         ], 
-        "places": []
+        "places": [
+            "lithuania"
+        ]
     }, 
     "Kwasio language": {
         "difficulty": "NA", 
@@ -6482,7 +6912,7 @@
             "Mvumboic", 
             "Kwasio"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Sivandi language": {
         "difficulty": "NA", 
@@ -6493,7 +6923,9 @@
             "Iranian", 
             "Sivandi"
         ], 
-        "places": []
+        "places": [
+            "iran"
+        ]
     }, 
     "French language": {
         "difficulty": "medium", 
@@ -6520,7 +6952,9 @@
             "Canaanite", 
             "Hebrew"
         ], 
-        "places": []
+        "places": [
+            "israel"
+        ]
     }, 
     "Kap\u00f3ng language": {
         "difficulty": "NA", 
@@ -6532,7 +6966,7 @@
             "Pem\u00f3ng", 
             "Kap\u00f3ng"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Menominee language": {
         "difficulty": "NA", 
@@ -6542,7 +6976,7 @@
             "Algonquian", 
             "Menominee"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Maguindanao language": {
         "difficulty": "hard", 
@@ -6555,7 +6989,9 @@
             "Danao", 
             "Maguindanao"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Lozi language": {
         "difficulty": "NA", 
@@ -6572,7 +7008,7 @@
             "Sotho\u2013Tswana", 
             "Lozi"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Madiya language": {
         "difficulty": "NA", 
@@ -6584,7 +7020,9 @@
             "Gondi", 
             "Maria"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Nagarchal language": {
         "difficulty": "NA", 
@@ -6593,7 +7031,9 @@
             "Dravidian", 
             "Nagarchal"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Kaingang language": {
         "difficulty": "NA", 
@@ -6605,7 +7045,9 @@
             "Southern J\u00ea", 
             "Kaingang"
         ], 
-        "places": []
+        "places": [
+            "brazil"
+        ]
     }, 
     "Kalami language": {
         "difficulty": "NA", 
@@ -6618,7 +7060,9 @@
             "Kohistani", 
             "Kalami"
         ], 
-        "places": []
+        "places": [
+            "pakistan"
+        ]
     }, 
     "Dothraki language": {
         "difficulty": "NA", 
@@ -6642,7 +7086,7 @@
             "Ovambo", 
             "Kwanyama"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Surigaonon language": {
         "difficulty": "NA", 
@@ -6657,7 +7101,9 @@
             "Southern Bisayan", 
             "Surigaonon"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Chavacano": {
         "difficulty": "NA", 
@@ -6666,7 +7112,9 @@
             "Spanish-based creole", 
             "Chavacano"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Greenlandic language": {
         "difficulty": "NA", 
@@ -6677,7 +7125,9 @@
             "Inuit", 
             "Greenlandic"
         ], 
-        "places": []
+        "places": [
+            "greenland"
+        ]
     }, 
     "Soddo language": {
         "difficulty": "NA", 
@@ -6692,7 +7142,9 @@
             "n-group", 
             "Soddo"
         ], 
-        "places": []
+        "places": [
+            "ethiopia"
+        ]
     }, 
     "Tswana language": {
         "difficulty": "NA", 
@@ -6709,7 +7161,7 @@
             "Sotho\u2013Tswana", 
             "Tswana"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Botswana\u00a0South Africa\u00a0Zimbabwe"
     }, 
     "Mad\u00ed language": {
         "difficulty": "NA", 
@@ -6718,7 +7170,7 @@
             "Arawan", 
             "Mad\u00ed"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Badaga language": {
         "difficulty": "NA", 
@@ -6729,7 +7181,9 @@
             "Tamil\u2013Kannada", 
             "Badaga"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Lengue language": {
         "difficulty": "NA", 
@@ -6747,7 +7201,7 @@
             " (b. 20)", 
             "Lengue"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Munduruku language": {
         "difficulty": "NA", 
@@ -6769,7 +7223,7 @@
             "Chuanqiandian cluster", 
             "Hmong / Miao"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Hoby\u00f3t language": {
         "difficulty": "NA", 
@@ -6781,7 +7235,7 @@
             "Modern South Arabian", 
             "Hobyot"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Kyrgyz language": {
         "difficulty": "hard", 
@@ -6793,7 +7247,7 @@
             "Kyrgyz\u2013Kipchak", 
             "Kyrgyz"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Kyrgyzstan\n\u00a0China\n\nKizilsu Kyrgyz Autonomous Prefecture\n\nOrganisations:\n Turkic Council Collective Security Treaty Organization\n\n"
     }, 
     "Hulaul\u00e1 language": {
         "difficulty": "NA", 
@@ -6808,7 +7262,7 @@
             "Northeastern", 
             "Hulaul\u00e1"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Igbo language": {
         "difficulty": "medium", 
@@ -6821,7 +7275,9 @@
             "Igboid", 
             "Igbo"
         ], 
-        "places": []
+        "places": [
+            "nigeria"
+        ]
     }, 
     "Monguor language": {
         "difficulty": "NA", 
@@ -6831,7 +7287,9 @@
             "Shirongolic", 
             "Monguor"
         ], 
-        "places": []
+        "places": [
+            "china"
+        ]
     }, 
     "Chittagonian language": {
         "difficulty": "medium", 
@@ -6844,7 +7302,9 @@
             "Bengali\u2013Assamese", 
             "Chittagonian"
         ], 
-        "places": []
+        "places": [
+            "bangladesh"
+        ]
     }, 
     "Basaa language": {
         "difficulty": "NA", 
@@ -6862,7 +7322,9 @@
             " (A.40)", 
             "Basaa"
         ], 
-        "places": []
+        "places": [
+            "cameroon"
+        ]
     }, 
     "Magahi language": {
         "difficulty": "NA", 
@@ -6875,7 +7337,9 @@
             "Bihari", 
             "Magahi"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Telugu language": {
         "difficulty": "medium", 
@@ -6887,7 +7351,9 @@
             "Proto-Telugu", 
             "Telugu"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Russian language": {
         "difficulty": "easy", 
@@ -6899,7 +7365,7 @@
             "East Slavic", 
             "Russian"
         ], 
-        "places": []
+        "places": "language\u00a0in\n11 states\n\u00a0Russia (state)[2]\n\u00a0Belarus (state)[3]\n\u00a0Kazakhstan (co-official)[4]\n\u00a0Kyrgyzstan (co-official)[5]\n\u00a0Tajikistan[6] \n\u00a0Uzbekistan (inter-ethnic communication)[7][8][9]\n\u00a0Ukraine:\n\u00a0Autonomous Republic of Crimea[note 2]\n\u00a0Turkmenistan (inter-ethnic communication)\n\u00a0Moldova:\n\u00a0Gagauzia (co-official)[10]\nTransnistria (co-official)\nPartially recognized states:\n\u00a0Abkhazia[11](co-official)[12]\n\u00a0South Ossetia[11](state)[13]\nOrganizations:\n\u00a0United Nations\nIAEA\nICAO\nUNESCO\nWHO\nCIS\nWarsaw Pact (defunct)\nEAEC\nCSTO\nCMEA (defunct)\nGUAM[14] \nSCO\n OSCE\nATS\n ISO\n"
     }, 
     "Tharu languages": {
         "difficulty": "hard", 
@@ -6912,7 +7378,7 @@
             "Bihari", 
             "Tharu"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Zay language": {
         "difficulty": "NA", 
@@ -6927,7 +7393,9 @@
             "Harari\u2013East Gurage", 
             "Zay"
         ], 
-        "places": []
+        "places": [
+            "ethiopia"
+        ]
     }, 
     "Chilcotin language": {
         "difficulty": "NA", 
@@ -6939,7 +7407,9 @@
             "Northern Athabaskan", 
             "Chilcotin"
         ], 
-        "places": []
+        "places": [
+            "canada"
+        ]
     }, 
     "Kutenai language": {
         "difficulty": "NA", 
@@ -6947,7 +7417,7 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Fang language": {
         "difficulty": "hard", 
@@ -6966,7 +7436,7 @@
             "Beti", 
             "Fang"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Zulu language": {
         "difficulty": "medium", 
@@ -6984,7 +7454,7 @@
             "Zunda", 
             "Zulu"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0South Africa"
     }, 
     "Japanese language": {
         "difficulty": "NA", 
@@ -6993,7 +7463,9 @@
             "Japonic", 
             "Japanese"
         ], 
-        "places": []
+        "places": [
+            "japan"
+        ]
     }, 
     "Nuxalk language": {
         "difficulty": "NA", 
@@ -7002,7 +7474,9 @@
             "Salishan", 
             "Nuxalk"
         ], 
-        "places": []
+        "places": [
+            "canada"
+        ]
     }, 
     "Inari Sami": {
         "difficulty": "NA", 
@@ -7013,7 +7487,9 @@
             "Eastern", 
             "Inari Sami"
         ], 
-        "places": []
+        "places": [
+            "finland"
+        ]
     }, 
     "Khmu language": {
         "difficulty": "NA", 
@@ -7023,7 +7499,7 @@
             "Khmuic", 
             "Kmhmu'\u2019"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Slovene language": {
         "difficulty": "hard", 
@@ -7036,7 +7512,7 @@
             "Western", 
             "Slovene"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Slovenia \u00a0European Union"
     }, 
     "Mohawk language": {
         "difficulty": "NA", 
@@ -7049,7 +7525,7 @@
             "Mohawk\u2013Oneida", 
             "Mohawk"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Fijian language": {
         "difficulty": "NA", 
@@ -7062,7 +7538,9 @@
             "East Fijian", 
             "Fijian"
         ], 
-        "places": []
+        "places": [
+            "fiji"
+        ]
     }, 
     "Serbian language": {
         "difficulty": "NA", 
@@ -7075,7 +7553,7 @@
             "Serbo-Croatian", 
             "Serbian language"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Serbia\n\u00a0Kosovo[a] (co-official)\n\u00a0Bosnia and Herzegovina (co-official)\n\n\u00a0Montenegro[2] (\"in official use\")"
     }, 
     "Masbate\u00f1o language": {
         "difficulty": "NA", 
@@ -7089,7 +7567,9 @@
             "Central Bisayan", 
             "Masbate\u00f1o"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Marathi language": {
         "difficulty": "medium", 
@@ -7103,7 +7583,9 @@
             "Marathi\u2013Konkani", 
             "Marathi"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Venetian language": {
         "difficulty": "hard", 
@@ -7119,7 +7601,7 @@
             "[7]", 
             "Venetian"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Waray language": {
         "difficulty": "hard", 
@@ -7133,7 +7615,9 @@
             "Central Bisayan", 
             "Waray"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Suba language": {
         "difficulty": "NA", 
@@ -7149,7 +7633,9 @@
             "Logooli-Kuria", 
             "Suba"
         ], 
-        "places": []
+        "places": [
+            "kenya"
+        ]
     }, 
     "Ili Turki language": {
         "difficulty": "NA", 
@@ -7160,7 +7646,7 @@
             "Karluk", 
             "Ili Turki"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Cheyenne language": {
         "difficulty": "NA", 
@@ -7170,7 +7656,7 @@
             "Algonquian", 
             "Cheyenne"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Tregami language": {
         "difficulty": "NA", 
@@ -7182,7 +7668,9 @@
             "Southern", 
             "Tregami"
         ], 
-        "places": []
+        "places": [
+            "afghanistan"
+        ]
     }, 
     "Cuicatec language": {
         "difficulty": "NA", 
@@ -7192,7 +7680,9 @@
             "Mixtecan", 
             "Cuicatec"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Mandinka language": {
         "difficulty": "hard", 
@@ -7204,7 +7694,7 @@
             "West Manding", 
             "Mandinka"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Huastec language": {
         "difficulty": "NA", 
@@ -7214,7 +7704,9 @@
             "Huastecan", 
             "Wastek"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Navajo language": {
         "difficulty": "NA", 
@@ -7228,7 +7720,7 @@
             "Western", 
             "Navajo"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Franco-Proven\u00e7al language": {
         "difficulty": "NA", 
@@ -7241,7 +7733,7 @@
             "Gallo-Romance", 
             "Franco-Proven\u00e7al"
         ], 
-        "places": []
+        "places": "e Franco-Proven\u00e7al language area:\nDark blue: protected.\nMedium blue: general regions.\nLight blue: historical transition zone.\n"
     }, 
     "Coeur d'Alene language": {
         "difficulty": "NA", 
@@ -7252,7 +7744,7 @@
             "Southern", 
             "Coeur d'Alene"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Kikuyu language": {
         "difficulty": "hard", 
@@ -7271,7 +7763,9 @@
             "Kikuyu\u2013Embu", 
             "Kikuyu"
         ], 
-        "places": []
+        "places": [
+            "kenya"
+        ]
     }, 
     "Supyire language": {
         "difficulty": "NA", 
@@ -7283,7 +7777,7 @@
             "Suppire\u2013Mamara", 
             "Supyire"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Haitian Creole": {
         "difficulty": "NA", 
@@ -7294,7 +7788,9 @@
             "[3]", 
             "Haitian Creole"
         ], 
-        "places": []
+        "places": [
+            "haiti"
+        ]
     }, 
     "Chhattisgarhi language": {
         "difficulty": "medium", 
@@ -7307,7 +7803,9 @@
             "Eastern Hindi", 
             "Chhattisgarhi"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Malayalam": {
         "difficulty": "medium", 
@@ -7321,7 +7819,9 @@
             "Tamil-Malayalam", 
             "Malayalam"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Alyutor language": {
         "difficulty": "whizkid", 
@@ -7331,7 +7831,9 @@
             "Chukotkan", 
             "Alyutor"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "M\u0101ori language": {
         "difficulty": "NA", 
@@ -7347,7 +7849,7 @@
             "Moriori", 
             "M\u0101ori"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0New Zealand"
     }, 
     "Konkani language": {
         "difficulty": "hard", 
@@ -7360,7 +7862,9 @@
             "Marathi\u2013Konkani", 
             "Konkani"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Macedonian language": {
         "difficulty": "NA", 
@@ -7373,7 +7877,7 @@
             "Eastern South Slavic", 
             "Macedonian"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0North Macedonia"
     }, 
     "Senaya language": {
         "difficulty": "whizkid", 
@@ -7388,7 +7892,9 @@
             "Assyrian Neo-Aramaic", 
             "Senaya"
         ], 
-        "places": []
+        "places": [
+            "iran"
+        ]
     }, 
     "Tokelauan language": {
         "difficulty": "NA", 
@@ -7401,7 +7907,7 @@
             "Samoan\u2013Tokelauan?", 
             "Tokelauan"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Tokelau"
     }, 
     "Khandeshi language": {
         "difficulty": "hard", 
@@ -7414,7 +7920,7 @@
             "[2]", 
             "Khandeshi"
         ], 
-        "places": []
+        "places": "of the Khandesh region in India"
     }, 
     "Belarusian language": {
         "difficulty": "hard", 
@@ -7426,7 +7932,9 @@
             "East Slavic", 
             "Belarusian"
         ], 
-        "places": []
+        "places": [
+            "belarus"
+        ]
     }, 
     "Hinuq language": {
         "difficulty": "NA", 
@@ -7437,7 +7945,9 @@
             "Tsez\u2013Hinukh", 
             "Hinukh"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Eastern Yugur language": {
         "difficulty": "NA", 
@@ -7447,7 +7957,9 @@
             "Southern Mongolic", 
             "Eastern Yugur"
         ], 
-        "places": []
+        "places": [
+            "china"
+        ]
     }, 
     "Walloon language": {
         "difficulty": "NA", 
@@ -7461,7 +7973,7 @@
             "O\u00efl", 
             "Walloon"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Nafaanra": {
         "difficulty": "super hard", 
@@ -7473,7 +7985,7 @@
             "Southern", 
             "Nafaanra"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "S'gaw Karen language": {
         "difficulty": "NA", 
@@ -7484,7 +7996,7 @@
             "Sgaw\u2013Bghai", 
             "Karen language"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Myanmar(\u00a0Kayin State)"
     }, 
     "Ibanag language": {
         "difficulty": "NA", 
@@ -7497,7 +8009,9 @@
             "Cagayan Valley", 
             "Ibanag"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Kumeyaay language": {
         "difficulty": "whizkid", 
@@ -7508,7 +8022,7 @@
             "Delta\u2013California", 
             "Kumeyaay"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Luganda": {
         "difficulty": "NA", 
@@ -7526,7 +8040,9 @@
             "Nyoro-Ganda", 
             "Luganda"
         ], 
-        "places": []
+        "places": [
+            "uganda"
+        ]
     }, 
     "Dargwa language": {
         "difficulty": "NA", 
@@ -7536,7 +8052,9 @@
             "Dargin", 
             "Dargwa"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Q\u02bceqchi\u02bc language": {
         "difficulty": "NA", 
@@ -7547,7 +8065,7 @@
             "Greater Quichean", 
             "Q\u02bceqchi\u02bc"
         ], 
-        "places": []
+        "places": "language\u00a0in(national language of Guatemala[2])"
     }, 
     "Betawi language": {
         "difficulty": "hard", 
@@ -7556,7 +8074,9 @@
             "Malay-based creole", 
             "Betawi"
         ], 
-        "places": []
+        "places": [
+            "indonesia"
+        ]
     }, 
     "Northeast Malakula language": {
         "difficulty": "NA", 
@@ -7571,7 +8091,7 @@
             "Eastern", 
             "Northeast Malakula"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Even language": {
         "difficulty": "NA", 
@@ -7581,7 +8101,9 @@
             "Northern", 
             "Even"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Afar language": {
         "difficulty": "NA", 
@@ -7593,7 +8115,7 @@
             "Saho\u2013Afar", 
             "Afar"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Blackfoot language": {
         "difficulty": "whizkid", 
@@ -7604,7 +8126,7 @@
             "Plains Algonquian", 
             "Siksika"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Burmese language": {
         "difficulty": "medium", 
@@ -7615,7 +8137,7 @@
             "Burmish", 
             "Burmese"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Myanmar\n\n\u00a0ASEAN"
     }, 
     "Asturian language": {
         "difficulty": "NA", 
@@ -7630,7 +8152,9 @@
             "Astur-Leonese", 
             "Asturian"
         ], 
-        "places": []
+        "places": [
+            "spain"
+        ]
     }, 
     "Dagbani language": {
         "difficulty": "NA", 
@@ -7660,7 +8184,9 @@
             "Central Pahari", 
             "Kumaoni"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Moghol language": {
         "difficulty": "NA", 
@@ -7669,7 +8195,9 @@
             "Mongolic", 
             "Mogholi"
         ], 
-        "places": []
+        "places": [
+            "afghanistan"
+        ]
     }, 
     "Aklanon language": {
         "difficulty": "NA", 
@@ -7683,7 +8211,9 @@
             "Western Bisayan", 
             "Aklanon"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Wa language": {
         "difficulty": "NA", 
@@ -7708,7 +8238,9 @@
             "Ormuri\u2013Parachi", 
             "Parachi"
         ], 
-        "places": []
+        "places": [
+            "afghanistan"
+        ]
     }, 
     "Mundari language": {
         "difficulty": "NA", 
@@ -7721,7 +8253,7 @@
             "Mundaric", 
             "Mundari"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0India (Jharkhand)"
     }, 
     "Duala language": {
         "difficulty": "NA", 
@@ -7740,7 +8272,9 @@
             "Sawabantu", 
             "Douala"
         ], 
-        "places": []
+        "places": [
+            "cameroon"
+        ]
     }, 
     "Lunda language": {
         "difficulty": "very hard", 
@@ -7760,7 +8294,7 @@
             " (L.50)", 
             "Lunda"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Q\u02bcanjob\u02bcal language": {
         "difficulty": "super hard", 
@@ -7773,7 +8307,9 @@
             "Kanjobal\u2013Jacaltec", 
             "Q\u02bcanjob\u02bcal"
         ], 
-        "places": []
+        "places": [
+            "guatemala"
+        ]
     }, 
     "Yurok language": {
         "difficulty": "NA", 
@@ -7782,7 +8318,7 @@
             "Algic", 
             "Yurok"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Z\u00e1paro language": {
         "difficulty": "NA", 
@@ -7792,7 +8328,7 @@
             "Z\u00e1paro\u2013Conambo", 
             "Z\u00e1paro"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Maldivian language": {
         "difficulty": "NA", 
@@ -7805,7 +8341,7 @@
             "Insular Indo-Aryan", 
             "Dhivehi"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Maldives"
     }, 
     "Aragonese language": {
         "difficulty": "NA", 
@@ -7821,7 +8357,9 @@
             "Navarro-Aragonese", 
             "Aragonese"
         ], 
-        "places": []
+        "places": [
+            "spain"
+        ]
     }, 
     "Hawaiian language": {
         "difficulty": "NA", 
@@ -7835,7 +8373,7 @@
             "Marquesic", 
             "Hawaiian"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0United States\n\u00a0Hawaii\n"
     }, 
     "Bete language (Nigeria)": {
         "difficulty": "NA", 
@@ -7849,7 +8387,7 @@
             "Bete\u2013Lufu", 
             "Bete"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Herero language": {
         "difficulty": "NA", 
@@ -7866,7 +8404,7 @@
             "Southwest Bantu", 
             "Herero"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Ishkashimi language": {
         "difficulty": "NA", 
@@ -7879,7 +8417,7 @@
             "Sanglechi-Ishkashimi", 
             "Ishkashimi"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Uyghur language": {
         "difficulty": "NA", 
@@ -7890,7 +8428,7 @@
             "Karluk", 
             "Uyghur"
         ], 
-        "places": []
+        "places": "language\u00a0in China\nXinjiang[2]\n"
     }, 
     "Albanian language": {
         "difficulty": "hard", 
@@ -7899,7 +8437,7 @@
             "Indo-European", 
             "Albanian"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Albania\u00a0Kosovo\u00a0North Macedonia[a]\u00a0Montenegro[a][3]"
     }, 
     "Saterland Frisian language": {
         "difficulty": "NA", 
@@ -7914,7 +8452,9 @@
             "East Frisian", 
             "Saterland Frisian"
         ], 
-        "places": []
+        "places": [
+            "germany"
+        ]
     }, 
     "Jalaa language": {
         "difficulty": "NA", 
@@ -7922,7 +8462,9 @@
         "family": [
             "language isolate"
         ], 
-        "places": []
+        "places": [
+            "nigeria"
+        ]
     }, 
     "Caluyanon language": {
         "difficulty": "NA", 
@@ -7936,7 +8478,9 @@
             "Western Bisayan", 
             "Caluyanon"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Swedish language": {
         "difficulty": "hard", 
@@ -7948,7 +8492,7 @@
             "East Scandinavian", 
             "Swedish"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Sweden\u00a0Finland\u00a0\u00c5land Islands\u00a0European Union\u00a0Nordic Council"
     }, 
     "Waddar language": {
         "difficulty": "NA", 
@@ -7961,7 +8505,7 @@
             "Telugu", 
             "Waddar"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Moksha language": {
         "difficulty": "very hard", 
@@ -7971,7 +8515,9 @@
             "Mordvinic", 
             "Moksha"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Danish language": {
         "difficulty": "hard", 
@@ -7984,7 +8530,7 @@
             "[3]", 
             "Danish"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Kingdom of Denmark\u00a0\u2022  \u00a0Denmark\u00a0\u2022  \u00a0Faroe Islands\u00a0Nordic Council\u00a0European Union"
     }, 
     "Ludic language": {
         "difficulty": "NA", 
@@ -7995,7 +8541,7 @@
             "Northern Finnic", 
             "Ludic"
         ], 
-        "places": []
+        "places": "language\u00a0inrecognised as minority language in:Republic of Karelia[2]"
     }, 
     "Awadhi language": {
         "difficulty": "NA", 
@@ -8008,7 +8554,7 @@
             "Eastern Hindi", 
             "Awadhi"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Fiji (as the Fiji Hindi dialect)"
     }, 
     "Sora language": {
         "difficulty": "very hard", 
@@ -8029,7 +8575,7 @@
             "Tanoan", 
             "Tewa"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Slavey language": {
         "difficulty": "whizkid", 
@@ -8041,7 +8587,9 @@
             "Northern Athabaskan", 
             "Slavey"
         ], 
-        "places": []
+        "places": [
+            "canada"
+        ]
     }, 
     "Corsican language": {
         "difficulty": "very hard", 
@@ -8055,7 +8603,7 @@
             "[2]", 
             "Corsican"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Khwarezmian language": {
         "difficulty": "NA", 
@@ -8067,7 +8615,7 @@
             "Eastern", 
             "Khw\u0101rezmian"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Inupiaq language": {
         "difficulty": "whizkid", 
@@ -8077,7 +8625,7 @@
             "Inuit", 
             "I\u00f1upiaq"
         ], 
-        "places": []
+        "places": "language\u00a0inAlaska,[2] Northwest Territories (as Inuvialuktun, Uummarmiutun dialect)"
     }, 
     "Bikya language": {
         "difficulty": "whizkid", 
@@ -8092,7 +8640,9 @@
             "Furu", 
             "Bikya"
         ], 
-        "places": []
+        "places": [
+            "cameroon"
+        ]
     }, 
     "Yidgha language": {
         "difficulty": "NA", 
@@ -8106,7 +8656,7 @@
             "?", 
             "Yidgha"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Pardhan language": {
         "difficulty": "NA", 
@@ -8118,7 +8668,9 @@
             "Gondi", 
             "Pardhan"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Tajik language": {
         "difficulty": "hard", 
@@ -8132,7 +8684,7 @@
             "Persian", 
             "Tajik/Tajiki"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Tajikistan"
     }, 
     "Chulym language": {
         "difficulty": "NA", 
@@ -8143,7 +8695,9 @@
             "Siberian Turkic", 
             "Chulym"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Talysh language": {
         "difficulty": "NA", 
@@ -8159,7 +8713,7 @@
             "[2]", 
             "Talysh"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Hungarian language": {
         "difficulty": "medium", 
@@ -8173,7 +8727,7 @@
             "[4]", 
             "Hungarian"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Hungary\u00a0Vojvodina\u00a0European Union"
     }, 
     "Tai Lue language": {
         "difficulty": "NA", 
@@ -8186,7 +8740,7 @@
             "Chiang Saen", 
             "Tai Lue"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Yaaku language": {
         "difficulty": "NA", 
@@ -8196,7 +8750,9 @@
             "Cushitic", 
             "Yaaku"
         ], 
-        "places": []
+        "places": [
+            "kenya"
+        ]
     }, 
     "Kongo language": {
         "difficulty": "NA", 
@@ -8219,7 +8775,7 @@
             " (H.10)", 
             "Kongo"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Democratic Republic of Congo \u00a0Angola \u00a0Republic of Congo"
     }, 
     "Tati language (Iran)": {
         "difficulty": "NA", 
@@ -8235,7 +8791,9 @@
             "Tatic", 
             "Tati"
         ], 
-        "places": []
+        "places": [
+            "iran"
+        ]
     }, 
     "Newar language": {
         "difficulty": "NA", 
@@ -8245,7 +8803,9 @@
             "Newaric", 
             "Newar"
         ], 
-        "places": []
+        "places": [
+            "nepal"
+        ]
     }, 
     "Turkish language": {
         "difficulty": "medium", 
@@ -8257,7 +8817,7 @@
             "Western Oghuz", 
             "Turkish"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Turkey\u00a0Northern Cyprus\u00a0Cyprus\nOrganisations:\n Turkic CouncilT\u00fcrksoyTAKM\n\n"
     }, 
     "Chichimeca Jonaz language": {
         "difficulty": "NA", 
@@ -8267,7 +8827,9 @@
             "Oto-Pame", 
             "Chichimeca"
         ], 
-        "places": []
+        "places": [
+            "mexico"
+        ]
     }, 
     "Tuvaluan language": {
         "difficulty": "super hard", 
@@ -8281,7 +8843,7 @@
             "Tuvalu\u2013Eastern", 
             "Tuvaluan"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Tuvalu"
     }, 
     "Ticuna language": {
         "difficulty": "NA", 
@@ -8290,7 +8852,7 @@
             "T\u00efcuna\u2013Yuri", 
             "T\u00efcuna"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Indonesian language": {
         "difficulty": "NA", 
@@ -8306,7 +8868,9 @@
             "Malacca (\"Riau\") Malay", 
             "Indonesian"
         ], 
-        "places": []
+        "places": [
+            "indonesia"
+        ]
     }, 
     "Maranao language": {
         "difficulty": "NA", 
@@ -8319,7 +8883,9 @@
             "Danao", 
             "Maranao"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Tepehua languages": {
         "difficulty": "NA", 
@@ -8341,7 +8907,7 @@
             "Lechitic", 
             "Polabian"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Chakma language": {
         "difficulty": "NA", 
@@ -8354,7 +8920,7 @@
             "Bengali\u2013Assamese", 
             "Chakma"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Slovak language": {
         "difficulty": "hard", 
@@ -8367,7 +8933,7 @@
             "Czech\u2013Slovak", 
             "Slovak"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Slovakia\u00a0European Union\u00a0Czech Republic\u00a0Vojvodina[2]"
     }, 
     "Nkore language": {
         "difficulty": "hard", 
@@ -8386,7 +8952,9 @@
             "Nkore-Kiga", 
             "Nkore"
         ], 
-        "places": []
+        "places": [
+            "uganda"
+        ]
     }, 
     "Teso language": {
         "difficulty": "hard", 
@@ -8404,7 +8972,7 @@
             "Ateker", 
             "Ateso"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Tanacross language": {
         "difficulty": "NA", 
@@ -8417,7 +8985,7 @@
             "Northern Athabaskan", 
             "Tanacross"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Alaska[2]"
     }, 
     "Aromanian language": {
         "difficulty": "NA", 
@@ -8430,7 +8998,7 @@
             "Balkan Romance", 
             "Aromanian"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Comorian languages": {
         "difficulty": "very hard", 
@@ -8447,7 +9015,7 @@
             "Sabaki", 
             "Comorian"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Comoros"
     }, 
     "Kalasha-ala": {
         "difficulty": "NA", 
@@ -8459,7 +9027,9 @@
             "Southern", 
             "Waigali"
         ], 
-        "places": []
+        "places": [
+            "afghanistan"
+        ]
     }, 
     "Rotokas language": {
         "difficulty": "NA", 
@@ -8469,7 +9039,7 @@
             "Rotokas\u2013Eivo", 
             "Rotokas"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Samoan language": {
         "difficulty": "NA", 
@@ -8482,7 +9052,7 @@
             "Samoan\u2013Tokelauan", 
             "Samoan"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Samoa\u00a0American Samoa"
     }, 
     "Zoroastrian Dari language": {
         "difficulty": "NA", 
@@ -8498,7 +9068,7 @@
             "Southeastern", 
             "Dari"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Sinhala language": {
         "difficulty": "medium", 
@@ -8511,7 +9081,7 @@
             "Insular Indic", 
             "Sinhala"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Sri Lanka"
     }, 
     "Nyoro language": {
         "difficulty": "NA", 
@@ -8530,7 +9100,9 @@
             "Nyoro-Tooro", 
             "Nyoro"
         ], 
-        "places": []
+        "places": [
+            "uganda"
+        ]
     }, 
     "Akatek language": {
         "difficulty": "NA", 
@@ -8542,7 +9114,7 @@
             "Kanjobal\u2013Jacaltec", 
             "Akateko"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Toda language": {
         "difficulty": "NA", 
@@ -8555,7 +9127,9 @@
             "Toda\u2013Kota", 
             "Toda"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "O\u02bcodham language": {
         "difficulty": "NA", 
@@ -8565,7 +9139,7 @@
             "Piman", 
             "O\u02bcodham"
         ], 
-        "places": []
+        "places": "language\u00a0inOne of the national languages of Mexico[2]"
     }, 
     "Nawat language": {
         "difficulty": "NA", 
@@ -8577,7 +9151,7 @@
             "Eastern", 
             "Nawat"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Livvi-Karelian language": {
         "difficulty": "NA", 
@@ -8588,7 +9162,7 @@
             "Karelian", 
             "Livvi-Karelian"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Munji language": {
         "difficulty": "NA", 
@@ -8602,7 +9176,7 @@
             "?", 
             "Munji"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Votic language": {
         "difficulty": "whizkid", 
@@ -8613,7 +9187,9 @@
             "Southern Finnic", 
             "Votic"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Romblomanon language": {
         "difficulty": "NA", 
@@ -8627,7 +9203,9 @@
             "Central Bisayan", 
             "Romblomanon"
         ], 
-        "places": []
+        "places": [
+            "philippines"
+        ]
     }, 
     "Karelian language": {
         "difficulty": "NA", 
@@ -8638,7 +9216,7 @@
             "Northern Finnic", 
             "Karelian"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Manyika dialect": {
         "difficulty": "hard", 
@@ -8653,7 +9231,7 @@
             " (S.10)", 
             "Manyika"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Mescalero-Chiricahua language": {
         "difficulty": "NA", 
@@ -8667,7 +9245,7 @@
             "Western", 
             "Chiricahua"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Badeshi language": {
         "difficulty": "whizkid", 
@@ -8679,7 +9257,9 @@
             "(unclassified)", 
             "Badeshi"
         ], 
-        "places": []
+        "places": [
+            "pakistan"
+        ]
     }, 
     "Kazakh language": {
         "difficulty": "NA", 
@@ -8691,7 +9271,7 @@
             "Kipchak\u2013Nogai", 
             "Kazakh"
         ], 
-        "places": []
+        "places": "language\u00a0inKazakhstanRussia \nAltai Republic[2]\nChina\n\nIli Kazakh Autonomous Prefecture\nBark\u00f6l Kazakh Autonomous County\nMori Kazakh Autonomous County\nAksay Kazakh Autonomous County\n\nOrganisations:\nTurkic CouncilCollective Security Treaty Organization\n\n"
     }, 
     "Romansh language": {
         "difficulty": "super hard", 
@@ -8705,7 +9285,9 @@
             "Rhaeto-Romance", 
             "Romansh"
         ], 
-        "places": []
+        "places": [
+            "switzerland"
+        ]
     }, 
     "Phuthi language": {
         "difficulty": "NA", 
@@ -8723,7 +9305,7 @@
             "Tekela", 
             "Phuthi"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "N\u01c1ng language": {
         "difficulty": "NA", 
@@ -8733,7 +9315,7 @@
             "\u01c3Kwi", 
             "N\u01c1ng"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Armenian language": {
         "difficulty": "NA", 
@@ -8742,7 +9324,9 @@
             "Indo-European", 
             "Armenian"
         ], 
-        "places": []
+        "places": [
+            "armenia"
+        ]
     }, 
     "Tamil language": {
         "difficulty": "medium", 
@@ -8756,7 +9340,7 @@
             "Tamil languages", 
             "Tamil"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Sri Lanka\u00a0Singapore\u00a0India:\nTamil Nadu[3]\nPuducherry[4]\nOrganizations\n\u00a0ASEAN[5]\n\n"
     }, 
     "Anyin language": {
         "difficulty": "hard", 
@@ -8772,7 +9356,7 @@
             "North", 
             "Anyin"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Palauan language": {
         "difficulty": "NA", 
@@ -8782,7 +9366,7 @@
             "Malayo-Polynesian", 
             "Palauan"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Palau"
     }, 
     "Jicarilla language": {
         "difficulty": "NA", 
@@ -8795,7 +9379,7 @@
             "Eastern", 
             "Jicarilla"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Tumbuka language": {
         "difficulty": "NA", 
@@ -8814,7 +9398,7 @@
             "Nyasa", 
             "Tumbuka"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Persian language": {
         "difficulty": "medium", 
@@ -8827,7 +9411,7 @@
             "Southwestern Iranian", 
             "Persian"
         ], 
-        "places": []
+        "places": "language\u00a0in\n\u00a0Iran (as Farsi)[8]\n\u00a0Afghanistan (as Dari)\n\u00a0Tajikistan (as Tajik)\n"
     }, 
     "Yurats language": {
         "difficulty": "NA", 
@@ -8839,7 +9423,9 @@
             "Enets\u2013Nenets", 
             "Yurats"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Kolami language": {
         "difficulty": "very hard", 
@@ -8850,7 +9436,9 @@
             "Kolami\u2013Naiki", 
             "Kolami"
         ], 
-        "places": []
+        "places": [
+            "india"
+        ]
     }, 
     "Tetum language": {
         "difficulty": "NA", 
@@ -8863,7 +9451,7 @@
             "Tetumic", 
             "Tetun Dili"
         ], 
-        "places": []
+        "places": "language\u00a0inEast Timor"
     }, 
     "Akan language": {
         "difficulty": "NA", 
@@ -8877,7 +9465,9 @@
             "Central Tano", 
             "Akan"
         ], 
-        "places": []
+        "places": [
+            "ghana"
+        ]
     }, 
     "Ute dialect": {
         "difficulty": "whizkid", 
@@ -8889,7 +9479,7 @@
             "Colorado River", 
             "Ute"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Maithili language": {
         "difficulty": "medium", 
@@ -8902,7 +9492,7 @@
             "Bihari", 
             "Maithili"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0India (8th schedule of Constitution of India)\nJharkhand[8] (additional)\n"
     }, 
     "Bissa language": {
         "difficulty": "NA", 
@@ -8944,7 +9534,7 @@
             "Sinagoro\u2013Keapara", 
             "Motu"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Sotho language": {
         "difficulty": "hard", 
@@ -8961,7 +9551,7 @@
             "Sotho\u2013Tswana", 
             "Sotho"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Lesotho\u00a0South Africa\u00a0Zimbabwe"
     }, 
     "Dagaare language": {
         "difficulty": "hard", 
@@ -8976,7 +9566,7 @@
             "Mor\u00e9", 
             "Dagaare"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Yonaguni language": {
         "difficulty": "NA", 
@@ -8988,7 +9578,9 @@
             "Macro-Yaeyama", 
             "Yonaguni"
         ], 
-        "places": []
+        "places": [
+            "japan"
+        ]
     }, 
     "Friulian language": {
         "difficulty": "very hard", 
@@ -9002,7 +9594,9 @@
             "Rhaeto-Romance", 
             "Friulian"
         ], 
-        "places": []
+        "places": [
+            "italy"
+        ]
     }, 
     "Neapolitan language": {
         "difficulty": "hard", 
@@ -9014,7 +9608,9 @@
             "Italo-Dalmatian", 
             "Neapolitan"
         ], 
-        "places": []
+        "places": [
+            "italy"
+        ]
     }, 
     "Mono language (Congo)": {
         "difficulty": "NA", 
@@ -9026,7 +9622,7 @@
             "Mid-Southern", 
             "Mono"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "\u00c4ynu language": {
         "difficulty": "NA", 
@@ -9037,7 +9633,9 @@
             "Karluk", 
             "\u00c4ynu"
         ], 
-        "places": []
+        "places": [
+            "china"
+        ]
     }, 
     "Laal language": {
         "difficulty": "NA", 
@@ -9045,7 +9643,9 @@
         "family": [
             "unclassified"
         ], 
-        "places": []
+        "places": [
+            "chad"
+        ]
     }, 
     "Icelandic language": {
         "difficulty": "NA", 
@@ -9058,7 +9658,9 @@
             "Insular Scandinavian", 
             "Icelandic"
         ], 
-        "places": []
+        "places": [
+            "iceland"
+        ]
     }, 
     "Lombard language": {
         "difficulty": "hard", 
@@ -9072,7 +9674,7 @@
             "Gallo-Italic", 
             "Lombard"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Madurese language": {
         "difficulty": "hard", 
@@ -9084,7 +9686,7 @@
             " (?)", 
             "Madurese"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0East Java (with Javanese and Indonesian)"
     }, 
     "Dolgan language": {
         "difficulty": "NA", 
@@ -9096,7 +9698,9 @@
             "Northern", 
             "Dolgan"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Harari language": {
         "difficulty": "NA", 
@@ -9111,7 +9715,9 @@
             "Harari \u2013 East Gurage", 
             "Harari"
         ], 
-        "places": []
+        "places": [
+            "ethiopia"
+        ]
     }, 
     "Omagua language": {
         "difficulty": "NA", 
@@ -9124,7 +9730,7 @@
             "[2]", 
             "Omagua"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Mayo language": {
         "difficulty": "NA", 
@@ -9134,7 +9740,7 @@
             "C\u00e1hita", 
             "Mayo"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Yaqui language": {
         "difficulty": "super hard", 
@@ -9144,7 +9750,7 @@
             "Cahitan", 
             "Yaqui"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Norman language": {
         "difficulty": "NA", 
@@ -9158,7 +9764,7 @@
             "O\u00efl", 
             "Norman"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Karaim language": {
         "difficulty": "NA", 
@@ -9170,7 +9776,7 @@
             "Kypchak\u2013Cuman", 
             "Karaim language"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Finnish language": {
         "difficulty": "hard", 
@@ -9181,7 +9787,7 @@
             "Northern Finnic", 
             "Finnish"
         ], 
-        "places": []
+        "places": "language\u00a0in\u00a0Finland\u00a0Sweden(official minority language)\u00a0European Union\u00a0Nordic Council"
     }, 
     "Shor language": {
         "difficulty": "NA", 
@@ -9192,7 +9798,9 @@
             "Siberian", 
             "Shor"
         ], 
-        "places": []
+        "places": [
+            "russia"
+        ]
     }, 
     "Cocama language": {
         "difficulty": "whizkid", 
@@ -9205,7 +9813,7 @@
             "[2]", 
             "Cocama"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Sika language": {
         "difficulty": "NA", 
@@ -9217,7 +9825,9 @@
             "Flores\u2013Lembata", 
             "Sika"
         ], 
-        "places": []
+        "places": [
+            "indonesia"
+        ]
     }, 
     "Hadza language": {
         "difficulty": "NA", 
@@ -9225,7 +9835,9 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": [
+            "tanzania"
+        ]
     }, 
     "Wolof language": {
         "difficulty": "NA", 
@@ -9238,7 +9850,7 @@
             "Wolof\u2013Nyun", 
             "Wolof"
         ], 
-        "places": []
+        "places": "NA"
     }, 
     "Xibe language": {
         "difficulty": "NA", 
@@ -9248,7 +9860,9 @@
             "Southern", 
             "Sibe"
         ], 
-        "places": []
+        "places": [
+            "china"
+        ]
     }, 
     "Bua language": {
         "difficulty": "NA", 
@@ -9260,7 +9874,9 @@
             "Bua", 
             "Bua"
         ], 
-        "places": []
+        "places": [
+            "chad"
+        ]
     }, 
     "Kusunda language": {
         "difficulty": "whizkid", 
@@ -9268,7 +9884,9 @@
         "family": [
             "Language isolate"
         ], 
-        "places": []
+        "places": [
+            "nepal"
+        ]
     }, 
     "V\u00f5ro language": {
         "difficulty": "super hard", 
@@ -9279,7 +9897,9 @@
             "South Estonian", 
             "V\u00f5ro"
         ], 
-        "places": []
+        "places": [
+            "estonia"
+        ]
     }, 
     "Silt\u02bce language": {
         "difficulty": "very hard", 
@@ -9294,6 +9914,6 @@
             "Harari \u2013 East Gurage", 
             "Silt\u02bce"
         ], 
-        "places": []
+        "places": "NA"
     }
 }

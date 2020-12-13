@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import json
 import math
 import sys
+import time
 
 def scrape(wikipg, countries, dict):
     # initiliaze to ensure it doesn't carry over
@@ -103,19 +104,24 @@ def retryfail(failarr, retries, countries, dict):
                 exit()
 
 def main():
+    starttime = time.time()
     infile = open("languagelinks.txt", "r")
     cfile = open("countries.txt", "r")
     countries = cfile.read().split(",")
     lcount = 0
     retries = 10
-    mark = 25
+    mark = 50
     languagedict = {}
     failures = []
+    timearray = []
     for line in infile:
         wikipage = "https://en.wikipedia.org" + line
         wikipage = wikipage[0:len(wikipage)-1]
         try:
+            scrapest = time.time()
             scrape(wikipage, countries, languagedict)
+            timestamp = time.time() - scrapest
+            timearray.append(timestamp)
         except:
             if retries > 0:
                 print("Failure:" + wikipage + " retries left: " + str(retries))
@@ -127,11 +133,17 @@ def main():
         lcount += 1
         if lcount > mark and mark < 800:
             try:
-                print("~" + str(mark/8) + "% complete")
+                avg = round(sum(timearray)/len(timearray), 2)
+                total = avg*800
+                eta = round((total - (time.time() - starttime))/60,2)
+                print("~" + str(mark/8) + "% complete" + " Average request time: " + str(avg) + "s (Bad) estimate of time left: " + str(eta) + "min.")
                 sys.stdout.flush()
             except:
-                print("~" + str(mark/8) + "% complete")
-            mark += 25
+                avg = round(sum(timearray)/len(timearray), 2)
+                total = avg*800
+                eta = round((total - (time.time() - starttime))/60,2)
+                print("~" + str(mark/8) + "% complete" + " Average request time: " + str(avg) + "s (Bad) estimate of time left: " + str(eta) + "min.")
+            mark += 50
     if failures:
         retryfail(failures, retries, countries, languagedict)
     with open("wikipedia_dump.json",'w') as outfile:
@@ -142,4 +154,5 @@ def main():
     print("all done! program may take a moment to finish")
 
 main()
+print("Time:" + str(time.time() - starttime))
 exit()
