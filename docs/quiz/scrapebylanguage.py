@@ -136,13 +136,13 @@ def main():
                 avg = round(sum(timearray)/len(timearray), 2)
                 total = avg*800
                 eta = round((total - (time.time() - starttime))/60,2)
-                print("~" + str(mark/8) + "% complete" + " Average request time: " + str(avg) + "s (Bad) estimate of time left: " + str(eta) + "min.")
+                print("~" + str(mark/8) + "% complete" + "| Average request time: " + str(avg) + "s | (Bad) estimate of time left: " + str(eta) + "min.")
                 sys.stdout.flush()
             except:
                 avg = round(sum(timearray)/len(timearray), 2)
                 total = avg*800
                 eta = round((total - (time.time() - starttime))/60,2)
-                print("~" + str(mark/8) + "% complete" + " Average request time: " + str(avg) + "s (Bad) estimate of time left: " + str(eta) + "min.")
+                print("~" + str(mark/8) + "% complete" + "| Average request time: " + str(avg) + "s | (Bad) estimate of time left: " + str(eta) + "min.")
             mark += 50
     if failures:
         retryfail(failures, retries, countries, languagedict)
