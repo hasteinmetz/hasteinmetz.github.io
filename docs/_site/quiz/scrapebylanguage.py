@@ -7,15 +7,14 @@ import time
 
 def finddiff(speakers):
     try:
-        speakers2 = speakers.replace("\u00a0", " ")
-        speakers2 = speakers2.replace("\n", " ")
+        speakers2 = speakers.replace("\n", " ")
         newspeakers = speakers2.split(" ")[0]
         diff = newspeakers.replace(",", "")
         number = float(diff)
     except:
         return("NA")
-    if "million" in speakers or number >= 1000000:
-        if "million" in speakers and number > 10000 and number < 1000000:
+    if "million" in speakers.lower() or number >= 1000000:
+        if "million" in speakers.lower() and number > 10000 and number < 1000000:
             number = 1 # handles known exception of Mon Language
         if number >= 1000000:
             number = number/1000000
@@ -53,9 +52,10 @@ def scrape(wikipg, countries, dict):
             if "Native" in row.text:
                 if "Native speakers" in row.text:
                     speakers = row.text[15:len(row.text)].encode("UTF-8")
+                    speakers2 = speakers.replace("\u00a0", " ")
                     if speakers is None:
                         continue
-                    difficulty = finddiff(speakers)
+                    difficulty = finddiff(speakers2)
                 else:
                     countryarray = []
                     geo = row.text[9:len(row.text)].encode("UTF-8").lower().replace(", ",",")

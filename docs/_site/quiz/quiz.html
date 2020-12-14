@@ -1,6 +1,39 @@
+<!DOCTYPE HTML>
 <html>
 <head>
   <link rel="stylesheet" href="defaultstyle.css">
+</head>
+<body onload="load();">
+  <div class="modal">
+    <div class="modal-content">
+      <p id="feedback"></p>
+      <button class="continue">>></button>
+    </div>
+  </div>
+  <div class="cover" id="cover">
+    <p class="center" style=""></p>
+  </div>
+    <div class="center">
+      <p id="demo"></p>
+      <p class="center" id='question'>?
+      </p>
+      <br><br>
+      <button type="submit" class="submit" id="q.1"></button>
+      <br>
+      <button type="submit" class="submit" id="q.2"></button>
+      <br>
+      <button type="submit" class="submit" id="q.3"></button>
+      <br>
+      <button type="submit" class="submit" id="q.4"></button>
+      <br>
+      <button type="submit" class="submit" id="q.5"></button>
+      <br><br><br>
+      <p class="center" id='difficulty'></p>
+      <br>
+      <p class="center" id='lives'></p>
+      <br>
+      <p class="center" id='score'></p>
+    </div>
   <script src="languages1.js"></script>
   <script>
     function randomno(n){
@@ -138,6 +171,8 @@
     var language;
     var correct;
     var answers;
+    var feedback;
+    var mod = document.getElementsByClassName("modal")[0];
 
     function replacetext(){
       var q = getquestion();
@@ -153,31 +188,53 @@
     };
 
     function load(){
+      lives = 3;
+      score = 0;
+      qno = 5;
       replacetext();
       setqtext(qno, answers, language)
       getscore();
       var x = document.getElementById("cover");
-      x.style.display="none";
+      x.style.display="none"
     }
 
-    // Close the dropdown if the user clicks OUTSIDE of it
+    // Click events
     window.onclick = function(event) {
       if (event.target.matches('button.submit')) {
         if(lives>0){
           if(event.target.textContent == correct){
             score += 100
-            alert("Correct")
-            nextquestion()
+            feedback = "Correct! Nice job :) \nCurrent score:" + score + "Click >> to continue"
+            togglemodal();
           } else {
             lives -= 1
-            alert("Incorrect")
-            nextquestion()
+            feedback = "Incorrect... Better luck on the next one! \nCurrent score:" + score + "\nClick >> to continue"
+            togglemodal();
           }
+          nextquestion();
         } else {
-          alert("No more lives! Refresh page")
+          document.getElementsByClassName("continue")[0].textContent = "Play Again?"
+          feedback = "All out of lives :( \nYou scored: " + String(score)
+          togglemodal();
         }
       }
+      if(mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)){
+        togglemodal();
+      }
+      else if (mod.classList.contains('show') && (event.target.matches('.continue') || event.target == mod)) {
+        togglemodal();
+      }
+      if (mod.classList.contains('show') && event.target == mod) {
+        togglemodal();
+      }
     };
+
+    function togglemodal(){
+      console.log("modal activated")
+      var f = document.getElementById("feedback")
+      f.innerHTML = feedback
+      mod.classList.toggle("show");
+    }
 
     function nextquestion(){
       var x = document.getElementById("cover");
@@ -187,32 +244,13 @@
       getscore();
       x.style.display="none";
     }
-    // need difficulty formula
-    // need score formula
-    // make functions idiot proof to demonstrate good coding
+
     // prevent issue with Tongan lol
   </script>
-  <noscript><META HTTP-EQUIV="Refresh" CONTENT="0;URL=error.html">
+  <noscript>
+    <META HTTP-EQUIV="Refresh" CONTENT="0;URL=../error.html">
     Uh oh! Your browser either doesn't support JavaScript or has JavaScript disabled.
-    My site might not be accessible to you.</noscript>
-</head>
-<body onload="load();">
-  <div class="cover" id="cover">
-    <p class="center" style=""></p>
-  </div>
-<div class="center">
-  <p id="demo"></p>
-<p class="center" id='question'>?
-  </p><br><br>
-<button type="submit" class="submit" id="q.1"></button><br>
-<button type="submit" class="submit" id="q.2"></button><br>
-<button type="submit" class="submit" id="q.3"></button><br>
-<button type="submit" class="submit" id="q.4"></button><br>
-<button type="submit" class="submit" id="q.5"></button>
-
-<br><br><br>
-<p class="center" id='lives'></p><br>
-<p class="center" id='score'></p>
-</div>
+    My site might not be accessible to you.
+  </noscript>
 </body>
 </html>
