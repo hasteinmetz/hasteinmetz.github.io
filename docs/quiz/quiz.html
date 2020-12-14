@@ -1,7 +1,7 @@
 ---
 title: "Quiz"
 tags: hillel steinmetz github-page hillelsteinmetz
-description: "The gist: a curious linguist and data journalist. Check out this page to read a bit about me!"
+layout: noheader
 ---
 <html>
 <head>
@@ -9,7 +9,7 @@ description: "The gist: a curious linguist and data journalist. Check out this p
   <pre id="test2"></pre>
   <pre id="test3"></pre>
   <pre id="test4"></pre>
-  <script src="languages.js"></script>
+  <script src="languages1.js"></script>
   <script>
     function randomno(n){
       var num = Math.floor(Math.random() * n);
@@ -29,20 +29,14 @@ description: "The gist: a curious linguist and data journalist. Check out this p
 
     function randomq(){
       const keys = Object.keys(languages);
-      var ran_key = keys[randomno(keys.length)];
-      var countrieslanguages = []
-      for(i=0; i<languages[ran_key]["language"].length;i++){
-        var tmp = languages[ran_key]["language"][i]["name"]
-        if (tmp != "unspecified"){
-          countrieslanguages.push(languages[ran_key]["language"][i]["name"]);
-        }
-      }
-      return([ran_key, countrieslanguages]);
+      var language = keys[randomno(keys.length)];
+      var languagefam = languages[ran_key]["mainfam"]
+      return([language, languagefam]);
     };
 
     function randomans(array){
-      var ran_key = randomno(listoflanguages.length);
-      var tmp = listoflanguages[ran_key];
+      var ran_key = randomno(languages.length);
+      var tmp = languages[ran_key]["mainfam"];
       if(array.includes(tmp)){
         return randomans(array);
       }
@@ -93,7 +87,7 @@ description: "The gist: a curious linguist and data journalist. Check out this p
     function getquestion(){
       var array = []
       var ques = randomq()
-      array.push(String(ques[1][0]))
+      array.push(String(ques[1]))
       for(i=0; i < (qno - 1); i++){
         tmp = randomans(array);
         array.push(tmp);
@@ -112,18 +106,11 @@ description: "The gist: a curious linguist and data journalist. Check out this p
     function replacetext(){
       console.log("blah")
       var q = getquestion();
-      var country = q[0];
+      var language = q[0];
       var correct = q[1][0];
       var answers = randompos(q[1], qarray, q[1].length)
-      qtype = randomqtype();
-      if(qtype=="what"){
-        document.getElementById("question").innerHTML = "What language is spoken in " + country + "?"
-        setqtext(qno);
-      }
-      if(qtype=="where"){
-        document.getElementById("question").innerHTML = "(TBD) Where is " + country + " spoken?"
-        setqtext(qno);
-      }
+      document.getElementById("question").innerHTML = "What family does this " + language + " belong to?"
+      setqtext(qno);
       return(correct);
     };
     // need interactive elements (click, check correct, etc.)

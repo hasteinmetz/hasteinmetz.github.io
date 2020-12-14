@@ -1,0 +1,194 @@
+body {
+  margin:0;
+  background-color: #FFFFFF;
+}
+.topnav {
+  overflow: hidden;
+  visibility: hidden;
+  background-color: #fcfcff;
+  border-bottom: 4px rgba(175, 165, 140, .9);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+}
+
+.topnav a {
+  float: left;
+  display: inline-block;
+  color: #33334d;
+  text-align: center;
+  padding: 12px 22px;
+  text-decoration: none;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family: "Trebuchet MS";
+  border-bottom: 4px rgba(175, 165, 140, .9);
+  overflow: hidden;
+}
+
+.topnav a:hover {
+  color: grey;
+  padding: 12px 22px;
+  font-family: "Trebuchet MS";
+}
+
+.topnav a.active {
+  background-color: #4d6093;
+  padding: 12px 22px;
+  color: white;
+  border-bottom: 4px solid grey;
+  box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.desktop{
+  float: left;
+  display: block;
+}
+
+.name{
+  float: right;
+  display: block;
+  background-color: #4d6093;
+  color: #FFFFFF;
+  overflow: hidden;
+  text-align: center;
+  padding: 14px 22px;
+  text-decoration: none;
+  font-size: 22px;
+  letter-spacing: 3px;
+  word-spacing: 6px;
+  font-family: "Trebuchet MS";
+  z-index: 1;
+}
+
+div.btncontainer{
+  text-align: center;
+  justify-content: center;
+  border: none;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.dropbtn {
+  float: left;
+  border: none;
+  background-color: transparent;
+  color: #4d6093;
+  height: 100%;
+  padding: 13px 20px;
+  font-size: 22px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px black;
+}
+
+.dropbtn:hover{
+  font-weight: bolder;
+  color: #33334d;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+}
+
+.dropbtnup{
+  float: left;
+  border: none;
+  background-color: transparent;
+  color: #33334d;
+  box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  height: 100%;
+  padding: 12px 20px;
+  font-size: 22px;
+  font-weight: bolder;
+  letter-spacing: 2px;
+  text-shadow: 1px 1px black;
+}
+
+div.dropdown {
+  position: absolute;
+  vertical-align: middle;
+  display: none;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #fcfcff;
+  color: #33334d;
+  float: left;
+  text-align: center;
+  text-decoration: none;
+  font-size: 22px;
+  letter-spacing: 2px;
+  padding: 12px 22px;
+  font-family: "Book Antiqua";
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  min-width: 190px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.dropdown-content>li>a {
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.dropdown-content a {
+  float: left;
+  color: #33334d;
+  text-align: center;
+  min-width: 190px;
+  text-decoration: none;
+  height: 55px;
+  font-size: 22px;
+  letter-spacing: 2px;
+  font-family: "Trebuchet MS";
+  border-bottom: 4px rgba(175, 165, 140, .9);
+  z-index: 1;
+}
+
+.dropdown-content a.active {
+  background-color: #4d6093;
+  color: white;
+  border-bottom: 4px solid grey;
+  min-width: 190px;
+}
+
+.dropdown a:hover:not(.active) {
+  color: grey;
+}
+
+p.center{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size:18px;
+  word-spacing: 2px;
+  line-height: 1.5;
+  margin: auto;
+}
+p {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size:18px;
+  word-spacing: 2px;
+  line-height: 1.5;
+  margin-left: 20%;
+  margin-right: 20%;
+ }
+
+ .cover {
+   position: absolute;
+   height: 100%;
+   width: 100%;
+   top:0;
+   left: 0;
+   background-color: #FFFFFF;
+   display: block;
+ }
+
+ .show {display: inline-block;}
+
+ @media only screen and (min-width: 200px) and (max-width:700px) {
+   div.dropdown{display: inline-block;}
+   div.desktop{display: none;}
+   .name{padding: 14px 18px;
+         font-size: 22px;
+         letter-spacing: 1px;
+         word-spacing: 2px;}
+   }
+ }

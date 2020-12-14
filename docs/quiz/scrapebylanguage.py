@@ -5,6 +5,35 @@ import math
 import sys
 import time
 
+def finddiff(speakers):
+    try:
+        speakers2 = speakers.replace("\u00a0", " ")
+        newspeakers = speakers2.split(" ")[0]
+        diff = newspeakers.replace(",", "")
+        number = float(diff)
+    except:
+        return("NA")
+    if "million" in speakers or number > 1000000:
+        if number > 1000000:
+            number = number/1000000
+        if number > 0 and number < 999:
+            if number >= 1 and number < 10:
+                difficulty = "hard"
+            if number >= 10 and number < 100:
+                difficulty = "medium"
+            if number >= 100 and number < 999:
+                difficulty = "easy"
+        return(difficulty)
+    else:
+        if number > 0 and number < 999999:
+            if number >= 100000 and number < 999999:
+                difficulty = "very hard"
+            if number >= 10000 and number < 99999:
+                difficulty = "super hard"
+            if number >= 1 and number < 10000:
+                difficulty = "whizkid"
+        return(difficulty)
+
 def scrape(wikipg, countries, dict):
     # initiliaze to ensure it doesn't carry over
     speakers = "NA"
@@ -21,32 +50,9 @@ def scrape(wikipg, countries, dict):
             if "Native" in row.text:
                 if "Native speakers" in row.text:
                     speakers = row.text[15:len(row.text)].encode("UTF-8")
-                    if speakers.find("(") == -1:
-                        continue
                     if speakers is None:
                         continue
-                    try:
-                        newspeakers = speakers.split(" ")[0]
-                        diff = newspeakers.replace(",", "")
-                        number = float(diff)
-                    except:
-                        number = -1
-                    if "million" in speakers:
-                        if number > 0 and number < 999:
-                            if number >= 1 and number < 10:
-                                difficulty = "hard"
-                            if number >= 10 and number < 100:
-                                difficulty = "medium"
-                            if number >= 100 and number < 999:
-                                difficulty = "easy"
-                    else:
-                        if number > 0 and number < 999999:
-                            if number >= 100000 and number < 999999:
-                                difficulty = "very hard"
-                            if number >= 10000 and number < 99999:
-                                difficulty = "super hard"
-                            if number >= 1 and number < 10000:
-                                difficulty = "whizkid"
+                    difficulty = finddiff(speakers)
                 else:
                     countryarray = []
                     geo = row.text[9:len(row.text)].encode("UTF-8").lower().replace(", ",",")
@@ -90,17 +96,19 @@ def scrape(wikipg, countries, dict):
         dict.update({title : {"speakers": speakers, "places":places, "family":languagefam, "difficulty":difficulty}})
 
 def retryfail(failarr, retries, countries, dict):
+    failures2 = []
     for fail in failarr:
         try:
             scrape(fail, countries, dict)
         except:
             if retries > 0:
-                failures.append(fail)
+                failures2.append(fail)
                 retries -= 1
             else:
                 break
                 print("TOO MANY RETRIES: ENDING SCRIPT. GOODBYE.")
                 exit()
+    return(failures2)
 
 def main():
     starttime = time.time()
@@ -131,29 +139,34 @@ def main():
                 sys.exit()
         lcount += 1
         if lcount > mark and mark < 800:
-            try:
-                if mark < 200:
-                    avg = 0.5
-                else:
-                    avg = round(sum(timearray)/len(timearray), 2)
-                total = avg*800
-                eta = round((total - (time.time() - starttime))/60,2)
-                print("~" + str(mark/8) + "% complete" + " | Average request time: " + str(avg) + "s | (Bad) estimate of time left: " + str(eta) + "min.")
-                sys.stdout.flush()
-            except:
-                if mark < 200:
-                    avg = 0.5
-                else:
-                    avg = round(sum(timearray)/len(timearray), 2)
-                avg = round(sum(timearray)/len(timearray), 2)
-                total = avg*800
-                eta = round((total - (time.time() - starttime))/60,2)
-                print("~" + str(mark/8) + "% complete" + " | Average request time: " + str(avg) + "s | (Bad) estimate of time left: " + str(eta) + "min.")
+            avg = round(sum(timearray)/len(timearray), 2)
+            total = avg*800
+            eta = round((total - (time.time() - starttime))/60,2)
+            if mark > 200:
+                est = "| (Bad) estimate of time left: " + str(eta) + "min."
+            else:
+                est = ""
+            print("~" + str(mark/8) + "% complete" + " | Average request time: " + str(avg) + "s " + est)
             mark += 50
     if failures:
-        retryfail(failures, retries, countries, languagedict)
+        uhoh = retryfail(failures, retries, countries, languagedict)
+    if uhoh:
+        print("The following languages didn't pass even the second time...:")
+        print(str(uhoh))
+    # modify main family according to this list
+    fams = ["Semitic", "Bantu", "Niger-Congo (Non-Bantu)", "Slavic", "Baltic", "Romance", "Germanic", "Indo-Aryan", "Iranian", "Algonquian", "Celtic"]
+    for key in languagedict:
+        for lang in fam:
+            if lang in languagedict[key]["family"]:
+                languagedict[key]["mainfam"] = lang
+                break
+        if not "mainfam" in languagedict.keys():
+            languagedict[key]["mainfam"] = languagedict[key]["family"][0]
     with open("wikipedia_dump.json",'w') as outfile:
         json.dump(languagedict, outfile, indent=4)
+    with open("languages1.js",'w') as outfile:
+        json.dump(languagedict, outfile, indent=4)
+        outfile.write("var listoflanguages = Object.keys(languages);")
     with open("wikipedia_languages.txt",'w') as outfile:
         for key in languagedict:
             outfile.write("{"+ "\"" + key + "\":" + str(languagedict[key]))
