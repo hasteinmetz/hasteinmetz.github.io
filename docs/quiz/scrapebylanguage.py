@@ -179,5 +179,5 @@ def main():
 
 starttime = time.time()
 main()
-print("Time:" + str(time.time() - starttime))
+print("Time:" + str((time.time() - starttime)/60))
 exit()
