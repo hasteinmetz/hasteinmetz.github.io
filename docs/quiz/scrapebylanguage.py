@@ -14,8 +14,8 @@ def finddiff(speakers):
     except:
         return("NA")
     if "million" in speakers or number >= 1000000:
-        if "million" in speakers and number < 1000000:
-            number = 1 # handles known exception of Mon Languages
+        if "million" in speakers and number > 10000 and number < 1000000:
+            number = 1 # handles known exception of Mon Language
         if number >= 1000000:
             number = number/1000000
         if number > 0 and number < 999:

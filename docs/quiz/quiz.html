@@ -31,7 +31,12 @@ layout: noheader
       const keys = Object.keys(languages);
       var language = keys[randomno(keys.length)];
       var languagefam = languages[ran_key]["mainfam"]
-      return([language, languagefam]);
+      if(languagefam != "NA"){
+        return([language, languagefam]);
+      }
+      else {
+        return(randomq);
+      }
     };
 
     function randomans(array){

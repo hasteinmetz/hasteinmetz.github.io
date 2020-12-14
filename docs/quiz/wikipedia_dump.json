@@ -1,66 +1,375 @@
 {
-    "Mon language": {
-        "difficulty": "hard", 
-        "speakers": "800,000 - 1 million\u00a0(2007)[1]", 
-        "mainfam": "Austroasiatic", 
+    "Kui language (India)": {
+        "difficulty": "NA", 
+        "speakers": "941,000\u00a0(2011 census)[1]", 
+        "mainfam": "Dravidian", 
         "family": [
-            "Austroasiatic", 
-            "Monic", 
-            "Mon"
+            "Dravidian", 
+            "South-Central", 
+            "Gondi\u2013Kui", 
+            "Kuvi\u2013Kui", 
+            "Kui"
+        ], 
+        "places": [
+            "india"
+        ]
+    }, 
+    "Kashubian language": {
+        "difficulty": "NA", 
+        "speakers": "108,000\u00a0(2011 census)[1]", 
+        "mainfam": "Slavic", 
+        "family": [
+            "Indo-European", 
+            "Balto-Slavic", 
+            "Slavic", 
+            "West Slavic", 
+            "Lechitic", 
+            "Pomeranian", 
+            "?", 
+            "Polish", 
+            "?", 
+            "Kashubian"
+        ], 
+        "places": [
+            "poland"
+        ]
+    }, 
+    "Veps language": {
+        "difficulty": "NA", 
+        "speakers": "1,600\u00a0(2010 census)[1]", 
+        "mainfam": "Uralic", 
+        "family": [
+            "Uralic", 
+            "Finnic", 
+            "Northern Finnic", 
+            "Veps"
+        ], 
+        "places": [
+            "russia"
+        ]
+    }, 
+    "Nihali language": {
+        "difficulty": "NA", 
+        "speakers": "2,000\u00a0(2007)[1]", 
+        "mainfam": "language isolate", 
+        "family": [
+            "language isolate"
         ], 
         "places": "NA"
     }, 
-    "French language": {
+    "Toba Batak language": {
+        "difficulty": "NA", 
+        "speakers": "(2 million cited 1991)[1]", 
+        "mainfam": "Austronesian", 
+        "family": [
+            "Austronesian", 
+            "Malayo-Polynesian", 
+            "Northwest Sumatra\u2013Barrier Islands", 
+            "Batak", 
+            "Southern", 
+            "Toba Batak"
+        ], 
+        "places": [
+            "indonesia"
+        ]
+    }, 
+    "German language": {
         "difficulty": "hard", 
-        "speakers": "76.8 million worldwideAn estimated 274 million French speakers (L1 plus L2; 2014)[1][2]", 
+        "speakers": "90 million (2010) to 95 million\u00a0(2014)L2 speakers: 10\u201315 million (2014)[1]", 
+        "mainfam": "Germanic", 
+        "family": [
+            "Indo-European", 
+            "Germanic", 
+            "West Germanic", 
+            "High German", 
+            "German"
+        ], 
+        "places": "language\u00a0in\n6 countries\n\u00a0Austria\n\u00a0Belgium\n\u00a0Germany\n\u00a0Liechtenstein\n\u00a0Luxembourg\n\u00a0\u00a0Switzerland\n\n\n\n3 dependencies\n\u00a0South Tyrol (Italy)\n                   31 gminas in Poland (Opole Voivodeship and Silesia Voivodeship)\n 13 municipalities in Brazil\n                 \n\nSeveral international institutions"
+    }, 
+    "Chenchu language": {
+        "difficulty": "NA", 
+        "speakers": "26,000\u00a0(2007)[1]", 
+        "mainfam": "Dravidian", 
+        "family": [
+            "Dravidian", 
+            "South-Central", 
+            "Telugu-Kui", 
+            "Proto-Telugu", 
+            "Telugu", 
+            "Chenchu"
+        ], 
+        "places": [
+            "india"
+        ]
+    }, 
+    "Sicilian language": {
+        "difficulty": "hard", 
+        "speakers": "4.7 million\u00a0(2002)[1]", 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
             "Italic", 
             "Romance", 
-            "Western Romance", 
-            "Gallo-Romance", 
-            "O\u00efl", 
-            "French"
-        ], 
-        "places": "language\u00a0in\n29 countries\n\u00a0Belgium\n\u00a0Benin\n\u00a0Burkina Faso\n\u00a0Burundi\n\u00a0Cameroon\n\u00a0Canada\n\u00a0Central African Republic\n\u00a0Chad\n\u00a0Comoros\n\u00a0Congo\n\u00a0DR Congo\n\u00a0Djibouti\n\u00a0Equatorial Guinea\n\u00a0France\n\u00a0Gabon\n\u00a0Guinea\n\u00a0Haiti\n\u00a0Ivory Coast\n\u00a0Lebanon\n\u00a0Luxembourg\n\u00a0Madagascar\n\u00a0Mali\n\u00a0Monaco\n\u00a0Niger\n\u00a0Rwanda\n\u00a0Senegal\n\u00a0Seychelles\n\u00a0\u00a0Switzerland\n\u00a0Togo\n\u00a0Vanuatu\n\n\n\n10 dependententities\n\u00a0Aosta Valley (Italy)\n\u00a0French Polynesia\n\u00a0New Brunswick (Canada)\n\u00a0New Caledonia\n\u00a0Puducherry (India)[3]\n\u00a0Quebec (Canada)\n\u00a0Saint Barth\u00e9lemy\n\u00a0Saint Martin\n\u00a0Saint Pierre and Miquelon\n\u00a0Wallis and Futuna\n\n"
-    }, 
-    "Laki language": {
-        "difficulty": "hard", 
-        "speakers": "1,000,000 (2000 estimate), including 150,000 monolinguals[3]", 
-        "mainfam": "Iranian", 
-        "family": [
-            "Indo-European", 
-            "Indo-Iranian", 
-            "Iranian", 
-            "Western Iranian languages", 
-            "Kurdish", 
-            "Southern Kurdish", 
-            " (disputed", 
-            "[4]", 
-            ")", 
-            "Laki"
+            "Italo-Dalmatian", 
+            "Sicilian"
         ], 
         "places": [
-            "iran", 
-            "turkey", 
-            "iraq"
+            "italy"
         ]
     }, 
-    "Hindi": {
+    "Khasi language": {
         "difficulty": "NA", 
-        "speakers": "L1 speakers: 322 million speakers of Hindi and various related languages reported their language as 'Hindi'\u00a0(2011 census)[1]L2 speakers: 270 million (2016)[2]", 
+        "speakers": "1,037,964\u00a0(2011 census)[1]", 
+        "mainfam": "Austroasiatic", 
+        "family": [
+            "Austroasiatic", 
+            "Khasi-Palaungic", 
+            "Khasic", 
+            "Khasi-Pnar-Lyngngam", 
+            "Khasi"
+        ], 
+        "places": [
+            "bangladesh", 
+            "india"
+        ]
+    }, 
+    "Chuj language": {
+        "difficulty": "NA", 
+        "speakers": "61,630\u00a0(2003-2011)[1]", 
+        "mainfam": "Mayan", 
+        "family": [
+            "Mayan", 
+            "Q\u02bcanjobalan\u2013Chujean", 
+            "Chujean", 
+            "Chuj"
+        ], 
+        "places": [
+            "guatemala", 
+            "mexico"
+        ]
+    }, 
+    "Upper Sorbian language": {
+        "difficulty": "NA", 
+        "speakers": "13,000\u00a0(2007)[1]", 
+        "mainfam": "Slavic", 
+        "family": [
+            "Indo-European", 
+            "Balto-Slavic", 
+            "Slavic", 
+            "West Slavic", 
+            "Sorbian", 
+            "Upper Sorbian"
+        ], 
+        "places": [
+            "germany"
+        ]
+    }, 
+    "Choctaw language": {
+        "difficulty": "NA", 
+        "speakers": "9,600\u00a0(2015 census)[1]", 
+        "mainfam": "Muskogean", 
+        "family": [
+            "Muskogean", 
+            "Western", 
+            "Choctaw"
+        ], 
+        "places": "language\u00a0in\u00a0United States\u00a0 \u2003 \u00a0\u00a0Oklahoma (Choctaw Nation only)"
+    }, 
+    "Karachay-Balkar": {
+        "difficulty": "NA", 
+        "speakers": "310,000\u00a0(2010 census)[1]", 
+        "mainfam": "Turkic", 
+        "family": [
+            "Turkic", 
+            "Common Turkic", 
+            "Kipchak", 
+            "Kipchak\u2013Cuman", 
+            "\u00a0[", 
+            "ru", 
+            "]", 
+            "Karachay-Balkar"
+        ], 
+        "places": [
+            "russia"
+        ]
+    }, 
+    "Tojolab\u02bcal language": {
+        "difficulty": "NA", 
+        "speakers": "51,733\u00a0(2010 census)[1]", 
+        "mainfam": "Mayan", 
+        "family": [
+            "Mayan", 
+            "Q\u02bcanjobalan\u2013Chujean", 
+            "Chujean", 
+            "Tojolabal"
+        ], 
+        "places": [
+            "mexico"
+        ]
+    }, 
+    "Chipaya language": {
+        "difficulty": "NA", 
+        "speakers": "1,800\u00a0(2011)[1]", 
+        "mainfam": "Uru\u2013Chipaya", 
+        "family": [
+            "Uru\u2013Chipaya", 
+            "Chipaya"
+        ], 
+        "places": [
+            "bolivia"
+        ]
+    }, 
+    "Chechen language": {
+        "difficulty": "hard", 
+        "speakers": "1.4 million[1]", 
+        "mainfam": "Northeast Caucasian", 
+        "family": [
+            "Northeast Caucasian", 
+            "Nakh", 
+            "Vainakh", 
+            "Chechen"
+        ], 
+        "places": "language\u00a0in\u00a0Russia\n\u00a0Chechnya\n\u00a0Dagestan\n"
+    }, 
+    "Gilbertese language": {
+        "difficulty": "NA", 
+        "speakers": "(120,000 cited 1988\u20132010)[1]", 
+        "mainfam": "Austronesian", 
+        "family": [
+            "Austronesian", 
+            "Malayo-Polynesian", 
+            "Oceanic", 
+            "Micronesian", 
+            "Micronesian Proper", 
+            "Gilbertese"
+        ], 
+        "places": [
+            "kiribati"
+        ]
+    }, 
+    "Brahui language": {
+        "difficulty": "hard", 
+        "speakers": "3.28 million\u00a0(2016)[1]", 
+        "mainfam": "Dravidian", 
+        "family": [
+            "Dravidian", 
+            "Northern", 
+            "Brahui"
+        ], 
+        "places": "NA"
+    }, 
+    "Gwich\u02bcin language": {
+        "difficulty": "NA", 
+        "speakers": "ca. 560\u00a0(2007\u20132016)[1]", 
+        "mainfam": "Den\u00e9\u2013Yeniseian", 
+        "family": [
+            "Den\u00e9\u2013Yeniseian", 
+            "Na-Den\u00e9", 
+            "Athabaskan", 
+            "Northern Athabaskan", 
+            "Gwich\u02bcin"
+        ], 
+        "places": [
+            "canada"
+        ]
+    }, 
+    "Isan language": {
+        "difficulty": "NA", 
+        "speakers": "13-16 million\u00a0(2005)[1]22 million (2013)(L1 and L2)[1][2]", 
+        "mainfam": "Kra\u2013Dai", 
+        "family": [
+            "Kra\u2013Dai", 
+            "Tai", 
+            "Southwestern Tai languages", 
+            "Lao\u2013Phutai", 
+            "Lao", 
+            "Isan"
+        ], 
+        "places": [
+            "thailand"
+        ]
+    }, 
+    "Sango language": {
+        "difficulty": "NA", 
+        "speakers": "(450,000 cited 1988)[1]1.6 million as second language (no date)[2]", 
+        "mainfam": "Creole", 
+        "family": [
+            "Creole", 
+            "Ngbandi", 
+            "-based ", 
+            "creole", 
+            "Sango"
+        ], 
+        "places": "language\u00a0in\u00a0Central African Republic"
+    }, 
+    "Luvale language": {
+        "difficulty": "NA", 
+        "speakers": "640,000\u00a0(2001\u20132010)[1]", 
+        "mainfam": "Bantu", 
+        "family": [
+            "Niger\u2013Congo", 
+            "Atlantic\u2013Congo", 
+            "Volta-Congo", 
+            "Benue\u2013Congo", 
+            "Bantoid", 
+            "Southern Bantoid", 
+            "Bantu", 
+            " (", 
+            "Zone K", 
+            ")", 
+            "Chokwe\u2013Luchazi", 
+            " (K.10)", 
+            "Luvale"
+        ], 
+        "places": [
+            "zambia", 
+            "angola"
+        ]
+    }, 
+    "Ruthenian language": {
+        "difficulty": "NA", 
+        "speakers": "NA", 
+        "mainfam": "Slavic", 
+        "family": [
+            "Indo-European", 
+            "Balto-Slavic", 
+            "Slavic", 
+            "East Slavic", 
+            "Ruthenian"
+        ], 
+        "places": "NA"
+    }, 
+    "Bunjevac dialect": {
+        "difficulty": "NA", 
+        "speakers": "6,800\u00a0(2011)[1]", 
+        "mainfam": "Slavic", 
+        "family": [
+            "Indo-European", 
+            "Balto-Slavic", 
+            "Slavic", 
+            "South Slavic", 
+            "Serbo-Croatian", 
+            "Shtokavian", 
+            "Neo-Shtokavian", 
+            "Bosnian\u2013Dalmatian (Western Ikavian)", 
+            "Bunjevac"
+        ], 
+        "places": [
+            "hungary"
+        ]
+    }, 
+    "Bhili language": {
+        "difficulty": "NA", 
+        "speakers": "3,206,533\u00a0(2011 census)[1]", 
         "mainfam": "Indo-Aryan", 
         "family": [
             "Indo-European", 
             "Indo-Iranian", 
             "Indo-Aryan", 
-            "Central Zone", 
-            "Western Hindi", 
-            "[3]", 
-            "Hindustani", 
-            "[3]", 
-            "Hindi"
+            "Western Indo-Aryan", 
+            "Bhil", 
+            "Central", 
+            "Bhili"
         ], 
         "places": [
             "india"
@@ -81,5 +390,680 @@
             "Dutch"
         ], 
         "places": "language\u00a0in\u00a0Belgium\u00a0Netherlands\u00a0Suriname\n\nDependent entities\n\u00a0Aruba\n\u00a0Cura\u00e7ao\n\u00a0Sint Maarten\n\n\n\nOrganisations\n\u00a0Benelux\n\u00a0European Union\nSouth American Union\n Caribbean Community\n\n"
-    }
-}
+    }, 
+    "Bambara language": {
+        "difficulty": "hard", 
+        "speakers": "4.1 million\u00a0(2012)[1]10 million L2 speakersSpoken to varying degrees by 80% of the population of Mali", 
+        "mainfam": "Mande", 
+        "family": [
+            "Mande", 
+            "Western Mande", 
+            "...", 
+            "Manding", 
+            "East Manding", 
+            "Bambara\u2013Dyula", 
+            "Bambara"
+        ], 
+        "places": [
+            "mali"
+        ]
+    }, 
+    "Faroese language": {
+        "difficulty": "NA", 
+        "speakers": "72,000\u00a0(2007)[1]", 
+        "mainfam": "Germanic", 
+        "family": [
+            "Indo-European", 
+            "Germanic", 
+            "North Germanic", 
+            "West Scandinavian", 
+            "Insular Scandinavian", 
+            "Faroese"
+        ], 
+        "places": [
+            "denmark", 
+            "greenland"
+        ]
+    }, 
+    "Norwegian language": {
+        "difficulty": "hard", 
+        "speakers": "5.32 million\u00a0(2020)[1]", 
+        "mainfam": "Germanic", 
+        "family": [
+            "Indo-European", 
+            "Germanic", 
+            "North Germanic", 
+            "West Scandinavian", 
+            " (", 
+            "disputed", 
+            ")", 
+            "Norwegian"
+        ], 
+        "places": [
+            "norway"
+        ]
+    }, 
+    "Filipino language": {
+        "difficulty": "hard", 
+        "speakers": "45 million L2 users (Tagalog)\u00a0(2013)[1]", 
+        "mainfam": "Austronesian", 
+        "family": [
+            "Austronesian", 
+            "Malayo-Polynesian", 
+            "Philippine", 
+            "Central Philippine", 
+            "Tagalog", 
+            "Filipino"
+        ], 
+        "places": [
+            "philippines"
+        ]
+    }, 
+    "Turkmen language": {
+        "difficulty": "hard", 
+        "speakers": "6.7 million\u00a0(2009\u20132015)[3]", 
+        "mainfam": "Turkic", 
+        "family": [
+            "Turkic", 
+            "Common Turkic", 
+            "Oghuz", 
+            "Eastern Oghuz", 
+            "Turkmen"
+        ], 
+        "places": [
+            "uzbekistan", 
+            "turkmenistan", 
+            "afghanistan", 
+            "iran", 
+            "russia"
+        ]
+    }, 
+    "H\u00e4n language": {
+        "difficulty": "NA", 
+        "speakers": "20\u00a0(1997\u20132007)[1]", 
+        "mainfam": "Den\u00e9\u2013Yeniseian", 
+        "family": [
+            "Den\u00e9\u2013Yeniseian", 
+            "Na-Den\u00e9", 
+            "Athabaskan", 
+            "Northern Athabaskan", 
+            "H\u00e4n"
+        ], 
+        "places": [
+            "canada"
+        ]
+    }, 
+    "Tahitian language": {
+        "difficulty": "super hard", 
+        "speakers": "68,260, 37% of ethnic population\u00a0(2007 census)[1]", 
+        "mainfam": "Austronesian", 
+        "family": [
+            "Austronesian", 
+            "Malayo-Polynesian", 
+            "Oceanic", 
+            "Polynesian", 
+            "Eastern Polynesian", 
+            "Tahitic", 
+            "Tahitian"
+        ], 
+        "places": "NA"
+    }, 
+    "Gujarati language": {
+        "difficulty": "hard", 
+        "speakers": "56 million\u00a0(2011)[1][2]L2 speakers: 4 million[1]", 
+        "mainfam": "Indo-Aryan", 
+        "family": [
+            "Indo-European", 
+            "Indo-Iranian", 
+            "Indo-Aryan", 
+            "Western", 
+            "[3]", 
+            "Gujarati languages", 
+            "Gujarati"
+        ], 
+        "places": [
+            "india"
+        ]
+    }, 
+    "Boro language (India)": {
+        "difficulty": "hard", 
+        "speakers": "1.4 million\u00a0(2011 census)[1]", 
+        "mainfam": "Sino-Tibetan", 
+        "family": [
+            "Sino-Tibetan", 
+            "Brahmaputran", 
+            "Boro\u2013Garo", 
+            "Boroic", 
+            "Boro"
+        ], 
+        "places": "language\u00a0in\u00a0India\nBodoland (Assam)\n"
+    }, 
+    "Bats language": {
+        "difficulty": "NA", 
+        "speakers": "500\u00a0(1997)[1]far fewer than 3,000 active (2007)", 
+        "mainfam": "Northeast Caucasian", 
+        "family": [
+            "Northeast Caucasian", 
+            "Nakh", 
+            "Bats"
+        ], 
+        "places": [
+            "georgia"
+        ]
+    }, 
+    "Nahuatl": {
+        "difficulty": "NA", 
+        "speakers": "1,740,000\u00a0(2010)", 
+        "mainfam": "Uto-Aztecan", 
+        "family": [
+            "Uto-Aztecan", 
+            "Nahuan", 
+            "Nahuatl"
+        ], 
+        "places": [
+            "mexico"
+        ]
+    }, 
+    "Luri language": {
+        "difficulty": "NA", 
+        "speakers": "over 4 million[3]circa 5 million[4]", 
+        "mainfam": "Iranian", 
+        "family": [
+            "Indo-European", 
+            "Indo-Iranian", 
+            "Iranian", 
+            "Western Iranian", 
+            "Southwestern", 
+            "Luri"
+        ], 
+        "places": "NA"
+    }, 
+    "\u01c3Kung languages": {
+        "difficulty": "super hard", 
+        "speakers": "16,000 \u00b1 2,000\u00a0(2011)[1]", 
+        "mainfam": "Kx\u02bca", 
+        "family": [
+            "Kx\u02bca", 
+            "\u01c3Kung"
+        ], 
+        "places": [
+            "angola", 
+            "namibia", 
+            "botswana"
+        ]
+    }, 
+    "Ta\u00edno language": {
+        "difficulty": "NA", 
+        "speakers": "NA", 
+        "mainfam": "Arawakan", 
+        "family": [
+            "Arawakan", 
+            "Northern", 
+            "Ta-Arawakan", 
+            "Ta\u00edno"
+        ], 
+        "places": [
+            "cuba", 
+            "haiti", 
+            "jamaica"
+        ]
+    }, 
+    "Ket language": {
+        "difficulty": "NA", 
+        "speakers": "213\u00a0(2010)[1]", 
+        "mainfam": "Den\u00e9\u2013Yeniseian", 
+        "family": [
+            "Den\u00e9\u2013Yeniseian", 
+            "Yeniseian", 
+            "Northern Yeniseian", 
+            "Ket"
+        ], 
+        "places": [
+            "russia"
+        ]
+    }, 
+    "Ossetian language": {
+        "difficulty": "NA", 
+        "speakers": "597,450\u00a0(2010)[1]", 
+        "mainfam": "Iranian", 
+        "family": [
+            "Indo-European", 
+            "Indo-Iranian", 
+            "Iranian", 
+            "Eastern", 
+            "?", 
+            "Northern", 
+            "[2]", 
+            "Ossetian"
+        ], 
+        "places": "language\u00a0in\u00a0Russia\n\u00a0North Ossetia-Alania\n\u00a0Georgia[citation needed]\n\n Provisional Administrative Entity of South Ossetia\n\u00a0South Ossetia"
+    }, 
+    "Abaza language": {
+        "difficulty": "NA", 
+        "speakers": "49,800\u00a0(2010-2014)[1]", 
+        "mainfam": "Northwest Caucasian", 
+        "family": [
+            "Northwest Caucasian", 
+            "Abazgi", 
+            "Abaza"
+        ], 
+        "places": [
+            "turkey", 
+            "russia"
+        ]
+    }, 
+    "Nepali language": {
+        "difficulty": "hard", 
+        "speakers": "16 million\u00a0(2011 census)[2]9 million L2 speakers (2011 census)[2]", 
+        "mainfam": "Indo-Aryan", 
+        "family": [
+            "Indo-European", 
+            "Indo-Iranian", 
+            "Indo-Aryan", 
+            "Northern Zone", 
+            "Eastern Pahari", 
+            "Nepali"
+        ], 
+        "places": [
+            "nepal", 
+            "india"
+        ]
+    }, 
+    "Ga language": {
+        "difficulty": "whizkid", 
+        "speakers": "8,5 Million (2007)[1][2]", 
+        "mainfam": "Niger\u2013Congo", 
+        "family": [
+            "Niger\u2013Congo", 
+            "Atlantic\u2013Congo", 
+            "Kwa", 
+            "Ga\u2013Dangme", 
+            "Ga"
+        ], 
+        "places": "language\u00a0inGhana"
+    }, 
+    "Jemez language": {
+        "difficulty": "NA", 
+        "speakers": "3,000\u00a0(2007)[1]", 
+        "mainfam": "Tanoan", 
+        "family": [
+            "Tanoan", 
+            "Jemez"
+        ], 
+        "places": "NA"
+    }, 
+    "Nganasan language": {
+        "difficulty": "NA", 
+        "speakers": "125\u00a0(2010 census)[2]", 
+        "mainfam": "Uralic", 
+        "family": [
+            "Uralic", 
+            "Samoyedic", 
+            "Nganasan"
+        ], 
+        "places": [
+            "russia"
+        ]
+    }, 
+    "Bezhta language": {
+        "difficulty": "NA", 
+        "speakers": "6,800\u00a0(2006\u20132010)[1]", 
+        "mainfam": "Northeast Caucasian", 
+        "family": [
+            "Northeast Caucasian", 
+            "Tsezic", 
+            "Bezhta\u2013Hunzib\u2013Khwarshi", 
+            "Bezhta"
+        ], 
+        "places": [
+            "russia"
+        ]
+    }, 
+    "If\u00e8 language": {
+        "difficulty": "NA", 
+        "speakers": "(210,000 cited 1990\u20132012)[1]", 
+        "mainfam": "Niger\u2013Congo", 
+        "family": [
+            "Niger\u2013Congo", 
+            "Atlantic\u2013Congo", 
+            "Volta\u2013Niger", 
+            ".mw-parser-output span.smallcaps{font-variant:small-caps}.mw-parser-output span.smallcaps-smaller{font-size:85%}", 
+            "yeai", 
+            "Yoruboid", 
+            "Edekiri", 
+            "Ede", 
+            "If\u00e8"
+        ], 
+        "places": [
+            "togo", 
+            "benin"
+        ]
+    }, 
+    "Shilha language": {
+        "difficulty": "NA", 
+        "speakers": "7,200,000\u00a0(2016)[1]", 
+        "mainfam": "Afro-Asiatic", 
+        "family": [
+            "Afro-Asiatic", 
+            "Berber", 
+            "Northern", 
+            "Atlas", 
+            "Shilha"
+        ], 
+        "places": [
+            "morocco"
+        ]
+    }, 
+    "Cornish language": {
+        "difficulty": "NA", 
+        "speakers": "NA", 
+        "mainfam": "Celtic", 
+        "family": [
+            "Indo-European", 
+            "Celtic", 
+            "Insular Celtic", 
+            "Brittonic", 
+            "Southwestern", 
+            "Cornish"
+        ], 
+        "places": "NA"
+    }, 
+    "Cebuano language": {
+        "difficulty": "NA", 
+        "speakers": "19,665,453\u00a0(2010)[6]", 
+        "mainfam": "Austronesian", 
+        "family": [
+            "Austronesian", 
+            "Malayo-Polynesian", 
+            "Philippine", 
+            "Greater Central Philippine", 
+            "Central Philippine", 
+            "Visayan", 
+            "Cebuano"
+        ], 
+        "places": [
+            "philippines"
+        ]
+    }, 
+    "Southern Ndebele language": {
+        "difficulty": "NA", 
+        "speakers": "1.1\u00a0million\u00a0(2011 census)[1]1.4\u00a0million L2 speakers (2002)[2]", 
+        "mainfam": "Bantu", 
+        "family": [
+            "Niger\u2013Congo", 
+            "Atlantic\u2013Congo", 
+            "Volta-Congo", 
+            "Benue\u2013Congo", 
+            "Bantoid", 
+            "Southern Bantoid", 
+            "Bantu", 
+            "Southern Bantu", 
+            "Nguni", 
+            "Zunda", 
+            "Southern Ndebele"
+        ], 
+        "places": "language\u00a0in\u00a0South Africa"
+    }, 
+    "Ayoreo language": {
+        "difficulty": "NA", 
+        "speakers": "3,160\u00a0(2011)[1]", 
+        "mainfam": "Zamucoan", 
+        "family": [
+            "Zamucoan", 
+            "Ayoreo"
+        ], 
+        "places": [
+            "paraguay", 
+            "bolivia"
+        ]
+    }, 
+    "Chocho language": {
+        "difficulty": "NA", 
+        "speakers": "810\u00a0(2010 census)[1]", 
+        "mainfam": "Oto-Manguean", 
+        "family": [
+            "Oto-Manguean", 
+            "Popolocan", 
+            "Chocho\u2013Popoloca", 
+            "Chocho"
+        ], 
+        "places": [
+            "mexico"
+        ]
+    }, 
+    "Turoyo language": {
+        "difficulty": "NA", 
+        "speakers": "103,300\u00a0(2019)[1]", 
+        "mainfam": "Semitic", 
+        "family": [
+            "Afro-Asiatic", 
+            "Semitic", 
+            "Central Semitic", 
+            "Northwest Semitic", 
+            "Aramaic", 
+            "Eastern Aramaic", 
+            "Central Neo-Aramaic", 
+            "Turoyo"
+        ], 
+        "places": [
+            "syria", 
+            "turkey"
+        ]
+    }, 
+    "Lao language": {
+        "difficulty": "hard", 
+        "speakers": "30 million[1]", 
+        "mainfam": "Kra\u2013Dai", 
+        "family": [
+            "Kra\u2013Dai", 
+            "Tai", 
+            "Southwestern Tai", 
+            " (Thai)", 
+            "Lao\u2013Phutai", 
+            "Lao"
+        ], 
+        "places": [
+            "laos"
+        ]
+    }, 
+    "Irula language": {
+        "difficulty": "NA", 
+        "speakers": "11,870\u00a0(2011 census)[1]Census conflates some speakers with Tamil", 
+        "mainfam": "Dravidian", 
+        "family": [
+            "Dravidian", 
+            "Southern Dravidian", 
+            "Tamil\u2013Kannada", 
+            "Tamil\u2013Kodagu", 
+            "Tamil\u2013Malayalam", 
+            "Irula"
+        ], 
+        "places": [
+            "india"
+        ]
+    }, 
+    "Istro-Romanian language": {
+        "difficulty": "NA", 
+        "speakers": "300\u00a0(2007)[1]L2 speakers: 1,100 (2007)[1]", 
+        "mainfam": "Romance", 
+        "family": [
+            "Indo-European", 
+            "Italic", 
+            "Latin", 
+            "Romance", 
+            "Eastern Romance", 
+            "Balkan Romance", 
+            "Istro-Romanian"
+        ], 
+        "places": [
+            "croatia"
+        ]
+    }, 
+    "Koyra Chiini language": {
+        "difficulty": "NA", 
+        "speakers": "200,000\u00a0(1999)[1]", 
+        "mainfam": "Nilo-Saharan", 
+        "family": [
+            "Nilo-Saharan", 
+            "Songhay", 
+            "Southern", 
+            "Koyra Chiini"
+        ], 
+        "places": [
+            "mali"
+        ]
+    }, 
+    "Tzeltal language": {
+        "difficulty": "NA", 
+        "speakers": "445,856\u00a0(2010 census)[1]", 
+        "mainfam": "Mayan", 
+        "family": [
+            "Mayan", 
+            "Cholan\u2013Tzeltalan", 
+            "Tzeltalan", 
+            "Tzeltal"
+        ], 
+        "places": [
+            "mexico"
+        ]
+    }, 
+    "Tacana language": {
+        "difficulty": "NA", 
+        "speakers": "1,800\u00a0(2004)[1]", 
+        "mainfam": "Tacanan", 
+        "family": [
+            "Tacanan", 
+            "Araona\u2013Tacanan", 
+            "Cavinena\u2013Tacana", 
+            "Tacana Proper", 
+            "Tacana"
+        ], 
+        "places": [
+            "bolivia"
+        ]
+    }, 
+    "Mirandese language": {
+        "difficulty": "NA", 
+        "speakers": "15,000\u00a0(2000)[1](10,000 use it regularly, 5,000 when they return to the area. 2,000 Sendinese in Sendim Vila.)[2]", 
+        "mainfam": "Romance", 
+        "family": [
+            "Indo-European", 
+            "Italic", 
+            "Romance", 
+            "Western", 
+            "Ibero-Romance", 
+            "West Iberian", 
+            "Astur-Leonese", 
+            "Mirandese"
+        ], 
+        "places": [
+            "portugal"
+        ]
+    }, 
+    "Wagiman language": {
+        "difficulty": "NA", 
+        "speakers": "2\u00a0(2020)[1]", 
+        "mainfam": "language isolate", 
+        "family": [
+            "language isolate"
+        ], 
+        "places": "NA"
+    }, 
+    "Kabardian language": {
+        "difficulty": "very hard", 
+        "speakers": "516,000 in Russian Federation (2010 census), 36,700 monolinguals (2002 census). Ethnic population: 590,000 (2010 census). Total users in all countries: 1,712,000\u00a0(2002\u20132010)[1]", 
+        "mainfam": "Northwest Caucasian", 
+        "family": [
+            "Northwest Caucasian", 
+            "Circassian", 
+            "Kabardian"
+        ], 
+        "places": [
+            "syria", 
+            "turkey", 
+            "iraq", 
+            "jordan"
+        ]
+    }, 
+    "Meru language": {
+        "difficulty": "hard", 
+        "speakers": "2.0 million\u00a0(2009 census)[1]", 
+        "mainfam": "Bantu", 
+        "family": [
+            "Niger\u2013Congo", 
+            "Atlantic\u2013Congo", 
+            "Volta-Congo", 
+            "Benue\u2013Congo", 
+            "Bantoid", 
+            "Southern Bantoid", 
+            "Bantu", 
+            "Northeast Bantu", 
+            "Kikuyu\u2013Kamba", 
+            "Meru"
+        ], 
+        "places": [
+            "kenya"
+        ]
+    }, 
+    "Tonga language (Zambia and Zimbabwe)": {
+        "difficulty": "hard", 
+        "speakers": "1.5 million\u00a0(2001\u20132010 census)[1]", 
+        "mainfam": "Bantu", 
+        "family": [
+            "Niger\u2013Congo", 
+            "Atlantic\u2013Congo", 
+            "Benue\u2013Congo", 
+            "Bantoid", 
+            "Bantu", 
+            "Botatwe", 
+            "Tonga"
+        ], 
+        "places": [
+            "zambia", 
+            "zimbabwe"
+        ]
+    }, 
+    "Yazghulami language": {
+        "difficulty": "NA", 
+        "speakers": "9,000\u00a0(2010)[1]", 
+        "mainfam": "Iranian", 
+        "family": [
+            "Indo-European", 
+            "Indo-Iranian", 
+            "Iranian", 
+            "Eastern", 
+            "Shugni\u2013Yazgulami", 
+            "Yazgulyam"
+        ], 
+        "places": [
+            "tajikistan"
+        ]
+    }, 
+    "Dzongkha": {
+        "difficulty": "NA", 
+        "speakers": "171,080\u00a0(2013)[1]Total speakers: 640,000[2]", 
+        "mainfam": "Sino-Tibetan", 
+        "family": [
+            "Sino-Tibetan", 
+            "Tibeto-Kanauri", 
+            "\u00a0?", 
+            "Bodish", 
+            "Tibetic", 
+            "Dzongkha\u2013Lhok\u00e4", 
+            "Dzongkha"
+        ], 
+        "places": [
+            "bhutan"
+        ]
+    }, 
+    "Karay-a language": {
+        "difficulty": "NA", 
+        "speakers": "433,000\u00a0(2005)[1]", 
+        "mainfam": "Austronesian", 
+        "family": [
+            "Austronesian", 
+            "Malayo-Polynesian", 
+            "Philippine", 
+            "Central Philippine", 
+            "Bisayan", 
+            "Western Bisayan"
