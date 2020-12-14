@@ -13,11 +13,13 @@ def finddiff(speakers):
         number = float(diff)
     except:
         return("NA")
-    if "million" in speakers or number > 1000000:
-        if number > 1000000:
+    if "million" in speakers or number >= 1000000:
+        if "million" in speakers and number < 1000000:
+            number = 1 # handles known exception of Mon Languages
+        if number >= 1000000:
             number = number/1000000
         if number > 0 and number < 999:
-            if number >= 1 and number < 10:
+            if number >= 0 and number < 10:
                 difficulty = "hard"
             if number >= 10 and number < 100:
                 difficulty = "medium"
@@ -25,12 +27,12 @@ def finddiff(speakers):
                 difficulty = "easy"
         return(difficulty)
     else:
-        if number > 0 and number < 999999:
-            if number >= 100000 and number < 999999:
+        if number > 0 and number < 1000000:
+            if number >= 100000 and number < 1000000:
                 difficulty = "very hard"
-            if number >= 10000 and number < 99999:
+            if number >= 10000 and number < 100000:
                 difficulty = "super hard"
-            if number >= 1 and number < 10000:
+            if number >= 0 and number < 10000:
                 difficulty = "whizkid"
         return(difficulty)
 
@@ -150,22 +152,25 @@ def main():
             mark += 50
     if failures:
         uhoh = retryfail(failures, retries, countries, languagedict)
-    if uhoh:
+    else:
+        uhoh=-1
+    if uhoh!=-1:
         print("The following languages didn't pass even the second time...:")
         print(str(uhoh))
     # modify main family according to this list
-    fams = ["Semitic", "Bantu", "Niger-Congo (Non-Bantu)", "Slavic", "Baltic", "Romance", "Germanic", "Indo-Aryan", "Iranian", "Algonquian", "Celtic"]
+    fams = ["Semitic", "Bantu", "Slavic", "Baltic", "Romance", "Germanic", "Indo-Aryan", "Iranian", "Algonquian", "Celtic"]
     for key in languagedict:
-        for lang in fam:
+        for lang in fams:
             if lang in languagedict[key]["family"]:
                 languagedict[key]["mainfam"] = lang
                 break
-        if not "mainfam" in languagedict.keys():
+        if not "mainfam" in languagedict[key]:
             languagedict[key]["mainfam"] = languagedict[key]["family"][0]
     with open("wikipedia_dump.json",'w') as outfile:
         json.dump(languagedict, outfile, indent=4)
     with open("languages1.js",'w') as outfile:
         json.dump(languagedict, outfile, indent=4)
+        outfile.write("\n")
         outfile.write("var listoflanguages = Object.keys(languages);")
     with open("wikipedia_languages.txt",'w') as outfile:
         for key in languagedict:
