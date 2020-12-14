@@ -1,14 +1,10 @@
 ---
 title: "Quiz"
 tags: hillel steinmetz github-page hillelsteinmetz
-layout: noheader
 ---
 <html>
 <head>
-  <pre id="test1"></pre>
-  <pre id="test2"></pre>
-  <pre id="test3"></pre>
-  <pre id="test4"></pre>
+  <link rel="stylesheet" href="defaultstyle.css">
   <script src="languages1.js"></script>
   <script>
     function randomno(n){
@@ -25,12 +21,29 @@ layout: noheader
         }
       }
     return(arr);
-  }
+    }
+
+    function removelang(str){
+      string = split(str);
+      result = [];
+      var resstring = ""
+      for(i=0;i<string.length;i++){
+        tmp = string[i];
+        tmp.toLowerCase();
+        if(tmp!="language"&tmp!="languages"){
+          result.push(tmp);
+        }
+      }
+      for(j=0;j<result.length;j++){
+        resstring = resstring + result[j]
+      }
+      return(resstring)
+    }
 
     function randomq(){
       const keys = Object.keys(languages);
-      var language = keys[randomno(keys.length)];
-      var languagefam = languages[ran_key]["mainfam"]
+      var language = String(keys[randomno(keys.length)]);
+      var languagefam = languages[language]["mainfam"]
       if(languagefam != "NA"){
         return([language, languagefam]);
       }
@@ -39,13 +52,28 @@ layout: noheader
       }
     };
 
+    function exceptions(fam){
+      if(fam=="NA" || fam.toLowerCase()=="unclassified" ||
+      fam.toLowerCase()=="N" || fam.length < 4){
+        return(0);
+      } else {
+        return(1);
+      }
+    }
+
     function randomans(array){
-      var ran_key = randomno(languages.length);
-      var tmp = languages[ran_key]["mainfam"];
-      if(array.includes(tmp)){
+      const keys = Object.keys(languages);
+      var ran_key = randomno(keys.length);
+      var ran_lang = String(keys[ran_key]);
+      var tmp = languages[ran_lang]["mainfam"];
+      if(tmp.toLowerCase()=="language isolate"){
+        tmp = "Language Isolate";
+      }
+      if(array.includes(tmp) || exceptions(tmp)==0){
         return randomans(array);
       }
       else {
+        console.log("randomans: " + String(tmp))
         return tmp;
       };
     };
@@ -97,35 +125,60 @@ layout: noheader
         tmp = randomans(array);
         array.push(tmp);
       }
+      console.log("getquestion " + String(ques[0]) + " " + String(array))
       return([ques[0], array]);
     };
 
-    function setqtext(num){
-      for(i=1;i<num-1;i++){
+    function setqtext(num, answers, language){
+      document.getElementById("question").innerHTML = "What family does the " + language + "belong to?";
+      for(i=1;i<num+1;i++){
         string = "q." + String(i);
         j = i - 1;
+        console.log(string)
         document.getElementById(string).textContent = answers[j];
       }
     };
 
+    var language;
+    var correct;
+    var answers;
+
     function replacetext(){
-      console.log("blah")
       var q = getquestion();
-      var language = q[0];
-      var correct = q[1][0];
-      var answers = randompos(q[1], qarray, q[1].length)
-      document.getElementById("question").innerHTML = "What family does this " + language + " belong to?"
-      setqtext(qno);
-      return(correct);
+      language = q[0];
+      correct = q[1][0];
+      answers = randompos(q[1], qarray, q[1].length);
     };
     // need interactive elements (click, check correct, etc.)
+
+    function getscore(){
+      document.getElementById("score").innerHTML = "Score: " + String(score)
+      document.getElementById("lives").innerHTML = "Lives: " + String(lives)
+    };
+
+    function load(){
+      replacetext();
+      setqtext(qno, answers, language)
+      getscore();
+    }
+
+    // Close the dropdown if the user clicks OUTSIDE of it
+    window.onclick = function(event) {
+      if (event.target.matches('button.submit')) {
+        if(event.target.textContent == correct){
+          alert("Correct")
+        } else {
+          alert("Incorrect")
+        }
+      }
+    };
     // need difficulty formula
     // need score formula
     // make functions idiot proof to demonstrate good coding
     // prevent issue with Tongan lol
   </script>
 </head>
-<body onload="replacetext();">
+<body onload="load();">
 <div class="center">
   <p id="demo"></p>
 <p class="center" id='question'>?
@@ -134,9 +187,11 @@ layout: noheader
 <button type="submit" class="submit" id="q.2"></button><br>
 <button type="submit" class="submit" id="q.3"></button><br>
 <button type="submit" class="submit" id="q.4"></button><br>
-<button type="submit" class="submit" id="q.5"></button><br>
-<button type="submit" class="submit" id="q.6"></button><br>
-<button type="submit" class="submit" id="q.7"></button>
+<button type="submit" class="submit" id="q.5"></button>
+
+<br><br><br>
+<p class="center" id='lives'></p><br>
+<p class="center" id='score'></p>
 </div>
 </body>
 </html>

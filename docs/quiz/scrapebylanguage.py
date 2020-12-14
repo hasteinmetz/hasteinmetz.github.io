@@ -8,6 +8,7 @@ import time
 def finddiff(speakers):
     try:
         speakers2 = speakers.replace("\u00a0", " ")
+        speakers2 = speakers2.replace("\n", " ")
         newspeakers = speakers2.split(" ")[0]
         diff = newspeakers.replace(",", "")
         number = float(diff)
@@ -169,6 +170,7 @@ def main():
     with open("wikipedia_dump.json",'w') as outfile:
         json.dump(languagedict, outfile, indent=4)
     with open("languages1.js",'w') as outfile:
+        outfile.write("var languages = ")
         json.dump(languagedict, outfile, indent=4)
         outfile.write("\n")
         outfile.write("var listoflanguages = Object.keys(languages);")
