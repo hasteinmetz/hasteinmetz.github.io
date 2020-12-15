@@ -6,11 +6,14 @@ import sys
 import time
 
 def finddiff(speakers):
+    easylangs = ["Romance", "Germanic"]
     try:
-        speakers2 = speakers.replace("\n", " ")
-        newspeakers = speakers2.split(" ")[0]
-        diff = newspeakers.replace(",", "")
-        number = float(diff)
+        speakers2 = speakers.replace(",", "")
+        s = "".join([ c if (c.isalnum() or c==".") else "*" for c in speakers2 ])
+        newspeakers = s.split("*")[0]
+        if newspeakers == "":
+            newspeakers = s.split("*")[1]
+        number = float(newspeakers)
     except:
         return("NA")
     if "million" in speakers.lower() or number >= 1000000:
@@ -52,10 +55,9 @@ def scrape(wikipg, countries, dict):
             if "Native" in row.text:
                 if "Native speakers" in row.text:
                     speakers = row.text[15:len(row.text)].encode("UTF-8")
-                    speakers2 = speakers.replace("\u00a0", " ")
                     if speakers is None:
                         continue
-                    difficulty = finddiff(speakers2)
+                    difficulty = finddiff(speakers)
                 else:
                     countryarray = []
                     geo = row.text[9:len(row.text)].encode("UTF-8").lower().replace(", ",",")
@@ -96,6 +98,10 @@ def scrape(wikipg, countries, dict):
                 for pl in places:
                     if title[0:4] in pl:
                         difficulty = "name"
+            if difficulty == "medium" and languagefam in ["Romance", "Germanic", "Slavic"]:
+                difficulty = "easy"
+            if difficulty == "hard" and languagefam in ["Romance", "Germanic", "Slavic"]:
+                difficulty = "medium"
         dict.update({title : {"speakers": speakers, "places":places, "family":languagefam, "difficulty":difficulty}})
 
 def retryfail(failarr, retries, countries, dict):
