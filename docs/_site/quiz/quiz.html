@@ -1,0 +1,291 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="defaultstyle.css">
+</head>
+<body onload="load();">
+  <div>
+    <h1>Language Family Quiz (Pre-Alpha)</h1>
+  </div>
+  <div class="modal">
+    <div class="modal-content">
+      <div class="center">
+        <p id="feedback"></p>
+        <button class="continue">>></button>
+      </div>
+    </div>
+  </div>
+  <div class="cover" id="cover">
+    <p class="center" style=""></p>
+  </div>
+    <div class="center">
+      <p id="demo"></p>
+      <p class="center" id='question'>?
+      </p>
+      <br><br>
+      <button type="submit" class="submit" id="q.1"></button>
+      <br>
+      <button type="submit" class="submit" id="q.2"></button>
+      <br>
+      <button type="submit" class="submit" id="q.3"></button>
+      <br>
+      <button type="submit" class="submit" id="q.4"></button>
+      <br>
+      <button type="submit" class="submit" id="q.5"></button>
+      <br><br><br>
+      <p class="center" id='difficulty'></p>
+      <br>
+      <p class="center" id='lives'></p>
+      <br>
+      <p class="center" id='score'></p>
+    </div>
+  <script src="languages1.js"></script>
+  <script>
+    function randomno(n){
+      var num = Math.floor(Math.random() * n);
+      return num;
+    }
+
+    function removeelem(arr, e){
+      for(i= 0; i < arr.length; i++){
+        if (arr[i] === e) {
+            var arr1 = arr.slice(0,i);
+            var arr2 = arr.slice(i+1,arr.length);
+            return(arr1.concat(arr2));
+        }
+      }
+    return(arr);
+    }
+
+    function removelang(str){
+      string = split(str);
+      result = [];
+      var resstring = ""
+      for(i=0;i<string.length;i++){
+        tmp = string[i];
+        tmp.toLowerCase();
+        if(tmp!="language"&tmp!="languages"){
+          result.push(tmp);
+        }
+      }
+      for(j=0;j<result.length;j++){
+        resstring = resstring + result[j]
+      }
+      return(resstring)
+    }
+
+    function randomq(){
+      const keys = Object.keys(languages);
+      var language = String(keys[randomno(keys.length)]);
+      var languagefam = languages[language]["mainfam"]
+      var difficultyarr = difficultyallowed(numcorrect)
+      if(languagefam != "NA"){
+        console.log(difficultyarr)
+        console.log(languages[language]["difficulty"])
+        if(difficultyarr.includes(languages[language]["difficulty"])){
+          return([language, languagefam]);
+        } else {
+          return(randomq());
+        }
+      }
+      else {
+        return(randomq());
+      }
+    };
+
+    function exceptions(fam){
+      if(fam=="NA" || fam.toLowerCase()=="unclassified" ||
+      fam.toLowerCase()=="N" || fam.length < 4){
+        return(0);
+      } else {
+        return(1);
+      }
+    }
+
+    function randomans(array){
+      const keys = Object.keys(languages);
+      var ran_key = randomno(keys.length);
+      var ran_lang = String(keys[ran_key]);
+      var tmp = languages[ran_lang]["mainfam"];
+      if(tmp.toLowerCase()=="language isolate"){
+        tmp = "Language Isolate";
+      }
+      if(array.includes(tmp) || exceptions(tmp)==0){
+        return randomans(array);
+      }
+      else {
+        console.log("randomans: " + String(tmp))
+        return tmp;
+      };
+    };
+
+    function randomqtype(){
+      var ran_key = randomno(2);
+      var questiontypes = ["where", "what"]
+      return(questiontypes[ran_key]);
+    };
+
+    function makearray(num){
+      array = []
+      for(i = 1;i < num+1; i++){
+        array.push(i);
+      }
+      return(array)
+    };
+
+    function difficultyallowed(cor){
+      j = 1
+      for(i=0;i<amount.length;i++){
+        if(numcorrect > amount[i]){
+          j++;
+        }
+      }
+      m = Math.max(0, j-1)
+      return(difficulty.slice(m,j));
+    }
+
+    function determinescore(){
+      var multiplier = difficultyallowed(numcorrect).length
+      return(100 * multiplier)
+    }
+
+    var difficulty = ["easy", "medium", "hard", "very hard", "super hard", "whizkid"];
+
+    var amount = [2, 7, 12, 18, 25, 30]
+
+    var numcorrect = 0;
+
+    var lives = 3;
+
+    var score = 0;
+
+    var qno = 5;
+
+    var qarray = makearray(qno);
+
+    function randompos(init, ref){
+      if(ref.length>0){
+        position = randomno(ref.length);
+        pos = init[position];
+        newref = removeelem(ref, ref[position]);
+        newinit = removeelem(init, pos);
+        array1 = [pos];
+        if(ref.length===1) {
+          return(array1)
+        } else {
+          return (array1.concat(randompos(newinit, newref)));
+        }
+      }
+    }
+
+    function getquestion(){
+      var array = []
+      var ques = randomq()
+      array.push(String(ques[1]))
+      for(i=0; i < (qno - 1); i++){
+        tmp = randomans(array);
+        array.push(tmp);
+      }
+      console.log("getquestion " + String(ques[0]) + " " + String(array))
+      return([ques[0], array]);
+    };
+
+    function setqtext(num, answers, language){
+      document.getElementById("question").innerHTML = "What family does the " + language + " belong to?";
+      for(i=1;i<num+1;i++){
+        string = "q." + String(i);
+        j = i - 1;
+        console.log(string)
+        document.getElementById(string).textContent = answers[j];
+      }
+    };
+
+    var language;
+    var correct;
+    var answers;
+    var feedback;
+    var mod = document.getElementsByClassName("modal")[0];
+
+    function replacetext(){
+      var q = getquestion();
+      language = q[0];
+      correct = q[1][0];
+      answers = randompos(q[1], qarray, q[1].length);
+    };
+    // need interactive elements (click, check correct, etc.)
+
+    function getscore(){
+      document.getElementById("score").innerHTML = "Score: " + String(score)
+      document.getElementById("lives").innerHTML = "Lives: " + String(lives)
+    };
+
+    function load(){
+      lives = 3;
+      score = 0;
+      qno = 5;
+      document.getElementsByClassName("continue")[0].textContent = ">>"
+      replacetext();
+      setqtext(qno, answers, language)
+      getscore();
+      var x = document.getElementById("cover");
+      x.style.display="none"
+    }
+
+    // Click events
+    window.onclick = function(event) {
+      if (event.target.matches('button.submit')) {
+        if(lives>1){
+          if(event.target.textContent == correct){
+            addition = determinescore()
+            score = score + addition;
+            numcorrect += 1;
+            feedback = "Correct! Nice job :) <br>Current score:" + score
+            togglemodal();
+          } else {
+            lives -= 1;
+            feedback = "Incorrect... Better luck on the next one! <br>Current score:" + score
+            togglemodal();
+          }
+          nextquestion();
+        } else {
+          lives -= 1;
+          document.getElementById("lives").innerHTML = "lives: " + String(lives)
+          document.getElementsByClassName("continue")[0].textContent = "Play Again?"
+          feedback = "All out of lives :( <br>You scored: " + String(score)
+          togglemodal();
+        }
+      }
+      if (mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)) {
+        togglemodal();
+        load();
+      }
+      else if (mod.classList.contains('show') && (event.target.matches('.continue') || event.target == mod)) {
+        togglemodal();
+      }
+    };
+
+    function togglemodal(){
+      console.log("modal activated")
+      var f = document.getElementById("feedback")
+      f.innerHTML = feedback
+      mod.classList.toggle("show");
+    }
+
+    function nextquestion(){
+      var x = document.getElementById("cover");
+      x.style.display="block";
+      replacetext();
+      setqtext(qno, answers, language)
+      getscore();
+      x.style.display="none";
+    }
+
+    // prevent issue with Tongan lol
+  </script>
+  <noscript>
+    <META HTTP-EQUIV="Refresh" CONTENT="0;URL=../error.html">
+    Uh oh! Your browser either doesn't support JavaScript or has JavaScript disabled.
+    My site might not be accessible to you.
+  </noscript>
+</body>
+</html>

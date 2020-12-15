@@ -1,6 +1,6 @@
 ---
 layout: mydefault
-title: "About Me | Hillel Steinmetz"
+title: "About Me"
 description: "Learn a little bit about who I am and what I do!"
 tag: navbar
 ---
