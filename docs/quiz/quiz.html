@@ -208,13 +208,13 @@
     };
 
     function famexcept(lang, fam){
-      if(fam=="Indo-European" && indoeur.includs(lang)){
+      if(fam=="Indo-European" && indoeur.includes(lang)){
         return(1);
       }
-      if(fam=="Niger\u2013Congo" && ncongo.includs(lang)){
+      if(fam=="Niger\u2013Congo" && ncongo.includes(lang)){
         return(1);
       }
-      if(fam=="Afro-Asiatic" && afroa.includs(lang)){
+      if(fam=="Afro-Asiatic" && afroa.includes(lang)){
         return(1);
       }
       return(0);
