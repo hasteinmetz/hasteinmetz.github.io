@@ -6,8 +6,10 @@
 <body onload="load();">
   <div class="modal">
     <div class="modal-content">
-      <p id="feedback"></p>
-      <button class="continue">>></button>
+      <div class="center">
+        <p id="feedback"></p>
+        <button class="continue">>></button>
+      </div>
     </div>
   </div>
   <div class="cover" id="cover">
@@ -191,6 +193,7 @@
       lives = 3;
       score = 0;
       qno = 5;
+      document.getElementsByClassName("continue")[0].textContent = ">>"
       replacetext();
       setqtext(qno, answers, language)
       getscore();
@@ -201,30 +204,30 @@
     // Click events
     window.onclick = function(event) {
       if (event.target.matches('button.submit')) {
-        if(lives>0){
+        if(lives>1){
           if(event.target.textContent == correct){
             score += 100
-            feedback = "Correct! Nice job :) \nCurrent score:" + score + "Click >> to continue"
+            feedback = "Correct! Nice job :) <br>Current score:" + score
             togglemodal();
           } else {
-            lives -= 1
-            feedback = "Incorrect... Better luck on the next one! \nCurrent score:" + score + "\nClick >> to continue"
+            lives -= 1;
+            feedback = "Incorrect... Better luck on the next one! <br>Current score:" + score
             togglemodal();
           }
           nextquestion();
         } else {
+          lives -= 1;
+          document.getElementById("lives").innerHTML = "lives: " + String(lives)
           document.getElementsByClassName("continue")[0].textContent = "Play Again?"
-          feedback = "All out of lives :( \nYou scored: " + String(score)
+          feedback = "All out of lives :( <br>You scored: " + String(score)
           togglemodal();
         }
       }
-      if(mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)){
+      if (mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)) {
         togglemodal();
+        load();
       }
       else if (mod.classList.contains('show') && (event.target.matches('.continue') || event.target == mod)) {
-        togglemodal();
-      }
-      if (mod.classList.contains('show') && event.target == mod) {
         togglemodal();
       }
     };
