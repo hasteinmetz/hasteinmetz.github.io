@@ -42,8 +42,6 @@
   <script src="Contents/languages1.js"></script>
   <script>
   //to do:
-  // collect previous questions
-  // reset difficulty
   // filter object
     function randomno(n){
       var num = Math.floor(Math.random() * n);
@@ -283,6 +281,7 @@
       }
       if (mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)) {
         togglemodal();
+        numcorrect = 0;
         load();
       }
       else if (mod.classList.contains('show') && (event.target.matches('.continue') || event.target == mod)) {
