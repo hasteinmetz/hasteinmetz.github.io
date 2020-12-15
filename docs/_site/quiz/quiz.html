@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <link rel="stylesheet" href="defaultstyle.css">
+  <link rel="stylesheet" href="Contents/defaultstyle.css">
 </head>
 <body onload="load();">
   <div>
@@ -39,7 +39,7 @@
       <br>
       <p class="center" id='score'></p>
     </div>
-  <script src="languages1.js"></script>
+  <script src="Contents/languages1.js"></script>
   <script>
     function randomno(n){
       var num = Math.floor(Math.random() * n);
@@ -76,9 +76,11 @@
 
     function randomq(){
       const keys = Object.keys(languages);
-      var language = String(keys[randomno(keys.length)]);
-      var languagefam = languages[language]["mainfam"]
       var difficultyarr = difficultyallowed(numcorrect)
+      const languagesnew = Object.entries(languages).filter(lang => lang==1)
+      console.log(languagesnew)
+      var language = keys[randomno(keys.length)];
+      var languagefam = languages[language]["mainfam"]
       if(languagefam != "NA"){
         console.log(difficultyarr)
         console.log(languages[language]["difficulty"])
@@ -110,7 +112,8 @@
       if(tmp.toLowerCase()=="language isolate"){
         tmp = "Language Isolate";
       }
-      if(array.includes(tmp) || exceptions(tmp)==0){
+      console.log("Family Except:" + famexcept(tmp, array[0]) + " " + tmp + array[0])
+      if(array.includes(tmp) || exceptions(tmp)==0 || famexcept==1){
         return randomans(array);
       }
       else {
@@ -200,6 +203,22 @@
       }
     };
 
+    function famexcept(lang, fam){
+      if(fam=="Indo-European" && indoeur.includs(lang)){
+        return(1);
+      }
+      if(fam=="Niger\u2013Congo" && ncongo.includs(lang)){
+        return(1);
+      }
+      if(fam=="Afro-Asiatic" && afroa.includs(lang)){
+        return(1);
+      }
+      return(0);
+    }
+
+    var indoeur = ["Slavic", "Baltic", "Romance", "Germanic", "Indo-Aryan", "Iranian", "Celtic"]
+    var ncongo = ["Bantu"]
+    var afroa = ["Semitic"]
     var language;
     var correct;
     var answers;
