@@ -80,14 +80,16 @@
       var languagefam = languages[language]["mainfam"]
       var difficultyarr = difficultyallowed(numcorrect)
       if(languagefam != "NA"){
+        console.log(difficultyarr)
+        console.log(languages[language]["difficulty"])
         if(difficultyarr.includes(languages[language]["difficulty"])){
           return([language, languagefam]);
         } else {
-          return(randomq);
+          return(randomq());
         }
       }
       else {
-        return(randomq);
+        return(randomq());
       }
     };
 
@@ -132,13 +134,14 @@
     };
 
     function difficultyallowed(cor){
-      j = 0
+      j = 1
       for(i=0;i<amount.length;i++){
         if(numcorrect > amount[i]){
           j++;
         }
       }
-      return(difficulty.slice(0,j));
+      m = Math.max(0, j-1)
+      return(difficulty.slice(m,j));
     }
 
     function determinescore(){
@@ -233,7 +236,8 @@
       if (event.target.matches('button.submit')) {
         if(lives>1){
           if(event.target.textContent == correct){
-            score += determinescore;
+            addition = determinescore()
+            score = score + addition;
             numcorrect += 1;
             feedback = "Correct! Nice job :) <br>Current score:" + score
             togglemodal();

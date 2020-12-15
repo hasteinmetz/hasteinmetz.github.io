@@ -4,6 +4,9 @@
   <link rel="stylesheet" href="defaultstyle.css">
 </head>
 <body onload="load();">
+  <div>
+    <h1>Language Family Quiz (Pre-Alpha)</h1>
+  </div>
   <div class="modal">
     <div class="modal-content">
       <div class="center">
@@ -75,11 +78,18 @@
       const keys = Object.keys(languages);
       var language = String(keys[randomno(keys.length)]);
       var languagefam = languages[language]["mainfam"]
+      var difficultyarr = difficultyallowed(numcorrect)
       if(languagefam != "NA"){
-        return([language, languagefam]);
+        console.log(difficultyarr)
+        console.log(languages[language]["difficulty"])
+        if(difficultyarr.includes(languages[language]["difficulty"])){
+          return([language, languagefam]);
+        } else {
+          return(randomq());
+        }
       }
       else {
-        return(randomq);
+        return(randomq());
       }
     };
 
@@ -123,7 +133,27 @@
       return(array)
     };
 
-    var difficulty = ["easy", "medium", "hard"];
+    function difficultyallowed(cor){
+      j = 1
+      for(i=0;i<amount.length;i++){
+        if(numcorrect > amount[i]){
+          j++;
+        }
+      }
+      m = Math.max(0, j-1)
+      return(difficulty.slice(m,j));
+    }
+
+    function determinescore(){
+      var multiplier = difficultyallowed(numcorrect).length
+      return(100 * multiplier)
+    }
+
+    var difficulty = ["easy", "medium", "hard", "very hard", "super hard", "whizkid"];
+
+    var amount = [2, 7, 12, 18, 25, 30]
+
+    var numcorrect = 0;
 
     var lives = 3;
 
@@ -206,7 +236,9 @@
       if (event.target.matches('button.submit')) {
         if(lives>1){
           if(event.target.textContent == correct){
-            score += 100
+            addition = determinescore()
+            score = score + addition;
+            numcorrect += 1;
             feedback = "Correct! Nice job :) <br>Current score:" + score
             togglemodal();
           } else {
