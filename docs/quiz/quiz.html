@@ -38,6 +38,8 @@
       <p class="center" id='lives'></p>
       <br>
       <p class="center" id='score'></p>
+      <br>
+      <p class="center" id='hscore'></p>
     </div>
   <script src="Contents/languages1.js"></script>
   <script>
@@ -183,6 +185,8 @@
 
     var score = 0;
 
+    var highscore = 0;
+
     var qno = 5;
 
     var qarray = makearray(qno);
@@ -258,6 +262,7 @@
     function getscore(){
       document.getElementById("score").innerHTML = "Score: " + String(score)
       document.getElementById("lives").innerHTML = "Lives: " + String(lives)
+      document.getElementById("hscore").innerHTML = "High Score: " + String(highscore)
     };
 
     function load(){
@@ -294,6 +299,10 @@
               document.getElementById("lives").innerHTML = "Lives: " + String(lives)
               document.getElementsByClassName("continue")[0].textContent = "Play Again?"
               feedback = "All out of lives :( <br>You scored: " + String(score)
+              if(score > highscore){
+                highscore = score;
+                document.getElementById("hscore").innerHTML = "High Score: " + String(lives)
+              }
               togglemodal();
             }
           }
