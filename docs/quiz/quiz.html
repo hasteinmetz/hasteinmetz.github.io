@@ -4,18 +4,19 @@ tags: language-family quiz linguistics
 description: "Test your knowledge of language families! Learn something new!"
 ---
 <html>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
 <head>
   <link rel="stylesheet" href="Contents/defaultstyle.css">
 </head>
 <body onload="load();">
-  <div>
+  <div class="title">
     <h1>Language Family Quiz (Very Early Version)</h1>
   </div>
   <div class="modal">
     <div class="modal-content">
       <div class="center">
-        <p id="feedback"></p><br>
-        <p id="more"></p><a id="info" href="#">Wikipedia</a><br>
+        <p class="m" id="feedback"></p><br>
+        <p class="m" id="moreinfo"><a href="#" target="_blank">Wikipedia</a></p><br>
         <button class="continue">>></button>
       </div>
     </div>
@@ -109,8 +110,9 @@ description: "Test your knowledge of language families! Learn something new!"
       const keys = Object.keys(languagesnew)
       var language = keys[randomno(keys.length)];
       console.log("lang = ", language)
-      var languagefam = languages[language]["mainfam"]
-      moreinfo = languages[language]["link"]
+      var languagefam = languages[language]["mainfam"];
+      moreinfo = languages[language]["link"];
+      console.log("link = ", moreinfo)
       if(languagefam != "NA" && languagefam != "cant" && !prevq.includes(language)){
         if(difficultyarr.includes(languages[language]["difficulty"])){
           return([language, languagefam]);
@@ -289,7 +291,7 @@ description: "Test your knowledge of language families! Learn something new!"
     // Click events
     window.onclick = function(event) {
       if (event.target.matches('button.submit')) {
-        ref = "Read more about " + correct + " on "
+        ref = "Read more about " + language + " on <a href=" + moreinfo + " target=\"_blank\">Wikipedia</a>";
         if(lives>0){
           if(event.target.textContent == correct){
             addition = determinescore()
@@ -331,11 +333,9 @@ description: "Test your knowledge of language families! Learn something new!"
     function togglemodal(){
       console.log("modal activated")
       var f = document.getElementById("feedback")
-      var p = document.getElementById("more")
-      var l = document.getElementById("info")
+      var l = document.getElementById("moreinfo")
       f.innerHTML = feedback;
-      p.innerHTML = ref;
-      l.href = moreinfo;
+      l.innerHTML = ref;
       mod.classList.toggle("show");
     }
 
