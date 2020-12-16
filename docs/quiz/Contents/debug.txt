@@ -1,0 +1,8 @@
+/wiki/Dutch_language
+/wiki/English_language
+/wiki/French_language
+/wiki/German_language
+/wiki/Yiddish_language
+/wiki/Bengali_language
+/wiki/Georgian_language
+

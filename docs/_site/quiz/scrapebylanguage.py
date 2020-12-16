@@ -6,7 +6,6 @@ import sys
 import time
 
 def finddiff(speakers):
-    easylangs = ["Romance", "Germanic"]
     try:
         speakers2 = speakers.replace(",", "")
         s = "".join([ c if (c.isalnum() or c==".") else "*" for c in speakers2 ])
@@ -22,9 +21,9 @@ def finddiff(speakers):
         if number >= 1000000:
             number = number/1000000
         if number > 0 and number < 999:
-            if number >= 0 and number < 10:
+            if number >= 0 and number < 5:
                 difficulty = "hard"
-            if number >= 10 and number < 100:
+            if number >= 5 and number < 100:
                 difficulty = "medium"
             if number >= 100 and number < 999:
                 difficulty = "easy"
@@ -94,14 +93,13 @@ def scrape(wikipg, countries, dict):
                                     newthing = newthing[1:len(newthing)]
                                 famarray.append(newthing)
                     languagefam = languagefam + famarray
-            if isinstance(places, list):
-                for pl in places:
-                    if title[0:4] in pl:
-                        difficulty = "name"
-            if difficulty == "medium" and languagefam in ["Romance", "Germanic", "Slavic"]:
-                difficulty = "easy"
-            if difficulty == "hard" and languagefam in ["Romance", "Germanic", "Slavic"]:
-                difficulty = "medium"
+            easylang = frozenset(["Romance", "Germanic", "Slavic"])
+            if languagefam in easylang:
+                if difficulty == "medium":
+                    difficulty = "easy"
+            if languagefam in easylang:
+                if difficulty == "hard":
+                    difficulty = "medium"
         dict.update({title : {"speakers": speakers, "places":places, "family":languagefam, "difficulty":difficulty}})
 
 def retryfail(failarr, retries, countries, dict):

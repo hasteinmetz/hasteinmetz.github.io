@@ -15,8 +15,11 @@
         ]
     }, 
     "Kashubian language": {
-        "difficulty": "very hard", 
+        "difficulty": "medium", 
         "speakers": "108,000\u00a0(2011 census)[1]", 
+        "places": [
+            "poland"
+        ], 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -29,9 +32,6 @@
             "Polish", 
             "?", 
             "Kashubian"
-        ], 
-        "places": [
-            "poland"
         ]
     }, 
     "Veps language": {
@@ -74,8 +74,9 @@
         ]
     }, 
     "German language": {
-        "difficulty": "medium", 
+        "difficulty": "easy", 
         "speakers": "90 million (2010) to 95 million\u00a0(2014)L2 speakers: 10\u201315 million (2014)[1]", 
+        "places": "language\u00a0in\n6 countries\n\u00a0Austria\n\u00a0Belgium\n\u00a0Germany\n\u00a0Liechtenstein\n\u00a0Luxembourg\n\u00a0\u00a0Switzerland\n\n\n\n3 dependencies\n\u00a0South Tyrol (Italy)\n                   31 gminas in Poland (Opole Voivodeship and Silesia Voivodeship)\n 13 municipalities in Brazil\n                 \n\nSeveral international institutions", 
         "mainfam": "Germanic", 
         "family": [
             "Indo-European", 
@@ -83,8 +84,7 @@
             "West Germanic", 
             "High German", 
             "German"
-        ], 
-        "places": "language\u00a0in\n6 countries\n\u00a0Austria\n\u00a0Belgium\n\u00a0Germany\n\u00a0Liechtenstein\n\u00a0Luxembourg\n\u00a0\u00a0Switzerland\n\n\n\n3 dependencies\n\u00a0South Tyrol (Italy)\n                   31 gminas in Poland (Opole Voivodeship and Silesia Voivodeship)\n 13 municipalities in Brazil\n                 \n\nSeveral international institutions"
+        ]
     }, 
     "Chenchu language": {
         "difficulty": "super hard", 
@@ -103,8 +103,11 @@
         ]
     }, 
     "Sicilian language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "4.7 million\u00a0(2002)[1]", 
+        "places": [
+            "italy"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -112,9 +115,6 @@
             "Romance", 
             "Italo-Dalmatian", 
             "Sicilian"
-        ], 
-        "places": [
-            "italy"
         ]
     }, 
     "Khasi language": {
@@ -149,8 +149,11 @@
         ]
     }, 
     "Upper Sorbian language": {
-        "difficulty": "super hard", 
+        "difficulty": "medium", 
         "speakers": "13,000\u00a0(2007)[1]", 
+        "places": [
+            "germany"
+        ], 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -159,9 +162,6 @@
             "West Slavic", 
             "Sorbian", 
             "Upper Sorbian"
-        ], 
-        "places": [
-            "germany"
         ]
     }, 
     "Choctaw language": {
@@ -376,8 +376,9 @@
         ]
     }, 
     "Dutch language": {
-        "difficulty": "medium", 
+        "difficulty": "easy", 
         "speakers": "24 million\u00a0(2016)[1]Total (L1 plus L2 speakers): 29 million (2018)[2][3]", 
+        "places": "language\u00a0in\u00a0Belgium\u00a0Netherlands\u00a0Suriname\n\nDependent entities\n\u00a0Aruba\n\u00a0Cura\u00e7ao\n\u00a0Sint Maarten\n\n\n\nOrganisations\n\u00a0Benelux\n\u00a0European Union\n South American Union\n Caribbean Community\n\n", 
         "mainfam": "Germanic", 
         "family": [
             "Indo-European", 
@@ -388,8 +389,7 @@
             "Frankish", 
             ")", 
             "Dutch"
-        ], 
-        "places": "language\u00a0in\u00a0Belgium\u00a0Netherlands\u00a0Suriname\n\nDependent entities\n\u00a0Aruba\n\u00a0Cura\u00e7ao\n\u00a0Sint Maarten\n\n\n\nOrganisations\n\u00a0Benelux\n\u00a0European Union\nSouth American Union\n Caribbean Community\n\n"
+        ]
     }, 
     "Bambara language": {
         "difficulty": "hard", 
@@ -409,8 +409,12 @@
         ]
     }, 
     "Faroese language": {
-        "difficulty": "super hard", 
+        "difficulty": "medium", 
         "speakers": "72,000\u00a0(2007)[1]", 
+        "places": [
+            "denmark", 
+            "greenland"
+        ], 
         "mainfam": "Germanic", 
         "family": [
             "Indo-European", 
@@ -419,15 +423,14 @@
             "West Scandinavian", 
             "Insular Scandinavian", 
             "Faroese"
-        ], 
-        "places": [
-            "denmark", 
-            "greenland"
         ]
     }, 
     "Norwegian language": {
-        "difficulty": "hard", 
+        "difficulty": "easy", 
         "speakers": "5.32 million\u00a0(2020)[1]", 
+        "places": [
+            "norway"
+        ], 
         "mainfam": "Germanic", 
         "family": [
             "Indo-European", 
@@ -438,9 +441,6 @@
             "disputed", 
             ")", 
             "Norwegian"
-        ], 
-        "places": [
-            "norway"
         ]
     }, 
     "Filipino language": {
@@ -460,7 +460,7 @@
         ]
     }, 
     "Turkmen language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "6.7 million\u00a0(2009\u20132015)[3]", 
         "mainfam": "Turkic", 
         "family": [
@@ -740,7 +740,7 @@
         ]
     }, 
     "Shilha language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "7,200,000\u00a0(2016)[1]", 
         "mainfam": "Afro-Asiatic", 
         "family": [
@@ -943,8 +943,11 @@
         ]
     }, 
     "Mirandese language": {
-        "difficulty": "super hard", 
+        "difficulty": "medium", 
         "speakers": "15,000\u00a0(2000)[1](10,000 use it regularly, 5,000 when they return to the area. 2,000 Sendinese in Sendim Vila.)[2]", 
+        "places": [
+            "portugal"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -955,18 +958,13 @@
             "West Iberian", 
             "Astur-Leonese", 
             "Mirandese"
-        ], 
-        "places": [
-            "portugal"
         ]
     }, 
     "Wagiman language": {
         "difficulty": "whizkid", 
         "speakers": "2\u00a0(2020)[1]", 
-        "mainfam": "language isolate", 
-        "family": [
-            "language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": "NA"
     }, 
     "Kabardian language": {
@@ -1106,7 +1104,7 @@
         ]
     }, 
     "Mongolian language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "5.2 million\u00a0(2005)[1]", 
         "mainfam": "Mongolic", 
         "family": [
@@ -1135,7 +1133,7 @@
         ]
     }, 
     "Northern Ndebele language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "5 million\u00a0(2015)[1]", 
         "mainfam": "Bantu", 
         "family": [
@@ -1257,8 +1255,11 @@
         ]
     }, 
     "Extremaduran language": {
-        "difficulty": "very hard", 
+        "difficulty": "medium", 
         "speakers": "(200,000 cited 1994)[2]", 
+        "places": [
+            "spain"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -1269,9 +1270,6 @@
             "West Iberian", 
             "Asturleonese", 
             "Extremaduran"
-        ], 
-        "places": [
-            "spain"
         ]
     }, 
     "Korwa language": {
@@ -1291,7 +1289,7 @@
         ]
     }, 
     "Shona language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "8.3 million, Shona proper\u00a0(2000 to 2007)[1]8.80 million Zezuru, Karanga, Korekore (2000) 15 million incl. Manyika, Ndau (2000\u20132006)[2]", 
         "mainfam": "Bantu", 
         "family": [
@@ -1395,10 +1393,8 @@
     "Sandawe language": {
         "difficulty": "super hard", 
         "speakers": "60,000\u00a0(2013)[1]estimates run from 30,000 to 90,000", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": [
             "tanzania"
         ]
@@ -1457,7 +1453,7 @@
         "places": "NA"
     }, 
     "Kashmiri language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "7 million\u00a0(2011 census)[2]", 
         "mainfam": "Indo-Aryan", 
         "family": [
@@ -1622,8 +1618,15 @@
         ]
     }, 
     "Bulgarian language": {
-        "difficulty": "hard", 
+        "difficulty": "easy", 
         "speakers": "8[4]\u20139[5][6][7][8]  million[dubious  \u2013 discuss]", 
+        "places": [
+            "bulgaria", 
+            "ukraine", 
+            "romania", 
+            "turkey", 
+            "serbia"
+        ], 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -1632,13 +1635,6 @@
             "South Slavic", 
             "Eastern", 
             "Bulgarian"
-        ], 
-        "places": [
-            "bulgaria", 
-            "ukraine", 
-            "romania", 
-            "turkey", 
-            "serbia"
         ]
     }, 
     "Lak language": {
@@ -1689,7 +1685,7 @@
         ]
     }, 
     "Santali language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "7.6 million\u00a0(2011 census[1])[2]", 
         "mainfam": "Austroasiatic", 
         "family": [
@@ -1867,16 +1863,16 @@
     "Norfuk language": {
         "difficulty": "NA", 
         "speakers": "ca. 400", 
-        "mainfam": "cant", 
+        "places": "language\u00a0in\u00a0Norfolk Island (Australia)", 
+        "mainfam": "NA", 
         "family": [
             "cant", 
             "Pitkern", 
             "Norfolk"
-        ], 
-        "places": "language\u00a0in\u00a0Norfolk Island (Australia)"
+        ]
     }, 
     "Kanuri language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "8.6 million\u00a0(1998-2015)[1]", 
         "mainfam": "Nilo-Saharan", 
         "family": [
@@ -1893,7 +1889,7 @@
         ]
     }, 
     "Malvi language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "5.4 million\u00a0(2011 census)[1]", 
         "mainfam": "Indo-Aryan", 
         "family": [
@@ -1964,8 +1960,11 @@
         ]
     }, 
     "Alsatian dialect": {
-        "difficulty": "very hard", 
+        "difficulty": "medium", 
         "speakers": "900,000\u00a0(2013)[1]", 
+        "places": [
+            "france"
+        ], 
         "mainfam": "Germanic", 
         "family": [
             "Indo-European", 
@@ -1978,9 +1977,6 @@
             "Low Alemannic German", 
             "Upper Rhenish", 
             "Alsatian"
-        ], 
-        "places": [
-            "france"
         ]
     }, 
     "Pirah\u00e3 language": {
@@ -2010,7 +2006,7 @@
         ]
     }, 
     "Kabyle language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "6,000,000\u00a0(2012)[1]", 
         "mainfam": "Afro-Asiatic", 
         "family": [
@@ -2199,10 +2195,8 @@
     "Unserdeutsch": {
         "difficulty": "whizkid", 
         "speakers": "100+, almost all in Australia\u00a0(2014\u20132017)[1][2]", 
-        "mainfam": "German-based creole", 
-        "family": [
-            "German-based creole"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": "NA"
     }, 
     "Malagasy language": {
@@ -2694,7 +2688,7 @@
         ]
     }, 
     "Luba-Kasai language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "(6.3 million Cilubaphones cited 1991)[2]", 
         "mainfam": "Bantu", 
         "family": [
@@ -2743,7 +2737,7 @@
         "places": "language\u00a0in\u00a0India\nAssam\n"
     }, 
     "Tatar language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "5.2 million\u00a0(2015)[1](may include some L2 speakers)", 
         "mainfam": "Turkic", 
         "family": [
@@ -3027,10 +3021,8 @@
     "Chiquitano language": {
         "difficulty": "whizkid", 
         "speakers": "5,900 in Bolivia\u00a0(2004)[1]", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": [
             "bolivia", 
             "brazil"
@@ -3274,8 +3266,14 @@
         ]
     }, 
     "Catalan language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "4.1 million[1]\u00a0(2012)Total number of speakers: More than 10 million (L1 plus L2; 2018)[2]", 
+        "places": [
+            "andorra", 
+            "france", 
+            "spain", 
+            "italy"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -3287,12 +3285,6 @@
             "Occitano-Romance", 
             "[3]", 
             "Catalan/Valencian"
-        ], 
-        "places": [
-            "andorra", 
-            "france", 
-            "spain", 
-            "italy"
         ]
     }, 
     "Yankunytjatjara dialect": {
@@ -3528,10 +3520,8 @@
     "Michif": {
         "difficulty": "whizkid", 
         "speakers": "730\u00a0(2010 & 2011 censuses)[1]", 
-        "mainfam": "Mixed", 
-        "family": [
-            "Mixed"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": [
             "canada"
         ]
@@ -3599,8 +3589,11 @@
         ]
     }, 
     "North Frisian language": {
-        "difficulty": "super hard", 
+        "difficulty": "medium", 
         "speakers": "(10,000 cited 1976)[1]", 
+        "places": [
+            "germany"
+        ], 
         "mainfam": "Germanic", 
         "family": [
             "Indo-European", 
@@ -3610,9 +3603,6 @@
             "Anglo-Frisian", 
             "Frisian", 
             "North Frisian"
-        ], 
-        "places": [
-            "germany"
         ]
     }, 
     "Tol language": {
@@ -3863,7 +3853,7 @@
         ]
     }, 
     "Xhosa language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "8.2 million\u00a0(2020 March 08)[1]11 million L2 speakers (2002)[2]\nisiXhosa is one of the official languages of post-apartheid South Africa.", 
         "mainfam": "Bantu", 
         "family": [
@@ -3882,8 +3872,9 @@
         "places": "language\u00a0in\u00a0South Africa\u00a0Zimbabwe"
     }, 
     "Czech language": {
-        "difficulty": "medium", 
+        "difficulty": "easy", 
         "speakers": "10.7 million\u00a0(2015)[1]", 
+        "places": "language\u00a0in\u00a0Czech Republic\u00a0European Union", 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -3892,8 +3883,7 @@
             "West Slavic", 
             "Czech\u2013Slovak", 
             "Czech"
-        ], 
-        "places": "language\u00a0in\u00a0Czech Republic\u00a0European Union"
+        ]
     }, 
     "Algonquin language": {
         "difficulty": "whizkid", 
@@ -3931,8 +3921,9 @@
         ]
     }, 
     "Yiddish": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "(1.5 million cited 1986\u20131991 + half undated)[1]", 
+        "places": "ope, Israel, North America, other regions with Jewish populations[1]", 
         "mainfam": "Germanic", 
         "family": [
             "Indo-European", 
@@ -3941,8 +3932,7 @@
             "Elbe Germanic", 
             "High German", 
             "Yiddish"
-        ], 
-        "places": "ope, Israel, North America, other regions with Jewish populations[1]"
+        ]
     }, 
     "Chuukese language": {
         "difficulty": "super hard", 
@@ -3994,8 +3984,12 @@
         ]
     }, 
     "Croatian language": {
-        "difficulty": "hard", 
+        "difficulty": "easy", 
         "speakers": "(5.6 million, including other dialects spoken by Croats cited 1991\u20132006)[1]", 
+        "places": [
+            "montenegro", 
+            "croatia"
+        ], 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -4008,10 +4002,6 @@
             "[2]", 
             "[3]", 
             "Croatian"
-        ], 
-        "places": [
-            "montenegro", 
-            "croatia"
         ]
     }, 
     "Lingala": {
@@ -4096,8 +4086,13 @@
         ]
     }, 
     "Flemish": {
-        "difficulty": "hard", 
+        "difficulty": "easy", 
         "speakers": "6.5 million[1]\u00a0(2016)", 
+        "places": [
+            "belgium", 
+            "netherlands", 
+            "france"
+        ], 
         "mainfam": "Germanic", 
         "family": [
             "Indo-European", 
@@ -4107,11 +4102,6 @@
             "Low Franconian", 
             "Dutch", 
             "Flemish"
-        ], 
-        "places": [
-            "belgium", 
-            "netherlands", 
-            "france"
         ]
     }, 
     "Thai language": {
@@ -4182,7 +4172,7 @@
         "places": "NA"
     }, 
     "Makhuwa language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "7.4 million\u00a0(2006)[1]", 
         "mainfam": "Bantu", 
         "family": [
@@ -4204,7 +4194,7 @@
         ]
     }, 
     "Ilocano language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "9.1 million\u00a0(2015)[1]2 million L2 speakers (2000)[2] Third most spoken native language in the Philippines[3]", 
         "mainfam": "Austronesian", 
         "family": [
@@ -4307,7 +4297,7 @@
         "places": "NA"
     }, 
     "Tigrinya language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "9 million\u00a0(2011\u20132012)[1]", 
         "mainfam": "Semitic", 
         "family": [
@@ -4433,8 +4423,11 @@
         "places": "NA"
     }, 
     "Montenegrin language": {
-        "difficulty": "very hard", 
+        "difficulty": "medium", 
         "speakers": "232,600[1][dubious  \u2013 discuss]\u00a0(2019)\u00a0", 
+        "places": [
+            "montenegro"
+        ], 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -4444,9 +4437,6 @@
             "Western", 
             "Serbo-Croatian", 
             "Montenegrin"
-        ], 
-        "places": [
-            "montenegro"
         ]
     }, 
     "Tupi language": {
@@ -4658,7 +4648,7 @@
         ]
     }, 
     "Dyula language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "6,852,620\u00a0(2019)[1]10.3 million L2 speakers", 
         "mainfam": "Mande", 
         "family": [
@@ -4848,10 +4838,8 @@
     "Nivkh languages": {
         "difficulty": "whizkid", 
         "speakers": "198\u00a0(2010 census)[1]", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": "NA"
     }, 
     "Khoekhoe language": {
@@ -5015,8 +5003,12 @@
         "places": "NA"
     }, 
     "Romanian language": {
-        "difficulty": "medium", 
+        "difficulty": "easy", 
         "speakers": "24\u201326\u00a0million\u00a0(2016)[1]Second language: 4 million[2]L1+L2 speakers: 28\u201330 million", 
+        "places": [
+            "moldova", 
+            "romania"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -5025,10 +5017,6 @@
             "Eastern Romance", 
             "Balkan Romance", 
             "Romanian"
-        ], 
-        "places": [
-            "moldova", 
-            "romania"
         ]
     }, 
     "Venda language": {
@@ -5205,8 +5193,11 @@
         ]
     }, 
     "Ukrainian language": {
-        "difficulty": "medium", 
+        "difficulty": "easy", 
         "speakers": "35 million (2000)[1]Speakers: around 40 million (estimated)[2]", 
+        "places": [
+            "ukraine"
+        ], 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -5215,18 +5206,13 @@
             "East Slavic", 
             "Ruthenian", 
             "Ukrainian"
-        ], 
-        "places": [
-            "ukraine"
         ]
     }, 
     "Zuni language": {
         "difficulty": "whizkid", 
         "speakers": "9,620\u00a0(2015)[1]", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": "NA"
     }, 
     "Bashkardi language": {
@@ -5261,7 +5247,7 @@
         ]
     }, 
     "Ewe language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "(5 million cited 1991\u20132013)[1]", 
         "mainfam": "Niger\u2013Congo", 
         "family": [
@@ -5326,8 +5312,15 @@
         ]
     }, 
     "Polish language": {
-        "difficulty": "medium", 
+        "difficulty": "easy", 
         "speakers": "45 million[1]L2 speakers: 5 million+[2]", 
+        "places": [
+            "hungary", 
+            "lithuania", 
+            "slovakia", 
+            "germany", 
+            "poland"
+        ], 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -5336,13 +5329,6 @@
             "West Slavic", 
             "Lechitic", 
             "Polish"
-        ], 
-        "places": [
-            "hungary", 
-            "lithuania", 
-            "slovakia", 
-            "germany", 
-            "poland"
         ]
     }, 
     "Wasi-wari": {
@@ -5381,10 +5367,8 @@
     "Yaghan language": {
         "difficulty": "whizkid", 
         "speakers": "1\u00a0(2013)[1]Last speaker was 91 years old in May 2019.", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": "NA"
     }, 
     "Shoshoni language": {
@@ -5658,19 +5642,15 @@
     "Burushaski": {
         "difficulty": "very hard", 
         "speakers": "112,000 [3]\u00a0(2016)[4]", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": "NA"
     }, 
     "Haida language": {
         "difficulty": "whizkid", 
         "speakers": "24 (465 total)\u00a0(2018)", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": "language\u00a0in Council of the Haida Nation   Alaska"
     }, 
     "Kosraean language": {
@@ -5803,10 +5783,8 @@
     "Basque language": {
         "difficulty": "very hard", 
         "speakers": "750,000[1]\u00a0(2016)1,185,500 passive speakers", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": [
             "france", 
             "spain"
@@ -5866,10 +5844,8 @@
     "Yuchi language": {
         "difficulty": "whizkid", 
         "speakers": "4\u00a0(2016)[1]12 L2 speakers (2016)[1]", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": "NA"
     }, 
     "Ladakhi language": {
@@ -5906,8 +5882,9 @@
         ]
     }, 
     "Bosnian language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "2.5\u20133 million\u00a0(2008)[1]", 
+        "places": "language\u00a0in\u00a0Bosnia and Herzegovina\u00a0Montenegro (co-official)", 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -5917,8 +5894,7 @@
             "Western", 
             "Serbo-Croatian", 
             "Bosnian"
-        ], 
-        "places": "language\u00a0in\u00a0Bosnia and Herzegovina\u00a0Montenegro (co-official)"
+        ]
     }, 
     "Yaghnobi language": {
         "difficulty": "super hard", 
@@ -5975,7 +5951,7 @@
         ]
     }, 
     "Minangkabau language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "5.5 million\u00a0(2007)[1]", 
         "mainfam": "Austronesian", 
         "family": [
@@ -6006,10 +5982,8 @@
     "Keres language": {
         "difficulty": "super hard", 
         "speakers": "10,670\u00a0(2007)[1][2]", 
-        "mainfam": "language isolate", 
-        "family": [
-            "language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": "NA"
     }, 
     "Koya language": {
@@ -6028,7 +6002,7 @@
         ]
     }, 
     "Tiv language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "7 million\u00a0(2020)[1]", 
         "mainfam": "Niger\u2013Congo", 
         "family": [
@@ -6328,7 +6302,7 @@
         "places": "NA"
     }, 
     "Hiligaynon language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "9.3 million\u00a0(2010)[1]4th most spoken native language in the Philippines.[2]", 
         "mainfam": "Austronesian", 
         "family": [
@@ -6389,8 +6363,11 @@
         "places": "NA"
     }, 
     "West Frisian language": {
-        "difficulty": "very hard", 
+        "difficulty": "medium", 
         "speakers": "470,000\u00a0(2001 census)[1]", 
+        "places": [
+            "netherlands"
+        ], 
         "mainfam": "Germanic", 
         "family": [
             "Indo-European", 
@@ -6401,9 +6378,6 @@
             "Frisian", 
             "West Frisian languages", 
             "West Frisian"
-        ], 
-        "places": [
-            "netherlands"
         ]
     }, 
     "Jarai language": {
@@ -6438,8 +6412,17 @@
         "places": "language\u00a0inIsle of Man"
     }, 
     "Judaeo-Spanish": {
-        "difficulty": "very hard", 
+        "difficulty": "medium", 
         "speakers": "100,000 in Israel\u00a0(2005)[1]10,000 in Turkey and 12,000 elsewhere (2007)[1]60,000[2] \u2013 400,000[3] total speakers", 
+        "places": [
+            "bulgaria", 
+            "greece", 
+            "tunisia", 
+            "turkey", 
+            "israel", 
+            "serbia", 
+            "morocco"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -6451,15 +6434,6 @@
             "West Iberian", 
             "Castilian languages", 
             "Judaeo-Spanish"
-        ], 
-        "places": [
-            "bulgaria", 
-            "greece", 
-            "tunisia", 
-            "turkey", 
-            "israel", 
-            "serbia", 
-            "morocco"
         ]
     }, 
     "Matumbi language": {
@@ -6596,6 +6570,7 @@
             "Common Turkic", 
             "Oghuz", 
             "Southern Oghuz", 
+            "Azerbaijani", 
             "Qashqai"
         ], 
         "places": [
@@ -6620,8 +6595,13 @@
         ]
     }, 
     "Serbo-Croatian": {
-        "difficulty": "medium", 
+        "difficulty": "easy", 
         "speakers": "21 million\u00a0(2011)[1]", 
+        "places": [
+            "montenegro", 
+            "croatia", 
+            "serbia"
+        ], 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -6630,11 +6610,6 @@
             "South Slavic", 
             "Western South Slavic", 
             "Serbo-Croatian"
-        ], 
-        "places": [
-            "montenegro", 
-            "croatia", 
-            "serbia"
         ]
     }, 
     "Bhojpuri language": {
@@ -6737,8 +6712,9 @@
         ]
     }, 
     "Silesian language": {
-        "difficulty": "very hard", 
+        "difficulty": "medium", 
         "speakers": "510,000\u00a0(2011 census)[1]", 
+        "places": "NA", 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -6748,8 +6724,7 @@
             "Lechitic", 
             "[2]", 
             "Silesian"
-        ], 
-        "places": "NA"
+        ]
     }, 
     "Buryat language": {
         "difficulty": "very hard", 
@@ -6843,7 +6818,7 @@
             "Kohistani", 
             "Indus Kohistani"
         ], 
-        "places": "NA"
+        "places": " is a minor language of Pakistan which is mainly spoken in the Kohistan region, it is given a space in this map."
     }, 
     "Tsez language": {
         "difficulty": "super hard", 
@@ -6977,16 +6952,14 @@
     "Pur\u00e9pecha language": {
         "difficulty": "very hard", 
         "speakers": "124,494\u00a0(2010 census)[1]", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": [
             "mexico"
         ]
     }, 
     "Balochi language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "7.6 million\u00a0(2007)[1]", 
         "mainfam": "Iranian", 
         "family": [
@@ -7200,17 +7173,17 @@
         ]
     }, 
     "Sardinian language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "1,000,000[1] - 1,350,000[2]\u00a0(2016)", 
+        "places": [
+            "italy"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
             "Italic", 
             "Romance", 
             "Sardinian"
-        ], 
-        "places": [
-            "italy"
         ]
     }, 
     "Siberian Tatar language": {
@@ -7310,10 +7283,8 @@
     "Huave language": {
         "difficulty": "super hard", 
         "speakers": "17,900\u00a0(2015 census)[1]", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": [
             "mexico"
         ]
@@ -7520,8 +7491,11 @@
         ]
     }, 
     "Gora dialect": {
-        "difficulty": "super hard", 
+        "difficulty": "medium", 
         "speakers": "60,000 (2011 census)[citation needed]", 
+        "places": [
+            "kosovo"
+        ], 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -7531,9 +7505,6 @@
             "Eastern South Slavic", 
             "Torlakian", 
             "Gorani language"
-        ], 
-        "places": [
-            "kosovo"
         ]
     }, 
     "Greek language": {
@@ -7678,8 +7649,9 @@
         "places": "NA"
     }, 
     "Ladin language": {
-        "difficulty": "super hard", 
+        "difficulty": "medium", 
         "speakers": "41,129\u00a0(2006[1]\u20132011[2][3])", 
+        "places": "NA", 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -7689,8 +7661,7 @@
             "Gallo-Romance", 
             "Rhaeto-Romance", 
             "Ladin"
-        ], 
-        "places": "NA"
+        ]
     }, 
     "Lakota language": {
         "difficulty": "whizkid", 
@@ -7718,8 +7689,11 @@
         "places": "NA"
     }, 
     "Italian language": {
-        "difficulty": "medium", 
+        "difficulty": "easy", 
         "speakers": "67 million native speakers in the European Union (2020)[1][2]L2 speakers in the European Union: 13.4 millionc.\u200985 million total speakers", 
+        "places": [
+            "italy"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -7728,9 +7702,6 @@
             "Italo-Western", 
             "Italo-Dalmatian", 
             "Italian"
-        ], 
-        "places": [
-            "italy"
         ]
     }, 
     "Tarahumara language": {
@@ -7912,8 +7883,9 @@
         ]
     }, 
     "French language": {
-        "difficulty": "medium", 
+        "difficulty": "easy", 
         "speakers": "76.8 million worldwideAn estimated 274 million French speakers (L1 plus L2; 2014)[1][2]", 
+        "places": "language\u00a0in\n29 countries\n\u00a0Belgium\n\u00a0Benin\n\u00a0Burkina Faso\n\u00a0Burundi\n\u00a0Cameroon\n\u00a0Canada\n\u00a0Central African Republic\n\u00a0Chad\n\u00a0Comoros\n\u00a0Congo\n\u00a0DR Congo\n\u00a0Djibouti\n\u00a0Equatorial Guinea\n\u00a0France\n\u00a0Gabon\n\u00a0Guinea\n\u00a0Haiti\n\u00a0Ivory Coast\n\u00a0Lebanon\n\u00a0Luxembourg\n\u00a0Madagascar\n\u00a0Mali\n\u00a0Monaco\n\u00a0Niger\n\u00a0Rwanda\n\u00a0Senegal\n\u00a0Seychelles\n\u00a0\u00a0Switzerland\n\u00a0Togo\n\u00a0Vanuatu\n\n\n\n10 dependententities\n\u00a0Aosta Valley (Italy)\n\u00a0French Polynesia\n\u00a0New Brunswick (Canada)\n\u00a0New Caledonia\n\u00a0Puducherry (India)[3]\n\u00a0Quebec (Canada)\n\u00a0Saint Barth\u00e9lemy\n\u00a0Saint Martin\n\u00a0Saint Pierre and Miquelon\n\u00a0Wallis and Futuna\n\n", 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -7923,8 +7895,7 @@
             "Gallo-Romance", 
             "O\u00efl", 
             "French"
-        ], 
-        "places": "language\u00a0in\n29 countries\n\u00a0Belgium\n\u00a0Benin\n\u00a0Burkina Faso\n\u00a0Burundi\n\u00a0Cameroon\n\u00a0Canada\n\u00a0Central African Republic\n\u00a0Chad\n\u00a0Comoros\n\u00a0Congo\n\u00a0DR Congo\n\u00a0Djibouti\n\u00a0Equatorial Guinea\n\u00a0France\n\u00a0Gabon\n\u00a0Guinea\n\u00a0Haiti\n\u00a0Ivory Coast\n\u00a0Lebanon\n\u00a0Luxembourg\n\u00a0Madagascar\n\u00a0Mali\n\u00a0Monaco\n\u00a0Niger\n\u00a0Rwanda\n\u00a0Senegal\n\u00a0Seychelles\n\u00a0\u00a0Switzerland\n\u00a0Togo\n\u00a0Vanuatu\n\n\n\n10 dependententities\n\u00a0Aosta Valley (Italy)\n\u00a0French Polynesia\n\u00a0New Brunswick (Canada)\n\u00a0New Caledonia\n\u00a0Puducherry (India)[3]\n\u00a0Quebec (Canada)\n\u00a0Saint Barth\u00e9lemy\n\u00a0Saint Martin\n\u00a0Saint Pierre and Miquelon\n\u00a0Wallis and Futuna\n\n"
+        ]
     }, 
     "Hebrew language": {
         "difficulty": "NA", 
@@ -8472,10 +8443,8 @@
     "Kutenai language": {
         "difficulty": "whizkid", 
         "speakers": "345\u00a0(2010-2016)[3][4]", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": [
             "canada"
         ]
@@ -8580,8 +8549,9 @@
         ]
     }, 
     "Slovene language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "2.5 million\u00a0(2010)[4]", 
+        "places": "language\u00a0in\u00a0Slovenia \u00a0European Union", 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -8590,8 +8560,7 @@
             "South Slavic", 
             "Western", 
             "Slovene"
-        ], 
-        "places": "language\u00a0in\u00a0Slovenia \u00a0European Union"
+        ]
     }, 
     "Mohawk language": {
         "difficulty": "whizkid", 
@@ -8676,8 +8645,13 @@
         ]
     }, 
     "Venetian language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "3.9 million\u00a0(2002)[5]", 
+        "places": [
+            "croatia", 
+            "italy", 
+            "slovenia"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -8689,11 +8663,6 @@
             "[6]", 
             "[7]", 
             "Venetian"
-        ], 
-        "places": [
-            "croatia", 
-            "italy", 
-            "slovenia"
         ]
     }, 
     "Waray language": {
@@ -8830,8 +8799,13 @@
         "places": "NA"
     }, 
     "Franco-Proven\u00e7al language": {
-        "difficulty": "very hard", 
+        "difficulty": "medium", 
         "speakers": "227,000\u00a0(2013)[1](150,000 in France, 70,000 in Italy,7,000 in Switzerland[2]", 
+        "places": [
+            "switzerland", 
+            "france", 
+            "italy"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -8840,11 +8814,6 @@
             "Western Romance", 
             "Gallo-Romance", 
             "Franco-Proven\u00e7al"
-        ], 
-        "places": [
-            "switzerland", 
-            "france", 
-            "italy"
         ]
     }, 
     "Coeur d'Alene language": {
@@ -8860,7 +8829,7 @@
         "places": "NA"
     }, 
     "Kikuyu language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "6.6 million\u00a0(2009 census)[1]", 
         "mainfam": "Bantu", 
         "family": [
@@ -8897,7 +8866,7 @@
         ]
     }, 
     "Haitian Creole": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "9.6\u00a0million\u00a0(2007)[1]", 
         "mainfam": "French Creole", 
         "family": [
@@ -8990,8 +8959,15 @@
         ]
     }, 
     "Macedonian language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "1.4\u20133.5 million\u00a0(1999\u20132011)[1][2]", 
+        "places": [
+            "bulgaria", 
+            "albania", 
+            "greece", 
+            "romania", 
+            "serbia"
+        ], 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -9000,13 +8976,6 @@
             "South Slavic", 
             "Eastern South Slavic", 
             "Macedonian"
-        ], 
-        "places": [
-            "bulgaria", 
-            "albania", 
-            "greece", 
-            "romania", 
-            "serbia"
         ]
     }, 
     "Senaya language": {
@@ -9058,8 +9027,11 @@
         ]
     }, 
     "Belarusian language": {
-        "difficulty": "hard", 
+        "difficulty": "easy", 
         "speakers": "5.1 million[1]\u00a0(2009 census)6.3 million L2 speakers (2009 census)[1]", 
+        "places": [
+            "belarus"
+        ], 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -9067,9 +9039,6 @@
             "Slavic", 
             "East Slavic", 
             "Belarusian"
-        ], 
-        "places": [
-            "belarus"
         ]
     }, 
     "Hinuq language": {
@@ -9100,8 +9069,12 @@
         ]
     }, 
     "Walloon language": {
-        "difficulty": "very hard", 
+        "difficulty": "medium", 
         "speakers": "600,000\u00a0(2007)[1]perhaps only 300,000 active speakers in rural Wallonia", 
+        "places": [
+            "belgium", 
+            "france"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -9111,10 +9084,6 @@
             "Gallo-Romance", 
             "O\u00efl", 
             "Walloon"
-        ], 
-        "places": [
-            "belgium", 
-            "france"
         ]
     }, 
     "Nafaanra": {
@@ -9177,7 +9146,7 @@
         ]
     }, 
     "Luganda": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "8.5 million", 
         "mainfam": "Bantu", 
         "family": [
@@ -9226,7 +9195,7 @@
         ]
     }, 
     "Betawi language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "5 million\u00a0(2000 census)[1]", 
         "mainfam": "Malay-based creole", 
         "family": [
@@ -9310,8 +9279,11 @@
         "places": "language\u00a0in\u00a0Myanmar\n\n\u00a0ASEAN"
     }, 
     "Asturian language": {
-        "difficulty": "very hard", 
+        "difficulty": "medium", 
         "speakers": "351,791[1]\u00a0(2017)641,502 L1 + L2 speakers (2017)", 
+        "places": [
+            "spain"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -9322,9 +9294,6 @@
             "West Iberian", 
             "Astur-Leonese", 
             "Asturian"
-        ], 
-        "places": [
-            "spain"
         ]
     }, 
     "Dagbani language": {
@@ -9537,8 +9506,11 @@
         "places": "language\u00a0in\u00a0Maldives"
     }, 
     "Aragonese language": {
-        "difficulty": "super hard", 
+        "difficulty": "medium", 
         "speakers": "10,000\u201312,000 (active speakers)30,000\u201350,000 (including passive speakers)[1]\u00a0(2017)", 
+        "places": [
+            "spain"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -9550,9 +9522,6 @@
             "West Iberian", 
             "Navarro-Aragonese", 
             "Aragonese"
-        ], 
-        "places": [
-            "spain"
         ]
     }, 
     "Hawaiian language": {
@@ -9637,7 +9606,7 @@
         "places": "language\u00a0in China\nXinjiang[2]\n"
     }, 
     "Albanian language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "\n6 million (2018) in the Balkans[1]\n10 million globally (2017/2018)[2][1]\n", 
         "mainfam": "Indo-European", 
         "family": [
@@ -9674,10 +9643,8 @@
     "Jalaa language": {
         "difficulty": "NA", 
         "speakers": "NA", 
-        "mainfam": "language isolate", 
-        "family": [
-            "language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": [
             "nigeria"
         ]
@@ -9700,8 +9667,12 @@
         ]
     }, 
     "Swedish language": {
-        "difficulty": "hard", 
+        "difficulty": "easy", 
         "speakers": "7.9 millionL2 speakers: 3.2 million\u00a0(2018)[1]", 
+        "places": [
+            "finland", 
+            "sweden"
+        ], 
         "mainfam": "Germanic", 
         "family": [
             "Indo-European", 
@@ -9709,10 +9680,6 @@
             "North Germanic", 
             "East Scandinavian", 
             "Swedish"
-        ], 
-        "places": [
-            "finland", 
-            "sweden"
         ]
     }, 
     "Waddar language": {
@@ -9747,8 +9714,9 @@
         ]
     }, 
     "Danish language": {
-        "difficulty": "hard", 
+        "difficulty": "easy", 
         "speakers": "6.0 million\u00a0(2019)[2]", 
+        "places": "language\u00a0in\u00a0Kingdom of Denmark\u00a0\u2022  \u00a0Denmark\u00a0\u2022  \u00a0Faroe Islands\u00a0Nordic Council\u00a0European Union", 
         "mainfam": "Germanic", 
         "family": [
             "Indo-European", 
@@ -9757,8 +9725,7 @@
             "South Scandinavian", 
             "[3]", 
             "Danish"
-        ], 
-        "places": "language\u00a0in\u00a0Kingdom of Denmark\u00a0\u2022  \u00a0Denmark\u00a0\u2022  \u00a0Faroe Islands\u00a0Nordic Council\u00a0European Union"
+        ]
     }, 
     "Ludic language": {
         "difficulty": "whizkid", 
@@ -9825,8 +9792,9 @@
         ]
     }, 
     "Corsican language": {
-        "difficulty": "very hard", 
+        "difficulty": "medium", 
         "speakers": "150,000 in Corsica\u00a0(2013)[1]", 
+        "places": "NA", 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -9836,8 +9804,7 @@
             "Tuscan", 
             "[2]", 
             "Corsican"
-        ], 
-        "places": "NA"
+        ]
     }, 
     "Khwarezmian language": {
         "difficulty": "NA", 
@@ -9914,7 +9881,7 @@
         ]
     }, 
     "Tajik language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "8.1 million (6.4 million in Tajikistan, 2012 UNSD)\u00a0(2012)[1]", 
         "mainfam": "Iranian", 
         "family": [
@@ -10216,8 +10183,12 @@
         "places": "NA"
     }, 
     "Slovak language": {
-        "difficulty": "hard", 
+        "difficulty": "easy", 
         "speakers": "5.2 million\u00a0(2011\u20132012)[1]", 
+        "places": [
+            "hungary", 
+            "slovakia"
+        ], 
         "mainfam": "Slavic", 
         "family": [
             "Indo-European", 
@@ -10226,10 +10197,6 @@
             "West Slavic", 
             "Czech\u2013Slovak", 
             "Slovak"
-        ], 
-        "places": [
-            "hungary", 
-            "slovakia"
         ]
     }, 
     "Nkore language": {
@@ -10624,8 +10591,11 @@
         ]
     }, 
     "Romansh language": {
-        "difficulty": "super hard", 
+        "difficulty": "medium", 
         "speakers": "44,354 (main language)\u00a0(2017)[1]60,000 (regular speakers) (2000)[2]", 
+        "places": [
+            "switzerland"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -10635,9 +10605,6 @@
             "Gallo-Romance", 
             "Rhaeto-Romance", 
             "Romansh"
-        ], 
-        "places": [
-            "switzerland"
         ]
     }, 
     "Phuthi language": {
@@ -10673,7 +10640,7 @@
         "places": "NA"
     }, 
     "Armenian language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "6.7 million[1]", 
         "mainfam": "Indo-European", 
         "family": [
@@ -10884,8 +10851,9 @@
         "places": "NA"
     }, 
     "Galician language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "2.4 million\u00a0(2012)[1]58% of the population of Galicia (c. 1.56 million) are L1 speakers (2007)[2]", 
+        "places": "language\u00a0in\u00a0Galicia (Spain)", 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -10896,8 +10864,7 @@
             "West Iberian", 
             "Galician-Portuguese", 
             "Galician"
-        ], 
-        "places": "language\u00a0in\u00a0Galicia (Spain)"
+        ]
     }, 
     "Motu language": {
         "difficulty": "super hard", 
@@ -10916,7 +10883,7 @@
         "places": "NA"
     }, 
     "Sotho language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "5.6 million\u00a0(2001\u20132011)[1]7.9 million L2 speakers in South Africa (2002)[2]", 
         "mainfam": "Bantu", 
         "family": [
@@ -10970,8 +10937,11 @@
         ]
     }, 
     "Friulian language": {
-        "difficulty": "very hard", 
+        "difficulty": "medium", 
         "speakers": "420,000 (native)\u00a0(2015)[1]600,000 (total)", 
+        "places": [
+            "italy"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -10981,14 +10951,14 @@
             "Gallo-Romance", 
             "Rhaeto-Romance", 
             "Friulian"
-        ], 
-        "places": [
-            "italy"
         ]
     }, 
     "Neapolitan language": {
-        "difficulty": "hard", 
+        "difficulty": "easy", 
         "speakers": "5.7 million\u00a0(2002)[1]", 
+        "places": [
+            "italy"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -10996,9 +10966,6 @@
             "Romance", 
             "Italo-Dalmatian", 
             "Neapolitan"
-        ], 
-        "places": [
-            "italy"
         ]
     }, 
     "Mono language (Congo)": {
@@ -11031,17 +10998,18 @@
     "Laal language": {
         "difficulty": "whizkid", 
         "speakers": "750\u00a0(2000)[1]", 
-        "mainfam": "unclassified", 
-        "family": [
-            "unclassified"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": [
             "chad"
         ]
     }, 
     "Icelandic language": {
-        "difficulty": "very hard", 
+        "difficulty": "medium", 
         "speakers": "314,000\u00a0(2015)[1]", 
+        "places": [
+            "iceland"
+        ], 
         "mainfam": "Germanic", 
         "family": [
             "Indo-European", 
@@ -11050,14 +11018,15 @@
             "West Scandinavian", 
             "Insular Scandinavian", 
             "Icelandic"
-        ], 
-        "places": [
-            "iceland"
         ]
     }, 
     "Lombard language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "3.9 million\u00a0(2002)[5]", 
+        "places": [
+            "switzerland", 
+            "italy"
+        ], 
         "mainfam": "Romance", 
         "family": [
             "Indo-European", 
@@ -11067,14 +11036,10 @@
             "Gallo-Romance", 
             "Gallo-Italic", 
             "Lombard"
-        ], 
-        "places": [
-            "switzerland", 
-            "italy"
         ]
     }, 
     "Madurese language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "6.7 million\u00a0(2011)[1]", 
         "mainfam": "Austronesian", 
         "family": [
@@ -11111,10 +11076,11 @@
         "family": [
             "Afro-Asiatic", 
             "Semitic", 
+            "West Semitic", 
             "South Semitic", 
             "Ethiopic", 
             "South Ethiopic", 
-            "Transversal", 
+            "Transversal South Ethiopic", 
             "Harari \u2013 East Gurage", 
             "Harari"
         ], 
@@ -11196,7 +11162,7 @@
         ]
     }, 
     "Finnish language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "5.8 million Finland 5.4 million Sweden 0.40 million\u00a0(2020)[1]", 
         "mainfam": "Uralic", 
         "family": [
@@ -11261,16 +11227,14 @@
     "Hadza language": {
         "difficulty": "whizkid", 
         "speakers": "1,000+\u00a0(2012)[1]", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": [
             "tanzania"
         ]
     }, 
     "Wolof language": {
-        "difficulty": "hard", 
+        "difficulty": "medium", 
         "speakers": "5,454,000\u00a0(2001-2016)[1][2]L2 speakers:\u00a0?", 
         "mainfam": "Niger\u2013Congo", 
         "family": [
@@ -11317,10 +11281,8 @@
     "Kusunda language": {
         "difficulty": "whizkid", 
         "speakers": "87 (2014)[1]", 
-        "mainfam": "Language isolate", 
-        "family": [
-            "Language isolate"
-        ], 
+        "mainfam": "N", 
+        "family": "NA", 
         "places": [
             "nepal"
         ]

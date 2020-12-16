@@ -103,7 +103,7 @@ var languages = {
         ]
     },
     "Sicilian language": {
-        "difficulty": "hard",
+        "difficulty": "easy",
         "speakers": "4.7 million\u00a0(2002)[1]",
         "mainfam": "Romance",
         "family": [
@@ -3274,7 +3274,7 @@ var languages = {
         ]
     },
     "Catalan language": {
-        "difficulty": "hard",
+        "difficulty": "medium",
         "speakers": "4.1 million[1]\u00a0(2012)Total number of speakers: More than 10 million (L1 plus L2; 2018)[2]",
         "mainfam": "Romance",
         "family": [
