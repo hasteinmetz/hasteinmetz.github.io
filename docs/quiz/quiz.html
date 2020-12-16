@@ -124,6 +124,23 @@
       }
     }
 
+    function famexcept(lang, fam){
+      if((fam=="Indo-European" || fam=="Indo\u2013European" || fam.includes("uropean")) && indoeur.includes(lang)){
+        return(1);
+      }
+      if((fam=="Niger\u2013Congo" || fam.includes("ongo")) && ncongo.includes(lang)){
+        return(1);
+      }
+      if((fam=="Afro-Asiatic" || fam.includes("fro")) && afroa.includes(lang)){
+        return(1);
+      }
+      return(0);
+    }
+
+    var indoeur = ["Slavic", "Baltic", "Romance", "Germanic", "Indo-Aryan", "Iranian", "Celtic"]
+    var ncongo = ["Bantu"]
+    var afroa = ["Semitic"]
+
     function randomans(array){
       const keys = Object.keys(languages);
       var ran_key = randomno(keys.length);
@@ -132,9 +149,9 @@
       if(tmp.toLowerCase()=="language isolate"){
         tmp = "Language Isolate";
       }
-      var famexcept = famexcept(tmp, array[0])
-      console.log("Family Except:" + famexcept + " " + tmp + array[0])
-      if(array.includes(tmp) || exceptions(tmp)==0 || famexcept==1){
+      var famex = famexcept(tmp, array[0])
+      console.log("Family Except:" + famex + " " + tmp + array[0])
+      if(array.includes(tmp) || exceptions(tmp)==0 || famex==1){
         return randomans(array);
       }
       else {
@@ -228,22 +245,6 @@
       }
     };
 
-    function famexcept(lang, fam){
-      if((fam=="Indo-European" || fam=="Indo\u2013European" || fam.includes("uropean")) && indoeur.includes(lang)){
-        return(1);
-      }
-      if((fam=="Niger\u2013Congo" || fam.includes("ongo")) && ncongo.includes(lang)){
-        return(1);
-      }
-      if((fam=="Afro-Asiatic" || fam.includes("fro")) && afroa.includes(lang)){
-        return(1);
-      }
-      return(0);
-    }
-
-    var indoeur = ["Slavic", "Baltic", "Romance", "Germanic", "Indo-Aryan", "Iranian", "Celtic"]
-    var ncongo = ["Bantu"]
-    var afroa = ["Semitic"]
     var language;
     var correct;
     var answers;
