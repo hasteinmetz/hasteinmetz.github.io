@@ -130,7 +130,8 @@
       if(tmp.toLowerCase()=="language isolate"){
         tmp = "Language Isolate";
       }
-      console.log("Family Except:" + famexcept(tmp, array[0]) + " " + tmp + array[0])
+      var famexcept = famexcept(tmp, array[0])
+      console.log("Family Except:" + famexcept + " " + tmp + array[0])
       if(array.includes(tmp) || exceptions(tmp)==0 || famexcept==1){
         return randomans(array);
       }
