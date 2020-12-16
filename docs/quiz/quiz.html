@@ -274,25 +274,28 @@
     // Click events
     window.onclick = function(event) {
       if (event.target.matches('button.submit')) {
-        if(lives>1){
+        if(lives>0){
           if(event.target.textContent == correct){
             addition = determinescore()
             score = score + addition;
             numcorrect += 1;
             feedback = "Correct! Nice job :) <br>Current score:" + score
             togglemodal();
+            nextquestion();
           } else {
             lives -= 1;
-            feedback = "Incorrect... Better luck on the next one! <br>Current score:" + score
-            togglemodal();
+            if(lives>0){
+              feedback = "Incorrect... Better luck on the next one! <br>Current score:" + score
+              togglemodal();
+              nextquestion();
+            }
+            else{
+              document.getElementById("lives").innerHTML = "Lives: " + String(lives)
+              document.getElementsByClassName("continue")[0].textContent = "Play Again?"
+              feedback = "All out of lives :( <br>You scored: " + String(score)
+              togglemodal();
+            }
           }
-          nextquestion();
-        } else {
-          lives -= 1;
-          document.getElementById("lives").innerHTML = "Lives: " + String(lives)
-          document.getElementsByClassName("continue")[0].textContent = "Play Again?"
-          feedback = "All out of lives :( <br>You scored: " + String(score)
-          togglemodal();
         }
       }
       if (mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)) {
