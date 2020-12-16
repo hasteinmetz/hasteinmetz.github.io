@@ -1,4 +1,9 @@
-<!DOCTYPE HTML>
+---
+layout: mydefault
+title: "Language Family Quiz"
+tags: language-family quiz linguistics
+description: "Test your knowledge of language families! Learn something new!"
+---
 <html>
 <head>
   <link rel="stylesheet" href="Contents/defaultstyle.css">
@@ -10,7 +15,8 @@
   <div class="modal">
     <div class="modal-content">
       <div class="center">
-        <p id="feedback"></p>
+        <p id="feedback"></p><br>
+        <p id="more"></p><a id="info" href="#">Wikipedia</a><br>
         <button class="continue">>></button>
       </div>
     </div>
@@ -93,7 +99,9 @@
       return(newobj)
     }
 
-    // (a) => difficultyarr.includes(languages[a]["difficulty"])
+    // reference to page variables
+    var moreinfo;
+    var ref;
 
     function randomq(){
       var difficultyarr = difficultyallowed(numcorrect)
@@ -103,6 +111,7 @@
       var language = keys[randomno(keys.length)];
       console.log("lang = ", language)
       var languagefam = languages[language]["mainfam"]
+      moreinfo = languages[language]["link"]
       if(languagefam != "NA" && languagefam != "cant" && !prevq.includes(language)){
         if(difficultyarr.includes(languages[language]["difficulty"])){
           return([language, languagefam]);
@@ -281,6 +290,7 @@
     // Click events
     window.onclick = function(event) {
       if (event.target.matches('button.submit')) {
+        ref = "Read more about " + correct + " on "
         if(lives>0){
           if(event.target.textContent == correct){
             addition = determinescore()
@@ -322,7 +332,11 @@
     function togglemodal(){
       console.log("modal activated")
       var f = document.getElementById("feedback")
-      f.innerHTML = feedback
+      var p = document.getElementById("more")
+      var l = document.getElementById("info")
+      f.innerHTML = feedback;
+      p.innerHTML = ref;
+      l.href = moreinfo;
       mod.classList.toggle("show");
     }
 

@@ -44,6 +44,7 @@ def scrape(wikipg, countries, dict):
     places = "NA"
     languagefam = "NA"
     difficulty = "NA"
+    link = "NA"
     wpage = requests.get(url=wikipg)
     wiki = BeautifulSoup(wpage.content, "html.parser")
     title = wiki.find(id='firstHeading').text.encode("UTF-8")
@@ -95,7 +96,7 @@ def scrape(wikipg, countries, dict):
                     languagefam = languagefam + famarray
                 else:
                     languagefam="NA"
-        e1 = {"speakers": speakers, "places":places, "family":languagefam, "difficulty":difficulty}
+        e1 = {"speakers": speakers, "places":places, "family":languagefam, "difficulty":difficulty, "link":wikipg}
         e1prime = validatediff(e1)
         e2 = {title:e1prime}
         dict.update(e2)
