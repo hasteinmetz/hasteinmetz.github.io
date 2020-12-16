@@ -6,7 +6,6 @@ import sys
 import time
 
 def finddiff(speakers):
-    easylangs = ["Romance", "Germanic"]
     try:
         speakers2 = speakers.replace(",", "")
         s = "".join([ c if (c.isalnum() or c==".") else "*" for c in speakers2 ])
@@ -22,9 +21,9 @@ def finddiff(speakers):
         if number >= 1000000:
             number = number/1000000
         if number > 0 and number < 999:
-            if number >= 0 and number < 10:
+            if number >= 0 and number < 5:
                 difficulty = "hard"
-            if number >= 10 and number < 100:
+            if number >= 5 and number < 100:
                 difficulty = "medium"
             if number >= 100 and number < 999:
                 difficulty = "easy"
@@ -45,6 +44,7 @@ def scrape(wikipg, countries, dict):
     places = "NA"
     languagefam = "NA"
     difficulty = "NA"
+    link = "NA"
     wpage = requests.get(url=wikipg)
     wiki = BeautifulSoup(wpage.content, "html.parser")
     title = wiki.find(id='firstHeading').text.encode("UTF-8")
@@ -94,15 +94,46 @@ def scrape(wikipg, countries, dict):
                                     newthing = newthing[1:len(newthing)]
                                 famarray.append(newthing)
                     languagefam = languagefam + famarray
-            if isinstance(places, list):
-                for pl in places:
-                    if title[0:4] in pl:
-                        difficulty = "name"
-            if difficulty == "medium" and languagefam in ["Romance", "Germanic", "Slavic"]:
-                difficulty = "easy"
-            if difficulty == "hard" and languagefam in ["Romance", "Germanic", "Slavic"]:
-                difficulty = "medium"
-        dict.update({title : {"speakers": speakers, "places":places, "family":languagefam, "difficulty":difficulty}})
+                else:
+                    languagefam="NA"
+        e1 = {"speakers": speakers, "places":places, "family":languagefam, "difficulty":difficulty, "link":wikipg}
+        e1prime = validatediff(e1)
+        e2 = {title:e1prime}
+        dict.update(e2)
+
+def changedictvalue(dicti, key, value):
+    if key in dicti:
+        new_dict = {}
+        for keys in dicti:
+            if keys == key:
+                new_dict[keys] = value
+            else:
+                new_dict[keys] = dicti[keys]
+        return(new_dict)
+    else:
+        print("ERROR")
+
+def validatediff(e):
+    # modify main family according to this list
+    fams = ["Semitic", "Bantu", "Slavic", "Baltic", "Romance", "Germanic", "Indo-Aryan", "Iranian", "Algonquian", "Celtic"]
+    if "family" in e:
+        for lang in e["family"]:
+            if lang in fams:
+                e["mainfam"] = lang
+        if not "mainfam" in e:
+            e["mainfam"] = e["family"][0]
+    else:
+        e["mainfam"] = "NA"
+    easylang = ["Romance", "Germanic", "Slavic"]
+    if e["mainfam"] in easylang:
+        if "medium" in e["difficulty"]:
+            e = changedictvalue(e, "difficulty", "easy")
+    if e["mainfam"] in easylang:
+        if "hard" in e["difficulty"]:
+            e = changedictvalue(e, "difficulty", "medium")
+    if e["mainfam"] == "cant":
+        e = changedictvalue(e, "mainfam", "NA")
+    return(e)
 
 def retryfail(failarr, retries, countries, dict):
     failures2 = []
@@ -164,15 +195,6 @@ def main():
     if uhoh!=-1:
         print("The following languages didn't pass even the second time...:")
         print(str(uhoh))
-    # modify main family according to this list
-    fams = ["Semitic", "Bantu", "Slavic", "Baltic", "Romance", "Germanic", "Indo-Aryan", "Iranian", "Algonquian", "Celtic"]
-    for key in languagedict:
-        for lang in fams:
-            if lang in languagedict[key]["family"]:
-                languagedict[key]["mainfam"] = lang
-                break
-        if not "mainfam" in languagedict[key]:
-            languagedict[key]["mainfam"] = languagedict[key]["family"][0]
     with open("wikipedia_dump.json",'w') as outfile:
         json.dump(languagedict, outfile, indent=4)
     with open("languages1.js",'w') as outfile:
