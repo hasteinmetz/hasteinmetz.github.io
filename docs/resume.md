@@ -1,6 +1,6 @@
 ---
 layout: mydefault
-title: Resume
+title: Resume | Hillel Steinmetz
 tag: navbar
 ---
 <h2 style="visibility:hidden;"> <br></h2>
@@ -10,6 +10,9 @@ tag: navbar
   <div class="mobileblock"></div>
   <div class="mobileblock"></div>
   <div class="mobileblock"></div>
+</div>
+<div class="mobilecont">
+<h2>Resume</h2>
 </div>
 <p class="mobile">
 Please click <a href="/content/resume-hsteinmetz.pdf">here</a> to view my resume.
