@@ -5,16 +5,78 @@ import math
 import sys
 import time
 
-def finddiff(speakers, v):
+def speakerstage(speakers):
     try:
         speakers2 = speakers.replace(",", "")
         s = "".join([ c if (c.isalnum() or c==".") else "*" for c in speakers2 ])
-        newspeakers = s.split("*")[0]
-        if newspeakers == "":
-            newspeakers = s.split("*")[1]
-        number = float(newspeakers)
+        newspeakers = s.split("*")
+        return(newspeakers)
     except:
         return("NA")
+        print("err-string")
+
+def vspeak(speakers):
+    def trya(arr):
+        if checkf(arr[0]) == "no":
+            if checkf(arr[1]) == "no":
+                return("NA")
+            else:
+                return(arr[1])
+        else:
+            return(arr[0])
+    def checkf(n):
+        try:
+            float(n)
+            return("yes")
+        except:
+            return("no")
+    try:
+        sp = speakerstage(speakers)
+        filtered = filter(lambda x: x!="", sp)
+        arr = [];
+        v = "NA";
+        if "million" in "".join([s.lower() for s in filtered]):
+            indices = [i for i, j in enumerate(filtered) if j.lower() == "million"]
+            r = ["low", "high"]
+            m = min(2, len(indices))
+            if m > 1:
+                l1 = filtered[indices[0]-1]
+                l2 = filtered[indices[1]-1]
+                if checkf(l1)=="yes" and checkf(l2)=="yes":
+                    if(float(l1)>float(l2)):
+                        tmp = l1
+                        l1 = l2
+                        l2 = tmp
+                langs = [l1, l2]
+                for l in range(0, m):
+                    if checkf(langs[l])=="yes":
+                        arr.append(r[l] + ": " + str(langs[l]) + " million")
+                v = arr
+            else:
+                l = filtered[indices[0]-1]
+                if checkf(l)=="yes":
+                    v = l + " million"
+        else:
+            v = trya(filtered)
+            if checkf(v)=="no":
+                v = "NA"
+            if v!="NA" and float(v) > 1000000:
+                v = str(round(float(v)/1000000),2) + " million"
+        return(v)
+    except:
+        return("NA")
+        print("err-string")
+
+def finddiff(speakers, v):
+    try:
+        newspeakers = speakerstage(speakers)
+        num = newspeakers[0]
+        if newspeakers[0] == "":
+            num = newspeakers[1]
+        number = float(num)
+    except:
+        return("NA")
+        print("err-string")
     if v=="euro":
         mid = 3
         high = 6
@@ -47,15 +109,21 @@ def finddiff(speakers, v):
 def scrape(wikipg, countries, dict):
     # initiliaze to ensure it doesn't carry over
     speakers = "NA"
+    vspeakers = "NA"
     places = "NA"
+    vplaces = "NA"
     languagefam = "NA"
     difficulty = "NA"
     link = "NA"
-    wpage = requests.get(url=wikipg)
-    wiki = BeautifulSoup(wpage.content, "html.parser")
-    title = wiki.find(id='firstHeading').text.encode("UTF-8")
-    table = wiki.find("table", {"class":"infobox vevent"})
-    wiki = None # to save memory
+    try:
+        wpage = requests.get(url=wikipg)
+        wiki = BeautifulSoup(wpage.content, "html.parser")
+        title = wiki.find(id='firstHeading').text.encode("UTF-8")
+        table = wiki.find("table", {"class":"infobox vevent"})
+        wiki = None # to save memory
+    except:
+        print("Could not Request")
+        return
     if not(table is None):
         for row in table.find_all("tr"):
             if "Native" in row.text:
@@ -63,6 +131,8 @@ def scrape(wikipg, countries, dict):
                     speakers = row.text[15:len(row.text)].encode("UTF-8")
                     if speakers is None:
                         continue
+                    else:
+                        vspeakers = vspeak(speakers)
                 else:
                     countryarray = []
                     geo = row.text[9:len(row.text)].lower().replace(", ",",")
@@ -73,6 +143,7 @@ def scrape(wikipg, countries, dict):
                                 countryarray.append(pays)
                     if countryarray:
                         places = countryarray
+                        vplaces = countryarray
             if "Official" in row.text and "language" in row.text:
                 if places == "NA":
                     places = row.text[9:len(row.text)].encode("UTF-8")
@@ -101,9 +172,9 @@ def scrape(wikipg, countries, dict):
                     languagefam = languagefam + famarray
                 else:
                     languagefam="NA"
-        e1 = {"speakers": speakers, "places":places, "family":languagefam, "link":wikipg}
-        if e1["languagefam"]=="Austroasiatic\n\nCentral Mon-KhmerKhmer":
-            e1["languagefam"]="Austroasiatic"
+        e1 = {"speakers": speakers, "vspeakers": vspeakers, "places":places, "vplaces":vplaces, "family":languagefam, "link":wikipg}
+        if e1["family"]=="Austroasiatic\n\nCentral Mon-KhmerKhmer":
+            e1["family"]="Austroasiatic"
         validatefam(e1)
         e1["difficulty"] = finddiff(e1["speakers"], checkdiff(e1))
         e2 = {title:e1}
