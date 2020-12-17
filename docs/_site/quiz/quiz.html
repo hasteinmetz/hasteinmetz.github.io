@@ -45,9 +45,10 @@
   <script src="Contents/languages1.js"></script>
   <script>
   //to do:
-  // filter object
   // fix Tongan
-  // fix mon-khmer
+
+  console.log("No. languages: ", Object.keys(languages).length)
+
     function randomno(n){
       var num = Math.floor(Math.random() * n);
       return num;
@@ -103,6 +104,7 @@
       const languagesnew = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
       console.log("filtered: ", languagesnew)
       const keys = Object.keys(languagesnew)
+      console.log("filtered by: ", difficultyallowed(), " no. languages:", keys.length)
       var language = keys[randomno(keys.length)];
       console.log("lang = ", language)
       var languagefam = languages[language]["mainfam"];
@@ -132,6 +134,10 @@
       }
     }
 
+    var indoeur = ["Slavic", "Baltic", "Romance", "Germanic", "Indo-Aryan", "Iranian", "Celtic"]
+    var ncongo = ["Bantu"]
+    var afroa = ["Semitic"]
+
     function famexcept(lang, fam){
       if((fam=="Indo-European" || fam=="Indo\u2013European" || fam.includes("uropean")) && indoeur.includes(lang)){
         return(1);
@@ -144,10 +150,6 @@
       }
       return(0);
     }
-
-    var indoeur = ["Slavic", "Baltic", "Romance", "Germanic", "Indo-Aryan", "Iranian", "Celtic"]
-    var ncongo = ["Bantu"]
-    var afroa = ["Semitic"]
 
     function randomans(array){
       const keys = Object.keys(languages);
@@ -182,25 +184,30 @@
       return(array)
     };
 
-    function difficultyallowed(cor){
+    function difficultyallowed(){
       j = 1
       for(i=0;i<amount.length;i++){
         if(numcorrect > amount[i]){
           j++;
         }
       }
-      m = Math.max(0, j-1)
+      m = Math.max(0, j-2)
       return(difficulty.slice(m,j));
     }
 
     function determinescore(){
-      var multiplier = difficultyallowed(numcorrect).length
-      return(100 * multiplier)
+      j = 1
+      for(i=0;i<amount.length;i++){
+        if(numcorrect > amount[i]){
+          j++;
+        }
+      }
+      return(100 * j)
     }
 
     var difficulty = ["easy", "medium", "hard", "very hard", "super hard", "whizkid"];
 
-    var amount = [5, 10, 15, 20, 25, 30];
+    var amount = [5, 20, 30, 50, 75, 100];
 
     var prevq = [];
 

@@ -5,7 +5,7 @@ import math
 import sys
 import time
 
-def finddiff(speakers):
+def finddiff(speakers, v):
     try:
         speakers2 = speakers.replace(",", "")
         s = "".join([ c if (c.isalnum() or c==".") else "*" for c in speakers2 ])
@@ -15,17 +15,23 @@ def finddiff(speakers):
         number = float(newspeakers)
     except:
         return("NA")
+    if v=="euro":
+        mid = 3
+        high = 6
+    else:
+        mid = 50
+        high = 100
     if "million" in speakers.lower() or number >= 1000000:
         if "million" in speakers.lower() and number > 10000 and number < 1000000:
             number = 1 # handles known exception of Mon Language
         if number >= 1000000:
             number = number/1000000
         if number > 0 and number < 999:
-            if number >= 0 and number < 5:
+            if number >= 0 and number < mid:
                 difficulty = "hard"
-            if number >= 5 and number < 100:
+            if number >= mid and number < high:
                 difficulty = "medium"
-            if number >= 100 and number < 999:
+            if number >= high and number < 999:
                 difficulty = "easy"
         return(difficulty)
     else:
@@ -57,10 +63,9 @@ def scrape(wikipg, countries, dict):
                     speakers = row.text[15:len(row.text)].encode("UTF-8")
                     if speakers is None:
                         continue
-                    difficulty = finddiff(speakers)
                 else:
                     countryarray = []
-                    geo = row.text[9:len(row.text)].encode("UTF-8").lower().replace(", ",",")
+                    geo = row.text[9:len(row.text)].lower().replace(", ",",")
                     geolist = geo.split(",")
                     for pays in countries:
                         for plcs in geolist:
@@ -88,7 +93,7 @@ def scrape(wikipg, countries, dict):
                     famarray = []
                     if not(trynewthings is None):
                         for thing in trynewthings:
-                            newthing = thing.encode("UTF-8")
+                            newthing = thing
                             if newthing != "\n":
                                 if "\n" in newthing:
                                     newthing = newthing[1:len(newthing)]
@@ -98,9 +103,10 @@ def scrape(wikipg, countries, dict):
                     languagefam="NA"
             if languagefam=="Austroasiatic\n\nCentral Mon-KhmerKhmer":
                 languagefam="Austroasiatic"
-        e1 = {"speakers": speakers, "places":places, "family":languagefam, "difficulty":difficulty, "link":wikipg}
-        e1prime = validatediff(e1)
-        e2 = {title:e1prime}
+        e1 = {"speakers": speakers, "places":places, "family":languagefam, "link":wikipg}
+        validatefam(e1)
+        e1["difficulty"] = finddiff(e1["speakers"], checkdiff(e1))
+        e2 = {title:e1}
         dict.update(e2)
 
 def changedictvalue(dicti, key, value):
@@ -115,7 +121,7 @@ def changedictvalue(dicti, key, value):
     else:
         print("ERROR")
 
-def validatediff(e):
+def validatefam(e):
     # modify main family according to this list
     fams = ["Semitic", "Bantu", "Slavic", "Baltic", "Romance", "Germanic", "Indo-Aryan", "Iranian", "Algonquian", "Celtic"]
     if "family" in e:
@@ -126,16 +132,15 @@ def validatediff(e):
             e["mainfam"] = e["family"][0]
     else:
         e["mainfam"] = "NA"
+
+def checkdiff(thing):
+    if not "mainfam" in thing:
+        thing["mainfam"] = "NA"
     easylang = ["Romance", "Germanic", "Slavic"]
-    if e["mainfam"] in easylang:
-        if "medium" in e["difficulty"]:
-            e = changedictvalue(e, "difficulty", "easy")
-    if e["mainfam"] in easylang:
-        if "hard" in e["difficulty"]:
-            e = changedictvalue(e, "difficulty", "medium")
-    if e["mainfam"] == "cant":
-        e = changedictvalue(e, "mainfam", "NA")
-    return(e)
+    if thing["mainfam"] in easylang:
+        return("euro")
+    else:
+        return("noneuro")
 
 def retryfail(failarr, retries, countries, dict):
     failures2 = []
@@ -154,7 +159,12 @@ def retryfail(failarr, retries, countries, dict):
 
 def main():
     starttime = time.time()
-    infile = open("languagelinks.txt", "r")
+    if len(sys.argv) > 1:
+        infile = open("debug.txt", "r")
+        print("DEBUG FILE")
+    else:
+        infile = open("languagelinks.txt", "r")
+        print("LINKS FILE")
     cfile = open("countries.txt", "r")
     countries = cfile.read().split(",")
     lcount = 0

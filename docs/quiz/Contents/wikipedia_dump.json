@@ -32,7 +32,7 @@
             "?", 
             "Kashubian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Kashubian_language", 
         "mainfam": "Slavic"
     }, 
@@ -171,7 +171,7 @@
             "Sorbian", 
             "Upper Sorbian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "super hard", 
         "link": "https://en.wikipedia.org/wiki/Upper_Sorbian_language", 
         "mainfam": "Slavic"
     }, 
@@ -305,7 +305,7 @@
             "Lao", 
             "Isan"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Isan_language", 
         "mainfam": "Kra\u2013Dai"
     }, 
@@ -449,7 +449,7 @@
             "Insular Scandinavian", 
             "Faroese"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "super hard", 
         "link": "https://en.wikipedia.org/wiki/Faroese_language", 
         "mainfam": "Germanic"
     }, 
@@ -468,7 +468,7 @@
             ")", 
             "Norwegian"
         ], 
-        "difficulty": "easy", 
+        "difficulty": "medium", 
         "link": "https://en.wikipedia.org/wiki/Norwegian_language", 
         "mainfam": "Germanic"
     }, 
@@ -485,7 +485,7 @@
             "Tagalog", 
             "Filipino"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Filipino_language", 
         "mainfam": "Austronesian"
     }, 
@@ -505,7 +505,7 @@
             "Eastern Oghuz", 
             "Turkmen"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Turkmen_language", 
         "mainfam": "Turkic"
     }, 
@@ -709,7 +709,7 @@
             "Eastern Pahari", 
             "Nepali"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Nepali_language", 
         "mainfam": "Indo-Aryan"
     }, 
@@ -800,7 +800,7 @@
             "Atlas", 
             "Shilha"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Tachelhit_language", 
         "mainfam": "Afro-Asiatic"
     }, 
@@ -833,7 +833,7 @@
             "Visayan", 
             "Cebuano"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Cebuano_language", 
         "mainfam": "Austronesian"
     }, 
@@ -919,7 +919,7 @@
             "Lao\u2013Phutai", 
             "Lao"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Lao_language", 
         "mainfam": "Kra\u2013Dai"
     }, 
@@ -1019,7 +1019,7 @@
             "Astur-Leonese", 
             "Mirandese"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "super hard", 
         "link": "https://en.wikipedia.org/wiki/Mirandese_language", 
         "mainfam": "Romance"
     }, 
@@ -1182,7 +1182,7 @@
             "Mongolic", 
             "Mongolian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Mongolian_language", 
         "mainfam": "Mongolic"
     }, 
@@ -1222,7 +1222,7 @@
             "Zunda", 
             "Hlabezulu"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Northern_Ndebele_language", 
         "mainfam": "Bantu"
     }, 
@@ -1350,7 +1350,7 @@
             "Asturleonese", 
             "Extremaduran"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Extremaduran_language", 
         "mainfam": "Romance"
     }, 
@@ -1389,7 +1389,7 @@
             " (S.10)", 
             "Shona"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Shona_language", 
         "mainfam": "Bantu"
     }, 
@@ -1560,7 +1560,7 @@
             "Dardic", 
             "Kashmiri"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Kashmiri_language", 
         "mainfam": "Indo-Aryan"
     }, 
@@ -1809,7 +1809,7 @@
             "Santhalic", 
             "Santali"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Santali_language", 
         "mainfam": "Austroasiatic"
     }, 
@@ -1993,7 +1993,7 @@
         ], 
         "difficulty": "NA", 
         "link": "https://en.wikipedia.org/wiki/Norfuk_language", 
-        "mainfam": "NA"
+        "mainfam": "cant"
     }, 
     "Kanuri language": {
         "speakers": "8.6 million\u00a0(1998-2015)[1]", 
@@ -2009,7 +2009,7 @@
             "Western Saharan", 
             "Kanuri"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Kanuri_language", 
         "mainfam": "Nilo-Saharan"
     }, 
@@ -2026,7 +2026,7 @@
             "Rajasthani", 
             "Malvi"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Malvi_language", 
         "mainfam": "Indo-Aryan"
     }, 
@@ -2105,7 +2105,7 @@
             "Upper Rhenish", 
             "Alsatian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Alsatian_language", 
         "mainfam": "Germanic"
     }, 
@@ -2148,7 +2148,7 @@
             "Northern Berber", 
             "Kabyle"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Kabyle_language", 
         "mainfam": "Afro-Asiatic"
     }, 
@@ -2354,7 +2354,7 @@
             "East Barito", 
             "Malagasy"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Malagasy_language", 
         "mainfam": "Austronesian"
     }, 
@@ -2377,7 +2377,7 @@
             "[2]", 
             "Uzbek"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Uzbek_language", 
         "mainfam": "Turkic"
     }, 
@@ -2879,7 +2879,7 @@
             "Luba languages", 
             "Luba-Kasai"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Tshiluba_language", 
         "mainfam": "Bantu"
     }, 
@@ -2909,7 +2909,7 @@
             "Bengali\u2013Assamese", 
             "Assamese"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Assamese_language", 
         "mainfam": "Indo-Aryan"
     }, 
@@ -2925,7 +2925,7 @@
             "Kipchak\u2013Bulgar", 
             "Tatar"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Tatar_language", 
         "mainfam": "Turkic"
     }, 
@@ -3065,7 +3065,7 @@
             "Sindhi languages", 
             "Sindhi"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Sindhi_language", 
         "mainfam": "Indo-Aryan"
     }, 
@@ -3423,7 +3423,7 @@
             "Eastern", 
             "Odia"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Odia_language", 
         "mainfam": "Indo-Aryan"
     }, 
@@ -3436,7 +3436,7 @@
             "Javanese", 
             "Banyumasan"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Banyumasan_language", 
         "mainfam": "Austronesian"
     }, 
@@ -3474,7 +3474,7 @@
             "Nyasa", 
             "Chewa"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Chichewa_language", 
         "mainfam": "Bantu"
     }, 
@@ -3686,7 +3686,7 @@
             "Central Mon-Khmer", 
             "Khmer"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Khmer_language", 
         "mainfam": "Austroasiatic\n\nCentral Mon-KhmerKhmer"
     }, 
@@ -3788,7 +3788,7 @@
             "Lahnda", 
             "Saraiki"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Saraiki_language", 
         "mainfam": "Indo-Aryan"
     }, 
@@ -3838,7 +3838,7 @@
             "Frisian", 
             "North Frisian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "super hard", 
         "link": "https://en.wikipedia.org/wiki/North_Frisian_language", 
         "mainfam": "Germanic"
     }, 
@@ -3929,7 +3929,7 @@
             "Oromoid", 
             "Oromo"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Oromo_language", 
         "mainfam": "Afro-Asiatic"
     }, 
@@ -4122,7 +4122,7 @@
             "Zunda", 
             "Xhosa"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Xhosa_language", 
         "mainfam": "Bantu"
     }, 
@@ -4189,7 +4189,7 @@
             "High German", 
             "Yiddish"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Yiddish_language", 
         "mainfam": "Germanic"
     }, 
@@ -4263,7 +4263,7 @@
             "[3]", 
             "Croatian"
         ], 
-        "difficulty": "easy", 
+        "difficulty": "medium", 
         "link": "https://en.wikipedia.org/wiki/Croatian_language", 
         "mainfam": "Slavic"
     }, 
@@ -4383,7 +4383,7 @@
             "Chiang Saen", 
             "Thai"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Thai_language", 
         "mainfam": "Kra\u2013Dai"
     }, 
@@ -4464,7 +4464,7 @@
             "Makua languages", 
             "Makhuwa"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Makhuwa-Meetto_language", 
         "mainfam": "Bantu"
     }, 
@@ -4480,7 +4480,7 @@
             "Northern Luzon", 
             "Ilocano"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Ilokano_language", 
         "mainfam": "Austronesian"
     }, 
@@ -4594,7 +4594,7 @@
             "North Ethiopic", 
             "Tigrinya"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Tigrinya_language", 
         "mainfam": "Semitic"
     }, 
@@ -4608,7 +4608,7 @@
             "Eastern Iranian", 
             "Pashto"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Pashto_language", 
         "mainfam": "Iranian"
     }, 
@@ -4727,7 +4727,7 @@
             "Serbo-Croatian", 
             "Montenegrin"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Montenegrin_language", 
         "mainfam": "Slavic"
     }, 
@@ -4966,7 +4966,7 @@
             "Bambara\u2013Dyula", 
             "Dyula"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Dioula_language", 
         "mainfam": "Mande"
     }, 
@@ -5607,7 +5607,7 @@
             "Gbe", 
             "Ewe"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Ewe_language", 
         "mainfam": "Niger\u2013Congo"
     }, 
@@ -6284,7 +6284,7 @@
             "Serbo-Croatian", 
             "Bosnian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Bosnian_language", 
         "mainfam": "Slavic"
     }, 
@@ -6341,7 +6341,7 @@
             "Tswa\u2013Ronga", 
             "Tsonga"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Tsonga_language", 
         "mainfam": "Bantu"
     }, 
@@ -6354,7 +6354,7 @@
             "Malayic", 
             "Minangkabau"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Minangkabau_language", 
         "mainfam": "Austronesian"
     }, 
@@ -6414,7 +6414,7 @@
             "Central Tivoid(A)", 
             "Tiv"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Tiv_language", 
         "mainfam": "Niger\u2013Congo"
     }, 
@@ -6485,7 +6485,7 @@
             "Amharic\u2013Argobba", 
             "Amharic"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Amharic_language", 
         "mainfam": "Semitic"
     }, 
@@ -6733,7 +6733,7 @@
             "Bisayan", 
             "Hiligaynon"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Hiligaynon_language", 
         "mainfam": "Austronesian"
     }, 
@@ -6799,7 +6799,7 @@
             "West Frisian languages", 
             "West Frisian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/West_Frisian_language", 
         "mainfam": "Germanic"
     }, 
@@ -6858,7 +6858,7 @@
             "Castilian languages", 
             "Judaeo-Spanish"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Ladino_language", 
         "mainfam": "Romance"
     }, 
@@ -7166,7 +7166,7 @@
             "[2]", 
             "Silesian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Silesian_language", 
         "mainfam": "Slavic"
     }, 
@@ -7436,7 +7436,7 @@
             "Northwestern", 
             "Balochi"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Balochi_language", 
         "mainfam": "Iranian"
     }, 
@@ -7572,7 +7572,7 @@
             "Greater North Borneo", 
             "Sundanese"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Sundanese_language", 
         "mainfam": "Austronesian"
     }, 
@@ -7657,7 +7657,7 @@
             "Romance", 
             "Sardinian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Sardinian_language", 
         "mainfam": "Romance"
     }, 
@@ -7778,7 +7778,7 @@
         "family": [
             "Sino-Tibetan", 
             "Qiangic", 
-            "Northern", 
+            "Rgyalrongic", 
             "Tangut"
         ], 
         "difficulty": "NA", 
@@ -7862,7 +7862,7 @@
             "Somali languages", 
             "Somali"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Somali_language", 
         "mainfam": "Afro-Asiatic"
     }, 
@@ -8000,7 +8000,7 @@
             "Torlakian", 
             "Gorani language"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "super hard", 
         "link": "https://en.wikipedia.org/wiki/Gorani_language_(Na%C5%A1inski)", 
         "mainfam": "Slavic"
     }, 
@@ -8012,7 +8012,7 @@
             "Hellenic", 
             "Greek"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Greek_language", 
         "mainfam": "Indo-European"
     }, 
@@ -8077,7 +8077,7 @@
             "Kannada\u2013Badaga", 
             "Kannada"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Kannada_language", 
         "mainfam": "Dravidian"
     }, 
@@ -8123,7 +8123,7 @@
             "Western Oghuz", 
             "Azerbaijani"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Azerbaijani_language", 
         "mainfam": "Turkic"
     }, 
@@ -8167,7 +8167,7 @@
             "Rhaeto-Romance", 
             "Ladin"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "super hard", 
         "link": "https://en.wikipedia.org/wiki/Ladin_language", 
         "mainfam": "Romance"
     }, 
@@ -8305,7 +8305,7 @@
             "Central Philippine", 
             "Tagalog"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Tagalog_language", 
         "mainfam": "Austronesian"
     }, 
@@ -8834,7 +8834,7 @@
             "Igboid", 
             "Igbo"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Igbo_language", 
         "mainfam": "Niger\u2013Congo"
     }, 
@@ -8865,7 +8865,7 @@
             "Bengali\u2013Assamese", 
             "Chittagonian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Chittagonian_language", 
         "mainfam": "Indo-Aryan"
     }, 
@@ -8904,7 +8904,7 @@
             "Bihari", 
             "Magahi"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Magadhi_language", 
         "mainfam": "Indo-Aryan"
     }, 
@@ -9051,7 +9051,7 @@
             "Zunda", 
             "Zulu"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Zulu_language", 
         "mainfam": "Bantu"
     }, 
@@ -9124,7 +9124,7 @@
             "Western", 
             "Slovene"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Slovene_language", 
         "mainfam": "Slavic"
     }, 
@@ -9394,7 +9394,7 @@
             "Gallo-Romance", 
             "Franco-Proven\u00e7al"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Franco-Proven%C3%A7al_language", 
         "mainfam": "Romance"
     }, 
@@ -9430,7 +9430,7 @@
             "Kikuyu\u2013Embu", 
             "Kikuyu"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Gikuyu_language", 
         "mainfam": "Bantu"
     }, 
@@ -9461,7 +9461,7 @@
             "[3]", 
             "Haitian Creole"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Haitian_Creole_language", 
         "mainfam": "French Creole"
     }, 
@@ -9478,7 +9478,7 @@
             "Eastern Hindi", 
             "Chhattisgarhi"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Chhattisgarhi_language", 
         "mainfam": "Indo-Aryan"
     }, 
@@ -9496,7 +9496,7 @@
             "Tamil-Malayalam", 
             "Malayalam"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Malayalam_language", 
         "mainfam": "Dravidian"
     }, 
@@ -9566,7 +9566,7 @@
             "Eastern South Slavic", 
             "Macedonian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Macedonian_language", 
         "mainfam": "Slavic"
     }, 
@@ -9633,7 +9633,7 @@
             "East Slavic", 
             "Belarusian"
         ], 
-        "difficulty": "easy", 
+        "difficulty": "medium", 
         "link": "https://en.wikipedia.org/wiki/Belarusian_language", 
         "mainfam": "Slavic"
     }, 
@@ -9681,7 +9681,7 @@
             "O\u00efl", 
             "Walloon"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Walloon_language", 
         "mainfam": "Romance"
     }, 
@@ -9766,7 +9766,7 @@
             "Nyoro-Ganda", 
             "Luganda"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Ganda_language", 
         "mainfam": "Bantu"
     }, 
@@ -9809,7 +9809,7 @@
             "Malay-based creole", 
             "Betawi"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Betawi_language", 
         "mainfam": "Malay-based creole"
     }, 
@@ -9886,7 +9886,7 @@
             "Burmish", 
             "Burmese"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Burmese_language", 
         "mainfam": "Sino-Tibetan"
     }, 
@@ -9905,7 +9905,7 @@
             "Astur-Leonese", 
             "Asturian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Asturian_language", 
         "mainfam": "Romance"
     }, 
@@ -10147,7 +10147,7 @@
             "Navarro-Aragonese", 
             "Aragonese"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "super hard", 
         "link": "https://en.wikipedia.org/wiki/Aragonese_language", 
         "mainfam": "Romance"
     }, 
@@ -10233,7 +10233,7 @@
             "Karluk", 
             "Uyghur"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Uyghur_language", 
         "mainfam": "Turkic"
     }, 
@@ -10251,7 +10251,7 @@
             "Indo-European", 
             "Albanian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Albanian_language", 
         "mainfam": "Indo-European"
     }, 
@@ -10448,7 +10448,7 @@
             "[2]", 
             "Corsican"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Corsican_language", 
         "mainfam": "Romance"
     }, 
@@ -10543,7 +10543,7 @@
             "Persian", 
             "Tajik/Tajiki"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Tajik_language", 
         "mainfam": "Iranian"
     }, 
@@ -10600,7 +10600,7 @@
             "[4]", 
             "Hungarian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Hungarian_language", 
         "mainfam": "Uralic"
     }, 
@@ -10786,7 +10786,7 @@
             "Malacca (\"Riau\") Malay", 
             "Indonesian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Indonesian_language", 
         "mainfam": "Austronesian"
     }, 
@@ -10865,7 +10865,7 @@
             "Czech\u2013Slovak", 
             "Slovak"
         ], 
-        "difficulty": "easy", 
+        "difficulty": "medium", 
         "link": "https://en.wikipedia.org/wiki/Slovak_language", 
         "mainfam": "Slavic"
     }, 
@@ -11042,7 +11042,7 @@
             "Insular Indic", 
             "Sinhala"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Sinhala_language", 
         "mainfam": "Indo-Aryan"
     }, 
@@ -11280,7 +11280,7 @@
             "Kipchak\u2013Nogai", 
             "Kazakh"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Kazakh_language", 
         "mainfam": "Turkic"
     }, 
@@ -11298,7 +11298,7 @@
             "Rhaeto-Romance", 
             "Romansh"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "super hard", 
         "link": "https://en.wikipedia.org/wiki/Romansh_language", 
         "mainfam": "Romance"
     }, 
@@ -11345,7 +11345,7 @@
             "Indo-European", 
             "Armenian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Armenian_language", 
         "mainfam": "Indo-European"
     }, 
@@ -11543,7 +11543,7 @@
             "Bihari", 
             "Maithili"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Maithili_language", 
         "mainfam": "Indo-Aryan"
     }, 
@@ -11574,7 +11574,7 @@
             "Galician-Portuguese", 
             "Galician"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Galician_language", 
         "mainfam": "Romance"
     }, 
@@ -11613,7 +11613,7 @@
             "Sotho\u2013Tswana", 
             "Sotho"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Sesotho_language", 
         "mainfam": "Bantu"
     }, 
@@ -11666,7 +11666,7 @@
             "Rhaeto-Romance", 
             "Friulian"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Friulian_language", 
         "mainfam": "Romance"
     }, 
@@ -11682,7 +11682,7 @@
             "Italo-Dalmatian", 
             "Neapolitan"
         ], 
-        "difficulty": "easy", 
+        "difficulty": "medium", 
         "link": "https://en.wikipedia.org/wiki/Neapolitan_language", 
         "mainfam": "Romance"
     }, 
@@ -11738,7 +11738,7 @@
             "Insular Scandinavian", 
             "Icelandic"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Icelandic_language", 
         "mainfam": "Germanic"
     }, 
@@ -11774,7 +11774,7 @@
             " (?)", 
             "Madurese"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Madurese_language", 
         "mainfam": "Austronesian"
     }, 
@@ -11905,7 +11905,7 @@
             "Northern Finnic", 
             "Finnish"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Finnish_language", 
         "mainfam": "Uralic"
     }, 
@@ -11983,7 +11983,7 @@
             "Wolof\u2013Nyun", 
             "Wolof"
         ], 
-        "difficulty": "medium", 
+        "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Wolof_language", 
         "mainfam": "Niger\u2013Congo"
     }, 
