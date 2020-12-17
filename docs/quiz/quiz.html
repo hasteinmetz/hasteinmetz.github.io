@@ -293,7 +293,7 @@ description: "Test your knowledge of language families! Learn something new!"
 
     // Click events
     window.onclick = function(event) {
-      if (event.target.matches('button.submit')) {
+      if (event.target.matches('button.submit') && event.which == 1) {
         ref = "Read more about " + language + " on <a href=" + moreinfo + " target=\"_blank\">Wikipedia</a>";
         if(lives>0){
           if(event.target.textContent == correct){
@@ -323,12 +323,12 @@ description: "Test your knowledge of language families! Learn something new!"
           }
         }
       }
-      if (mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)) {
+      if (mod.classList.contains('show') && lives==0 && (event.which == 1 || event.which ==13) && (event.target.matches('.continue') || event.target == mod)) {
         togglemodal();
         numcorrect = 0;
         load();
       }
-      else if (mod.classList.contains('show') && (event.target.matches('.continue') || event.target == mod)) {
+      else if (mod.classList.contains('show') && (event.which == 1 || event.which ==13) && (event.target.matches('.continue') || event.target == mod)) {
         togglemodal();
       }
     };
