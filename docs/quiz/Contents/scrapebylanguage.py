@@ -96,6 +96,8 @@ def scrape(wikipg, countries, dict):
                     languagefam = languagefam + famarray
                 else:
                     languagefam="NA"
+            if languagefam=="Austroasiatic\n\nCentral Mon-KhmerKhmer":
+                languagefam="Austroasiatic"
         e1 = {"speakers": speakers, "places":places, "family":languagefam, "difficulty":difficulty, "link":wikipg}
         e1prime = validatediff(e1)
         e2 = {title:e1prime}
