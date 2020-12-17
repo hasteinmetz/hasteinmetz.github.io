@@ -286,6 +286,26 @@
       x.style.display="none"
     }
 
+    // don't listen to keyboard presses
+    addEventListener("keydown", function(event) {
+      if (mod.classList.contains('show') && lives==0) {
+        togglemodal();
+        numcorrect = 0;
+        load();
+        return;
+      }
+      else if (mod.classList.contains('show')) {
+        togglemodal();
+        return;
+      }
+      else {
+        return;
+      }
+    });
+    addEventListener("keyup", function(event) {
+      return;
+    });
+
     // Click events
     window.onclick = function(event) {
       if (event.target.matches('button.submit')) {
@@ -295,13 +315,15 @@
             addition = determinescore()
             score = score + addition;
             numcorrect += 1;
-            feedback = "Correct! Nice job :) <br>Current score:" + score
+            feedback = "Correct! Nice job :) <br>Current score: " + score
+            removeblur(qno);
             togglemodal();
             nextquestion();
           } else {
             lives -= 1;
             if(lives>0){
               feedback = "Incorrect... Better luck on the next one! <br>Current score:" + score + "<br>The correct answer is: " + correct
+              removeblur(qno);
               togglemodal();
               nextquestion();
             }
@@ -313,17 +335,20 @@
                 highscore = score;
                 document.getElementById("hscore").innerHTML = "High Score: " + String(lives)
               }
+              removeblur(qno);
               togglemodal();
             }
           }
         }
       }
       if (mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)) {
+        removeblur(qno);
         togglemodal();
         numcorrect = 0;
         load();
       }
       else if (mod.classList.contains('show') && (event.target.matches('.continue') || event.target == mod)) {
+        removeblur(qno);
         togglemodal();
       }
     };
@@ -335,6 +360,7 @@
       f.innerHTML = feedback;
       l.innerHTML = ref;
       mod.classList.toggle("show");
+      removeblur(qno);
     }
 
     function nextquestion(){
@@ -344,6 +370,14 @@
       setqtext(qno, answers, language)
       getscore();
       x.style.display="none";
+    }
+
+    function removeblur(num){
+      for(i=1;i<num+1;i++){
+        string = "q." + String(i);
+        j = i - 1;
+        document.getElementById(string).blur();
+      }
     }
 
     // prevent issue with Tongan lol
