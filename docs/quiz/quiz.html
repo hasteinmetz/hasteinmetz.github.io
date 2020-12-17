@@ -53,8 +53,10 @@ description: "Test your knowledge of language families! Learn something new!"
   // fix Tongan
 
   console.log("No. languages: ", Object.keys(languages).length)
+  const idifficulty = ["easy", "medium", "hard", "very hard", "super hard", "whizkid"];
   var difficulty = ["easy", "medium", "hard", "very hard", "super hard", "whizkid"];
   var sensible = ["easy", "medium", "hard"];
+  var tough = ["hard", "very hard", "super hard", "whizkid"];
   const validlangs = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]))
   const sensiblelangs = filterlanguages(validlangs, "difficulty", (a) => sensible.includes(a["difficulty"]))
   console.log("No. valid languages: ", Object.keys(validlangs).length)
@@ -94,11 +96,11 @@ description: "Test your knowledge of language families! Learn something new!"
     }
 
     function filterlanguages(obj, prop, predicate) {
-      let keys = Object.keys(obj);
-      let newobj = {};
+      var keys = Object.keys(obj);
+      var newobj = {};
       for (key in keys){
         lang = keys[key]
-        let tmp = obj[lang]
+        var tmp = obj[lang]
         if(prop in tmp && predicate(tmp)){
           newobj[lang] = tmp;
         }
@@ -112,9 +114,9 @@ description: "Test your knowledge of language families! Learn something new!"
 
     function randomq(){
       var difficultyarr = difficultyallowed(numcorrect)
-      const languagesnew = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
+      var languagesnew = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
       console.log("filtered: ", languagesnew)
-      const keys = Object.keys(languagesnew)
+      var keys = Object.keys(languagesnew)
       console.log("filtered by: ", difficultyallowed(), " no. languages:", keys.length)
       var language = keys[randomno(keys.length)];
       console.log("lang = ", language)
@@ -162,24 +164,38 @@ description: "Test your knowledge of language families! Learn something new!"
       return(0);
     }
 
-    function randomans(array){
-      const keys = Object.keys(languages);
+    function randomans(array, d){
+      if(d=="easy"){
+        var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+      } else {
+        var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+      }
+      console.log("filtered: ", l1)
+      var keys = Object.keys(l1);
       var ran_key = randomno(keys.length);
       var ran_lang = String(keys[ran_key]);
-      var tmp = languages[ran_lang]["mainfam"];
-      if(tmp.toLowerCase()=="language isolate"){
-        tmp = "Language Isolate";
-      }
+      var tmp = l1[ran_lang]["mainfam"];
       var famex = famexcept(tmp, array[0])
       console.log("Family Except:" + famex + " " + tmp + array[0])
       if(array.includes(tmp) || exceptions(tmp)==0 || famex==1){
         return randomans(array);
       }
-      else {
-        console.log("randomans: " + String(tmp))
-        return tmp;
-      };
+      var di = l1[ran_lang]["difficulty"];
+      if(!sensible.includes(di)){
+        return randomans(array);
+      }
+      console.log("tmp", tmp)
+      if(tmp.toLowerCase()=="language isolate"){
+        tmp = "Language Isolate";
+      }
+      console.log("randomans1: " + String(tmp))
+      return tmp
     };
+
+    function subarray(array, start, finish){
+      var tmp = array;
+      return tmp.slice(start, finish);
+    }
 
     function randomqtype(){
       var ran_key = randomno(2);
@@ -195,28 +211,27 @@ description: "Test your knowledge of language families! Learn something new!"
       return(array)
     };
 
-    function difficultyallowed(){
+    function diffhelp(){
       j = 1
       for(i=0;i<amount.length;i++){
         if(numcorrect > amount[i]){
           j++;
         }
       }
+      return(j)
+    }
+
+    function difficultyallowed(){
+      j = diffhelp()
       m = Math.max(0, j-2)
-      return(difficulty.slice(m,j));
+      var tmp = difficulty
+      return(tmp.slice(m,j));
     }
 
     function determinescore(){
-      j = 1
-      for(i=0;i<amount.length;i++){
-        if(numcorrect > amount[i]){
-          j++;
-        }
-      }
+      j = diffhelp()
       return(100 * j)
     }
-
-    var difficulty = ["easy", "medium", "hard", "very hard", "super hard", "whizkid"];
 
     var amount = [5, 20, 30, 50, 75, 100];
 
@@ -252,9 +267,15 @@ description: "Test your knowledge of language families! Learn something new!"
     function getquestion(){
       var array = []
       var ques = randomq()
+      var dif;
+      if(numcorrect < 37){
+        dif = "easy"
+      } else {
+        dif = "tough"
+      }
       array.push(String(ques[1]))
       for(i=0; i < (qno - 1); i++){
-        tmp = randomans(array);
+        tmp = randomans(array, dif);
         array.push(tmp);
       }
       console.log("getquestion " + String(ques[0]) + " " + String(array))
