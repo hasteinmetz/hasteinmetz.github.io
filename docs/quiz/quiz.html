@@ -53,6 +53,12 @@ description: "Test your knowledge of language families! Learn something new!"
   // fix Tongan
 
   console.log("No. languages: ", Object.keys(languages).length)
+  var difficulty = ["easy", "medium", "hard", "very hard", "super hard", "whizkid"];
+  var sensible = ["easy", "medium", "hard"];
+  const validlangs = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]))
+  const sensiblelangs = filterlanguages(validlangs, "difficulty", (a) => sensible.includes(a["difficulty"]))
+  console.log("No. valid languages: ", Object.keys(validlangs).length)
+  console.log("No. sensible languages: ", Object.keys(sensiblelangs).length)
 
     function randomno(n){
       var num = Math.floor(Math.random() * n);
