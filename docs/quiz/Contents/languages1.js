@@ -15409,6 +15409,6 @@ var countries = [
 	"Congo",
 	"Greece",
 	"Paraguay",
-	"Gabon
-	Comoros,
+	"Gabon",
+	"Comoros",
 ];
