@@ -15,6 +15,45 @@ def speakerstage(speakers):
         return("NA")
         print("err-string")
 
+def parsesimplejson(json, key):
+    array = []
+    for entry in json:
+        for k in entry.keys():
+            if key in k:
+                usethiskey = k
+        array.append(entry[usethiskey])
+    return(array)
+
+# help from: https://www.geeksforgeeks.org/python-program-for-quicksort/
+# need to include difficulty calculation
+def quicksort_by_dict(array, dict, euro, value):
+    high = len(array) - 1
+    if high > 0 and isinstance(array, list):
+        med = high
+        pivot = array[med]
+        if dict[pivot]["continent"] == "Europe":
+            pthing = dict[pivot][value] + 2000000000
+        else:
+            pthing = dict[pivot][value]
+        below = []
+        above = []
+        for j in range(0, high):
+            if dict[array[j]]["continent"] == "Europe" and euro=="T":
+                thing = dict[array[j]][value] + 2000000000
+            else:
+                thing = dict[array[j]][value]
+            if thing >= pthing:
+                below.append(array[j])
+            else:
+                above.append(array[j])
+        below = quicksort_by_dict(below, dict, euro, value)
+        above = quicksort_by_dict(above, dict, euro, value)
+        below.append(pivot)
+        array = below + above
+        return(array)
+    else:
+        return(array)
+
 def vspeak(speakers):
     def trya(arr):
         if checkf(arr[0]) == "no":
@@ -115,6 +154,10 @@ def scrape(wikipg, countries, dict):
     languagefam = "NA"
     difficulty = "NA"
     link = "NA"
+    off = "NA"
+    countrydict = countries["3"]
+    cia = countries["1"]
+    sam = countries["2"]
     try:
         wpage = requests.get(url=wikipg)
         wiki = BeautifulSoup(wpage.content, "html.parser")
@@ -134,22 +177,29 @@ def scrape(wikipg, countries, dict):
                     else:
                         vspeakers = vspeak(speakers)
                 else:
-                    countryarray = []
-                    geo = row.text[9:len(row.text)].lower().replace(", ",",")
-                    geolist = geo.split(",")
-                    for pays in countries:
-                        for plcs in geolist:
-                            if pays==plcs:
-                                countryarray.append(pays)
-                    if countryarray:
-                        places = countryarray
-                        vplaces = countryarray
+                    places = row.text[9:len(row.text)]
             if "Official" in row.text and "language" in row.text:
                 if places == "NA":
-                    places = row.text[9:len(row.text)].encode("UTF-8")
+                    places = row.text[9:len(row.text)]
+                    offtxt = row.text[9:len(row.text)]
+                    offarr = []
+                    offgeo = offtxt.lower()
+                    for pays in sam:
+                        if pays.lower() in offgeo or pays in offgeo:
+                            offarr.append(pays)
+                    if offarr:
+                        off = offarr
             if "region" in row.text:
                 if places == "NA":
-                    places = row.text[9:len(row.text)].encode("UTF-8")
+                    places = row.text[9:len(row.text)]
+            if places != "NA":
+                countryarray = []
+                geo = places.lower()
+                for pays in sam:
+                    if pays.lower() in geo or pays in geo:
+                        countryarray.append(pays)
+                if countryarray:
+                    vplaces = countryarray
             if "Language family" in row.text:
                 languagefam = []
                 row2 = row.find("td")
@@ -172,7 +222,13 @@ def scrape(wikipg, countries, dict):
                     languagefam = languagefam + famarray
                 else:
                     languagefam="NA"
-        e1 = {"speakers": speakers, "vspeakers": vspeakers, "places":places, "vplaces":vplaces, "family":languagefam, "link":wikipg}
+        if vplaces != "NA":
+            if title in ["French language", "German language", "Portuguese language", "English language", "Spanish language"]:
+                euro="T"
+            else:
+                euro="F"
+            vplaces = quicksort_by_dict(vplaces, countrydict, euro, 'population')
+        e1 = {"speakers": speakers, "vspeakers": vspeakers, "places":places, "vplaces":vplaces, "family":languagefam, "link":wikipg, "official":off}
         if e1["family"]=="Austroasiatic\n\nCentral Mon-KhmerKhmer":
             e1["family"]="Austroasiatic"
         validatefam(e1)
@@ -236,8 +292,12 @@ def main():
     else:
         infile = open("languagelinks.txt", "r")
         print("LINKS FILE")
-    cfile = open("countries.txt", "r")
-    countries = cfile.read().split(",")
+    cfile = open("countries_cia.txt", "r")
+    countries1 = cfile.read().split(",")
+    cfile = open("countries.json", "r")
+    samjson = json.load(cfile)
+    countries2 = samjson.keys()
+    countries = {"1": countries1, "2": countries2, "3":samjson}
     lcount = 0
     retries = 10
     mark = 50
@@ -284,7 +344,16 @@ def main():
         outfile.write("var languages = ")
         json.dump(languagedict, outfile, indent=4)
         outfile.write("\n")
-        outfile.write("var listoflanguages = Object.keys(languages);")
+        outfile.write("var listoflanguages = Object.keys(languages);\n")
+        outfile.write("var countries = [")
+        i = 1
+        for c in countries2:
+            i += 1
+            if i != len(countries2):
+                outfile.write("\n\t" + c + ",")
+            else:
+                outfile.write("\n\t" + c)
+        outfile.write("\n];\n")
     with open("wikipedia_languages.txt",'w') as outfile:
         for key in languagedict:
             outfile.write("{"+ "\"" + key + "\":" + str(languagedict[key]))
