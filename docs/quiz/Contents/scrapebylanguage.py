@@ -350,9 +350,9 @@ def main():
         for c in countries2:
             i += 1
             if i != len(countries2):
-                outfile.write("\n\t" + c + ",")
+                outfile.write("\n\t" + \" + c + \" + ",")
             else:
-                outfile.write("\n\t" + c)
+                outfile.write("\n\t" + \" + c + \")
         outfile.write("\n];\n")
     with open("wikipedia_languages.txt",'w') as outfile:
         for key in languagedict:
