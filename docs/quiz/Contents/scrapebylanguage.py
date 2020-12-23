@@ -378,7 +378,7 @@ def main():
         json.dump(lang_js, outfile, indent=4)
         outfile.write("\n")
         outfile.write("var countries = [")
-        i = 1
+        i = 0
         for c in countries2:
             i += 1
             if i != len(countries2):
