@@ -361,6 +361,11 @@ def main():
         infile = open("languagelinks.txt", "r")
         print("LINKS FILE")
         languagedict = scrapeaway(infile, countries)
+    # fix small errors in scraper
+    languagedict["Khmer language"]["mainfam"] = "Austroasiatic"
+    for key in languagedict.keys():
+        if languagedict[key]["family"]=="NA":
+            languagedict[key]["mainfam"]="NA"
     with open("wikipedia_dump.json",'w') as outfile:
         json.dump(languagedict, outfile, indent=4)
     with open("languages1.js",'w') as outfile:
