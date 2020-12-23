@@ -225,7 +225,7 @@ description: "Test your knowledge of language families! Learn something new!"
         }
         moreinfo = languages[language]["link"];
         console.log("link = ", moreinfo)
-        if(!prevq.includes(place) && place!="NA"){
+        if(!prevq.includes(place) && places!="NA"){
           if(difficultyarr.includes(languages[language]["difficulty"])){
             return([language, places]);
           } else {
