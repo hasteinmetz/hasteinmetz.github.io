@@ -1,3 +1,8 @@
+# Program that scrapes Wikipedia for language information
+# 0 arguments scrape the 700+ webpages
+# 1 argument opens previous dictionaries and modifies them
+# 2 arguments uses a debug list to quickly check if the code works
+
 import requests
 from bs4 import BeautifulSoup
 import json
