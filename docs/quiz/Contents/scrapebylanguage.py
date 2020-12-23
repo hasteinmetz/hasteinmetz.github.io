@@ -369,7 +369,7 @@ def main():
     # fix small errors in scraper
     languagedict["Khmer language"]["mainfam"] = "Austroasiatic"
     languagedict["Flemish"]["vplaces"] = ["Belgium"]
-    languagedict["English"]["vplaces"] = "NA"
+    languagedict["English language"]["vplaces"] = "NA"
     for key in languagedict.keys():
         if languagedict[key]["family"]=="NA":
             languagedict[key]["mainfam"]="NA"
