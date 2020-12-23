@@ -370,7 +370,7 @@ def main():
     languagedict["Khmer language"]["mainfam"] = "Austroasiatic"
     languagedict["Flemish"]["vplaces"] = ["Belgium"]
     languagedict["Catalan language"]["vplaces"] = ["Spain"]
-    languagedict["Persian language"]["vplaces"] = ["Iran"]
+    languagedict["Persian language"]["vplaces"] = ["Iran", "Afghanistan", "Tajikistan"]
     languagedict["Danish language"]["vplaces"] = ["Denmark"]
     languagedict["English language"]["vplaces"] = "NA"
     for key in languagedict.keys():
