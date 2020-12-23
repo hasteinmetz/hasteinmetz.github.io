@@ -221,13 +221,13 @@ description: "Test your knowledge of language families! Learn something new!"
         if(languages[language]["vplaces"]=="NA" || languages[language]["vplaces"][0]=="NA"){
           return(randomc())
         } else {
-          place = languages[language]["vplaces"][0]
+          places = languages[language]["vplaces"]
         }
         moreinfo = languages[language]["link"];
         console.log("link = ", moreinfo)
         if(!prevq.includes(place) && place!="NA"){
           if(difficultyarr.includes(languages[language]["difficulty"])){
-            return([language, place]);
+            return([language, places]);
           } else {
             return(randomc());
           }
@@ -237,7 +237,7 @@ description: "Test your knowledge of language families! Learn something new!"
         }
       };
 
-      function findc(array, d){
+      function findc(array, d, otherplaces){
         if(d=="easy"){
           var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         } else {
@@ -248,8 +248,9 @@ description: "Test your knowledge of language families! Learn something new!"
         var ran_key = randomno(keys.length);
         var ran_lang = String(keys[ran_key]);
         var place = l1[ran_lang]["vplaces"][0];
-        if(array.includes(place) || place=="N"){
-          return findc(array, d);
+        var corplace = otherplaces[0];
+        if(array.includes(place) || otherplaces.includes(place) || place=="N"){
+          return findc(array, d, otherplaces);
         }
         console.log("ans", place)
         return place
@@ -354,9 +355,9 @@ description: "Test your knowledge of language families! Learn something new!"
         } else {
           dif = "tough"
         }
-        array.push(String(ques[1]))
+        array.push(String(ques[1][0]))
         for(i=0; i < (qno - 1); i++){
-          tmp = findc(array, dif);
+          tmp = findc(array, dif, ques[1]);
           array.push(tmp);
         }
         console.log("getquestion " + String(ques[0]) + " " + String(array))

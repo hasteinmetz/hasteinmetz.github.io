@@ -465,8 +465,8 @@
         "difficulty": "whizkid", 
         "link": "https://en.wikipedia.org/wiki/Bunjevac_language", 
         "vplaces": [
-            "Serbia", 
-            "Hungary"
+            "Hungary", 
+            "Serbia"
         ], 
         "mainfam": "Slavic"
     }, 
@@ -2165,15 +2165,15 @@
         "difficulty": "easy", 
         "link": "https://en.wikipedia.org/wiki/Bulgarian_language", 
         "vplaces": [
-            "Greece", 
-            "Serbia", 
-            "Moldova", 
-            "Romania", 
-            "Bulgaria", 
-            "Ukraine", 
             "Turkey", 
+            "Ukraine", 
+            "Romania", 
+            "Greece", 
+            "Bulgaria", 
+            "Serbia", 
+            "Oman", 
             "Albania", 
-            "Oman"
+            "Moldova"
         ], 
         "mainfam": "Slavic"
     }, 
@@ -2755,9 +2755,9 @@
         "difficulty": "NA", 
         "link": "https://en.wikipedia.org/wiki/Occitan_language", 
         "vplaces": [
+            "France", 
             "Italy", 
             "Spain", 
-            "France", 
             "Monaco"
         ], 
         "mainfam": "Romance"
@@ -2796,8 +2796,8 @@
         "difficulty": "super hard", 
         "link": "https://en.wikipedia.org/wiki/Evenk_language", 
         "vplaces": [
-            "Russia", 
-            "China"
+            "China", 
+            "Russia"
         ], 
         "mainfam": "Tungusic"
     }, 
@@ -2970,8 +2970,8 @@
         "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Uzbek_language", 
         "vplaces": [
-            "Russia", 
             "China", 
+            "Russia", 
             "Afghanistan", 
             "Uzbekistan", 
             "Kazakhstan", 
@@ -3571,10 +3571,10 @@
         "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Gagauz_language", 
         "vplaces": [
-            "Moldova", 
             "Russia", 
+            "Turkey", 
             "Ukraine", 
-            "Turkey"
+            "Moldova"
         ], 
         "mainfam": "Turkic"
     }, 
@@ -3721,8 +3721,8 @@
         "difficulty": "NA", 
         "link": "https://en.wikipedia.org/wiki/Picard_language", 
         "vplaces": [
-            "Belgium", 
-            "France"
+            "France", 
+            "Belgium"
         ], 
         "mainfam": "Romance"
     }, 
@@ -4359,10 +4359,10 @@
         "difficulty": "medium", 
         "link": "https://en.wikipedia.org/wiki/Catalan_language", 
         "vplaces": [
-            "Andorra", 
+            "France", 
             "Italy", 
             "Spain", 
-            "France"
+            "Andorra"
         ], 
         "mainfam": "Romance"
     }, 
@@ -5304,12 +5304,12 @@
         "difficulty": "medium", 
         "link": "https://en.wikipedia.org/wiki/Croatian_language", 
         "vplaces": [
-            "Serbia", 
-            "Croatia", 
             "Romania", 
-            "Montenegro", 
+            "Serbia", 
             "Oman", 
-            "Bosnia and Herzegovina"
+            "Croatia", 
+            "Bosnia and Herzegovina", 
+            "Montenegro"
         ], 
         "mainfam": "Slavic"
     }, 
@@ -5441,9 +5441,9 @@
         "difficulty": "easy", 
         "link": "https://en.wikipedia.org/wiki/Flemish_language", 
         "vplaces": [
+            "France", 
             "Netherlands", 
-            "Belgium", 
-            "France"
+            "Belgium"
         ], 
         "mainfam": "Germanic"
     }, 
@@ -5850,8 +5850,8 @@
         "difficulty": "whizkid", 
         "link": "https://en.wikipedia.org/wiki/Nanai_language", 
         "vplaces": [
-            "Russia", 
-            "China"
+            "China", 
+            "Russia"
         ], 
         "mainfam": "Tungusic"
     }, 
@@ -5971,10 +5971,10 @@
         "difficulty": "NA", 
         "link": "https://en.wikipedia.org/wiki/Luxembourgish_language", 
         "vplaces": [
-            "Belgium", 
-            "Luxembourg", 
+            "Germany", 
             "France", 
-            "Germany"
+            "Belgium", 
+            "Luxembourg"
         ], 
         "mainfam": "Germanic"
     }, 
@@ -6355,8 +6355,8 @@
         "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Tuvan_language", 
         "vplaces": [
-            "Russia", 
             "China", 
+            "Russia", 
             "Mongolia"
         ], 
         "mainfam": "Turkic"
@@ -6654,9 +6654,9 @@
         "difficulty": "easy", 
         "link": "https://en.wikipedia.org/wiki/Romanian_language", 
         "vplaces": [
-            "Moldova", 
             "Romania", 
-            "Oman"
+            "Oman", 
+            "Moldova"
         ], 
         "mainfam": "Romance"
     }, 
@@ -6666,7 +6666,7 @@
             "high: 1.7 million"
         ], 
         "speakers": "1.3 million\u00a0(2011 census)[1]1.7\u00a0million L2 speakers in South Africa (2002)[2]", 
-        "places": "South Africa, Zimbabwe", 
+        "places": "South Africa  Zimbabwe", 
         "family": [
             "Niger\u2013Congo", 
             "Atlantic\u2013Congo", 
@@ -7071,15 +7071,15 @@
         "difficulty": "easy", 
         "link": "https://en.wikipedia.org/wiki/Polish_language", 
         "vplaces": [
-            "Belarus", 
-            "Latvia", 
-            "Poland", 
-            "Ukraine", 
-            "Slovakia", 
-            "Hungary", 
-            "Czech Republic", 
             "Germany", 
-            "Lithuania"
+            "Ukraine", 
+            "Poland", 
+            "Czech Republic", 
+            "Hungary", 
+            "Belarus", 
+            "Slovakia", 
+            "Lithuania", 
+            "Latvia"
         ], 
         "mainfam": "Slavic"
     }, 
@@ -7580,8 +7580,8 @@
         "difficulty": "whizkid", 
         "link": "https://en.wikipedia.org/wiki/Haida_language", 
         "vplaces": [
-            "Wales", 
-            "Canada"
+            "Canada", 
+            "Wales"
         ], 
         "mainfam": "N"
     }, 
@@ -7762,8 +7762,8 @@
         "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Basque_language", 
         "vplaces": [
-            "Spain", 
-            "France"
+            "France", 
+            "Spain"
         ], 
         "mainfam": "N"
     }, 
@@ -8397,11 +8397,11 @@
         "difficulty": "whizkid", 
         "link": "https://en.wikipedia.org/wiki/Megleno-Romanian_language", 
         "vplaces": [
-            "Greece", 
-            "Romania", 
             "Turkey", 
-            "North Macedonia", 
-            "Oman"
+            "Romania", 
+            "Greece", 
+            "Oman", 
+            "North Macedonia"
         ], 
         "mainfam": "Romance"
     }, 
@@ -8598,13 +8598,13 @@
         "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Ladino_language", 
         "vplaces": [
-            "Greece", 
-            "Serbia", 
             "Turkey", 
             "Morocco", 
             "Tunisia", 
+            "Greece", 
             "Israel", 
             "Bulgaria", 
+            "Serbia", 
             "North Macedonia"
         ], 
         "mainfam": "Romance"
@@ -8829,8 +8829,8 @@
         "vplaces": [
             "Serbia", 
             "Croatia", 
-            "Montenegro", 
-            "Bosnia and Herzegovina"
+            "Bosnia and Herzegovina", 
+            "Montenegro"
         ], 
         "mainfam": "Slavic"
     }, 
@@ -8999,8 +8999,8 @@
         "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Buryat_language", 
         "vplaces": [
-            "Russia", 
             "China", 
+            "Russia", 
             "Mongolia"
         ], 
         "mainfam": "Mongolic"
@@ -9374,8 +9374,8 @@
         "link": "https://en.wikipedia.org/wiki/Crimean_Tatar_language", 
         "vplaces": [
             "Russia", 
-            "Ukraine", 
             "Turkey", 
+            "Ukraine", 
             "Uzbekistan", 
             "Romania", 
             "Bulgaria", 
@@ -9816,8 +9816,8 @@
         "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Latgalian_language", 
         "vplaces": [
-            "Latvia", 
-            "Russia"
+            "Russia", 
+            "Latvia"
         ], 
         "mainfam": "Baltic"
     }, 
@@ -9966,11 +9966,11 @@
         "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Bashkir_language", 
         "vplaces": [
-            "Belarus", 
             "Russia", 
             "Ukraine", 
             "Uzbekistan", 
             "Kazakhstan", 
+            "Belarus", 
             "Estonia"
         ], 
         "mainfam": "Turkic"
@@ -10210,9 +10210,9 @@
         "difficulty": "NA", 
         "link": "https://en.wikipedia.org/wiki/Yevanic_language", 
         "vplaces": [
-            "Greece", 
             "United States", 
             "Turkey", 
+            "Greece", 
             "Israel"
         ], 
         "mainfam": "Indo-European"
@@ -10947,7 +10947,7 @@
             "high: 4.1 million"
         ], 
         "speakers": "(4.1 million in South Africa (2011)1.1 million in Botswana cited 1993)[1]unknown number in Zimbabwe7.7 million L2 speakers in South Africa (2002)[2]", 
-        "places": "Botswana, South Africa, Zimbabwe, Namibia", 
+        "places": "Botswana  Namibia  South Africa  Zimbabwe", 
         "family": [
             "Niger\u2013Congo", 
             "Atlantic\u2013Congo", 
@@ -11281,13 +11281,13 @@
         "difficulty": "easy", 
         "link": "https://en.wikipedia.org/wiki/Russian_language", 
         "vplaces": [
-            "Belarus", 
-            "Latvia", 
             "Russia", 
             "Ukraine", 
             "Kazakhstan", 
-            "Estonia", 
-            "Kyrgyzstan"
+            "Belarus", 
+            "Kyrgyzstan", 
+            "Latvia", 
+            "Estonia"
         ], 
         "mainfam": "Slavic"
     }, 
@@ -11513,8 +11513,8 @@
         "link": "https://en.wikipedia.org/wiki/Slovene_language", 
         "vplaces": [
             "Italy", 
-            "Slovenia", 
-            "Austria"
+            "Austria", 
+            "Slovenia"
         ], 
         "mainfam": "Slavic"
     }, 
@@ -11839,9 +11839,9 @@
         "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Franco-Proven%C3%A7al_language", 
         "vplaces": [
+            "France", 
             "Italy", 
-            "Switzerland", 
-            "France"
+            "Switzerland"
         ], 
         "mainfam": "Romance"
     }, 
@@ -12045,13 +12045,13 @@
         "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Macedonian_language", 
         "vplaces": [
-            "Greece", 
-            "Serbia", 
             "Romania", 
+            "Greece", 
             "Bulgaria", 
+            "Serbia", 
+            "Oman", 
             "Albania", 
-            "North Macedonia", 
-            "Oman"
+            "North Macedonia"
         ], 
         "mainfam": "Slavic"
     }, 
@@ -12194,8 +12194,8 @@
         "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Walloon_language", 
         "vplaces": [
-            "Belgium", 
-            "France"
+            "France", 
+            "Belgium"
         ], 
         "mainfam": "Romance"
     }, 
@@ -12886,12 +12886,12 @@
         "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Albanian_language", 
         "vplaces": [
+            "Italy", 
             "Greece", 
             "Serbia", 
-            "Italy", 
-            "Montenegro", 
             "Albania", 
-            "North Macedonia"
+            "North Macedonia", 
+            "Montenegro"
         ], 
         "mainfam": "Indo-European"
     }, 
@@ -13027,8 +13027,8 @@
         "difficulty": "easy", 
         "link": "https://en.wikipedia.org/wiki/Danish_language", 
         "vplaces": [
-            "Denmark", 
-            "Germany"
+            "Germany", 
+            "Denmark"
         ], 
         "mainfam": "Germanic"
     }, 
@@ -13140,8 +13140,8 @@
         "difficulty": "very hard", 
         "link": "https://en.wikipedia.org/wiki/Corsican_language", 
         "vplaces": [
-            "Italy", 
-            "France"
+            "France", 
+            "Italy"
         ], 
         "mainfam": "Romance"
     }, 
@@ -13327,15 +13327,15 @@
         "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Hungarian_language", 
         "vplaces": [
-            "Serbia", 
-            "Croatia", 
-            "Slovenia", 
-            "Austria", 
-            "Romania", 
             "Ukraine", 
-            "Slovakia", 
+            "Romania", 
             "Hungary", 
-            "Oman"
+            "Austria", 
+            "Serbia", 
+            "Slovakia", 
+            "Oman", 
+            "Croatia", 
+            "Slovenia"
         ], 
         "mainfam": "Uralic"
     }, 
@@ -13473,18 +13473,18 @@
         "difficulty": "medium", 
         "link": "https://en.wikipedia.org/wiki/Turkish_language", 
         "vplaces": [
-            "Greece", 
             "Turkey", 
             "Iraq", 
             "Romania", 
             "Syria", 
+            "Greece", 
             "Azerbaijan", 
             "Israel", 
             "Bulgaria", 
             "Lebanon", 
-            "North Macedonia", 
             "Oman", 
             "Bosnia and Herzegovina", 
+            "North Macedonia", 
             "Cyprus"
         ], 
         "mainfam": "Turkic"
@@ -13624,8 +13624,8 @@
         "difficulty": "NA", 
         "link": "https://en.wikipedia.org/wiki/Polabian_language", 
         "vplaces": [
-            "Poland", 
-            "Germany"
+            "Germany", 
+            "Poland"
         ], 
         "mainfam": "Slavic"
     }, 
@@ -13666,8 +13666,8 @@
         "difficulty": "medium", 
         "link": "https://en.wikipedia.org/wiki/Slovak_language", 
         "vplaces": [
-            "Slovakia", 
-            "Hungary"
+            "Hungary", 
+            "Slovakia"
         ], 
         "mainfam": "Slavic"
     }, 
@@ -13759,13 +13759,13 @@
         "difficulty": "NA", 
         "link": "https://en.wikipedia.org/wiki/Aromanian_language", 
         "vplaces": [
-            "Greece", 
-            "Serbia", 
             "Romania", 
+            "Greece", 
             "Bulgaria", 
+            "Serbia", 
+            "Oman", 
             "Albania", 
-            "North Macedonia", 
-            "Oman"
+            "North Macedonia"
         ], 
         "mainfam": "Romance"
     }, 
@@ -14174,8 +14174,8 @@
         "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Kazakh_language", 
         "vplaces": [
-            "Russia", 
             "China", 
+            "Russia", 
             "Uzbekistan", 
             "Kazakhstan", 
             "Kyrgyzstan", 
@@ -14931,9 +14931,9 @@
         "difficulty": "NA", 
         "link": "https://en.wikipedia.org/wiki/Norman_language", 
         "vplaces": [
-            "Ireland", 
             "England", 
-            "Canada"
+            "Canada", 
+            "Ireland"
         ], 
         "mainfam": "Romance"
     }, 
@@ -14974,8 +14974,8 @@
         "difficulty": "hard", 
         "link": "https://en.wikipedia.org/wiki/Finnish_language", 
         "vplaces": [
-            "Sweden", 
             "Russia", 
+            "Sweden", 
             "Finland", 
             "Norway"
         ], 

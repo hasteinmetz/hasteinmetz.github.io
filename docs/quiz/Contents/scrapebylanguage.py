@@ -31,7 +31,7 @@ def quicksort_by_dict(array, dict, euro, value):
     if high > 0 and isinstance(array, list):
         med = high
         pivot = array[med]
-        if dict[pivot]["continent"] == "Europe":
+        if dict[pivot]["continent"] == "Europe" and euro=="T":
             pthing = dict[pivot][value] + 2000000000
         else:
             pthing = dict[pivot][value]
@@ -345,14 +345,19 @@ def main():
         json.dump(languagedict, outfile, indent=4)
         outfile.write("\n")
         outfile.write("var listoflanguages = Object.keys(languages);\n")
+        outfile.write("var country_js = ")
+        cfile_js = open("countries.json", "r")
+        country_js = json.load(cfile_js)
+        json.dump(country_js, outfile, indent=4)
+        outfile.write("\n")
         outfile.write("var countries = [")
         i = 1
         for c in countries2:
             i += 1
             if i != len(countries2):
-                outfile.write("\n\t" + \" + c + \" + ",")
+                outfile.write("\n\t" + "\"" + c + "\"" + ",")
             else:
-                outfile.write("\n\t" + \" + c + \")
+                outfile.write("\n\t" + "\"" + c + "\"")
         outfile.write("\n];\n")
     with open("wikipedia_languages.txt",'w') as outfile:
         for key in languagedict:
