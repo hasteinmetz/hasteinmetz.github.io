@@ -284,20 +284,18 @@ def retryfail(failarr, retries, countries, dict):
                 exit()
     return(failures2)
 
-def main():
-    starttime = time.time()
-    if len(sys.argv) > 1:
-        infile = open("debug.txt", "r")
-        print("DEBUG FILE")
-    else:
-        infile = open("languagelinks.txt", "r")
-        print("LINKS FILE")
-    cfile = open("countries_cia.txt", "r")
-    countries1 = cfile.read().split(",")
-    cfile = open("countries.json", "r")
-    samjson = json.load(cfile)
-    countries2 = samjson.keys()
-    countries = {"1": countries1, "2": countries2, "3":samjson}
+def switchdict(dic):
+    newdic = {}
+    for key in dic:
+        for lang in dic[key]["languages"]:
+            if lang in newdic:
+                newdic[lang].append(key)
+            else:
+                entry = {lang:[key]}
+                newdic.update(entry)
+    return(newdic)
+
+def scrapeaway(infile, countries):
     lcount = 0
     retries = 10
     mark = 50
@@ -338,6 +336,31 @@ def main():
     if uhoh!=-1:
         print("The following languages didn't pass even the second time...:")
         print(str(uhoh))
+    return(languagedict)
+
+def main():
+    starttime = time.time()
+    setting = "scrape"
+    cfile = open("countries_cia.txt", "r")
+    countries1 = cfile.read().split(",")
+    cfile = open("countries.json", "r")
+    samjson = json.load(cfile)
+    countries2 = samjson.keys()
+    countries = {"1": countries1, "2": countries2, "3":samjson}
+    if len(sys.argv) > 2:
+        infile = open("debug.txt", "r")
+        setting = "debug"
+        print("DEBUG FILE")
+        languagedict = scrapeaway(infile, countries)
+    elif len(sys.argv) > 1:
+        print("NO SCRAPE")
+        infile = open("wikipedia_dump.json", "r")
+        languagedict = json.load(infile)
+        setting = "noscrape"
+    else:
+        infile = open("languagelinks.txt", "r")
+        print("LINKS FILE")
+        languagedict = scrapeaway(infile, countries)
     with open("wikipedia_dump.json",'w') as outfile:
         json.dump(languagedict, outfile, indent=4)
     with open("languages1.js",'w') as outfile:
@@ -350,6 +373,10 @@ def main():
         country_js = json.load(cfile_js)
         json.dump(country_js, outfile, indent=4)
         outfile.write("\n")
+        outfile.write("var lang_js = ")
+        lang_js = switchdict(country_js)
+        json.dump(lang_js, outfile, indent=4)
+        outfile.write("\n")
         outfile.write("var countries = [")
         i = 1
         for c in countries2:
@@ -359,9 +386,6 @@ def main():
             else:
                 outfile.write("\n\t" + "\"" + c + "\"")
         outfile.write("\n];\n")
-    with open("wikipedia_languages.txt",'w') as outfile:
-        for key in languagedict:
-            outfile.write("{"+ "\"" + key + "\":" + str(languagedict[key]))
     print("All done! The program may take a moment to finish")
 
 starttime = time.time()

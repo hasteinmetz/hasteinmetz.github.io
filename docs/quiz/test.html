@@ -249,7 +249,13 @@ description: "Test your knowledge of language families! Learn something new!"
         var ran_lang = String(keys[ran_key]);
         var place = l1[ran_lang]["vplaces"][0];
         var corplace = otherplaces[0];
-        if(array.includes(place) || otherplaces.includes(place) || place=="N"){
+        var lang2 = ran_lang.split(" ")[0]
+        if(lang2 in lang_js){
+          var lang_js_places = lang_js[lang2]
+        } else {
+          var lang_js_places = ["NA"]
+        }
+        if(array.includes(place) || otherplaces.includes(place) || place=="N" || lang_js_places.includes(place)){
           return findc(array, d, otherplaces);
         }
         console.log("ans", place)
