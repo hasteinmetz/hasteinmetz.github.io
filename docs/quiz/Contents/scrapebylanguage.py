@@ -373,6 +373,22 @@ def main():
     for key in languagedict.keys():
         if languagedict[key]["family"]=="NA":
             languagedict[key]["mainfam"]="NA"
+        if languagedict[key]["vplaces"]!="NA":
+            noplaces = len(languagedict[key]["vplaces"])
+            for place in range(0, noplaces):
+                try:
+                    pl = str(languagedict[key]["vplaces"][place])
+                    if str(key)[0:2] in pl:
+                        tmp = languagedict[key]["vplaces"][0]
+                        languagedict[key]["vplaces"][0] = pl
+                        languagedict[key]["vplaces"][place] = tmp
+                except:
+                    pass
+        if languagedict[key]["mainfam"]=="Slavic":
+            if languagedict[key]["vplaces"]!="NA":
+                for place in languagedict[key]["vplaces"]:
+                    if place == "Oman":
+                        languagedict[key]["vplaces"].remove("Oman")
     with open("wikipedia_dump.json",'w') as outfile:
         json.dump(languagedict, outfile, indent=4)
     with open("languages1.js",'w') as outfile:
