@@ -230,7 +230,7 @@ description: "Test your knowledge of language families! Learn something new!"
         }
         moreinfo = languages[language]["link"];
         console.log("link = ", moreinfo)
-        if(!prevq.includes(place) && place!="NA"){
+        if(!prevq.includes(language) && place!="NA"){
           if(difficultyarr.includes(languages[language]["difficulty"])){
             return([language, places]);
           } else {
@@ -385,13 +385,18 @@ description: "Test your knowledge of language families! Learn something new!"
       }
 
       function setqtext(num, answers, language){
+        if(language.includes("languages")){
+          lan = language.slice(0, language.length - 1)
+        } else {
+          lan = language
+        }
         if(type=="what"){
-          document.getElementById("question").innerHTML = "What family does the " + language + " belong to?";
+          document.getElementById("question").innerHTML = "What family does the " + lan + " belong to?";
         } else {
           if(language.includes("language")){
-            document.getElementById("question").innerHTML = "The " + language + " is spoken in which of the following countries?";
+            document.getElementById("question").innerHTML = "The " + lan + " is spoken in which of the following countries?";
           } else {
-            document.getElementById("question").innerHTML = "The " + language + " language is spoken in which of the following countries?";
+            document.getElementById("question").innerHTML = "The " + lan + " language is spoken in which of the following countries?";
           }
         }
         for(i=1;i<num+1;i++){
