@@ -223,6 +223,10 @@ description: "Test your knowledge of language families! Learn something new!"
         } else {
           var places = languages[language]["vplaces"]
           var place = languages[language]["vplaces"][0]
+          var pre = place.slice(0,3)
+          if(language.includes(pre)){
+            return(randomc())
+          }
         }
         moreinfo = languages[language]["link"];
         console.log("link = ", moreinfo)
@@ -387,7 +391,7 @@ description: "Test your knowledge of language families! Learn something new!"
           if(language.includes("language")){
             document.getElementById("question").innerHTML = "The " + language + " is spoken in which of the following countries?";
           } else {
-            document.getElementById("question").innerHTML = "The " + language + " language is spoken in which of the following countries?";          
+            document.getElementById("question").innerHTML = "The " + language + " language is spoken in which of the following countries?";
           }
         }
         for(i=1;i<num+1;i++){

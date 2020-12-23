@@ -368,6 +368,8 @@ def main():
         languagedict = scrapeaway(infile, countries)
     # fix small errors in scraper
     languagedict["Khmer language"]["mainfam"] = "Austroasiatic"
+    languagedict["Flemish"]["vplaces"] = ["Belgium"]
+    languagedict["English"]["vplaces"] = "NA"
     for key in languagedict.keys():
         if languagedict[key]["family"]=="NA":
             languagedict[key]["mainfam"]="NA"
