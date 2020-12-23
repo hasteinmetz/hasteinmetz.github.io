@@ -384,7 +384,11 @@ description: "Test your knowledge of language families! Learn something new!"
         if(type=="what"){
           document.getElementById("question").innerHTML = "What family does the " + language + " belong to?";
         } else {
-          document.getElementById("question").innerHTML = "The " + language + " is spoken in which of the following countries?";
+          if(language.includes("language")){
+            document.getElementById("question").innerHTML = "The " + language + " is spoken in which of the following countries?";
+          } else {
+            document.getElementById("question").innerHTML = "The " + language + " language is spoken in which of the following countries?";          
+          }
         }
         for(i=1;i<num+1;i++){
           string = "q." + String(i);
