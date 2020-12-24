@@ -10,6 +10,9 @@ import math
 import sys
 import time
 
+reload(sys)
+sys.setdefaultencoding('utf8')
+
 def speakerstage(speakers):
     try:
         speakers2 = speakers.replace(",", "")
@@ -187,10 +190,10 @@ def scrape(wikipg, countries, dict):
                 if spans:
                     for s in spans:
                         if s.has_attr("lang"):
-                            endo.append(s.text.encode("utf8"))
+                            endo.append(s.text)
                 italics = row.find_all("i")
                 for it in range(0, len(italics)):
-                    italics[it] = italics[it].text.encode("utf8")
+                    italics[it] = italics[it].text
                 if endo or italics:
                     endonyms = italics + endo
             if "Native" in row.text:
@@ -377,7 +380,7 @@ def main():
     elif len(sys.argv) > 1:
         print("NO SCRAPE")
         infile = open("wikipedia_dump.json", "r")
-        languagedict = json.load(infile, countries)
+        languagedict = json.load(infile)
         setting = "noscrape"
     else:
         infile = open("languagelinks.txt", "r")
@@ -391,16 +394,38 @@ def main():
         languagedict["Persian language"]["vplaces"] = ["Iran", "Afghanistan", "Tajikistan"]
         languagedict["Danish language"]["vplaces"] = ["Denmark"]
         languagedict["English language"]["vplaces"] = "NA"
-        languagedict["Khasi language"]["endonym"][1] = "\xe0\xa6\x95\x20\xe0\xa6\x95\xe0\xa7\x8d\xe0\xa6\xa4\xe0\xa7\x8d\xe0\xa6\xaf\xe0\xa7\x87\xe0\xa6\xa8\x20\xe0\xa6\x96\xe0\xa6\xb8\xe0\xa6\xbf"
+        languagedict["Khasi language"]["endonym"][0] = "\xe0\xa6\x95\x20\xe0\xa6\x95\xe0\xa7\x8d\xe0\xa6\xa4\xe0\xa7\x8d\xe0\xa6\xaf\xe0\xa7\x87\xe0\xa6\xa8\x20\xe0\xa6\x96\xe0\xa6\xb8\xe0\xa6\xbf"
     for key in languagedict.keys():
+        # corrections for endonyms
+        names = languagedict[key]["endonym"]
+        if names!="NA":
+            if "language" in key:
+                lang_english = key.split(" ")[0]
+            else:
+                lang_english = key
+            if isinstance(names, list):
+                for n in range(0, len(names)):
+                    name = names[n]
+                    if "(easy)" not in name:
+                        if lang_english in name:
+                            names[n] = "(easy) " + names[n]
+                    else:
+                        pass
+            else:
+                if "(easy)" not in names:
+                    if lang_english in names:
+                        names = "(easy) " + names
+                else:
+                    pass
+        # corrections for places
         if languagedict[key]["family"]=="NA":
             languagedict[key]["mainfam"]="NA"
         if languagedict[key]["vplaces"]!="NA":
             noplaces = len(languagedict[key]["vplaces"])
             for place in range(0, noplaces):
                 try:
-                    pl = languagedict[key]["vplaces"][place].encode("UTF-8")
-                    if key.encode("UTF-8")[0:2] in pl:
+                    pl = languagedict[key]["vplaces"][place]
+                    if key[0:2] in pl:
                         tmp = languagedict[key]["vplaces"][0]
                         languagedict[key]["vplaces"][0] = pl
                         languagedict[key]["vplaces"][place] = tmp

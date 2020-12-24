@@ -128,9 +128,7 @@ description: "Test your knowledge of language families! Learn something new!"
 
       function filt_cust(predicate){
         var difficultyarr = difficultyallowed(numcorrect)
-        var l1 = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
-        console.log("filtered: ", l1)
-        var languagesnew = filterlanguages(languages, "vplaces", predicate);
+        var languagesnew = filterlanguages(l1, "vplaces", predicate);
         console.log("filtered: ", languagesnew)
         var keys = Object.keys(languagesnew)
         console.log("filtered by: ", difficultyallowed(), " no. languages:", keys.length)
@@ -267,6 +265,39 @@ description: "Test your knowledge of language families! Learn something new!"
         return place
       }
 
+      function checkendo(arr){
+        for(i=0;i<arr.length;i++){
+          if(arr[i].includes("(easy)")){
+            return("T")
+          } else {
+            return("F")
+          }
+        }
+      }
+
+      function randomn(){
+        var language = filt()
+        console.log("places = ", language)
+        var difficultyarr = difficultyallowed(numcorrect);
+        if(languages[language]["endonym"]=="NA" || checkendo(languages[language]["endonym"])){
+          return(randomn())
+        } else {
+          var endos = languages[language]["endonym"]
+        }
+        moreinfo = languages[language]["link"];
+        console.log("link = ", moreinfo)
+        if(!prevq.includes(language)){
+          if(difficultyarr.includes(languages[language]["difficulty"])){
+            return([endos, language]);
+          } else {
+            return(randomn());
+          }
+        }
+        else {
+          return(randomn());
+        }
+      };
+
       function subarray(array, start, finish){
         var tmp = array;
         return tmp.slice(start, finish);
@@ -375,11 +406,33 @@ description: "Test your knowledge of language families! Learn something new!"
         return([ques[0], array]);
       };
 
+      function getquestion3(){
+        var array = []
+        var ques = randomn()
+        var dif;
+        if(numcorrect < 37){
+          dif = "easy"
+        } else {
+          dif = "tough"
+        }
+        array.push(String(ques[1]))
+        for(i=0; i < (qno - 1); i++){
+          tmp = randomans(array, dif);
+          array.push(tmp);
+        }
+        console.log("getquestion " + String(ques[1]) + " " + String(array))
+        return([ques[0], array]);
+      };
+
       function getquestion(){
         type = randomqtype()
+        if(type=="name"){
+          return(getquestion3())
+        }
         if(type=="where"){
           return(getquestion2())
-        } else {
+        }
+        else {
           return(getquestion1())
         }
       }
@@ -392,11 +445,24 @@ description: "Test your knowledge of language families! Learn something new!"
         }
         if(type=="what"){
           document.getElementById("question").innerHTML = "What <u>family</u> does the " + lan + " belong to?";
-        } else {
+        }
+        if(type=="where") {
           if(language.includes("language")){
             document.getElementById("question").innerHTML = "The " + lan + " is spoken in which of the following <u>countries</u>?";
           } else {
             document.getElementById("question").innerHTML = "The " + lan + " language is spoken in which of the following <u>countries</u>?";
+          }
+        }
+        if(type=="name"){
+          if(Array.isArray(language)){
+            console.log("Endonym works!")
+            var endonyms = ""
+            for(i=0;i<language.length;i++){
+              endonyms.concat(language[i],"<br>")
+            }
+            document.getElementById("question").innerHTML = "What language is shown in the <u>text</u> below?<br><br>" + endonyms
+          } else {
+            nextquestion()
           }
         }
         for(i=1;i<num+1;i++){
@@ -416,8 +482,13 @@ description: "Test your knowledge of language families! Learn something new!"
 
       function replacetext(){
         var q = getquestion();
-        language = q[0];
-        prevq.push(language);
+        if(type=="what" || type=="where"){
+          language = q[0];
+          prevq.push(language);
+        } else {
+          language = q[1][0];
+          prevq.push(language);
+        }
         correct = q[1][0];
         answers = randompos(q[1], qarray, q[1].length);
       };
