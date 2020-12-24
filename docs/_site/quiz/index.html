@@ -1,68 +1,439 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-<!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Silly quiz game in order to learn JavaScript. | hasteinmetz.github.io</title>
+<html>
+<meta content="width=device-width, initial-scale=1" name="viewport" />
+<head>
+  <link rel="stylesheet" href="Contents/defaultstyle.css">
+  <!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Language Family Quiz | hasteinmetz.github.io</title>
 <meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="Silly quiz game in order to learn JavaScript." />
+<meta property="og:title" content="Language Family Quiz" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Hi there! I’m Hillel Steinmetz, and I’m University of Chicago graduate with experience in psychology and linguistics research and a deep love of learning." />
-<meta property="og:description" content="Hi there! I’m Hillel Steinmetz, and I’m University of Chicago graduate with experience in psychology and linguistics research and a deep love of learning." />
+<meta name="description" content="Test your knowledge of language families! Learn something new!" />
+<meta property="og:description" content="Test your knowledge of language families! Learn something new!" />
 <link rel="canonical" href="http://localhost:4000/quiz/" />
 <meta property="og:url" content="http://localhost:4000/quiz/" />
 <meta property="og:site_name" content="hasteinmetz.github.io" />
 <script type="application/ld+json">
-{"url":"http://localhost:4000/quiz/","headline":"Silly quiz game in order to learn JavaScript.","description":"Hi there! I’m Hillel Steinmetz, and I’m University of Chicago graduate with experience in psychology and linguistics research and a deep love of learning.","@type":"WebPage","@context":"https://schema.org"}</script>
+{"url":"http://localhost:4000/quiz/","headline":"Language Family Quiz","description":"Test your knowledge of language families! Learn something new!","@type":"WebPage","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
-    <link rel="stylesheet" href="/assets/css/style.css?v=b40ad148d9570077c04cf6ec07d47d81b8020cee">
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-      
-      <h1><a href="http://localhost:4000/">hasteinmetz.github.io</a></h1>
-      
-
-      <h1 id="silly-quiz-game-in-order-to-learn-javascript">Silly quiz game in order to learn JavaScript.</h1>
-
-<p>Country information (countries.txt) taken from <a href="https://github.com/iancoleman/cia_world_factbook_api">Ian Coleman’s CIA World Factbook API</a>.</p>
-
-<p>Language JSON obtained by scraping Wikipedia’s entry on languages. The creation of this JSON file is licensed under <a href="https://en.wikipedia.org/wiki/Wikipedia:Copyrights">Wikipedia’s Copyrights</a>.</p>
-
-<p>The scraper is written in Python. Please feel free to use the code… but it could probably be a bit more optimized…</p>
-
-<h1 id="license">License</h1>
-
-<p>The MIT License (MIT)
-Copyright (c) 2020 Hillel Steinmetz</p>
-
-<p>Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the “Software”), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:</p>
-
-<p>The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.</p>
-
-<p>THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.</p>
-
-
-      
+</head>
+<body onload="load();">
+  <div class="title">
+    <h1>Language Family Quiz (Very Early Version)</h1>
+  </div>
+  <div class="modal">
+    <div class="modal-content">
+      <div class="center">
+        <p class="m" id="feedback"></p><br>
+        <p class="m" id="moreinfo"><a href="#" target="_blank">Wikipedia</a></p><br>
+        <button class="continue">>></button>
+      </div>
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-    
-  </body>
+  </div>
+  <div class="cover" id="cover">
+    <p class="center" style=""></p>
+  </div>
+    <div class="center">
+      <p id="demo"></p>
+      <p class="center" id='question'>?
+      </p>
+      <br><br>
+      <button type="submit" class="submit" id="q.1"></button>
+      <br>
+      <button type="submit" class="submit" id="q.2"></button>
+      <br>
+      <button type="submit" class="submit" id="q.3"></button>
+      <br>
+      <button type="submit" class="submit" id="q.4"></button>
+      <br>
+      <button type="submit" class="submit" id="q.5"></button>
+      <br><br><br>
+      <p class="center" id='difficulty'></p>
+      <br>
+      <p class="center" id='lives'></p>
+      <br>
+      <p class="center" id='score'></p>
+      <br>
+      <p class="center" id='hscore'></p>
+    </div>
+  <script src="Contents/languages1.js"></script>
+  <script>
+  //to do:
+  // fix Tongan
+
+  console.log("No. languages: ", Object.keys(languages).length)
+  const idifficulty = ["easy", "medium", "hard", "very hard", "super hard", "whizkid"];
+  var difficulty = ["easy", "medium", "hard", "very hard", "super hard", "whizkid"];
+  var sensible = ["easy", "medium", "hard"];
+  var tough = ["hard", "very hard", "super hard", "whizkid"];
+  const validlangs = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]))
+  const sensiblelangs = filterlanguages(validlangs, "difficulty", (a) => sensible.includes(a["difficulty"]))
+  console.log("No. valid languages: ", Object.keys(validlangs).length)
+  console.log("No. sensible languages: ", Object.keys(sensiblelangs).length)
+
+    function randomno(n){
+      var num = Math.floor(Math.random() * n);
+      return num;
+    }
+
+    function removeelem(arr, e){
+      for(i= 0; i < arr.length; i++){
+        if (arr[i] === e) {
+            var arr1 = arr.slice(0,i);
+            var arr2 = arr.slice(i+1,arr.length);
+            return(arr1.concat(arr2));
+        }
+      }
+    return(arr);
+    }
+
+    function removelang(str){
+      string = split(str);
+      result = [];
+      var resstring = ""
+      for(i=0;i<string.length;i++){
+        tmp = string[i];
+        tmp.toLowerCase();
+        if(tmp!="language"&tmp!="languages"){
+          result.push(tmp);
+        }
+      }
+      for(j=0;j<result.length;j++){
+        resstring = resstring + result[j]
+      }
+      return(resstring)
+    }
+
+    function filterlanguages(obj, prop, predicate) {
+      var keys = Object.keys(obj);
+      var newobj = {};
+      for (key in keys){
+        lang = keys[key]
+        var tmp = obj[lang]
+        if(prop in tmp && predicate(tmp)){
+          newobj[lang] = tmp;
+        }
+      }
+      return(newobj)
+    }
+
+    // reference to page variables
+    var moreinfo;
+    var ref;
+
+    function randomq(){
+      var difficultyarr = difficultyallowed(numcorrect)
+      var languagesnew = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
+      console.log("filtered: ", languagesnew)
+      var keys = Object.keys(languagesnew)
+      console.log("filtered by: ", difficultyallowed(), " no. languages:", keys.length)
+      var language = keys[randomno(keys.length)];
+      console.log("lang = ", language)
+      var languagefam = languages[language]["mainfam"];
+      moreinfo = languages[language]["link"];
+      console.log("link = ", moreinfo)
+      if(languagefam=="Austroasiatic\n\nCentral Mon-KhmerKhmer"){
+        languagefam="Austroasiatic"
+      }
+      if(languagefam != "NA" && languagefam != "cant" && !prevq.includes(language)){
+        if(difficultyarr.includes(languages[language]["difficulty"])){
+          return([language, languagefam]);
+        } else {
+          return(randomq());
+        }
+      }
+      else {
+        return(randomq());
+      }
+    };
+
+    function exceptions(fam){
+      if(fam=="NA" || fam.toLowerCase()=="unclassified" ||
+      fam.toLowerCase()=="N" || fam.length < 4){
+        return(0);
+      } else {
+        return(1);
+      }
+    }
+
+    var indoeur = ["Slavic", "Baltic", "Romance", "Germanic", "Indo-Aryan", "Iranian", "Celtic"]
+    var ncongo = ["Bantu"]
+    var afroa = ["Semitic"]
+
+    function famexcept(lang, fam){
+      if((fam=="Indo-European" || fam=="Indo\u2013European" || fam.includes("uropean")) && indoeur.includes(lang)){
+        return(1);
+      }
+      if((fam=="Niger\u2013Congo" || fam.includes("ongo")) && ncongo.includes(lang)){
+        return(1);
+      }
+      if((fam=="Afro-Asiatic" || fam.includes("fro")) && afroa.includes(lang)){
+        return(1);
+      }
+      return(0);
+    }
+
+    function randomans(array, d){
+      if(d=="easy"){
+        var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+      } else {
+        var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+      }
+      console.log("filtered: ", l1)
+      var keys = Object.keys(l1);
+      var ran_key = randomno(keys.length);
+      var ran_lang = String(keys[ran_key]);
+      var tmp = l1[ran_lang]["mainfam"];
+      var famex = famexcept(tmp, array[0])
+      console.log("Family Except:" + famex + " " + tmp + array[0])
+      if(array.includes(tmp) || exceptions(tmp)==0 || famex==1){
+        return randomans(array);
+      }
+      var di = l1[ran_lang]["difficulty"];
+      if(!sensible.includes(di)){
+        return randomans(array);
+      }
+      console.log("tmp", tmp)
+      if(tmp.toLowerCase()=="language isolate"){
+        tmp = "Language Isolate";
+      }
+      console.log("randomans1: " + String(tmp))
+      return tmp
+    };
+
+    function subarray(array, start, finish){
+      var tmp = array;
+      return tmp.slice(start, finish);
+    }
+
+    function randomqtype(){
+      var ran_key = randomno(2);
+      var questiontypes = ["where", "what"]
+      return(questiontypes[ran_key]);
+    };
+
+    function makearray(num){
+      array = []
+      for(i = 1;i < num+1; i++){
+        array.push(i);
+      }
+      return(array)
+    };
+
+    function diffhelp(){
+      j = 1
+      for(i=0;i<amount.length;i++){
+        if(numcorrect > amount[i]){
+          j++;
+        }
+      }
+      return(j)
+    }
+
+    function difficultyallowed(){
+      j = diffhelp()
+      m = Math.max(0, j-2)
+      var tmp = difficulty
+      return(tmp.slice(m,j));
+    }
+
+    function determinescore(){
+      j = diffhelp()
+      return(100 * j)
+    }
+
+    var amount = [5, 20, 30, 50, 75, 100];
+
+    var prevq = [];
+
+    var numcorrect = 0;
+
+    var lives = 3;
+
+    var score = 0;
+
+    var highscore = 0;
+
+    var qno = 5;
+
+    var qarray = makearray(qno);
+
+    function randompos(init, ref){
+      if(ref.length>0){
+        position = randomno(ref.length);
+        pos = init[position];
+        newref = removeelem(ref, ref[position]);
+        newinit = removeelem(init, pos);
+        array1 = [pos];
+        if(ref.length===1) {
+          return(array1)
+        } else {
+          return (array1.concat(randompos(newinit, newref)));
+        }
+      }
+    }
+
+    function getquestion(){
+      var array = []
+      var ques = randomq()
+      var dif;
+      if(numcorrect < 37){
+        dif = "easy"
+      } else {
+        dif = "tough"
+      }
+      array.push(String(ques[1]))
+      for(i=0; i < (qno - 1); i++){
+        tmp = randomans(array, dif);
+        array.push(tmp);
+      }
+      console.log("getquestion " + String(ques[0]) + " " + String(array))
+      return([ques[0], array]);
+    };
+
+    function setqtext(num, answers, language){
+      document.getElementById("question").innerHTML = "What family does the " + language + " belong to?";
+      for(i=1;i<num+1;i++){
+        string = "q." + String(i);
+        j = i - 1;
+        console.log(string)
+        document.getElementById(string).textContent = answers[j];
+      }
+    };
+
+    var language;
+    var correct;
+    var answers;
+    var feedback;
+    var mod = document.getElementsByClassName("modal")[0];
+
+    function replacetext(){
+      var q = getquestion();
+      language = q[0];
+      prevq.push(language);
+      correct = q[1][0];
+      answers = randompos(q[1], qarray, q[1].length);
+    };
+    // need interactive elements (click, check correct, etc.)
+
+    function getscore(){
+      document.getElementById("score").innerHTML = "Score: " + String(score)
+      document.getElementById("lives").innerHTML = "Lives: " + String(lives)
+      document.getElementById("hscore").innerHTML = "High Score: " + String(highscore)
+    };
+
+    function load(){
+      lives = 3;
+      score = 0;
+      qno = 5;
+      document.getElementsByClassName("continue")[0].textContent = ">>"
+      replacetext();
+      setqtext(qno, answers, language)
+      getscore();
+      var x = document.getElementById("cover");
+      x.style.display="none"
+    }
+
+    // don't listen to keyboard presses
+    addEventListener("keydown", function(event) {
+      if (mod.classList.contains('show') && lives==0) {
+        togglemodal();
+        numcorrect = 0;
+        load();
+        return;
+      }
+      else if (mod.classList.contains('show')) {
+        togglemodal();
+        return;
+      }
+      else {
+        return;
+      }
+    });
+    addEventListener("keyup", function(event) {
+      return;
+    });
+
+    // Click events
+    window.onclick = function(event) {
+      if (event.target.matches('button.submit')) {
+        ref = "Read more about " + language + " on <a href=" + moreinfo + " target=\"_blank\">Wikipedia</a>";
+        if(lives>0){
+          if(event.target.textContent == correct){
+            addition = determinescore()
+            score = score + addition;
+            numcorrect += 1;
+            feedback = "Correct! Nice job :) <br>Current score: " + score
+            removeblur(qno);
+            togglemodal();
+            nextquestion();
+          } else {
+            lives -= 1;
+            if(lives>0){
+              feedback = "Incorrect... Better luck on the next one! <br>Current score: " + score + "<br>The correct answer is: " + correct
+              removeblur(qno);
+              togglemodal();
+              nextquestion();
+            }
+            else{
+              document.getElementById("lives").innerHTML = "Lives: " + String(lives)
+              document.getElementsByClassName("continue")[0].textContent = "Play Again?"
+              feedback = "The correct answer is: " + correct + "<br>All out of lives :( <br>You scored: " + String(score)
+              if(score > highscore){
+                highscore = score;
+                document.getElementById("hscore").innerHTML = "High Score: " + String(lives)
+              }
+              removeblur(qno);
+              togglemodal();
+            }
+          }
+        }
+      }
+      if (mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)) {
+        removeblur(qno);
+        togglemodal();
+        numcorrect = 0;
+        load();
+      }
+      else if (mod.classList.contains('show') && (event.target.matches('.continue') || event.target == mod)) {
+        removeblur(qno);
+        togglemodal();
+      }
+    };
+
+    function togglemodal(){
+      console.log("modal activated")
+      var f = document.getElementById("feedback")
+      var l = document.getElementById("moreinfo")
+      f.innerHTML = feedback;
+      l.innerHTML = ref;
+      mod.classList.toggle("show");
+      removeblur(qno);
+    }
+
+    function nextquestion(){
+      var x = document.getElementById("cover");
+      x.style.display="block";
+      replacetext();
+      setqtext(qno, answers, language)
+      getscore();
+      x.style.display="none";
+    }
+
+    function removeblur(num){
+      for(i=1;i<num+1;i++){
+        string = "q." + String(i);
+        j = i - 1;
+        document.getElementById(string).blur();
+      }
+    }
+
+    // prevent issue with Tongan lol
+  </script>
+  <noscript>
+    <META HTTP-EQUIV="Refresh" CONTENT="0;URL=../error.html">
+    Uh oh! Your browser either doesn't support JavaScript or has JavaScript disabled.
+    My site might not be accessible to you.
+  </noscript>
+</body>
 </html>

@@ -1,0 +1,2643 @@
+{
+    "Canada": {
+        "languages": [
+            "Chinese", 
+            "Dutch", 
+            "English", 
+            "Eskimo Languages", 
+            "French", 
+            "German", 
+            "Italian", 
+            "Polish", 
+            "Portuguese", 
+            "Punjabi", 
+            "Spanish", 
+            "Ukrainian"
+        ], 
+        "region": "North America", 
+        "continent": "North America", 
+        "population": 37057765
+    }, 
+    "East Timor": {
+        "languages": [
+            "Portuguese", 
+            "Sunda"
+        ], 
+        "region": "Southeast Asia", 
+        "continent": "Asia", 
+        "population": 1267972
+    }, 
+    "Sao Tome and Principe": {
+        "languages": [
+            "Crioulo", 
+            "French"
+        ], 
+        "region": "Central Africa", 
+        "continent": "Africa", 
+        "population": 211028
+    }, 
+    "Turkmenistan": {
+        "languages": [
+            "Kazakh", 
+            "Russian", 
+            "Turkmenian", 
+            "Uzbek"
+        ], 
+        "region": "Southern and Central Asia", 
+        "continent": "Asia", 
+        "population": 5850908
+    }, 
+    "Saint Helena": {
+        "languages": [
+            "English"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 6600
+    }, 
+    "Monaco": {
+        "languages": [
+            "English", 
+            "French", 
+            "Italian", 
+            "Monegasque"
+        ], 
+        "region": "Western Europe", 
+        "continent": "Europe", 
+        "population": 38682
+    }, 
+    "Lithuania": {
+        "languages": [
+            "Belorussian", 
+            "Lithuanian", 
+            "Polish", 
+            "Russian", 
+            "Ukrainian"
+        ], 
+        "region": "Baltic Countries", 
+        "continent": "Europe", 
+        "population": 2801543
+    }, 
+    "Cambodia": {
+        "languages": [
+            "Chinese", 
+            "Khmer", 
+            "T\u00ac\u00f6am", 
+            "Vietnamese"
+        ], 
+        "region": "Southeast Asia", 
+        "continent": "Asia", 
+        "population": 16249798
+    }, 
+    "Ethiopia": {
+        "languages": [
+            "Amharic", 
+            "Gurage", 
+            "Oromo", 
+            "Sidamo", 
+            "Somali", 
+            "Tigrigna", 
+            "Walaita"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 109224559
+    }, 
+    "Aruba": {
+        "languages": [
+            "Dutch", 
+            "English", 
+            "Papiamento", 
+            "Spanish"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 105845
+    }, 
+    "Swaziland": {
+        "languages": [
+            "Swazi", 
+            "Zulu"
+        ], 
+        "region": "Southern Africa", 
+        "continent": "Africa", 
+        "population": 1136191
+    }, 
+    "Wallis and Futuna": {
+        "languages": [
+            "Futuna", 
+            "Wallis"
+        ], 
+        "region": "Polynesia", 
+        "continent": "Oceania", 
+        "population": 15289
+    }, 
+    "Palestine": {
+        "languages": [
+            "Arabic", 
+            "Hebrew"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 4569087
+    }, 
+    "Argentina": {
+        "languages": [
+            "Indian Languages", 
+            "Italian", 
+            "Spanish"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 44494502
+    }, 
+    "Bolivia": {
+        "languages": [
+            "Aimar\u221a\u00b0", 
+            "Guaran\u221a\u2260", 
+            "Ket\u00ac\u00f6ua", 
+            "Spanish"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 11353142
+    }, 
+    "Cameroon": {
+        "languages": [
+            "Bamileke-bamum", 
+            "Duala", 
+            "Fang", 
+            "Ful", 
+            "Maka", 
+            "Mandara", 
+            "Masana", 
+            "Tikar"
+        ], 
+        "region": "Central Africa", 
+        "continent": "Africa", 
+        "population": 25216237
+    }, 
+    "Burkina Faso": {
+        "languages": [
+            "Busansi", 
+            "Dagara", 
+            "Dyula", 
+            "Ful", 
+            "Gurma", 
+            "Mossi"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 19751535
+    }, 
+    "Ghana": {
+        "languages": [
+            "Akan", 
+            "Ewe", 
+            "Ga-adangme", 
+            "Gurma", 
+            "Joruba", 
+            "Mossi"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 29767108
+    }, 
+    "Saudi Arabia": {
+        "languages": [
+            "Arabic"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 33699947
+    }, 
+    "Rwanda": {
+        "languages": [
+            "French", 
+            "Rwanda"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 12301939
+    }, 
+    "Togo": {
+        "languages": [
+            "Ane", 
+            "Ewe", 
+            "Gurma", 
+            "Kaby\u221a\u00a9", 
+            "Kotokoli", 
+            "Moba", 
+            "Naudemba", 
+            "Watyi"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 7889094
+    }, 
+    "Cape Verde": {
+        "languages": [
+            "Crioulo", 
+            "Portuguese"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 543767
+    }, 
+    "United States Minor Outlying Islands": {
+        "languages": [
+            "English"
+        ], 
+        "region": "Micronesia/Caribbean", 
+        "continent": "Oceania", 
+        "population": 300
+    }, 
+    "Cocos (Keeling) Islands": {
+        "languages": [
+            "English", 
+            "Malay"
+        ], 
+        "region": "Australia and New Zealand", 
+        "continent": "Oceania", 
+        "population": 596
+    }, 
+    "Pitcairn": {
+        "languages": [
+            "Pitcairnese"
+        ], 
+        "region": "Polynesia", 
+        "continent": "Oceania", 
+        "population": 67
+    }, 
+    "Guatemala": {
+        "languages": [
+            "Cakchiquel", 
+            "Kekch\u221a\u2260", 
+            "Mam", 
+            "Quich\u221a\u00a9", 
+            "Spanish"
+        ], 
+        "region": "Central America", 
+        "continent": "North America", 
+        "population": 17247807
+    }, 
+    "Zimbabwe": {
+        "languages": [
+            "English", 
+            "Ndebele", 
+            "Nyanja", 
+            "Shona"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 14439018
+    }, 
+    "Bosnia and Herzegovina": {
+        "languages": [
+            "Bosnian"
+        ], 
+        "region": "Southern Europe", 
+        "continent": "Europe", 
+        "population": 3323929
+    }, 
+    "Kuwait": {
+        "languages": [
+            "Arabic", 
+            "English"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 4137309
+    }, 
+    "Jordan": {
+        "languages": [
+            "Arabic", 
+            "Armenian", 
+            "Circassian"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 9956011
+    }, 
+    "Virgin Islands, British": {
+        "languages": [
+            "English"
+        ], 
+        "region": null, 
+        "continent": "North America", 
+        "population": 29802
+    }, 
+    "Dominica": {
+        "languages": [
+            "Creole English", 
+            "Creole French"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 71625
+    }, 
+    "Liberia": {
+        "languages": [
+            "Bassa", 
+            "Gio", 
+            "Grebo", 
+            "Kpelle", 
+            "Kru", 
+            "Loma", 
+            "Malinke", 
+            "Mano"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 4818977
+    }, 
+    "Maldives": {
+        "languages": [
+            "Dhivehi", 
+            "English"
+        ], 
+        "region": "Southern and Central Asia", 
+        "continent": "Asia", 
+        "population": 515696
+    }, 
+    "Jamaica": {
+        "languages": [
+            "Creole English", 
+            "Hindi"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 2934855
+    }, 
+    "Oman": {
+        "languages": [
+            "Arabic", 
+            "Balochi"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 4829483
+    }, 
+    "Tanzania": {
+        "languages": [
+            "Chaga and Pare", 
+            "Gogo", 
+            "Ha", 
+            "Haya", 
+            "Hehet", 
+            "Luguru", 
+            "Makonde", 
+            "Nyakusa", 
+            "Nyamwesi", 
+            "Shambala", 
+            "Swahili"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 56318348
+    }, 
+    "North Macedonia": {
+        "languages": "NA", 
+        "region": "Southern Europe", 
+        "continent": "Europe", 
+        "population": 2084367
+    }, 
+    "Ivory Coast": {
+        "languages": [
+            "Akan", 
+            "Gur", 
+            "Kru", 
+            "Malinke", 
+            "[South]Mande"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 25069229
+    }, 
+    "Greenland": {
+        "languages": [
+            "Danish", 
+            "Greenlandic"
+        ], 
+        "region": "North America", 
+        "continent": "North America", 
+        "population": 56025
+    }, 
+    "French Guiana": {
+        "languages": [
+            "Creole French", 
+            "Indian Languages"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 290691
+    }, 
+    "Niue": {
+        "languages": [
+            "English", 
+            "Niue"
+        ], 
+        "region": "Polynesia", 
+        "continent": "Oceania", 
+        "population": 1624
+    }, 
+    "Finland": {
+        "languages": [
+            "Estonian", 
+            "Finnish", 
+            "Russian", 
+            "Saame", 
+            "Swedish"
+        ], 
+        "region": "Nordic Countries", 
+        "continent": "Europe", 
+        "population": 5515525
+    }, 
+    "Vatican": {
+        "languages": "NA", 
+        "region": "Southern Europe", 
+        "continent": "NA", 
+        "population": 825
+    }, 
+    "Samoa": {
+        "languages": [
+            "English", 
+            "Samoan", 
+            "Samoan-English"
+        ], 
+        "region": "Polynesia", 
+        "continent": "Oceania", 
+        "population": 196130
+    }, 
+    "New Zealand": {
+        "languages": [
+            "English", 
+            "Maori"
+        ], 
+        "region": "Australia and New Zealand", 
+        "continent": "Oceania", 
+        "population": 4841000
+    }, 
+    "Virgin Islands, U.S.": {
+        "languages": [
+            "English", 
+            "French", 
+            "Spanish"
+        ], 
+        "region": null, 
+        "continent": "North America", 
+        "population": 106977
+    }, 
+    "Denmark": {
+        "languages": [
+            "Arabic", 
+            "Danish", 
+            "English", 
+            "German", 
+            "Norwegian", 
+            "Swedish", 
+            "Turkish"
+        ], 
+        "region": "Nordic Countries", 
+        "continent": "Europe", 
+        "population": 5793636
+    }, 
+    "Pakistan": {
+        "languages": [
+            "Balochi", 
+            "Brahui", 
+            "Hindko", 
+            "Pashto", 
+            "Punjabi", 
+            "Saraiki", 
+            "Sindhi", 
+            "Urdu"
+        ], 
+        "region": "Southern and Central Asia", 
+        "continent": "Asia", 
+        "population": 212215030
+    }, 
+    "Yemen": {
+        "languages": [
+            "Arabic", 
+            "Soqutri"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 28498687
+    }, 
+    "Albania": {
+        "languages": [
+            "Albaniana", 
+            "Greek", 
+            "Macedonian"
+        ], 
+        "region": "Southern Europe", 
+        "continent": "Europe", 
+        "population": 2866376
+    }, 
+    "England": {
+        "languages": "NA", 
+        "region": null, 
+        "continent": "Europe", 
+        "population": 55619400
+    }, 
+    "Norfolk Island": {
+        "languages": [
+            "English"
+        ], 
+        "region": "Australia and New Zealand", 
+        "continent": "Oceania", 
+        "population": 2169
+    }, 
+    "United Arab Emirates": {
+        "languages": [
+            "Arabic", 
+            "Hindi"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 9630959
+    }, 
+    "Guam": {
+        "languages": [
+            "Chamorro", 
+            "English", 
+            "Japanese", 
+            "Korean", 
+            "Philippene Languages"
+        ], 
+        "region": "Micronesia", 
+        "continent": "Oceania", 
+        "population": 165768
+    }, 
+    "India": {
+        "languages": [
+            "Asami", 
+            "Bengali", 
+            "Gujarati", 
+            "Hindi", 
+            "Kannada", 
+            "Malayalam", 
+            "Marathi", 
+            "Odia", 
+            "Punjabi", 
+            "Tamil", 
+            "Telugu", 
+            "Urdu", 
+            "Sanskrit", 
+            "English", 
+            "Konkani", 
+            "Nepali", 
+            "Bodo", 
+            "Kashmiri", 
+            "Maithili", 
+            "Santali", 
+            "Sindhi"
+        ], 
+        "region": "Southern and Central Asia", 
+        "continent": "Asia", 
+        "population": 1352617328
+    }, 
+    "Azerbaijan": {
+        "languages": [
+            "Armenian", 
+            "Azerbaijani", 
+            "Lezgian", 
+            "Russian"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 9939800
+    }, 
+    "Lesotho": {
+        "languages": [
+            "English", 
+            "Sotho", 
+            "Zulu"
+        ], 
+        "region": "Southern Africa", 
+        "continent": "Africa", 
+        "population": 2108132
+    }, 
+    "Saint Vincent and the Grenadines": {
+        "languages": [
+            "Creole English", 
+            "English"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 110210
+    }, 
+    "Kenya": {
+        "languages": [
+            "Gusii", 
+            "Kalenjin", 
+            "Kamba", 
+            "Kikuyu", 
+            "Luhya", 
+            "Luo", 
+            "Masai", 
+            "Meru", 
+            "Nyika", 
+            "Turkana"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 51393010
+    }, 
+    "South Korea": {
+        "languages": [
+            "Chinese", 
+            "Korean"
+        ], 
+        "region": "Eastern Asia", 
+        "continent": "Asia", 
+        "population": 51606633
+    }, 
+    "Macao": {
+        "languages": [
+            "Canton Chinese", 
+            "English", 
+            "Mandarin Chinese", 
+            "Portuguese"
+        ], 
+        "region": "Eastern Asia", 
+        "continent": "Asia", 
+        "population": 631636
+    }, 
+    "Turkey": {
+        "languages": [
+            "Arabic", 
+            "Kurdish", 
+            "Turkish"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 82319724
+    }, 
+    "Falkland Islands": {
+        "languages": [
+            "English"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 2840
+    }, 
+    "Czech Republic": {
+        "languages": [
+            "Czech", 
+            "German", 
+            "Hungarian", 
+            "Moravian", 
+            "Polish", 
+            "Romani", 
+            "Silesiana", 
+            "Slovak"
+        ], 
+        "region": "Eastern Europe", 
+        "continent": "Europe", 
+        "population": 10629928
+    }, 
+    "Mauritania": {
+        "languages": [
+            "Ful", 
+            "Hassaniya", 
+            "Soninke", 
+            "Tukulor", 
+            "Wolof", 
+            "Zenaga"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 4403319
+    }, 
+    "Solomon Islands": {
+        "languages": [
+            "Malenasian Languages", 
+            "Papuan Languages", 
+            "Polynesian Languages"
+        ], 
+        "region": "Melanesia", 
+        "continent": "Oceania", 
+        "population": 652858
+    }, 
+    "Turks and Caicos Islands": {
+        "languages": [
+            "English"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 37665
+    }, 
+    "Saint Lucia": {
+        "languages": [
+            "Creole French", 
+            "English"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 181889
+    }, 
+    "San Marino": {
+        "languages": [
+            "Italian"
+        ], 
+        "region": "Southern Europe", 
+        "continent": "Europe", 
+        "population": 33785
+    }, 
+    "French Polynesia": {
+        "languages": [
+            "Chinese", 
+            "French", 
+            "Tahitian"
+        ], 
+        "region": "Polynesia", 
+        "continent": "Oceania", 
+        "population": 277679
+    }, 
+    "France": {
+        "languages": [
+            "Arabic", 
+            "French", 
+            "Italian", 
+            "Portuguese", 
+            "Spanish", 
+            "Turkish"
+        ], 
+        "region": "Western Europe", 
+        "continent": "Europe", 
+        "population": 66977107
+    }, 
+    "Bermuda": {
+        "languages": [
+            "English"
+        ], 
+        "region": "North America", 
+        "continent": "North America", 
+        "population": 63973
+    }, 
+    "Slovakia": {
+        "languages": [
+            "Czech and Moravian", 
+            "Hungarian", 
+            "Romani", 
+            "Slovak", 
+            "Ukrainian and Russian"
+        ], 
+        "region": "Eastern Europe", 
+        "continent": "Europe", 
+        "population": 5446771
+    }, 
+    "Somalia": {
+        "languages": [
+            "Arabic", 
+            "Somali"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 15008154
+    }, 
+    "Peru": {
+        "languages": [
+            "Aimar\u221a\u00b0", 
+            "Ket\u00ac\u00f6ua", 
+            "Spanish"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 31989256
+    }, 
+    "Laos": {
+        "languages": [
+            "Lao", 
+            "Lao-Soung", 
+            "Mon-khmer", 
+            "Thai"
+        ], 
+        "region": "Southeast Asia", 
+        "continent": "Asia", 
+        "population": 7061507
+    }, 
+    "Nauru": {
+        "languages": [
+            "Chinese", 
+            "English", 
+            "Kiribati", 
+            "Nauru", 
+            "Tuvalu"
+        ], 
+        "region": "Micronesia", 
+        "continent": "Oceania", 
+        "population": 12704
+    }, 
+    "Seychelles": {
+        "languages": [
+            "English", 
+            "French", 
+            "Seselwa"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 96762
+    }, 
+    "Norway": {
+        "languages": [
+            "Danish", 
+            "English", 
+            "Norwegian", 
+            "Saame", 
+            "Swedish"
+        ], 
+        "region": "Nordic Countries", 
+        "continent": "Europe", 
+        "population": 5311916
+    }, 
+    "Malawi": {
+        "languages": [
+            "Chichewa", 
+            "Lomwe", 
+            "Ngoni", 
+            "Yao"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 18143315
+    }, 
+    "Cook Islands": {
+        "languages": [
+            "English", 
+            "Maori"
+        ], 
+        "region": "Polynesia", 
+        "continent": "Oceania", 
+        "population": 17379
+    }, 
+    "Benin": {
+        "languages": [
+            "Adja", 
+            "Aizo", 
+            "Bariba", 
+            "Fon", 
+            "Ful", 
+            "Joruba", 
+            "Somba"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 11485048
+    }, 
+    "Western Sahara": {
+        "languages": [
+            "Arabic"
+        ], 
+        "region": "Northern Africa", 
+        "continent": "Africa", 
+        "population": 652271
+    }, 
+    "Cuba": {
+        "languages": [
+            "Spanish"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 11338138
+    }, 
+    "Montenegro": {
+        "languages": "NA", 
+        "region": "Central and Southeast Europe", 
+        "continent": "Europe", 
+        "population": 631219
+    }, 
+    "Saint Kitts and Nevis": {
+        "languages": [
+            "Creole English", 
+            "English"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 52441
+    }, 
+    "British Indian Ocean Territory": {
+        "languages": "NA", 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 0
+    }, 
+    "China": {
+        "languages": [
+            "Chinese", 
+            "Dong", 
+            "Hui", 
+            "Mant\u00ac\u00f6u", 
+            "Miao", 
+            "Mongolian", 
+            "Puyi", 
+            "Tibetan", 
+            "Tujia", 
+            "Uighur", 
+            "Yi", 
+            "Zhuang"
+        ], 
+        "region": "Eastern Asia", 
+        "continent": "Asia", 
+        "population": 1392730000
+    }, 
+    "Armenia": {
+        "languages": [
+            "Armenian", 
+            "Azerbaijani"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 2951776
+    }, 
+    "Dominican Republic": {
+        "languages": [
+            "Creole French", 
+            "Spanish"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 10627165
+    }, 
+    "Mongolia": {
+        "languages": [
+            "Bajad", 
+            "Buryat", 
+            "Dariganga", 
+            "Dorbet", 
+            "Kazakh", 
+            "Mongolian"
+        ], 
+        "region": "Eastern Asia", 
+        "continent": "Asia", 
+        "population": 3170208
+    }, 
+    "Ukraine": {
+        "languages": [
+            "Belorussian", 
+            "Bulgariana", 
+            "Hungarian", 
+            "Polish", 
+            "Romanian", 
+            "Russian", 
+            "Ukrainian"
+        ], 
+        "region": "Eastern Europe", 
+        "continent": "Europe", 
+        "population": 44622516
+    }, 
+    "Bahrain": {
+        "languages": [
+            "Arabic", 
+            "English"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 1569439
+    }, 
+    "Tonga": {
+        "languages": [
+            "English", 
+            "Tongan"
+        ], 
+        "region": "Polynesia", 
+        "continent": "Oceania", 
+        "population": 103197
+    }, 
+    "Cayman Islands": {
+        "languages": [
+            "English"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 64174
+    }, 
+    "Libya": {
+        "languages": "NA", 
+        "region": "Northern Africa", 
+        "continent": "NA", 
+        "population": 6678567
+    }, 
+    "Indonesia": {
+        "languages": [
+            "Bahasa", 
+            "Bali", 
+            "Banja", 
+            "Batakki", 
+            "Bugi", 
+            "Javanese", 
+            "Madura", 
+            "Malay", 
+            "Minangkabau", 
+            "Sunda"
+        ], 
+        "region": "Southeast Asia", 
+        "continent": "Asia", 
+        "population": 267663435
+    }, 
+    "Central African Republic": {
+        "languages": [
+            "Banda", 
+            "Gbaya", 
+            "Mandjia", 
+            "Mbum", 
+            "Ngbaka", 
+            "Sara"
+        ], 
+        "region": "Central Africa", 
+        "continent": "Africa", 
+        "population": 4666377
+    }, 
+    "Mauritius": {
+        "languages": [
+            "Bhojpuri", 
+            "Creole French", 
+            "French", 
+            "Hindi", 
+            "Marathi", 
+            "Tamil"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 1265303
+    }, 
+    "Tajikistan": {
+        "languages": [
+            "Russian", 
+            "Tadzhik", 
+            "Uzbek"
+        ], 
+        "region": "Southern and Central Asia", 
+        "continent": "Asia", 
+        "population": 9100837
+    }, 
+    "Liechtenstein": {
+        "languages": [
+            "German", 
+            "Italian", 
+            "Turkish"
+        ], 
+        "region": "Western Europe", 
+        "continent": "Europe", 
+        "population": 37910
+    }, 
+    "Australia": {
+        "languages": [
+            "Arabic", 
+            "Canton Chinese", 
+            "English", 
+            "German", 
+            "Greek", 
+            "Italian", 
+            "Serbo-Croatian", 
+            "Vietnamese"
+        ], 
+        "region": "Australia and New Zealand", 
+        "continent": "Oceania", 
+        "population": 24982688
+    }, 
+    "Mali": {
+        "languages": [
+            "Bambara", 
+            "Ful", 
+            "Senufo and Minianka", 
+            "Songhai", 
+            "Soninke", 
+            "Tamashek"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 19077690
+    }, 
+    "Russia": {
+        "languages": "NA", 
+        "region": "NA", 
+        "continent": "NA", 
+        "population": 144478050
+    }, 
+    "Bulgaria": {
+        "languages": [
+            "Bulgariana", 
+            "Macedonian", 
+            "Romani", 
+            "Turkish"
+        ], 
+        "region": "Eastern Europe", 
+        "continent": "Europe", 
+        "population": 7025037
+    }, 
+    "United States": {
+        "languages": [
+            "Chinese", 
+            "English", 
+            "French", 
+            "German", 
+            "Italian", 
+            "Japanese", 
+            "Korean", 
+            "Polish", 
+            "Portuguese", 
+            "Spanish", 
+            "Tagalog", 
+            "Vietnamese"
+        ], 
+        "region": "North America", 
+        "continent": "North America", 
+        "population": 326687501
+    }, 
+    "Romania": {
+        "languages": [
+            "German", 
+            "Hungarian", 
+            "Romani", 
+            "Romanian", 
+            "Serbo-Croatian", 
+            "Ukrainian"
+        ], 
+        "region": "Eastern Europe", 
+        "continent": "Europe", 
+        "population": 19466145
+    }, 
+    "Angola": {
+        "languages": [
+            "Ambo", 
+            "Chokwe", 
+            "Kongo", 
+            "Luchazi", 
+            "Luimbe-nganguela", 
+            "Luvale", 
+            "Mbundu", 
+            "Nyaneka-nkhumbi", 
+            "Ovimbundu"
+        ], 
+        "region": "Central Africa", 
+        "continent": "Africa", 
+        "population": 30809762
+    }, 
+    "Chad": {
+        "languages": [
+            "Arabic", 
+            "Gorane", 
+            "Hadjarai", 
+            "Kanem-bornu", 
+            "Mayo-kebbi", 
+            "Ouaddai", 
+            "Sara", 
+            "Tandjile"
+        ], 
+        "region": "Central Africa", 
+        "continent": "Africa", 
+        "population": 15477751
+    }, 
+    "South Africa": {
+        "languages": [
+            "Afrikaans", 
+            "English", 
+            "Ndebele", 
+            "Northsotho", 
+            "Southsotho", 
+            "Swazi", 
+            "Tsonga", 
+            "Tswana", 
+            "Venda", 
+            "Xhosa", 
+            "Zulu"
+        ], 
+        "region": "Southern Africa", 
+        "continent": "Africa", 
+        "population": 57779622
+    }, 
+    "Tokelau": {
+        "languages": [
+            "English", 
+            "Tokelau"
+        ], 
+        "region": "Polynesia", 
+        "continent": "Oceania", 
+        "population": 1411
+    }, 
+    "Cyprus": {
+        "languages": [
+            "Greek", 
+            "Turkish"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 1189265
+    }, 
+    "South Georgia and the South Sandwich Islands": {
+        "languages": "NA", 
+        "region": "Antarctica", 
+        "continent": "Antarctica", 
+        "population": 30
+    }, 
+    "Sweden": {
+        "languages": [
+            "Arabic", 
+            "Finnish", 
+            "Norwegian", 
+            "Southern Slavic Languages", 
+            "Spanish", 
+            "Swedish"
+        ], 
+        "region": "Nordic Countries", 
+        "continent": "Europe", 
+        "population": 10175214
+    }, 
+    "Qatar": {
+        "languages": [
+            "Arabic", 
+            "Urdu"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 2781677
+    }, 
+    "Malaysia": {
+        "languages": [
+            "Chinese", 
+            "Dusun", 
+            "English", 
+            "Iban", 
+            "Malay", 
+            "Tamil"
+        ], 
+        "region": "Southeast Asia", 
+        "continent": "Asia", 
+        "population": 31528585
+    }, 
+    "Austria": {
+        "languages": [
+            "Czech", 
+            "German", 
+            "Hungarian", 
+            "Polish", 
+            "Romanian", 
+            "Serbo-Croatian", 
+            "Slovene", 
+            "Turkish"
+        ], 
+        "region": "Western Europe", 
+        "continent": "Europe", 
+        "population": 8840521
+    }, 
+    "Vietnam": {
+        "languages": [
+            "Chinese", 
+            "Khmer", 
+            "Man", 
+            "Miao", 
+            "Muong", 
+            "Nung", 
+            "Thai", 
+            "Tho", 
+            "Vietnamese"
+        ], 
+        "region": "Southeast Asia", 
+        "continent": "Asia", 
+        "population": 95540395
+    }, 
+    "Mozambique": {
+        "languages": [
+            "Chuabo", 
+            "Lomwe", 
+            "Makua", 
+            "Marendje", 
+            "Nyanja", 
+            "Ronga", 
+            "Sena", 
+            "Shona", 
+            "Tsonga", 
+            "Tswa"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 29495962
+    }, 
+    "Uganda": {
+        "languages": [
+            "Acholi", 
+            "Ganda", 
+            "Gisu", 
+            "Kiga", 
+            "Lango", 
+            "Lugbara", 
+            "Nkole", 
+            "Rwanda", 
+            "Soga", 
+            "Teso"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 42723139
+    }, 
+    "Japan": {
+        "languages": [
+            "Ainu", 
+            "Chinese", 
+            "English", 
+            "Japanese", 
+            "Korean", 
+            "Philippene Languages"
+        ], 
+        "region": "Eastern Asia", 
+        "continent": "Asia", 
+        "population": 126529100
+    }, 
+    "Niger": {
+        "languages": [
+            "Ful", 
+            "Hausa", 
+            "Kanuri", 
+            "Songhai-zerma", 
+            "Tamashek"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 22442948
+    }, 
+    "Wales": {
+        "languages": "NA", 
+        "region": null, 
+        "continent": "Europe", 
+        "population": 3139000
+    }, 
+    "Brazil": {
+        "languages": [
+            "German", 
+            "Indian Languages", 
+            "Italian", 
+            "Japanese", 
+            "Portuguese"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 209469333
+    }, 
+    "Afghanistan": {
+        "languages": [
+            "Balochi", 
+            "Dari", 
+            "Pashto", 
+            "Turkmenian", 
+            "Uzbek"
+        ], 
+        "region": "Southern and Central Asia", 
+        "continent": "Asia", 
+        "population": 37172386
+    }, 
+    "Faroe Islands": {
+        "languages": [
+            "Danish", 
+            "Faroese"
+        ], 
+        "region": "Nordic Countries", 
+        "continent": "Europe", 
+        "population": 48497
+    }, 
+    "Guinea": {
+        "languages": [
+            "Ful", 
+            "Kissi", 
+            "Kpelle", 
+            "Loma", 
+            "Malinke", 
+            "Susu", 
+            "Yalunka"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 12414318
+    }, 
+    "Panama": {
+        "languages": [
+            "Arabic", 
+            "Creole English", 
+            "Cuna", 
+            "Embera", 
+            "Guaym\u221a\u2260", 
+            "Spanish"
+        ], 
+        "region": "Central America", 
+        "continent": "North America", 
+        "population": 4176873
+    }, 
+    "Guyana": {
+        "languages": [
+            "Arawakan", 
+            "Caribbean", 
+            "Creole English"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 779004
+    }, 
+    "Scotland": {
+        "languages": "NA", 
+        "region": null, 
+        "continent": "Europe", 
+        "population": 5424800
+    }, 
+    "Costa Rica": {
+        "languages": [
+            "Chibcha", 
+            "Chinese", 
+            "Creole English", 
+            "Spanish"
+        ], 
+        "region": "Central America", 
+        "continent": "North America", 
+        "population": 4999441
+    }, 
+    "Luxembourg": {
+        "languages": [
+            "French", 
+            "German", 
+            "Italian", 
+            "Luxembourgish", 
+            "Portuguese"
+        ], 
+        "region": "Western Europe", 
+        "continent": "Europe", 
+        "population": 607950
+    }, 
+    "American Samoa": {
+        "languages": [
+            "English", 
+            "Samoan", 
+            "Tongan"
+        ], 
+        "region": "Polynesia", 
+        "continent": "Oceania", 
+        "population": 55465
+    }, 
+    "Bahamas": {
+        "languages": [
+            "Creole English", 
+            "Creole French"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 385640
+    }, 
+    "Gibraltar": {
+        "languages": [
+            "Arabic", 
+            "English"
+        ], 
+        "region": "Southern Europe", 
+        "continent": "Europe", 
+        "population": 33718
+    }, 
+    "Ireland": {
+        "languages": [
+            "English", 
+            "Irish"
+        ], 
+        "region": "British Isles", 
+        "continent": "Europe", 
+        "population": 4867309
+    }, 
+    "Italy": {
+        "languages": [
+            "Albaniana", 
+            "French", 
+            "Friuli", 
+            "German", 
+            "Italian", 
+            "Romani", 
+            "Sardinian", 
+            "Slovene"
+        ], 
+        "region": "Southern Europe", 
+        "continent": "Europe", 
+        "population": 60421760
+    }, 
+    "Nigeria": {
+        "languages": [
+            "Bura", 
+            "Edo", 
+            "Ful", 
+            "Hausa", 
+            "Ibibio", 
+            "Ibo", 
+            "Ijo", 
+            "Joruba", 
+            "Kanuri", 
+            "Tiv"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 195874740
+    }, 
+    "Ecuador": {
+        "languages": [
+            "Ket\u00ac\u00f6ua", 
+            "Spanish"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 17084357
+    }, 
+    "Bangladesh": {
+        "languages": [
+            "Bengali", 
+            "Chakma", 
+            "Garo", 
+            "Khasi", 
+            "Marma", 
+            "Santhali", 
+            "Tripuri"
+        ], 
+        "region": "Southern and Central Asia", 
+        "continent": "Asia", 
+        "population": 161356039
+    }, 
+    "Brunei": {
+        "languages": [
+            "Chinese", 
+            "English", 
+            "Malay", 
+            "Malay-English"
+        ], 
+        "region": "Southeast Asia", 
+        "continent": "Asia", 
+        "population": 428962
+    }, 
+    "Belarus": {
+        "languages": [
+            "Belorussian", 
+            "Polish", 
+            "Russian", 
+            "Ukrainian"
+        ], 
+        "region": "Eastern Europe", 
+        "continent": "Europe", 
+        "population": 9483499
+    }, 
+    "Iran": {
+        "languages": [
+            "Arabic", 
+            "Azerbaijani", 
+            "Bakhtyari", 
+            "Balochi", 
+            "Gilaki", 
+            "Kurdish", 
+            "Luri", 
+            "Mazandarani", 
+            "Persian", 
+            "Turkmenian"
+        ], 
+        "region": "Southern and Central Asia", 
+        "continent": "Asia", 
+        "population": 81800269
+    }, 
+    "Algeria": {
+        "languages": [
+            "Arabic", 
+            "Berberi"
+        ], 
+        "region": "Northern Africa", 
+        "continent": "Africa", 
+        "population": 42228429
+    }, 
+    "Slovenia": {
+        "languages": [
+            "Hungarian", 
+            "Serbo-Croatian", 
+            "Slovene"
+        ], 
+        "region": "Southern Europe", 
+        "continent": "Europe", 
+        "population": 2073894
+    }, 
+    "El Salvador": {
+        "languages": [
+            "Nahua", 
+            "Spanish"
+        ], 
+        "region": "Central America", 
+        "continent": "North America", 
+        "population": 6420744
+    }, 
+    "Tuvalu": {
+        "languages": [
+            "English", 
+            "Kiribati", 
+            "Tuvalu"
+        ], 
+        "region": "Polynesia", 
+        "continent": "Oceania", 
+        "population": 11508
+    }, 
+    "SriLanka": {
+        "languages": "NA", 
+        "region": null, 
+        "continent": "NA", 
+        "population": 21670000
+    }, 
+    "Saint Pierre and Miquelon": {
+        "languages": [
+            "French"
+        ], 
+        "region": "North America", 
+        "continent": "North America", 
+        "population": 5888
+    }, 
+    "Marshall Islands": {
+        "languages": [
+            "English", 
+            "Marshallese"
+        ], 
+        "region": "Micronesia", 
+        "continent": "Oceania", 
+        "population": 58413
+    }, 
+    "Chile": {
+        "languages": [
+            "Aimar\u221a\u00b0", 
+            "Araucan", 
+            "Rapa nui", 
+            "Spanish"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 18729160
+    }, 
+    "Puerto Rico": {
+        "languages": [
+            "English", 
+            "Spanish"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 3195153
+    }, 
+    "Belgium": {
+        "languages": [
+            "Arabic", 
+            "Dutch", 
+            "French", 
+            "German", 
+            "Italian", 
+            "Turkish"
+        ], 
+        "region": "Western Europe", 
+        "continent": "Europe", 
+        "population": 11433256
+    }, 
+    "Kiribati": {
+        "languages": [
+            "Kiribati", 
+            "Tuvalu"
+        ], 
+        "region": "Micronesia", 
+        "continent": "Oceania", 
+        "population": 115847
+    }, 
+    "Haiti": {
+        "languages": [
+            "French", 
+            "Haiti Creole"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 11123176
+    }, 
+    "Belize": {
+        "languages": [
+            "English", 
+            "Garifuna", 
+            "Maya Languages", 
+            "Spanish"
+        ], 
+        "region": "Central America", 
+        "continent": "North America", 
+        "population": 383071
+    }, 
+    "Hong Kong": {
+        "languages": [
+            "Canton Chinese", 
+            "Chiu chau", 
+            "English", 
+            "Fukien", 
+            "Hakka"
+        ], 
+        "region": "Eastern Asia", 
+        "continent": "Asia", 
+        "population": 7451000
+    }, 
+    "Sierra Leone": {
+        "languages": [
+            "Bullom-sherbro", 
+            "Ful", 
+            "Kono-vai", 
+            "Kuranko", 
+            "Limba", 
+            "Mende", 
+            "Temne", 
+            "Yalunka"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 7650154
+    }, 
+    "Georgia": {
+        "languages": [
+            "Abhyasi", 
+            "Armenian", 
+            "Azerbaijani", 
+            "Georgiana", 
+            "Osseetti", 
+            "Russian"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 3726549
+    }, 
+    "Gambia": {
+        "languages": [
+            "Diola", 
+            "Ful", 
+            "Malinke", 
+            "Soninke", 
+            "Wolof"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 2280102
+    }, 
+    "Philippines": {
+        "languages": [
+            "Bicol", 
+            "Cebuano", 
+            "Hiligaynon", 
+            "Ilocano", 
+            "Maguindanao", 
+            "Maranao", 
+            "Pampango", 
+            "Pangasinan", 
+            "Pilipino", 
+            "Waray-waray"
+        ], 
+        "region": "Southeast Asia", 
+        "continent": "Asia", 
+        "population": 106651922
+    }, 
+    "The Democratic Republic of Congo": {
+        "languages": "NA", 
+        "region": null, 
+        "continent": "Africa", 
+        "population": 84068091
+    }, 
+    "Moldova": {
+        "languages": [
+            "Bulgariana", 
+            "Gagauzi", 
+            "Romanian", 
+            "Russian", 
+            "Ukrainian"
+        ], 
+        "region": "Eastern Europe", 
+        "continent": "Europe", 
+        "population": 2706049
+    }, 
+    "Morocco": {
+        "languages": [
+            "Arabic", 
+            "Berberi"
+        ], 
+        "region": "Northern Africa", 
+        "continent": "Africa", 
+        "population": 36029138
+    }, 
+    "Croatia": {
+        "languages": [
+            "Serbo-Croatian", 
+            "Slovene"
+        ], 
+        "region": "Southern Europe", 
+        "continent": "Europe", 
+        "population": 4087843
+    }, 
+    "Micronesia": {
+        "languages": "NA", 
+        "region": "Micronesia", 
+        "continent": "NA", 
+        "population": 112640
+    }, 
+    "Guinea-Bissau": {
+        "languages": [
+            "Balante", 
+            "Crioulo", 
+            "Ful", 
+            "Malinke", 
+            "Mandyako", 
+            "Portuguese"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 1874309
+    }, 
+    "Thailand": {
+        "languages": [
+            "Chinese", 
+            "Khmer", 
+            "Kuy", 
+            "Lao", 
+            "Malay", 
+            "Thai"
+        ], 
+        "region": "Southeast Asia", 
+        "continent": "Asia", 
+        "population": 69428524
+    }, 
+    "Switzerland": {
+        "languages": [
+            "French", 
+            "German", 
+            "Italian", 
+            "Romansh"
+        ], 
+        "region": "Western Europe", 
+        "continent": "Europe", 
+        "population": 8513227
+    }, 
+    "Grenada": {
+        "languages": [
+            "Creole English"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 111454
+    }, 
+    "Iraq": {
+        "languages": [
+            "Arabic", 
+            "Assyrian", 
+            "Azerbaijani", 
+            "Kurdish", 
+            "Persian"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 38433600
+    }, 
+    "Portugal": {
+        "languages": [
+            "Portuguese"
+        ], 
+        "region": "Southern Europe", 
+        "continent": "Europe", 
+        "population": 10283822
+    }, 
+    "Estonia": {
+        "languages": [
+            "Belorussian", 
+            "Estonian", 
+            "Finnish", 
+            "Russian", 
+            "Ukrainian"
+        ], 
+        "region": "Baltic Countries", 
+        "continent": "Europe", 
+        "population": 1321977
+    }, 
+    "Uruguay": {
+        "languages": [
+            "Spanish"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 3449299
+    }, 
+    "Equatorial Guinea": {
+        "languages": [
+            "Bubi", 
+            "Fang"
+        ], 
+        "region": "Central Africa", 
+        "continent": "Africa", 
+        "population": 1308974
+    }, 
+    "Lebanon": {
+        "languages": [
+            "Arabic", 
+            "Armenian", 
+            "French"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 6848925
+    }, 
+    "Svalbard and Jan Mayen": {
+        "languages": [
+            "Norwegian", 
+            "Russian"
+        ], 
+        "region": "Nordic Countries", 
+        "continent": "Europe", 
+        "population": 2572
+    }, 
+    "Uzbekistan": {
+        "languages": [
+            "Karakalpak", 
+            "Kazakh", 
+            "Russian", 
+            "Tadzhik", 
+            "Tatar", 
+            "Uzbek"
+        ], 
+        "region": "Southern and Central Asia", 
+        "continent": "Asia", 
+        "population": 32955400
+    }, 
+    "Tunisia": {
+        "languages": [
+            "Arabic", 
+            "Arabic-French", 
+            "Arabic-French-English"
+        ], 
+        "region": "Northern Africa", 
+        "continent": "Africa", 
+        "population": 11565204
+    }, 
+    "Djibouti": {
+        "languages": [
+            "Afar", 
+            "Arabic", 
+            "Somali"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 958920
+    }, 
+    "Heard Island and McDonald Islands": {
+        "languages": "NA", 
+        "region": "Antarctica", 
+        "continent": "Antarctica", 
+        "population": 0
+    }, 
+    "Antigua and Barbuda": {
+        "languages": [
+            "Creole English", 
+            "English"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 96286
+    }, 
+    "Spain": {
+        "languages": [
+            "Basque", 
+            "Catalan", 
+            "Galecian", 
+            "Spanish"
+        ], 
+        "region": "Southern Europe", 
+        "continent": "Europe", 
+        "population": 46796540
+    }, 
+    "Colombia": {
+        "languages": [
+            "Arawakan", 
+            "Caribbean", 
+            "Chibcha", 
+            "Creole English", 
+            "Spanish"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 49648685
+    }, 
+    "Reunion": {
+        "languages": [
+            "Chinese", 
+            "Comorian", 
+            "Creole French", 
+            "Malagasy", 
+            "Tamil"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 859959
+    }, 
+    "Burundi": {
+        "languages": [
+            "French", 
+            "Kirundi", 
+            "Swahili"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 11175378
+    }, 
+    "Nicaragua": {
+        "languages": [
+            "Creole English", 
+            "Miskito", 
+            "Spanish", 
+            "Sumo"
+        ], 
+        "region": "Central America", 
+        "continent": "North America", 
+        "population": 6465513
+    }, 
+    "Barbados": {
+        "languages": [
+            "Bajan", 
+            "English"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 286641
+    }, 
+    "Madagascar": {
+        "languages": [
+            "French", 
+            "Malagasy"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 26262368
+    }, 
+    "Palau": {
+        "languages": [
+            "Chinese", 
+            "English", 
+            "Palau", 
+            "Philippene Languages"
+        ], 
+        "region": "Micronesia", 
+        "continent": "Oceania", 
+        "population": 17907
+    }, 
+    "Bhutan": {
+        "languages": [
+            "Asami", 
+            "Dzongkha", 
+            "Nepali"
+        ], 
+        "region": "Southern and Central Asia", 
+        "continent": "Asia", 
+        "population": 754394
+    }, 
+    "Sudan": {
+        "languages": [
+            "Arabic", 
+            "Bari", 
+            "Beja", 
+            "Chilluk", 
+            "Dinka", 
+            "Fur", 
+            "Lotuko", 
+            "Nubian Languages", 
+            "Nuer", 
+            "Zande"
+        ], 
+        "region": "Northern Africa", 
+        "continent": "Africa", 
+        "population": 41801533
+    }, 
+    "Fiji Islands": {
+        "languages": [
+            "Fijian", 
+            "Hindi"
+        ], 
+        "region": "Melanesia", 
+        "continent": "Oceania", 
+        "population": 883483
+    }, 
+    "Nepal": {
+        "languages": [
+            "Bhojpuri", 
+            "Hindi", 
+            "Maithili", 
+            "Nepali", 
+            "Newari", 
+            "Tamang", 
+            "Tharu"
+        ], 
+        "region": "Southern and Central Asia", 
+        "continent": "Asia", 
+        "population": 28087871
+    }, 
+    "Malta": {
+        "languages": [
+            "English", 
+            "Maltese"
+        ], 
+        "region": "Southern Europe", 
+        "continent": "Europe", 
+        "population": 484630
+    }, 
+    "Netherlands": {
+        "languages": [
+            "Arabic", 
+            "Dutch", 
+            "Fries", 
+            "Turkish"
+        ], 
+        "region": "Western Europe", 
+        "continent": "Europe", 
+        "population": 17231624
+    }, 
+    "Northern Mariana Islands": {
+        "languages": [
+            "Carolinian", 
+            "Chamorro", 
+            "Chinese", 
+            "English", 
+            "Korean", 
+            "Philippene Languages"
+        ], 
+        "region": "Micronesia", 
+        "continent": "Oceania", 
+        "population": 56882
+    }, 
+    "Suriname": {
+        "languages": [
+            "Hindi", 
+            "Sranantonga"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 575991
+    }, 
+    "Anguilla": {
+        "languages": [
+            "English"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 15094
+    }, 
+    "Venezuela": {
+        "languages": [
+            "Goajiro", 
+            "Spanish", 
+            "Warrau"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 28870195
+    }, 
+    "Netherlands Antilles": {
+        "languages": [
+            "Dutch", 
+            "English", 
+            "Papiamento"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 227049
+    }, 
+    "Israel": {
+        "languages": [
+            "Arabic", 
+            "Hebrew", 
+            "Russian"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 8882800
+    }, 
+    "Bouvet Island": {
+        "languages": "NA", 
+        "region": "Antarctica", 
+        "continent": "Antarctica", 
+        "population": 0
+    }, 
+    "Iceland": {
+        "languages": [
+            "English", 
+            "Icelandic"
+        ], 
+        "region": "Nordic Countries", 
+        "continent": "Europe", 
+        "population": 352721
+    }, 
+    "Zambia": {
+        "languages": [
+            "Bemba", 
+            "Chewa", 
+            "Lozi", 
+            "Nsenga", 
+            "Nyanja", 
+            "Tongan"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 17351822
+    }, 
+    "Senegal": {
+        "languages": [
+            "Diola", 
+            "Ful", 
+            "Malinke", 
+            "Serer", 
+            "Soninke", 
+            "Wolof"
+        ], 
+        "region": "Western Africa", 
+        "continent": "Africa", 
+        "population": 15854360
+    }, 
+    "Papua New Guinea": {
+        "languages": [
+            "Malenasian Languages", 
+            "Papuan Languages"
+        ], 
+        "region": "Melanesia", 
+        "continent": "Oceania", 
+        "population": 8606316
+    }, 
+    "Gabon": {
+        "languages": [
+            "Fang", 
+            "Mbete", 
+            "Mpongwe", 
+            "Punu-sira-nzebi"
+        ], 
+        "region": "Central Africa", 
+        "continent": "Africa", 
+        "population": 2119275
+    }, 
+    "Congo": {
+        "languages": [
+            "Kongo", 
+            "Mbete", 
+            "Mboshi", 
+            "Punu", 
+            "Sango", 
+            "Teke"
+        ], 
+        "region": "Central Africa", 
+        "continent": "Africa", 
+        "population": 5244363
+    }, 
+    "Germany": {
+        "languages": [
+            "German", 
+            "Greek", 
+            "Italian", 
+            "Polish", 
+            "Southern Slavic Languages", 
+            "Turkish"
+        ], 
+        "region": "Western Europe", 
+        "continent": "Europe", 
+        "population": 82905782
+    }, 
+    "Vanuatu": {
+        "languages": [
+            "Bislama", 
+            "English", 
+            "French"
+        ], 
+        "region": "Melanesia", 
+        "continent": "Oceania", 
+        "population": 292680
+    }, 
+    "Martinique": {
+        "languages": [
+            "Creole French", 
+            "French"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 376480
+    }, 
+    "Kazakhstan": {
+        "languages": [
+            "German", 
+            "Kazakh", 
+            "Russian", 
+            "Tatar", 
+            "Ukrainian", 
+            "Uzbek"
+        ], 
+        "region": "Southern and Central Asia", 
+        "continent": "Asia", 
+        "population": 18272430
+    }, 
+    "Poland": {
+        "languages": [
+            "Belorussian", 
+            "German", 
+            "Polish", 
+            "Ukrainian"
+        ], 
+        "region": "Eastern Europe", 
+        "continent": "Europe", 
+        "population": 37974750
+    }, 
+    "Eritrea": {
+        "languages": [
+            "Afar", 
+            "Bilin", 
+            "Hadareb", 
+            "Saho", 
+            "Tigre", 
+            "Tigrigna"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 3213972
+    }, 
+    "Kyrgyzstan": {
+        "languages": [
+            "Kazakh", 
+            "Kirgiz", 
+            "Russian", 
+            "Tadzhik", 
+            "Tatar", 
+            "Ukrainian", 
+            "Uzbek"
+        ], 
+        "region": "Southern and Central Asia", 
+        "continent": "Asia", 
+        "population": 6322800
+    }, 
+    "French Southern territories": {
+        "languages": "NA", 
+        "region": "Antarctica", 
+        "continent": "Antarctica", 
+        "population": 0
+    }, 
+    "Greece": {
+        "languages": [
+            "Greek", 
+            "Turkish"
+        ], 
+        "region": "Southern Europe", 
+        "continent": "Europe", 
+        "population": 10731726
+    }, 
+    "Mayotte": {
+        "languages": [
+            "French", 
+            "Mahor\u221a\u00a9", 
+            "Malagasy"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 270372
+    }, 
+    "Montserrat": {
+        "languages": [
+            "English"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 5900
+    }, 
+    "New Caledonia": {
+        "languages": [
+            "French", 
+            "Malenasian Languages", 
+            "Polynesian Languages"
+        ], 
+        "region": "Melanesia", 
+        "continent": "Oceania", 
+        "population": 284060
+    }, 
+    "Andorra": {
+        "languages": [
+            "Catalan", 
+            "French", 
+            "Portuguese", 
+            "Spanish"
+        ], 
+        "region": "Southern Europe", 
+        "continent": "Europe", 
+        "population": 77006
+    }, 
+    "North Korea": {
+        "languages": [
+            "Chinese", 
+            "Korean"
+        ], 
+        "region": "Eastern Asia", 
+        "continent": "Asia", 
+        "population": 25549819
+    }, 
+    "Trinidad and Tobago": {
+        "languages": [
+            "Creole English", 
+            "English", 
+            "Hindi"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 1389858
+    }, 
+    "Latvia": {
+        "languages": [
+            "Belorussian", 
+            "Latvian", 
+            "Lithuanian", 
+            "Polish", 
+            "Russian", 
+            "Ukrainian"
+        ], 
+        "region": "Baltic Countries", 
+        "continent": "Europe", 
+        "population": 1927174
+    }, 
+    "South Sudan": {
+        "languages": "NA", 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 10975920
+    }, 
+    "Hungary": {
+        "languages": [
+            "German", 
+            "Hungarian", 
+            "Romani", 
+            "Romanian", 
+            "Serbo-Croatian", 
+            "Slovak"
+        ], 
+        "region": "Eastern Europe", 
+        "continent": "Europe", 
+        "population": 9775564
+    }, 
+    "Syria": {
+        "languages": [
+            "Arabic", 
+            "Kurdish"
+        ], 
+        "region": "Middle East", 
+        "continent": "Asia", 
+        "population": 16906283
+    }, 
+    "Guadeloupe": {
+        "languages": [
+            "Creole French", 
+            "French"
+        ], 
+        "region": "Caribbean", 
+        "continent": "North America", 
+        "population": 395700
+    }, 
+    "Honduras": {
+        "languages": [
+            "Creole English", 
+            "Garifuna", 
+            "Miskito", 
+            "Spanish"
+        ], 
+        "region": "Central America", 
+        "continent": "North America", 
+        "population": 9587522
+    }, 
+    "Myanmar": {
+        "languages": [
+            "Burmese", 
+            "Chin", 
+            "Kachin", 
+            "Karen", 
+            "Kayah", 
+            "Mon", 
+            "Rakhine", 
+            "Shan"
+        ], 
+        "region": "Southeast Asia", 
+        "continent": "Asia", 
+        "population": 53708395
+    }, 
+    "Mexico": {
+        "languages": [
+            "Mixtec", 
+            "N\u221a\u00b0huatl", 
+            "Otom\u221a\u2260", 
+            "Spanish", 
+            "Yucatec", 
+            "Zapotec"
+        ], 
+        "region": "Central America", 
+        "continent": "North America", 
+        "population": 126190788
+    }, 
+    "Egypt": {
+        "languages": [
+            "Arabic", 
+            "Sinaberberi"
+        ], 
+        "region": "Northern Africa", 
+        "continent": "Africa", 
+        "population": 98423595
+    }, 
+    "Singapore": {
+        "languages": [
+            "Chinese", 
+            "Malay", 
+            "Tamil"
+        ], 
+        "region": "Southeast Asia", 
+        "continent": "Asia", 
+        "population": 5638676
+    }, 
+    "Serbia": {
+        "languages": [
+            "Serbian", 
+            "Hungarian", 
+            "Slovak", 
+            "Romanian", 
+            "Croatian", 
+            "Rusyn", 
+            "Albanian", 
+            "Bulgarian", 
+            "English"
+        ], 
+        "region": "Central and Southeast Europe", 
+        "continent": "Europe", 
+        "population": 6963764
+    }, 
+    "Comoros": {
+        "languages": [
+            "Comorian", 
+            "Comorian-Arabic", 
+            "Comorian-French", 
+            "Comorian-madagassi", 
+            "Comorian-Swahili"
+        ], 
+        "region": "Eastern Africa", 
+        "continent": "Africa", 
+        "population": 832322
+    }, 
+    "United Kingdom": {
+        "languages": [
+            "English", 
+            "Gaeli", 
+            "Kymri"
+        ], 
+        "region": "British Isles", 
+        "continent": "Europe", 
+        "population": 66460344
+    }, 
+    "Antarctica": {
+        "languages": "NA", 
+        "region": "Antarctica", 
+        "continent": "Antarctica", 
+        "population": 1106
+    }, 
+    "Christmas Island": {
+        "languages": [
+            "Chinese", 
+            "English"
+        ], 
+        "region": "Australia and New Zealand", 
+        "continent": "Oceania", 
+        "population": 1402
+    }, 
+    "Northern Ireland": {
+        "languages": "NA", 
+        "region": null, 
+        "continent": "Europe", 
+        "population": 1885400
+    }, 
+    "Paraguay": {
+        "languages": [
+            "German", 
+            "Guaran\u221a\u2260", 
+            "Portuguese", 
+            "Spanish"
+        ], 
+        "region": "South America", 
+        "continent": "South America", 
+        "population": 6956071
+    }, 
+    "Namibia": {
+        "languages": [
+            "Afrikaans", 
+            "Caprivi", 
+            "German", 
+            "Herero", 
+            "Kavango", 
+            "Nama", 
+            "Ovambo", 
+            "San"
+        ], 
+        "region": "Southern Africa", 
+        "continent": "Africa", 
+        "population": 2448255
+    }, 
+    "Botswana": {
+        "languages": [
+            "Khoekhoe", 
+            "Ndebele", 
+            "San", 
+            "Shona", 
+            "Tswana"
+        ], 
+        "region": "Southern Africa", 
+        "continent": "Africa", 
+        "population": 2254126
+    }
+}

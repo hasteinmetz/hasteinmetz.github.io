@@ -2,6 +2,8 @@
 
 Country information (countries.txt) taken from [Ian Coleman's CIA World Factbook API](https://github.com/iancoleman/cia_world_factbook_api).
 
+Additional country and language data from [samayo's country JSON](https://github.com/samayo/country-json).
+
 Language JSON obtained by scraping Wikipedia's entry on languages. The creation of this JSON file is licensed under [Wikipedia's Copyrights](https://en.wikipedia.org/wiki/Wikipedia:Copyrights).
 
 The scraper is written in Python. Please feel free to use the code... but it could probably be a bit more optimized...
