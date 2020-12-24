@@ -305,7 +305,7 @@ description: "Test your knowledge of language families! Learn something new!"
 
       function randomqtype(){
         var ran_key = randomno(2);
-        var questiontypes = ["where", "what"]
+        var questiontypes = ["where", "what", "name"]
         return(questiontypes[ran_key]);
       };
 
@@ -437,27 +437,50 @@ description: "Test your knowledge of language families! Learn something new!"
         }
       }
 
+      function makeplural(str, key){
+        if(key=="sg"){
+          return(str)
+        } else {
+          var newstr
+          strprime = str.replace(" does ", " do ")
+          newstr = strprime.replace(" is ", " are ")
+          return(newstr)
+        }
+      }
+
+      function islangthere(la){
+        if(language.includes("language")){
+          return(la)
+        } else {
+          newla = la.concat(" language")
+          return(newla)
+        }
+      }
+
       function setqtext(num, answers, language){
         if(language.includes("languages")){
-          lan = language.slice(0, language.length - 1)
+          var plur = "pl"
         } else {
-          lan = language
+          var plur = "sg"
         }
         if(type=="what"){
-          document.getElementById("question").innerHTML = "What <u>family</u> does the " + lan + " belong to?";
+          lan = islangthere(language)
+          desiredstr = "What <u>family</u> does the " + lan + " belong to?"
+          stri = makeplural(desiredstr, plur)
+          document.getElementById("question").innerHTML = stri;
         }
         if(type=="where") {
-          if(language.includes("language")){
-            document.getElementById("question").innerHTML = "The " + lan + " is spoken in which of the following <u>countries</u>?";
-          } else {
-            document.getElementById("question").innerHTML = "The " + lan + " language is spoken in which of the following <u>countries</u>?";
-          }
+          lan = islangthere(language)
+          desiredstr = "The " + lan + " is spoken in which of the following <u>countries</u>?";
+          stri = makeplural(desiredstr, plur)
+          document.getElementById("question").innerHTML = stri;
         }
         if(type=="name"){
           if(Array.isArray(language)){
             console.log("Endonym works!")
             var endonyms = ""
-            for(i=0;i<language.length;i++){
+            mx = Math.min(language.length, 3)
+            for(i=0;i<mx;i++){
               endonyms.concat(language[i],"<br>")
             }
             document.getElementById("question").innerHTML = "What language is shown in the <u>text</u> below?<br><br>" + endonyms
