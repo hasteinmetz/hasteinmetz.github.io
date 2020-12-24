@@ -128,7 +128,7 @@ description: "Test your knowledge of language families! Learn something new!"
 
       function filt_cust(predicate){
         var difficultyarr = difficultyallowed(numcorrect)
-        var languagesnew = filterlanguages(l1, "vplaces", predicate);
+        var languagesnew = filterlanguages(languages, "vplaces", predicate);
         console.log("filtered: ", languagesnew)
         var keys = Object.keys(languagesnew)
         console.log("filtered by: ", difficultyallowed(), " no. languages:", keys.length)
