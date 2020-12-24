@@ -30,7 +30,6 @@ def parsesimplejson(json, key):
     return(array)
 
 # help from: https://www.geeksforgeeks.org/python-program-for-quicksort/
-# need to include difficulty calculation
 def quicksort_by_dict(array, dict, euro, value):
     high = len(array) - 1
     if high > 0 and isinstance(array, list):
@@ -94,7 +93,7 @@ def vspeak(speakers):
                 langs = [l1, l2]
                 for l in range(0, m):
                     if checkf(langs[l])=="yes":
-                        arr.append(r[l] + ": " + str(langs[l]) + " million")
+                        arr.append(r[l] + ": " + langs[l].encode("utf8") + " million")
                 v = arr
             else:
                 l = filtered[indices[0]-1]
@@ -160,23 +159,43 @@ def scrape(wikipg, countries, dict):
     difficulty = "NA"
     link = "NA"
     off = "NA"
+    endonyms = "NA"
+    endo = []
+    italics = []
     countrydict = countries["3"]
     cia = countries["1"]
     sam = countries["2"]
+    repl = [" ", "\n", "or", ","]
+    stop = "no"
+    rowno = 0
     try:
         wpage = requests.get(url=wikipg)
         wiki = BeautifulSoup(wpage.content, "html.parser")
-        title = wiki.find(id='firstHeading').text.encode("UTF-8")
+        title = wiki.find(id='firstHeading').text
         table = wiki.find("table", {"class":"infobox vevent"})
         wiki = None # to save memory
     except:
-        print("Could not Request")
+        print("Could not request page: " + wikipg)
         return
     if not(table is None):
         for row in table.find_all("tr"):
+            rowno += 1
+            if rowno > 3:
+                stop = "yes"
+            if stop != "yes" and endonyms == "NA":
+                spans = row.find_all("span")
+                if spans:
+                    for s in spans:
+                        if s.has_attr("lang"):
+                            endo.append(s.text.encode("utf8"))
+                italics = row.find_all("i")
+                for it in range(0, len(italics)):
+                    italics[it] = italics[it].text.encode("utf8")
+                if endo or italics:
+                    endonyms = italics + endo
             if "Native" in row.text:
                 if "Native speakers" in row.text:
-                    speakers = row.text[15:len(row.text)].encode("UTF-8")
+                    speakers = row.text[15:len(row.text)]
                     if speakers is None:
                         continue
                     else:
@@ -210,9 +229,9 @@ def scrape(wikipg, countries, dict):
                 row2 = row.find("td")
                 macrofam = row2.find("div").find("a", href=True)
                 if macrofam is None:
-                    languagefam.append(row2.text.encode("UTF-8"))
+                    languagefam.append(row2.text)
                 else:
-                    languagefam.append(macrofam.string)
+                    languagefam.append(macrofam.text)
                 tree = row2.find("ul")
                 if not(tree is None):
                     trynewthings = tree.find_all(text=True)
@@ -233,9 +252,7 @@ def scrape(wikipg, countries, dict):
             else:
                 euro="F"
             vplaces = quicksort_by_dict(vplaces, countrydict, euro, 'population')
-        e1 = {"speakers": speakers, "vspeakers": vspeakers, "places":places, "vplaces":vplaces, "family":languagefam, "link":wikipg, "official":off}
-        if e1["family"]=="Austroasiatic\n\nCentral Mon-KhmerKhmer":
-            e1["family"]="Austroasiatic"
+        e1 = {"endonym": endonyms, "speakers": speakers, "vspeakers": vspeakers, "places":places, "vplaces":vplaces, "family":languagefam, "link":wikipg, "official":off}
         validatefam(e1)
         e1["difficulty"] = finddiff(e1["speakers"], checkdiff(e1))
         e2 = {title:e1}
@@ -360,19 +377,21 @@ def main():
     elif len(sys.argv) > 1:
         print("NO SCRAPE")
         infile = open("wikipedia_dump.json", "r")
-        languagedict = json.load(infile)
+        languagedict = json.load(infile, countries)
         setting = "noscrape"
     else:
         infile = open("languagelinks.txt", "r")
         print("LINKS FILE")
         languagedict = scrapeaway(infile, countries)
     # fix small errors in scraper
-    languagedict["Khmer language"]["mainfam"] = "Austroasiatic"
-    languagedict["Flemish"]["vplaces"] = ["Belgium"]
-    languagedict["Catalan language"]["vplaces"] = ["Spain"]
-    languagedict["Persian language"]["vplaces"] = ["Iran", "Afghanistan", "Tajikistan"]
-    languagedict["Danish language"]["vplaces"] = ["Denmark"]
-    languagedict["English language"]["vplaces"] = "NA"
+    if setting != "debug":
+        languagedict["Khmer language"]["mainfam"] = "Austroasiatic"
+        languagedict["Flemish"]["vplaces"] = ["Belgium"]
+        languagedict["Catalan language"]["vplaces"] = ["Spain"]
+        languagedict["Persian language"]["vplaces"] = ["Iran", "Afghanistan", "Tajikistan"]
+        languagedict["Danish language"]["vplaces"] = ["Denmark"]
+        languagedict["English language"]["vplaces"] = "NA"
+        languagedict["Khasi language"]["endonym"][1] = "\xe0\xa6\x95\x20\xe0\xa6\x95\xe0\xa7\x8d\xe0\xa6\xa4\xe0\xa7\x8d\xe0\xa6\xaf\xe0\xa7\x87\xe0\xa6\xa8\x20\xe0\xa6\x96\xe0\xa6\xb8\xe0\xa6\xbf"
     for key in languagedict.keys():
         if languagedict[key]["family"]=="NA":
             languagedict[key]["mainfam"]="NA"
@@ -380,8 +399,8 @@ def main():
             noplaces = len(languagedict[key]["vplaces"])
             for place in range(0, noplaces):
                 try:
-                    pl = str(languagedict[key]["vplaces"][place])
-                    if str(key)[0:2] in pl:
+                    pl = languagedict[key]["vplaces"][place].encode("UTF-8")
+                    if key.encode("UTF-8")[0:2] in pl:
                         tmp = languagedict[key]["vplaces"][0]
                         languagedict[key]["vplaces"][0] = pl
                         languagedict[key]["vplaces"][place] = tmp
@@ -394,29 +413,30 @@ def main():
                         languagedict[key]["vplaces"].remove("Oman")
     with open("wikipedia_dump.json",'w') as outfile:
         json.dump(languagedict, outfile, indent=4)
-    with open("languages1.js",'w') as outfile:
-        outfile.write("var languages = ")
-        json.dump(languagedict, outfile, indent=4)
-        outfile.write("\n")
-        outfile.write("var listoflanguages = Object.keys(languages);\n")
-        outfile.write("var country_js = ")
-        cfile_js = open("countries.json", "r")
-        country_js = json.load(cfile_js)
-        json.dump(country_js, outfile, indent=4)
-        outfile.write("\n")
-        outfile.write("var lang_js = ")
-        lang_js = switchdict(country_js)
-        json.dump(lang_js, outfile, indent=4)
-        outfile.write("\n")
-        outfile.write("var countries = [")
-        i = 0
-        for c in countries2:
-            i += 1
-            if i != len(countries2):
-                outfile.write("\n\t" + "\"" + c + "\"" + ",")
-            else:
-                outfile.write("\n\t" + "\"" + c + "\"")
-        outfile.write("\n];\n")
+    if(setting != "debug"):
+        with open("languages1.js",'w') as outfile:
+            outfile.write("var languages = ")
+            json.dump(languagedict, outfile, indent=4)
+            outfile.write("\n")
+            outfile.write("var listoflanguages = Object.keys(languages);\n")
+            outfile.write("var country_js = ")
+            cfile_js = open("countries.json", "r")
+            country_js = json.load(cfile_js)
+            json.dump(country_js, outfile, indent=4)
+            outfile.write("\n")
+            outfile.write("var lang_js = ")
+            lang_js = switchdict(country_js)
+            json.dump(lang_js, outfile, indent=4)
+            outfile.write("\n")
+            outfile.write("var countries = [")
+            i = 0
+            for c in countries2:
+                i += 1
+                if i != len(countries2):
+                    outfile.write("\n\t" + "\"" + c + "\"" + ",")
+                else:
+                    outfile.write("\n\t" + "\"" + c + "\"")
+            outfile.write("\n];\n")
     print("All done! The program may take a moment to finish")
 
 starttime = time.time()

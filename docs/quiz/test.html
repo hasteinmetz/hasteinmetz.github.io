@@ -1,6 +1,6 @@
 ---
-title: "Language Family Quiz"
-tags: language-family quiz linguistics
+title: "World Languages Quiz"
+tags: language-family quiz linguistics world languages
 description: "Test your knowledge of language families! Learn something new!"
 ---
 <html>
@@ -391,12 +391,12 @@ description: "Test your knowledge of language families! Learn something new!"
           lan = language
         }
         if(type=="what"){
-          document.getElementById("question").innerHTML = "What family does the " + lan + " belong to?";
+          document.getElementById("question").innerHTML = "What <u>family</u> does the " + lan + " belong to?";
         } else {
           if(language.includes("language")){
-            document.getElementById("question").innerHTML = "The " + lan + " is spoken in which of the following countries?";
+            document.getElementById("question").innerHTML = "The " + lan + " is spoken in which of the following <u>countries</u>?";
           } else {
-            document.getElementById("question").innerHTML = "The " + lan + " language is spoken in which of the following countries?";
+            document.getElementById("question").innerHTML = "The " + lan + " language is spoken in which of the following <u>countries</u>?";
           }
         }
         for(i=1;i<num+1;i++){
