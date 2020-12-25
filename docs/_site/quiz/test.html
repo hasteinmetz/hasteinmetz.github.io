@@ -224,12 +224,16 @@
       var retries = 0;
 
       function randomc(){
-        if(retries>10){
+        if(retries>7){
           return("handleerror")
         }
         var language = filt_cust((a) => a["vplaces"]!="NA")
         console.log("places = ", language)
         var difficultyarr = difficultyallowed(numcorrect);
+        if(typeof variable !== 'undefined'){
+          retries++
+          return(randomc())
+        }
         if(languages[language]["vplaces"]=="NA" || languages[language]["vplaces"][0]=="NA"){
           retries++
           return(randomc())
@@ -384,7 +388,7 @@
         return(100 * j)
       }
 
-      var amount = [5, 20, 30, 50, 75, 100];
+      var amount = [5, 10, 20, 50, 75, 100];
 
       var prevq = [];
 
