@@ -140,6 +140,9 @@ description: "Test your knowledge of language families! Learn something new!"
 
       function randomq(){
         var language = filt()
+        if(typeof language === 'undefined'){
+          return(randomq())
+        }
         var difficultyarr = difficultyallowed(numcorrect)
         var languagefam = languages[language]["mainfam"];
         moreinfo = languages[language]["link"];
