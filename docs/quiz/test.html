@@ -304,6 +304,8 @@ description: "Test your knowledge of language families! Learn something new!"
         if(!prevq.includes(language)){
           if(difficultyarr.includes(languages[language]["difficulty"])){
             console.log("endos = ", endos)
+            var pos = language.indexOf(" language")
+            var lang = language.slice(0, pos)
             return([endos, language]);
           } else {
             retries++
