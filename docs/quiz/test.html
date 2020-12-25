@@ -193,7 +193,7 @@ description: "Test your knowledge of language families! Learn something new!"
         if(d=="easy"){
           var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         } else {
-          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          var l1 = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]));
         }
         let l2 = l1
         console.log("filtered: ", l2)
@@ -462,7 +462,7 @@ description: "Test your knowledge of language families! Learn something new!"
         var array = []
         var ques = randomq()
         var dif;
-        if(numcorrect < 37){
+        if(numcorrect < 30){
           dif = "easy"
         } else {
           dif = "tough"
@@ -480,7 +480,7 @@ description: "Test your knowledge of language families! Learn something new!"
         var array = []
         var ques = randomc()
         var dif;
-        if(numcorrect < 37){
+        if(numcorrect < 30){
           dif = "easy"
         } else {
           dif = "tough"
@@ -500,7 +500,7 @@ description: "Test your knowledge of language families! Learn something new!"
         var array = []
         var ques = randomn()
         var dif;
-        if(numcorrect < 37){
+        if(numcorrect < 30){
           dif = "easy"
         } else {
           dif = "tough"
