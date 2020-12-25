@@ -226,9 +226,9 @@ description: "Test your knowledge of language families! Learn something new!"
           retries++
           return(randomc())
         } else {
-          var places = languages[language]["vplaces"]
-          var place = languages[language]["vplaces"][0]
-          var pre = place.slice(0,3)
+          let places = languages[language]["vplaces"]
+          let place = languages[language]["vplaces"][0]
+          let pre = place.slice(0,3)
           if(language.includes(pre)){
             retries++
             return(randomc())
@@ -257,12 +257,12 @@ description: "Test your knowledge of language families! Learn something new!"
           let l1 = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]));
         }
         console.log("filtered: ", l1)
-        var keys = Object.keys(l1);
-        var ran_key = randomno(keys.length);
-        var ran_lang = String(keys[ran_key]);
-        var place = l1[ran_lang]["vplaces"][0];
-        var corplace = otherplaces[0];
-        var lang2 = ran_lang.split(" ")[0]
+        let keys = Object.keys(l1);
+        let ran_key = randomno(keys.length);
+        let ran_lang = String(keys[ran_key]);
+        let place = l1[ran_lang]["vplaces"][0];
+        let corplace = otherplaces[0];
+        let lang2 = ran_lang.split(" ")[0]
         if(lang2 in lang_js){
           var lang_js_places = lang_js[lang2]
         } else {
@@ -289,10 +289,10 @@ description: "Test your knowledge of language families! Learn something new!"
         if(retries>10){
           return("handleerror")
         }
-        var language = filt_cust((a) => a["endonym"]!="NA")
+        let language = filt_cust((a) => a["endonym"]!="NA")
         console.log("places = ", language)
-        var difficultyarr = difficultyallowed(numcorrect);
-        var moveforward = checkendo(languages[language]["endonym"])
+        let difficultyarr = difficultyallowed(numcorrect);
+        let moveforward = checkendo(languages[language]["endonym"])
         if(languages[language]["endonym"]=="NA" || moveforward =="T"){
           retries++;
           return(randomn())
@@ -571,6 +571,7 @@ description: "Test your knowledge of language families! Learn something new!"
       };
 
       function load(){
+        prevq = [];
         lives = 3;
         score = 0;
         qno = 5;
