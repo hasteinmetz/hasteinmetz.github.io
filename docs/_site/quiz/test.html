@@ -312,8 +312,6 @@
         if(!prevq.includes(language)){
           if(difficultyarr.includes(languages[language]["difficulty"])){
             console.log("endos = ", endos)
-            var pos = language.indexOf(" language")
-            var lang = language.slice(0, pos)
             return([endos, language]);
           } else {
             retries++
@@ -464,13 +462,15 @@
         } else {
           dif = "tough"
         }
-        array.push(String(ques[1]))
+        var pos = String(ques[1].indexOf(" language"))
+        var lang = language.slice(0, pos)
+        array.push(lang)
         for(i=0; i < (qno - 1); i++){
           tmp = findl(array, dif);
           array.push(tmp);
         }
         console.log("getquestion3 " + String(ques[1]) + " " + String(array))
-        return([ques[0], array]);
+        return([ques[0], array, q[1]]);
       };
 
       function getquestion(){
@@ -569,7 +569,7 @@
           prevq.push(language);
         } else {
           language = q[0];
-          prevq.push(q[1][0]);
+          prevq.push(q[2);
         }
         correct = q[1][0];
         answers = randompos(q[1], qarray, q[1].length);
