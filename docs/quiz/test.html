@@ -82,8 +82,8 @@ description: "Test your knowledge of language families! Learn something new!"
       }
 
       function removelang(str){
-        string = split(str);
-        result = [];
+        let string = split(str);
+        let result = [];
         var resstring = ""
         for(i=0;i<string.length;i++){
           tmp = string[i];
@@ -99,11 +99,11 @@ description: "Test your knowledge of language families! Learn something new!"
       }
 
       function filterlanguages(obj, prop, predicate) {
-        var keys = Object.keys(obj);
-        var newobj = {};
+        let keys = Object.keys(obj);
+        let newobj = {};
         for (key in keys){
           lang = keys[key]
-          var tmp = obj[lang]
+          let tmp = obj[lang]
           if(prop in tmp && predicate(tmp)){
             newobj[lang] = tmp;
           }
@@ -116,30 +116,30 @@ description: "Test your knowledge of language families! Learn something new!"
       var ref;
 
       function filt(){
-        var difficultyarr = difficultyallowed(numcorrect)
-        var languagesnew = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
+        let difficultyarr = difficultyallowed(numcorrect)
+        let languagesnew = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
         console.log("filtered: ", languagesnew)
-        var keys = Object.keys(languagesnew)
+        let keys = Object.keys(languagesnew)
         console.log("filtered by: ", difficultyallowed(), " no. languages:", keys.length)
-        var language = keys[randomno(keys.length)];
+        let language = keys[randomno(keys.length)];
         console.log("lang = ", language)
         return(language)
       }
 
       function filt_cust(predicate){
-        var difficultyarr = difficultyallowed(numcorrect)
-        var l1 = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
-        var languagesnew = filterlanguages(l1, "vplaces", predicate);
+        let difficultyarr = difficultyallowed(numcorrect)
+        let l1 = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
+        let languagesnew = filterlanguages(l1, "vplaces", predicate);
         console.log("filtered: ", languagesnew)
-        var keys = Object.keys(languagesnew)
+        let keys = Object.keys(languagesnew)
         console.log("filtered by: ", difficultyallowed(), " no. languages:", keys.length)
-        var language = keys[randomno(keys.length)];
+        let language = keys[randomno(keys.length)];
         console.log("lang = ", language)
         return(language)
       }
 
       function randomq(){
-        var language = filt()
+        let language = filt()
         var difficultyarr = difficultyallowed(numcorrect)
         var languagefam = languages[language]["mainfam"];
         moreinfo = languages[language]["link"];
@@ -192,10 +192,10 @@ description: "Test your knowledge of language families! Learn something new!"
           var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         }
         console.log("filtered: ", l1)
-        var keys = Object.keys(l1);
-        var ran_key = randomno(keys.length);
-        var ran_lang = String(keys[ran_key]);
-        var tmp = l1[ran_lang]["mainfam"];
+        let keys = Object.keys(l1);
+        let ran_key = randomno(keys.length);
+        let ran_lang = String(keys[ran_key]);
+        let tmp = l1[ran_lang]["mainfam"];
         var famex = famexcept(tmp, array[0])
         console.log("Family Except:" + famex + " " + tmp + array[0])
         if(array.includes(tmp) || exceptions(tmp)==0 || famex==1){
@@ -216,10 +216,10 @@ description: "Test your knowledge of language families! Learn something new!"
       var retries = 0;
 
       function randomc(){
-        if(retries>5){
+        if(retries>10){
           return("handleerror")
         }
-        var language = filt_cust((a) => a["vplaces"]!="NA")
+        let language = filt_cust((a) => a["vplaces"]!="NA")
         console.log("places = ", language)
         var difficultyarr = difficultyallowed(numcorrect);
         if(languages[language]["vplaces"]=="NA" || languages[language]["vplaces"][0]=="NA"){
@@ -252,9 +252,9 @@ description: "Test your knowledge of language families! Learn something new!"
 
       function findc(array, d, otherplaces){
         if(d=="easy"){
-          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          let l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         } else {
-          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          let l1 = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]));
         }
         console.log("filtered: ", l1)
         var keys = Object.keys(l1);
@@ -286,7 +286,7 @@ description: "Test your knowledge of language families! Learn something new!"
       }
 
       function randomn(){
-        if(retries>5){
+        if(retries>10){
           return("handleerror")
         }
         var language = filt_cust((a) => a["endonym"]!="NA")
