@@ -213,17 +213,24 @@ description: "Test your knowledge of language families! Learn something new!"
         return tmp
       };
 
+      var retries = 0;
+
       function randomc(){
+        if(retries>5){
+          return("handleerror")
+        }
         var language = filt_cust((a) => a["vplaces"]!="NA")
         console.log("places = ", language)
         var difficultyarr = difficultyallowed(numcorrect);
         if(languages[language]["vplaces"]=="NA" || languages[language]["vplaces"][0]=="NA"){
+          retries++
           return(randomc())
         } else {
           var places = languages[language]["vplaces"]
           var place = languages[language]["vplaces"][0]
           var pre = place.slice(0,3)
           if(language.includes(pre)){
+            retries++
             return(randomc())
           }
         }
@@ -233,10 +240,12 @@ description: "Test your knowledge of language families! Learn something new!"
           if(difficultyarr.includes(languages[language]["difficulty"])){
             return([language, places]);
           } else {
+            retries++
             return(randomc());
           }
         }
         else {
+          retries++
           return(randomc());
         }
       };
@@ -277,11 +286,15 @@ description: "Test your knowledge of language families! Learn something new!"
       }
 
       function randomn(){
+        if(retries>5){
+          return("handleerror")
+        }
         var language = filt_cust((a) => a["endonym"]!="NA")
         console.log("places = ", language)
         var difficultyarr = difficultyallowed(numcorrect);
         var moveforward = checkendo(languages[language]["endonym"])
         if(languages[language]["endonym"]=="NA" || moveforward =="T"){
+          retries++;
           return(randomn())
         } else {
           var endos = languages[language]["endonym"]
@@ -293,10 +306,12 @@ description: "Test your knowledge of language families! Learn something new!"
             console.log("endos = ", endos)
             return([endos, language]);
           } else {
+            retries++
             return(randomn());
           }
         }
         else {
+          retries++
           return(randomn());
         }
       };
@@ -447,13 +462,20 @@ description: "Test your knowledge of language families! Learn something new!"
       };
 
       function getquestion(){
+        retries = 0;
         type = randomqtype()
         if(type=="name"){
           console.log("NAME")
           return(getquestion3())
         }
         if(type=="where"){
-          return(getquestion2())
+          var r = getquestion2()
+          if(r=="handleerror"){
+            type = "what";
+            return(getquestion1);
+          } else {
+            return(r)
+          }
         }
         else {
           return(getquestion1())
@@ -552,6 +574,7 @@ description: "Test your knowledge of language families! Learn something new!"
         lives = 3;
         score = 0;
         qno = 5;
+        numcorrect = 0;
         document.getElementsByClassName("continue")[0].textContent = ">>"
         replacetext();
         setqtext(qno, answers, language)
@@ -564,7 +587,6 @@ description: "Test your knowledge of language families! Learn something new!"
       addEventListener("keydown", function(event) {
         if (mod.classList.contains('show') && lives==0) {
           togglemodal();
-          numcorrect = 0;
           load();
           return;
         }
@@ -593,6 +615,7 @@ description: "Test your knowledge of language families! Learn something new!"
               removeblur(qno);
               togglemodal();
               nextquestion();
+              return
             } else {
               lives -= 1;
               if(lives>0){
@@ -600,6 +623,7 @@ description: "Test your knowledge of language families! Learn something new!"
                 removeblur(qno);
                 togglemodal();
                 nextquestion();
+                return
               }
               else{
                 document.getElementById("lives").innerHTML = "Lives: " + String(lives)
@@ -611,6 +635,7 @@ description: "Test your knowledge of language families! Learn something new!"
                 }
                 removeblur(qno);
                 togglemodal();
+                return
               }
             }
           }
@@ -618,12 +643,13 @@ description: "Test your knowledge of language families! Learn something new!"
         if (mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)) {
           removeblur(qno);
           togglemodal();
-          numcorrect = 0;
           load();
+          return
         }
         else if (mod.classList.contains('show') && (event.target.matches('.continue') || event.target == mod)) {
           removeblur(qno);
           togglemodal();
+          return
         }
       };
 
