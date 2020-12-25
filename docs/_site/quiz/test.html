@@ -90,8 +90,8 @@
       }
 
       function removelang(str){
-        string = split(str);
-        result = [];
+        let string = split(str);
+        let result = [];
         var resstring = ""
         for(i=0;i<string.length;i++){
           tmp = string[i];
@@ -107,11 +107,11 @@
       }
 
       function filterlanguages(obj, prop, predicate) {
-        var keys = Object.keys(obj);
-        var newobj = {};
+        let keys = Object.keys(obj);
+        let newobj = {};
         for (key in keys){
           lang = keys[key]
-          var tmp = obj[lang]
+          let tmp = obj[lang]
           if(prop in tmp && predicate(tmp)){
             newobj[lang] = tmp;
           }
@@ -124,30 +124,30 @@
       var ref;
 
       function filt(){
-        var difficultyarr = difficultyallowed(numcorrect)
-        var languagesnew = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
+        let difficultyarr = difficultyallowed(numcorrect)
+        let languagesnew = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
         console.log("filtered: ", languagesnew)
-        var keys = Object.keys(languagesnew)
+        let keys = Object.keys(languagesnew)
         console.log("filtered by: ", difficultyallowed(), " no. languages:", keys.length)
-        var language = keys[randomno(keys.length)];
+        let language = keys[randomno(keys.length)];
         console.log("lang = ", language)
         return(language)
       }
 
       function filt_cust(predicate){
-        var difficultyarr = difficultyallowed(numcorrect)
-        var l1 = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
-        var languagesnew = filterlanguages(l1, "vplaces", predicate);
+        let difficultyarr = difficultyallowed(numcorrect)
+        let l1 = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
+        let languagesnew = filterlanguages(l1, "vplaces", predicate);
         console.log("filtered: ", languagesnew)
-        var keys = Object.keys(languagesnew)
+        let keys = Object.keys(languagesnew)
         console.log("filtered by: ", difficultyallowed(), " no. languages:", keys.length)
-        var language = keys[randomno(keys.length)];
+        let language = keys[randomno(keys.length)];
         console.log("lang = ", language)
         return(language)
       }
 
       function randomq(){
-        var language = filt()
+        let language = filt()
         var difficultyarr = difficultyallowed(numcorrect)
         var languagefam = languages[language]["mainfam"];
         moreinfo = languages[language]["link"];
@@ -195,21 +195,21 @@
 
       function randomans(array, d){
         if(d=="easy"){
-          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          var l2 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         } else {
-          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          var l2 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         }
-        console.log("filtered: ", l1)
-        var keys = Object.keys(l1);
-        var ran_key = randomno(keys.length);
-        var ran_lang = String(keys[ran_key]);
-        var tmp = l1[ran_lang]["mainfam"];
+        console.log("filtered: ", l2)
+        let keys = Object.keys(l2);
+        let ran_key = randomno(keys.length);
+        let ran_lang = String(keys[ran_key]);
+        let tmp = l2[ran_lang]["mainfam"];
         var famex = famexcept(tmp, array[0])
         console.log("Family Except:" + famex + " " + tmp + array[0])
         if(array.includes(tmp) || exceptions(tmp)==0 || famex==1){
           return randomans(array, d);
         }
-        var di = l1[ran_lang]["difficulty"];
+        var di = l2[ran_lang]["difficulty"];
         if(!sensible.includes(di)){
           return randomans(array, d);
         }
@@ -221,17 +221,24 @@
         return tmp
       };
 
+      var retries = 0;
+
       function randomc(){
-        var language = filt_cust((a) => a["vplaces"]!="NA")
+        if(retries>10){
+          return("handleerror")
+        }
+        let language = filt_cust((a) => a["vplaces"]!="NA")
         console.log("places = ", language)
         var difficultyarr = difficultyallowed(numcorrect);
         if(languages[language]["vplaces"]=="NA" || languages[language]["vplaces"][0]=="NA"){
+          retries++
           return(randomc())
         } else {
           var places = languages[language]["vplaces"]
           var place = languages[language]["vplaces"][0]
           var pre = place.slice(0,3)
           if(language.includes(pre)){
+            retries++
             return(randomc())
           }
         }
@@ -241,27 +248,29 @@
           if(difficultyarr.includes(languages[language]["difficulty"])){
             return([language, places]);
           } else {
+            retries++
             return(randomc());
           }
         }
         else {
+          retries++
           return(randomc());
         }
       };
 
       function findc(array, d, otherplaces){
         if(d=="easy"){
-          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          var l2 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         } else {
-          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          var l2 = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]));
         }
-        console.log("filtered: ", l1)
-        var keys = Object.keys(l1);
-        var ran_key = randomno(keys.length);
-        var ran_lang = String(keys[ran_key]);
-        var place = l1[ran_lang]["vplaces"][0];
-        var corplace = otherplaces[0];
-        var lang2 = ran_lang.split(" ")[0]
+        console.log("filtered: ", l2)
+        let keys = Object.keys(l2);
+        let ran_key = randomno(keys.length);
+        let ran_lang = String(keys[ran_key]);
+        let place = l2[ran_lang]["vplaces"][0];
+        let corplace = otherplaces[0];
+        let lang2 = ran_lang.split(" ")[0]
         if(lang2 in lang_js){
           var lang_js_places = lang_js[lang2]
         } else {
@@ -285,11 +294,15 @@
       }
 
       function randomn(){
-        var language = filt_cust((a) => a["endonym"]!="NA")
+        if(retries>10){
+          return("handleerror")
+        }
+        let language = filt_cust((a) => a["endonym"]!="NA")
         console.log("places = ", language)
-        var difficultyarr = difficultyallowed(numcorrect);
-        var moveforward = checkendo(languages[language]["endonym"])
+        let difficultyarr = difficultyallowed(numcorrect);
+        let moveforward = checkendo(languages[language]["endonym"])
         if(languages[language]["endonym"]=="NA" || moveforward =="T"){
+          retries++;
           return(randomn())
         } else {
           var endos = languages[language]["endonym"]
@@ -301,10 +314,12 @@
             console.log("endos = ", endos)
             return([endos, language]);
           } else {
+            retries++
             return(randomn());
           }
         }
         else {
+          retries++
           return(randomn());
         }
       };
@@ -332,7 +347,7 @@
       }
 
       function randomqtype(){
-        var ran_key = randomno(2);
+        var ran_key = randomno(3);
         var questiontypes = ["where", "what", "name"]
         return(questiontypes[ran_key]);
       };
@@ -455,13 +470,20 @@
       };
 
       function getquestion(){
+        retries = 0;
         type = randomqtype()
         if(type=="name"){
           console.log("NAME")
           return(getquestion3())
         }
         if(type=="where"){
-          return(getquestion2())
+          var r = getquestion2()
+          if(r=="handleerror"){
+            type = "what";
+            return(getquestion1);
+          } else {
+            return(r)
+          }
         }
         else {
           return(getquestion1())
@@ -557,9 +579,11 @@
       };
 
       function load(){
+        prevq = [];
         lives = 3;
         score = 0;
         qno = 5;
+        numcorrect = 0;
         document.getElementsByClassName("continue")[0].textContent = ">>"
         replacetext();
         setqtext(qno, answers, language)
@@ -572,7 +596,6 @@
       addEventListener("keydown", function(event) {
         if (mod.classList.contains('show') && lives==0) {
           togglemodal();
-          numcorrect = 0;
           load();
           return;
         }
@@ -601,6 +624,7 @@
               removeblur(qno);
               togglemodal();
               nextquestion();
+              return
             } else {
               lives -= 1;
               if(lives>0){
@@ -608,6 +632,7 @@
                 removeblur(qno);
                 togglemodal();
                 nextquestion();
+                return
               }
               else{
                 document.getElementById("lives").innerHTML = "Lives: " + String(lives)
@@ -619,6 +644,7 @@
                 }
                 removeblur(qno);
                 togglemodal();
+                return
               }
             }
           }
@@ -626,12 +652,13 @@
         if (mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)) {
           removeblur(qno);
           togglemodal();
-          numcorrect = 0;
           load();
+          return
         }
         else if (mod.classList.contains('show') && (event.target.matches('.continue') || event.target == mod)) {
           removeblur(qno);
           togglemodal();
+          return
         }
       };
 

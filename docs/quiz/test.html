@@ -195,13 +195,13 @@ description: "Test your knowledge of language families! Learn something new!"
         let keys = Object.keys(l2);
         let ran_key = randomno(keys.length);
         let ran_lang = String(keys[ran_key]);
-        let tmp = l1[ran_lang]["mainfam"];
+        let tmp = l2[ran_lang]["mainfam"];
         var famex = famexcept(tmp, array[0])
         console.log("Family Except:" + famex + " " + tmp + array[0])
         if(array.includes(tmp) || exceptions(tmp)==0 || famex==1){
           return randomans(array, d);
         }
-        var di = l1[ran_lang]["difficulty"];
+        var di = l2[ran_lang]["difficulty"];
         if(!sensible.includes(di)){
           return randomans(array, d);
         }
@@ -260,7 +260,7 @@ description: "Test your knowledge of language families! Learn something new!"
         let keys = Object.keys(l2);
         let ran_key = randomno(keys.length);
         let ran_lang = String(keys[ran_key]);
-        let place = l1[ran_lang]["vplaces"][0];
+        let place = l2[ran_lang]["vplaces"][0];
         let corplace = otherplaces[0];
         let lang2 = ran_lang.split(" ")[0]
         if(lang2 in lang_js){
@@ -339,7 +339,7 @@ description: "Test your knowledge of language families! Learn something new!"
       }
 
       function randomqtype(){
-        var ran_key = randomno(2);
+        var ran_key = randomno(3);
         var questiontypes = ["where", "what", "name"]
         return(questiontypes[ran_key]);
       };
