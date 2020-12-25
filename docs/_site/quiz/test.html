@@ -181,13 +181,13 @@
       var afroa = ["Semitic"]
 
       function famexcept(lang, fam){
-        if((fam=="Indo-European" || fam=="Indo\u2013European" || fam.includes("uropean")) && indoeur.includes(lang)){
+        if((fam.includes("uropean") && indoeur.includes(lang)) || (indoeur.includes(fam) && lang.includes("uropean"))){
           return(1);
         }
-        if((fam=="Niger\u2013Congo" || fam.includes("ongo")) && ncongo.includes(lang)){
+        if((fam.includes("ongo") && ncongo.includes(lang)) || (ncongo.includes(fam) && lang.includes("ongo"))){
           return(1);
         }
-        if((fam=="Afro-Asiatic" || fam.includes("fro")) && afroa.includes(lang)){
+        if((fam.includes("fro") && fam.includes("siatic") && afroa.includes(lang)) || (lang.includes("fro") && lang.includes("siatic") && afroa.includes(fam))){
           return(1);
         }
         return(0);
@@ -230,7 +230,7 @@
         var language = filt_cust((a) => a["vplaces"]!="NA")
         console.log("places = ", language)
         var difficultyarr = difficultyallowed(numcorrect);
-        if(typeof variable !== 'undefined'){
+        if(typeof language === 'undefined'){
           retries++
           return(randomc())
         }
