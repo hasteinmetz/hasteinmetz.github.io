@@ -6,6 +6,6 @@
 /wiki/Bengali_language
 /wiki/Georgian_language
 /wiki/Persian_language
-/wiki/Persian_language
 /wiki/Chuj_language
+
 

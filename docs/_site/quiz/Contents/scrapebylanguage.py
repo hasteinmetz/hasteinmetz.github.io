@@ -13,6 +13,18 @@ import time
 reload(sys)
 sys.setdefaultencoding('utf8')
 
+def reducebyfunc(predicate, array):
+    if not isinstance(array, list):
+        return
+    if len(array) > 1:
+        pos = len(array) - 1
+        tmp = predicate(array[pos], array[pos-1])
+        tmparray = array[0:pos-1]
+        tmparray.append(tmp)
+        return reducebyfunc(predicate, tmparray)
+    else:
+        return array[0]
+
 def speakerstage(speakers):
     try:
         speakers2 = speakers.replace(",", "")
@@ -152,6 +164,35 @@ def finddiff(speakers, v):
                 difficulty = "whizkid"
         return(difficulty)
 
+#find non-latin and rearrange
+def findnl(array, stop):
+    if isinstance(array, list):
+        for el in range(0, len(array)):
+            if isinstance(array[el], str) or isinstance(array[el], unicode):
+                end = 0
+                for char in array[el]:
+                    end += 1
+                    if end > stop:
+                        break
+                    if ord(char) > 400:
+                        if el==0:
+                            return array
+                        else:
+                            array.insert(0, array.pop(el))
+                            return array
+    return array
+
+#find non-latin and rearrange
+def checknl(line):
+    if "Pronunciation" in line:
+        line = line.split("Pronunciation")[0]
+    elif "pronunciation" in line:
+        line = line.split("pronunciation")[0]
+    for char in line:
+        if ord(char) > 400:
+            return True
+    return False
+
 def scrape(wikipg, countries, dict):
     # initiliaze to ensure it doesn't carry over
     speakers = "NA"
@@ -162,13 +203,14 @@ def scrape(wikipg, countries, dict):
     difficulty = "NA"
     link = "NA"
     off = "NA"
-    endonyms = "NA"
+    endonyms = []
     endo = []
-    italics = []
+    scripts = []
     countrydict = countries["3"]
     cia = countries["1"]
     sam = countries["2"]
     repl = [" ", "\n", "or", ","]
+    arabic = ["persian", "arabic", "perso-arabic", "perso", "jawi"]
     stop = "no"
     rowno = 0
     try:
@@ -183,9 +225,11 @@ def scrape(wikipg, countries, dict):
     if not(table is None):
         for row in table.find_all("tr"):
             rowno += 1
-            if rowno > 3:
+            if rowno > 5:
                 stop = "yes"
-            if stop != "yes" and endonyms == "NA":
+            rtext = row.text
+            # endonyms
+            if stop != "yes" and row.find_all("th")==[] and row.find_all("img")==[]:
                 spans = row.find_all("span")
                 if spans:
                     for s in spans:
@@ -193,22 +237,24 @@ def scrape(wikipg, countries, dict):
                             endo.append(s.text)
                 italics = row.find_all("i")
                 for it in range(0, len(italics)):
-                    italics[it] = italics[it].text
-                if endo or italics:
-                    endonyms = italics + endo
-            if "Native" in row.text:
-                if "Native speakers" in row.text:
-                    speakers = row.text[15:len(row.text)]
+                    tmp = italics[it].text
+                    endo.append(tmp)
+                if checknl(rtext):
+                    if not(rtext in endo):
+                        endo.append(rtext)
+            if "Native" in rtext:
+                if "Native speakers" in rtext:
+                    speakers = rtext[15:len(rtext)]
                     if speakers is None:
                         continue
                     else:
                         vspeakers = vspeak(speakers)
                 else:
-                    places = row.text[9:len(row.text)]
-            if "Official" in row.text and "language" in row.text:
+                    places = rtext[9:len(rtext)]
+            if "Official" in rtext and "language" in rtext:
                 if places == "NA":
-                    places = row.text[9:len(row.text)]
-                    offtxt = row.text[9:len(row.text)]
+                    places = rtext[9:len(rtext)]
+                    offtxt = rtext[9:len(rtext)]
                     offarr = []
                     offgeo = offtxt.lower()
                     for pays in sam:
@@ -216,9 +262,9 @@ def scrape(wikipg, countries, dict):
                             offarr.append(pays)
                     if offarr:
                         off = offarr
-            if "region" in row.text:
+            if "region" in rtext:
                 if places == "NA":
-                    places = row.text[9:len(row.text)]
+                    places = rtext[9:len(rtext)]
             if places != "NA":
                 countryarray = []
                 geo = places.lower()
@@ -227,7 +273,7 @@ def scrape(wikipg, countries, dict):
                         countryarray.append(pays)
                 if countryarray:
                     vplaces = countryarray
-            if "Language family" in row.text:
+            if "Language family" in rtext:
                 languagefam = []
                 row2 = row.find("td")
                 macrofam = row2.find("div").find("a", href=True)
@@ -249,13 +295,29 @@ def scrape(wikipg, countries, dict):
                     languagefam = languagefam + famarray
                 else:
                     languagefam="NA"
+            if "script" in rtext.lower() or "writing system" in rtext.lower() or "alphabet" in rtext.lower():
+                alphabetlinks = row.find_all("a", href=True)
+                for alinks in alphabetlinks:
+                    linktxt = alinks.text.lower()
+                    if not "braille" in linktxt.lower() and not "writing system" in linktxt.lower():
+                        if reducebyfunc(lambda x, y : x or y, [a in linktxt.lower() for a in arabic]):
+                            scripts.append("Arabic")
+                            scripts.append("("+linktxt+")")
+                        else:
+                            scripts.append(linktxt)
+        if endo:
+            endonyms1 = endo
+            if title not in ["Serbo-Croatian", "Serbian", "Vietnamese"] and languagefam not in ["Austronesian"]:
+                endonyms = findnl(endonyms1, 5)
+        else:
+            endonyms = "NA"
         if vplaces != "NA":
             if title in ["French language", "German language", "Portuguese language", "English language", "Spanish language"]:
                 euro="T"
             else:
                 euro="F"
             vplaces = quicksort_by_dict(vplaces, countrydict, euro, 'population')
-        e1 = {"endonym": endonyms, "speakers": speakers, "vspeakers": vspeakers, "places":places, "vplaces":vplaces, "family":languagefam, "link":wikipg, "official":off}
+        e1 = {"endonym": endonyms, "scripts": scripts, "speakers": speakers, "vspeakers": vspeakers, "places":places, "vplaces":vplaces, "family":languagefam, "link":wikipg, "official":off}
         validatefam(e1)
         e1["difficulty"] = finddiff(e1["speakers"], checkdiff(e1))
         e2 = {title:e1}

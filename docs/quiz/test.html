@@ -139,12 +139,12 @@ description: "Test your knowledge of language families! Learn something new!"
       }
 
       function randomq(){
-        var language = filt()
+        let language = filt()
         if(typeof language === 'undefined'){
           return(randomq())
         }
         var difficultyarr = difficultyallowed(numcorrect)
-        var languagefam = languages[language]["mainfam"];
+        let languagefam = languages[language]["mainfam"];
         moreinfo = languages[language]["link"];
         console.log("link = ", moreinfo)
         if(languagefam=="Austroasiatic\n\nCentral Mon-KhmerKhmer"){
@@ -190,21 +190,22 @@ description: "Test your knowledge of language families! Learn something new!"
 
       function randomans(array, d){
         if(d=="easy"){
-          var l2 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         } else {
-          var l2 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         }
+        let l2 = l1
         console.log("filtered: ", l2)
-        var keys = Object.keys(l2);
-        var ran_key = randomno(keys.length);
-        var ran_lang = String(keys[ran_key]);
-        var tmp = l2[ran_lang]["mainfam"];
-        var famex = famexcept(tmp, array[0])
+        let keys = Object.keys(l2);
+        let ran_key = randomno(keys.length);
+        let ran_lang = String(keys[ran_key]);
+        let tmp = l2[ran_lang]["mainfam"];
+        let famex = famexcept(tmp, array[0])
         console.log("Family Except:" + famex + " " + tmp + array[0])
         if(array.includes(tmp) || exceptions(tmp)==0 || famex==1){
           return randomans(array, d);
         }
-        var di = l2[ran_lang]["difficulty"];
+        let di = l2[ran_lang]["difficulty"];
         if(!sensible.includes(di)){
           return randomans(array, d);
         }
@@ -222,28 +223,29 @@ description: "Test your knowledge of language families! Learn something new!"
         if(retries>7){
           return("handleerror")
         }
-        var language = filt_cust((a) => a["vplaces"]!="NA")
-        console.log("places = ", language)
+        let language = filt_cust((a) => a["vplaces"]!="NA")
+        let places = languages[language]["vplaces"]
+        let place = languages[language]["vplaces"][0]
+        console.log("lang = ", language)
+        console.log("place = ", place)
         var difficultyarr = difficultyallowed(numcorrect);
         if(typeof language === 'undefined'){
           retries++
           return(randomc())
         }
-        if(languages[language]["vplaces"]=="NA" || languages[language]["vplaces"][0]=="NA"){
+        if(places=="NA" || place=="NA"){
           retries++
           return(randomc())
-        } else {
-          var places = languages[language]["vplaces"]
-          var place = languages[language]["vplaces"][0]
-          var pre = place.slice(0,3)
-          if(language.includes(pre)){
-            retries++
-            return(randomc())
-          }
+        }
+        var pre = place.slice(0,3)
+        if(language.includes(pre)){
+          console.log("pre: " + pre)
+          retries++
+          return(randomc())
         }
         moreinfo = languages[language]["link"];
         console.log("link = ", moreinfo)
-        if(!prevq.includes(language) && place!="NA"){
+        if(!prevq.includes(language)){
           if(difficultyarr.includes(languages[language]["difficulty"])){
             return([language, places]);
           } else {
@@ -257,19 +259,21 @@ description: "Test your knowledge of language families! Learn something new!"
         }
       };
 
+      // for medium-hard need to filter answers by script "arabic"/"cyrillic"/"India"
       function findc(array, d, otherplaces){
         if(d=="easy"){
-          var l2 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         } else {
-          var l2 = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]));
+          var l1 = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]));
         }
+        let l2 = l1
         console.log("filtered: ", l2)
-        var keys = Object.keys(l2);
-        var ran_key = randomno(keys.length);
-        var ran_lang = String(keys[ran_key]);
-        var place = l2[ran_lang]["vplaces"][0];
-        var corplace = otherplaces[0];
-        var lang2 = ran_lang.split(" ")[0]
+        let keys = Object.keys(l2);
+        let ran_key = randomno(keys.length);
+        let ran_lang = String(keys[ran_key]);
+        let place = l2[ran_lang]["vplaces"][0];
+        let corplace = otherplaces[0];
+        let lang2 = ran_lang.split(" ")[0]
         if(lang2 in lang_js){
           var lang_js_places = lang_js[lang2]
         } else {
@@ -336,7 +340,7 @@ description: "Test your knowledge of language families! Learn something new!"
         var pos = ran_lang.indexOf(" language")
         var lang = ran_lang.slice(0, pos)
         if(lang=="N" || lang=="NA" || array.includes(lang)){
-          return findn(array, d);
+          return findl(array, d);
         }
         console.log("ans", lang)
         return lang
@@ -348,7 +352,7 @@ description: "Test your knowledge of language families! Learn something new!"
       }
 
       function randomqtype(){
-        var ran_key = randomno(2);
+        var ran_key = randomno(3);
         var questiontypes = ["where", "what", "name"]
         return(questiontypes[ran_key]);
       };
@@ -461,8 +465,13 @@ description: "Test your knowledge of language families! Learn something new!"
         } else {
           dif = "tough"
         }
-        var pos = String(ques[1].indexOf(" language"))
-        var lang = language.slice(0, pos)
+        if(ques[1].includes("language")){
+          var pos = String(ques[1].indexOf(" language"))
+          var lang = ques[1].slice(0, pos)
+        }
+        else {
+          var lang = ques[1]
+        }
         array.push(lang)
         for(i=0; i < (qno - 1); i++){
           tmp = findl(array, dif);
@@ -481,9 +490,11 @@ description: "Test your knowledge of language families! Learn something new!"
         }
         if(type=="where"){
           var r = getquestion2()
-          if(r=="handleerror"){
+          console.log("r:" + r)
+          if(r=="handleerror" || typeof r[0] === 'undefined' || retries >= 7){
+            console.log("HANDLEERROR")
             type = "what";
-            return(getquestion1);
+            return(getquestion1());
           } else {
             return(r)
           }

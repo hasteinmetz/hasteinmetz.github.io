@@ -132,6 +132,9 @@
       var languagefam = languages[language]["mainfam"];
       moreinfo = languages[language]["link"];
       console.log("link = ", moreinfo)
+      if(typeof language === 'undefined'){
+        return(randomq())
+      }
       if(languagefam=="Austroasiatic\n\nCentral Mon-KhmerKhmer"){
         languagefam="Austroasiatic"
       }
