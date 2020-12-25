@@ -360,7 +360,7 @@ description: "Test your knowledge of language families! Learn something new!"
         if(d=="easy"){
           var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         } else {
-          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          var l1 = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]));
         }
         console.log("filtered: ", l1)
         var keys = Object.keys(l1);
@@ -427,7 +427,7 @@ description: "Test your knowledge of language families! Learn something new!"
         return(100 * j)
       }
 
-      var amount = [5, 10, 20, 50, 75, 100];
+      var amount = [7, 18, 25, 50, 75, 100];
 
       var prevq = [];
 
@@ -588,10 +588,13 @@ description: "Test your knowledge of language families! Learn something new!"
           console.log(language)
           if(Array.isArray(language) || language instanceof Array){
             console.log("Endonym works!")
-            var endonyms = ""
+            var endonym = ""
             mx = Math.min(language.length, 1)
             for(i=0;i<mx;i++){
-              endonyms = endonyms.concat(language[i],"<br>")
+              endonym = endonym.concat(language[i],"<br>")
+            }
+            if(endonyms.includes(" ")){
+              endonym = endonym.split(" ")[0]
             }
             document.getElementById("question").innerHTML = "What language is shown in the <u>text</u> below?<br><br>" + endonyms
           } else {
