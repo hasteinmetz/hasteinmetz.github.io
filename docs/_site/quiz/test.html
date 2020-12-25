@@ -349,7 +349,7 @@
       }
 
       function randomqtype(){
-        var ran_key = randomno(3);
+        var ran_key = randomno(2);
         var questiontypes = ["where", "what", "name"]
         return(questiontypes[ran_key]);
       };
@@ -470,7 +470,7 @@
           array.push(tmp);
         }
         console.log("getquestion3 " + String(ques[1]) + " " + String(array))
-        return([ques[0], array, q[1]]);
+        return([ques[0], array, ques[1]]);
       };
 
       function getquestion(){
@@ -569,7 +569,7 @@
           prevq.push(language);
         } else {
           language = q[0];
-          prevq.push(q[2);
+          prevq.push(q[2]);
         }
         correct = q[1][0];
         answers = randompos(q[1], qarray, q[1].length);
