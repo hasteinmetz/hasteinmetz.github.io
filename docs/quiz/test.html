@@ -187,12 +187,12 @@ description: "Test your knowledge of language families! Learn something new!"
 
       function randomans(array, d){
         if(d=="easy"){
-          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          var l2 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         } else {
-          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          var l2 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         }
-        console.log("filtered: ", l1)
-        let keys = Object.keys(l1);
+        console.log("filtered: ", l2)
+        let keys = Object.keys(l2);
         let ran_key = randomno(keys.length);
         let ran_lang = String(keys[ran_key]);
         let tmp = l1[ran_lang]["mainfam"];
@@ -226,9 +226,9 @@ description: "Test your knowledge of language families! Learn something new!"
           retries++
           return(randomc())
         } else {
-          let places = languages[language]["vplaces"]
-          let place = languages[language]["vplaces"][0]
-          let pre = place.slice(0,3)
+          var places = languages[language]["vplaces"]
+          var place = languages[language]["vplaces"][0]
+          var pre = place.slice(0,3)
           if(language.includes(pre)){
             retries++
             return(randomc())
@@ -252,9 +252,9 @@ description: "Test your knowledge of language families! Learn something new!"
 
       function findc(array, d, otherplaces){
         if(d=="easy"){
-          let l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
+          var l2 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         } else {
-          let l1 = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]));
+          var l2 = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]));
         }
         console.log("filtered: ", l1)
         let keys = Object.keys(l1);
