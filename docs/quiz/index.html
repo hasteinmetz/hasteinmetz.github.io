@@ -593,13 +593,10 @@ description: "Test your knowledge of language families! Learn something new!"
             for(i=0;i<mx;i++){
               endonym = endonym.concat(language[i],"<br>")
             }
-            if(endonym.includes(" ")){
-              endonym = endonym.split(" ")[0]
-            }
-            if(endonym.charCodeAt(0)>128){
+            if(endonym.charCodeAt(0)>400){
               let tmp = endonym;
               for(c=0;c<endonym.length;c++){
-                if(endonym.charCodeAt(c)<128){
+                if(endonym.charCodeAt(c)<400){
                   tmp = tmp.slice(0,c)
                   break
                 }
