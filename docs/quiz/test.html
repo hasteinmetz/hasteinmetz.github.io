@@ -593,10 +593,20 @@ description: "Test your knowledge of language families! Learn something new!"
             for(i=0;i<mx;i++){
               endonym = endonym.concat(language[i],"<br>")
             }
-            if(endonyms.includes(" ")){
+            if(endonym.includes(" ")){
               endonym = endonym.split(" ")[0]
             }
-            document.getElementById("question").innerHTML = "What language is shown in the <u>text</u> below?<br><br>" + endonyms
+            if(endonym.charCodeat(c)>128){
+              let tmp = endonym;
+              for(c=0;c<endonym.length,c++){
+                if(endonym.charCodeat(c)<128){
+                  tmp = tmp.slice(0,c)
+                  break
+                }
+              }
+              endonym = tmp
+            }
+            document.getElementById("question").innerHTML = "What language is shown in the <u>text</u> below?<br><br>" + endonym
           } else {
             nextquestion()
           }
