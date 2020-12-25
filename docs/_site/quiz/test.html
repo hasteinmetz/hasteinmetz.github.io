@@ -68,6 +68,7 @@
     var difficulty = ["easy", "medium", "hard", "very hard", "super hard", "whizkid"];
     var sensible = ["easy", "medium", "hard"];
     var tough = ["hard", "very hard", "super hard", "whizkid"];
+    var script;
     const validlangs = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]))
     const sensiblelangs = filterlanguages(validlangs, "difficulty", (a) => sensible.includes(a["difficulty"]))
     console.log("No. valid languages: ", Object.keys(validlangs).length)
@@ -304,6 +305,33 @@
         }
       }
 
+      function checksc(arr1, arr2){
+        if(arr1.includes("Arabic")){
+          return("Arabic")
+        }
+        if(arr1.includes("Cyrillic")){
+          return("Cyrillic")
+        }
+        if(arr1.includes("Latin")){
+          return("Latin")
+        }
+        if(arr2.includes("India")){
+          return("India")
+        } else {
+          return(arr1[0])
+        }
+      }
+
+      function checksc2(lan){
+        if(languages[lan]["scripts"] && languages[lan]["scripts"]!="NA"){
+          var sc = languages[lan]["scripts"]
+          scr = checksc(sc, languages[lan]["vplaces"])
+          return(scr)
+        } else {
+          return
+        }
+      }
+
       function randomn(){
         if(retries>10){
           return("handleerror")
@@ -323,6 +351,7 @@
         if(!prevq.includes(language)){
           if(difficultyarr.includes(languages[language]["difficulty"])){
             console.log("endos = ", endos)
+            scripts = checksc2(language)
             return([endos, language]);
           } else {
             retries++
@@ -335,6 +364,7 @@
         }
       };
 
+      // by script
       function findl(array, d){
         if(d=="easy"){
           var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
@@ -345,10 +375,21 @@
         var keys = Object.keys(l1);
         var ran_key = randomno(keys.length);
         var ran_lang = String(keys[ran_key]);
-        var pos = ran_lang.indexOf(" language")
-        var lang = ran_lang.slice(0, pos)
+        var scri = checksc2(ran_lang)
+        if(ran_lang.includes("language")){
+          var pos = String(ran_lang.indexOf(" language"))
+          var lang = ran_lang.slice(0, pos)
+        }
+        else {
+          var lang = ran_lang
+        }
         if(lang=="N" || lang=="NA" || array.includes(lang)){
           return findl(array, d);
+        }
+        if(scripts){
+          if(scripts!="Latin" && scripts!="latin" && scripts==scri){
+            return findl(array, d);
+          }
         }
         console.log("ans", lang)
         return lang
@@ -462,8 +503,8 @@
         return([ques[0], array]);
       };
 
-      // get rid of "language" in answers
-      // need to get script and fix that
+      var text;
+
       function getquestion3(){
         var array = []
         var ques = randomn()
@@ -473,6 +514,7 @@
         } else {
           dif = "tough"
         }
+        text = ques[1]
         if(ques[1].includes("language")){
           var pos = String(ques[1].indexOf(" language"))
           var lang = ques[1].slice(0, pos)
@@ -556,7 +598,7 @@
           if(Array.isArray(language) || language instanceof Array){
             console.log("Endonym works!")
             var endonyms = ""
-            mx = Math.min(language.length, 3)
+            mx = Math.min(language.length, 1)
             for(i=0;i<mx;i++){
               endonyms = endonyms.concat(language[i],"<br>")
             }
@@ -636,7 +678,11 @@
       // Click events
       window.onclick = function(event) {
         if (event.target.matches('button.submit')) {
-          ref = "Read more about " + language + " on <a href=" + moreinfo + " target=\"_blank\">Wikipedia</a>";
+          if(type=="name"){
+            ref = "Read more about " + text + " on <a href=" + moreinfo + " target=\"_blank\">Wikipedia</a>";
+          } else {
+            ref = "Read more about " + language + " on <a href=" + moreinfo + " target=\"_blank\">Wikipedia</a>";
+          }
           if(lives>0){
             if(event.target.textContent == correct){
               addition = determinescore()
