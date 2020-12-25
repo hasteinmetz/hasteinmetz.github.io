@@ -256,8 +256,8 @@ description: "Test your knowledge of language families! Learn something new!"
         } else {
           var l2 = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]));
         }
-        console.log("filtered: ", l1)
-        let keys = Object.keys(l1);
+        console.log("filtered: ", l2)
+        let keys = Object.keys(l2);
         let ran_key = randomno(keys.length);
         let ran_lang = String(keys[ran_key]);
         let place = l1[ran_lang]["vplaces"][0];
