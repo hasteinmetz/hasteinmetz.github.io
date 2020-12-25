@@ -90,8 +90,8 @@
       }
 
       function removelang(str){
-        let string = split(str);
-        let result = [];
+        var string = split(str);
+        var result = [];
         var resstring = ""
         for(i=0;i<string.length;i++){
           tmp = string[i];
@@ -107,11 +107,11 @@
       }
 
       function filterlanguages(obj, prop, predicate) {
-        let keys = Object.keys(obj);
-        let newobj = {};
+        var keys = Object.keys(obj);
+        var newobj = {};
         for (key in keys){
           lang = keys[key]
-          let tmp = obj[lang]
+          var tmp = obj[lang]
           if(prop in tmp && predicate(tmp)){
             newobj[lang] = tmp;
           }
@@ -124,30 +124,30 @@
       var ref;
 
       function filt(){
-        let difficultyarr = difficultyallowed(numcorrect)
-        let languagesnew = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
+        var difficultyarr = difficultyallowed(numcorrect)
+        var languagesnew = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
         console.log("filtered: ", languagesnew)
-        let keys = Object.keys(languagesnew)
+        var keys = Object.keys(languagesnew)
         console.log("filtered by: ", difficultyallowed(), " no. languages:", keys.length)
-        let language = keys[randomno(keys.length)];
+        var language = keys[randomno(keys.length)];
         console.log("lang = ", language)
         return(language)
       }
 
       function filt_cust(predicate){
-        let difficultyarr = difficultyallowed(numcorrect)
-        let l1 = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
-        let languagesnew = filterlanguages(l1, "vplaces", predicate);
+        var difficultyarr = difficultyallowed(numcorrect)
+        var l1 = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
+        var languagesnew = filterlanguages(l1, "vplaces", predicate);
         console.log("filtered: ", languagesnew)
-        let keys = Object.keys(languagesnew)
+        var keys = Object.keys(languagesnew)
         console.log("filtered by: ", difficultyallowed(), " no. languages:", keys.length)
-        let language = keys[randomno(keys.length)];
+        var language = keys[randomno(keys.length)];
         console.log("lang = ", language)
         return(language)
       }
 
       function randomq(){
-        let language = filt()
+        var language = filt()
         var difficultyarr = difficultyallowed(numcorrect)
         var languagefam = languages[language]["mainfam"];
         moreinfo = languages[language]["link"];
@@ -200,10 +200,10 @@
           var l2 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
         }
         console.log("filtered: ", l2)
-        let keys = Object.keys(l2);
-        let ran_key = randomno(keys.length);
-        let ran_lang = String(keys[ran_key]);
-        let tmp = l2[ran_lang]["mainfam"];
+        var keys = Object.keys(l2);
+        var ran_key = randomno(keys.length);
+        var ran_lang = String(keys[ran_key]);
+        var tmp = l2[ran_lang]["mainfam"];
         var famex = famexcept(tmp, array[0])
         console.log("Family Except:" + famex + " " + tmp + array[0])
         if(array.includes(tmp) || exceptions(tmp)==0 || famex==1){
@@ -227,7 +227,7 @@
         if(retries>10){
           return("handleerror")
         }
-        let language = filt_cust((a) => a["vplaces"]!="NA")
+        var language = filt_cust((a) => a["vplaces"]!="NA")
         console.log("places = ", language)
         var difficultyarr = difficultyallowed(numcorrect);
         if(languages[language]["vplaces"]=="NA" || languages[language]["vplaces"][0]=="NA"){
@@ -265,18 +265,18 @@
           var l2 = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]));
         }
         console.log("filtered: ", l2)
-        let keys = Object.keys(l2);
-        let ran_key = randomno(keys.length);
-        let ran_lang = String(keys[ran_key]);
-        let place = l2[ran_lang]["vplaces"][0];
-        let corplace = otherplaces[0];
-        let lang2 = ran_lang.split(" ")[0]
+        var keys = Object.keys(l2);
+        var ran_key = randomno(keys.length);
+        var ran_lang = String(keys[ran_key]);
+        var place = l2[ran_lang]["vplaces"][0];
+        var corplace = otherplaces[0];
+        var lang2 = ran_lang.split(" ")[0]
         if(lang2 in lang_js){
           var lang_js_places = lang_js[lang2]
         } else {
           var lang_js_places = ["NA"]
         }
-        if(otherplaces.includes(place) || place=="N" || lang_js_places.includes(place)){
+        if(otherplaces.includes(place) || array.includes(place) || place=="N" || lang_js_places.includes(place)){
           return findc(array, d, otherplaces);
         }
         console.log("ans", place)
@@ -297,10 +297,10 @@
         if(retries>10){
           return("handleerror")
         }
-        let language = filt_cust((a) => a["endonym"]!="NA")
+        var language = filt_cust((a) => a["endonym"]!="NA")
         console.log("places = ", language)
-        let difficultyarr = difficultyallowed(numcorrect);
-        let moveforward = checkendo(languages[language]["endonym"])
+        var difficultyarr = difficultyallowed(numcorrect);
+        var moveforward = checkendo(languages[language]["endonym"])
         if(languages[language]["endonym"]=="NA" || moveforward =="T"){
           retries++;
           return(randomn())
@@ -334,11 +334,13 @@
         var keys = Object.keys(l1);
         var ran_key = randomno(keys.length);
         var ran_lang = String(keys[ran_key]);
-        if(ran_lang=="N" || ran_lang=="NA"){
+        var pos = ran_lang.indexOf(" language")
+        var lang = ran_lang.slice(0, pos)
+        if(lang=="N" || lang=="NA" || array.includes(lang)){
           return findn(array, d);
         }
-        console.log("ans", ran_lang)
-        return ran_lang
+        console.log("ans", lang)
+        return lang
       }
 
       function subarray(array, start, finish){
