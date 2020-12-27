@@ -657,81 +657,88 @@
         x.style.display="none"
       }
 
-      // don't listen to keyboard presses
+      // only listen for some keyboard presses
       addEventListener("keydown", function(event) {
-        if (mod.classList.contains('show') && lives==0) {
-          togglemodal();
-          load();
+        var code = event.which || event.keyCode;
+        console.log(code==32);
+        if(code===32 || code===13){
+          if (mod.classList.contains('show') && lives==0) {
+            togglemodal();
+            load();
+            return;
+          }
+          else if (mod.classList.contains('show')) {
+            togglemodal();
+            return;
+          }
+          else {
+            return;
+          }
+        } else {
           return;
         }
-        else if (mod.classList.contains('show')) {
-          togglemodal();
-          return;
-        }
-        else {
-          return;
-        }
-      });
-      addEventListener("keyup", function(event) {
-        return;
       });
 
-      // Click events
-      window.onclick = function(event) {
-        if (event.target.matches('button.submit')) {
-          if(type=="name"){
-            ref = "Read more about " + text + " on <a href=" + moreinfo + " target=\"_blank\">Wikipedia</a>";
-          } else {
-            ref = "Read more about " + language + " on <a href=" + moreinfo + " target=\"_blank\">Wikipedia</a>";
-          }
-          if(lives>0){
-            if(event.target.textContent == correct){
-              // rightsound.play()
-              addition = determinescore()
-              score = score + addition;
-              numcorrect += 1;
-              feedback = "Correct! Nice job :) <br>Current score: " + score
-              removeblur(qno);
-              togglemodal();
-              nextquestion();
-              return
+        addEventListener("keyup", function(event) {
+          return;
+        });
+
+        // Click events
+        window.onclick = function(event) {
+          if (event.target.matches('button.submit')) {
+            if(type=="name"){
+              ref = "Read more about " + text + " on <a href=" + moreinfo + " target=\"_blank\">Wikipedia</a>";
             } else {
-              lives -= 1;
-              if(lives>0){
-                // downsound.play()
-                feedback = "Incorrect... Better luck on the next one! <br>Current score: " + score + "<br>The correct answer is: " + correct
+              ref = "Read more about " + language + " on <a href=" + moreinfo + " target=\"_blank\">Wikipedia</a>";
+            }
+            if(lives>0){
+              if(event.target.textContent == correct){
+                // rightsound.play()
+                addition = determinescore()
+                score = score + addition;
+                numcorrect += 1;
+                feedback = "Correct! Nice job :) <br>Current score: " + score
                 removeblur(qno);
                 togglemodal();
                 nextquestion();
                 return
-              }
-              else{
-                document.getElementById("lives").innerHTML = "Lives: " + String(lives)
-                document.getElementsByClassName("continue")[0].textContent = "Play Again?"
-                feedback = "The correct answer is: " + correct + "<br>All out of lives :( <br>You scored: " + String(score)
-                if(score > highscore){
-                  highscore = score;
-                  document.getElementById("hscore").innerHTML = "High Score: " + String(lives)
+              } else {
+                lives -= 1;
+                if(lives>0){
+                  // downsound.play()
+                  feedback = "Incorrect... Better luck on the next one! <br>Current score: " + score + "<br>The correct answer is: " + correct
+                  removeblur(qno);
+                  togglemodal();
+                  nextquestion();
+                  return
                 }
-                removeblur(qno);
-                togglemodal();
-                return
+                else{
+                  document.getElementById("lives").innerHTML = "Lives: " + String(lives)
+                  document.getElementsByClassName("continue")[0].textContent = "Play Again?"
+                  feedback = "The correct answer is: " + correct + "<br>All out of lives :( <br>You scored: " + String(score)
+                  if(score > highscore){
+                    highscore = score;
+                    document.getElementById("hscore").innerHTML = "High Score: " + String(lives)
+                  }
+                  removeblur(qno);
+                  togglemodal();
+                  return
+                }
               }
             }
           }
-        }
-        if (mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)) {
-          removeblur(qno);
-          togglemodal();
-          load();
-          return
-        }
-        else if (mod.classList.contains('show') && (event.target.matches('.continue') || event.target == mod)) {
-          removeblur(qno);
-          togglemodal();
-          return
-        }
-      };
+          if (mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)) {
+            removeblur(qno);
+            togglemodal();
+            load();
+            return
+          }
+          else if (mod.classList.contains('show') && (event.target.matches('.continue') || event.target == mod)) {
+            removeblur(qno);
+            togglemodal();
+            return
+          }
+        };
 
       function togglemodal(){
         console.log("modal activated")
