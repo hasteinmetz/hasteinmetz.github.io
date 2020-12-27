@@ -7,5 +7,9 @@
 /wiki/Georgian_language
 /wiki/Persian_language
 /wiki/Chuj_language
+/wiki/Serbo-Croatian
+/wiki/Basque_language
+/wiki/Hungarian_language
+
 
 

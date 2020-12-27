@@ -141,6 +141,8 @@ def finddiff(speakers, v):
     else:
         mid = 50
         high = 100
+    if "billion" in speakers.lower():
+        return("easy")
     if "million" in speakers.lower() or number >= 1000000:
         if "million" in speakers.lower() and number > 10000 and number < 1000000:
             number = 1 # handles known exception of Mon Language
@@ -157,7 +159,10 @@ def finddiff(speakers, v):
     else:
         if number > 0 and number < 1000000:
             if number >= 100000 and number < 1000000:
-                difficulty = "very hard"
+                if v=="euro":
+                    difficulty = "hard"
+                else:
+                    difficulty = "very hard"
             if number >= 10000 and number < 100000:
                 difficulty = "super hard"
             if number >= 0 and number < 10000:
@@ -203,6 +208,7 @@ def scrape(wikipg, countries, dict):
     difficulty = "NA"
     link = "NA"
     off = "NA"
+    region = "NA"
     endonyms = []
     endo = []
     scripts = []
@@ -299,27 +305,38 @@ def scrape(wikipg, countries, dict):
                 alphabetlinks = row.find_all("a", href=True)
                 for alinks in alphabetlinks:
                     linktxt = alinks.text.lower()
-                    if not "braille" in linktxt.lower() and not "writing system" in linktxt.lower():
+                    if not "braille" in linktxt.lower() and not "writing system" in linktxt.lower() and linktxt.lower()!="":
                         if reducebyfunc(lambda x, y : x or y, [a in linktxt.lower() for a in arabic]):
                             scripts.append("Arabic")
                             scripts.append("("+linktxt+")")
                         else:
                             scripts.append(linktxt)
+        colonial = ["French", "German", "Portuguese", "English", "Spanish"]
+        col = reducebyfunc(lambda x,y : x or y, [c in title for c in colonial])
         if endo:
             endonyms1 = endo
-            if title not in ["Serbo-Croatian", "Serbian", "Vietnamese"] and languagefam not in ["Austronesian"]:
+            if not reducebyfunc(lambda x,y : x or y, [t in title for t in ["Serbo", "Serbian", "Vietnamese"]]) and languagefam not in ["Austronesian"]:
                 endonyms = findnl(endonyms1, 5)
         else:
             endonyms = "NA"
-        if vplaces != "NA":
-            if title in ["French language", "German language", "Portuguese language", "English language", "Spanish language"]:
+        if not vplaces == "NA":
+            if col:
                 euro="T"
             else:
                 euro="F"
             vplaces = quicksort_by_dict(vplaces, countrydict, euro, 'population')
-        e1 = {"endonym": endonyms, "scripts": scripts, "speakers": speakers, "vspeakers": vspeakers, "places":places, "vplaces":vplaces, "family":languagefam, "link":wikipg, "official":off}
+            tmpregion = []
+            if countrydict and sam:
+                for pl in vplaces:
+                    if pl in sam:
+                        if countrydict[pl]["continent"]:
+                            tmpregion.append(countrydict[pl]["continent"])
+                            break
+            if tmpregion:
+                region = tmpregion
+        e1 = {"endonym": endonyms, "scripts": scripts, "speakers": speakers, "vspeakers": vspeakers, "places":places, "vplaces":vplaces, "family":languagefam, "link":wikipg, "official":off, "region":region}
         validatefam(e1)
-        e1["difficulty"] = finddiff(e1["speakers"], checkdiff(e1))
+        e1["difficulty"] = finddiff(e1["speakers"], checkdiff(e1, col, countrydict))
         e2 = {title:e1}
         dict.update(e2)
 
@@ -347,12 +364,19 @@ def validatefam(e):
     else:
         e["mainfam"] = "NA"
 
-def checkdiff(thing):
+def checkdiff(thing, col, d):
     if not "mainfam" in thing:
         thing["mainfam"] = "NA"
-    easylang = ["Romance", "Germanic", "Slavic"]
-    if thing["mainfam"] in easylang:
+    if col:
         return("euro")
+    easylang = ["Romance", "Germanic", "Slavic", "Uralic", "Slavic", "Baltic", "Celtic"]
+    if d:
+        if "vplaces" in thing:
+            if thing["vplaces"]!= "NA":
+                for pl in thing["vplaces"]:
+                    if pl in d:
+                        if d[pl]["continent"] == "Europe" and thing["mainfam"] in easylang:
+                            return("euro")
     else:
         return("noneuro")
 
@@ -448,7 +472,7 @@ def main():
         infile = open("languagelinks.txt", "r")
         print("LINKS FILE")
         languagedict = scrapeaway(infile, countries)
-    # fix small errors in scraper
+    # fix small errors manually in scraper
     if setting != "debug":
         languagedict["Khmer language"]["mainfam"] = "Austroasiatic"
         languagedict["Flemish"]["vplaces"] = ["Belgium"]
@@ -456,7 +480,24 @@ def main():
         languagedict["Persian language"]["vplaces"] = ["Iran", "Afghanistan", "Tajikistan"]
         languagedict["Danish language"]["vplaces"] = ["Denmark"]
         languagedict["English language"]["vplaces"] = "NA"
-        languagedict["Khasi language"]["endonym"][0] = "\xe0\xa6\x95\x20\xe0\xa6\x95\xe0\xa7\x8d\xe0\xa6\xa4\xe0\xa7\x8d\xe0\xa6\xaf\xe0\xa7\x87\xe0\xa6\xa8\x20\xe0\xa6\x96\xe0\xa6\xb8\xe0\xa6\xbf"
+        khasi = "\xe0\xa6\x95\x20\xe0\xa6\x95\xe0\xa7\x8d\xe0\xa6\xa4\xe0\xa7\x8d\xe0\xa6\xaf\xe0\xa7\x87\xe0\xa6\xa8\x20\xe0\xa6\x96\xe0\xa6\xb8\xe0\xa6\xbf"
+        try:
+            languagedict["Khasi language"]["endonym"][0] = khasi
+        except:
+            languagedict["Khasi language"]["endonym"] = [khasi]
+        languagedict["Betawi language"]["difficulty"] = "very hard"
+        languagedict["German language"]["difficulty"] = "easy"
+        languagedict["Hungarian language"]["region"] = "Europe"
+        languagedict["Welsh language"]["difficulty"] = "hard"
+        languagedict["Irish language"]["difficulty"] = "hard"
+        languagedict["Scottish Gaelic"]["difficulty"] = "hard"
+        platd = {"endonym": ["Plattd\xc3\xbctsch"],
+        "scripts": ["latin"], "speakers": "10 million", "vspeakers": ["10 million"],
+        "places":["Germany", "Netherlands"], "vplaces":["Germany", "Netherlands"],
+        "family":["Indo-European","Germanic","West Germanic","North Sea Germanic","Low German"],
+        "link":"https://en.wikipedia.org/wiki/Low_German", "region": "Europe", "official":"NA"}
+        platd["difficulty"] = finddiff(platd["speakers"], checkdiff(platd, True, countries["3"]))
+        languagedict.update({"Low German":platd})
     for key in languagedict.keys():
         # corrections for endonyms
         names = languagedict[key]["endonym"]
