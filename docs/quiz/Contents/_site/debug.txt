@@ -1,0 +1,15 @@
+/wiki/Dutch_language
+/wiki/Chinese_language
+/wiki/French_language
+/wiki/German_language
+/wiki/Yiddish_language
+/wiki/Bengali_language
+/wiki/Georgian_language
+/wiki/Persian_language
+/wiki/Chuj_language
+/wiki/Serbo-Croatian
+/wiki/Basque_language
+/wiki/Hungarian_language
+
+
+

@@ -649,8 +649,12 @@ description: "Test your knowledge of language families! Learn something new!"
         x.style.display="none"
       }
 
-      // don't listen to keyboard presses
+      // only listen for some keyboard presses
       addEventListener("keydown", function(event) {
+        var code = event.which || event.keyCode;
+        if(code!=32 || code!=13){
+          return;
+        }
         if (mod.classList.contains('show') && lives==0) {
           togglemodal();
           load();
