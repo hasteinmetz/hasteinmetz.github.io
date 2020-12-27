@@ -124,13 +124,13 @@ description: "Test your knowledge of language families! Learn something new!"
         console.log("filtered by: ", difficultyallowed(), " no. languages:", keys.length)
         var language = keys[randomno(keys.length)];
         console.log("lang = ", language)
-        return(language)
+        return(String(language))
       }
 
-      function filt_cust(predicate){
+      function filt_cust(str, predicate){
         var difficultyarr = difficultyallowed(numcorrect)
         var l1 = filterlanguages(languages, "difficulty", (a) => difficultyarr.includes(a["difficulty"]));
-        var languagesnew = filterlanguages(l1, "vplaces", predicate);
+        var languagesnew = filterlanguages(l1, str, predicate);
         console.log("filtered: ", languagesnew)
         var keys = Object.keys(languagesnew)
         console.log("filtered by: ", difficultyallowed(), " no. languages:", keys.length)
@@ -224,7 +224,7 @@ description: "Test your knowledge of language families! Learn something new!"
         if(retries>7){
           return("handleerror")
         }
-        let language = filt_cust((a) => a["vplaces"]!="NA")
+        let language = filt_cust("vplaces", (a) => a["vplaces"]!="NA")
         let places = languages[language]["vplaces"]
         let place = languages[language]["vplaces"][0]
         console.log("lang = ", language)
@@ -260,7 +260,6 @@ description: "Test your knowledge of language families! Learn something new!"
         }
       };
 
-      // for medium-hard need to filter answers by script "arabic"/"cyrillic"/"India"
       function findc(array, d, otherplaces){
         if(d=="easy"){
           var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
@@ -327,11 +326,11 @@ description: "Test your knowledge of language families! Learn something new!"
         if(retries>10){
           return("handleerror")
         }
-        var language = filt_cust((a) => a["endonym"]!="NA")
+        var language = filt_cust("endonym", (a) => a["endonym"]!="NA")
         console.log("places = ", language)
         var difficultyarr = difficultyallowed(numcorrect);
         var moveforward = checkendo(languages[language]["endonym"])
-        if(languages[language]["endonym"]=="NA" || moveforward =="T"){
+        if(languages[language]["endonym"]=="NA" || moveforward =="T" || languages[language]["endonym"]==[]){
           retries++;
           return(randomn())
         } else {
@@ -356,16 +355,8 @@ description: "Test your knowledge of language families! Learn something new!"
       };
 
       // by script
-      function findl(array, d){
-        if(d=="easy"){
-          var l1 = filterlanguages(languages, "difficulty", (a) => sensible.includes(a["difficulty"]));
-        } else {
-          var l1 = filterlanguages(languages, "difficulty", (a) => difficulty.includes(a["difficulty"]));
-        }
-        console.log("filtered: ", l1)
-        var keys = Object.keys(l1);
-        var ran_key = randomno(keys.length);
-        var ran_lang = String(keys[ran_key]);
+      function findl(array){
+        let ran_lang = filt()
         var scri = checksc2(ran_lang)
         if(ran_lang.includes("language")){
           var pos = String(ran_lang.indexOf(" language"))
@@ -375,11 +366,11 @@ description: "Test your knowledge of language families! Learn something new!"
           var lang = ran_lang
         }
         if(lang=="N" || lang=="NA" || array.includes(lang)){
-          return findl(array, d);
+          return findl(array);
         }
         if(scripts){
           if(scripts!="Latin" && scripts!="latin" && scripts==scri){
-            return findl(array, d);
+            return findl(array);
           }
         }
         console.log("ans", lang)
@@ -502,12 +493,6 @@ description: "Test your knowledge of language families! Learn something new!"
       function getquestion3(){
         var array = []
         var ques = randomn()
-        var dif;
-        if(numcorrect < 30){
-          dif = "easy"
-        } else {
-          dif = "tough"
-        }
         text = ques[1]
         if(ques[1].includes("language")){
           var pos = String(ques[1].indexOf(" language"))
@@ -517,9 +502,10 @@ description: "Test your knowledge of language families! Learn something new!"
           var lang = ques[1]
         }
         array.push(lang)
-        for(i=0; i < (qno - 1); i++){
-          tmp = findl(array, dif);
+        for(k=0; k < (qno - 1); k++){
+          tmp = findl(array);
           array.push(tmp);
+          console.log("q3 array: " + String(array) + " no: " + k)
         }
         console.log("getquestion3 " + String(ques[1]) + " " + String(array))
         return([ques[0], array, ques[1]]);
@@ -646,6 +632,9 @@ description: "Test your knowledge of language families! Learn something new!"
         document.getElementById("hscore").innerHTML = "High Score: " + String(highscore)
       };
 
+      // var rightsound = new sound("Contents/sounds/up.wav", "up")
+      // var downsound = new sound("Contents/sounds/down.wav", "down")
+
       function load(){
         prevq = [];
         lives = 3;
@@ -689,6 +678,7 @@ description: "Test your knowledge of language families! Learn something new!"
           }
           if(lives>0){
             if(event.target.textContent == correct){
+              // rightsound.play()
               addition = determinescore()
               score = score + addition;
               numcorrect += 1;
@@ -700,6 +690,7 @@ description: "Test your knowledge of language families! Learn something new!"
             } else {
               lives -= 1;
               if(lives>0){
+                // downsound.play()
                 feedback = "Incorrect... Better luck on the next one! <br>Current score: " + score + "<br>The correct answer is: " + correct
                 removeblur(qno);
                 togglemodal();
@@ -761,7 +752,25 @@ description: "Test your knowledge of language families! Learn something new!"
         }
       }
 
-      // prevent issue with Tongan lol
+      // sound:
+      // https://www.w3schools.com/graphics/game_sound.asp
+      function sound(src, name) {
+        this.sound = document.createElement("audio");
+        this.sound.src = src;
+        this.sound.setAttribute("preload", "auto");
+        this.sound.setAttribute("controls", "none");
+        this.sound.setAttribute("crossOrigin","anonymous");
+        this.sound.style.display = "none";
+        this.sound.setAttribute("id", name)
+        document.body.appendChild(this.sound);
+        this.play = function(){
+            this.sound.play();
+        }
+        this.stop = function(){
+            this.sound.pause();
+        }
+    }
+
     </script>
     <noscript>
       <META HTTP-EQUIV="Refresh" CONTENT="0;URL=../error.html">
