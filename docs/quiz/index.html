@@ -761,7 +761,7 @@ description: "Test your knowledge of language families! Learn something new!"
                   feedback = "The correct answer is: " + correct + "<br>All out of lives :( <br>You scored: " + String(score)
                   if(score > highscore){
                     highscore = score;
-                    document.getElementById("hscore").innerHTML = "High Score: " + String(lives)
+                    document.getElementById("hscore").innerHTML = String(lives)
                   }
                   removeblur(qno);
                   togglemodal();

@@ -265,6 +265,7 @@ p.m {
 /* Modal Content/Box */
 .modal-content {
   background-color: #FFFFFF;
+  position: fixed;
   margin: 10% auto; /* 15% from the top and centered */
   overflow-y: hidden;
   padding: 20px;
