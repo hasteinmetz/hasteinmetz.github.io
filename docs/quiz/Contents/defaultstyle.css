@@ -222,7 +222,7 @@ p.m {
  }
 
 @media only screen and (min-width: 200px) and (max-width:700px) {
-  p {margin-left: 5%; margin-right: 5%; font-size:26px}
+  p {margin-left: 5%; margin-right: 5%; font-size:16px}
   p.mobile{display: block;}
   h2 {font-size: 20px;}
   .mobilecont{display: block;}
@@ -267,7 +267,7 @@ p.m {
   background-color: #FFFFFF;
   margin: 10% auto; /* 15% from the top and centered */
   overflow-y: hidden;
-  padding: 10px;
+  padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */
 }
