@@ -674,6 +674,7 @@ description: "Test your knowledge of language families! Learn something new!"
 
       var rightsound = new sound("Contents/sounds/up.wav", "up")
       var downsound = new sound("Contents/sounds/down.wav", "down")
+      var losesound = new sound("Contents/sounds/lose.wav", "lose")
 
       function load(){
         prevq = [];
@@ -754,7 +755,7 @@ description: "Test your knowledge of language families! Learn something new!"
                   return
                 }
                 else{
-                  soundplay(downsound)
+                  soundplay(losesound)
                   document.getElementById("lives").innerHTML = String(lives)
                   document.getElementsByClassName("continue")[0].textContent = "Play Again?"
                   feedback = "The correct answer is: " + correct + "<br>All out of lives :( <br>You scored: " + String(score)
