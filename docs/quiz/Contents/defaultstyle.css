@@ -14,7 +14,7 @@ h1 {
 }
 h2 {
   font-family: "Trebuchet MS";
-  font-size:36px;
+  font-size:28px;
   letter-spacing: 5px;
   word-spacing: 8px;
   margin-bottom: 2%;
@@ -27,10 +27,8 @@ p {
   font-size:18px;
   word-spacing: 2px;
   line-height: 1.5;
-  margin-left: 20%;
-  margin-right: 20%;
  }
- p.main {
+p.main {
  font-family: "Trebuchet MS", Helvetica, sans-serif;
  font-size:18px;
  word-spacing: 2px;
@@ -42,6 +40,15 @@ img {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+img.sound {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 50px;
+  position: absolute;
+  padding: 10px;
+  z-index: 1;
 }
 .block {
   display: inline-block;
@@ -56,12 +63,9 @@ img {
   margin-bottom: 2%;
 }
 div.image{
-  height: 50vh;
-  width: 80vw;
   margin:auto;
-  align-items: center;
-  justify-content: center;
-  display: inline-block;
+  float: right;
+  display: block;
 }
 div.pdf{
   text-align: center;
@@ -208,12 +212,19 @@ h3 {
   clear: both;
 }
 
-p.m{}
+p.m {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size:18px;
+  word-spacing: 2px;
+  line-height: 1.5;
+  margin-left: 5%;
+  margin-right: 5%;
+ }
 
 @media only screen and (min-width: 200px) and (max-width:700px) {
   p {margin-left: 5%; margin-right: 5%; font-size:26px}
   p.mobile{display: block;}
-  h1 {font-size: 20px;}
+  h2 {font-size: 20px;}
   .mobilecont{display: block;}
   .mobileblock{display: inline-block;}
   .column1{width:100%; padding: 2% 5% 2% 5%}
@@ -221,7 +232,7 @@ p.m{}
   img{max-height: 40vh}
   div.center{margin-left: 5%; margin-right: 5%;}
   button.submit{font-size: 23px;}
-  p.m{font-size: 20px}
+  p.m{margin-left: 5%; margin-right: 5%;font-size: 20px}
 }
 
 
@@ -231,6 +242,7 @@ p.m{}
   width: 100%;
   top:0;
   left: 0;
+  z-index: 2;
   background-color: #FFFFFF;
   display: block;
 }
@@ -239,11 +251,12 @@ p.m{}
 .modal {
   display: none; /* Hidden by default */
   position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+  z-index: 2; /* Sit on top */
   left: 0;
   top: 0;
   width: 100%; /* Full width */
   height: 100%; /* Full height */
+  position: fixed;
   overflow: auto; /* Enable scroll if needed */
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.1); /* Black w/ opacity */
@@ -253,6 +266,7 @@ p.m{}
 .modal-content {
   background-color: #FFFFFF;
   margin: 10% auto; /* 15% from the top and centered */
+  overflow-y: hidden;
   padding: 20px;
   border: 1px solid #888;
   width: 80%; /* Could be more or less, depending on screen size */

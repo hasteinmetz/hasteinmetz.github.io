@@ -19,7 +19,7 @@
 </head>
 <body onload="load();">
   <div class="title">
-    <h1>World Languages Quiz (Work in Progress)</h1>
+    <h2>World Languages Quiz (Work in Progress)</h2>
   </div>
   <div class="modal">
     <div class="modal-content">
@@ -27,6 +27,25 @@
         <p class="m" id="feedback"></p><br>
         <p class="m" id="moreinfo"><a href="#" target="_blank">Wikipedia</a></p><br>
         <button class="continue">>></button>
+      </div>
+    </div>
+  </div>
+  <div class="modal">
+    <div class="modal-content">
+      <div class="center">
+        <p class="m" id="intro">
+          Test your knowledge of the world's languages!<br><br>
+          </p>
+        <p class="m" style="text-align: left;" id="intro">
+          Answer the questions to get points. You have 3 lives. You lose a life with each wrong answer.<br><br>
+          The questions get harder each time you answer correctly, but harder questions also give you more points!<br><br>
+          You can see your lives, your current score, and your, high score at the bottom of the screen.<br><br>
+          You can click the little speaker to mute or unmute the sounds effects.<br><br>
+          </p>
+        <p class="m" id="intro">
+          Good luck!<br>
+        </p>
+        <button class="continue">Let's get started! >></button>
       </div>
     </div>
   </div>
@@ -47,15 +66,28 @@
       <button type="submit" class="submit" id="q.4"></button>
       <br>
       <button type="submit" class="submit" id="q.5"></button>
-      <br><br><br>
-      <p class="center" id='difficulty'></p>
-      <br>
-      <p class="center" id='lives'></p>
-      <br>
-      <p class="center" id='score'></p>
-      <br>
-      <p class="center" id='hscore'></p>
-    </div>
+      <br><br>
+      <div style="width: 90%; overflow:hidden;z-index:1;" id="sound_img">
+        <div class="image">
+          <img class = "sound" src="Contents/sound_on_icon.png" id="sound" alt="sound_toggle">
+        </div>
+      </div><br>
+        <table class="center">
+          <tr>
+            <th><p style="text-align:left;">Lives:&emsp;&emsp;</p></th>
+            <th><p class="center" id='lives'></p></th>
+          </tr>
+          <tr>
+            <td><p style="text-align:left;">Score:&emsp;&emsp;</p></td>
+            <td><p class="center" id='score'></p></td>
+          </tr>
+          <tr>
+            <td><p style="text-align:left;">High Score:&emsp;&emsp;</p></td>
+            <td><p class="center" id='hscore'></p></td>
+          </tr>
+        </table>
+        <br>
+      </div>
   <script src="Contents/languages1.js"></script>
   <script>
     //to do:
@@ -338,7 +370,11 @@
         console.log("places = ", language)
         var difficultyarr = difficultyallowed(numcorrect);
         var moveforward = checkendo(languages[language]["endonym"])
-        if(languages[language]["endonym"]=="NA" || moveforward =="T" || languages[language]["endonym"]==[]){
+        if(typeof languages[language]["endonym"]==='undefined'){
+          retries++;
+          return(randomn())
+        }
+        if(languages[language]["endonym"]==="NA" || moveforward==="T" || languages[language]["endonym"]===[]){
           retries++;
           return(randomn())
         } else {
@@ -619,6 +655,10 @@
       var feedback;
       var type;
       var mod = document.getElementsByClassName("modal")[0];
+      var intro = document.getElementsByClassName("modal")[1];
+      var openedpg = 0;
+      var soundon = 1;
+      var icon = document.getElementById("sound");
 
       function replacetext(){
         var q = getquestion();
@@ -635,13 +675,13 @@
       // need interactive elements (click, check correct, etc.)
 
       function getscore(){
-        document.getElementById("score").innerHTML = "Score: " + String(score)
-        document.getElementById("lives").innerHTML = "Lives: " + String(lives)
-        document.getElementById("hscore").innerHTML = "High Score: " + String(highscore)
+        document.getElementById("score").innerHTML = String(score)
+        document.getElementById("lives").innerHTML = String(lives)
+        document.getElementById("hscore").innerHTML = String(highscore)
       };
 
-      // var rightsound = new sound("Contents/sounds/up.wav", "up")
-      // var downsound = new sound("Contents/sounds/down.wav", "down")
+      var rightsound = new sound("Contents/sounds/up.wav", "up")
+      var downsound = new sound("Contents/sounds/down.wav", "down")
 
       function load(){
         prevq = [];
@@ -653,6 +693,10 @@
         replacetext();
         setqtext(qno, answers, language)
         getscore();
+        if(openedpg===0){
+          toggleintro()
+          openedpg = 1
+        }
         var x = document.getElementById("cover");
         x.style.display="none"
       }
@@ -685,6 +729,11 @@
 
         // Click events
         window.onclick = function(event) {
+          var e = event.target
+          console.log(e)
+          if (event.target.id==="sound_img" || event.target.id==="sound" || event.target.matches("div.image")) {
+            soundtoggle()
+          }
           if (event.target.matches('button.submit')) {
             if(type=="name"){
               ref = "Read more about " + text + " on <a href=" + moreinfo + " target=\"_blank\">Wikipedia</a>";
@@ -693,7 +742,7 @@
             }
             if(lives>0){
               if(event.target.textContent == correct){
-                // rightsound.play()
+                soundplay(rightsound)
                 addition = determinescore()
                 score = score + addition;
                 numcorrect += 1;
@@ -705,7 +754,7 @@
               } else {
                 lives -= 1;
                 if(lives>0){
-                  // downsound.play()
+                  soundplay(downsound)
                   feedback = "Incorrect... Better luck on the next one! <br>Current score: " + score + "<br>The correct answer is: " + correct
                   removeblur(qno);
                   togglemodal();
@@ -713,7 +762,8 @@
                   return
                 }
                 else{
-                  document.getElementById("lives").innerHTML = "Lives: " + String(lives)
+                  soundplay(downsound)
+                  document.getElementById("lives").innerHTML = String(lives)
                   document.getElementsByClassName("continue")[0].textContent = "Play Again?"
                   feedback = "The correct answer is: " + correct + "<br>All out of lives :( <br>You scored: " + String(score)
                   if(score > highscore){
@@ -726,6 +776,11 @@
                 }
               }
             }
+          }
+          if (intro.classList.contains('show') && (event.target.matches('.continue') || event.target == intro)) {
+            removeblur(qno);
+            toggleintro();
+            return
           }
           if (mod.classList.contains('show') && lives==0 && (event.target.matches('.continue') || event.target == mod)) {
             removeblur(qno);
@@ -740,6 +795,27 @@
           }
         };
 
+      function soundtoggle(){
+        console.log("toggling sound");
+        if(soundon===1){
+          soundon = 0
+          downsound.muted = true;
+          rightsound.muted = true;
+          icon.src = "Contents/no_sound_icon.png"
+        } else {
+          soundon = 1
+          downsound.muted = false;
+          rightsound.muted = false;
+          icon.src = "Contents/sound_on_icon.png"
+        }
+      }
+
+      function soundplay(sound){
+        if(soundon===1){
+          sound.play()
+        }
+      }
+
       function togglemodal(){
         console.log("modal activated")
         var f = document.getElementById("feedback")
@@ -747,6 +823,13 @@
         f.innerHTML = feedback;
         l.innerHTML = ref;
         mod.classList.toggle("show");
+        removeblur(qno);
+      }
+
+      function toggleintro(){
+        openedpg += 1
+        console.log("intro activated")
+        intro.classList.toggle("show");
         removeblur(qno);
       }
 
