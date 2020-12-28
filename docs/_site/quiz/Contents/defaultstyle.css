@@ -222,7 +222,7 @@ p.m {
  }
 
 @media only screen and (min-width: 200px) and (max-width:700px) {
-  p {margin-left: 5%; margin-right: 5%; font-size:26px}
+  p {margin-left: 5%; margin-right: 5%; font-size:16px}
   p.mobile{display: block;}
   h2 {font-size: 20px;}
   .mobilecont{display: block;}

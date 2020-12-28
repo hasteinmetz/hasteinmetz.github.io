@@ -37,15 +37,15 @@
           Test your knowledge of the world's languages!<br><br>
           </p>
         <p class="m" style="text-align: left;" id="intro">
-          Answer the questions to get points. You have 3 lives. You lose a life with each wrong answer.<br><br>
-          The questions get harder each time you answer correctly, but harder questions also give you more points!<br><br>
-          You can see your lives, your current score, and your, high score at the bottom of the screen.<br><br>
+          Answer the questions to get points. You have 3 lives. You lose a life with each wrong answer.<br style="line-height: 10px" /><br style="line-height: 10px" />
+          The questions get harder each time you answer correctly, but harder questions also give you more points!<br style="line-height: 10px" /><br style="line-height: 10px" />
+          You can see your lives, your current score, and your, high score at the bottom of the screen.<br style="line-height: 10px" /><br style="line-height: 10px" />
           You can click the little speaker to mute or unmute the sounds effects.<br><br>
           </p>
         <p class="m" id="intro">
           Good luck!<br>
         </p>
-        <button class="continue">Let's get started! >></button>
+        <button class="continue">Let's get started!</button><br>
       </div>
     </div>
   </div>
@@ -380,6 +380,14 @@
         } else {
           var endos = languages[language]["endonym"]
         }
+        var pre = endos[0].slice(0,5).toLowerCase()
+        var langsl = language.slice(0,5).toLowerCase()
+        var langlower = language.toLowerCase()
+        if(langlower.includes(pre) || endos[0].includes(langsl)){
+          console.log("pre: " + pre)
+          retries++
+          return(randomn())
+        }
         moreinfo = languages[language]["link"];
         console.log("link = ", moreinfo)
         if(!prevq.includes(language)){
@@ -682,6 +690,7 @@
 
       var rightsound = new sound("Contents/sounds/up.wav", "up")
       var downsound = new sound("Contents/sounds/down.wav", "down")
+      var losesound = new sound("Contents/sounds/lose.wav", "lose")
 
       function load(){
         prevq = [];
@@ -762,13 +771,13 @@
                   return
                 }
                 else{
-                  soundplay(downsound)
+                  soundplay(losesound)
                   document.getElementById("lives").innerHTML = String(lives)
                   document.getElementsByClassName("continue")[0].textContent = "Play Again?"
                   feedback = "The correct answer is: " + correct + "<br>All out of lives :( <br>You scored: " + String(score)
                   if(score > highscore){
                     highscore = score;
-                    document.getElementById("hscore").innerHTML = "High Score: " + String(lives)
+                    document.getElementById("hscore").innerHTML = String(lives)
                   }
                   removeblur(qno);
                   togglemodal();
