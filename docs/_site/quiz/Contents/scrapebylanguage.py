@@ -493,6 +493,8 @@ def main():
             languagedict["Azerbaijani language"]["endonym"][0] = u"Az\u0259rbaycan dili"
         except:
             languagedict["Azerbaijani language"]["endonym"] = [u"Az\u0259rbaycan dili"]
+        try:
+            languagedict["Aymara language"]["mainfam"] = "NA"
         languagedict["Betawi language"]["difficulty"] = "very hard"
         languagedict["German language"]["difficulty"] = "easy"
         languagedict["Hungarian language"]["region"] = "Europe"

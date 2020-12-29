@@ -2255,7 +2255,7 @@ var languages = {
             "Chile",
             "Bolivia"
         ],
-        "mainfam": "Aymaran"
+        "mainfam": "NA"
     },
     "Berta language": {
         "vspeakers": "370000",
