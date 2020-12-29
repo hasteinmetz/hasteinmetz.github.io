@@ -2255,7 +2255,7 @@
             "Chile", 
             "Bolivia"
         ], 
-        "mainfam": "Aymaran"
+        "mainfam": "NA"
     }, 
     "Berta language": {
         "vspeakers": "370000", 
@@ -4397,7 +4397,7 @@
             "Javanese"
         ], 
         "endonym": [
-            "\ua9a7\ua9b1\ua997\ua9ae\u0628\u0627\u0633\u0627 \u062c\u0627\u0648\u0627Basa Jawa/B\u00e5s\u00e5 J\u00e5w\u00e5"
+            "Basa Jawa"
         ], 
         "region": [
             "Asia"
@@ -4713,29 +4713,6 @@
             "Kuwait"
         ], 
         "mainfam": "Semitic"
-    }, 
-    "Mono language (California)": {
-        "vspeakers": "37", 
-        "speakers": "(37 cited 1994)[1]", 
-        "places": "United States", 
-        "family": [
-            "Uto-Aztecan", 
-            "Numic", 
-            "Western Numic", 
-            "Mono"
-        ], 
-        "endonym": "NA", 
-        "region": [
-            "North America"
-        ], 
-        "official": "NA", 
-        "difficulty": "whizkid", 
-        "link": "https://en.wikipedia.org/wiki/Mono_language_(Native_American)", 
-        "scripts": [], 
-        "vplaces": [
-            "United States"
-        ], 
-        "mainfam": "Uto-Aztecan"
     }, 
     "Ingrian language": {
         "vspeakers": "142", 
@@ -7207,6 +7184,32 @@
         ], 
         "mainfam": "Algonquian"
     }, 
+    "Q\u02bceqchi\u02bc language": {
+        "vspeakers": "800000", 
+        "speakers": "800,000\u00a0(2009)[1]", 
+        "places": "Guatemala, Belize", 
+        "family": [
+            "Mayan", 
+            "Quichean\u2013Mamean", 
+            "Greater Quichean", 
+            "Q\u02bceqchi\u02bc"
+        ], 
+        "endonym": "NA", 
+        "region": [
+            "North America"
+        ], 
+        "official": "NA", 
+        "difficulty": "very hard", 
+        "link": "https://en.wikipedia.org/wiki/Q%CA%BCeqchi%CA%BC_language", 
+        "scripts": [
+            "latin"
+        ], 
+        "vplaces": [
+            "Guatemala", 
+            "Belize"
+        ], 
+        "mainfam": "Mayan"
+    }, 
     "Chiquitano language": {
         "vspeakers": "5900", 
         "speakers": "5,900 in Bolivia\u00a0(2004)[1]", 
@@ -9140,6 +9143,30 @@
         ], 
         "mainfam": "Indo-Aryan"
     }, 
+    "Puma language": {
+        "vspeakers": "6700", 
+        "speakers": "6,700\u00a0(2011 census)[1]", 
+        "places": "NA", 
+        "family": [
+            "Sino-Tibetan", 
+            "Mahakiranti", 
+            "\u00a0?", 
+            "Kiranti", 
+            "Central Kiranti", 
+            "Southern", 
+            "Puma"
+        ], 
+        "endonym": [
+            "\u092a\u0941\u092e\u093e"
+        ], 
+        "region": "NA", 
+        "official": "NA", 
+        "difficulty": "whizkid", 
+        "link": "https://en.wikipedia.org/wiki/Puma_language", 
+        "scripts": [], 
+        "vplaces": "NA", 
+        "mainfam": "Sino-Tibetan"
+    }, 
     "Tok Pisin": {
         "vspeakers": "4 million", 
         "speakers": "120,000\u00a0(2004)[3]4 million L2 speakers (no date)[4]", 
@@ -9502,34 +9529,40 @@
         ], 
         "mainfam": "Kartvelian"
     }, 
-    "Tanacross language": {
-        "vspeakers": "60", 
-        "speakers": "60\u00a0(2007)[1]", 
-        "places": "United States", 
+    "Wakhi language": {
+        "vspeakers": "20000", 
+        "speakers": "(20,000  in Pakistan (2016); 58,000 cited 1992\u20132012)[1]", 
+        "places": "Afghanistan, China, Pakistan, Tajikistan", 
         "family": [
-            "Den\u00e9\u2013Yeniseian", 
-            "Na-Den\u00e9", 
-            "Athabaskan\u2013Eyak", 
-            "Athabaskan", 
-            "Northern Athabaskan", 
-            "Tanacross"
+            "Indo-European", 
+            "Indo-Iranian", 
+            "Iranian", 
+            "Eastern", 
+            "Wakhi"
         ], 
         "endonym": [
-            "Nee\u02bcaand\u011bg\u02bc"
+            "x\u030cik zik", 
+            "x\u030cik zik / \u0425\u030c \u0438\u043a \u0437\u0438\u043a"
         ], 
         "region": [
-            "North America"
+            "Asia"
         ], 
         "official": "NA", 
-        "difficulty": "whizkid", 
-        "link": "https://en.wikipedia.org/wiki/Tanacross_language", 
+        "difficulty": "super hard", 
+        "link": "https://en.wikipedia.org/wiki/Wakhi_language", 
         "scripts": [
-            "latin script"
+            "Arabic", 
+            "(perso-arabic)", 
+            "cyrillic", 
+            "latin"
         ], 
         "vplaces": [
-            "United States"
+            "China", 
+            "Pakistan", 
+            "Afghanistan", 
+            "Tajikistan"
         ], 
-        "mainfam": "Den\u00e9\u2013Yeniseian"
+        "mainfam": "Iranian"
     }, 
     "Monguor language": {
         "vspeakers": "150000", 
@@ -10852,26 +10885,6 @@
         ], 
         "mainfam": "NA"
     }, 
-    "Bissa language": {
-        "vspeakers": "590000", 
-        "speakers": "590,000\u00a0(1999\u20132003)[1]", 
-        "places": "NA", 
-        "family": [
-            "Niger\u2013Congo", 
-            "Mande", 
-            "Eastern", 
-            "Bisa\u2013Busa", 
-            "Bissa"
-        ], 
-        "endonym": "NA", 
-        "region": "NA", 
-        "official": "NA", 
-        "difficulty": "very hard", 
-        "link": "https://en.wikipedia.org/wiki/Bissa_language", 
-        "scripts": [], 
-        "vplaces": "NA", 
-        "mainfam": "Niger\u2013Congo"
-    }, 
     "Rutul language": {
         "vspeakers": "36400", 
         "speakers": "36,400\u00a0(2010 census)[1]", 
@@ -11578,9 +11591,7 @@
             "Edekiri", 
             "Yoruba"
         ], 
-        "endonym": [
-            "\u00c8d\u00e8 Yor\u00f9b\u00e1"
-        ], 
+        "endonym": null, 
         "region": [
             "Africa"
         ], 
@@ -13577,31 +13588,28 @@
         ], 
         "mainfam": "Turkic"
     }, 
-    "Q\u02bceqchi\u02bc language": {
-        "vspeakers": "800000", 
-        "speakers": "800,000\u00a0(2009)[1]", 
-        "places": "Guatemala, Belize", 
+    "Mono language (California)": {
+        "vspeakers": "37", 
+        "speakers": "(37 cited 1994)[1]", 
+        "places": "United States", 
         "family": [
-            "Mayan", 
-            "Quichean\u2013Mamean", 
-            "Greater Quichean", 
-            "Q\u02bceqchi\u02bc"
+            "Uto-Aztecan", 
+            "Numic", 
+            "Western Numic", 
+            "Mono"
         ], 
         "endonym": "NA", 
         "region": [
             "North America"
         ], 
         "official": "NA", 
-        "difficulty": "very hard", 
-        "link": "https://en.wikipedia.org/wiki/Q%CA%BCeqchi%CA%BC_language", 
-        "scripts": [
-            "latin"
-        ], 
+        "difficulty": "whizkid", 
+        "link": "https://en.wikipedia.org/wiki/Mono_language_(Native_American)", 
+        "scripts": [], 
         "vplaces": [
-            "Guatemala", 
-            "Belize"
+            "United States"
         ], 
-        "mainfam": "Mayan"
+        "mainfam": "Uto-Aztecan"
     }, 
     "Lingala": {
         "vspeakers": [
@@ -13850,29 +13858,25 @@
         "vplaces": "NA", 
         "mainfam": "Sino-Tibetan"
     }, 
-    "Puma language": {
-        "vspeakers": "6700", 
-        "speakers": "6,700\u00a0(2011 census)[1]", 
+    "Bissa language": {
+        "vspeakers": "590000", 
+        "speakers": "590,000\u00a0(1999\u20132003)[1]", 
         "places": "NA", 
         "family": [
-            "Sino-Tibetan", 
-            "Mahakiranti", 
-            "\u00a0?", 
-            "Kiranti", 
-            "Central Kiranti", 
-            "Southern", 
-            "Puma"
+            "Niger\u2013Congo", 
+            "Mande", 
+            "Eastern", 
+            "Bisa\u2013Busa", 
+            "Bissa"
         ], 
-        "endonym": [
-            "\u092a\u0941\u092e\u093e"
-        ], 
+        "endonym": "NA", 
         "region": "NA", 
         "official": "NA", 
-        "difficulty": "whizkid", 
-        "link": "https://en.wikipedia.org/wiki/Puma_language", 
+        "difficulty": "very hard", 
+        "link": "https://en.wikipedia.org/wiki/Bissa_language", 
         "scripts": [], 
         "vplaces": "NA", 
-        "mainfam": "Sino-Tibetan"
+        "mainfam": "Niger\u2013Congo"
     }, 
     "Lower Sorbian language": {
         "vspeakers": "6900", 
@@ -15830,41 +15834,69 @@
         "vplaces": "NA", 
         "mainfam": "Tupian"
     }, 
-    "Galician language": {
-        "vspeakers": [
-            "low: 1.56 million", 
-            "high: 2.4 million"
-        ], 
-        "speakers": "2.4 million\u00a0(2012)[1]58% of the population of Galicia (c. 1.56 million) are L1 speakers (2007)[2]", 
-        "places": "language\u00a0in\u00a0Galicia (Spain)", 
+    "Hmong language": {
+        "vspeakers": "3.7 million", 
+        "speakers": "(3.7 million cited 1995\u20132009)[1]not counting Vietnam", 
+        "places": "China, Vietnam, Laos, Myanmar and Thailand.", 
         "family": [
-            "Indo-European", 
-            "Italic", 
-            "Romance", 
-            "Western Romance", 
-            "Ibero-Romance", 
-            "West Iberian", 
-            "Galician-Portuguese", 
-            "Galician"
+            "Hmong\u2013Mien", 
+            "Hmongic", 
+            "West Hmongic", 
+            "Chuanqiandian cluster", 
+            "Hmong / Miao"
         ], 
         "endonym": [
-            "galego"
+            "(easy) lus Hmoob / lug Moob / lol Hmongb / lus Hm\u00f4ngz / \ud81a\udf07\ud81a\udf30\ud81a\udf1e \ud81a\udf0c\ud81a\udf23\ud81a\udf35 / \ud838\udd09\ud838\udd27\ud838\udd35\ud838\udd00\ud838\udd29\ud838\udd30"
         ], 
         "region": [
-            "Europe"
+            "Asia"
         ], 
-        "official": [
-            "Spain"
-        ], 
+        "official": "NA", 
         "difficulty": "hard", 
-        "link": "https://en.wikipedia.org/wiki/Galician_language", 
+        "link": "https://en.wikipedia.org/wiki/Hmong_language", 
         "scripts": [
-            "galician alphabet"
+            "hmong writing", 
+            "pahawh hmong", 
+            "nyiakeng puachue hmong", 
+            "latin"
         ], 
         "vplaces": [
-            "Spain"
+            "China", 
+            "Vietnam", 
+            "Thailand", 
+            "Myanmar", 
+            "Laos"
         ], 
-        "mainfam": "Romance"
+        "mainfam": "Hmong\u2013Mien"
+    }, 
+    "Tanacross language": {
+        "vspeakers": "60", 
+        "speakers": "60\u00a0(2007)[1]", 
+        "places": "United States", 
+        "family": [
+            "Den\u00e9\u2013Yeniseian", 
+            "Na-Den\u00e9", 
+            "Athabaskan\u2013Eyak", 
+            "Athabaskan", 
+            "Northern Athabaskan", 
+            "Tanacross"
+        ], 
+        "endonym": [
+            "Nee\u02bcaand\u011bg\u02bc"
+        ], 
+        "region": [
+            "North America"
+        ], 
+        "official": "NA", 
+        "difficulty": "whizkid", 
+        "link": "https://en.wikipedia.org/wiki/Tanacross_language", 
+        "scripts": [
+            "latin script"
+        ], 
+        "vplaces": [
+            "United States"
+        ], 
+        "mainfam": "Den\u00e9\u2013Yeniseian"
     }, 
     "Kyrgyz language": {
         "vspeakers": "4.3 million", 
@@ -16430,41 +16462,6 @@
         ], 
         "mainfam": "Austronesian"
     }, 
-    "Hmong language": {
-        "vspeakers": "3.7 million", 
-        "speakers": "(3.7 million cited 1995\u20132009)[1]not counting Vietnam", 
-        "places": "China, Vietnam, Laos, Myanmar and Thailand.", 
-        "family": [
-            "Hmong\u2013Mien", 
-            "Hmongic", 
-            "West Hmongic", 
-            "Chuanqiandian cluster", 
-            "Hmong / Miao"
-        ], 
-        "endonym": [
-            "(easy) lus Hmoob / lug Moob / lol Hmongb / lus Hm\u00f4ngz / \ud81a\udf07\ud81a\udf30\ud81a\udf1e \ud81a\udf0c\ud81a\udf23\ud81a\udf35 / \ud838\udd09\ud838\udd27\ud838\udd35\ud838\udd00\ud838\udd29\ud838\udd30"
-        ], 
-        "region": [
-            "Asia"
-        ], 
-        "official": "NA", 
-        "difficulty": "hard", 
-        "link": "https://en.wikipedia.org/wiki/Hmong_language", 
-        "scripts": [
-            "hmong writing", 
-            "pahawh hmong", 
-            "nyiakeng puachue hmong", 
-            "latin"
-        ], 
-        "vplaces": [
-            "China", 
-            "Vietnam", 
-            "Thailand", 
-            "Myanmar", 
-            "Laos"
-        ], 
-        "mainfam": "Hmong\u2013Mien"
-    }, 
     "Khmu language": {
         "vspeakers": "NA", 
         "speakers": "(3.500.000 cited 1990\u20132015 census)[1][2]", 
@@ -16526,6 +16523,42 @@
             "Italy"
         ], 
         "mainfam": "Slavic"
+    }, 
+    "Galician language": {
+        "vspeakers": [
+            "low: 1.56 million", 
+            "high: 2.4 million"
+        ], 
+        "speakers": "2.4 million\u00a0(2012)[1]58% of the population of Galicia (c. 1.56 million) are L1 speakers (2007)[2]", 
+        "places": "language\u00a0in\u00a0Galicia (Spain)", 
+        "family": [
+            "Indo-European", 
+            "Italic", 
+            "Romance", 
+            "Western Romance", 
+            "Ibero-Romance", 
+            "West Iberian", 
+            "Galician-Portuguese", 
+            "Galician"
+        ], 
+        "endonym": [
+            "galego"
+        ], 
+        "region": [
+            "Europe"
+        ], 
+        "official": [
+            "Spain"
+        ], 
+        "difficulty": "hard", 
+        "link": "https://en.wikipedia.org/wiki/Galician_language", 
+        "scripts": [
+            "galician alphabet"
+        ], 
+        "vplaces": [
+            "Spain"
+        ], 
+        "mainfam": "Romance"
     }, 
     "Fijian language": {
         "vspeakers": "339210", 
@@ -17301,41 +17334,6 @@
             "United States"
         ], 
         "mainfam": "Austronesian"
-    }, 
-    "Wakhi language": {
-        "vspeakers": "20000", 
-        "speakers": "(20,000  in Pakistan (2016); 58,000 cited 1992\u20132012)[1]", 
-        "places": "Afghanistan, China, Pakistan, Tajikistan", 
-        "family": [
-            "Indo-European", 
-            "Indo-Iranian", 
-            "Iranian", 
-            "Eastern", 
-            "Wakhi"
-        ], 
-        "endonym": [
-            "x\u030cik zik", 
-            "x\u030cik zik / \u0425\u030c \u0438\u043a \u0437\u0438\u043a"
-        ], 
-        "region": [
-            "Asia"
-        ], 
-        "official": "NA", 
-        "difficulty": "super hard", 
-        "link": "https://en.wikipedia.org/wiki/Wakhi_language", 
-        "scripts": [
-            "Arabic", 
-            "(perso-arabic)", 
-            "cyrillic", 
-            "latin"
-        ], 
-        "vplaces": [
-            "China", 
-            "Pakistan", 
-            "Afghanistan", 
-            "Tajikistan"
-        ], 
-        "mainfam": "Iranian"
     }, 
     "O\u02bcodham language": {
         "vspeakers": "15000", 
