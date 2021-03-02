@@ -643,18 +643,10 @@ description: "Test your knowledge of language families! Learn something new!"
                 }
               }
               endonym = tmp
-              if(correct=="Yoruba"){
-                  endonym="\u00c8d\u00e8 Yor\u00f9b\u00e1"
-              }
-              if(endonym=="NA"){
-                  nextquestion();
-              }
-              else {
-                document.getElementById("question").innerHTML = "What language is shown in the <u>text</u> below?<br><br>" + endonym
-              }
             }
+            document.getElementById("question").innerHTML = "What language is shown in the <u>text</u> below?<br><br>" + endonym
           } else {
-            nextquestion();
+            nextquestion()
           }
         }
         for(i=1;i<num+1;i++){
