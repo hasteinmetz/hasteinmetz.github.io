@@ -644,6 +644,9 @@ description: "Test your knowledge of language families! Learn something new!"
               }
               endonym = tmp
             }
+            if(correct=="Yoruba"){
+                endonym="\u00c8d\u00e8 Yor\u00f9b\u00e1"
+            }
             document.getElementById("question").innerHTML = "What language is shown in the <u>text</u> below?<br><br>" + endonym
           } else {
             nextquestion()
