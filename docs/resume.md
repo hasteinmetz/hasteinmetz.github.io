@@ -44,7 +44,7 @@ Honors and Grants: <em>Phi Beta Kappa</em>, Leonard Bloomfield Prize in Linguist
 
 <p class="resume"><h3> TECHNICAL SKILLS </h3>
 • Languages: Hebrew (fluent), French (working proficiency)<br>
-• Computer: SPSS, Excel, PowerPoint, Word, Qualtrics, LaTeX, R, Python (basic), C (basic)</p><br><br>
+• Computer: R, HTML, JavaScript (basic), Python (intermediate), Excel, Qualtrics, SPSS</p><br><br>
 
 <div class="mobilecont">
   <div class="mobileblock"></div>
