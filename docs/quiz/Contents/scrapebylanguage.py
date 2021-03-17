@@ -51,14 +51,14 @@ def quicksort_by_dict(array, dict, euro, value):
         med = high
         pivot = array[med]
         if dict[pivot]["continent"] == "Europe" and euro=="T":
-            pthing = dict[pivot][value] + 2000000000
+            pthing = dict[pivot][value] + 2000000000 #population
         else:
             pthing = dict[pivot][value]
         below = []
         above = []
         for j in range(0, high):
             if dict[array[j]]["continent"] == "Europe" and euro=="T":
-                thing = dict[array[j]][value] + 2000000000
+                thing = dict[array[j]][value] + 2000000000 #population
             else:
                 thing = dict[array[j]][value]
             if thing >= pthing:
@@ -311,7 +311,7 @@ def scrape(wikipg, countries, dict):
                             scripts.append("("+linktxt+")")
                         else:
                             scripts.append(linktxt)
-        colonial = ["French", "German", "Portuguese", "English", "Spanish"]
+        colonial = ["French", "German", "English", "Spanish"]
         col = reducebyfunc(lambda x,y : x or y, [c in title for c in colonial])
         if endo:
             endonyms1 = endo
@@ -331,7 +331,6 @@ def scrape(wikipg, countries, dict):
                     if pl in sam:
                         if countrydict[pl]["continent"]:
                             tmpregion.append(countrydict[pl]["continent"])
-                            break
             if tmpregion:
                 region = tmpregion
         e1 = {"endonym": endonyms, "scripts": scripts, "speakers": speakers, "vspeakers": vspeakers, "places":places, "vplaces":vplaces, "family":languagefam, "link":wikipg, "official":off, "region":region}
@@ -478,6 +477,7 @@ def main():
         languagedict["Flemish"]["vplaces"] = ["Belgium"]
         languagedict["Catalan language"]["vplaces"] = ["Spain"]
         languagedict["Persian language"]["vplaces"] = ["Iran", "Afghanistan", "Tajikistan"]
+        languagedict["Riffian language"]["vplaces"] = ["Morocco", "Algeria"]
         languagedict["Danish language"]["vplaces"] = ["Denmark"]
         languagedict["English language"]["vplaces"] = "NA"
         khasi = "\xe0\xa6\x95\x20\xe0\xa6\x95\xe0\xa7\x8d\xe0\xa6\xa4\xe0\xa7\x8d\xe0\xa6\xaf\xe0\xa7\x87\xe0\xa6\xa8\x20\xe0\xa6\x96\xe0\xa6\xb8\xe0\xa6\xbf"

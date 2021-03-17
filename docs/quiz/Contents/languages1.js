@@ -2244,9 +2244,8 @@ var languages = {
             "latin script"
         ],
         "vplaces": [
-            "Spain",
-            "Algeria",
-            "Morocco"
+            "Morocco",
+            "Algeria"
         ],
         "mainfam": "Afro-Asiatic"
     },
