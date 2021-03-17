@@ -13,6 +13,7 @@
     .topnav {
       overflow: hidden;
       visibility: hidden;
+      position: relative;
       background-color: #fcfcff;
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
     }
@@ -111,20 +112,26 @@
 
     .dropdown-content {
       display: none;
-      position: relative;
-      background-color: #fcfcff;
-      color: #33334d;
+      position: absolute;
       float: left;
       text-align: left;
       overflow: hidden;
+      z-index: 1;
+      color: rgba(51, 51, 77, 0.50);
+      box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2), -2px 3px 10px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .dropdown-content a {
+      float: left;
+      display: block;
+      color: #33334d;
+      text-align: center;
+      padding: 12px 22px;
       text-decoration: none;
       font-size: 18px;
       letter-spacing: 2px;
-      padding: 12px 22px;
-      font-family: "Book Antiqua";
-      box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2), -2px 3px 10px 0 rgba(0, 0, 0, 0.2);
-      min-width: 190px;
-      z-index: 1;
+      font-family: "Trebuchet MS";
+      overflow: hidden;
     }
 
     div.dropdownwrapper {
@@ -132,7 +139,11 @@
       position: relative;
       overflow: hidden;
       align-items: center;
+      background-color: #fcfcff;
+      color: #33334d;
       text-align: left;
+      min-width: 190px;
+      padding: 0px 40px;
     }
 
     .dropdown-content>li>a {
@@ -148,12 +159,14 @@
       text-decoration: none;
       font-size: 18px;
       letter-spacing: 2px;
+      padding: 12px 22px;
       font-family: "Trebuchet MS";
       z-index: 1;
     }
 
     .dropdown-content a.active {
       background-color: #4d6093;
+      padding: 12px 22px;
       color: white;
       min-width: 190px;
     }
@@ -234,6 +247,8 @@
      </div>
       <div class="dropdown" id="navbarmobile">
         <span class="btncontainer"><button onclick="myFunction()" class="dropbtn" id="realbutton" value="down" style="font-size: 22px">&#9660;</button></span>
+      </div>
+      </div>
           <div id="myDropdown" class="dropdown-content">
             <div class="dropdownwrapper">
              {% if page.title == 'Hillel Steinmetz' %}
@@ -270,9 +285,6 @@
                <a href="/quiz">Language Quiz</a>
              {% endif %}
            </div>
-           </div>
-           </div>
-         </div>
        </div>
   <script>
     /* When the user clicks on the button,
@@ -423,6 +435,9 @@
           document.getElementById("navbarmobile").style.display="none";
           document.getElementById("navbardesktop").style.display="inline-block";
         }
+      }
+      if(document.getElementById("realbutton").value=="up"){
+        myFunction();
       }
     };
 
