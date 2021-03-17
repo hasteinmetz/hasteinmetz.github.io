@@ -1,6 +1,6 @@
 # Silly quiz game in order to learn JavaScript.
 
-NOTE (12-27-2020): I will be cleaning and annotating the code over the next couple of weeks to make it more readable.
+NOTE (12-27-2020): *I will be cleaning and annotating the code over the next couple of weeks to make it more readable.*
 
 Country information (countries.txt) taken from [Ian Coleman's CIA World Factbook API](https://github.com/iancoleman/cia_world_factbook_api).
 

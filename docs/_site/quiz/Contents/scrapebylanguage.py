@@ -493,8 +493,8 @@ def main():
             languagedict["Azerbaijani language"]["endonym"][0] = u"Az\u0259rbaycan dili"
         except:
             languagedict["Azerbaijani language"]["endonym"] = [u"Az\u0259rbaycan dili"]
-        try:
-            languagedict["Aymara language"]["mainfam"] = "NA"
+        languagedict["Aymara language"]["mainfam"] = "NA"
+        languagedict["Yoruba language"]["endonym"].insert(0, "NA")
         languagedict["Betawi language"]["difficulty"] = "very hard"
         languagedict["German language"]["difficulty"] = "easy"
         languagedict["Hungarian language"]["region"] = "Europe"
@@ -525,7 +525,7 @@ def main():
                     else:
                         pass
             else:
-                if "(easy)" not in names:
+                if names and "(easy)" not in names:
                     if lang_english in names:
                         names = "(easy) " + names
                 else:

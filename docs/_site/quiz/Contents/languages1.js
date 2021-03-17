@@ -1,31 +1,26 @@
 var languages = {
-    "Kui language (India)": {
-        "vspeakers": "941000",
-        "speakers": "941,000\u00a0(2011 census)[1]",
-        "places": "India",
+    "Kujarg\u00e9 language": {
+        "vspeakers": "1000",
+        "speakers": "(1,000 cited 1983)[1]",
+        "places": "Chad and Sudan",
         "family": [
-            "Dravidian",
-            "South-Central",
-            "Gondi\u2013Kui",
-            "Kuvi\u2013Kui",
-            "Kui"
+            "Afro-Asiatic",
+            "(unclassified)",
+            "Kujarg\u00e9"
         ],
-        "endonym": [
-            "\u0b15\u0b41\u0b07"
-        ],
+        "endonym": "NA",
         "region": [
-            "Asia"
+            "Africa"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Kui_language_(India)",
-        "scripts": [
-            "odia script"
-        ],
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Kujarge_language",
+        "scripts": [],
         "vplaces": [
-            "India"
+            "Sudan",
+            "Chad"
         ],
-        "mainfam": "Dravidian"
+        "mainfam": "Afro-Asiatic"
     },
     "Kashubian language": {
         "vspeakers": "108000",
@@ -279,37 +274,6 @@ var languages = {
         ],
         "mainfam": "Mayan"
     },
-    "Maranao language": {
-        "vspeakers": "780000",
-        "speakers": "(780,000 cited 1990 census)[1]",
-        "places": "Philippines",
-        "family": [
-            "Austronesian",
-            "Malayo-Polynesian",
-            "Philippine",
-            "Greater Central Philippine",
-            "Danao",
-            "Maranao"
-        ],
-        "endonym": [
-            "M\u00ebranaw"
-        ],
-        "region": [
-            "Asia"
-        ],
-        "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Maranao_language",
-        "scripts": [
-            "latin",
-            "Arabic",
-            "(arabic)"
-        ],
-        "vplaces": [
-            "Philippines"
-        ],
-        "mainfam": "Austronesian"
-    },
     "Mad\u00ed language": {
         "vspeakers": "1080",
         "speakers": "1,080\u00a0(2011)[1]",
@@ -497,41 +461,35 @@ var languages = {
         "vplaces": "NA",
         "mainfam": "Northeast Caucasian"
     },
-    "Avar language": {
-        "vspeakers": "1000000",
-        "speakers": "1,000,000\u00a0(2010)[1]",
-        "places": "Russia, Azerbaijan, Kazakhstan, Georgia and Turkey",
+    "Gilbertese language": {
+        "vspeakers": "120000",
+        "speakers": "(120,000 cited 1988\u20132010)[1]",
+        "places": "Kiribati",
         "family": [
-            "Northeast Caucasian",
-            "Avar\u2013Andic",
-            "Avar"
+            "Austronesian",
+            "Malayo-Polynesian",
+            "Oceanic",
+            "Micronesian",
+            "Micronesian Proper",
+            "Gilbertese"
         ],
         "endonym": [
-            "Ma\u01e5arul mac\u02bc",
-            "Awar mac\u02bc",
-            "\u041c\u0430\u0433\u04cf\u0430\u0440\u0443\u043b \u043c\u0430\u0446\u04cf, \u0410\u0432\u0430\u0440 \u043c\u0430\u0446\u04cfMa\u01e5arul mac\u02bc, Awar mac\u02bc"
+            "Taetae ni Kiribati"
         ],
         "region": [
-            "NA"
+            "Oceania"
         ],
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Avar_language",
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Gilbertese_language",
         "scripts": [
-            "cyrillic",
-            "georgian",
-            "Arabic",
-            "(arabic)",
-            "latin"
+            "latin script",
+            "written gilbertese"
         ],
         "vplaces": [
-            "Russia",
-            "Turkey",
-            "Kazakhstan",
-            "Azerbaijan",
-            "Georgia"
+            "Kiribati"
         ],
-        "mainfam": "Northeast Caucasian"
+        "mainfam": "Austronesian"
     },
     "Brahui language": {
         "vspeakers": "3.28 million",
@@ -684,27 +642,68 @@ var languages = {
         ],
         "mainfam": "Slavic"
     },
-    "Greek language": {
-        "vspeakers": "13.4 million",
-        "speakers": "13.4 million\u00a0(2012)[1]",
-        "places": "NA",
+    "Bunjevac dialect": {
+        "vspeakers": "6800",
+        "speakers": "6,800\u00a0(2011)[1]",
+        "places": "Serbia (Vojvodina), Hungary",
         "family": [
             "Indo-European",
-            "Hellenic",
-            "Greek"
+            "Balto-Slavic",
+            "Slavic",
+            "South Slavic",
+            "Serbo-Croatian",
+            "Shtokavian",
+            "Neo-Shtokavian",
+            "Bosnian\u2013Dalmatian (Western Ikavian)",
+            "Bunjevac"
         ],
         "endonym": [
-            "\u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac"
+            "bunjeva\u010dki"
         ],
-        "region": "NA",
+        "region": [
+            "Europe"
+        ],
+        "official": "NA",
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Bunjevac_language",
+        "scripts": [],
+        "vplaces": [
+            "Hungary",
+            "Serbia"
+        ],
+        "mainfam": "Slavic"
+    },
+    "Bhili language": {
+        "vspeakers": "NA",
+        "speakers": "3,206,533\u00a0(2011 census)[1]",
+        "places": "India",
+        "family": [
+            "Indo-European",
+            "Indo-Iranian",
+            "Indo-Aryan",
+            "Western Indo-Aryan",
+            "Bhil",
+            "Central",
+            "Bhili"
+        ],
+        "endonym": [
+            "\u092d\u0940\u0932\u0940, \u0aad\u0ac0\u0ab2\u0ac0"
+        ],
+        "region": [
+            "Asia"
+        ],
         "official": "NA",
         "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Greek_language",
+        "link": "https://en.wikipedia.org/wiki/Bhili_language",
         "scripts": [
-            "greek alphabet"
+            "devanagari",
+            "gujarati",
+            "[2]"
         ],
-        "vplaces": "NA",
-        "mainfam": "Indo-European"
+        "vplaces": [
+            "India"
+        ],
+        "mainfam": "Indo-Aryan"
     },
     "Dutch language": {
         "vspeakers": [
@@ -741,58 +740,73 @@ var languages = {
         ],
         "mainfam": "Germanic"
     },
-    "Scots language": {
-        "vspeakers": "NA",
-        "speakers": "Numbers disputed. 99,200\u00a0(2019)[1]In 2011, 1,541,693 people in Scotland alone reported speaking Scots.[2]",
-        "places": "United Kingdom, Republic of Ireland",
+    "Bambara language": {
+        "vspeakers": [
+            "low: 4.1 million",
+            "high: 10 million"
+        ],
+        "speakers": "4.1 million\u00a0(2012)[1]10 million L2 speakersSpoken to varying degrees by 80% of the population of Mali",
+        "places": "Mali",
+        "family": [
+            "Mande",
+            "Western Mande",
+            "...",
+            "Manding",
+            "East Manding",
+            "Bambara\u2013Dyula",
+            "Bambara"
+        ],
+        "endonym": [
+            "\u07d3\u07e1\u07ca\u07e3\u07ca\u07f2\u07de\u07ca\u07f2",
+            "B\u00e1m\u00e1n\u00e1nk\u00e1n",
+            "B\u00e1m\u00e1n\u00e1nk\u00e1n, \u07d3\u07e1\u07ca\u07e3\u07ca\u07f2\u07de\u07ca\u07f2\u200e"
+        ],
+        "region": [
+            "Africa"
+        ],
+        "official": "NA",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Bambara_language",
+        "scripts": [
+            "latin",
+            "n'ko"
+        ],
+        "vplaces": [
+            "Mali"
+        ],
+        "mainfam": "Mande"
+    },
+    "Faroese language": {
+        "vspeakers": "72000",
+        "speakers": "72,000\u00a0(2007)[1]",
+        "places": "Faroe Islands, Denmark, Greenland",
         "family": [
             "Indo-European",
             "Germanic",
-            "West Germanic",
-            "North Sea Germanic",
-            "Anglo-Frisian",
-            "Anglic",
-            "Scots"
+            "North Germanic",
+            "West Scandinavian",
+            "Insular Scandinavian",
+            "Faroese"
         ],
         "endonym": [
-            "Braid",
-            "(easy) Scots",
-            "Lallans",
-            "Doric"
+            "f\u00f8royskt m\u00e1l"
         ],
         "region": [
             "Europe"
         ],
         "official": "NA",
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Scots_language",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Faroese_language",
         "scripts": [
-            "latin"
+            "latin",
+            "faroese orthography"
         ],
         "vplaces": [
-            "United Kingdom",
-            "Ireland"
+            "Faroe Islands",
+            "Greenland",
+            "Denmark"
         ],
         "mainfam": "Germanic"
-    },
-    "Meroitic language": {
-        "vspeakers": "NA",
-        "speakers": "NA",
-        "places": "Kingdom of Kush",
-        "family": [
-            "Unclassified"
-        ],
-        "endonym": "NA",
-        "region": "NA",
-        "official": "NA",
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Meroitic_language",
-        "scripts": [
-            "egyptian museum of berlin",
-            "meroitic alphabet"
-        ],
-        "vplaces": "NA",
-        "mainfam": "Unclassified"
     },
     "Norwegian language": {
         "vspeakers": "5.32 million",
@@ -1637,39 +1651,6 @@ var languages = {
         ],
         "mainfam": "Romance"
     },
-    "Herero language": {
-        "vspeakers": "211700",
-        "speakers": "211,700\u00a0(2014)[1]",
-        "places": "Namibia, Botswana, Angola",
-        "family": [
-            "Niger\u2013Congo",
-            "Atlantic\u2013Congo",
-            "Volta-Congo",
-            "Benue\u2013Congo",
-            "Bantoid",
-            "Southern Bantoid",
-            "Bantu",
-            "Kavango \u2013 Southwest Bantu",
-            "Southwest Bantu",
-            "Herero"
-        ],
-        "endonym": [
-            "Otjiherero"
-        ],
-        "region": [
-            "Africa"
-        ],
-        "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Herero_language",
-        "scripts": [],
-        "vplaces": [
-            "Angola",
-            "Namibia",
-            "Botswana"
-        ],
-        "mainfam": "Bantu"
-    },
     "Koyra Chiini language": {
         "vspeakers": "200000",
         "speakers": "200,000\u00a0(1999)[1]",
@@ -1742,57 +1723,32 @@ var languages = {
         ],
         "mainfam": "Tacanan"
     },
-    "Portuguese language": {
-        "vspeakers": [
-            "low: 24 million",
-            "high: 250 million"
-        ],
-        "speakers": "Native: 250 million;[1]24 million L2 speakers;[1]\nTotal: 274 million",
-        "places": "language\n\u00a0\u00a0Official and administrative language\n\u00a0\u00a0Cultural or secondary language\n\u00a0\u00a0Portuguese-speaking minorities\n\u00a0\u00a0Portuguese-based creole languages",
+    "Mirandese language": {
+        "vspeakers": "15000",
+        "speakers": "15,000\u00a0(2000)[1](10,000 use it regularly, 5,000 when they return to the area. 2,000 Sendinese in Sendim Vila.)[2]",
+        "places": "Portugal",
         "family": [
             "Indo-European",
             "Italic",
             "Romance",
-            "Western Romance",
+            "Western",
             "Ibero-Romance",
             "West Iberian",
-            "Galician-Portuguese",
-            "Portuguese"
+            "Astur-Leonese",
+            "Mirandese"
         ],
         "endonym": [
-            "portugu\u00eas",
-            "l\u00edngua portuguesa"
+            "mirand\u00e9s"
         ],
         "region": [
             "Europe"
         ],
-        "official": [
-            "East Timor",
-            "Cape Verde",
-            "Guinea",
-            "Angola",
-            "Mozambique",
-            "Brazil",
-            "Guinea-Bissau",
-            "Portugal",
-            "Equatorial Guinea"
-        ],
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Portuguese_language",
-        "scripts": [
-            "latin",
-            "portuguese alphabet"
-        ],
+        "official": "NA",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Mirandese_language",
+        "scripts": [],
         "vplaces": [
-            "Portugal",
-            "Brazil",
-            "Angola",
-            "Mozambique",
-            "Guinea",
-            "Guinea-Bissau",
-            "Equatorial Guinea",
-            "East Timor",
-            "Cape Verde"
+            "Portugal"
         ],
         "mainfam": "Romance"
     },
@@ -1843,30 +1799,30 @@ var languages = {
         ],
         "mainfam": "Northwest Caucasian"
     },
-    "Oroch language": {
-        "vspeakers": "8",
-        "speakers": "8\u00a0(2010 census)[1]",
-        "places": "Russia",
+    "V\u00f5ro language": {
+        "vspeakers": "87000",
+        "speakers": "87,000, including Seto\u00a0(2011 census)[1]",
+        "places": "Estonia",
         "family": [
-            "Tungusic",
-            "Southern",
-            "Oroch Group",
-            "Oroch"
+            "Uralic",
+            "Finnic",
+            "South Estonian",
+            "V\u00f5ro"
         ],
-        "endonym": "NA",
+        "endonym": [
+            "v\u00f5ro kiil\u02bc"
+        ],
         "region": [
-            "NA"
+            "Europe"
         ],
         "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Oroch_language",
-        "scripts": [
-            "cyrillic"
-        ],
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/V%C3%B5ro_language",
+        "scripts": [],
         "vplaces": [
-            "Russia"
+            "Estonia"
         ],
-        "mainfam": "Tungusic"
+        "mainfam": "Uralic"
     },
     "Meru language": {
         "vspeakers": "2.0 million",
@@ -1960,51 +1916,35 @@ var languages = {
         ],
         "mainfam": "Iranian"
     },
-    "Azerbaijani language": {
-        "vspeakers": "23 million",
-        "speakers": "23 million\u00a0(2018)[1]",
-        "places": "National: AzerbaijanRegional: IranRussiaTurkeyIraq[a]Georgia",
+    "Dzongkha": {
+        "vspeakers": "171080",
+        "speakers": "171,080\u00a0(2013)[1]Total speakers: 640,000[2]",
+        "places": "Bhutan",
         "family": [
-            "Turkic",
-            "Common Turkic",
-            "Oghuz",
-            "Western Oghuz",
-            "Azerbaijani"
+            "Sino-Tibetan",
+            "Tibeto-Kanauri",
+            "\u00a0?",
+            "Bodish",
+            "Tibetic",
+            "Dzongkha\u2013Lhok\u00e4",
+            "Dzongkha"
         ],
         "endonym": [
-            "Az\u0259rbaycan dili",
-            "\u0410\u0437\u04d9\u0440\u0431\u0430\u0458\u04b9\u0430\u043d \u0434\u0438\u043b\u0438",
-            "Az\u0259rbaycan dili",
-            "Az\u0259rbaycan dili, \u0622\u0630\u0631\u0628\u0627\u06cc\u062c\u0627\u0646 \u062f\u06cc\u0644\u06cc\u200e, \u0410\u0437\u04d9\u0440\u0431\u0430\u0458\u04b9\u0430\u043d \u0434\u0438\u043b\u0438[note 1]"
+            "\u0f62\u0fab\u0f7c\u0f44\u0f0b\u0f41\u0f0b"
         ],
         "region": [
-            "NA"
+            "Asia"
         ],
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Azerbaijani_language",
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Dzongkha_language",
         "scripts": [
-            "latin script",
-            "[2]",
-            "azerbaijani alphabet",
-            "Arabic",
-            "(perso-arabic script)",
-            "[3]",
-            "Arabic",
-            "(persian alphabet)",
-            "cyrillic script",
-            "[2]",
-            "georgian script"
+            "tibetan script"
         ],
         "vplaces": [
-            "Azerbaijan",
-            "Turkey",
-            "Iran",
-            "Iraq",
-            "Russia",
-            "Georgia"
+            "Bhutan"
         ],
-        "mainfam": "Turkic"
+        "mainfam": "Sino-Tibetan"
     },
     "Karay-a language": {
         "vspeakers": "433000",
@@ -2134,8 +2074,8 @@ var languages = {
         "link": "https://en.wikipedia.org/wiki/Shimaore_language",
         "scripts": [],
         "vplaces": [
-            "Madagascar",
-            "Mayotte"
+            "Mayotte",
+            "Madagascar"
         ],
         "mainfam": "Bantu"
     },
@@ -2257,57 +2197,58 @@ var languages = {
         ],
         "mainfam": "NA"
     },
-    "Berta language": {
-        "vspeakers": "370000",
-        "speakers": "370,000 all Berta languages\u00a0(2006\u20132007)[1]80% monolingual in Ethiopia (1998 census)[2]",
-        "places": "Sudan and Ethiopia",
+    "Sidamo language": {
+        "vspeakers": "3 million",
+        "speakers": "3 million\u00a0(2010)[1]",
+        "places": "Ethiopia",
         "family": [
-            "Nilo-Saharan",
-            "Berta languages",
-            "Berta"
+            "Afro-Asiatic",
+            "Cushitic",
+            "Highland East",
+            "Sidama Afoo"
         ],
         "endonym": "NA",
         "region": [
             "Africa"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Berta_language",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Sidamo_language",
         "scripts": [],
         "vplaces": [
-            "Ethiopia",
-            "Sudan"
+            "Ethiopia"
         ],
-        "mainfam": "Nilo-Saharan"
+        "mainfam": "Afro-Asiatic"
     },
-    "Irish language": {
-        "vspeakers": "1.6 million",
-        "speakers": "L1 speakers: 170,000~ (daily usage: ~70,000)\u00a0(2019)[1]L2 speakers: c. 1.6 million in Ireland (1.76M answering \u201cyes\u201d to being able to speak Irish in RoI (2016) -170k L1; of these, 558k use Irish within education); 104,943 identify as being able to speak Irish in Northern Ireland (2011), 18,815 Irish Americans claim to speak Irish at home (2005)",
-        "places": "Ireland",
+    "Riffian language": {
+        "vspeakers": "NA",
+        "speakers": "6,000,000\u00a0(2016)[1]",
+        "places": "Morocco, Melilla (Spain), Algeria",
         "family": [
-            "Indo-European",
-            "Celtic",
-            "Insular Celtic",
-            "Goidelic",
-            "Irish"
+            "Afro-Asiatic",
+            "Berber",
+            "Northern",
+            "Zenati",
+            "Riffian"
         ],
         "endonym": [
-            "Gaeilge"
+            "Tmazi\u0263t"
         ],
         "region": [
             "Europe"
         ],
         "official": "NA",
         "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Irish_language",
+        "link": "https://en.wikipedia.org/wiki/Tarifit_language",
         "scripts": [
-            "latin",
-            "irish alphabet"
+            "latin script"
         ],
         "vplaces": [
-            "Ireland"
+            "Spain",
+            "Algeria",
+            "Morocco"
         ],
-        "mainfam": "Celtic"
+        "mainfam": "Afro-Asiatic"
     },
     "Extremaduran language": {
         "vspeakers": "200000",
@@ -2585,26 +2526,32 @@ var languages = {
         "vplaces": "NA",
         "mainfam": "Semitic"
     },
-    "Jalaa language": {
-        "vspeakers": "NA",
-        "speakers": "NA",
-        "places": "Nigeria",
-        "family": "NA",
+    "Svan language": {
+        "vspeakers": "14000",
+        "speakers": "14,000\u00a0(2015)[1]",
+        "places": "Georgia",
+        "family": [
+            "Kartvelian",
+            "Svan"
+        ],
         "endonym": [
-            "b\u00e0s\u00e0r\u0259\u0300n d\u00e0 j\u00e0l\u00e0\u00e0b\u00e8\u0329"
+            "\u10da\u10e3\u10e8\u10dc\u10e3 \u10dc\u10d8\u10dc",
+            "Lu\u0161nu nin",
+            "\u10da\u10e3\u10e8\u10dc\u10e3 \u10dc\u10d8\u10dc Lu\u0161nu nin"
         ],
         "region": [
-            "Africa"
+            "Asia"
         ],
         "official": "NA",
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Jalaa_language",
-        "scripts": [],
-        "vplaces": [
-            "Nigeria",
-            "Niger"
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Svan_language",
+        "scripts": [
+            "georgian script"
         ],
-        "mainfam": "NA"
+        "vplaces": [
+            "Georgia"
+        ],
+        "mainfam": "Kartvelian"
     },
     "Sandawe language": {
         "vspeakers": "60000",
@@ -2654,48 +2601,6 @@ var languages = {
             "Canada"
         ],
         "mainfam": "Iroquoian"
-    },
-    "Kongo language": {
-        "vspeakers": [
-            "low: 5 million",
-            "high: 6.5 million"
-        ],
-        "speakers": "(ca. 6.5 million cited 1982\u20132012)[2]5 million L2 speakers in DRC (perhaps Kituba)",
-        "places": "DR Congo, Congo, Angola",
-        "family": [
-            "Niger\u2013Congo",
-            "Atlantic\u2013Congo",
-            "Volta-Congo",
-            "Benue\u2013Congo",
-            "Bantoid",
-            "Southern Bantoid",
-            "Bantu",
-            " (",
-            "Zone H",
-            ")",
-            "Kongo",
-            "-",
-            "Yaka",
-            "Kongo languages",
-            " (H.10)",
-            "Kongo"
-        ],
-        "endonym": "NA",
-        "region": [
-            "Africa"
-        ],
-        "official": "NA",
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Kongo_language",
-        "scripts": [
-            "latin",
-            "mandombe"
-        ],
-        "vplaces": [
-            "Angola",
-            "Congo"
-        ],
-        "mainfam": "Bantu"
     },
     "Dungan language": {
         "vspeakers": "110000",
@@ -2769,57 +2674,59 @@ var languages = {
         "vplaces": "NA",
         "mainfam": "Sino-Tibetan"
     },
-    "Lakota language": {
-        "vspeakers": "2100",
-        "speakers": "2,100, 29% of ethnic population\u00a0(1997)[1]",
-        "places": "United States, with some speakers in Canada",
+    "Maltese language": {
+        "vspeakers": "520000",
+        "speakers": "520,000\u00a0(2012)[1]",
+        "places": "Malta",
         "family": [
-            "Siouan",
-            "Western Siouan",
-            "Mississippi Valley Siouan",
-            "Dakotan",
-            "Sioux",
-            "Lakota"
+            "Afro-Asiatic",
+            "Semitic",
+            "West Semitic",
+            "Central Semitic",
+            "Arabic",
+            "Maghrebi Arabic",
+            "Siculo-Arabic",
+            "Maltese"
         ],
         "endonym": [
-            "Lak\u021f\u00f3tiyapi"
+            "Malti"
         ],
         "region": [
-            "North America"
+            "Europe"
         ],
         "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Lakota_language",
-        "scripts": [],
-        "vplaces": [
-            "United States",
-            "Canada"
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Maltese_language",
+        "scripts": [
+            "latin",
+            "maltese alphabet"
         ],
-        "mainfam": "Siouan"
+        "vplaces": [
+            "Malta"
+        ],
+        "mainfam": "Semitic"
     },
-    "Chickasaw language": {
-        "vspeakers": "75",
-        "speakers": "75\u00a0(2017)[1]",
-        "places": "ion of Native American languages in Oklahoma",
+    "Bonan language": {
+        "vspeakers": "6000",
+        "speakers": "6,000\u00a0(1999)[1]",
+        "places": "China",
         "family": [
-            "Muskogean",
-            "Western Muskogean",
-            "Chickasaw"
+            "Mongolic",
+            "Shirongolic",
+            "Bonan"
         ],
-        "endonym": [
-            "Chikashshanompa'"
-        ],
+        "endonym": "NA",
         "region": [
-            "North America"
+            "Asia"
         ],
         "official": "NA",
         "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Chickasaw_language",
+        "link": "https://en.wikipedia.org/wiki/Bonan_language",
         "scripts": [],
         "vplaces": [
-            "United States"
+            "China"
         ],
-        "mainfam": "Muskogean"
+        "mainfam": "Mongolic"
     },
     "Yanyuwa language": {
         "vspeakers": "39",
@@ -3336,37 +3243,27 @@ var languages = {
         ],
         "mainfam": "Bantu"
     },
-    "Angika": {
-        "vspeakers": "743600",
-        "speakers": "743,600\u00a0(1996)[2]",
-        "places": "India and Nepal",
+    "Nyangumarta language": {
+        "vspeakers": "211",
+        "speakers": "211\u00a0(2016 census)[1]",
+        "places": "Australia",
         "family": [
-            "Indo-European",
-            "Indo-Iranian",
-            "Indo-Aryan",
-            "Eastern",
-            "Bihari",
-            "Angika"
+            "Pama\u2013Nyungan",
+            "Marrngu",
+            "Nyangumarta"
         ],
-        "endonym": [
-            "\u0905\u0902\u0917\u093f\u0915\u093e"
-        ],
+        "endonym": "NA",
         "region": [
-            "Asia"
+            "Oceania"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Angika_language",
-        "scripts": [
-            "devanagari",
-            "anga lipi",
-            "kaithi"
-        ],
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Nyangumarta_language",
+        "scripts": [],
         "vplaces": [
-            "India",
-            "Nepal"
+            "Australia"
         ],
-        "mainfam": "Indo-Aryan"
+        "mainfam": "Pama\u2013Nyungan"
     },
     "Mansi language": {
         "vspeakers": "940",
@@ -3833,6 +3730,33 @@ var languages = {
         ],
         "mainfam": "Uralic"
     },
+    "Argobba language": {
+        "vspeakers": "44000",
+        "speakers": "44,000\u00a0(2007 census)[1]",
+        "places": "Ethiopia",
+        "family": [
+            "Afro-Asiatic",
+            "Semitic",
+            "South Semitic",
+            "Ethiopic",
+            "South Ethiopic",
+            "Transversal South Ethiopic",
+            "Amharic\u2013Argobba",
+            "Argobba"
+        ],
+        "endonym": "NA",
+        "region": [
+            "Africa"
+        ],
+        "official": "NA",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Argobba_language",
+        "scripts": [],
+        "vplaces": [
+            "Ethiopia"
+        ],
+        "mainfam": "Semitic"
+    },
     "Evenki language": {
         "vspeakers": "26580",
         "speakers": "26,580\u00a0(2007\u20132010)",
@@ -4071,32 +3995,48 @@ var languages = {
         ],
         "mainfam": "Austronesian"
     },
-    "Juang language": {
-        "vspeakers": "30378",
-        "speakers": "30,378, 65% of ethnic population\u00a0(2011 census)[1]",
-        "places": "India",
+    "Uzbek language": {
+        "vspeakers": "27 million",
+        "speakers": "27 million\u00a0(2015)[1]",
+        "places": "Uzbekistan, Afghanistan, Tajikistan, Kazakhstan, Kyrgyzstan, Turkmenistan, Russia, China",
         "family": [
-            "Austroasiatic",
-            "Munda",
-            "South",
-            "Juang"
+            "Turkic",
+            "Common Turkic",
+            "Karluk",
+            "[2]",
+            "Uzbek"
         ],
         "endonym": [
-            "\u0b1c\u0b41\u0b06\u0b19\u0b4d\u0b17"
+            "O\u02bbzbekcha, o\u02bbzbek tili,\u040e\u0437\u0431\u0435\u043a\u0447\u0430, \u045e\u0437\u0431\u0435\u043a \u0442\u0438\u043b\u0438,\u0627\u06c9\u0632\u0628\u06d0\u06a9\u0686\u0647, \u0627\u06c9\u0632\u0628\u06d0\u06a9 \u062a\u06cc\u0644\u06cc\u200e",
+            "\u040e\u0437\u0431\u0435\u043a\u0447\u0430, \u045e\u0437\u0431\u0435\u043a \u0442\u0438\u043b\u0438",
+            "\u0627\u06c9\u0632\u0628\u06d0\u06a9\u0686\u0647, \u0627\u06c9\u0632\u0628\u06d0\u06a9 \u062a\u06cc\u0644\u06cc",
+            "O\u02bbzbekcha, o\u02bbzbek tili"
         ],
         "region": [
             "Asia"
         ],
         "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Juang_language",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Uzbek_language",
         "scripts": [
-            "odia"
+            "latin",
+            "cyrillic",
+            "Arabic",
+            "(perso-arabic)",
+            "[a]",
+            "uzbek alphabets"
         ],
         "vplaces": [
-            "India"
+            "Uzbekistan",
+            "Russia",
+            "Afghanistan",
+            "China",
+            "Kazakhstan",
+            "Tajikistan",
+            "Kyrgyzstan",
+            "Turkmenistan"
         ],
-        "mainfam": "Austroasiatic"
+        "mainfam": "Turkic"
     },
     "Batak Karo language": {
         "vspeakers": "600000",
@@ -4397,8 +4337,7 @@ var languages = {
             "Javanese"
         ],
         "endonym": [
-          "Basa Jawa",
-          "\ua9a7\ua9b1\ua997\ua9ae\u0628\u0627\u0633\u0627 \u062c\u0627\u0648\u0627Basa Jawa/B\u00e5s\u00e5 J\u00e5w\u00e5"
+            "Basa Jawa"
         ],
         "region": [
             "Asia"
@@ -4584,28 +4523,39 @@ var languages = {
         ],
         "mainfam": "Austronesian"
     },
-    "Timbisha language": {
-        "vspeakers": "20",
-        "speakers": "20\u00a0(2007)[1]",
-        "places": "United States",
+    "Northern Sotho language": {
+        "vspeakers": [
+            "low: 4.7 million",
+            "high: 9.1 million"
+        ],
+        "speakers": "4.7 million\u00a0(2011 census)[1]9.1\u00a0million L2 speakers (2002)[2]",
+        "places": "South Africa",
         "family": [
-            "Uto-Aztecan",
-            "Numic",
-            "Central",
-            "Timbisha"
+            "Niger\u2013Congo",
+            "Atlantic\u2013Congo",
+            "Volta-Congo",
+            "Benue\u2013Congo",
+            "Bantoid",
+            "Southern Bantoid",
+            "Bantu",
+            "Southern Bantu",
+            "Sotho\u2013Tswana",
+            "Northern Sotho"
         ],
         "endonym": "NA",
         "region": [
-            "North America"
+            "Africa"
         ],
         "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Timbisha_language",
-        "scripts": [],
-        "vplaces": [
-            "United States"
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Northern_Sotho_language",
+        "scripts": [
+            "latin"
         ],
-        "mainfam": "Uto-Aztecan"
+        "vplaces": [
+            "South Africa"
+        ],
+        "mainfam": "Bantu"
     },
     "Altai language": {
         "vspeakers": "55720",
@@ -4634,30 +4584,33 @@ var languages = {
         ],
         "mainfam": "Turkic"
     },
-    "Amdang language": {
-        "vspeakers": "41000",
-        "speakers": "41,000\u00a0(2000)[1]",
-        "places": "Chad, Sudan",
+    "Tabasaran language": {
+        "vspeakers": "126900",
+        "speakers": "126,900\u00a0(2010 census)[1]",
+        "places": "Russia",
         "family": [
-            "Nilo-Saharan",
-            "Fur",
-            "Amdang"
+            "Northeast Caucasian",
+            "Lezgic",
+            "Samur",
+            "Eastern Samur",
+            "Lezgi\u2013Aghul\u2013Tabasaran",
+            "Tabasaran"
         ],
         "endonym": [
-            "s\u00ecm\u00ed amdangt\u00ed"
+            "\u0442\u0430\u0431\u0430\u0441\u0430\u0440\u0430\u043d \u0447I\u0430\u043b tabasaran \u04ab\u0307al",
+            "tabasaran \u04ab\u0307al"
         ],
         "region": [
-            "Africa"
+            "NA"
         ],
         "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Amdang_language",
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Tabasaran_language",
         "scripts": [],
         "vplaces": [
-            "Sudan",
-            "Chad"
+            "Russia"
         ],
-        "mainfam": "Nilo-Saharan"
+        "mainfam": "Northeast Caucasian"
     },
     "Zapotec languages": {
         "vspeakers": "450000",
@@ -4715,29 +4668,6 @@ var languages = {
         ],
         "mainfam": "Semitic"
     },
-    "Mono language (California)": {
-        "vspeakers": "37",
-        "speakers": "(37 cited 1994)[1]",
-        "places": "United States",
-        "family": [
-            "Uto-Aztecan",
-            "Numic",
-            "Western Numic",
-            "Mono"
-        ],
-        "endonym": "NA",
-        "region": [
-            "North America"
-        ],
-        "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Mono_language_(Native_American)",
-        "scripts": [],
-        "vplaces": [
-            "United States"
-        ],
-        "mainfam": "Uto-Aztecan"
-    },
     "Ingrian language": {
         "vspeakers": "142",
         "speakers": "142 (379 in total)\u00a0(2010 census)[1]",
@@ -4760,6 +4690,99 @@ var languages = {
             "Russia"
         ],
         "mainfam": "Uralic"
+    },
+    "Akatek language": {
+        "vspeakers": "45430",
+        "speakers": "45,430\u00a0(2003-2011)[1]",
+        "places": "GuatemalaMexico",
+        "family": [
+            "Mayan",
+            "Q\u02bcanjobalan\u2013Chujean",
+            "Q\u02bcanjobalan",
+            "Kanjobal\u2013Jacaltec",
+            "Akateko"
+        ],
+        "endonym": "NA",
+        "region": [
+            "North America"
+        ],
+        "official": "NA",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Akatek_language",
+        "scripts": [],
+        "vplaces": [
+            "Mexico",
+            "Guatemala"
+        ],
+        "mainfam": "Mayan"
+    },
+    "Yaeyama language": {
+        "vspeakers": "NA",
+        "speakers": "NA",
+        "places": "Japan",
+        "family": [
+            "Japonic",
+            "Ryukyuan",
+            "Southern Ryukyuan",
+            "Macro-Yaeyama",
+            "Yaeyama"
+        ],
+        "endonym": [
+            "\u516b\u91cd\u5c71\u7269\u8a00",
+            "\u30e4\u30a4\u30de\u30e0\u30cb",
+            "Yaimamuni",
+            "\u516b\u91cd\u5c71\u7269\u8a00/\u30e4\u30a4\u30de\u30e0\u30cb Yaimamuni"
+        ],
+        "region": [
+            "Asia"
+        ],
+        "official": "NA",
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Yaeyama_language",
+        "scripts": [],
+        "vplaces": [
+            "Japan"
+        ],
+        "mainfam": "Japonic"
+    },
+    "Swazi language": {
+        "vspeakers": [
+            "low: 2.3 million",
+            "high: 2.4 million"
+        ],
+        "speakers": "2.3 million\u00a0(2006\u20132011)[1]2.4 million L2 speakers in South Africa (2002)[2]",
+        "places": "Eswatini, South Africa, Lesotho, Mozambique",
+        "family": [
+            "Niger\u2013Congo",
+            "Atlantic\u2013Congo",
+            "Volta-Congo",
+            "Benue\u2013Congo",
+            "Bantoid",
+            "Southern Bantoid",
+            "Bantu",
+            "Southern Bantu",
+            "Nguni",
+            "Tekela",
+            "Swazi"
+        ],
+        "endonym": [
+            "siSwati"
+        ],
+        "region": [
+            "Africa"
+        ],
+        "official": "NA",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Swati_language",
+        "scripts": [
+            "latin"
+        ],
+        "vplaces": [
+            "South Africa",
+            "Mozambique",
+            "Lesotho"
+        ],
+        "mainfam": "Bantu"
     },
     "Nisenan language": {
         "vspeakers": "NA",
@@ -4811,6 +4834,35 @@ var languages = {
         ],
         "mainfam": "Arawakan"
     },
+    "Breton language": {
+        "vspeakers": "210000",
+        "speakers": "210,000 in Brittany\u00a0(2018)[1]16,000 in \u00cele-de-France[2](Number includes students in bilingual education)[3]",
+        "places": "France",
+        "family": [
+            "Indo-European",
+            "Celtic",
+            "Insular Celtic",
+            "Brittonic",
+            "Southwestern",
+            "Breton"
+        ],
+        "endonym": [
+            "brezhoneg"
+        ],
+        "region": [
+            "Europe"
+        ],
+        "official": "NA",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Breton_language",
+        "scripts": [
+            "latin script"
+        ],
+        "vplaces": [
+            "France"
+        ],
+        "mainfam": "Celtic"
+    },
     "Amuzgo language": {
         "vspeakers": "55588",
         "speakers": "55,588\u00a0(2015 census)[1]",
@@ -4834,31 +4886,30 @@ var languages = {
         ],
         "mainfam": "Oto-Manguean"
     },
-    "Erzya language": {
-        "vspeakers": "430000",
-        "speakers": "430,000 Mordvin\u00a0(2010 census)[1]The 1926 census found that approximately 2/3 of ethnic Mordvins were Erzya, and the figure might be similar today[2]",
-        "places": "Russia",
+    "Alabama language": {
+        "vspeakers": "370",
+        "speakers": "approx. 370\u00a0(2015 census)[1]",
+        "places": "United States",
         "family": [
-            "Uralic",
-            "Mordvinic",
-            "Erzya"
+            "Muskogean",
+            "Eastern",
+            "Alabama\u2013Koasati",
+            "Alabama"
         ],
         "endonym": [
-            "\u044d\u0440\u0437\u044f\u043d\u044c \u043a\u0435\u043b\u044c"
+            "Albaamo innaa\u026ciilka"
         ],
         "region": [
-            "NA"
+            "North America"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Erzya_language",
-        "scripts": [
-            "cyrillic"
-        ],
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Alabama_language",
+        "scripts": [],
         "vplaces": [
-            "Russia"
+            "United States"
         ],
-        "mainfam": "Uralic"
+        "mainfam": "Muskogean"
     },
     "Dogri language": {
         "vspeakers": "1.6 million",
@@ -4955,28 +5006,78 @@ var languages = {
         ],
         "mainfam": "Tuu"
     },
-    "Mentawai language": {
-        "vspeakers": "58000",
-        "speakers": "58,000\u00a0(2000 census)[1]",
-        "places": "West Sumatra, Indonesia",
+    "Assamese language": {
+        "vspeakers": "14.81 million",
+        "speakers": "14.81\u00a0million\u00a0(2011 census)[1]",
+        "places": "language\u00a0in\u00a0India\nAssam\n",
         "family": [
-            "Austronesian",
-            "Malayo-Polynesian",
-            "Northwest Sumatra\u2013Barrier Islands",
-            "Mentawai"
+            "Indo-European",
+            "Indo-Iranian",
+            "Indo-Aryan",
+            "Eastern",
+            "Bengali\u2013Assamese",
+            "Assamese"
         ],
-        "endonym": "NA",
+        "endonym": [
+            "\u0985\u09b8\u09ae\u09c0\u09af\u09bc\u09be"
+        ],
         "region": [
             "Asia"
         ],
-        "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Mentawai_language",
-        "scripts": [],
-        "vplaces": [
-            "Indonesia"
+        "official": [
+            "India"
         ],
-        "mainfam": "Austronesian"
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Assamese_language",
+        "scripts": [
+            "assamese script",
+            "eastern nagari",
+            "assamese",
+            "ahom script",
+            "[2]",
+            "latin alphabet",
+            "nagamese creole",
+            "[3]"
+        ],
+        "vplaces": [
+            "India"
+        ],
+        "mainfam": "Indo-Aryan"
+    },
+    "Tatar language": {
+        "vspeakers": "5.2 million",
+        "speakers": "5.2 million\u00a0(2015)[1](may include some L2 speakers)",
+        "places": "Russia, other post-Soviet states",
+        "family": [
+            "Turkic",
+            "Common Turkic",
+            "Kipchak",
+            "Kipchak\u2013Bulgar",
+            "Tatar"
+        ],
+        "endonym": [
+            "\u0442\u0430\u0442\u0430\u0440 \u0442\u0435\u043b\u0435, tatar tele, \u062a\u0627\u062a\u0627\u0631 \u062a\u0644\u06cc\u200e",
+            "\u0442\u0430\u0442\u0430\u0440 \u0442\u0435\u043b\u0435",
+            "\u062a\u0627\u062a\u0627\u0631 \u062a\u0644\u06cc",
+            "tatar tele"
+        ],
+        "region": [
+            "NA"
+        ],
+        "official": "NA",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Tatar_language",
+        "scripts": [
+            "tatar alphabet",
+            "cyrillic",
+            "latin",
+            "Arabic",
+            "(arabic)"
+        ],
+        "vplaces": [
+            "Russia"
+        ],
+        "mainfam": "Turkic"
     },
     "Mandaic language": {
         "vspeakers": "5500",
@@ -5243,40 +5344,6 @@ var languages = {
         ],
         "mainfam": "Indo-Aryan"
     },
-    "Hebrew language": {
-        "vspeakers": "NA",
-        "speakers": "NA",
-        "places": "Israel",
-        "family": [
-            "Afro-Asiatic",
-            "Semitic",
-            "Central Semitic",
-            "Northwest Semitic",
-            "Canaanite",
-            "Hebrew"
-        ],
-        "endonym": [
-            "\u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea\u200e, Ivrit",
-            "Ivrit"
-        ],
-        "region": [
-            "Asia"
-        ],
-        "official": "NA",
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Hebrew_language",
-        "scripts": [
-            "hebrew alphabet",
-            "paleo-hebrew alphabet",
-            "archaic biblical hebrew",
-            "imperial aramaic script",
-            "late biblical hebrew"
-        ],
-        "vplaces": [
-            "Israel"
-        ],
-        "mainfam": "Semitic"
-    },
     "Kap\u00f3ng language": {
         "vspeakers": "10000",
         "speakers": "(10,000 cited 1990\u20132002)[1]",
@@ -5304,40 +5371,34 @@ var languages = {
         ],
         "mainfam": "Cariban"
     },
-    "Minangkabau language": {
-        "vspeakers": "5.5 million",
-        "speakers": "5.5 million\u00a0(2007)[1]",
-        "places": "Indonesia (West Sumatra)",
+    "Ndau dialect": {
+        "vspeakers": "2.4 million",
+        "speakers": "2.4 million\u00a0(2000\u20132006)[1]",
+        "places": "language\u00a0inZimbabwe",
         "family": [
-            "Austronesian",
-            "Malayo-Polynesian",
-            "Malayic",
-            "Minangkabau"
+            "Niger\u2013Congo",
+            "Atlantic\u2013Congo",
+            "Benue\u2013Congo",
+            "Southern Bantoid",
+            "Bantu",
+            "Shona",
+            " (S.10)",
+            "Ndau"
         ],
-        "endonym": [
-            "\u0628\u0627\u0633\u0648 \u0645\u064a\u0646\u06a0\u0643\u0627\u0628\u0627\u0648",
-            "\u0628\u0647\u0627\u0633 \u0645\u064a\u0646\u0627\u06a0\u0643\u0627\u0628\u0627\u0648",
-            "(easy) Baso Minangkabau",
-            "(easy) Baso Minangkabau\u0628\u0627\u0633\u0648 \u0645\u064a\u0646\u06a0\u0643\u0627\u0628\u0627\u0648\u200e\u0628\u0647\u0627\u0633 \u0645\u064a\u0646\u0627\u06a0\u0643\u0627\u0628\u0627\u0648\u200e"
-        ],
+        "endonym": "NA",
         "region": [
-            "Asia"
+            "Africa"
         ],
-        "official": "NA",
+        "official": [
+            "Zimbabwe"
+        ],
         "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Minangkabau_language",
-        "scripts": [
-            "latin",
-            "malay alphabet",
-            "Arabic",
-            "(arabic script)",
-            "Arabic",
-            "(jawi alphabet)"
-        ],
+        "link": "https://en.wikipedia.org/wiki/Ndau_language",
+        "scripts": [],
         "vplaces": [
-            "Indonesia"
+            "Zimbabwe"
         ],
-        "mainfam": "Austronesian"
+        "mainfam": "Bantu"
     },
     "Dahalik language": {
         "vspeakers": "2500",
@@ -5551,32 +5612,29 @@ var languages = {
         "vplaces": "NA",
         "mainfam": "Indo-Aryan"
     },
-    "Chulym language": {
-        "vspeakers": "44",
-        "speakers": "44\u00a0(2010 census)[1]",
-        "places": "Russia",
-        "family": [
-            "Turkic",
-            "Common Turkic",
-            "Siberian Turkic",
-            "Chulym"
-        ],
+    "Haida language": {
+        "vspeakers": "24",
+        "speakers": "24 (465 total)\u00a0(2018)",
+        "places": "\nCanada (Haida Gwaii)\nAlaska (Prince of Wales Island)\n",
+        "family": "NA",
         "endonym": [
-            "\u041e\u0441\u044c \u0442\u0438\u043b\u0438, \u0442\u0430\u0434\u0430\u0440 \u0442\u0438\u043b\u0438"
+            "X\u0331aat K\u00edl, X\u0331aadas K\u00edl, X\u0331aayda Kil, Xaad kil",
+            "X\u0331aat K\u00edl, X\u0331aadas K\u00edl, X\u0331aayda Kil, Xaad kil"
         ],
         "region": [
-            "NA"
+            "North America"
         ],
         "official": "NA",
         "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Chulym_language",
+        "link": "https://en.wikipedia.org/wiki/Haida_language",
         "scripts": [
-            "cyrillic"
+            "latin"
         ],
         "vplaces": [
-            "Russia"
+            "Canada",
+            "Wales"
         ],
-        "mainfam": "Turkic"
+        "mainfam": "NA"
     },
     "Gula Iro language": {
         "vspeakers": "3500",
@@ -5603,13 +5661,36 @@ var languages = {
         ],
         "mainfam": "Niger\u2013Congo"
     },
-    "Northern Sotho language": {
-        "vspeakers": [
-            "low: 4.7 million",
-            "high: 9.1 million"
+    "Timbisha language": {
+        "vspeakers": "20",
+        "speakers": "20\u00a0(2007)[1]",
+        "places": "United States",
+        "family": [
+            "Uto-Aztecan",
+            "Numic",
+            "Central",
+            "Timbisha"
         ],
-        "speakers": "4.7 million\u00a0(2011 census)[1]9.1\u00a0million L2 speakers (2002)[2]",
-        "places": "South Africa",
+        "endonym": "NA",
+        "region": [
+            "North America"
+        ],
+        "official": "NA",
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Timbisha_language",
+        "scripts": [],
+        "vplaces": [
+            "United States"
+        ],
+        "mainfam": "Uto-Aztecan"
+    },
+    "Swahili language": {
+        "vspeakers": [
+            "low: 2 million",
+            "high: 150 million"
+        ],
+        "speakers": "Estimates range from 2 million (2003)[2] to 150 million\u00a0(2012)[3]L2 speakers: 90 million (1991\u20132015)[3]",
+        "places": "Tanzania, Democratic Republic of the Congo, Bajuni Islands (part of Somalia), South Sudan, Mozambique (mostly Mwani), Burundi, Rwanda, Uganda, Kenya,[1] Comoros, Mayotte, Zambia, Malawi, and Madagascar",
         "family": [
             "Niger\u2013Congo",
             "Atlantic\u2013Congo",
@@ -5618,54 +5699,47 @@ var languages = {
             "Bantoid",
             "Southern Bantoid",
             "Bantu",
-            "Southern Bantu",
-            "Sotho\u2013Tswana",
-            "Northern Sotho"
+            "Northeast Bantu",
+            "Northeast Coast Bantu",
+            "Sabaki",
+            "Swahili"
         ],
-        "endonym": "NA",
+        "endonym": [
+            "Kiswahili"
+        ],
         "region": [
             "Africa"
         ],
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Northern_Sotho_language",
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Swahili_language",
         "scripts": [
-            "latin"
+            "latin script",
+            "roman swahili alphabet",
+            "Arabic",
+            "(arabic script)",
+            "Arabic",
+            "(arabic swahili alphabet)"
         ],
         "vplaces": [
-            "South Africa"
+            "Tanzania",
+            "Kenya",
+            "Uganda",
+            "Sudan",
+            "Mozambique",
+            "Madagascar",
+            "Mali",
+            "Malawi",
+            "Zambia",
+            "Somalia",
+            "Rwanda",
+            "Burundi",
+            "South Sudan",
+            "Congo",
+            "Comoros",
+            "Mayotte"
         ],
         "mainfam": "Bantu"
-    },
-    "Koya language": {
-        "vspeakers": "407423",
-        "speakers": "407,423\u00a0(2011)[1]",
-        "places": "India",
-        "family": [
-            "Dravidian",
-            "South-Central",
-            "Gondi\u2013Kui",
-            "Kuvi\u2013Kui",
-            "Koya"
-        ],
-        "endonym": [
-            "\u0c15\u0c4b\u0c2f\u0c3e, \u0b15\u0b4b\u0b5f\u0b3e, \u0915\u094b\u092f\u093e"
-        ],
-        "region": [
-            "Asia"
-        ],
-        "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Koya_language",
-        "scripts": [
-            "telugu",
-            "odia",
-            "devanagari"
-        ],
-        "vplaces": [
-            "India"
-        ],
-        "mainfam": "Dravidian"
     },
     "Balti language": {
         "vspeakers": "379000",
@@ -6140,33 +6214,30 @@ var languages = {
         ],
         "mainfam": "Uralic"
     },
-    "Tabasaran language": {
-        "vspeakers": "126900",
-        "speakers": "126,900\u00a0(2010 census)[1]",
-        "places": "Russia",
+    "Amdang language": {
+        "vspeakers": "41000",
+        "speakers": "41,000\u00a0(2000)[1]",
+        "places": "Chad, Sudan",
         "family": [
-            "Northeast Caucasian",
-            "Lezgic",
-            "Samur",
-            "Eastern Samur",
-            "Lezgi\u2013Aghul\u2013Tabasaran",
-            "Tabasaran"
+            "Nilo-Saharan",
+            "Fur",
+            "Amdang"
         ],
         "endonym": [
-            "\u0442\u0430\u0431\u0430\u0441\u0430\u0440\u0430\u043d \u0447I\u0430\u043b tabasaran \u04ab\u0307al",
-            "tabasaran \u04ab\u0307al"
+            "s\u00ecm\u00ed amdangt\u00ed"
         ],
         "region": [
-            "NA"
+            "Africa"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Tabasaran_language",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Amdang_language",
         "scripts": [],
         "vplaces": [
-            "Russia"
+            "Sudan",
+            "Chad"
         ],
-        "mainfam": "Northeast Caucasian"
+        "mainfam": "Nilo-Saharan"
     },
     "Torwali language": {
         "vspeakers": "110000",
@@ -6192,41 +6263,39 @@ var languages = {
         "vplaces": "NA",
         "mainfam": "Indo-Aryan"
     },
-    "Bambara language": {
-        "vspeakers": [
-            "low: 4.1 million",
-            "high: 10 million"
-        ],
-        "speakers": "4.1 million\u00a0(2012)[1]10 million L2 speakersSpoken to varying degrees by 80% of the population of Mali",
-        "places": "Mali",
+    "Scots language": {
+        "vspeakers": "NA",
+        "speakers": "Numbers disputed. 99,200\u00a0(2019)[1]In 2011, 1,541,693 people in Scotland alone reported speaking Scots.[2]",
+        "places": "United Kingdom, Republic of Ireland",
         "family": [
-            "Mande",
-            "Western Mande",
-            "...",
-            "Manding",
-            "East Manding",
-            "Bambara\u2013Dyula",
-            "Bambara"
+            "Indo-European",
+            "Germanic",
+            "West Germanic",
+            "North Sea Germanic",
+            "Anglo-Frisian",
+            "Anglic",
+            "Scots"
         ],
         "endonym": [
-            "\u07d3\u07e1\u07ca\u07e3\u07ca\u07f2\u07de\u07ca\u07f2",
-            "B\u00e1m\u00e1n\u00e1nk\u00e1n",
-            "B\u00e1m\u00e1n\u00e1nk\u00e1n, \u07d3\u07e1\u07ca\u07e3\u07ca\u07f2\u07de\u07ca\u07f2\u200e"
+            "Braid",
+            "(easy) Scots",
+            "Lallans",
+            "Doric"
         ],
         "region": [
-            "Africa"
+            "Europe"
         ],
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Bambara_language",
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Scots_language",
         "scripts": [
-            "latin",
-            "n'ko"
+            "latin"
         ],
         "vplaces": [
-            "Mali"
+            "United Kingdom",
+            "Ireland"
         ],
-        "mainfam": "Mande"
+        "mainfam": "Germanic"
     },
     "Sarikoli language": {
         "vspeakers": "16000",
@@ -6261,37 +6330,24 @@ var languages = {
         ],
         "mainfam": "Iranian"
     },
-    "Faroese language": {
-        "vspeakers": "72000",
-        "speakers": "72,000\u00a0(2007)[1]",
-        "places": "Faroe Islands, Denmark, Greenland",
+    "Meroitic language": {
+        "vspeakers": "NA",
+        "speakers": "NA",
+        "places": "Kingdom of Kush",
         "family": [
-            "Indo-European",
-            "Germanic",
-            "North Germanic",
-            "West Scandinavian",
-            "Insular Scandinavian",
-            "Faroese"
+            "Unclassified"
         ],
-        "endonym": [
-            "f\u00f8royskt m\u00e1l"
-        ],
-        "region": [
-            "Europe"
-        ],
+        "endonym": "NA",
+        "region": "NA",
         "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Faroese_language",
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Meroitic_language",
         "scripts": [
-            "latin",
-            "faroese orthography"
+            "egyptian museum of berlin",
+            "meroitic alphabet"
         ],
-        "vplaces": [
-            "Faroe Islands",
-            "Greenland",
-            "Denmark"
-        ],
-        "mainfam": "Germanic"
+        "vplaces": "NA",
+        "mainfam": "Unclassified"
     },
     "Selkup language": {
         "vspeakers": "1000",
@@ -6389,43 +6445,28 @@ var languages = {
         ],
         "mainfam": "Austroasiatic"
     },
-    "Hungarian language": {
-        "vspeakers": "13 million",
-        "speakers": "13 million\u00a0(2003\u20132014)[1]",
-        "places": "Hungary and areas of east Austria, Croatia, Romania, northern Serbia, Slovakia, Slovenia, western Ukraine",
+    "Aleut language": {
+        "vspeakers": "150",
+        "speakers": "150[1]\u00a0(2009-2011)",
+        "places": "Alaska (Aleutian, Pribilof Islands, Alaskan Peninsula west of Stepovak Bay), Kamchatka Krai (Commander Islands)",
         "family": [
-            "Uralic",
-            "Ugric",
-            "? (disputed)",
-            "[2]",
-            "[3]",
-            "[4]",
-            "Hungarian"
+            "Eskimo\u2013Aleut",
+            "Aleut"
         ],
         "endonym": [
-            "magyar nyelv"
+            "Unangam Tunuu",
+            "Unangam Tunuu\u0423\u043d\u0430\u0301\u04c8\u0430\u043c \u0442\u0443\u043d\u0443\u0443\u0301 or \u0443\u043d\u0430\u04c8\u0430\u043d \u0443\u043c\u0441\u0443\u0443"
         ],
-        "region": "Europe",
+        "region": "NA",
         "official": "NA",
-        "difficulty": "easy",
-        "link": "https://en.wikipedia.org/wiki/Hungarian_language",
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Aleut_language",
         "scripts": [
             "latin",
-            "hungarian alphabet",
-            "old hungarian script"
+            "cyrillic"
         ],
-        "vplaces": [
-            "Hungary",
-            "Romania",
-            "Ukraine",
-            "Austria",
-            "Serbia",
-            "Slovakia",
-            "Oman",
-            "Croatia",
-            "Slovenia"
-        ],
-        "mainfam": "Uralic"
+        "vplaces": "NA",
+        "mainfam": "Eskimo\u2013Aleut"
     },
     "Cham language": {
         "vspeakers": "320000",
@@ -6462,42 +6503,30 @@ var languages = {
         ],
         "mainfam": "Austronesian"
     },
-    "Tausug language": {
-        "vspeakers": "1.1 million",
-        "speakers": "1.1 million\u00a0(2000)[1]",
-        "places": "Philippines, Malaysia",
+    "Lezgian language": {
+        "vspeakers": "800000",
+        "speakers": "800,000\u00a0(2010)[2]",
+        "places": "North Caucasus",
         "family": [
-            "Austronesian",
-            "Malayo-Polynesian",
-            "Philippine",
-            "Greater Central Philippine",
-            "Central Philippine",
-            "Bisayan",
-            "Southern Bisayan",
-            "Tausug"
+            "Northeast Caucasian",
+            "Lezgic",
+            "Samur",
+            "Eastern Samur",
+            "Lezgi\u2013Aghul\u2013Tabasaran",
+            "Lezgian"
         ],
         "endonym": [
-            "Bahasa S\u016bg[a]\u0628\u064e\u0647\u064e\u0633\u064e \u0633\u064f\u0648\u06af"
+            "\u043b\u0435\u0437\u0433\u0438 \u0447\u04cf\u0430\u043b",
+            "lezgi \u010d'al",
+            "\u043b\u0435\u0437\u0433\u0438 \u0447\u04cf\u0430\u043b lezgi \u010d'al[1]"
         ],
-        "region": [
-            "Asia"
-        ],
+        "region": "NA",
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Tausug_language",
-        "scripts": [
-            "latin",
-            "malay alphabet",
-            "Arabic",
-            "(arabic)",
-            "Arabic",
-            "(jawi)"
-        ],
-        "vplaces": [
-            "Philippines",
-            "Malaysia"
-        ],
-        "mainfam": "Austronesian"
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Lezgi_language",
+        "scripts": [],
+        "vplaces": "NA",
+        "mainfam": "Northeast Caucasian"
     },
     "Nogai language": {
         "vspeakers": "87000",
@@ -6815,39 +6844,6 @@ var languages = {
         "vplaces": "NA",
         "mainfam": "Oto-Manguean"
     },
-    "Corsican language": {
-        "vspeakers": "150000",
-        "speakers": "150,000 in Corsica\u00a0(2013)[1]",
-        "places": "FranceItaly",
-        "family": [
-            "Indo-European",
-            "Italic",
-            "Romance",
-            "Italo-Dalmatian",
-            "Tuscan",
-            "[2]",
-            "Corsican"
-        ],
-        "endonym": [
-            "corsu",
-            "lingua corsa"
-        ],
-        "region": [
-            "Europe"
-        ],
-        "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Corsican_language",
-        "scripts": [
-            "latin script",
-            "corsican alphabet"
-        ],
-        "vplaces": [
-            "France",
-            "Italy"
-        ],
-        "mainfam": "Romance"
-    },
     "Kalmyk Oirat": {
         "vspeakers": "80500",
         "speakers": "80,500\u00a0(2010)[1]",
@@ -7016,39 +7012,63 @@ var languages = {
         ],
         "mainfam": "Indo-Aryan"
     },
-    "Amharic": {
-        "vspeakers": "NA",
-        "speakers": "22,000,000[1][2]\u00a0(2007 Population and Housing Census)",
-        "places": "Ethiopia",
+    "Domaaki language": {
+        "vspeakers": "340",
+        "speakers": "340\u00a0(2011)[1]",
+        "places": "Pakistan",
         "family": [
-            "Afro-Asiatic",
-            "Semitic",
-            "West Semitic",
-            "South Semitic",
-            "Ethiopic",
-            "South Ethiopic",
-            "Transversal South Ethiopic",
-            "Amharic\u2013Argobba",
-            "Amharic"
+            "Indo-European",
+            "Indo-Iranian",
+            "Indo-Aryan",
+            "Central Zone",
+            "Domaaki"
         ],
-        "endonym": [
-            "\u12a0\u121b\u122d\u129b",
-            "Amar\u0259\u00f1\u00f1a",
-            "\u12a0\u121b\u122d\u129b (Amar\u0259\u00f1\u00f1a)"
-        ],
+        "endonym": "NA",
         "region": [
-            "Africa"
+            "Asia"
         ],
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Amharic_language",
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Domaaki_language",
         "scripts": [
-            "ge\u02bdez script"
+            "Arabic",
+            "(arabic script)",
+            "[2]"
         ],
         "vplaces": [
-            "Ethiopia"
+            "Pakistan"
         ],
-        "mainfam": "Semitic"
+        "mainfam": "Indo-Aryan"
+    },
+    "Zeelandic": {
+        "vspeakers": "NA",
+        "speakers": "(undated figure of 220,000)[1]",
+        "places": "Zeeland(Netherlands)",
+        "family": [
+            "Indo-European",
+            "Germanic",
+            "West Germanic",
+            "Weser-Rhine Germanic",
+            "Low Franconian",
+            "Dutch",
+            "Zeelandic"
+        ],
+        "endonym": [
+            "Ze\u00eauws"
+        ],
+        "region": [
+            "Europe"
+        ],
+        "official": "NA",
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Zeelandic_language",
+        "scripts": [
+            "latin"
+        ],
+        "vplaces": [
+            "Netherlands"
+        ],
+        "mainfam": "Germanic"
     },
     "Ongota language": {
         "vspeakers": "12",
@@ -7441,42 +7461,6 @@ var languages = {
         ],
         "mainfam": "Northeast Caucasian"
     },
-    "Bhojpuri language": {
-        "vspeakers": "51 million",
-        "speakers": "51 million, partial count\u00a0(2011 census)[1](additional speakers counted under Hindi)",
-        "places": "India and Nepal",
-        "family": [
-            "Indo-European",
-            "Indo-Iranian",
-            "Indo-Aryan",
-            "Eastern",
-            "Bihari",
-            "Bhojpuri"
-        ],
-        "endonym": [
-            "\u092d\u094b\u091c\u092a\u0941\u0930\u0940",
-            "\u092d\u094b\u091c\u092a\u0941\u0930\u0940 \u00a0\u2022  \ud804\udca6\ud804\udcb7\ud804\udc94\ud804\udca3\ud804\udcb3\ud804\udca9\ud804\udcb2"
-        ],
-        "region": [
-            "Asia"
-        ],
-        "official": "NA",
-        "difficulty": "medium",
-        "link": "https://en.wikipedia.org/wiki/Bhojpuri_language",
-        "scripts": [
-            "kaithi",
-            "devanagari",
-            "devanagari",
-            "Arabic",
-            "(perso-arabic)",
-            "kaithi"
-        ],
-        "vplaces": [
-            "India",
-            "Nepal"
-        ],
-        "mainfam": "Indo-Aryan"
-    },
     "Shawiya language": {
         "vspeakers": "NA",
         "speakers": "2,130,000\u00a0(2016)[1]",
@@ -7503,37 +7487,32 @@ var languages = {
         ],
         "mainfam": "Afro-Asiatic"
     },
-    "Shina language": {
-        "vspeakers": "600000",
-        "speakers": "600,000 in Pakistan\nTotal users in all countries: 644,200. Shina Kohistani 401,000[1]\u00a0(2016)[2]",
-        "places": "Pakistan, India",
+    "Enets language": {
+        "vspeakers": "43",
+        "speakers": "43\u00a0(2010 census)[2]",
+        "places": "Russia",
         "family": [
-            "Indo-European",
-            "Indo-Iranian",
-            "Indo-Aryan",
-            "Dardic",
-            "Shina"
+            "Uralic",
+            "Samoyedic",
+            "(core)",
+            "Enets\u2013Nenets",
+            "Enets"
         ],
-        "endonym": "NA",
+        "endonym": [
+            "\u041e\u043d\u044d\u0439 \u0431\u0430\u0437\u0430 (Onei baza)[1]",
+            "Onei baza"
+        ],
         "region": [
-            "Asia"
+            "NA"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Shina_language",
-        "scripts": [
-            "Arabic",
-            "(arabic script)",
-            "Arabic",
-            "(arabic script)",
-            "nasta\u02bfl\u012bq",
-            "[3]"
-        ],
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Enets_language",
+        "scripts": [],
         "vplaces": [
-            "India",
-            "Pakistan"
+            "Russia"
         ],
-        "mainfam": "Indo-Aryan"
+        "mainfam": "Uralic"
     },
     "Flemish": {
         "vspeakers": "6.5 million",
@@ -7795,30 +7774,31 @@ var languages = {
         ],
         "mainfam": "Austronesian"
     },
-    "Alabama language": {
-        "vspeakers": "370",
-        "speakers": "approx. 370\u00a0(2015 census)[1]",
-        "places": "United States",
+    "Erzya language": {
+        "vspeakers": "430000",
+        "speakers": "430,000 Mordvin\u00a0(2010 census)[1]The 1926 census found that approximately 2/3 of ethnic Mordvins were Erzya, and the figure might be similar today[2]",
+        "places": "Russia",
         "family": [
-            "Muskogean",
-            "Eastern",
-            "Alabama\u2013Koasati",
-            "Alabama"
+            "Uralic",
+            "Mordvinic",
+            "Erzya"
         ],
         "endonym": [
-            "Albaamo innaa\u026ciilka"
+            "\u044d\u0440\u0437\u044f\u043d\u044c \u043a\u0435\u043b\u044c"
         ],
         "region": [
-            "North America"
+            "NA"
         ],
         "official": "NA",
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Alabama_language",
-        "scripts": [],
-        "vplaces": [
-            "United States"
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Erzya_language",
+        "scripts": [
+            "cyrillic"
         ],
-        "mainfam": "Muskogean"
+        "vplaces": [
+            "Russia"
+        ],
+        "mainfam": "Uralic"
     },
     "Dogrib language": {
         "vspeakers": "1735",
@@ -8033,30 +8013,42 @@ var languages = {
         ],
         "mainfam": "Dravidian"
     },
-    "Lezgian language": {
-        "vspeakers": "800000",
-        "speakers": "800,000\u00a0(2010)[2]",
-        "places": "North Caucasus",
+    "Tausug language": {
+        "vspeakers": "1.1 million",
+        "speakers": "1.1 million\u00a0(2000)[1]",
+        "places": "Philippines, Malaysia",
         "family": [
-            "Northeast Caucasian",
-            "Lezgic",
-            "Samur",
-            "Eastern Samur",
-            "Lezgi\u2013Aghul\u2013Tabasaran",
-            "Lezgian"
+            "Austronesian",
+            "Malayo-Polynesian",
+            "Philippine",
+            "Greater Central Philippine",
+            "Central Philippine",
+            "Bisayan",
+            "Southern Bisayan",
+            "Tausug"
         ],
         "endonym": [
-            "\u043b\u0435\u0437\u0433\u0438 \u0447\u04cf\u0430\u043b",
-            "lezgi \u010d'al",
-            "\u043b\u0435\u0437\u0433\u0438 \u0447\u04cf\u0430\u043b lezgi \u010d'al[1]"
+            "Bahasa S\u016bg[a]\u0628\u064e\u0647\u064e\u0633\u064e \u0633\u064f\u0648\u06af"
         ],
-        "region": "NA",
+        "region": [
+            "Asia"
+        ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Lezgi_language",
-        "scripts": [],
-        "vplaces": "NA",
-        "mainfam": "Northeast Caucasian"
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Tausug_language",
+        "scripts": [
+            "latin",
+            "malay alphabet",
+            "Arabic",
+            "(arabic)",
+            "Arabic",
+            "(jawi)"
+        ],
+        "vplaces": [
+            "Philippines",
+            "Malaysia"
+        ],
+        "mainfam": "Austronesian"
     },
     "Makassarese language": {
         "vspeakers": "2.1 million",
@@ -8320,6 +8312,31 @@ var languages = {
         ],
         "mainfam": "Germanic"
     },
+    "Ticuna language": {
+        "vspeakers": "47000",
+        "speakers": "47,000\u00a0(1998\u20132008)[1]",
+        "places": "Brazil, Colombia, Peru",
+        "family": [
+            "T\u00efcuna\u2013Yuri",
+            "T\u00efcuna"
+        ],
+        "endonym": [
+            "Du\u00fcx\u00fcgu"
+        ],
+        "region": [
+            "South America"
+        ],
+        "official": "NA",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Ticuna_language",
+        "scripts": [],
+        "vplaces": [
+            "Brazil",
+            "Colombia",
+            "Peru"
+        ],
+        "mainfam": "T\u00efcuna\u2013Yuri"
+    },
     "Yakut language": {
         "vspeakers": "450000",
         "speakers": "450,000 [1]\u00a0(2010 census)",
@@ -8349,34 +8366,34 @@ var languages = {
         ],
         "mainfam": "Turkic"
     },
-    "Badaga language": {
-        "vspeakers": "NA",
-        "speakers": "NA",
-        "places": "India",
+    "Kumyk language": {
+        "vspeakers": "450000",
+        "speakers": "450,000\u00a0(2010 census)[1]",
+        "places": "Russia",
         "family": [
-            "Dravidian",
-            "Southern",
-            "Tamil\u2013Kannada",
-            "Badaga"
+            "Turkic",
+            "Common Turkic",
+            "Kypchak",
+            "Kypchak\u2013Cuman",
+            "Kumyk"
         ],
         "endonym": [
-            "\u0baa\u0b9f\u0bc1\u0b95"
+            "\u043a\u044a\u0443\u043c\u0443\u043a\u044a \u0442\u0438\u043b/qumuq til"
         ],
         "region": [
-            "Asia"
+            "NA"
         ],
         "official": "NA",
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Badaga_language",
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Kumyk_language",
         "scripts": [
-            "tamil script",
-            "citation needed",
-            "kannada script"
+            "cyrillic",
+            "latin"
         ],
         "vplaces": [
-            "India"
+            "Russia"
         ],
-        "mainfam": "Dravidian"
+        "mainfam": "Turkic"
     },
     "Bahnar language": {
         "vspeakers": "160000",
@@ -8457,43 +8474,28 @@ var languages = {
         "vplaces": "NA",
         "mainfam": "Niger\u2013Congo"
     },
-    "Assamese language": {
-        "vspeakers": "14.81 million",
-        "speakers": "14.81\u00a0million\u00a0(2011 census)[1]",
-        "places": "language\u00a0in\u00a0India\nAssam\n",
+    "Mentawai language": {
+        "vspeakers": "58000",
+        "speakers": "58,000\u00a0(2000 census)[1]",
+        "places": "West Sumatra, Indonesia",
         "family": [
-            "Indo-European",
-            "Indo-Iranian",
-            "Indo-Aryan",
-            "Eastern",
-            "Bengali\u2013Assamese",
-            "Assamese"
+            "Austronesian",
+            "Malayo-Polynesian",
+            "Northwest Sumatra\u2013Barrier Islands",
+            "Mentawai"
         ],
-        "endonym": [
-            "\u0985\u09b8\u09ae\u09c0\u09af\u09bc\u09be"
-        ],
+        "endonym": "NA",
         "region": [
             "Asia"
         ],
-        "official": [
-            "India"
-        ],
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Assamese_language",
-        "scripts": [
-            "assamese script",
-            "eastern nagari",
-            "assamese",
-            "ahom script",
-            "[2]",
-            "latin alphabet",
-            "nagamese creole",
-            "[3]"
-        ],
+        "official": "NA",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Mentawai_language",
+        "scripts": [],
         "vplaces": [
-            "India"
+            "Indonesia"
         ],
-        "mainfam": "Indo-Aryan"
+        "mainfam": "Austronesian"
     },
     "Central Kilimanjaro language": {
         "vspeakers": "NA",
@@ -8524,6 +8526,37 @@ var languages = {
             "Tanzania"
         ],
         "mainfam": "Bantu"
+    },
+    "Urum language": {
+        "vspeakers": "190000",
+        "speakers": "190,000\u00a0(2000)[1]",
+        "places": "Ukraine, Georgia, Russia",
+        "family": [
+            "Turkic",
+            "Common Turkic",
+            "Kipchak",
+            "West Kypchak",
+            "Urum"
+        ],
+        "endonym": [
+            "\u0423\u0440\u0443\u043c"
+        ],
+        "region": [
+            "NA"
+        ],
+        "official": "NA",
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Urum_language",
+        "scripts": [
+            "cyrillic",
+            "greek"
+        ],
+        "vplaces": [
+            "Russia",
+            "Ukraine",
+            "Georgia"
+        ],
+        "mainfam": "Turkic"
     },
     "Kaonde language": {
         "vspeakers": "240000",
@@ -8714,24 +8747,29 @@ var languages = {
         ],
         "mainfam": "Indo-Aryan"
     },
-    "Tepehua languages": {
-        "vspeakers": "8900",
-        "speakers": "8,900\u00a0(2010 census)[1]",
-        "places": "NA",
+    "Muria language": {
+        "vspeakers": "15864",
+        "speakers": "15,864\u00a0(2011 census)[1]",
+        "places": "India",
         "family": [
-            "Totonacan",
-            "Tepehua"
+            "Dravidian",
+            "South-Central",
+            "Gondi\u2013Kui",
+            "Gondi languages",
+            "Muria"
         ],
-        "endonym": [
-            "Hamasipini"
+        "endonym": "NA",
+        "region": [
+            "Asia"
         ],
-        "region": "NA",
         "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Tepehua_language",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Muria_language",
         "scripts": [],
-        "vplaces": "NA",
-        "mainfam": "Totonacan"
+        "vplaces": [
+            "India"
+        ],
+        "mainfam": "Dravidian"
     },
     "Bengali language": {
         "vspeakers": [
@@ -9076,6 +9114,32 @@ var languages = {
         ],
         "mainfam": "Sino-Tibetan"
     },
+    "Vietnamese language": {
+        "vspeakers": "90 million",
+        "speakers": "~90 million\u00a0(2020)[1]",
+        "places": "Vietnamese-speaking (non-minority) areas of Vietnam[4]",
+        "family": [
+            "Austroasiatic",
+            "Vietic",
+            "Viet\u2013Muong",
+            "Vietnamese"
+        ],
+        "endonym": [],
+        "region": [
+            "Asia"
+        ],
+        "official": "NA",
+        "difficulty": "medium",
+        "link": "https://en.wikipedia.org/wiki/Vietnamese_language",
+        "scripts": [
+            "vietnamese alphabet",
+            "ch\u1eef n\u00f4m"
+        ],
+        "vplaces": [
+            "Vietnam"
+        ],
+        "mainfam": "Austroasiatic"
+    },
     "Muong language": {
         "vspeakers": "1.1 million",
         "speakers": "1.1 million\u00a0(1999 census)[1]",
@@ -9245,37 +9309,6 @@ var languages = {
             "United States"
         ],
         "mainfam": "Tanoan"
-    },
-    "Nkore language": {
-        "vspeakers": "3.4 million",
-        "speakers": "3.4 million\u00a0(2014 census)[1]",
-        "places": "Uganda",
-        "family": [
-            "Niger\u2013Congo",
-            "Atlantic\u2013Congo",
-            "Volta-Congo",
-            "Benue\u2013Congo",
-            "Bantoid",
-            "Southern Bantoid",
-            "Bantu",
-            "Northeast Bantu",
-            "Great Lakes Bantu",
-            "Nyoro-Ganda",
-            "Nkore-Kiga",
-            "Nkore"
-        ],
-        "endonym": "NA",
-        "region": [
-            "Africa"
-        ],
-        "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Runyankole_language",
-        "scripts": [],
-        "vplaces": [
-            "Uganda"
-        ],
-        "mainfam": "Bantu"
     },
     "Romanian language": {
         "vspeakers": [
@@ -9532,59 +9565,33 @@ var languages = {
         ],
         "mainfam": "Den\u00e9\u2013Yeniseian"
     },
-    "Monguor language": {
-        "vspeakers": "150000",
-        "speakers": "150,000\u00a0(2000 census)[1]",
-        "places": "China",
+    "Banjarese language": {
+        "vspeakers": "3.5 million",
+        "speakers": "3.5 million\u00a0(2000 census)[1]",
+        "places": "Indonesia, Malaysia",
         "family": [
-            "Mongolic",
-            "Shirongolic",
-            "Monguor"
+            "Austronesian",
+            "Malayo-Polynesian",
+            "(disputed)",
+            "Malayic",
+            "Banjarese"
         ],
         "endonym": [
-            "mo\u014b\u0261uer"
+            "Bahasa Banjar",
+            "Bahasa Banjar\u0628\u0647\u0627\u0633 \u0628\u0646\u062c\u0631"
         ],
         "region": [
             "Asia"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Tu_language",
-        "scripts": [
-            "latin script"
-        ],
-        "vplaces": [
-            "China"
-        ],
-        "mainfam": "Mongolic"
-    },
-    "Mari language": {
-        "vspeakers": "510000",
-        "speakers": "510,000\u00a0(2012)[1]",
-        "places": "language\u00a0in\u00a0Russia\n\u00a0Mari El\n",
-        "family": [
-            "Uralic",
-            "Finno-Permic",
-            "?",
-            "Mari"
-        ],
-        "endonym": [
-            "\u043c\u0430\u0440\u0438\u0439 \u0439\u044b\u043b\u043c\u0435 mariy yylme",
-            "mariy yylme"
-        ],
-        "region": [
-            "NA"
-        ],
-        "official": [
-            "Russia"
-        ],
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Mari_language",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Banjar_language",
         "scripts": [],
         "vplaces": [
-            "Russia"
+            "Indonesia",
+            "Malaysia"
         ],
-        "mainfam": "Uralic"
+        "mainfam": "Austronesian"
     },
     "Nheengatu": {
         "vspeakers": "19000",
@@ -10434,35 +10441,83 @@ var languages = {
         ],
         "mainfam": "Tungusic"
     },
-    "Samoan language": {
-        "vspeakers": "510000",
-        "speakers": "510,000\u00a0(2015)[1]",
-        "places": "Samoan Islands",
+    "Kurdish languages": {
+        "vspeakers": "30 million",
+        "speakers": "c. 20\u201330 million\u00a0(2000\u20132010 est.)[1]",
+        "places": "Turkey, Iraq, Iran, Syria, Armenia, Azerbaijan",
         "family": [
-            "Austronesian",
-            "Malayo-Polynesian",
-            "Oceanic",
-            "Polynesian",
-            "Samoic",
-            "Samoan\u2013Tokelauan",
-            "Samoan"
+            "Indo-European",
+            "Indo-Iranian",
+            "Iranian",
+            "Western",
+            "Northwestern",
+            "Kurdish"
         ],
         "endonym": [
-            "Gagana fa\u02bba S\u0101moa"
+            "\u0632\u0645\u0627\u0646\u06cc \u06a9\u0648\u0631\u062f\u06cc",
+            "Ziman\u00ea kurd\u00ee",
+            "Ziman\u00ea kurd\u00ee / \u0632\u0645\u0627\u0646\u06cc \u06a9\u0648\u0631\u062f\u06cc\u200e"
         ],
         "region": [
-            "Oceania"
+            "Asia"
+        ],
+        "official": "NA",
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Kurdish_language",
+        "scripts": [
+            "hawar alphabet",
+            "latin script",
+            "sorani alphabet",
+            "Arabic",
+            "(perso-arabic script)",
+            "cyrillic alphabet",
+            "armenian alphabet",
+            "[3]",
+            "[4]",
+            "[5]"
+        ],
+        "vplaces": [
+            "Turkey",
+            "Iran",
+            "Iraq",
+            "Syria",
+            "Azerbaijan",
+            "Armenia"
+        ],
+        "mainfam": "Iranian"
+    },
+    "Chakma language": {
+        "vspeakers": "326000",
+        "speakers": "326,000 in Bangladesh, 228,281 in India,[1][2] also in Myanmar",
+        "places": "Bangladesh and India",
+        "family": [
+            "Indo-European",
+            "Indo-Iranian",
+            "Indo-Aryan",
+            "Eastern",
+            "Bengali\u2013Assamese",
+            "Chakma"
+        ],
+        "endonym": [
+            "\ud804\udd0c\ud804\udd0b\ud804\udd34\ud804\udd1f\ud804\udd33\ud804\udd26 \ud804\udd1e\ud804\udd0c\ud804\udd34"
+        ],
+        "region": [
+            "Asia"
         ],
         "official": "NA",
         "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Samoan_language",
+        "link": "https://en.wikipedia.org/wiki/Chakma_language",
         "scripts": [
-            "latin"
+            "chakma script",
+            "latin script",
+            "bengali script",
+            "[3]"
         ],
         "vplaces": [
-            "Samoa"
+            "India",
+            "Bangladesh"
         ],
-        "mainfam": "Austronesian"
+        "mainfam": "Indo-Aryan"
     },
     "Nias language": {
         "vspeakers": "770000",
@@ -10493,74 +10548,65 @@ var languages = {
         ],
         "mainfam": "Austronesian"
     },
-    "Gilbertese language": {
-        "vspeakers": "120000",
-        "speakers": "(120,000 cited 1988\u20132010)[1]",
-        "places": "Kiribati",
+    "Avar language": {
+        "vspeakers": "1000000",
+        "speakers": "1,000,000\u00a0(2010)[1]",
+        "places": "Russia, Azerbaijan, Kazakhstan, Georgia and Turkey",
         "family": [
-            "Austronesian",
-            "Malayo-Polynesian",
-            "Oceanic",
-            "Micronesian",
-            "Micronesian Proper",
-            "Gilbertese"
+            "Northeast Caucasian",
+            "Avar\u2013Andic",
+            "Avar"
         ],
         "endonym": [
-            "Taetae ni Kiribati"
-        ],
-        "region": [
-            "Oceania"
-        ],
-        "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Gilbertese_language",
-        "scripts": [
-            "latin script",
-            "written gilbertese"
-        ],
-        "vplaces": [
-            "Kiribati"
-        ],
-        "mainfam": "Austronesian"
-    },
-    "Russian language": {
-        "vspeakers": [
-            "low: 110 million",
-            "high: 150 million"
-        ],
-        "speakers": "150 million\u00a0(2012)[1]L2 speakers: 110 million (2012)[1]",
-        "places": "Russia, Ukraine, Belarus, Kazakhstan, Kyrgyzstan, Estonia, Latvia and other neighboring post-Soviet states, and Russian diaspora",
-        "family": [
-            "Indo-European",
-            "Balto-Slavic",
-            "Slavic",
-            "East Slavic",
-            "Russian"
-        ],
-        "endonym": [
-            "\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a",
-            "\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a[note 1]"
+            "Ma\u01e5arul mac\u02bc",
+            "Awar mac\u02bc",
+            "\u041c\u0430\u0433\u04cf\u0430\u0440\u0443\u043b \u043c\u0430\u0446\u04cf, \u0410\u0432\u0430\u0440 \u043c\u0430\u0446\u04cfMa\u01e5arul mac\u02bc, Awar mac\u02bc"
         ],
         "region": [
             "NA"
         ],
         "official": "NA",
-        "difficulty": "easy",
-        "link": "https://en.wikipedia.org/wiki/Russian_language",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Avar_language",
         "scripts": [
             "cyrillic",
-            "russian alphabet"
+            "georgian",
+            "Arabic",
+            "(arabic)",
+            "latin"
         ],
         "vplaces": [
             "Russia",
-            "Ukraine",
+            "Turkey",
             "Kazakhstan",
-            "Belarus",
-            "Kyrgyzstan",
-            "Latvia",
-            "Estonia"
+            "Azerbaijan",
+            "Georgia"
         ],
-        "mainfam": "Slavic"
+        "mainfam": "Northeast Caucasian"
+    },
+    "Burushaski": {
+        "vspeakers": "112000",
+        "speakers": "112,000 [3]\u00a0(2016)[4]",
+        "places": "Gilgit-Baltistan, PakistanJammu and Kashmir, India[1]",
+        "family": "NA",
+        "endonym": [
+            "\u0628\u0631\u0648\u0634\u0633\u06a9\u06cc"
+        ],
+        "region": [
+            "Asia"
+        ],
+        "official": "NA",
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Burushaski_language",
+        "scripts": [
+            "Arabic",
+            "(arabic script)"
+        ],
+        "vplaces": [
+            "India",
+            "Pakistan"
+        ],
+        "mainfam": "NA"
     },
     "Kosraean language": {
         "vspeakers": "9000",
@@ -10616,35 +10662,26 @@ var languages = {
         ],
         "mainfam": "Algonquian"
     },
-    "Tharu languages": {
-        "vspeakers": "1.53 million",
-        "speakers": "1.53 million in Nepal\u00a0(2011 census)[1]400,000 or more in India (1997\u20132007)[1]",
-        "places": "Nepal, India",
+    "Chamorro language": {
+        "vspeakers": "58000",
+        "speakers": "58,000\u00a0(2005\u20132015)[1]",
+        "places": "Mariana Islands",
         "family": [
-            "Indo-European",
-            "Indo-Iranian",
-            "Indo-Aryan",
-            "Eastern",
-            "Bihari",
-            "Tharu"
+            "Austronesian",
+            "Malayo-Polynesian",
+            "Chamorro"
         ],
         "endonym": [
-            "\u0925\u093e\u0930\u0941, \u0925\u0930\u0941\u0935\u093e, \u0925\u0930\u0941\u0939\u091f"
+            "Finu\u02bc Chamoru",
+            "Finu\u02bc Chamoru"
         ],
-        "region": [
-            "Asia"
-        ],
+        "region": "NA",
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Tharu_language",
-        "scripts": [
-            "devanagari"
-        ],
-        "vplaces": [
-            "India",
-            "Nepal"
-        ],
-        "mainfam": "Indo-Aryan"
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Chamorro_language",
+        "scripts": [],
+        "vplaces": "NA",
+        "mainfam": "Austronesian"
     },
     "Abanyom language": {
         "vspeakers": "13000",
@@ -10672,31 +10709,6 @@ var languages = {
             "Niger"
         ],
         "mainfam": "Niger\u2013Congo"
-    },
-    "Coeur d'Alene language": {
-        "vspeakers": "4",
-        "speakers": "4\u00a0(2007)[1]",
-        "places": "United States of America",
-        "family": [
-            "Salishan",
-            "Interior Salish",
-            "Southern",
-            "Coeur d'Alene"
-        ],
-        "endonym": [
-            "Snchitsu\u2019umshtsn"
-        ],
-        "region": [
-            "North America"
-        ],
-        "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Coeur_d%27Alene_language",
-        "scripts": [],
-        "vplaces": [
-            "United States"
-        ],
-        "mainfam": "Salishan"
     },
     "Kerek language": {
         "vspeakers": "NA",
@@ -10747,35 +10759,34 @@ var languages = {
         ],
         "mainfam": "Uralic"
     },
-    "Riffian language": {
-        "vspeakers": "NA",
-        "speakers": "6,000,000\u00a0(2016)[1]",
-        "places": "Morocco, Melilla (Spain), Algeria",
+    "Irish language": {
+        "vspeakers": "1.6 million",
+        "speakers": "L1 speakers: 170,000~ (daily usage: ~70,000)\u00a0(2019)[1]L2 speakers: c. 1.6 million in Ireland (1.76M answering \u201cyes\u201d to being able to speak Irish in RoI (2016) -170k L1; of these, 558k use Irish within education); 104,943 identify as being able to speak Irish in Northern Ireland (2011), 18,815 Irish Americans claim to speak Irish at home (2005)",
+        "places": "Ireland",
         "family": [
-            "Afro-Asiatic",
-            "Berber",
-            "Northern",
-            "Zenati",
-            "Riffian"
+            "Indo-European",
+            "Celtic",
+            "Insular Celtic",
+            "Goidelic",
+            "Irish"
         ],
         "endonym": [
-            "Tmazi\u0263t"
+            "Gaeilge"
         ],
         "region": [
             "Europe"
         ],
         "official": "NA",
         "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Tarifit_language",
+        "link": "https://en.wikipedia.org/wiki/Irish_language",
         "scripts": [
-            "latin script"
+            "latin",
+            "irish alphabet"
         ],
         "vplaces": [
-            "Spain",
-            "Algeria",
-            "Morocco"
+            "Ireland"
         ],
-        "mainfam": "Afro-Asiatic"
+        "mainfam": "Celtic"
     },
     "Sawi language (Dardic)": {
         "vspeakers": "3000",
@@ -10853,25 +10864,38 @@ var languages = {
         ],
         "mainfam": "NA"
     },
-    "Bissa language": {
-        "vspeakers": "590000",
-        "speakers": "590,000\u00a0(1999\u20132003)[1]",
-        "places": "NA",
+    "Nyoro language": {
+        "vspeakers": "670000",
+        "speakers": "670,000\u00a0(2002 census)[1]",
+        "places": "Uganda",
         "family": [
             "Niger\u2013Congo",
-            "Mande",
-            "Eastern",
-            "Bisa\u2013Busa",
-            "Bissa"
+            "Atlantic\u2013Congo",
+            "Volta-Congo",
+            "Benue\u2013Congo",
+            "Bantoid",
+            "Southern Bantoid",
+            "Bantu",
+            "Northeast Bantu",
+            "Great Lakes Bantu",
+            "Nyoro-Ganda",
+            "Nyoro-Tooro",
+            "Nyoro"
         ],
-        "endonym": "NA",
-        "region": "NA",
+        "endonym": [
+            "Orunyoro"
+        ],
+        "region": [
+            "Africa"
+        ],
         "official": "NA",
         "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Bissa_language",
+        "link": "https://en.wikipedia.org/wiki/Nyoro_language",
         "scripts": [],
-        "vplaces": "NA",
-        "mainfam": "Niger\u2013Congo"
+        "vplaces": [
+            "Uganda"
+        ],
+        "mainfam": "Bantu"
     },
     "Rutul language": {
         "vspeakers": "36400",
@@ -10903,27 +10927,37 @@ var languages = {
         ],
         "mainfam": "Northeast Caucasian"
     },
-    "Nyangumarta language": {
-        "vspeakers": "211",
-        "speakers": "211\u00a0(2016 census)[1]",
-        "places": "Australia",
+    "Angika": {
+        "vspeakers": "743600",
+        "speakers": "743,600\u00a0(1996)[2]",
+        "places": "India and Nepal",
         "family": [
-            "Pama\u2013Nyungan",
-            "Marrngu",
-            "Nyangumarta"
+            "Indo-European",
+            "Indo-Iranian",
+            "Indo-Aryan",
+            "Eastern",
+            "Bihari",
+            "Angika"
         ],
-        "endonym": "NA",
+        "endonym": [
+            "\u0905\u0902\u0917\u093f\u0915\u093e"
+        ],
         "region": [
-            "Oceania"
+            "Asia"
         ],
         "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Nyangumarta_language",
-        "scripts": [],
-        "vplaces": [
-            "Australia"
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Angika_language",
+        "scripts": [
+            "devanagari",
+            "anga lipi",
+            "kaithi"
         ],
-        "mainfam": "Pama\u2013Nyungan"
+        "vplaces": [
+            "India",
+            "Nepal"
+        ],
+        "mainfam": "Indo-Aryan"
     },
     "Soga language": {
         "vspeakers": "3.1 million",
@@ -11003,32 +11037,26 @@ var languages = {
         ],
         "mainfam": "Austroasiatic"
     },
-    "Dameli language": {
-        "vspeakers": "5000",
-        "speakers": "5,000\u00a0(2001)[1]",
-        "places": "Pakistan",
-        "family": [
-            "Indo-European",
-            "Indo-Iranian",
-            "Indo-Aryan",
-            "Dardic",
-            "Kunar",
-            "Dameli"
-        ],
-        "endonym": [
-            "D\u0101mya b\u0101\u1e63a"
-        ],
+    "Kutenai language": {
+        "vspeakers": "345",
+        "speakers": "345\u00a0(2010-2016)[3][4]",
+        "places": "Canada, United States",
+        "family": "NA",
+        "endonym": "NA",
         "region": [
-            "Asia"
+            "North America"
         ],
         "official": "NA",
         "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Dameli_language",
-        "scripts": [],
-        "vplaces": [
-            "Pakistan"
+        "link": "https://en.wikipedia.org/wiki/Kutenai_language",
+        "scripts": [
+            "latin"
         ],
-        "mainfam": "Indo-Aryan"
+        "vplaces": [
+            "United States",
+            "Canada"
+        ],
+        "mainfam": "NA"
     },
     "Bosnian language": {
         "vspeakers": "3 million",
@@ -11146,10 +11174,13 @@ var languages = {
         ],
         "mainfam": "Uralic"
     },
-    "Fang language": {
-        "vspeakers": "1 million",
-        "speakers": "1 million\u00a0(2006\u20132013)[1]",
-        "places": "Equatorial Guinea, Gabon, Republic of the Congo, Cameroon, and S\u00e3o Tom\u00e9 and Pr\u00edncipe",
+    "Tsonga language": {
+        "vspeakers": [
+            "low: 3.4 million",
+            "high: 12 million"
+        ],
+        "speakers": "12\u00a0million\u00a0(2006\u20132011)[1]3.4 million L2 speakers in South Africa (2002)[2]",
+        "places": "Mozambique, South Africa, Eswatini, Zimbabwe",
         "family": [
             "Niger\u2013Congo",
             "Atlantic\u2013Congo",
@@ -11158,59 +11189,89 @@ var languages = {
             "Bantoid",
             "Southern Bantoid",
             "Bantu",
-            " (",
-            "Zone A",
-            ")",
-            "Beti",
-            "Fang"
-        ],
-        "endonym": [
-            "Fa\u014b, Pa\u014bwe"
-        ],
-        "region": [
-            "Africa"
-        ],
-        "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Fang_language",
-        "scripts": [],
-        "vplaces": [
-            "Cameroon",
-            "Guinea",
-            "Congo",
-            "Gabon",
-            "Equatorial Guinea"
-        ],
-        "mainfam": "Bantu"
-    },
-    "Ndau dialect": {
-        "vspeakers": "2.4 million",
-        "speakers": "2.4 million\u00a0(2000\u20132006)[1]",
-        "places": "language\u00a0inZimbabwe",
-        "family": [
-            "Niger\u2013Congo",
-            "Atlantic\u2013Congo",
-            "Benue\u2013Congo",
-            "Southern Bantoid",
-            "Bantu",
-            "Shona",
-            " (S.10)",
-            "Ndau"
+            "Southern Bantu",
+            "Tswa\u2013Ronga",
+            "Tsonga"
         ],
         "endonym": "NA",
         "region": [
             "Africa"
         ],
-        "official": [
-            "Zimbabwe"
-        ],
+        "official": "NA",
         "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Ndau_language",
-        "scripts": [],
+        "link": "https://en.wikipedia.org/wiki/Tsonga_language",
+        "scripts": [
+            "latin"
+        ],
         "vplaces": [
+            "South Africa",
+            "Mozambique",
             "Zimbabwe"
         ],
         "mainfam": "Bantu"
+    },
+    "Minangkabau language": {
+        "vspeakers": "5.5 million",
+        "speakers": "5.5 million\u00a0(2007)[1]",
+        "places": "Indonesia (West Sumatra)",
+        "family": [
+            "Austronesian",
+            "Malayo-Polynesian",
+            "Malayic",
+            "Minangkabau"
+        ],
+        "endonym": [
+            "\u0628\u0627\u0633\u0648 \u0645\u064a\u0646\u06a0\u0643\u0627\u0628\u0627\u0648",
+            "\u0628\u0647\u0627\u0633 \u0645\u064a\u0646\u0627\u06a0\u0643\u0627\u0628\u0627\u0648",
+            "(easy) Baso Minangkabau",
+            "(easy) Baso Minangkabau\u0628\u0627\u0633\u0648 \u0645\u064a\u0646\u06a0\u0643\u0627\u0628\u0627\u0648\u200e\u0628\u0647\u0627\u0633 \u0645\u064a\u0646\u0627\u06a0\u0643\u0627\u0628\u0627\u0648\u200e"
+        ],
+        "region": [
+            "Asia"
+        ],
+        "official": "NA",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Minangkabau_language",
+        "scripts": [
+            "latin",
+            "malay alphabet",
+            "Arabic",
+            "(arabic script)",
+            "Arabic",
+            "(jawi alphabet)"
+        ],
+        "vplaces": [
+            "Indonesia"
+        ],
+        "mainfam": "Austronesian"
+    },
+    "Iraqw language": {
+        "vspeakers": "603000",
+        "speakers": "603,000\u00a0(2009)[1]",
+        "places": "Tanzania",
+        "family": [
+            "Afro-Asiatic",
+            "Cushitic",
+            "South",
+            "West Rift",
+            "NW Rift",
+            "Iraqwoid",
+            "Iraqw"
+        ],
+        "endonym": [
+            "(easy) K\u00e1ngw Iraqw"
+        ],
+        "region": [
+            "Africa"
+        ],
+        "official": "NA",
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Iraqw_language",
+        "scripts": [],
+        "vplaces": [
+            "Tanzania"
+        ],
+        "mainfam": "Afro-Asiatic"
     },
     "Keres language": {
         "vspeakers": "10670",
@@ -11230,62 +11291,35 @@ var languages = {
         ],
         "mainfam": "NA"
     },
-    "Swahili language": {
-        "vspeakers": [
-            "low: 2 million",
-            "high: 150 million"
-        ],
-        "speakers": "Estimates range from 2 million (2003)[2] to 150 million\u00a0(2012)[3]L2 speakers: 90 million (1991\u20132015)[3]",
-        "places": "Tanzania, Democratic Republic of the Congo, Bajuni Islands (part of Somalia), South Sudan, Mozambique (mostly Mwani), Burundi, Rwanda, Uganda, Kenya,[1] Comoros, Mayotte, Zambia, Malawi, and Madagascar",
+    "Koya language": {
+        "vspeakers": "407423",
+        "speakers": "407,423\u00a0(2011)[1]",
+        "places": "India",
         "family": [
-            "Niger\u2013Congo",
-            "Atlantic\u2013Congo",
-            "Volta-Congo",
-            "Benue\u2013Congo",
-            "Bantoid",
-            "Southern Bantoid",
-            "Bantu",
-            "Northeast Bantu",
-            "Northeast Coast Bantu",
-            "Sabaki",
-            "Swahili"
+            "Dravidian",
+            "South-Central",
+            "Gondi\u2013Kui",
+            "Kuvi\u2013Kui",
+            "Koya"
         ],
         "endonym": [
-            "Kiswahili"
+            "\u0c15\u0c4b\u0c2f\u0c3e, \u0b15\u0b4b\u0b5f\u0b3e, \u0915\u094b\u092f\u093e"
         ],
         "region": [
-            "Africa"
+            "Asia"
         ],
         "official": "NA",
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Swahili_language",
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Koya_language",
         "scripts": [
-            "latin script",
-            "roman swahili alphabet",
-            "Arabic",
-            "(arabic script)",
-            "Arabic",
-            "(arabic swahili alphabet)"
+            "telugu",
+            "odia",
+            "devanagari"
         ],
         "vplaces": [
-            "Tanzania",
-            "Kenya",
-            "Uganda",
-            "Sudan",
-            "Mozambique",
-            "Madagascar",
-            "Mali",
-            "Malawi",
-            "Zambia",
-            "Somalia",
-            "Rwanda",
-            "Burundi",
-            "South Sudan",
-            "Congo",
-            "Comoros",
-            "Mayotte"
+            "India"
         ],
-        "mainfam": "Bantu"
+        "mainfam": "Dravidian"
     },
     "Tiv language": {
         "vspeakers": "7 million",
@@ -11312,6 +11346,38 @@ var languages = {
         "scripts": [],
         "vplaces": "NA",
         "mainfam": "Niger\u2013Congo"
+    },
+    "Khakas language": {
+        "vspeakers": "43000",
+        "speakers": "43,000\u00a0(2010 census)[1]",
+        "places": "Russia",
+        "family": [
+            "Turkic",
+            "Common Turkic",
+            "Siberian",
+            "[2]",
+            "South Siberian",
+            "Yenisei Turkic",
+            "[3]",
+            "Khakas"
+        ],
+        "endonym": [
+            "\u0425\u0430\u043a\u0430\u0441 \u0442\u0456\u043b\u0456, Xakas t\u012fl\u012f",
+            "Xakas t\u012fl\u012f"
+        ],
+        "region": [
+            "NA"
+        ],
+        "official": "NA",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Khakas_language",
+        "scripts": [
+            "cyrillic"
+        ],
+        "vplaces": [
+            "Russia"
+        ],
+        "mainfam": "Turkic"
     },
     "Gen language": {
         "vspeakers": "330000",
@@ -11363,61 +11429,72 @@ var languages = {
         ],
         "mainfam": "Araucanian"
     },
-    "Domaaki language": {
-        "vspeakers": "340",
-        "speakers": "340\u00a0(2011)[1]",
-        "places": "Pakistan",
+    "Amharic": {
+        "vspeakers": "NA",
+        "speakers": "22,000,000[1][2]\u00a0(2007 Population and Housing Census)",
+        "places": "Ethiopia",
         "family": [
-            "Indo-European",
-            "Indo-Iranian",
-            "Indo-Aryan",
-            "Central Zone",
-            "Domaaki"
-        ],
-        "endonym": "NA",
-        "region": [
-            "Asia"
-        ],
-        "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Domaaki_language",
-        "scripts": [
-            "Arabic",
-            "(arabic script)",
-            "[2]"
-        ],
-        "vplaces": [
-            "Pakistan"
-        ],
-        "mainfam": "Indo-Aryan"
-    },
-    "Inari Sami": {
-        "vspeakers": "400",
-        "speakers": "400\u00a0(2018 census)[1]",
-        "places": "Finland",
-        "family": [
-            "Uralic",
-            "Sami",
-            "Eastern",
-            "Inari Sami"
+            "Afro-Asiatic",
+            "Semitic",
+            "West Semitic",
+            "South Semitic",
+            "Ethiopic",
+            "South Ethiopic",
+            "Transversal South Ethiopic",
+            "Amharic\u2013Argobba",
+            "Amharic"
         ],
         "endonym": [
-            "anar\u00e2\u0161kiel\u00e2",
-            "aanaars\u00e4mikiel\u00e2"
+            "\u12a0\u121b\u122d\u129b",
+            "Amar\u0259\u00f1\u00f1a",
+            "\u12a0\u121b\u122d\u129b (Amar\u0259\u00f1\u00f1a)"
         ],
         "region": [
-            "Europe"
+            "Africa"
         ],
         "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Inari_Sami_language",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Amharic_language",
         "scripts": [
-            "latin"
+            "ge\u02bdez script"
         ],
         "vplaces": [
-            "Finland"
+            "Ethiopia"
         ],
-        "mainfam": "Uralic"
+        "mainfam": "Semitic"
+    },
+    "Marshallese language": {
+        "vspeakers": "55000",
+        "speakers": "(55,000 cited 1979)[2]",
+        "places": "Marshall Islands",
+        "family": [
+            "Austronesian",
+            "Malayo-Polynesian",
+            "Oceanic",
+            "Micronesian",
+            "Micronesian Proper",
+            "Nuclear Micronesian",
+            "Marshallese"
+        ],
+        "endonym": [
+            "Kajin M\u0327aje\u013c",
+            "Kajin Maj\u014dl",
+            "(new orthography) Kajin M\u0327aje\u013c(old orthography) Kajin Maj\u014dl"
+        ],
+        "region": [
+            "Oceania"
+        ],
+        "official": "NA",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Marshallese_language",
+        "scripts": [
+            "latin",
+            "marshallese alphabet"
+        ],
+        "vplaces": [
+            "Marshall Islands"
+        ],
+        "mainfam": "Austronesian"
     },
     "Lotha language": {
         "vspeakers": "179467",
@@ -11538,32 +11615,37 @@ var languages = {
         ],
         "mainfam": "Indo-Aryan"
     },
-    "Enets language": {
-        "vspeakers": "43",
-        "speakers": "43\u00a0(2010 census)[2]",
-        "places": "Russia",
+    "Shina language": {
+        "vspeakers": "600000",
+        "speakers": "600,000 in Pakistan\nTotal users in all countries: 644,200. Shina Kohistani 401,000[1]\u00a0(2016)[2]",
+        "places": "Pakistan, India",
         "family": [
-            "Uralic",
-            "Samoyedic",
-            "(core)",
-            "Enets\u2013Nenets",
-            "Enets"
+            "Indo-European",
+            "Indo-Iranian",
+            "Indo-Aryan",
+            "Dardic",
+            "Shina"
         ],
-        "endonym": [
-            "\u041e\u043d\u044d\u0439 \u0431\u0430\u0437\u0430 (Onei baza)[1]",
-            "Onei baza"
-        ],
+        "endonym": "NA",
         "region": [
-            "NA"
+            "Asia"
         ],
         "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Enets_language",
-        "scripts": [],
-        "vplaces": [
-            "Russia"
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Shina_language",
+        "scripts": [
+            "Arabic",
+            "(arabic script)",
+            "Arabic",
+            "(arabic script)",
+            "nasta\u02bfl\u012bq",
+            "[3]"
         ],
-        "mainfam": "Uralic"
+        "vplaces": [
+            "India",
+            "Pakistan"
+        ],
+        "mainfam": "Indo-Aryan"
     },
     "Yoruba language": {
         "vspeakers": "50 million",
@@ -11653,6 +11735,51 @@ var languages = {
             "United States"
         ],
         "mainfam": "Uto-Aztecan"
+    },
+    "Turkish language": {
+        "vspeakers": [
+            "low: 75.7 million",
+            "high: 88 million"
+        ],
+        "speakers": "75.7 million[1]\u00a0(2002\u20132018)88 million (L1 + L2)[2]",
+        "places": "Turkey (official), Northern Cyprus (official), Cyprus (official), Azerbaijan, Iraq, Syria, Lebanon, Israel, Greece, Bulgaria, Romania, Kosovo, North Macedonia, Bosnia and Herzegovina",
+        "family": [
+            "Turkic",
+            "Common Turkic",
+            "Oghuz",
+            "Western Oghuz",
+            "Turkish"
+        ],
+        "endonym": [
+            "T\u00fcrk\u00e7e",
+            "T\u00fcrk dili"
+        ],
+        "region": [
+            "Asia"
+        ],
+        "official": "NA",
+        "difficulty": "medium",
+        "link": "https://en.wikipedia.org/wiki/Turkish_language",
+        "scripts": [
+            "latin",
+            "turkish alphabet"
+        ],
+        "vplaces": [
+            "Turkey",
+            "Iraq",
+            "Romania",
+            "Syria",
+            "Greece",
+            "Azerbaijan",
+            "Israel",
+            "Bulgaria",
+            "Lebanon",
+            "Oman",
+            "Bosnia and Herzegovina",
+            "North Macedonia",
+            "Cyprus"
+        ],
+        "mainfam": "Turkic"
     },
     "Matsiguenga language": {
         "vspeakers": "6200",
@@ -11898,39 +12025,6 @@ var languages = {
         ],
         "mainfam": "Austronesian"
     },
-    "Harari language": {
-        "vspeakers": "25810",
-        "speakers": "25,810\u00a0(2007 census)[1]",
-        "places": "Ethiopia",
-        "family": [
-            "Afro-Asiatic",
-            "Semitic",
-            "West Semitic",
-            "South Semitic",
-            "Ethiopic",
-            "South Ethiopic",
-            "Transversal South Ethiopic",
-            "Harari \u2013 East Gurage",
-            "Harari"
-        ],
-        "endonym": [
-            "\u1e25\u0103r\u00e4ri",
-            "\u1210\u1228\u122a (\u1e25\u0103r\u00e4ri)"
-        ],
-        "region": [
-            "Africa"
-        ],
-        "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Harari_language",
-        "scripts": [
-            "ge'ez script"
-        ],
-        "vplaces": [
-            "Ethiopia"
-        ],
-        "mainfam": "Semitic"
-    },
     "Manx language": {
         "vspeakers": "NA",
         "speakers": "NA",
@@ -12021,31 +12115,38 @@ var languages = {
         ],
         "mainfam": "Romance"
     },
-    "Goaria language": {
-        "vspeakers": "25000",
-        "speakers": "25,000\u00a0(2000)[1]",
-        "places": "Pakistan",
+    "Hulaul\u00e1 language": {
+        "vspeakers": "10000",
+        "speakers": "10,000\u00a0(1999)[1]",
+        "places": "Israel, Iran, United States",
         "family": [
-            "Indo-European",
-            "Indo-Iranian",
-            "Indo-Aryan",
-            "Western",
-            "Rajasthani\u2013Marwari",
-            "Marwari",
-            "Goaria"
+            "Afro-Asiatic",
+            "Semitic",
+            "Central Semitic",
+            "Northwest Semitic",
+            "Aramaic",
+            "Eastern Aramaic",
+            "Northeastern",
+            "Hulaul\u00e1"
         ],
-        "endonym": "NA",
+        "endonym": [
+            "\u05d9\u05d4\u05d5\u05d3\u05d9\u05d5\u05ea\u05d0 H\u00fbla'\u00fbl\u0101, \u05dc\u05e9\u05e0\u05d0 \u05e0\u05e9\u05df Li\u0161\u0101n\u0101 No\u0161\u0101n",
+            "H\u00fbla'\u00fbl\u0101",
+            "Li\u0161\u0101n\u0101 No\u0161\u0101n"
+        ],
         "region": [
-            "Asia"
+            "North America"
         ],
         "official": "NA",
         "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Goaria_language",
+        "link": "https://en.wikipedia.org/wiki/Hulaula_language",
         "scripts": [],
         "vplaces": [
-            "Pakistan"
+            "United States",
+            "Iran",
+            "Israel"
         ],
-        "mainfam": "Indo-Aryan"
+        "mainfam": "Semitic"
     },
     "Matumbi language": {
         "vspeakers": "72000",
@@ -12269,42 +12370,6 @@ var languages = {
         ],
         "mainfam": "Muskogean"
     },
-    "Comorian languages": {
-        "vspeakers": "800000",
-        "speakers": "800,000 in Comoros[1] and 300,000 in Mayotte[2][3]\u00a0(2011 and 2007)",
-        "places": "Comoros and Mayotte",
-        "family": [
-            "Niger\u2013Congo",
-            "Atlantic\u2013Congo",
-            "Volta-Congo",
-            "Benue\u2013Congo",
-            "Bantoid",
-            "Southern Bantoid",
-            "Bantu",
-            "Northeast Coast Bantu",
-            "Sabaki",
-            "Comorian"
-        ],
-        "endonym": [
-            "shikomori/\u0634\u0650\u0643\u064f\u0645\u064f\u0631\u0650"
-        ],
-        "region": [
-            "Africa"
-        ],
-        "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Comorian_language",
-        "scripts": [
-            "Arabic",
-            "(arabic)",
-            "latin"
-        ],
-        "vplaces": [
-            "Comoros",
-            "Mayotte"
-        ],
-        "mainfam": "Bantu"
-    },
     "Qashqai language": {
         "vspeakers": "949000",
         "speakers": "949,000\u00a0(2015)[1]",
@@ -12336,38 +12401,31 @@ var languages = {
         ],
         "mainfam": "Turkic"
     },
-    "Hulaul\u00e1 language": {
-        "vspeakers": "10000",
-        "speakers": "10,000\u00a0(1999)[1]",
-        "places": "Israel, Iran, United States",
+    "Goaria language": {
+        "vspeakers": "25000",
+        "speakers": "25,000\u00a0(2000)[1]",
+        "places": "Pakistan",
         "family": [
-            "Afro-Asiatic",
-            "Semitic",
-            "Central Semitic",
-            "Northwest Semitic",
-            "Aramaic",
-            "Eastern Aramaic",
-            "Northeastern",
-            "Hulaul\u00e1"
+            "Indo-European",
+            "Indo-Iranian",
+            "Indo-Aryan",
+            "Western",
+            "Rajasthani\u2013Marwari",
+            "Marwari",
+            "Goaria"
         ],
-        "endonym": [
-            "\u05d9\u05d4\u05d5\u05d3\u05d9\u05d5\u05ea\u05d0 H\u00fbla'\u00fbl\u0101, \u05dc\u05e9\u05e0\u05d0 \u05e0\u05e9\u05df Li\u0161\u0101n\u0101 No\u0161\u0101n",
-            "H\u00fbla'\u00fbl\u0101",
-            "Li\u0161\u0101n\u0101 No\u0161\u0101n"
-        ],
+        "endonym": "NA",
         "region": [
-            "North America"
+            "Asia"
         ],
         "official": "NA",
         "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Hulaula_language",
+        "link": "https://en.wikipedia.org/wiki/Goaria_language",
         "scripts": [],
         "vplaces": [
-            "United States",
-            "Iran",
-            "Israel"
+            "Pakistan"
         ],
-        "mainfam": "Semitic"
+        "mainfam": "Indo-Aryan"
     },
     "Serbo-Croatian": {
         "vspeakers": "21 million",
@@ -12403,31 +12461,41 @@ var languages = {
         ],
         "mainfam": "Slavic"
     },
-    "Vietnamese language": {
-        "vspeakers": "90 million",
-        "speakers": "~90 million\u00a0(2020)[1]",
-        "places": "Vietnamese-speaking (non-minority) areas of Vietnam[4]",
+    "Bhojpuri language": {
+        "vspeakers": "51 million",
+        "speakers": "51 million, partial count\u00a0(2011 census)[1](additional speakers counted under Hindi)",
+        "places": "India and Nepal",
         "family": [
-            "Austroasiatic",
-            "Vietic",
-            "Viet\u2013Muong",
-            "Vietnamese"
+            "Indo-European",
+            "Indo-Iranian",
+            "Indo-Aryan",
+            "Eastern",
+            "Bihari",
+            "Bhojpuri"
         ],
-        "endonym": [],
+        "endonym": [
+            "\u092d\u094b\u091c\u092a\u0941\u0930\u0940",
+            "\u092d\u094b\u091c\u092a\u0941\u0930\u0940 \u00a0\u2022  \ud804\udca6\ud804\udcb7\ud804\udc94\ud804\udca3\ud804\udcb3\ud804\udca9\ud804\udcb2"
+        ],
         "region": [
             "Asia"
         ],
         "official": "NA",
         "difficulty": "medium",
-        "link": "https://en.wikipedia.org/wiki/Vietnamese_language",
+        "link": "https://en.wikipedia.org/wiki/Bhojpuri_language",
         "scripts": [
-            "vietnamese alphabet",
-            "ch\u1eef n\u00f4m"
+            "kaithi",
+            "devanagari",
+            "devanagari",
+            "Arabic",
+            "(perso-arabic)",
+            "kaithi"
         ],
         "vplaces": [
-            "Vietnam"
+            "India",
+            "Nepal"
         ],
-        "mainfam": "Austroasiatic"
+        "mainfam": "Indo-Aryan"
     },
     "Yavapai language": {
         "vspeakers": "245",
@@ -12558,30 +12626,6 @@ var languages = {
         ],
         "mainfam": "Afro-Asiatic"
     },
-    "Cheyenne language": {
-        "vspeakers": "1900",
-        "speakers": "1,900\u00a0(2015 census)[1]",
-        "places": "United States",
-        "family": [
-            "Algic",
-            "Algonquian",
-            "Cheyenne"
-        ],
-        "endonym": [
-            "Ts\u0117h\u00e9sen\u0117stsest\u022ftse"
-        ],
-        "region": [
-            "North America"
-        ],
-        "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Cheyenne_language",
-        "scripts": [],
-        "vplaces": [
-            "United States"
-        ],
-        "mainfam": "Algonquian"
-    },
     "Shumashti language": {
         "vspeakers": "1000",
         "speakers": "(1,000 cited 1994)[1]",
@@ -12660,6 +12704,38 @@ var languages = {
         ],
         "mainfam": "Indo-Aryan"
     },
+    "Buryat language": {
+        "vspeakers": "265000",
+        "speakers": "(265,000 in Russia and Mongolia (2010 census); 65,000 in China cited 1982 census)[1]",
+        "places": "Russia (Buryat Republic, Ust-Orda Buryatia, Aga Buryatia), northern Mongolia, China (Hulunbuir)",
+        "family": [
+            "Mongolic",
+            "Central Mongolic",
+            "Buryat"
+        ],
+        "endonym": [
+            "\u0431\u0443\u0440\u044f\u0430\u0434 \u0445\u044d\u043b\u044d\u043d buryaad xelen\u182a\u1824\u1837\u1822\u1820\u1833\u182e\u1823\u1829\u182d\u1823\u182f\u182c\u1821\u182f\u1821\u1828",
+            "buryaad xelen"
+        ],
+        "region": [
+            "Asia"
+        ],
+        "official": "NA",
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Buryat_language",
+        "scripts": [
+            "cyrillic",
+            "mongolian script",
+            "vagindra script",
+            "latin"
+        ],
+        "vplaces": [
+            "China",
+            "Russia",
+            "Mongolia"
+        ],
+        "mainfam": "Mongolic"
+    },
     "Itelmen language": {
         "vspeakers": "82",
         "speakers": "82\u00a0(2010 census)[1]",
@@ -12687,28 +12763,35 @@ var languages = {
         ],
         "mainfam": "Chukotko-Kamchatkan"
     },
-    "P\u00e1ez language": {
-        "vspeakers": "60000",
-        "speakers": "60,000\u00a0(2011)[1]",
-        "places": "Colombia",
+    "Manyika dialect": {
+        "vspeakers": "1.3 million",
+        "speakers": "1.3 million\u00a0(2000\u20132006)[1]",
+        "places": "Zimbabwe, Mozambique",
         "family": [
-            "Paezan",
-            "P\u00e1ez"
+            "Niger\u2013Congo",
+            "Atlantic\u2013Congo",
+            "Benue\u2013Congo",
+            "Southern",
+            "Bantu",
+            "Shona",
+            " (S.10)",
+            "Manyika"
         ],
         "endonym": [
-            "Nasa Yuwe "
+            "Chimanyika"
         ],
         "region": [
-            "South America"
+            "Africa"
         ],
         "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/P%C3%A1ez_language",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Manyika_language",
         "scripts": [],
         "vplaces": [
-            "Colombia"
+            "Mozambique",
+            "Zimbabwe"
         ],
-        "mainfam": "Paezan"
+        "mainfam": "Bantu"
     },
     "Nuosu language": {
         "vspeakers": "2 million",
@@ -12961,38 +13044,6 @@ var languages = {
         ],
         "vplaces": [
             "Nauru"
-        ],
-        "mainfam": "Austronesian"
-    },
-    "Tobian language": {
-        "vspeakers": "150",
-        "speakers": "150\u00a0(2017)[1]",
-        "places": "Palau",
-        "family": [
-            "Austronesian",
-            "Malayo-Polynesian",
-            "Oceanic",
-            "Micronesian",
-            "Proper",
-            "Trukic",
-            "Echangese",
-            "Tobian"
-        ],
-        "endonym": [
-            "Ramarih Hatohobei"
-        ],
-        "region": [
-            "Oceania"
-        ],
-        "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Tobian_language",
-        "scripts": [
-            "latin script",
-            "[1]"
-        ],
-        "vplaces": [
-            "Palau"
         ],
         "mainfam": "Austronesian"
     },
@@ -14113,65 +14164,33 @@ var languages = {
         ],
         "mainfam": "Den\u00e9\u2013Yeniseian"
     },
-    "Kujarg\u00e9 language": {
-        "vspeakers": "1000",
-        "speakers": "(1,000 cited 1983)[1]",
-        "places": "Chad and Sudan",
+    "Kui language (India)": {
+        "vspeakers": "941000",
+        "speakers": "941,000\u00a0(2011 census)[1]",
+        "places": "India",
         "family": [
-            "Afro-Asiatic",
-            "(unclassified)",
-            "Kujarg\u00e9"
-        ],
-        "endonym": "NA",
-        "region": [
-            "Africa"
-        ],
-        "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Kujarge_language",
-        "scripts": [],
-        "vplaces": [
-            "Sudan",
-            "Chad"
-        ],
-        "mainfam": "Afro-Asiatic"
-    },
-    "Tai Lue language": {
-        "vspeakers": "550000",
-        "speakers": "550,000\u00a0(2000\u20132013)[1]",
-        "places": "China, Laos, Thailand, Myanmar, Vietnam, United States",
-        "family": [
-            "Kra\u2013Dai",
-            "Tai",
-            "Southwestern",
-            " (Thai)",
-            "Chiang Saen",
-            "Tai Lue"
+            "Dravidian",
+            "South-Central",
+            "Gondi\u2013Kui",
+            "Kuvi\u2013Kui",
+            "Kui"
         ],
         "endonym": [
-            "\u1985\u19c4\u19ba\u1991kam tai",
-            "kam tai"
+            "\u0b15\u0b41\u0b07"
         ],
         "region": [
             "Asia"
         ],
         "official": "NA",
         "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Tai_Lue_language",
+        "link": "https://en.wikipedia.org/wiki/Kui_language_(India)",
         "scripts": [
-            "tai tham alphabet",
-            "thai alphabet",
-            "new tai lue alphabet"
+            "odia script"
         ],
         "vplaces": [
-            "China",
-            "United States",
-            "Vietnam",
-            "Thailand",
-            "Myanmar",
-            "Laos"
+            "India"
         ],
-        "mainfam": "Kra\u2013Dai"
+        "mainfam": "Dravidian"
     },
     "Lillooet language": {
         "vspeakers": "315",
@@ -14310,36 +14329,27 @@ var languages = {
         ],
         "mainfam": "Slavic"
     },
-    "Bunjevac dialect": {
-        "vspeakers": "6800",
-        "speakers": "6,800\u00a0(2011)[1]",
-        "places": "Serbia (Vojvodina), Hungary",
+    "Greek language": {
+        "vspeakers": "13.4 million",
+        "speakers": "13.4 million\u00a0(2012)[1]",
+        "places": "NA",
         "family": [
             "Indo-European",
-            "Balto-Slavic",
-            "Slavic",
-            "South Slavic",
-            "Serbo-Croatian",
-            "Shtokavian",
-            "Neo-Shtokavian",
-            "Bosnian\u2013Dalmatian (Western Ikavian)",
-            "Bunjevac"
+            "Hellenic",
+            "Greek"
         ],
         "endonym": [
-            "bunjeva\u010dki"
+            "\u03b5\u03bb\u03bb\u03b7\u03bd\u03b9\u03ba\u03ac"
         ],
-        "region": [
-            "Europe"
-        ],
+        "region": "NA",
         "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Bunjevac_language",
-        "scripts": [],
-        "vplaces": [
-            "Hungary",
-            "Serbia"
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Greek_language",
+        "scripts": [
+            "greek alphabet"
         ],
-        "mainfam": "Slavic"
+        "vplaces": "NA",
+        "mainfam": "Indo-European"
     },
     "Guarani language": {
         "vspeakers": "4.85 million",
@@ -14452,135 +14462,130 @@ var languages = {
         ],
         "mainfam": "Dravidian"
     },
-    "Tamil language": {
+    "Portuguese language": {
         "vspeakers": [
-            "low: 6 million",
-            "high: 75 million"
+            "low: 24 million",
+            "high: 250 million"
         ],
-        "speakers": "75 million\u00a0(2011\u20132015)[1][2]L2 speakers: 6 million[1]",
-        "places": "IndiaSri Lanka",
-        "family": [
-            "Dravidian",
-            "Southern",
-            "Tamil\u2013Kannada",
-            "Tamil\u2013Kodagu",
-            "Tamil\u2013Malayalam",
-            "Tamil languages",
-            "Tamil"
-        ],
-        "endonym": [
-            "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd",
-            "Tami\u1e3b",
-            "Tami\u1e3b",
-            "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd Tami\u1e3b"
-        ],
-        "region": [
-            "Asia"
-        ],
-        "official": "NA",
-        "difficulty": "medium",
-        "link": "https://en.wikipedia.org/wiki/Tamil_language",
-        "scripts": [
-            "tamil",
-            "brahmic",
-            "tamil-brahmi",
-            "grantha",
-            "vatteluttu",
-            "pallava",
-            "kolezhuthu",
-            "arwi",
-            "abjad",
-            "bharati",
-            "latin script"
-        ],
-        "vplaces": [
-            "India"
-        ],
-        "mainfam": "Dravidian"
-    },
-    "Mirandese language": {
-        "vspeakers": "15000",
-        "speakers": "15,000\u00a0(2000)[1](10,000 use it regularly, 5,000 when they return to the area. 2,000 Sendinese in Sendim Vila.)[2]",
-        "places": "Portugal",
+        "speakers": "Native: 250 million;[1]24 million L2 speakers;[1]\nTotal: 274 million",
+        "places": "language\n\u00a0\u00a0Official and administrative language\n\u00a0\u00a0Cultural or secondary language\n\u00a0\u00a0Portuguese-speaking minorities\n\u00a0\u00a0Portuguese-based creole languages",
         "family": [
             "Indo-European",
             "Italic",
             "Romance",
-            "Western",
+            "Western Romance",
             "Ibero-Romance",
             "West Iberian",
-            "Astur-Leonese",
-            "Mirandese"
+            "Galician-Portuguese",
+            "Portuguese"
         ],
         "endonym": [
-            "mirand\u00e9s"
+            "portugu\u00eas",
+            "l\u00edngua portuguesa"
         ],
         "region": [
             "Europe"
         ],
-        "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Mirandese_language",
-        "scripts": [],
+        "official": [
+            "East Timor",
+            "Cape Verde",
+            "Guinea",
+            "Angola",
+            "Mozambique",
+            "Brazil",
+            "Guinea-Bissau",
+            "Portugal",
+            "Equatorial Guinea"
+        ],
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Portuguese_language",
+        "scripts": [
+            "latin",
+            "portuguese alphabet"
+        ],
         "vplaces": [
-            "Portugal"
+            "Portugal",
+            "Brazil",
+            "Angola",
+            "Mozambique",
+            "Guinea",
+            "Guinea-Bissau",
+            "Equatorial Guinea",
+            "East Timor",
+            "Cape Verde"
         ],
         "mainfam": "Romance"
     },
-    "V\u00f5ro language": {
-        "vspeakers": "87000",
-        "speakers": "87,000, including Seto\u00a0(2011 census)[1]",
-        "places": "Estonia",
+    "Oroch language": {
+        "vspeakers": "8",
+        "speakers": "8\u00a0(2010 census)[1]",
+        "places": "Russia",
         "family": [
-            "Uralic",
-            "Finnic",
-            "South Estonian",
-            "V\u00f5ro"
+            "Tungusic",
+            "Southern",
+            "Oroch Group",
+            "Oroch"
         ],
-        "endonym": [
-            "v\u00f5ro kiil\u02bc"
-        ],
+        "endonym": "NA",
         "region": [
-            "Europe"
+            "NA"
         ],
         "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/V%C3%B5ro_language",
-        "scripts": [],
-        "vplaces": [
-            "Estonia"
-        ],
-        "mainfam": "Uralic"
-    },
-    "Dzongkha": {
-        "vspeakers": "171080",
-        "speakers": "171,080\u00a0(2013)[1]Total speakers: 640,000[2]",
-        "places": "Bhutan",
-        "family": [
-            "Sino-Tibetan",
-            "Tibeto-Kanauri",
-            "\u00a0?",
-            "Bodish",
-            "Tibetic",
-            "Dzongkha\u2013Lhok\u00e4",
-            "Dzongkha"
-        ],
-        "endonym": [
-            "\u0f62\u0fab\u0f7c\u0f44\u0f0b\u0f41\u0f0b"
-        ],
-        "region": [
-            "Asia"
-        ],
-        "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Dzongkha_language",
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Oroch_language",
         "scripts": [
-            "tibetan script"
+            "cyrillic"
         ],
         "vplaces": [
-            "Bhutan"
+            "Russia"
         ],
-        "mainfam": "Sino-Tibetan"
+        "mainfam": "Tungusic"
+    },
+    "Azerbaijani language": {
+        "vspeakers": "23 million",
+        "speakers": "23 million\u00a0(2018)[1]",
+        "places": "National: AzerbaijanRegional: IranRussiaTurkeyIraq[a]Georgia",
+        "family": [
+            "Turkic",
+            "Common Turkic",
+            "Oghuz",
+            "Western Oghuz",
+            "Azerbaijani"
+        ],
+        "endonym": [
+            "Az\u0259rbaycan dili",
+            "\u0410\u0437\u04d9\u0440\u0431\u0430\u0458\u04b9\u0430\u043d \u0434\u0438\u043b\u0438",
+            "Az\u0259rbaycan dili",
+            "Az\u0259rbaycan dili, \u0622\u0630\u0631\u0628\u0627\u06cc\u062c\u0627\u0646 \u062f\u06cc\u0644\u06cc\u200e, \u0410\u0437\u04d9\u0440\u0431\u0430\u0458\u04b9\u0430\u043d \u0434\u0438\u043b\u0438[note 1]"
+        ],
+        "region": [
+            "NA"
+        ],
+        "official": "NA",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Azerbaijani_language",
+        "scripts": [
+            "latin script",
+            "[2]",
+            "azerbaijani alphabet",
+            "Arabic",
+            "(perso-arabic script)",
+            "[3]",
+            "Arabic",
+            "(persian alphabet)",
+            "cyrillic script",
+            "[2]",
+            "georgian script"
+        ],
+        "vplaces": [
+            "Azerbaijan",
+            "Turkey",
+            "Iran",
+            "Iraq",
+            "Russia",
+            "Georgia"
+        ],
+        "mainfam": "Turkic"
     },
     "Yevanic language": {
         "vspeakers": "NA",
@@ -14614,28 +14619,28 @@ var languages = {
         ],
         "mainfam": "Indo-European"
     },
-    "Sidamo language": {
-        "vspeakers": "3 million",
-        "speakers": "3 million\u00a0(2010)[1]",
-        "places": "Ethiopia",
+    "Berta language": {
+        "vspeakers": "370000",
+        "speakers": "370,000 all Berta languages\u00a0(2006\u20132007)[1]80% monolingual in Ethiopia (1998 census)[2]",
+        "places": "Sudan and Ethiopia",
         "family": [
-            "Afro-Asiatic",
-            "Cushitic",
-            "Highland East",
-            "Sidama Afoo"
+            "Nilo-Saharan",
+            "Berta languages",
+            "Berta"
         ],
         "endonym": "NA",
         "region": [
             "Africa"
         ],
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Sidamo_language",
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Berta_language",
         "scripts": [],
         "vplaces": [
-            "Ethiopia"
+            "Ethiopia",
+            "Sudan"
         ],
-        "mainfam": "Afro-Asiatic"
+        "mainfam": "Nilo-Saharan"
     },
     "Ash\u00e1ninka language": {
         "vspeakers": "35000",
@@ -14691,59 +14696,57 @@ var languages = {
         ],
         "mainfam": "Romance"
     },
-    "Maltese language": {
-        "vspeakers": "520000",
-        "speakers": "520,000\u00a0(2012)[1]",
-        "places": "Malta",
+    "Lakota language": {
+        "vspeakers": "2100",
+        "speakers": "2,100, 29% of ethnic population\u00a0(1997)[1]",
+        "places": "United States, with some speakers in Canada",
         "family": [
-            "Afro-Asiatic",
-            "Semitic",
-            "West Semitic",
-            "Central Semitic",
-            "Arabic",
-            "Maghrebi Arabic",
-            "Siculo-Arabic",
-            "Maltese"
+            "Siouan",
+            "Western Siouan",
+            "Mississippi Valley Siouan",
+            "Dakotan",
+            "Sioux",
+            "Lakota"
         ],
         "endonym": [
-            "Malti"
+            "Lak\u021f\u00f3tiyapi"
         ],
         "region": [
-            "Europe"
-        ],
-        "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Maltese_language",
-        "scripts": [
-            "latin",
-            "maltese alphabet"
-        ],
-        "vplaces": [
-            "Malta"
-        ],
-        "mainfam": "Semitic"
-    },
-    "Bonan language": {
-        "vspeakers": "6000",
-        "speakers": "6,000\u00a0(1999)[1]",
-        "places": "China",
-        "family": [
-            "Mongolic",
-            "Shirongolic",
-            "Bonan"
-        ],
-        "endonym": "NA",
-        "region": [
-            "Asia"
+            "North America"
         ],
         "official": "NA",
         "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Bonan_language",
+        "link": "https://en.wikipedia.org/wiki/Lakota_language",
         "scripts": [],
         "vplaces": [
-            "China"
+            "United States",
+            "Canada"
         ],
-        "mainfam": "Mongolic"
+        "mainfam": "Siouan"
+    },
+    "Chickasaw language": {
+        "vspeakers": "75",
+        "speakers": "75\u00a0(2017)[1]",
+        "places": "ion of Native American languages in Oklahoma",
+        "family": [
+            "Muskogean",
+            "Western Muskogean",
+            "Chickasaw"
+        ],
+        "endonym": [
+            "Chikashshanompa'"
+        ],
+        "region": [
+            "North America"
+        ],
+        "official": "NA",
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Chickasaw_language",
+        "scripts": [],
+        "vplaces": [
+            "United States"
+        ],
+        "mainfam": "Muskogean"
     },
     "Italian language": {
         "vspeakers": [
@@ -14983,48 +14986,32 @@ var languages = {
         ],
         "mainfam": "Austronesian"
     },
-    "Uzbek language": {
-        "vspeakers": "27 million",
-        "speakers": "27 million\u00a0(2015)[1]",
-        "places": "Uzbekistan, Afghanistan, Tajikistan, Kazakhstan, Kyrgyzstan, Turkmenistan, Russia, China",
+    "Juang language": {
+        "vspeakers": "30378",
+        "speakers": "30,378, 65% of ethnic population\u00a0(2011 census)[1]",
+        "places": "India",
         "family": [
-            "Turkic",
-            "Common Turkic",
-            "Karluk",
-            "[2]",
-            "Uzbek"
+            "Austroasiatic",
+            "Munda",
+            "South",
+            "Juang"
         ],
         "endonym": [
-            "O\u02bbzbekcha, o\u02bbzbek tili,\u040e\u0437\u0431\u0435\u043a\u0447\u0430, \u045e\u0437\u0431\u0435\u043a \u0442\u0438\u043b\u0438,\u0627\u06c9\u0632\u0628\u06d0\u06a9\u0686\u0647, \u0627\u06c9\u0632\u0628\u06d0\u06a9 \u062a\u06cc\u0644\u06cc\u200e",
-            "\u040e\u0437\u0431\u0435\u043a\u0447\u0430, \u045e\u0437\u0431\u0435\u043a \u0442\u0438\u043b\u0438",
-            "\u0627\u06c9\u0632\u0628\u06d0\u06a9\u0686\u0647, \u0627\u06c9\u0632\u0628\u06d0\u06a9 \u062a\u06cc\u0644\u06cc",
-            "O\u02bbzbekcha, o\u02bbzbek tili"
+            "\u0b1c\u0b41\u0b06\u0b19\u0b4d\u0b17"
         ],
         "region": [
             "Asia"
         ],
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Uzbek_language",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Juang_language",
         "scripts": [
-            "latin",
-            "cyrillic",
-            "Arabic",
-            "(perso-arabic)",
-            "[a]",
-            "uzbek alphabets"
+            "odia"
         ],
         "vplaces": [
-            "Uzbekistan",
-            "Russia",
-            "Afghanistan",
-            "China",
-            "Kazakhstan",
-            "Tajikistan",
-            "Kyrgyzstan",
-            "Turkmenistan"
+            "India"
         ],
-        "mainfam": "Turkic"
+        "mainfam": "Austroasiatic"
     },
     "Balinese language": {
         "vspeakers": "3.3 million",
@@ -15075,6 +15062,31 @@ var languages = {
             "Nicaragua"
         ],
         "mainfam": "Misumalpan"
+    },
+    "Avestan": {
+        "vspeakers": "NA",
+        "speakers": "NA",
+        "places": "NA",
+        "family": [
+            "Indo-European",
+            "Indo-Iranian",
+            "Iranian",
+            "Avestan"
+        ],
+        "endonym": [
+            "\ud802\udf0e\ud802\udf1e\ud802\udf00\ud802\udf2f\ud802\udf19\ud802\udf00\ud802\udf0e\ud802\udf0e\ud802\udf00\ud802\udf10\ud802\udf00\ud802\udf09\ud802\udf25\ud802\udf00"
+        ],
+        "region": "NA",
+        "official": "NA",
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Avestan_language",
+        "scripts": [
+            "avestan alphabet",
+            "gujarati script",
+            "indian zoroastrians"
+        ],
+        "vplaces": "NA",
+        "mainfam": "Iranian"
     },
     "H\u00e4n language": {
         "vspeakers": "20",
@@ -15131,6 +15143,37 @@ var languages = {
             "Congo"
         ],
         "mainfam": "Bantu"
+    },
+    "Franco-Proven\u00e7al language": {
+        "vspeakers": "227000",
+        "speakers": "227,000\u00a0(2013)[1](150,000 in France, 70,000 in Italy,7,000 in Switzerland[2]",
+        "places": "Italy, France, Switzerland",
+        "family": [
+            "Indo-European",
+            "Italic",
+            "Romance",
+            "Western Romance",
+            "Gallo-Romance",
+            "Franco-Proven\u00e7al"
+        ],
+        "endonym": [
+            "patou\u00e8s, gaga, arpetan"
+        ],
+        "region": [
+            "Europe"
+        ],
+        "official": "NA",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Franco-Proven%C3%A7al_language",
+        "scripts": [
+            "latin"
+        ],
+        "vplaces": [
+            "France",
+            "Italy",
+            "Switzerland"
+        ],
+        "mainfam": "Romance"
     },
     "Kwasio language": {
         "vspeakers": "26000",
@@ -15255,7 +15298,7 @@ var languages = {
             "french alphabet"
         ],
         "vplaces": [
-            "France",
+            "French Polynesia",
             "Italy",
             "Belgium",
             "Switzerland",
@@ -15286,43 +15329,46 @@ var languages = {
             "Comoros",
             "Vanuatu",
             "New Caledonia",
-            "French Polynesia",
+            "France",
             "Seychelles",
             "Wallis and Futuna",
             "Saint Pierre and Miquelon"
         ],
         "mainfam": "Romance"
     },
-    "Franco-Proven\u00e7al language": {
-        "vspeakers": "227000",
-        "speakers": "227,000\u00a0(2013)[1](150,000 in France, 70,000 in Italy,7,000 in Switzerland[2]",
-        "places": "Italy, France, Switzerland",
+    "Hebrew language": {
+        "vspeakers": "NA",
+        "speakers": "NA",
+        "places": "Israel",
         "family": [
-            "Indo-European",
-            "Italic",
-            "Romance",
-            "Western Romance",
-            "Gallo-Romance",
-            "Franco-Proven\u00e7al"
+            "Afro-Asiatic",
+            "Semitic",
+            "Central Semitic",
+            "Northwest Semitic",
+            "Canaanite",
+            "Hebrew"
         ],
         "endonym": [
-            "patou\u00e8s, gaga, arpetan"
+            "\u05e2\u05b4\u05d1\u05b0\u05e8\u05b4\u05d9\u05ea\u200e, Ivrit",
+            "Ivrit"
         ],
         "region": [
-            "Europe"
+            "Asia"
         ],
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Franco-Proven%C3%A7al_language",
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Hebrew_language",
         "scripts": [
-            "latin"
+            "hebrew alphabet",
+            "paleo-hebrew alphabet",
+            "archaic biblical hebrew",
+            "imperial aramaic script",
+            "late biblical hebrew"
         ],
         "vplaces": [
-            "France",
-            "Italy",
-            "Switzerland"
+            "Israel"
         ],
-        "mainfam": "Romance"
+        "mainfam": "Semitic"
     },
     "Menominee language": {
         "vspeakers": "35",
@@ -15617,6 +15663,37 @@ var languages = {
         ],
         "mainfam": "Bantu"
     },
+    "Livvi-Karelian language": {
+        "vspeakers": "31000",
+        "speakers": "31,000\u00a0(2000\u20132010)[1]",
+        "places": "Russia, Finland",
+        "family": [
+            "Uralic",
+            "Finnic",
+            "Karelian",
+            "Livvi-Karelian"
+        ],
+        "endonym": [
+            "livvi"
+        ],
+        "region": [
+            "NA"
+        ],
+        "official": "NA",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Olonets_Karelian_language",
+        "scripts": [
+            "latin",
+            "karelian alphabet",
+            "cyrillic",
+            "citation needed"
+        ],
+        "vplaces": [
+            "Russia",
+            "Finland"
+        ],
+        "mainfam": "Uralic"
+    },
     "Surigaonon language": {
         "vspeakers": "500000",
         "speakers": "500,000\u00a0(2009)[1]",
@@ -15726,34 +15803,34 @@ var languages = {
         ],
         "mainfam": "Semitic"
     },
-    "Kumyk language": {
-        "vspeakers": "450000",
-        "speakers": "450,000\u00a0(2010 census)[1]",
-        "places": "Russia",
+    "Badaga language": {
+        "vspeakers": "NA",
+        "speakers": "NA",
+        "places": "India",
         "family": [
-            "Turkic",
-            "Common Turkic",
-            "Kypchak",
-            "Kypchak\u2013Cuman",
-            "Kumyk"
+            "Dravidian",
+            "Southern",
+            "Tamil\u2013Kannada",
+            "Badaga"
         ],
         "endonym": [
-            "\u043a\u044a\u0443\u043c\u0443\u043a\u044a \u0442\u0438\u043b/qumuq til"
+            "\u0baa\u0b9f\u0bc1\u0b95"
         ],
         "region": [
-            "NA"
+            "Asia"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Kumyk_language",
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Badaga_language",
         "scripts": [
-            "cyrillic",
-            "latin"
+            "tamil script",
+            "citation needed",
+            "kannada script"
         ],
         "vplaces": [
-            "Russia"
+            "India"
         ],
-        "mainfam": "Turkic"
+        "mainfam": "Dravidian"
     },
     "Dagur language": {
         "vspeakers": "96000",
@@ -15970,33 +16047,31 @@ var languages = {
         ],
         "mainfam": "Niger\u2013Congo"
     },
-    "Banjarese language": {
-        "vspeakers": "3.5 million",
-        "speakers": "3.5 million\u00a0(2000 census)[1]",
-        "places": "Indonesia, Malaysia",
+    "Monguor language": {
+        "vspeakers": "150000",
+        "speakers": "150,000\u00a0(2000 census)[1]",
+        "places": "China",
         "family": [
-            "Austronesian",
-            "Malayo-Polynesian",
-            "(disputed)",
-            "Malayic",
-            "Banjarese"
+            "Mongolic",
+            "Shirongolic",
+            "Monguor"
         ],
         "endonym": [
-            "Bahasa Banjar",
-            "Bahasa Banjar\u0628\u0647\u0627\u0633 \u0628\u0646\u062c\u0631"
+            "mo\u014b\u0261uer"
         ],
         "region": [
             "Asia"
         ],
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Banjar_language",
-        "scripts": [],
-        "vplaces": [
-            "Indonesia",
-            "Malaysia"
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Tu_language",
+        "scripts": [
+            "latin script"
         ],
-        "mainfam": "Austronesian"
+        "vplaces": [
+            "China"
+        ],
+        "mainfam": "Mongolic"
     },
     "Chittagonian language": {
         "vspeakers": [
@@ -16147,50 +16222,74 @@ var languages = {
         ],
         "mainfam": "Dravidian"
     },
-    "Burushaski": {
-        "vspeakers": "112000",
-        "speakers": "112,000 [3]\u00a0(2016)[4]",
-        "places": "Gilgit-Baltistan, PakistanJammu and Kashmir, India[1]",
-        "family": "NA",
+    "Russian language": {
+        "vspeakers": [
+            "low: 110 million",
+            "high: 150 million"
+        ],
+        "speakers": "150 million\u00a0(2012)[1]L2 speakers: 110 million (2012)[1]",
+        "places": "Russia, Ukraine, Belarus, Kazakhstan, Kyrgyzstan, Estonia, Latvia and other neighboring post-Soviet states, and Russian diaspora",
+        "family": [
+            "Indo-European",
+            "Balto-Slavic",
+            "Slavic",
+            "East Slavic",
+            "Russian"
+        ],
         "endonym": [
-            "\u0628\u0631\u0648\u0634\u0633\u06a9\u06cc"
+            "\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a",
+            "\u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u044f\u0437\u044b\u043a[note 1]"
+        ],
+        "region": [
+            "NA"
+        ],
+        "official": "NA",
+        "difficulty": "easy",
+        "link": "https://en.wikipedia.org/wiki/Russian_language",
+        "scripts": [
+            "cyrillic",
+            "russian alphabet"
+        ],
+        "vplaces": [
+            "Russia",
+            "Ukraine",
+            "Kazakhstan",
+            "Belarus",
+            "Kyrgyzstan",
+            "Latvia",
+            "Estonia"
+        ],
+        "mainfam": "Slavic"
+    },
+    "Tharu languages": {
+        "vspeakers": "1.53 million",
+        "speakers": "1.53 million in Nepal\u00a0(2011 census)[1]400,000 or more in India (1997\u20132007)[1]",
+        "places": "Nepal, India",
+        "family": [
+            "Indo-European",
+            "Indo-Iranian",
+            "Indo-Aryan",
+            "Eastern",
+            "Bihari",
+            "Tharu"
+        ],
+        "endonym": [
+            "\u0925\u093e\u0930\u0941, \u0925\u0930\u0941\u0935\u093e, \u0925\u0930\u0941\u0939\u091f"
         ],
         "region": [
             "Asia"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Burushaski_language",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Tharu_language",
         "scripts": [
-            "Arabic",
-            "(arabic script)"
+            "devanagari"
         ],
         "vplaces": [
             "India",
-            "Pakistan"
+            "Nepal"
         ],
-        "mainfam": "NA"
-    },
-    "Chamorro language": {
-        "vspeakers": "58000",
-        "speakers": "58,000\u00a0(2005\u20132015)[1]",
-        "places": "Mariana Islands",
-        "family": [
-            "Austronesian",
-            "Malayo-Polynesian",
-            "Chamorro"
-        ],
-        "endonym": [
-            "Finu\u02bc Chamoru",
-            "Finu\u02bc Chamoru"
-        ],
-        "region": "NA",
-        "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Chamorro_language",
-        "scripts": [],
-        "vplaces": "NA",
-        "mainfam": "Austronesian"
+        "mainfam": "Indo-Aryan"
     },
     "Zay language": {
         "vspeakers": "4900",
@@ -16249,34 +16348,37 @@ var languages = {
         ],
         "mainfam": "Den\u00e9\u2013Yeniseian"
     },
-    "Kutenai language": {
-        "vspeakers": "345",
-        "speakers": "345\u00a0(2010-2016)[3][4]",
-        "places": "Canada, United States",
-        "family": "NA",
-        "endonym": "NA",
+    "Dameli language": {
+        "vspeakers": "5000",
+        "speakers": "5,000\u00a0(2001)[1]",
+        "places": "Pakistan",
+        "family": [
+            "Indo-European",
+            "Indo-Iranian",
+            "Indo-Aryan",
+            "Dardic",
+            "Kunar",
+            "Dameli"
+        ],
+        "endonym": [
+            "D\u0101mya b\u0101\u1e63a"
+        ],
         "region": [
-            "North America"
+            "Asia"
         ],
         "official": "NA",
         "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Kutenai_language",
-        "scripts": [
-            "latin"
-        ],
+        "link": "https://en.wikipedia.org/wiki/Dameli_language",
+        "scripts": [],
         "vplaces": [
-            "United States",
-            "Canada"
+            "Pakistan"
         ],
-        "mainfam": "NA"
+        "mainfam": "Indo-Aryan"
     },
-    "Tsonga language": {
-        "vspeakers": [
-            "low: 3.4 million",
-            "high: 12 million"
-        ],
-        "speakers": "12\u00a0million\u00a0(2006\u20132011)[1]3.4 million L2 speakers in South Africa (2002)[2]",
-        "places": "Mozambique, South Africa, Eswatini, Zimbabwe",
+    "Fang language": {
+        "vspeakers": "1 million",
+        "speakers": "1 million\u00a0(2006\u20132013)[1]",
+        "places": "Equatorial Guinea, Gabon, Republic of the Congo, Cameroon, and S\u00e3o Tom\u00e9 and Pr\u00edncipe",
         "family": [
             "Niger\u2013Congo",
             "Atlantic\u2013Congo",
@@ -16285,24 +16387,28 @@ var languages = {
             "Bantoid",
             "Southern Bantoid",
             "Bantu",
-            "Southern Bantu",
-            "Tswa\u2013Ronga",
-            "Tsonga"
+            " (",
+            "Zone A",
+            ")",
+            "Beti",
+            "Fang"
         ],
-        "endonym": "NA",
+        "endonym": [
+            "Fa\u014b, Pa\u014bwe"
+        ],
         "region": [
             "Africa"
         ],
         "official": "NA",
         "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Tsonga_language",
-        "scripts": [
-            "latin"
-        ],
+        "link": "https://en.wikipedia.org/wiki/Fang_language",
+        "scripts": [],
         "vplaces": [
-            "South Africa",
-            "Mozambique",
-            "Zimbabwe"
+            "Cameroon",
+            "Guinea",
+            "Congo",
+            "Gabon",
+            "Equatorial Guinea"
         ],
         "mainfam": "Bantu"
     },
@@ -16398,73 +16504,33 @@ var languages = {
         ],
         "mainfam": "Salishan"
     },
-    "Marshallese language": {
-        "vspeakers": "55000",
-        "speakers": "(55,000 cited 1979)[2]",
-        "places": "Marshall Islands",
+    "Inari Sami": {
+        "vspeakers": "400",
+        "speakers": "400\u00a0(2018 census)[1]",
+        "places": "Finland",
         "family": [
-            "Austronesian",
-            "Malayo-Polynesian",
-            "Oceanic",
-            "Micronesian",
-            "Micronesian Proper",
-            "Nuclear Micronesian",
-            "Marshallese"
+            "Uralic",
+            "Sami",
+            "Eastern",
+            "Inari Sami"
         ],
         "endonym": [
-            "Kajin M\u0327aje\u013c",
-            "Kajin Maj\u014dl",
-            "(new orthography) Kajin M\u0327aje\u013c(old orthography) Kajin Maj\u014dl"
+            "anar\u00e2\u0161kiel\u00e2",
+            "aanaars\u00e4mikiel\u00e2"
         ],
         "region": [
-            "Oceania"
+            "Europe"
         ],
         "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Marshallese_language",
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Inari_Sami_language",
         "scripts": [
-            "latin",
-            "marshallese alphabet"
-        ],
-        "vplaces": [
-            "Marshall Islands"
-        ],
-        "mainfam": "Austronesian"
-    },
-    "Hmong language": {
-        "vspeakers": "3.7 million",
-        "speakers": "(3.7 million cited 1995\u20132009)[1]not counting Vietnam",
-        "places": "China, Vietnam, Laos, Myanmar and Thailand.",
-        "family": [
-            "Hmong\u2013Mien",
-            "Hmongic",
-            "West Hmongic",
-            "Chuanqiandian cluster",
-            "Hmong / Miao"
-        ],
-        "endonym": [
-            "(easy) lus Hmoob / lug Moob / lol Hmongb / lus Hm\u00f4ngz / \ud81a\udf07\ud81a\udf30\ud81a\udf1e \ud81a\udf0c\ud81a\udf23\ud81a\udf35 / \ud838\udd09\ud838\udd27\ud838\udd35\ud838\udd00\ud838\udd29\ud838\udd30"
-        ],
-        "region": [
-            "Asia"
-        ],
-        "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Hmong_language",
-        "scripts": [
-            "hmong writing",
-            "pahawh hmong",
-            "nyiakeng puachue hmong",
             "latin"
         ],
         "vplaces": [
-            "China",
-            "Vietnam",
-            "Thailand",
-            "Myanmar",
-            "Laos"
+            "Finland"
         ],
-        "mainfam": "Hmong\u2013Mien"
+        "mainfam": "Uralic"
     },
     "Khmu language": {
         "vspeakers": "NA",
@@ -16552,6 +16618,34 @@ var languages = {
         ],
         "vplaces": "NA",
         "mainfam": "Austronesian"
+    },
+    "Serbian language": {
+        "vspeakers": "12 million",
+        "speakers": "c. 12 million\u00a0(2009)[1]",
+        "places": "Serbia, post-Yugoslav states and Serbian diaspora",
+        "family": [
+            "Indo-European",
+            "Balto-Slavic",
+            "Slavic",
+            "South Slavic",
+            "Serbo-Croatian",
+            "Serbian language"
+        ],
+        "endonym": [],
+        "region": [
+            "Europe"
+        ],
+        "official": "NA",
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Serbian_language",
+        "scripts": [
+            "serbian cyrillic",
+            "serbian latin"
+        ],
+        "vplaces": [
+            "Serbia"
+        ],
+        "mainfam": "Slavic"
     },
     "Marathi language": {
         "vspeakers": [
@@ -16743,44 +16837,29 @@ var languages = {
         ],
         "mainfam": "Mayan"
     },
-    "Swazi language": {
-        "vspeakers": [
-            "low: 2.3 million",
-            "high: 2.4 million"
-        ],
-        "speakers": "2.3 million\u00a0(2006\u20132011)[1]2.4 million L2 speakers in South Africa (2002)[2]",
-        "places": "Eswatini, South Africa, Lesotho, Mozambique",
+    "Cheyenne language": {
+        "vspeakers": "1900",
+        "speakers": "1,900\u00a0(2015 census)[1]",
+        "places": "United States",
         "family": [
-            "Niger\u2013Congo",
-            "Atlantic\u2013Congo",
-            "Volta-Congo",
-            "Benue\u2013Congo",
-            "Bantoid",
-            "Southern Bantoid",
-            "Bantu",
-            "Southern Bantu",
-            "Nguni",
-            "Tekela",
-            "Swazi"
+            "Algic",
+            "Algonquian",
+            "Cheyenne"
         ],
         "endonym": [
-            "siSwati"
+            "Ts\u0117h\u00e9sen\u0117stsest\u022ftse"
         ],
         "region": [
-            "Africa"
+            "North America"
         ],
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Swati_language",
-        "scripts": [
-            "latin"
-        ],
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Cheyenne_language",
+        "scripts": [],
         "vplaces": [
-            "South Africa",
-            "Mozambique",
-            "Lesotho"
+            "United States"
         ],
-        "mainfam": "Bantu"
+        "mainfam": "Algonquian"
     },
     "Tregami language": {
         "vspeakers": "3500",
@@ -16947,37 +17026,30 @@ var languages = {
         ],
         "mainfam": "Germanic"
     },
-    "Buryat language": {
-        "vspeakers": "265000",
-        "speakers": "(265,000 in Russia and Mongolia (2010 census); 65,000 in China cited 1982 census)[1]",
-        "places": "Russia (Buryat Republic, Ust-Orda Buryatia, Aga Buryatia), northern Mongolia, China (Hulunbuir)",
+    "Coeur d'Alene language": {
+        "vspeakers": "4",
+        "speakers": "4\u00a0(2007)[1]",
+        "places": "United States of America",
         "family": [
-            "Mongolic",
-            "Central Mongolic",
-            "Buryat"
+            "Salishan",
+            "Interior Salish",
+            "Southern",
+            "Coeur d'Alene"
         ],
         "endonym": [
-            "\u0431\u0443\u0440\u044f\u0430\u0434 \u0445\u044d\u043b\u044d\u043d buryaad xelen\u182a\u1824\u1837\u1822\u1820\u1833\u182e\u1823\u1829\u182d\u1823\u182f\u182c\u1821\u182f\u1821\u1828",
-            "buryaad xelen"
+            "Snchitsu\u2019umshtsn"
         ],
         "region": [
-            "Asia"
+            "North America"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Buryat_language",
-        "scripts": [
-            "cyrillic",
-            "mongolian script",
-            "vagindra script",
-            "latin"
-        ],
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Coeur_d%27Alene_language",
+        "scripts": [],
         "vplaces": [
-            "China",
-            "Russia",
-            "Mongolia"
+            "United States"
         ],
-        "mainfam": "Mongolic"
+        "mainfam": "Salishan"
     },
     "Kikuyu language": {
         "vspeakers": "6.6 million",
@@ -17303,67 +17375,6 @@ var languages = {
         ],
         "mainfam": "Austronesian"
     },
-    "Wakhi language": {
-        "vspeakers": "20000",
-        "speakers": "(20,000  in Pakistan (2016); 58,000 cited 1992\u20132012)[1]",
-        "places": "Afghanistan, China, Pakistan, Tajikistan",
-        "family": [
-            "Indo-European",
-            "Indo-Iranian",
-            "Iranian",
-            "Eastern",
-            "Wakhi"
-        ],
-        "endonym": [
-            "x\u030cik zik",
-            "x\u030cik zik / \u0425\u030c \u0438\u043a \u0437\u0438\u043a"
-        ],
-        "region": [
-            "Asia"
-        ],
-        "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Wakhi_language",
-        "scripts": [
-            "Arabic",
-            "(perso-arabic)",
-            "cyrillic",
-            "latin"
-        ],
-        "vplaces": [
-            "China",
-            "Pakistan",
-            "Afghanistan",
-            "Tajikistan"
-        ],
-        "mainfam": "Iranian"
-    },
-    "O\u02bcodham language": {
-        "vspeakers": "15000",
-        "speakers": "15,000\u00a0(2007)[1]180 monolinguals (1990 census)",
-        "places": "United States, Mexico",
-        "family": [
-            "Uto-Aztecan",
-            "Southern Uto-Aztecan",
-            "Tepiman",
-            "O\u02bcodham"
-        ],
-        "endonym": [
-            "(easy) \u02bcO\u02bcodham ha-\u00f1e\u02bcok\u012d, \u02bcO\u02bcodham \u00f1i\u02bcok\u012d, O\u02bcodham \u00f1iok"
-        ],
-        "region": [
-            "North America"
-        ],
-        "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/O%CA%BCodham_language",
-        "scripts": [],
-        "vplaces": [
-            "United States",
-            "Mexico"
-        ],
-        "mainfam": "Uto-Aztecan"
-    },
     "Khandeshi language": {
         "vspeakers": "1.86 million",
         "speakers": "1.86 million\u00a0(2011 census)[1]",
@@ -17390,41 +17401,6 @@ var languages = {
             "India"
         ],
         "mainfam": "Indo-Aryan"
-    },
-    "Belarusian language": {
-        "vspeakers": [
-            "low: 5.1 million",
-            "high: 6.3 million"
-        ],
-        "speakers": "5.1 million[1]\u00a0(2009 census)6.3 million L2 speakers (2009 census)[1]",
-        "places": "Belarus",
-        "family": [
-            "Indo-European",
-            "Balto-Slavic",
-            "Slavic",
-            "East Slavic",
-            "Belarusian"
-        ],
-        "endonym": [
-            "\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f \u043c\u043e\u0432\u0430",
-            "bie\u0142aruskaja mova",
-            "\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f \u043c\u043e\u0432\u0430 bie\u0142aruskaja mova"
-        ],
-        "region": [
-            "Europe"
-        ],
-        "official": "NA",
-        "difficulty": "medium",
-        "link": "https://en.wikipedia.org/wiki/Belarusian_language",
-        "scripts": [
-            "cyrillic",
-            "belarusian alphabet",
-            "belarusian latin alphabet"
-        ],
-        "vplaces": [
-            "Belarus"
-        ],
-        "mainfam": "Slavic"
     },
     "Hinuq language": {
         "vspeakers": "350",
@@ -18196,10 +18172,42 @@ var languages = {
             "dhives akuru"
         ],
         "vplaces": [
-            "Mali",
-            "Maldives"
+            "Maldives",
+            "Mali"
         ],
         "mainfam": "Indo-Aryan"
+    },
+    "Aragonese language": {
+        "vspeakers": "10000",
+        "speakers": "10,000\u201312,000 (active speakers)30,000\u201350,000 (including passive speakers)[1]\u00a0(2017)",
+        "places": "Spain",
+        "family": [
+            "Indo-European",
+            "Italic",
+            "Romance",
+            "Western Romance",
+            "Occitano-Romance",
+            " or ",
+            "West Iberian",
+            "Navarro-Aragonese",
+            "Aragonese"
+        ],
+        "endonym": [
+            "aragon\u00e9s"
+        ],
+        "region": [
+            "Europe"
+        ],
+        "official": "NA",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Aragonese_language",
+        "scripts": [
+            "latin"
+        ],
+        "vplaces": [
+            "Spain"
+        ],
+        "mainfam": "Romance"
     },
     "Hawaiian language": {
         "vspeakers": "24000",
@@ -18255,33 +18263,38 @@ var languages = {
         ],
         "mainfam": "Niger\u2013Congo"
     },
-    "Serbian language": {
-        "vspeakers": "12 million",
-        "speakers": "c. 12 million\u00a0(2009)[1]",
-        "places": "Serbia, post-Yugoslav states and Serbian diaspora",
+    "Herero language": {
+        "vspeakers": "211700",
+        "speakers": "211,700\u00a0(2014)[1]",
+        "places": "Namibia, Botswana, Angola",
         "family": [
-            "Indo-European",
-            "Balto-Slavic",
-            "Slavic",
-            "South Slavic",
-            "Serbo-Croatian",
-            "Serbian language"
+            "Niger\u2013Congo",
+            "Atlantic\u2013Congo",
+            "Volta-Congo",
+            "Benue\u2013Congo",
+            "Bantoid",
+            "Southern Bantoid",
+            "Bantu",
+            "Kavango \u2013 Southwest Bantu",
+            "Southwest Bantu",
+            "Herero"
         ],
-        "endonym": [],
+        "endonym": [
+            "Otjiherero"
+        ],
         "region": [
-            "Europe"
+            "Africa"
         ],
         "official": "NA",
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Serbian_language",
-        "scripts": [
-            "serbian cyrillic",
-            "serbian latin"
-        ],
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Herero_language",
+        "scripts": [],
         "vplaces": [
-            "Serbia"
+            "Angola",
+            "Namibia",
+            "Botswana"
         ],
-        "mainfam": "Slavic"
+        "mainfam": "Bantu"
     },
     "Ishkashimi language": {
         "vspeakers": "3000",
@@ -18443,58 +18456,26 @@ var languages = {
         ],
         "mainfam": "Germanic"
     },
-    "Dena\u02bcina language": {
-        "vspeakers": "75",
-        "speakers": "75\u00a0(2007)[1]",
-        "places": "United States",
-        "family": [
-            "Den\u00e9\u2013Yeniseian",
-            "Na-Den\u00e9",
-            "Athabaskan",
-            "Northern Athabaskan",
-            "Dena\u02bcina"
-        ],
+    "Jalaa language": {
+        "vspeakers": "NA",
+        "speakers": "NA",
+        "places": "Nigeria",
+        "family": "NA",
         "endonym": [
-            "(easy) Dena\u02bcina Qenaga, Dena\u02bcinaq\u02bc"
+            "b\u00e0s\u00e0r\u0259\u0300n d\u00e0 j\u00e0l\u00e0\u00e0b\u00e8\u0329"
         ],
         "region": [
-            "North America"
+            "Africa"
         ],
         "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Dena%27ina_language",
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Jalaa_language",
         "scripts": [],
         "vplaces": [
-            "United States"
+            "Nigeria",
+            "Niger"
         ],
-        "mainfam": "Den\u00e9\u2013Yeniseian"
-    },
-    "Svan language": {
-        "vspeakers": "14000",
-        "speakers": "14,000\u00a0(2015)[1]",
-        "places": "Georgia",
-        "family": [
-            "Kartvelian",
-            "Svan"
-        ],
-        "endonym": [
-            "\u10da\u10e3\u10e8\u10dc\u10e3 \u10dc\u10d8\u10dc",
-            "Lu\u0161nu nin",
-            "\u10da\u10e3\u10e8\u10dc\u10e3 \u10dc\u10d8\u10dc Lu\u0161nu nin"
-        ],
-        "region": [
-            "Asia"
-        ],
-        "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Svan_language",
-        "scripts": [
-            "georgian script"
-        ],
-        "vplaces": [
-            "Georgia"
-        ],
-        "mainfam": "Kartvelian"
+        "mainfam": "NA"
     },
     "Caluyanon language": {
         "vspeakers": "30000",
@@ -18783,35 +18764,36 @@ var languages = {
         ],
         "mainfam": "Tanoan"
     },
-    "Aragonese language": {
-        "vspeakers": "10000",
-        "speakers": "10,000\u201312,000 (active speakers)30,000\u201350,000 (including passive speakers)[1]\u00a0(2017)",
-        "places": "Spain",
+    "Corsican language": {
+        "vspeakers": "150000",
+        "speakers": "150,000 in Corsica\u00a0(2013)[1]",
+        "places": "FranceItaly",
         "family": [
             "Indo-European",
             "Italic",
             "Romance",
-            "Western Romance",
-            "Occitano-Romance",
-            " or ",
-            "West Iberian",
-            "Navarro-Aragonese",
-            "Aragonese"
+            "Italo-Dalmatian",
+            "Tuscan",
+            "[2]",
+            "Corsican"
         ],
         "endonym": [
-            "aragon\u00e9s"
+            "corsu",
+            "lingua corsa"
         ],
         "region": [
             "Europe"
         ],
         "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Aragonese_language",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Corsican_language",
         "scripts": [
-            "latin"
+            "latin script",
+            "corsican alphabet"
         ],
         "vplaces": [
-            "Spain"
+            "France",
+            "Italy"
         ],
         "mainfam": "Romance"
     },
@@ -19019,29 +19001,32 @@ var languages = {
         ],
         "mainfam": "Iranian"
     },
-    "Haida language": {
-        "vspeakers": "24",
-        "speakers": "24 (465 total)\u00a0(2018)",
-        "places": "\nCanada (Haida Gwaii)\nAlaska (Prince of Wales Island)\n",
-        "family": "NA",
+    "Chulym language": {
+        "vspeakers": "44",
+        "speakers": "44\u00a0(2010 census)[1]",
+        "places": "Russia",
+        "family": [
+            "Turkic",
+            "Common Turkic",
+            "Siberian Turkic",
+            "Chulym"
+        ],
         "endonym": [
-            "X\u0331aat K\u00edl, X\u0331aadas K\u00edl, X\u0331aayda Kil, Xaad kil",
-            "X\u0331aat K\u00edl, X\u0331aadas K\u00edl, X\u0331aayda Kil, Xaad kil"
+            "\u041e\u0441\u044c \u0442\u0438\u043b\u0438, \u0442\u0430\u0434\u0430\u0440 \u0442\u0438\u043b\u0438"
         ],
         "region": [
-            "North America"
+            "NA"
         ],
         "official": "NA",
         "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Haida_language",
+        "link": "https://en.wikipedia.org/wiki/Chulym_language",
         "scripts": [
-            "latin"
+            "cyrillic"
         ],
         "vplaces": [
-            "Canada",
-            "Wales"
+            "Russia"
         ],
-        "mainfam": "NA"
+        "mainfam": "Turkic"
     },
     "Talysh language": {
         "vspeakers": "218100",
@@ -19082,60 +19067,80 @@ var languages = {
         ],
         "mainfam": "Iranian"
     },
-    "Aleut language": {
-        "vspeakers": "150",
-        "speakers": "150[1]\u00a0(2009-2011)",
-        "places": "Alaska (Aleutian, Pribilof Islands, Alaskan Peninsula west of Stepovak Bay), Kamchatka Krai (Commander Islands)",
+    "Hungarian language": {
+        "vspeakers": "13 million",
+        "speakers": "13 million\u00a0(2003\u20132014)[1]",
+        "places": "Hungary and areas of east Austria, Croatia, Romania, northern Serbia, Slovakia, Slovenia, western Ukraine",
         "family": [
-            "Eskimo\u2013Aleut",
-            "Aleut"
+            "Uralic",
+            "Ugric",
+            "? (disputed)",
+            "[2]",
+            "[3]",
+            "[4]",
+            "Hungarian"
         ],
         "endonym": [
-            "Unangam Tunuu",
-            "Unangam Tunuu\u0423\u043d\u0430\u0301\u04c8\u0430\u043c \u0442\u0443\u043d\u0443\u0443\u0301 or \u0443\u043d\u0430\u04c8\u0430\u043d \u0443\u043c\u0441\u0443\u0443"
+            "magyar nyelv"
         ],
-        "region": "NA",
+        "region": "Europe",
         "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Aleut_language",
+        "difficulty": "easy",
+        "link": "https://en.wikipedia.org/wiki/Hungarian_language",
         "scripts": [
             "latin",
-            "cyrillic"
+            "hungarian alphabet",
+            "old hungarian script"
         ],
-        "vplaces": "NA",
-        "mainfam": "Eskimo\u2013Aleut"
+        "vplaces": [
+            "Hungary",
+            "Romania",
+            "Ukraine",
+            "Austria",
+            "Serbia",
+            "Slovakia",
+            "Oman",
+            "Croatia",
+            "Slovenia"
+        ],
+        "mainfam": "Uralic"
     },
-    "Bhili language": {
-        "vspeakers": "NA",
-        "speakers": "3,206,533\u00a0(2011 census)[1]",
-        "places": "India",
+    "Tai Lue language": {
+        "vspeakers": "550000",
+        "speakers": "550,000\u00a0(2000\u20132013)[1]",
+        "places": "China, Laos, Thailand, Myanmar, Vietnam, United States",
         "family": [
-            "Indo-European",
-            "Indo-Iranian",
-            "Indo-Aryan",
-            "Western Indo-Aryan",
-            "Bhil",
-            "Central",
-            "Bhili"
+            "Kra\u2013Dai",
+            "Tai",
+            "Southwestern",
+            " (Thai)",
+            "Chiang Saen",
+            "Tai Lue"
         ],
         "endonym": [
-            "\u092d\u0940\u0932\u0940, \u0aad\u0ac0\u0ab2\u0ac0"
+            "\u1985\u19c4\u19ba\u1991kam tai",
+            "kam tai"
         ],
         "region": [
             "Asia"
         ],
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Bhili_language",
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Tai_Lue_language",
         "scripts": [
-            "devanagari",
-            "gujarati",
-            "[2]"
+            "tai tham alphabet",
+            "thai alphabet",
+            "new tai lue alphabet"
         ],
         "vplaces": [
-            "India"
+            "China",
+            "United States",
+            "Vietnam",
+            "Thailand",
+            "Myanmar",
+            "Laos"
         ],
-        "mainfam": "Indo-Aryan"
+        "mainfam": "Kra\u2013Dai"
     },
     "Yaaku language": {
         "vspeakers": "50",
@@ -19159,36 +19164,47 @@ var languages = {
         ],
         "mainfam": "Afro-Asiatic"
     },
-    "Urum language": {
-        "vspeakers": "190000",
-        "speakers": "190,000\u00a0(2000)[1]",
-        "places": "Ukraine, Georgia, Russia",
+    "Kongo language": {
+        "vspeakers": [
+            "low: 5 million",
+            "high: 6.5 million"
+        ],
+        "speakers": "(ca. 6.5 million cited 1982\u20132012)[2]5 million L2 speakers in DRC (perhaps Kituba)",
+        "places": "DR Congo, Congo, Angola",
         "family": [
-            "Turkic",
-            "Common Turkic",
-            "Kipchak",
-            "West Kypchak",
-            "Urum"
+            "Niger\u2013Congo",
+            "Atlantic\u2013Congo",
+            "Volta-Congo",
+            "Benue\u2013Congo",
+            "Bantoid",
+            "Southern Bantoid",
+            "Bantu",
+            " (",
+            "Zone H",
+            ")",
+            "Kongo",
+            "-",
+            "Yaka",
+            "Kongo languages",
+            " (H.10)",
+            "Kongo"
         ],
-        "endonym": [
-            "\u0423\u0440\u0443\u043c"
-        ],
+        "endonym": "NA",
         "region": [
-            "NA"
+            "Africa"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Urum_language",
+        "difficulty": "NA",
+        "link": "https://en.wikipedia.org/wiki/Kongo_language",
         "scripts": [
-            "cyrillic",
-            "greek"
+            "latin",
+            "mandombe"
         ],
         "vplaces": [
-            "Russia",
-            "Ukraine",
-            "Georgia"
+            "Angola",
+            "Congo"
         ],
-        "mainfam": "Turkic"
+        "mainfam": "Bantu"
     },
     "Tati language (Iran)": {
         "vspeakers": "NA",
@@ -19282,50 +19298,37 @@ var languages = {
         ],
         "mainfam": "Sino-Tibetan"
     },
-    "Turkish language": {
-        "vspeakers": [
-            "low: 75.7 million",
-            "high: 88 million"
-        ],
-        "speakers": "75.7 million[1]\u00a0(2002\u20132018)88 million (L1 + L2)[2]",
-        "places": "Turkey (official), Northern Cyprus (official), Cyprus (official), Azerbaijan, Iraq, Syria, Lebanon, Israel, Greece, Bulgaria, Romania, Kosovo, North Macedonia, Bosnia and Herzegovina",
+    "Tobian language": {
+        "vspeakers": "150",
+        "speakers": "150\u00a0(2017)[1]",
+        "places": "Palau",
         "family": [
-            "Turkic",
-            "Common Turkic",
-            "Oghuz",
-            "Western Oghuz",
-            "Turkish"
+            "Austronesian",
+            "Malayo-Polynesian",
+            "Oceanic",
+            "Micronesian",
+            "Proper",
+            "Trukic",
+            "Echangese",
+            "Tobian"
         ],
         "endonym": [
-            "T\u00fcrk\u00e7e",
-            "T\u00fcrk dili"
+            "Ramarih Hatohobei"
         ],
         "region": [
-            "Asia"
+            "Oceania"
         ],
         "official": "NA",
-        "difficulty": "medium",
-        "link": "https://en.wikipedia.org/wiki/Turkish_language",
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Tobian_language",
         "scripts": [
-            "latin",
-            "turkish alphabet"
+            "latin script",
+            "[1]"
         ],
         "vplaces": [
-            "Turkey",
-            "Iraq",
-            "Romania",
-            "Syria",
-            "Greece",
-            "Azerbaijan",
-            "Israel",
-            "Bulgaria",
-            "Lebanon",
-            "Oman",
-            "Bosnia and Herzegovina",
-            "North Macedonia",
-            "Cyprus"
+            "Palau"
         ],
-        "mainfam": "Turkic"
+        "mainfam": "Austronesian"
     },
     "Chichimeca Jonaz language": {
         "vspeakers": "2100",
@@ -19407,30 +19410,31 @@ var languages = {
         ],
         "mainfam": "Austronesian"
     },
-    "Ticuna language": {
-        "vspeakers": "47000",
-        "speakers": "47,000\u00a0(1998\u20132008)[1]",
-        "places": "Brazil, Colombia, Peru",
+    "Dena\u02bcina language": {
+        "vspeakers": "75",
+        "speakers": "75\u00a0(2007)[1]",
+        "places": "United States",
         "family": [
-            "T\u00efcuna\u2013Yuri",
-            "T\u00efcuna"
+            "Den\u00e9\u2013Yeniseian",
+            "Na-Den\u00e9",
+            "Athabaskan",
+            "Northern Athabaskan",
+            "Dena\u02bcina"
         ],
         "endonym": [
-            "Du\u00fcx\u00fcgu"
+            "(easy) Dena\u02bcina Qenaga, Dena\u02bcinaq\u02bc"
         ],
         "region": [
-            "South America"
+            "North America"
         ],
         "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Ticuna_language",
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Dena%27ina_language",
         "scripts": [],
         "vplaces": [
-            "Brazil",
-            "Colombia",
-            "Peru"
+            "United States"
         ],
-        "mainfam": "T\u00efcuna\u2013Yuri"
+        "mainfam": "Den\u00e9\u2013Yeniseian"
     },
     "Indonesian language": {
         "vspeakers": [
@@ -19499,58 +19503,55 @@ var languages = {
         ],
         "mainfam": "Den\u00e9\u2013Yeniseian"
     },
-    "Breton language": {
-        "vspeakers": "210000",
-        "speakers": "210,000 in Brittany\u00a0(2018)[1]16,000 in \u00cele-de-France[2](Number includes students in bilingual education)[3]",
-        "places": "France",
+    "Maranao language": {
+        "vspeakers": "780000",
+        "speakers": "(780,000 cited 1990 census)[1]",
+        "places": "Philippines",
         "family": [
-            "Indo-European",
-            "Celtic",
-            "Insular Celtic",
-            "Brittonic",
-            "Southwestern",
-            "Breton"
+            "Austronesian",
+            "Malayo-Polynesian",
+            "Philippine",
+            "Greater Central Philippine",
+            "Danao",
+            "Maranao"
         ],
         "endonym": [
-            "brezhoneg"
+            "M\u00ebranaw"
         ],
-        "region": [
-            "Europe"
-        ],
-        "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Breton_language",
-        "scripts": [
-            "latin script"
-        ],
-        "vplaces": [
-            "France"
-        ],
-        "mainfam": "Celtic"
-    },
-    "Muria language": {
-        "vspeakers": "15864",
-        "speakers": "15,864\u00a0(2011 census)[1]",
-        "places": "India",
-        "family": [
-            "Dravidian",
-            "South-Central",
-            "Gondi\u2013Kui",
-            "Gondi languages",
-            "Muria"
-        ],
-        "endonym": "NA",
         "region": [
             "Asia"
         ],
         "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Muria_language",
-        "scripts": [],
-        "vplaces": [
-            "India"
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Maranao_language",
+        "scripts": [
+            "latin",
+            "Arabic",
+            "(arabic)"
         ],
-        "mainfam": "Dravidian"
+        "vplaces": [
+            "Philippines"
+        ],
+        "mainfam": "Austronesian"
+    },
+    "Tepehua languages": {
+        "vspeakers": "8900",
+        "speakers": "8,900\u00a0(2010 census)[1]",
+        "places": "NA",
+        "family": [
+            "Totonacan",
+            "Tepehua"
+        ],
+        "endonym": [
+            "Hamasipini"
+        ],
+        "region": "NA",
+        "official": "NA",
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Tepehua_language",
+        "scripts": [],
+        "vplaces": "NA",
+        "mainfam": "Totonacan"
     },
     "Polabian language": {
         "vspeakers": "NA",
@@ -19578,38 +19579,31 @@ var languages = {
         ],
         "mainfam": "Slavic"
     },
-    "Chakma language": {
-        "vspeakers": "326000",
-        "speakers": "326,000 in Bangladesh, 228,281 in India,[1][2] also in Myanmar",
-        "places": "Bangladesh and India",
+    "O\u02bcodham language": {
+        "vspeakers": "15000",
+        "speakers": "15,000\u00a0(2007)[1]180 monolinguals (1990 census)",
+        "places": "United States, Mexico",
         "family": [
-            "Indo-European",
-            "Indo-Iranian",
-            "Indo-Aryan",
-            "Eastern",
-            "Bengali\u2013Assamese",
-            "Chakma"
+            "Uto-Aztecan",
+            "Southern Uto-Aztecan",
+            "Tepiman",
+            "O\u02bcodham"
         ],
         "endonym": [
-            "\ud804\udd0c\ud804\udd0b\ud804\udd34\ud804\udd1f\ud804\udd33\ud804\udd26 \ud804\udd1e\ud804\udd0c\ud804\udd34"
+            "(easy) \u02bcO\u02bcodham ha-\u00f1e\u02bcok\u012d, \u02bcO\u02bcodham \u00f1i\u02bcok\u012d, O\u02bcodham \u00f1iok"
         ],
         "region": [
-            "Asia"
+            "North America"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Chakma_language",
-        "scripts": [
-            "chakma script",
-            "latin script",
-            "bengali script",
-            "[3]"
-        ],
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/O%CA%BCodham_language",
+        "scripts": [],
         "vplaces": [
-            "India",
-            "Bangladesh"
+            "United States",
+            "Mexico"
         ],
-        "mainfam": "Indo-Aryan"
+        "mainfam": "Uto-Aztecan"
     },
     "Slovak language": {
         "vspeakers": "5.2 million",
@@ -19643,40 +19637,36 @@ var languages = {
         ],
         "mainfam": "Slavic"
     },
-    "Tatar language": {
-        "vspeakers": "5.2 million",
-        "speakers": "5.2 million\u00a0(2015)[1](may include some L2 speakers)",
-        "places": "Russia, other post-Soviet states",
+    "Nkore language": {
+        "vspeakers": "3.4 million",
+        "speakers": "3.4 million\u00a0(2014 census)[1]",
+        "places": "Uganda",
         "family": [
-            "Turkic",
-            "Common Turkic",
-            "Kipchak",
-            "Kipchak\u2013Bulgar",
-            "Tatar"
+            "Niger\u2013Congo",
+            "Atlantic\u2013Congo",
+            "Volta-Congo",
+            "Benue\u2013Congo",
+            "Bantoid",
+            "Southern Bantoid",
+            "Bantu",
+            "Northeast Bantu",
+            "Great Lakes Bantu",
+            "Nyoro-Ganda",
+            "Nkore-Kiga",
+            "Nkore"
         ],
-        "endonym": [
-            "\u0442\u0430\u0442\u0430\u0440 \u0442\u0435\u043b\u0435, tatar tele, \u062a\u0627\u062a\u0627\u0631 \u062a\u0644\u06cc\u200e",
-            "\u0442\u0430\u0442\u0430\u0440 \u0442\u0435\u043b\u0435",
-            "\u062a\u0627\u062a\u0627\u0631 \u062a\u0644\u06cc",
-            "tatar tele"
-        ],
+        "endonym": "NA",
         "region": [
-            "NA"
+            "Africa"
         ],
         "official": "NA",
         "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Tatar_language",
-        "scripts": [
-            "tatar alphabet",
-            "cyrillic",
-            "latin",
-            "Arabic",
-            "(arabic)"
-        ],
+        "link": "https://en.wikipedia.org/wiki/Runyankole_language",
+        "scripts": [],
         "vplaces": [
-            "Russia"
+            "Uganda"
         ],
-        "mainfam": "Turkic"
+        "mainfam": "Bantu"
     },
     "Teso language": {
         "vspeakers": "1.9 million",
@@ -19709,35 +19699,40 @@ var languages = {
         ],
         "mainfam": "Nilo-Saharan"
     },
-    "Zeelandic": {
-        "vspeakers": "NA",
-        "speakers": "(undated figure of 220,000)[1]",
-        "places": "Zeeland(Netherlands)",
+    "Wakhi language": {
+        "vspeakers": "20000",
+        "speakers": "(20,000  in Pakistan (2016); 58,000 cited 1992\u20132012)[1]",
+        "places": "Afghanistan, China, Pakistan, Tajikistan",
         "family": [
             "Indo-European",
-            "Germanic",
-            "West Germanic",
-            "Weser-Rhine Germanic",
-            "Low Franconian",
-            "Dutch",
-            "Zeelandic"
+            "Indo-Iranian",
+            "Iranian",
+            "Eastern",
+            "Wakhi"
         ],
         "endonym": [
-            "Ze\u00eauws"
+            "x\u030cik zik",
+            "x\u030cik zik / \u0425\u030c \u0438\u043a \u0437\u0438\u043a"
         ],
         "region": [
-            "Europe"
+            "Asia"
         ],
         "official": "NA",
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Zeelandic_language",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Wakhi_language",
         "scripts": [
+            "Arabic",
+            "(perso-arabic)",
+            "cyrillic",
             "latin"
         ],
         "vplaces": [
-            "Netherlands"
+            "China",
+            "Pakistan",
+            "Afghanistan",
+            "Tajikistan"
         ],
-        "mainfam": "Germanic"
+        "mainfam": "Iranian"
     },
     "Aromanian language": {
         "vspeakers": "250000",
@@ -19773,34 +19768,41 @@ var languages = {
         ],
         "mainfam": "Romance"
     },
-    "Yaeyama language": {
-        "vspeakers": "NA",
-        "speakers": "NA",
-        "places": "Japan",
+    "Comorian languages": {
+        "vspeakers": "800000",
+        "speakers": "800,000 in Comoros[1] and 300,000 in Mayotte[2][3]\u00a0(2011 and 2007)",
+        "places": "Comoros and Mayotte",
         "family": [
-            "Japonic",
-            "Ryukyuan",
-            "Southern Ryukyuan",
-            "Macro-Yaeyama",
-            "Yaeyama"
+            "Niger\u2013Congo",
+            "Atlantic\u2013Congo",
+            "Volta-Congo",
+            "Benue\u2013Congo",
+            "Bantoid",
+            "Southern Bantoid",
+            "Bantu",
+            "Northeast Coast Bantu",
+            "Sabaki",
+            "Comorian"
         ],
         "endonym": [
-            "\u516b\u91cd\u5c71\u7269\u8a00",
-            "\u30e4\u30a4\u30de\u30e0\u30cb",
-            "Yaimamuni",
-            "\u516b\u91cd\u5c71\u7269\u8a00/\u30e4\u30a4\u30de\u30e0\u30cb Yaimamuni"
+            "shikomori/\u0634\u0650\u0643\u064f\u0645\u064f\u0631\u0650"
         ],
         "region": [
-            "Asia"
+            "Africa"
         ],
         "official": "NA",
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Yaeyama_language",
-        "scripts": [],
-        "vplaces": [
-            "Japan"
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Comorian_language",
+        "scripts": [
+            "Arabic",
+            "(arabic)",
+            "latin"
         ],
-        "mainfam": "Japonic"
+        "vplaces": [
+            "Comoros",
+            "Mayotte"
+        ],
+        "mainfam": "Bantu"
     },
     "Kalasha-ala": {
         "vspeakers": "12000",
@@ -19855,50 +19857,35 @@ var languages = {
         ],
         "mainfam": "North Bougainville"
     },
-    "Kurdish languages": {
-        "vspeakers": "30 million",
-        "speakers": "c. 20\u201330 million\u00a0(2000\u20132010 est.)[1]",
-        "places": "Turkey, Iraq, Iran, Syria, Armenia, Azerbaijan",
+    "Samoan language": {
+        "vspeakers": "510000",
+        "speakers": "510,000\u00a0(2015)[1]",
+        "places": "Samoan Islands",
         "family": [
-            "Indo-European",
-            "Indo-Iranian",
-            "Iranian",
-            "Western",
-            "Northwestern",
-            "Kurdish"
+            "Austronesian",
+            "Malayo-Polynesian",
+            "Oceanic",
+            "Polynesian",
+            "Samoic",
+            "Samoan\u2013Tokelauan",
+            "Samoan"
         ],
         "endonym": [
-            "\u0632\u0645\u0627\u0646\u06cc \u06a9\u0648\u0631\u062f\u06cc",
-            "Ziman\u00ea kurd\u00ee",
-            "Ziman\u00ea kurd\u00ee / \u0632\u0645\u0627\u0646\u06cc \u06a9\u0648\u0631\u062f\u06cc\u200e"
+            "Gagana fa\u02bba S\u0101moa"
         ],
         "region": [
-            "Asia"
+            "Oceania"
         ],
         "official": "NA",
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Kurdish_language",
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Samoan_language",
         "scripts": [
-            "hawar alphabet",
-            "latin script",
-            "sorani alphabet",
-            "Arabic",
-            "(perso-arabic script)",
-            "cyrillic alphabet",
-            "armenian alphabet",
-            "[3]",
-            "[4]",
-            "[5]"
+            "latin"
         ],
         "vplaces": [
-            "Turkey",
-            "Iran",
-            "Iraq",
-            "Syria",
-            "Azerbaijan",
-            "Armenia"
+            "Samoa"
         ],
-        "mainfam": "Iranian"
+        "mainfam": "Austronesian"
     },
     "Zoroastrian Dari language": {
         "vspeakers": "8000",
@@ -19958,63 +19945,56 @@ var languages = {
         "vplaces": "NA",
         "mainfam": "Indo-Aryan"
     },
-    "Nyoro language": {
-        "vspeakers": "670000",
-        "speakers": "670,000\u00a0(2002 census)[1]",
-        "places": "Uganda",
+    "Mono language (California)": {
+        "vspeakers": "37",
+        "speakers": "(37 cited 1994)[1]",
+        "places": "United States",
         "family": [
-            "Niger\u2013Congo",
-            "Atlantic\u2013Congo",
-            "Volta-Congo",
-            "Benue\u2013Congo",
-            "Bantoid",
-            "Southern Bantoid",
-            "Bantu",
-            "Northeast Bantu",
-            "Great Lakes Bantu",
-            "Nyoro-Ganda",
-            "Nyoro-Tooro",
-            "Nyoro"
-        ],
-        "endonym": [
-            "Orunyoro"
-        ],
-        "region": [
-            "Africa"
-        ],
-        "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Nyoro_language",
-        "scripts": [],
-        "vplaces": [
-            "Uganda"
-        ],
-        "mainfam": "Bantu"
-    },
-    "Akatek language": {
-        "vspeakers": "45430",
-        "speakers": "45,430\u00a0(2003-2011)[1]",
-        "places": "GuatemalaMexico",
-        "family": [
-            "Mayan",
-            "Q\u02bcanjobalan\u2013Chujean",
-            "Q\u02bcanjobalan",
-            "Kanjobal\u2013Jacaltec",
-            "Akateko"
+            "Uto-Aztecan",
+            "Numic",
+            "Western Numic",
+            "Mono"
         ],
         "endonym": "NA",
         "region": [
             "North America"
         ],
         "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Akatek_language",
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Mono_language_(Native_American)",
         "scripts": [],
         "vplaces": [
-            "Mexico",
-            "Guatemala"
+            "United States"
         ],
-        "mainfam": "Mayan"
+        "mainfam": "Uto-Aztecan"
+    },
+    "Mari language": {
+        "vspeakers": "510000",
+        "speakers": "510,000\u00a0(2012)[1]",
+        "places": "language\u00a0in\u00a0Russia\n\u00a0Mari El\n",
+        "family": [
+            "Uralic",
+            "Finno-Permic",
+            "?",
+            "Mari"
+        ],
+        "endonym": [
+            "\u043c\u0430\u0440\u0438\u0439 \u0439\u044b\u043b\u043c\u0435 mariy yylme",
+            "mariy yylme"
+        ],
+        "region": [
+            "NA"
+        ],
+        "official": [
+            "Russia"
+        ],
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Mari_language",
+        "scripts": [],
+        "vplaces": [
+            "Russia"
+        ],
+        "mainfam": "Uralic"
     },
     "Toda language": {
         "vspeakers": "1600",
@@ -20072,36 +20052,40 @@ var languages = {
         ],
         "mainfam": "Uto-Aztecan"
     },
-    "Livvi-Karelian language": {
-        "vspeakers": "31000",
-        "speakers": "31,000\u00a0(2000\u20132010)[1]",
-        "places": "Russia, Finland",
+    "Belarusian language": {
+        "vspeakers": [
+            "low: 5.1 million",
+            "high: 6.3 million"
+        ],
+        "speakers": "5.1 million[1]\u00a0(2009 census)6.3 million L2 speakers (2009 census)[1]",
+        "places": "Belarus",
         "family": [
-            "Uralic",
-            "Finnic",
-            "Karelian",
-            "Livvi-Karelian"
+            "Indo-European",
+            "Balto-Slavic",
+            "Slavic",
+            "East Slavic",
+            "Belarusian"
         ],
         "endonym": [
-            "livvi"
+            "\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f \u043c\u043e\u0432\u0430",
+            "bie\u0142aruskaja mova",
+            "\u0431\u0435\u043b\u0430\u0440\u0443\u0441\u043a\u0430\u044f \u043c\u043e\u0432\u0430 bie\u0142aruskaja mova"
         ],
         "region": [
-            "NA"
+            "Europe"
         ],
         "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Olonets_Karelian_language",
+        "difficulty": "medium",
+        "link": "https://en.wikipedia.org/wiki/Belarusian_language",
         "scripts": [
-            "latin",
-            "karelian alphabet",
             "cyrillic",
-            "citation needed"
+            "belarusian alphabet",
+            "belarusian latin alphabet"
         ],
         "vplaces": [
-            "Russia",
-            "Finland"
+            "Belarus"
         ],
-        "mainfam": "Uralic"
+        "mainfam": "Slavic"
     },
     "Munji language": {
         "vspeakers": "5300",
@@ -20212,35 +20196,28 @@ var languages = {
         ],
         "mainfam": "Uralic"
     },
-    "Manyika dialect": {
-        "vspeakers": "1.3 million",
-        "speakers": "1.3 million\u00a0(2000\u20132006)[1]",
-        "places": "Zimbabwe, Mozambique",
+    "P\u00e1ez language": {
+        "vspeakers": "60000",
+        "speakers": "60,000\u00a0(2011)[1]",
+        "places": "Colombia",
         "family": [
-            "Niger\u2013Congo",
-            "Atlantic\u2013Congo",
-            "Benue\u2013Congo",
-            "Southern",
-            "Bantu",
-            "Shona",
-            " (S.10)",
-            "Manyika"
+            "Paezan",
+            "P\u00e1ez"
         ],
         "endonym": [
-            "Chimanyika"
+            "Nasa Yuwe "
         ],
         "region": [
-            "Africa"
+            "South America"
         ],
         "official": "NA",
-        "difficulty": "hard",
-        "link": "https://en.wikipedia.org/wiki/Manyika_language",
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/P%C3%A1ez_language",
         "scripts": [],
         "vplaces": [
-            "Mozambique",
-            "Zimbabwe"
+            "Colombia"
         ],
-        "mainfam": "Bantu"
+        "mainfam": "Paezan"
     },
     "Mescalero-Chiricahua language": {
         "vspeakers": "1500",
@@ -20429,37 +20406,51 @@ var languages = {
         ],
         "mainfam": "Indo-European"
     },
-    "Khakas language": {
-        "vspeakers": "43000",
-        "speakers": "43,000\u00a0(2010 census)[1]",
-        "places": "Russia",
+    "Tamil language": {
+        "vspeakers": [
+            "low: 6 million",
+            "high: 75 million"
+        ],
+        "speakers": "75 million\u00a0(2011\u20132015)[1][2]L2 speakers: 6 million[1]",
+        "places": "IndiaSri Lanka",
         "family": [
-            "Turkic",
-            "Common Turkic",
-            "Siberian",
-            "[2]",
-            "South Siberian",
-            "Yenisei Turkic",
-            "[3]",
-            "Khakas"
+            "Dravidian",
+            "Southern",
+            "Tamil\u2013Kannada",
+            "Tamil\u2013Kodagu",
+            "Tamil\u2013Malayalam",
+            "Tamil languages",
+            "Tamil"
         ],
         "endonym": [
-            "\u0425\u0430\u043a\u0430\u0441 \u0442\u0456\u043b\u0456, Xakas t\u012fl\u012f",
-            "Xakas t\u012fl\u012f"
+            "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd",
+            "Tami\u1e3b",
+            "Tami\u1e3b",
+            "\u0ba4\u0bae\u0bbf\u0bb4\u0bcd Tami\u1e3b"
         ],
         "region": [
-            "NA"
+            "Asia"
         ],
         "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Khakas_language",
+        "difficulty": "medium",
+        "link": "https://en.wikipedia.org/wiki/Tamil_language",
         "scripts": [
-            "cyrillic"
+            "tamil",
+            "brahmic",
+            "tamil-brahmi",
+            "grantha",
+            "vatteluttu",
+            "pallava",
+            "kolezhuthu",
+            "arwi",
+            "abjad",
+            "bharati",
+            "latin script"
         ],
         "vplaces": [
-            "Russia"
+            "India"
         ],
-        "mainfam": "Turkic"
+        "mainfam": "Dravidian"
     },
     "Anyin language": {
         "vspeakers": "1.5 million",
@@ -20804,57 +20795,60 @@ var languages = {
         ],
         "mainfam": "Indo-Aryan"
     },
-    "Argobba language": {
-        "vspeakers": "44000",
-        "speakers": "44,000\u00a0(2007 census)[1]",
-        "places": "Ethiopia",
-        "family": [
-            "Afro-Asiatic",
-            "Semitic",
-            "South Semitic",
-            "Ethiopic",
-            "South Ethiopic",
-            "Transversal South Ethiopic",
-            "Amharic\u2013Argobba",
-            "Argobba"
-        ],
-        "endonym": "NA",
-        "region": [
-            "Africa"
-        ],
-        "official": "NA",
-        "difficulty": "super hard",
-        "link": "https://en.wikipedia.org/wiki/Argobba_language",
-        "scripts": [],
-        "vplaces": [
-            "Ethiopia"
-        ],
-        "mainfam": "Semitic"
-    },
-    "Avestan": {
-        "vspeakers": "NA",
-        "speakers": "NA",
+    "Bissa language": {
+        "vspeakers": "590000",
+        "speakers": "590,000\u00a0(1999\u20132003)[1]",
         "places": "NA",
         "family": [
-            "Indo-European",
-            "Indo-Iranian",
-            "Iranian",
-            "Avestan"
+            "Niger\u2013Congo",
+            "Mande",
+            "Eastern",
+            "Bisa\u2013Busa",
+            "Bissa"
         ],
-        "endonym": [
-            "\ud802\udf0e\ud802\udf1e\ud802\udf00\ud802\udf2f\ud802\udf19\ud802\udf00\ud802\udf0e\ud802\udf0e\ud802\udf00\ud802\udf10\ud802\udf00\ud802\udf09\ud802\udf25\ud802\udf00"
-        ],
+        "endonym": "NA",
         "region": "NA",
         "official": "NA",
-        "difficulty": "NA",
-        "link": "https://en.wikipedia.org/wiki/Avestan_language",
-        "scripts": [
-            "avestan alphabet",
-            "gujarati script",
-            "indian zoroastrians"
-        ],
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Bissa_language",
+        "scripts": [],
         "vplaces": "NA",
-        "mainfam": "Iranian"
+        "mainfam": "Niger\u2013Congo"
+    },
+    "Hmong language": {
+        "vspeakers": "3.7 million",
+        "speakers": "(3.7 million cited 1995\u20132009)[1]not counting Vietnam",
+        "places": "China, Vietnam, Laos, Myanmar and Thailand.",
+        "family": [
+            "Hmong\u2013Mien",
+            "Hmongic",
+            "West Hmongic",
+            "Chuanqiandian cluster",
+            "Hmong / Miao"
+        ],
+        "endonym": [
+            "(easy) lus Hmoob / lug Moob / lol Hmongb / lus Hm\u00f4ngz / \ud81a\udf07\ud81a\udf30\ud81a\udf1e \ud81a\udf0c\ud81a\udf23\ud81a\udf35 / \ud838\udd09\ud838\udd27\ud838\udd35\ud838\udd00\ud838\udd29\ud838\udd30"
+        ],
+        "region": [
+            "Asia"
+        ],
+        "official": "NA",
+        "difficulty": "hard",
+        "link": "https://en.wikipedia.org/wiki/Hmong_language",
+        "scripts": [
+            "hmong writing",
+            "pahawh hmong",
+            "nyiakeng puachue hmong",
+            "latin"
+        ],
+        "vplaces": [
+            "China",
+            "Vietnam",
+            "Thailand",
+            "Myanmar",
+            "Laos"
+        ],
+        "mainfam": "Hmong\u2013Mien"
     },
     "Motu language": {
         "vspeakers": "39000",
@@ -20984,29 +20978,34 @@ var languages = {
         ],
         "mainfam": "Kartvelian"
     },
-    "Sika language": {
-        "vspeakers": "180000",
-        "speakers": "(180,000 cited 1995)[1]",
-        "places": "Indonesia",
+    "Yonaguni language": {
+        "vspeakers": "400",
+        "speakers": "400\u00a0(2015)[1]",
+        "places": "Japan",
         "family": [
-            "Austronesian",
-            "Malayo-Polynesian",
-            "Central\u2013Eastern MP",
-            "Flores\u2013Lembata",
-            "Sika"
+            "Japonic",
+            "Ryukyuan",
+            "Southern Ryukyuan",
+            "Macro-Yaeyama",
+            "Yonaguni"
         ],
-        "endonym": "NA",
+        "endonym": [
+            "\u4e0e\u90a3\u56fd\u7269\u8a00",
+            "\u30c9\u30a5\u30ca\u30f3\u30e0\u30cc\u30a4",
+            "Dunan Munui",
+            "\u4e0e\u90a3\u56fd\u7269\u8a00/\u30c9\u30a5\u30ca\u30f3\u30e0\u30cc\u30a4 Dunan Munui"
+        ],
         "region": [
             "Asia"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Sika_language",
+        "difficulty": "whizkid",
+        "link": "https://en.wikipedia.org/wiki/Yonaguni_language",
         "scripts": [],
         "vplaces": [
-            "Indonesia"
+            "Japan"
         ],
-        "mainfam": "Austronesian"
+        "mainfam": "Japonic"
     },
     "Friulian language": {
         "vspeakers": "420000",
@@ -21253,33 +21252,38 @@ var languages = {
         ],
         "mainfam": "Turkic"
     },
-    "Iraqw language": {
-        "vspeakers": "603000",
-        "speakers": "603,000\u00a0(2009)[1]",
-        "places": "Tanzania",
+    "Harari language": {
+        "vspeakers": "25810",
+        "speakers": "25,810\u00a0(2007 census)[1]",
+        "places": "Ethiopia",
         "family": [
             "Afro-Asiatic",
-            "Cushitic",
-            "South",
-            "West Rift",
-            "NW Rift",
-            "Iraqwoid",
-            "Iraqw"
+            "Semitic",
+            "West Semitic",
+            "South Semitic",
+            "Ethiopic",
+            "South Ethiopic",
+            "Transversal South Ethiopic",
+            "Harari \u2013 East Gurage",
+            "Harari"
         ],
         "endonym": [
-            "(easy) K\u00e1ngw Iraqw"
+            "\u1e25\u0103r\u00e4ri",
+            "\u1210\u1228\u122a (\u1e25\u0103r\u00e4ri)"
         ],
         "region": [
             "Africa"
         ],
         "official": "NA",
-        "difficulty": "very hard",
-        "link": "https://en.wikipedia.org/wiki/Iraqw_language",
-        "scripts": [],
-        "vplaces": [
-            "Tanzania"
+        "difficulty": "super hard",
+        "link": "https://en.wikipedia.org/wiki/Harari_language",
+        "scripts": [
+            "ge'ez script"
         ],
-        "mainfam": "Afro-Asiatic"
+        "vplaces": [
+            "Ethiopia"
+        ],
+        "mainfam": "Semitic"
     },
     "Omagua language": {
         "vspeakers": "10",
@@ -21567,34 +21571,29 @@ var languages = {
         ],
         "mainfam": "Tupian"
     },
-    "Yonaguni language": {
-        "vspeakers": "400",
-        "speakers": "400\u00a0(2015)[1]",
-        "places": "Japan",
+    "Sika language": {
+        "vspeakers": "180000",
+        "speakers": "(180,000 cited 1995)[1]",
+        "places": "Indonesia",
         "family": [
-            "Japonic",
-            "Ryukyuan",
-            "Southern Ryukyuan",
-            "Macro-Yaeyama",
-            "Yonaguni"
+            "Austronesian",
+            "Malayo-Polynesian",
+            "Central\u2013Eastern MP",
+            "Flores\u2013Lembata",
+            "Sika"
         ],
-        "endonym": [
-            "\u4e0e\u90a3\u56fd\u7269\u8a00",
-            "\u30c9\u30a5\u30ca\u30f3\u30e0\u30cc\u30a4",
-            "Dunan Munui",
-            "\u4e0e\u90a3\u56fd\u7269\u8a00/\u30c9\u30a5\u30ca\u30f3\u30e0\u30cc\u30a4 Dunan Munui"
-        ],
+        "endonym": "NA",
         "region": [
             "Asia"
         ],
         "official": "NA",
-        "difficulty": "whizkid",
-        "link": "https://en.wikipedia.org/wiki/Yonaguni_language",
+        "difficulty": "very hard",
+        "link": "https://en.wikipedia.org/wiki/Sika_language",
         "scripts": [],
         "vplaces": [
-            "Japan"
+            "Indonesia"
         ],
-        "mainfam": "Japonic"
+        "mainfam": "Austronesian"
     },
     "Hadza language": {
         "vspeakers": "1000",
@@ -26227,248 +26226,248 @@ var lang_js = {
     ]
 }
 var countries = [
-	"Canada",
-	"East Timor",
-	"Sao Tome and Principe",
-	"Turkmenistan",
-	"Saint Helena",
-	"Monaco",
-	"Lithuania",
-	"Cambodia",
-	"Ethiopia",
-	"Aruba",
-	"Swaziland",
-	"Palestine",
-	"Argentina",
-	"Bolivia",
-	"Cameroon",
-	"Burkina Faso",
-	"Ghana",
-	"Saudi Arabia",
-	"Myanmar",
-	"Cape Verde",
-	"United States Minor Outlying Islands",
-	"Cocos (Keeling) Islands",
-	"Faroe Islands",
-	"Guatemala",
-	"Bosnia and Herzegovina",
-	"Guinea",
-	"Germany",
-	"Northern Ireland",
-	"Virgin Islands, British",
-	"Dominica",
-	"Liberia",
-	"Maldives",
-	"Jamaica",
-	"Oman",
-	"Tanzania",
-	"Martinique",
-	"North Macedonia",
-	"Greenland",
-	"French Guiana",
-	"Niue",
-	"Vatican",
-	"Wallis and Futuna",
-	"New Zealand",
-	"Yemen",
-	"Kyrgyzstan",
-	"Pakistan",
-	"Albania",
-	"Samoa",
-	"Norfolk Island",
-	"United Arab Emirates",
-	"Guam",
-	"India",
-	"Azerbaijan",
-	"Madagascar",
-	"Lesotho",
-	"Saint Vincent and the Grenadines",
-	"Kenya",
-	"South Korea",
-	"Macao",
-	"Turkey",
-	"Falkland Islands",
-	"Czech Republic",
-	"Eritrea",
-	"Solomon Islands",
-	"Saint Lucia",
-	"Hungary",
-	"San Marino",
-	"Cyprus",
-	"French Polynesia",
-	"France",
-	"Rwanda",
-	"Slovakia",
-	"Somalia",
-	"Peru",
-	"Laos",
-	"Nauru",
-	"Norway",
-	"Malawi",
-	"Cook Islands",
-	"Benin",
-	"Libya",
-	"Cuba",
-	"Montenegro",
-	"Saint Kitts and Nevis",
-	"Togo",
-	"Heard Island and McDonald Islands",
-	"China",
-	"Armenia",
-	"Dominican Republic",
-	"Ukraine",
-	"Bahrain",
-	"Tonga",
-	"Cayman Islands",
-	"Western Sahara",
-	"Finland",
-	"Central African Republic",
-	"Mauritius",
-	"Liechtenstein",
-	"Vietnam",
-	"Mali",
-	"Palau",
-	"Russia",
-	"Bulgaria",
-	"United States",
-	"Romania",
-	"Angola",
-	"Chad",
-	"South Africa",
-	"Tokelau",
-	"Tajikistan",
-	"Christmas Island",
-	"South Georgia and the South Sandwich Islands",
-	"Sweden",
-	"Namibia",
-	"Malaysia",
-	"Austria",
-	"Mozambique",
-	"Uganda",
-	"Japan",
-	"Niger",
-	"Brazil",
-	"Afghanistan",
-	"Pitcairn",
-	"Kuwait",
-	"Panama",
-	"Scotland",
-	"Costa Rica",
-	"Luxembourg",
-	"Virgin Islands, U.S.",
-	"Bahamas",
-	"Gibraltar",
-	"Ivory Coast",
-	"Syria",
-	"Wales",
-	"Nigeria",
-	"Ecuador",
-	"Bangladesh",
-	"Brunei",
-	"Australia",
-	"Iran",
-	"Algeria",
-	"Slovenia",
-	"El Salvador",
-	"Tuvalu",
-	"Saint Pierre and Miquelon",
-	"Marshall Islands",
-	"Chile",
-	"Puerto Rico",
-	"Belgium",
-	"Kiribati",
-	"Haiti",
-	"Belize",
-	"Hong Kong",
-	"Sierra Leone",
-	"Georgia",
-	"Mexico",
-	"Denmark",
-	"Philippines",
-	"The Democratic Republic of Congo",
-	"American Samoa",
-	"Moldova",
-	"Morocco",
-	"Croatia",
-	"Mongolia",
-	"Guinea-Bissau",
-	"Thailand",
-	"Switzerland",
-	"Grenada",
-	"Seychelles",
-	"Portugal",
-	"Estonia",
-	"Uruguay",
-	"Reunion",
-	"Lebanon",
-	"Svalbard and Jan Mayen",
-	"Uzbekistan",
-	"Egypt",
-	"Djibouti",
-	"Bermuda",
-	"Antigua and Barbuda",
-	"Spain",
-	"Colombia",
-	"SriLanka",
-	"Burundi",
-	"Turks and Caicos Islands",
-	"Barbados",
-	"Qatar",
-	"Italy",
-	"Bhutan",
-	"Sudan",
-	"Fiji Islands",
-	"Nepal",
-	"Micronesia",
-	"Netherlands",
-	"Northern Mariana Islands",
-	"Suriname",
-	"Anguilla",
-	"Venezuela",
-	"Netherlands Antilles",
-	"Israel",
-	"Indonesia",
-	"Bouvet Island",
-	"Iceland",
-	"Zambia",
-	"Senegal",
-	"Papua New Guinea",
-	"England",
-	"Zimbabwe",
-	"Jordan",
-	"Vanuatu",
-	"Gambia",
-	"Kazakhstan",
-	"Poland",
-	"Mauritania",
-	"Ireland",
-	"French Southern territories",
-	"Mayotte",
-	"British Indian Ocean Territory",
-	"Iraq",
-	"Montserrat",
-	"New Caledonia",
-	"Andorra",
-	"North Korea",
-	"Trinidad and Tobago",
-	"Latvia",
-	"South Sudan",
-	"Guyana",
-	"Belarus",
-	"Guadeloupe",
-	"Honduras",
-	"Malta",
-	"Equatorial Guinea",
-	"Tunisia",
-	"Nicaragua",
-	"Singapore",
-	"Serbia",
-	"Botswana",
-	"United Kingdom",
-	"Antarctica",
-	"Congo",
-	"Greece",
-	"Paraguay",
-	"Gabon",
-	"Comoros"
+  "Canada",
+  "East Timor",
+  "Sao Tome and Principe",
+  "Turkmenistan",
+  "Saint Helena",
+  "Monaco",
+  "Lithuania",
+  "Cambodia",
+  "Ethiopia",
+  "Aruba",
+  "Swaziland",
+  "Palestine",
+  "Argentina",
+  "Bolivia",
+  "Cameroon",
+  "Burkina Faso",
+  "Ghana",
+  "Saudi Arabia",
+  "Myanmar",
+  "Cape Verde",
+  "United States Minor Outlying Islands",
+  "Cocos (Keeling) Islands",
+  "Faroe Islands",
+  "Guatemala",
+  "Bosnia and Herzegovina",
+  "Guinea",
+  "Germany",
+  "Northern Ireland",
+  "Virgin Islands, British",
+  "Dominica",
+  "Liberia",
+  "Maldives",
+  "Jamaica",
+  "Oman",
+  "Tanzania",
+  "Martinique",
+  "North Macedonia",
+  "Greenland",
+  "French Guiana",
+  "Niue",
+  "Vatican",
+  "Wallis and Futuna",
+  "New Zealand",
+  "Yemen",
+  "Kyrgyzstan",
+  "Pakistan",
+  "Albania",
+  "Samoa",
+  "Norfolk Island",
+  "United Arab Emirates",
+  "Guam",
+  "India",
+  "Azerbaijan",
+  "Madagascar",
+  "Lesotho",
+  "Saint Vincent and the Grenadines",
+  "Kenya",
+  "South Korea",
+  "Macao",
+  "Turkey",
+  "Falkland Islands",
+  "Czech Republic",
+  "Eritrea",
+  "Solomon Islands",
+  "Saint Lucia",
+  "Hungary",
+  "San Marino",
+  "Cyprus",
+  "French Polynesia",
+  "France",
+  "Rwanda",
+  "Slovakia",
+  "Somalia",
+  "Peru",
+  "Laos",
+  "Nauru",
+  "Norway",
+  "Malawi",
+  "Cook Islands",
+  "Benin",
+  "Libya",
+  "Cuba",
+  "Montenegro",
+  "Saint Kitts and Nevis",
+  "Togo",
+  "Heard Island and McDonald Islands",
+  "China",
+  "Armenia",
+  "Dominican Republic",
+  "Ukraine",
+  "Bahrain",
+  "Tonga",
+  "Cayman Islands",
+  "Western Sahara",
+  "Finland",
+  "Central African Republic",
+  "Mauritius",
+  "Liechtenstein",
+  "Vietnam",
+  "Mali",
+  "Palau",
+  "Russia",
+  "Bulgaria",
+  "United States",
+  "Romania",
+  "Angola",
+  "Chad",
+  "South Africa",
+  "Tokelau",
+  "Tajikistan",
+  "Christmas Island",
+  "South Georgia and the South Sandwich Islands",
+  "Sweden",
+  "Namibia",
+  "Malaysia",
+  "Austria",
+  "Mozambique",
+  "Uganda",
+  "Japan",
+  "Niger",
+  "Brazil",
+  "Afghanistan",
+  "Pitcairn",
+  "Kuwait",
+  "Panama",
+  "Scotland",
+  "Costa Rica",
+  "Luxembourg",
+  "Virgin Islands, U.S.",
+  "Bahamas",
+  "Gibraltar",
+  "Ivory Coast",
+  "Syria",
+  "Wales",
+  "Nigeria",
+  "Ecuador",
+  "Bangladesh",
+  "Brunei",
+  "Australia",
+  "Iran",
+  "Algeria",
+  "Slovenia",
+  "El Salvador",
+  "Tuvalu",
+  "Saint Pierre and Miquelon",
+  "Marshall Islands",
+  "Chile",
+  "Puerto Rico",
+  "Belgium",
+  "Kiribati",
+  "Haiti",
+  "Belize",
+  "Hong Kong",
+  "Sierra Leone",
+  "Georgia",
+  "Mexico",
+  "Denmark",
+  "Philippines",
+  "The Democratic Republic of Congo",
+  "American Samoa",
+  "Moldova",
+  "Morocco",
+  "Croatia",
+  "Mongolia",
+  "Guinea-Bissau",
+  "Thailand",
+  "Switzerland",
+  "Grenada",
+  "Seychelles",
+  "Portugal",
+  "Estonia",
+  "Uruguay",
+  "Reunion",
+  "Lebanon",
+  "Svalbard and Jan Mayen",
+  "Uzbekistan",
+  "Egypt",
+  "Djibouti",
+  "Bermuda",
+  "Antigua and Barbuda",
+  "Spain",
+  "Colombia",
+  "SriLanka",
+  "Burundi",
+  "Turks and Caicos Islands",
+  "Barbados",
+  "Qatar",
+  "Italy",
+  "Bhutan",
+  "Sudan",
+  "Fiji Islands",
+  "Nepal",
+  "Micronesia",
+  "Netherlands",
+  "Northern Mariana Islands",
+  "Suriname",
+  "Anguilla",
+  "Venezuela",
+  "Netherlands Antilles",
+  "Israel",
+  "Indonesia",
+  "Bouvet Island",
+  "Iceland",
+  "Zambia",
+  "Senegal",
+  "Papua New Guinea",
+  "England",
+  "Zimbabwe",
+  "Jordan",
+  "Vanuatu",
+  "Gambia",
+  "Kazakhstan",
+  "Poland",
+  "Mauritania",
+  "Ireland",
+  "French Southern territories",
+  "Mayotte",
+  "British Indian Ocean Territory",
+  "Iraq",
+  "Montserrat",
+  "New Caledonia",
+  "Andorra",
+  "North Korea",
+  "Trinidad and Tobago",
+  "Latvia",
+  "South Sudan",
+  "Guyana",
+  "Belarus",
+  "Guadeloupe",
+  "Honduras",
+  "Malta",
+  "Equatorial Guinea",
+  "Tunisia",
+  "Nicaragua",
+  "Singapore",
+  "Serbia",
+  "Botswana",
+  "United Kingdom",
+  "Antarctica",
+  "Congo",
+  "Greece",
+  "Paraguay",
+  "Gabon",
+  "Comoros"
 ];

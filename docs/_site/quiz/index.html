@@ -380,13 +380,21 @@
         } else {
           var endos = languages[language]["endonym"]
         }
-        var pre = endos[0].slice(0,5).toLowerCase()
-        var langsl = language.slice(0,5).toLowerCase()
-        var langlower = language.toLowerCase()
-        if(langlower.includes(pre) || endos[0].includes(langsl)){
-          console.log("pre: " + pre)
+        var pre = endos[0]
+        if(typeof pre==='undefined'){
           retries++
           return(randomn())
+        } else {
+          pre = pre.slice(0,5)
+          pre = pre.toLowerCase()
+          var langsl = language.slice(0,5)
+          langsl = langsl.toLowerCase()
+          var langlower = language.toLowerCase()
+          if(langlower.includes(pre) || pre.includes(langsl)){
+            console.log("pre: " + pre)
+            retries++
+            return(randomn())
+          }
         }
         moreinfo = languages[language]["link"];
         console.log("link = ", moreinfo)
@@ -643,6 +651,9 @@
                 }
               }
               endonym = tmp
+            }
+            if(correct=="Yoruba"){
+                endonym="\u00c8d\u00e8 Yor\u00f9b\u00e1"
             }
             document.getElementById("question").innerHTML = "What language is shown in the <u>text</u> below?<br><br>" + endonym
           } else {

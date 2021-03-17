@@ -64,18 +64,19 @@ div.btncontainer{
   justify-content: center;
   border: none;
   background-color: transparent;
+  height: 100%;
+  min-width: 20px;
+  padding: 12px 22px;
+  font-size: 22px;
   overflow: hidden;
 }
 
 .dropbtn {
-  float: left;
   border: none;
   background-color: transparent;
   color: #4d6093;
-  height: 100%;
-  padding: 13px 20px;
-  font-size: 22px;
   font-weight: bolder;
+  padding: 12px 20px;
   letter-spacing: 2px;
   text-shadow: 1px 1px black;
 }
@@ -88,7 +89,6 @@ div.btncontainer{
 }
 
 .dropbtnup{
-  float: left;
   border: none;
   background-color: transparent;
   color: #33334d;
@@ -102,14 +102,13 @@ div.btncontainer{
 }
 
 div.dropdown {
-  position: absolute;
+  position: relative;
   vertical-align: middle;
-  display: none;
 }
 
 .dropdown-content {
   display: none;
-  position: absolute;
+  position: relative;
   background-color: #fcfcff;
   color: #33334d;
   float: left;

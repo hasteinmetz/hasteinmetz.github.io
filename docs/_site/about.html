@@ -5,7 +5,6 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
-    <link rel="stylesheet" type="text/css" href="./headerstyle.css">
     <style>
     body {
       margin:0;
@@ -15,7 +14,6 @@
       overflow: hidden;
       visibility: hidden;
       background-color: #fcfcff;
-      border-bottom: 4px rgba(175, 165, 140, .9);
       box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
     }
 
@@ -26,10 +24,9 @@
       text-align: center;
       padding: 12px 22px;
       text-decoration: none;
-      font-size: 22px;
+      font-size: 18px;
       letter-spacing: 2px;
       font-family: "Trebuchet MS";
-      border-bottom: 4px rgba(175, 165, 140, .9);
       overflow: hidden;
     }
 
@@ -43,7 +40,6 @@
       background-color: #4d6093;
       padding: 12px 22px;
       color: white;
-      border-bottom: 4px solid grey;
       box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     }
 
@@ -59,79 +55,84 @@
       color: #FFFFFF;
       overflow: hidden;
       text-align: center;
-      padding: 14px 22px;
+      padding: 12px 22px;
       text-decoration: none;
-      font-size: 22px;
+      font-size: 18px;
       letter-spacing: 3px;
       word-spacing: 6px;
       font-family: "Trebuchet MS";
       z-index: 1;
     }
 
-    div.btncontainer{
-      text-align: center;
-      justify-content: center;
-      border: none;
-      background-color: transparent;
+    span.btncontainer{
+      display: block;
       overflow: hidden;
+      -moz-box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box;
     }
 
     .dropbtn {
-      float: left;
       border: none;
       background-color: transparent;
       color: #4d6093;
-      height: 100%;
-      padding: 13px 20px;
-      font-size: 22px;
       font-weight: bolder;
       letter-spacing: 2px;
       text-shadow: 1px 1px black;
+      padding: 9.5px 17px;
+      overflow: hidden;
+      display: inline-block;
     }
 
     .dropbtn:hover{
       font-weight: bolder;
       color: #33334d;
       box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2);
-      overflow: hidden;
     }
 
     .dropbtnup{
-      float: left;
       border: none;
       background-color: transparent;
       color: #33334d;
       box-shadow: inset 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-      height: 100%;
-      padding: 12px 20px;
-      font-size: 22px;
+      font-size: 18px;
       font-weight: bolder;
       letter-spacing: 2px;
       text-shadow: 1px 1px black;
+      padding: 9.5px 17px;
+      overflow: hidden;
+      display: inline-block;
     }
 
     div.dropdown {
       position: absolute;
-      vertical-align: middle;
       display: none;
     }
 
     .dropdown-content {
       display: none;
-      position: absolute;
+      position: relative;
       background-color: #fcfcff;
       color: #33334d;
       float: left;
-      text-align: center;
+      text-align: left;
+      overflow: hidden;
       text-decoration: none;
-      font-size: 22px;
+      font-size: 18px;
       letter-spacing: 2px;
       padding: 12px 22px;
       font-family: "Book Antiqua";
-      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+      box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, 0.2), -2px 3px 10px 0 rgba(0, 0, 0, 0.2);
       min-width: 190px;
-      overflow: hidden;
       z-index: 1;
+    }
+
+    div.dropdownwrapper {
+      clear: both;
+      position: relative;
+      overflow: hidden;
+      align-items: center;
+      text-align: left;
     }
 
     .dropdown-content>li>a {
@@ -145,18 +146,15 @@
       text-align: center;
       min-width: 190px;
       text-decoration: none;
-      height: 55px;
-      font-size: 22px;
+      font-size: 18px;
       letter-spacing: 2px;
       font-family: "Trebuchet MS";
-      border-bottom: 4px rgba(175, 165, 140, .9);
       z-index: 1;
     }
 
     .dropdown-content a.active {
       background-color: #4d6093;
       color: white;
-      border-bottom: 4px solid grey;
       min-width: 190px;
     }
 
@@ -192,15 +190,6 @@
 
     .show {display: inline-block;}
 
-    @media only screen and (min-width: 200px) and (max-width:700px) {
-      div.dropdown{display: inline-block;}
-      div.desktop{display: none;}
-      .name{padding: 14px 18px;
-            font-size: 22px;
-            letter-spacing: 1px;
-            word-spacing: 2px;}
-      }
-    }
     </style>
   </head>
   <body onload="myload()">
@@ -228,27 +217,40 @@
        
          <a href="/contact.html">Contact Me</a>
        
+
+       
+         <a href="/quiz">Language Quiz</a>
+       
      </div>
       <div class="dropdown" id="navbarmobile">
-        <div class="btncontainer" id='but'>
-        <button onclick="myFunction()" class="dropbtn" id="realbutton" value="down" style="font-size: 22px">&#9660;</button>
-      </div>
+        <span class="btncontainer"><button onclick="myFunction()" class="dropbtn" id="realbutton" value="down" style="font-size: 22px">&#9660;</button></span>
           <div id="myDropdown" class="dropdown-content">
+            <div class="dropdownwrapper">
              
                <a href="http://localhost:4000">Home</a>
              
-
+           </div>
+           <div class="dropdownwrapper">
              
                <a href="/about.html" class="active">About Me</a>
              
-
+           </div>
+           <div class="dropdownwrapper">
              
                <a href="/resume.html">Resume</a>
              
-
+           </div>
+           <div class="dropdownwrapper">
              
                <a href="/contact.html">Contact Me</a>
              
+           </div>
+           <div class="dropdownwrapper">
+             
+               <a href="/quiz">Language Quiz</a>
+             
+           </div>
+           </div>
            </div>
          </div>
        </div>
@@ -694,7 +696,7 @@
     I'm particularly interested in how different aspects of our identity inform our political decisions.
     I can't wait to see where these new interests take me.
     <br /><br />
-    You can check out my academic CV (last updated Nov. 2020) by clicking <a href="/academics/cv.html">here</a>.
+    You can check out my academic CV (last updated Feb. 2021) by clicking <a href="/academics/cv.html">here</a>.
     </p>
 </div>
 </div>
