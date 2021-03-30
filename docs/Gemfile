@@ -6,13 +6,13 @@ git_source(:github) {|repo_name| "https://github.com/#{repo_name}" }
 
 # gem "rails"
 
-gem "jekyll" 
+gem "jekyll", "~> 3.9.0"
 
-gem "kramdown-parser-gfm", "~> 1.1"
+gem "kramdown-parser-gfm"
+
+gem "kramdown", ">= 2.3.1"
 
 gem 'jekyll-seo-tag'
-
-gem 'github-pages', group: :jekyll_plugins
 
 gem 'jekyll-sitemap'
 

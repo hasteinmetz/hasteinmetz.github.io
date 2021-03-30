@@ -471,7 +471,7 @@ def main():
         infile = open("languagelinks.txt", "r")
         print("LINKS FILE")
         languagedict = scrapeaway(infile, countries)
-    # fix small errors manually in scraper
+    # fix exceptions errors manually
     if setting != "debug":
         languagedict["Khmer language"]["mainfam"] = "Austroasiatic"
         languagedict["Flemish"]["vplaces"] = ["Belgium"]
