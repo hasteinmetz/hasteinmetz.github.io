@@ -26,10 +26,7 @@ tag: navbar
     <br><br>
     I decided to major in linguistics after stumbling into the introductory class during my first year of college. I was really drawn to the fact that <i>everyone</i> used language, and I thought it was a really great framework for me to come to learn about diverse ways people on our planet live, behave, and think.
     <br><br>
-    I became more interested in using experimental methods to understand how language worked and how language can impact others. So, until August 2020, I worked as a research assistant at the University of Chicago's
-    Department of Psychology where I was involved in projects on the psychology of civic virtue,
-    the social effects of metaphorical language, and how meaning is conveyed through paralinguistic
-    (e.g., pitch) cues.
+    I worked as a research assistant at the University of Chicago's Department of Psychology to, broadly, learn more about how language can impact others. I was involved in several projects, including studies on the psychology of civic virtue, the social effects of metaphorical language, and how meaning is conveyed through paralinguistic (e.g., pitch) cues.
     <br><br>
     You can check out my academic CV (last updated Feb. 2021) by clicking <a href="/academics/cv.html">here</a>.
     Aside from my research interests in language, I love to learn about research on the ways societies and communities can shape the way individuals understand the world.
