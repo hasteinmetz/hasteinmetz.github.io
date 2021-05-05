@@ -20,26 +20,18 @@ tag: navbar
   </div>
   <div class="column2">
   <p class="main">
-    I'm researcher and a writer based in Chicago. Although I didn't grow up in Chicago, I feel very closely connected to the city; my grandparents first met each other in Hyde Park.
+    I'm writer and researcher who loves to scour Wikipedia for fun facts. Otherwise, you can find me in the park doing my best to get myself into shape or trying to teach myself to program.
     <br><br>
-    I love to scour Wikipedia for fun facts, try to get myself back into shape, and talk about philosophy or religion with friends.
+    I've always been academically-minded, and so I think it makes sense to give a brief overview of my academic history.
     <br><br>
-    I've always been academically-minded, and so I believe that any bio would be incomplete without a brief foray into my academic history.
+    I decided to major in linguistics after stumbling into the introductory class during my first year of college. I was really drawn to the fact that <i>everyone</i> used language, and I thought it was a really great framework for me to come to learn about diverse ways people on our planet live, behave, and think.
     <br><br>
-    I started out in college as a religious studies major, but decided to major in linguistics after stumbling into the introductory class
-    during my first year of college. I was really drawn to the fact that <i>everyone</i> used language, and I thought it was a really great framework for me to come to understand the world.
-    <br><br>
-    Later on, I became more interested in using experiments to understand how language worked.
-    So, until recently, I worked as a research assistant at the University of Chicago's
-    Department of Psychology where I was involved with project on the psychology of civic virtue,
+    I became more interested in using experimental methods to understand how language worked and how language can impact others. So, until August 2020, I worked as a research assistant at the University of Chicago's
+    Department of Psychology where I was involved in projects on the psychology of civic virtue,
     the social effects of metaphorical language, and how meaning is conveyed through paralinguistic
-    (e.g., pitch) gestures.
-    <br><br>
-    My current interests have begun to move towards sociology and social psychology.
-    I'm fascinated by the ways in which the ways individuals understand the world are shaped by their communities and societies.
-    I'm particularly interested in how different aspects of our identity inform our political decisions.
-    I can't wait to see where these new interests take me.
+    (e.g., pitch) cues.
     <br><br>
     You can check out my academic CV (last updated Feb. 2021) by clicking <a href="/academics/cv.html">here</a>.
+    Aside from my research interests in language, I love to learn about research on the ways societies and communities can shape the way individuals understand the world.
     </p>
 </div>
