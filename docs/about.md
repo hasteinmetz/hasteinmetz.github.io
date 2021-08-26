@@ -4,7 +4,6 @@ title: "About Me | Hillel Steinmetz"
 description: "Learn a little bit about who I am and what I do!"
 tag: navbar
 ---
-<h2>About Me</h2>
 <div class="row">
   <div class="column1">
     <p style="text-align: center; font-size: 12px;"> </p>

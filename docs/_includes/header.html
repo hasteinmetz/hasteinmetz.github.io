@@ -7,15 +7,19 @@
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <style>
     body {
-      margin:0;
+      width: min(80%, 1400px);
+      margin-top: 2%;
+      margin-bottom: 10px;
       background-color: #FFFFFF;
+      margin-left: auto;
+      margin-right: auto;
     }
     .topnav {
       overflow: hidden;
       visibility: hidden;
       position: relative;
-      background-color: #fcfcff;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+      background-color: #FFFFFF;
+      box-shadow: 1px 1px 1px 1px rgba(0.2, 0.2, 0.2, 0.2)
     }
 
     .topnav a {
@@ -25,7 +29,7 @@
       text-align: center;
       padding: 12px 22px;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 15px;
       letter-spacing: 2px;
       font-family: "Trebuchet MS";
       overflow: hidden;
@@ -58,7 +62,7 @@
       text-align: center;
       padding: 12px 22px;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 15px;
       letter-spacing: 3px;
       word-spacing: 6px;
       font-family: "Trebuchet MS";
@@ -182,14 +186,14 @@
 
     p.center{
       font-family: "Trebuchet MS", Helvetica, sans-serif;
-      font-size:18px;
+      font-size:15px;
       word-spacing: 2px;
       line-height: 1.5;
       margin: auto;
     }
     p {
       font-family: "Trebuchet MS", Helvetica, sans-serif;
-      font-size:18px;
+      font-size:15px;
       word-spacing: 2px;
       line-height: 1.5;
       margin-left: 20%;
@@ -207,7 +211,6 @@
      }
 
     .show {display: inline-block;}
-
     </style>
   </head>
   <body onload="myload()">
@@ -432,7 +435,7 @@
         updateinit(r2.right);
       }
       if(window.init2=="desktop"){
-        overlap = ((r1.left - 15) < window.init1);
+        overlap = (r1.left < window.init1 -20);
         if(overlap) {
           document.getElementById("navbarmobile").style.display="inline-block";
           document.getElementById("navbardesktop").style.display="none";
