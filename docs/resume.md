@@ -168,7 +168,7 @@ Please click <a href="/content/resume-hillelsteinmetz.pdf">here</a> to view a PD
                             analyzing large data sets using Excel, R, and SPSS
                         </p></span></li>
                     </ul>
-                    <div align="center">
+                    <div align="center"><br>
                       <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
                           EDUCATION
                       </span></h1>
@@ -201,10 +201,9 @@ Please click <a href="/content/resume-hillelsteinmetz.pdf">here</a> to view a PD
                               </tr>
                               <tr >
                                   <td width="288" valign="top">
-                                      <p class="resume" style="line-height: 0">
+                                      <p class="resume">
                                           <em>
-                                              Leonard Bloomfield Prize in
-                                              Linguistics
+                                              Leonard Bloomfield Prize in Linguistics
                                           </em>
                                       </p>
                                   </td>
