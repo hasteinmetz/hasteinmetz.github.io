@@ -51,7 +51,7 @@ Please click <a href="/content/resume-hillelsteinmetz.pdf">here</a> to view a PD
                     </p>
                     <p class="resume2">
                     - Documentation
-                    </p>
+                    </p><br>
                     <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
                         PROGRAMMING LANGUAGES
                     </span></h1>
@@ -66,7 +66,7 @@ Please click <a href="/content/resume-hillelsteinmetz.pdf">here</a> to view a PD
                     </p>
                     <p class="resume2">
                         - Python (basic)
-                    </p>
+                    </p><br>
                     <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
                         SOFTWARE
                     </span></h1>
@@ -78,7 +78,7 @@ Please click <a href="/content/resume-hillelsteinmetz.pdf">here</a> to view a PD
                     </p>
                     <p class="resume2">
                         - SPSS
-                    </p>
+                    </p><br>
                     <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
                         LANGUAGES
                     </span></h1>
@@ -176,45 +176,45 @@ Please click <a href="/content/resume-hillelsteinmetz.pdf">here</a> to view a PD
                       <table border="0" cellspacing="0" cellpadding="0" class="center">
                           <tbody>
                               <tr >
-                                  <td width="288" valign="top">
+                                  <td width="410" valign="top">
                                       <p class="resume" style="line-height: 0">
                                           The University of Chicago
                                       </p>
                                   </td>
-                                  <td width="173" valign="top">
+                                  <td width="150" valign="top">
                                       <p class="resume" style="line-height: 0">
                                           June 2019
                                       </p>
                                   </td>
                               </tr>
                               <tr >
-                                  <td width="288" valign="top">
+                                  <td width="410" valign="top">
                                       <p class="resume" style="line-height: 0">
                                           Bachelor of Arts in Linguistics
                                       </p>
                                   </td>
-                                  <td width="173" valign="top">
+                                  <td width="150" valign="top">
                                       <p class="resume" style="line-height: 0">
                                           GPA: 3.92/4.00
                                       </p>
                                   </td>
                               </tr>
                               <tr >
-                                  <td width="288" valign="top">
-                                      <p class="resume">
+                                  <td width="410" valign="top">
+                                      <p class="resume" style="line-height: 0">
                                           <em>
                                               Leonard Bloomfield Prize in Linguistics
                                           </em>
                                       </p>
                                   </td>
-                                  <td width="173" valign="top">
+                                  <td width="150" valign="top">
                                       <p class="resume" style="line-height: 0">
                                           <em>Phi Beta Kappa</em>
                                       </p>
                                   </td>
                               </tr>
                           </tbody>
-                      </table>
+                      </table><br>
                       </div>
                     </div>
                   </td>
