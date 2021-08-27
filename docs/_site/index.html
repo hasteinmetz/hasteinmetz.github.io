@@ -7,15 +7,19 @@
     <link rel="shortcut icon" type="image/png" href="/favicon.png">
     <style>
     body {
-      margin:0;
+      width: min(80%, 1400px);
+      margin-top: 2%;
+      margin-bottom: 10px;
       background-color: #FFFFFF;
+      margin-left: auto;
+      margin-right: auto;
     }
     .topnav {
       overflow: hidden;
       visibility: hidden;
       position: relative;
-      background-color: #fcfcff;
-      box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.2);
+      background-color: #FFFFFF;
+      box-shadow: 1px 1px 1px 1px rgba(0.2, 0.2, 0.2, 0.2)
     }
 
     .topnav a {
@@ -25,7 +29,7 @@
       text-align: center;
       padding: 12px 22px;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 15px;
       letter-spacing: 2px;
       font-family: "Trebuchet MS";
       overflow: hidden;
@@ -58,7 +62,7 @@
       text-align: center;
       padding: 12px 22px;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 15px;
       letter-spacing: 3px;
       word-spacing: 6px;
       font-family: "Trebuchet MS";
@@ -182,14 +186,14 @@
 
     p.center{
       font-family: "Trebuchet MS", Helvetica, sans-serif;
-      font-size:18px;
+      font-size:15px;
       word-spacing: 2px;
       line-height: 1.5;
       margin: auto;
     }
     p {
       font-family: "Trebuchet MS", Helvetica, sans-serif;
-      font-size:18px;
+      font-size:15px;
       word-spacing: 2px;
       line-height: 1.5;
       margin-left: 20%;
@@ -207,7 +211,6 @@
      }
 
     .show {display: inline-block;}
-
     </style>
   </head>
   <body onload="myload()">
@@ -221,7 +224,7 @@
       </div>
       <div class="desktop" id="navbardesktop">
        
-         <a href="http://localhost:4000" class="active">Home</a>
+         <a href="http://localhost:8000" class="active">Home</a>
        
 
        
@@ -247,7 +250,7 @@
           <div id="myDropdown" class="dropdown-content">
             <div class="dropdownwrapper">
              
-               <a href="http://localhost:4000" class="active">Home</a>
+               <a href="http://localhost:8000" class="active">Home</a>
              
            </div>
            <div class="dropdownwrapper">
@@ -412,7 +415,7 @@
         updateinit(r2.right);
       }
       if(window.init2=="desktop"){
-        overlap = ((r1.left - 15) < window.init1);
+        overlap = (r1.left < window.init1 -20);
         if(overlap) {
           document.getElementById("navbarmobile").style.display="inline-block";
           document.getElementById("navbardesktop").style.display="none";
@@ -454,36 +457,54 @@
     }
 
     h1 {
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-      font-size:45px;
+      font-family: "Helvetica", Helvetica, sans-serif;
+      font-size:22px;
       letter-spacing: 4px;
       word-spacing: 8px;
       margin-bottom: 1%;
+      margin-top: 1%;
       margin-left: 5%;
       margin-right: 5%;
       text-align: center;
     }
     h2 {
-      font-family: "Trebuchet MS";
-      font-size:36px;
+      font-family: "Helvetica";
+      font-size:18px;
       letter-spacing: 5px;
       word-spacing: 8px;
-      margin-bottom: 2%;
+      margin-top: 1%;
+      margin-bottom: 1%;
       margin-left: 5%;
       margin-right: 5%;
       text-align: center;
     }
     p {
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-      font-size:18px;
+      font-family: "Helvetica", Helvetica, sans-serif;
+      font-size:14px;
       word-spacing: 2px;
       line-height: 1.5;
       margin-left: 20%;
       margin-right: 20%;
      }
+     p.resume {
+       font-family: "Helvetica", Helvetica, sans-serif;
+       font-size:14px;
+       word-spacing: 2px;
+       line-height: 1.2;
+       margin-left: 4%;
+       margin-right: 4%;
+    }
+    p.resume2{
+      font-family: "Helvetica", Helvetica, sans-serif;
+      font-size:14px;
+      word-spacing: 2px;
+      line-height: 1.2;
+      margin-left: 10%;
+      margin-right: 10%;
+    }
      p.main {
-     font-family: "Trebuchet MS", Helvetica, sans-serif;
-     font-size:18px;
+     font-family: "Helvetica", Helvetica, sans-serif;
+     font-size:14px;
      word-spacing: 2px;
      line-height: 1.5;
      margin-left: 5%;
@@ -535,7 +556,7 @@
     }
     .email-inner{
       border-radius: 10px;
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-family: "Helvetica", Helvetica, sans-serif;
       font-size:18px;
       word-spacing: 4px;
       letter-spacing: 2px;
@@ -561,7 +582,7 @@
       font-size: 18px;
       letter-spacing: 3px;
       word-spacing: 6px;
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
+      font-family: "Helvetica", Helvetica, sans-serif;
       box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     }
     button.submit:hover{
@@ -569,8 +590,8 @@
       box-shadow: inset 0 12px 24px 0 rgba(0, 0, 0, 0.2);
     }
     p.mobile{
-      font-family: "Trebuchet MS", Helvetica, sans-serif;
-      font-size:18px;
+      font-family: "Helvetica", Helvetica, sans-serif;
+      font-size:14px;
       word-spacing: 2px;
       line-height: 1.5;
       margin-left: 5%;
@@ -579,26 +600,14 @@
       display: none;
     }
     div.resume{
-      font-family: "Book Antiqua";
-      font-size:18px;
+      font-size:14px;
       word-spacing: 2px;
-      margin-right: 9%;
-      margin-left: 9%;
+      margin-right: 7%;
+      margin-left: 7%;
       margin-bottom: 2%;
       line-height: 1.5;
       text-align: left;
-    }
-    p.resume{
-      font-family: "Book Antiqua";
-      font-size:18px;
-      word-spacing: 2px;
-      margin-right: 12%;
-      margin-left: 12%;
-      margin-top: 1px;
-      margin-bottom: 1px;
-      line-height: 2;
-      text-align: left;
-    }
+    }å
     h3 {
       font-family: "Book Antiqua";
       font-size:24px;
@@ -621,21 +630,28 @@
       display:none;
     }
 
+    table.center {
+      width:90%;
+      margin-left:50px;
+      margin-right:auto;
+      text-align: left;
+    }
+
     * {
       box-sizing: border-box;
     }
 
     /* Create two equal columns that floats next to each other */
     .column1 {
-      width: 40%;
+      width: 30%;
       float: left;
-      padding: 20px 10px 20px 7%;
+      padding: 20px 8px 20px 4%;
     }
 
     .column2 {
-      width: 60%;
+      width: 70%;
       float: left;
-      padding: 20px 7% 20px 10px;
+      padding: 20px 4% 20px 8px;
     }
 
     /* Clear floats after the columns */
@@ -646,7 +662,7 @@
     }
 
     input[type="text"]{
-      font-family: "Trebuchet MS"
+      font-family: "Helvetica"
     }
 
     @media only screen and (min-width: 200px) and (max-width:700px) {
@@ -669,7 +685,7 @@
       <div class="row">
     <div class="column1">
       <p style="text-align: center; font-size: 12px;"> </p>
-        <img src="/content/hillel.jpg" alt="Hillel" style="max-width:80%; border:2px solid black;">
+        <img src="/content/hillel.jpg" alt="Hillel" style="max-width:95%; border:2px solid black;">
         <div class="mobilecont">
           <br>
           <div class="mobileblock"></div>

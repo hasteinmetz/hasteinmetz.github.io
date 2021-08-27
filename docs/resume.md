@@ -5,19 +5,18 @@ tag: navbar
 ---
 
 <div class="mobilecont">
-  <h2>Resume</h2>
 </div>
 <p class="mobile">
 <br>
-It will be easier to view a PDF given your screen size.
+It'll be easier to view a PDF given your screen size.
 <br><br>
 Please click <a href="/content/resume-hillelsteinmetz.pdf">here</a> to view a PDF of my resume.
 </p>
-<div class="pdf">
+<div align="center">
   <div class="resume">
     <p class="resume">
     <br>
-    <h1 style="margin-top:12.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">RESUME</span></h1>
+    <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">RESUME</span></h1>
     <div align="center">
       <table style="border-collapse:collapse;border:none;">
       <tbody>
@@ -29,60 +28,199 @@ Please click <a href="/content/resume-hillelsteinmetz.pdf">here</a> to view a PD
       </table>
     </div>
 <div align="center">
-<p style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;margin-top:6.0pt;margin-right:0in;margin-bottom:.25in;margin-left:0in;line-height:140%;'><span style="font-family: Helvetica;"><span style="font-size: 14px; line-height: 140%; color: rgb(13, 13, 13);">&nbsp;</span></span></p>
-<div align="center" style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;'>
-    <table style="border-collapse:collapse;border:none;">
+<span style="font-size: 10px; line-height: 100%; color: rgb(13, 13, 13);">&nbsp;</span>
+<div align="center" style='margin:0in;font-size:10px;font-family:"Times New Roman",serif;'>
+</div>
+<div align="center">
+    <table border="0" cellspacing="0" cellpadding="0">
         <tbody>
             <tr>
-                <td style="width: 139.5pt;border-top: none;border-bottom: none;border-left: none;border-image: initial;border-right: 2.5pt double rgb(148, 17, 0);padding: 0in 5.4pt;height: 532.25pt;vertical-align: top;">
-                    <h1 style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">Skills</span></h1>
-                    <p style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;margin-bottom:6.0pt;line-height:150%;'><span style="font-family: Helvetica;"><span style="font-size: 13px; line-height: 150%; color: rgb(13, 13, 13);">Computer Programming, Statistical Analysis, Market Research, Writing, Editing</span></span></p>
-                    <h1 style="margin-top:12.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">Programming Languages</span></h1>
-                    <p style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;margin-bottom:6.0pt;line-height:150%;'><span style="font-family: Helvetica;"><span style="font-size: 13px; line-height: 150%; color: rgb(13, 13, 13);">R, HTML, JavaScript (basic), Python (intermediate)</span></span></p>
-                    <h1 style="margin-top:12.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">Software</span></h1>
-                    <p style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;margin-bottom:6.0pt;line-height:150%;'><span style="font-family: Helvetica;"><span style="font-size: 13px; line-height: 150%; color: rgb(13, 13, 13);">Excel, Qualtrics, SPSS</span></span></p>
-                    <h1 style="margin-top:12.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">Languages</span></h1>
-                    <p style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;margin-bottom:6.0pt;line-height:150%;'><span style="font-family: Helvetica;"><span style="font-size: 13px; line-height: 150%; color: rgb(13, 13, 13);">Hebrew (fluent)</span></span></p>
-                    <p style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;margin-bottom:6.0pt;line-height:150%;'><span style="font-family: Helvetica;"><span style="font-size: 13px; line-height: 150%; color: rgb(13, 13, 13);">French (working proficiency)</span></span></p>
-                    <h1 style="margin-top:12.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">Education</span></h1>
-                    <p style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;line-height:150%;'><span style="font-family: Helvetica;"><span style="font-size: 13px; line-height: 150%; color: rgb(13, 13, 13);">The University of Chicago <br>Bachelor of Arts, June 2019<br>Major: Linguistics<br>GPA: 3.92/4.00<br>Honors and Grants:&nbsp;</span></span></p>
-                    <p style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;margin-top:0in;margin-right:0in;margin-bottom:6.0pt;margin-left:12.25pt;line-height:150%;'><span style="font-family: Helvetica;"><em><span style="font-size: 13px; line-height: 150%; color: rgb(13, 13, 13);">Phi Beta Kappa</span></em><span style="font-size: 13px; line-height: 150%; color: rgb(13, 13, 13);">&nbsp;<br>Leonard Bloomfield Prize in Linguistics</span></span></p>
+            <div>
+                <td width="240" valign="top">
+                    <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
+                        SKILLS
+                    </span></h1>
+                    <p class="resume2">
+                    - Research
+                    </p>
+                    <p class="resume2">
+                    - Editing
+                    </p>
+                    <p class="resume2">
+                    - Analysis
+                    </p>
+                    <p class="resume2">
+                    - Documentation
+                    </p>
+                    <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
+                        PROGRAMMING LANGUAGES
+                    </span></h1>
+                    <p class="resume2">
+                        - R
+                    </p>
+                    <p class="resume2">
+                        - HTML
+                    </p>
+                    <p class="resume2">
+                        - JavaScript (basic)
+                    </p>
+                    <p class="resume2">
+                        - Python (basic)
+                    </p>
+                    <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
+                        SOFTWARE
+                    </span></h1>
+                    <p class="resume2">
+                        - Excel
+                    </p>
+                    <p class="resume2">
+                        - Qualtrics
+                    </p>
+                    <p class="resume2">
+                        - SPSS
+                    </p>
+                    <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
+                        LANGUAGES
+                    </span></h1>
+                    <p class="resume2">
+                        - Hebrew (advanced)
+                    </p>
+                    <p class="resume2">
+                        - French (intermediate)
+                    </p><br>
+                    <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
+                        LEADERSHIP AND ENGAGEMENT
+                    </span></h1>
+                    <p class="resume">
+                        - Editor-In-Chief,<em> Makom </em>(8/2018 – 9/2019)
+                    </p>
+                    <p class="resume">
+                        - Associate Editor<em>, The Chicago Maroon </em>(10/2015 – 3/2017)
+                    </p>
                 </td>
-                <td style="width: 378.65pt;border: none;padding: 0in 5.4pt;height: 532.25pt;vertical-align: top;">
-                    <h1 style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">Experience</span></h1>
-                    <p style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;margin-bottom:12.0pt;text-align:center;line-height:19.0pt;'><span style="font-family: Helvetica;"><span style="color: rgb(13, 13, 13);">Data Journalist</span><span style="font-size: 14px; color: rgb(13, 13, 13);"><br>&nbsp;Saggezza &nbsp;| &nbsp;10/2020 &ndash; Present</span></span></p>
-                    <div style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;'>
-                        <ul style="margin-bottom:0in;list-style-type: disc;margin-left:-0.2in;">
-                            <li style='margin: 0in; font-size: 16px; font-family: "Times New Roman", serif; line-height: 1.5;'><span style="font-family: Helvetica; font-size: 13px;">Supported a marketing campaign by creating 60+ articles, one-pagers, and presentations communicating the value of the firm&rsquo;s data &amp; analytics services</span></li>
-                            <li style='margin: 0in; font-size: 16px; font-family: "Times New Roman", serif; line-height: 1.5;'><span style="font-family: Helvetica; font-size: 13px;">Engaged prospective clients through workshops to understand client challenges and propose solutions</span></li>
-                        </ul>
-                        <br>
+              </div>
+                <td width="500" valign="top">
+                    <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">EXPERIENCE
+                    </span></h1>
+                    <div align="center">
+                    <p class="resume" style="font-size:18px">
+                        Saggezza
+                    </p></div>
+                    <div align="center" style="margin-left: 10px">
+                    <p class="resume" style="font-size:15px">
+                        Technical Writer at S&amp;P 100 financial firm | 06/2021 – Present
+                    </p></div>
+                    <ul>
+                        <li><span><p class="resume">
+                            Improved developer experiences by writing and
+                            editing software documentation and guides as a
+                            contract technical writer
+                          </p></span></li>
+                    </ul>
+                    <div align="center">
+                    <p class="resume" style="font-size:15px">
+                        Data Journalist | 10/2020 – 06/2021
+                    </p></div>
+                    <ul>
+                        <li><span><p class="resume">
+                            Supported a marketing campaign by creating 60+
+                            articles, one-pagers, and presentations to
+                            communicate the value of the firm’s data &amp;
+                            analytics services
+                        </p></span></li>
+                        <li><span><p class="resume">
+                            Engaged prospective clients through discovery
+                            workshops to understand client challenges and
+                            created content detailing solution proposals
+                        </p></span></li>
+                    </ul>
+                    <div align="center" style="padding-left:25px">
+                    <p class="resume" style="font-size:18px">
+                        University of Chicago Department of Psychology
+                        </p></div>
+                      <div align="center">
+                    <p class="resume" style="font-size:15px">
+                        Research Assistant | 06/2019 – 08/2020
+                    </p></div>
+                    <ul>
+                        <li><span><p class="resume">
+                            Researched language, social cognition, and wisdom
+                            by designing online and in-lab studies using
+                            Qualtrics, Inquisit, and other software
+                        </p></span></li>
+                        <li><span><p class="resume">
+                            Discovered a novel effect of language on social
+                            cognition<u></u>
+                        </p></span></li>
+                    </ul>
+                    <div align="center" style="padding-left:25px">
+                    <p class="resume" style="font-size:15px">
+                        Undergraduate Research Assistant | 02/2018 – 06/2019
+                    </p>
                     </div>
-                    <p style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;margin-bottom:12.0pt;text-align:center;line-height:19.0pt;'><span style="font-family: Helvetica;"><span style="color: rgb(13, 13, 13);">Research Assistant&nbsp;</span><span style="font-size: 14px; color: rgb(13, 13, 13);"><br>&nbsp;University of Chicago Department of Psychology &nbsp;| &nbsp;06/2019 &ndash; 08/2020</span></span></p>
-                    <div style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;'>
-                        <ul style="margin-bottom:0in;list-style-type: disc;margin-left:-0.2in;">
-                            <li style='margin: 0in; font-size: 16px; font-family: "Times New Roman", serif; line-height: 1.5;'><span style="font-family: Helvetica; font-size: 13px;">Spearheaded the production of two experiments and aided in the development of two others</span></li>
-                            <li style='margin: 0in; font-size: 16px; font-family: "Times New Roman", serif; line-height: 1.5;'><span style="font-size: 13px;"><span style="font-family: Helvetica;">Discovered a novel effect of language on social cognition by collecting and analyzing data from 150+ participants using R</span></span></li>
-                            <li style='margin: 0in; font-size: 16px; font-family: "Times New Roman", serif; line-height: 1.5;'><span style="font-size: 13px;"><span style="font-family: Helvetica;">Researched language, social cognition, and wisdom by designing online and in-lab studies using Qualtrics, Inquisit, and other software</span></span></li>
-                            <li style='margin: 0in; font-size: 16px; font-family: "Times New Roman", serif; line-height: 1.5;'><span style="font-family: Helvetica; font-size: 13px;">Facilitated lab operations; resolved technical issues and onboarded new graduate and undergraduate research assistants</span></li>
-                        </ul>
-                        <br>
+                    <ul>
+                        <li><span><p class="resume">
+                            Designed two computer-based experiments; recorded,
+                            edited, and modified audio stimuli using various
+                            acoustic and linguistic software</p></span></li>
+                        <li><span><p class="resume">
+                            Presented research findings at a symposium after
+                            analyzing large data sets using Excel, R, and SPSS
+                        </p></span></li>
+                    </ul>
+                    <div align="center">
+                      <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
+                          EDUCATION
+                      </span></h1>
+                      <div>
+                      <table border="0" cellspacing="0" cellpadding="0" class="center">
+                          <tbody>
+                              <tr >
+                                  <td width="288" valign="top">
+                                      <p class="resume" style="line-height: 0">
+                                          The University of Chicago
+                                      </p>
+                                  </td>
+                                  <td width="173" valign="top">
+                                      <p class="resume" style="line-height: 0">
+                                          June 2019
+                                      </p>
+                                  </td>
+                              </tr>
+                              <tr >
+                                  <td width="288" valign="top">
+                                      <p class="resume" style="line-height: 0">
+                                          Bachelor of Arts in Linguistics
+                                      </p>
+                                  </td>
+                                  <td width="173" valign="top">
+                                      <p class="resume" style="line-height: 0">
+                                          GPA: 3.92/4.00
+                                      </p>
+                                  </td>
+                              </tr>
+                              <tr >
+                                  <td width="288" valign="top">
+                                      <p class="resume" style="line-height: 0">
+                                          <em>
+                                              Leonard Bloomfield Prize in
+                                              Linguistics
+                                          </em>
+                                      </p>
+                                  </td>
+                                  <td width="173" valign="top">
+                                      <p class="resume" style="line-height: 0">
+                                          <em>Phi Beta Kappa</em>
+                                      </p>
+                                  </td>
+                              </tr>
+                          </tbody>
+                      </table>
+                      </div>
                     </div>
-                    <p style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;margin-bottom:12.0pt;text-align:center;line-height:19.0pt;'><span style="font-family: Helvetica;"><span style="color: rgb(13, 13, 13);">Undergraduate Research Assistant&nbsp;</span><span style="font-size: 14px; color: rgb(13, 13, 13);"><br>&nbsp;University of Chicago Department of Psychology &nbsp;| &nbsp;02/2018 &ndash; 09/2019</span></span></p>
-                    <div style='margin:0in;font-size:16px;font-family:"Times New Roman",serif;'>
-                        <ul style="margin-bottom:0in;list-style-type: disc;margin-left:-0.2in;">
-                            <li style='margin: 0in; font-size: 16px; font-family: "Times New Roman", serif; line-height: 1.5;'><span style="font-family: Helvetica; font-size: 13px;">Designed two computer-based experiments and created interactive behavioral measures using psychology software; collected and edited 120+ images and sounds for experimental stimuli; modified audio in linguistic software</span></li>
-                            <li style='margin: 0in; font-size: 16px; font-family: "Times New Roman", serif; line-height: 1.5;'><span style="font-family: Helvetica; font-size: 13px;">Presented research findings at a symposium after analyzing large data sets using Excel, R, and SPSS</span></li>
-                        </ul>
-                        <br>
-                    </div>
-                    <h1 style="margin-top:12.0pt;margin-right:0in;margin-bottom:6.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">Leadership and engagement</span></h1>
-                    <p style="margin-top:0in;margin-right:0in;margin-bottom:0in;margin-left:.3in;text-indent:0in;line-height:18.0pt;font-size:13px;font-family:Helvetica;color:#0D0D0D;"><span style="font-family: Helvetica;">Editor-In-Chief,<em>&nbsp;Makom &nbsp;</em>| &nbsp;8/2018 &ndash; 9/2019</span></p>
-                    <p style="margin-top:0in;margin-right:0in;margin-bottom:6.0pt;margin-left:.3in;text-indent:0in;line-height:18.0pt;font-size:13px;font-family:Helvetica;color:#0D0D0D;"><span style="font-family: Helvetica;">Associate Editor<em>, The Chicago Maroon &nbsp;</em>| &nbsp;10/2015 &ndash; 3/2017</span></p>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-    <br>
+                  </td>
+              </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
-</div>
