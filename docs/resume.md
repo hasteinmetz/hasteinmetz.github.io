@@ -40,48 +40,54 @@ Please click <a href="/content/resume-hillelsteinmetz.pdf">here</a> to view a PD
                     <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
                         SKILLS
                     </span></h1>
-                    <p style="text-align:center; font-family: Helvetica, Helvetica, sans-serif; font-size:14px; word-spacing: 2px;padding: 0px; margins:0px;">
-                        Research | Editing
+                    <p class="resume2">
+                    - Research
                     </p>
-                    <p style="text-align:center; font-family: Helvetica, Helvetica, sans-serif; font-size:14px; word-spacing: 2px;padding: 0px; margins:0px;">
-                        Analysis | Documentation
+                    <p class="resume2">
+                    - Editing
+                    </p>
+                    <p class="resume2">
+                    - Analysis
+                    </p>
+                    <p class="resume2">
+                    - Documentation
                     </p>
                     <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
                         PROGRAMMING LANGUAGES
                     </span></h1>
-                    <p class="resume">
+                    <p class="resume2">
                         - R
                     </p>
-                    <p class="resume">
+                    <p class="resume2">
                         - HTML
                     </p>
-                    <p class="resume">
+                    <p class="resume2">
                         - JavaScript (basic)
                     </p>
-                    <p class="resume">
+                    <p class="resume2">
                         - Python (basic)
                     </p>
                     <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
                         SOFTWARE
                     </span></h1>
-                    <p class="resume">
+                    <p class="resume2">
                         - Excel
                     </p>
-                    <p class="resume">
+                    <p class="resume2">
                         - Qualtrics
                     </p>
-                    <p class="resume">
+                    <p class="resume2">
                         - SPSS
                     </p>
                     <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
                         LANGUAGES
                     </span></h1>
-                    <p class="resume">
+                    <p class="resume2">
                         - Hebrew (advanced)
                     </p>
-                    <p class="resume">
+                    <p class="resume2">
                         - French (intermediate)
-                    </p>
+                    </p><br>
                     <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
                         LEADERSHIP AND ENGAGEMENT
                     </span></h1>
