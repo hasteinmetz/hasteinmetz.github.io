@@ -10,7 +10,7 @@ tag: navbar
 <br>
 It'll be easier to view a PDF given your screen size.
 <br><br>
-Please click <a href="/content/resume-hillelsteinmetz.pdf">here</a> to view a PDF of my resume.
+Please click <a href="/content/resume_hsteinmetz.pdf">here</a> to view a PDF of my resume.
 </p>
 <div align="center">
   <div class="resume">
