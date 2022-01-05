@@ -135,7 +135,7 @@
       text-align: center;
       padding: 12px 22px;
       text-decoration: none;
-      font-size: 18px;
+      font-size: 15px;
       letter-spacing: 2px;
       font-family: "Helvetica";
       overflow: hidden;
@@ -156,19 +156,6 @@
     .dropdown-content>li>a {
       word-wrap: break-word;
       white-space: normal;
-    }
-
-    .dropdown-content a {
-      float: left;
-      color: #33334d;
-      text-align: center;
-      min-width: 190px;
-      text-decoration: none;
-      font-size: 18px;
-      letter-spacing: 2px;
-      padding: 12px 22px;
-      font-family: "Helvetica";
-      z-index: 1;
     }
 
     .dropdown-content a.active {
@@ -209,6 +196,10 @@
      }
 
     .show {display: inline-block;}
+
+    @media only screen and (max-width:800px) {
+      .name{font-size: 12px}
+    }
 
     </style>
   </head>

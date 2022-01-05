@@ -31,7 +31,7 @@ tag: navbar
     like pitch and speed.
     <br><br>My research experience gave my a background in data manipulation, data visualization, and statistical analysis.
     I can work with R, SPSS, Excel. I have programming experience. The introductory computer science courses
-    I took used C and Racket, but I can't use them comfortably anymore. I'm probably most proficient in Python. 
+    I took used C and Racket, but I can't use them comfortably anymore. I'm probably most proficient in Python.
     <br><br>
     In 2019, I graduated from the University of Chicago with a BA in Linguistics.
     I decided to major in linguistics after stumbling into the introductory class and falling in love with the field.
