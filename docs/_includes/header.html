@@ -106,7 +106,7 @@
       font-weight: bolder;
       letter-spacing: 2px;
       text-shadow: 1px 1px black;
-      padding: 8px 15px;
+      padding: 8px 12px;
       min-height: 100%;
       overflow: hidden;
       display: inline-block;
@@ -129,7 +129,6 @@
     }
 
     .dropdown-content a {
-      float: left;
       display: block;
       color: #33334d;
       text-align: center;
@@ -149,8 +148,6 @@
       background-color: white;
       color: #33334d;
       text-align: left;
-      min-width: 190px;
-      padding: 0px 40px;
     }
 
     .dropdown-content>li>a {
@@ -198,7 +195,7 @@
     .show {display: inline-block;}
 
     @media only screen and (max-width:800px) {
-      .name{font-size: 12px}
+      .name{font-size: 12px; padding: 12px 14px}
     }
 
     </style>
@@ -425,7 +422,7 @@
         updateinit(r2.right);
       }
       if(window.init2=="desktop"){
-        overlap = (r1.left < window.init1 -20);
+        overlap = (r1.left < window.init1);
         if(overlap) {
           document.getElementById("navbarmobile").style.display="inline-block";
           document.getElementById("navbardesktop").style.display="none";
