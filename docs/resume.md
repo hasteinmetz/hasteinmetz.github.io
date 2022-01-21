@@ -31,53 +31,41 @@ Please click <a href="/content/resume_hsteinmetz.pdf">here</a> to view a PDF of 
 <span style="font-size: 10px; line-height: 100%; color: rgb(13, 13, 13);">&nbsp;</span>
 <div align="center" style='margin:0in;font-size:10px;font-family:"Times New Roman",serif;'>
 </div>
-<div align="center">
-    <table border="0" cellspacing="0" cellpadding="0">
-        <tbody>
+<div align="center" style="overflow-y: hidden; overflow-x: scroll; min-width: 674px">
+    <table border="0" cellspacing="0" cellpadding="0" >
+        <tbody >
             <tr>
             <div>
-                <td width="240" valign="top">
+                <td width="220" valign="top">
                     <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
-                        SKILLS
+                        TECHNICAL TOOLS
                     </span></h1>
                     <p class="resume2">
-                    - Research
+                        - Python
                     </p>
                     <p class="resume2">
-                    - Editing
+                        &emsp; &emsp; o	Pandas
                     </p>
                     <p class="resume2">
-                    - Analysis
+                        &emsp; &emsp; o	Numpy
                     </p>
                     <p class="resume2">
-                    - Documentation
-                    </p><br>
-                    <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
-                        PROGRAMMING LANGUAGES
-                    </span></h1>
+                        &emsp; &emsp; o	NLTK
+                    </p>
                     <p class="resume2">
                         - R
                     </p>
                     <p class="resume2">
-                        - HTML
+                        - HTML5/CSS
+                    </p>
+                    <p class="resume2">
+                        - JIRA
                     </p>
                     <p class="resume2">
                         - JavaScript (basic)
                     </p>
                     <p class="resume2">
-                        - Python (basic)
-                    </p><br>
-                    <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
-                        SOFTWARE
-                    </span></h1>
-                    <p class="resume2">
-                        - Excel
-                    </p>
-                    <p class="resume2">
-                        - Qualtrics
-                    </p>
-                    <p class="resume2">
-                        - SPSS
+                        - Bash/Shell (basic)
                     </p><br>
                     <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
                         LANGUAGES
@@ -87,19 +75,111 @@ Please click <a href="/content/resume_hsteinmetz.pdf">here</a> to view a PDF of 
                     </p>
                     <p class="resume2">
                         - French (intermediate)
-                    </p><br>
+                    </p>
+                    <br>
                     <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
                         LEADERSHIP AND ENGAGEMENT
                     </span></h1>
-                    <p class="resume">
-                        - Editor-In-Chief,<em> Makom </em>(8/2018 – 9/2019)
+                    <p class="resume2">
+                        Resident,<em> Moishe House Seattle </em>(8/2021 – present)
                     </p>
-                    <p class="resume">
-                        - Associate Editor<em>, The Chicago Maroon </em>(10/2015 – 3/2017)
+                    <p class="resume2">
+                        Editor-In-Chief,<em> Makom </em>(8/2018 – 9/2019)
+                    </p>
+                    <p class="resume2">
+                        Associate Editor<em>, The Chicago Maroon </em>(10/2015 – 3/2017)
                     </p>
                 </td>
               </div>
-                <td width="500" valign="top">
+                <td width="560" valign="top" >
+                <div align="center"><br>
+                  <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
+                      EDUCATION
+                  </span></h1>
+                  <div >
+                  <table border="0" cellspacing="0" cellpadding="0" class="center" style="overflow: hidden; word-wrap: break-word; margin-left: 20px">
+                      <tbody >
+                          <tr class="edu" >
+                              <td class="edu" valign="top">
+                                  <p class="resume" style="line-height: 0;">
+                                      The University of Washington
+                                  </p>
+                              </td>
+                              <td class="edu" valign="top">
+                                  <p class="resume" style="line-height: 0">
+                                      Expected: 12/2022
+                                  </p>
+                              </td>
+                          </tr>
+                          <tr class="edu" >
+                              <td  class="edu" valign="top">
+                                  <p class="resume" style="line-height: 0">
+                                      MS in Computational Linguistics
+                                  </p>
+                              </td>
+                              <td class="edu" valign="top">
+                                  <p class="resume" style="line-height: 0">
+                                      GPA: 3.97/4.00
+                                  </p>
+                              </td>
+                          </tr>
+                          <tr >
+                              <td class="edu" valign="top">
+                                  <p class="resume" style="line-height: 0">
+                                      <em>
+                                          Ryan Neale Cross Memorial Fellowship
+                                      </em>
+                                  </p>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table><br>
+                  </div>
+                  <div>
+                  <table border="0" cellspacing="0" cellpadding="0" class="center" style="overflow: hidden; word-wrap: break-word; margin-left: 20px">
+                      <tbody>
+                          <tr class="edu" >
+                              <td class="edu" valign="top">
+                                  <p class="resume" style="line-height: 0">
+                                      The University of Chicago
+                                  </p>
+                              </td>
+                              <td class="edu" valign="top">
+                                  <p class="resume" style="line-height: 0">
+                                      06/2019
+                                  </p>
+                              </td>
+                          </tr>
+                          <tr class="edu">
+                              <td class="edu" valign="top">
+                                  <p class="resume" style="line-height: 0">
+                                      BA in Linguistics
+                                  </p>
+                              </td>
+                              <td class="edu" valign="top">
+                                  <p class="resume" style="line-height: 0">
+                                      GPA: 3.92/4.00
+                                  </p>
+                              </td>
+                          </tr>
+                          <tr class="edu">
+                              <td class="edu" valign="top">
+                                  <p class="resume" style="line-height: 0">
+                                      <em>
+                                          Leonard Bloomfield Prize in Linguistics
+                                      </em>
+                                  </p>
+                              </td>
+                              <td class="edu" valign="top">
+                                  <p class="resume" style="line-height: 0">
+                                      <em>Phi Beta Kappa</em>
+                                  </p>
+                              </td>
+                          </tr>
+                      </tbody>
+                  </table><br>
+                  </div>
+                </div>
                     <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">EXPERIENCE
                     </span></h1>
                     <div align="center">
@@ -112,10 +192,11 @@ Please click <a href="/content/resume_hsteinmetz.pdf">here</a> to view a PDF of 
                     </p></div>
                     <ul>
                         <li><span><p class="resume">
-                            Improved developer experiences by writing and
-                            editing software documentation and guides as a
-                            contract technical writer
+                            Improved developer experiences by writing and editing software documentation and guides as a contract technical writer
                           </p></span></li>
+                          <li><span><p class="resume">
+                            Collaborated with product managers to design and publish product documentation webpages to a new, centralized software reference site
+                            </p></span></li>
                     </ul>
                     <div align="center">
                     <p class="resume" style="font-size:15px">
@@ -123,15 +204,7 @@ Please click <a href="/content/resume_hsteinmetz.pdf">here</a> to view a PDF of 
                     </p></div>
                     <ul>
                         <li><span><p class="resume">
-                            Supported a marketing campaign by creating 60+
-                            articles, one-pagers, and presentations to
-                            communicate the value of the firm’s data &amp;
-                            analytics services
-                        </p></span></li>
-                        <li><span><p class="resume">
-                            Engaged prospective clients through discovery
-                            workshops to understand client challenges and
-                            created content detailing solution proposals
+                            Spearheaded content development for a marketing campaign with 60+ articles, one-pagers, and presentations to communicate the value of the firm’s technical service offerings
                         </p></span></li>
                     </ul>
                     <div align="center" style="padding-left:25px">
@@ -144,79 +217,12 @@ Please click <a href="/content/resume_hsteinmetz.pdf">here</a> to view a PDF of 
                     </p></div>
                     <ul>
                         <li><span><p class="resume">
-                            Researched language, social cognition, and wisdom
-                            by designing online and in-lab studies using
-                            Qualtrics, Inquisit, and other software
+                           Researched language, social cognition, and wisdom by designing online and in-lab studies using Qualtrics, Inquisit, and other software
                         </p></span></li>
                         <li><span><p class="resume">
-                            Discovered a novel effect of language on social
-                            cognition<u></u>
+                            Discovered a novel effect of language on social cognition after designing a web-based experiment and analyzed the results in R
                         </p></span></li>
                     </ul>
-                    <div align="center" style="padding-left:25px">
-                    <p class="resume" style="font-size:15px">
-                        Undergraduate Research Assistant | 02/2018 – 06/2019
-                    </p>
-                    </div>
-                    <ul>
-                        <li><span><p class="resume">
-                            Designed two computer-based experiments; recorded,
-                            edited, and modified audio stimuli using various
-                            acoustic and linguistic software</p></span></li>
-                        <li><span><p class="resume">
-                            Presented research findings at a symposium after
-                            analyzing large data sets using Excel, R, and SPSS
-                        </p></span></li>
-                    </ul>
-                    <div align="center"><br>
-                      <h1 style="margin-bottom:16.0pt;margin-right:0in;margin-bottom:12.0pt;margin-left:0in;text-align:center;line-height:150%;font-size:17px;font-family:Helvetica;color:#3B3838;font-weight:normal;"><span style="font-family: Helvetica; font-size: 20px;">
-                          EDUCATION
-                      </span></h1>
-                      <div>
-                      <table border="0" cellspacing="0" cellpadding="0" class="center">
-                          <tbody>
-                              <tr >
-                                  <td width="410" valign="top">
-                                      <p class="resume" style="line-height: 0">
-                                          The University of Chicago
-                                      </p>
-                                  </td>
-                                  <td width="150" valign="top">
-                                      <p class="resume" style="line-height: 0">
-                                          June 2019
-                                      </p>
-                                  </td>
-                              </tr>
-                              <tr >
-                                  <td width="410" valign="top">
-                                      <p class="resume" style="line-height: 0">
-                                          Bachelor of Arts in Linguistics
-                                      </p>
-                                  </td>
-                                  <td width="150" valign="top">
-                                      <p class="resume" style="line-height: 0">
-                                          GPA: 3.92/4.00
-                                      </p>
-                                  </td>
-                              </tr>
-                              <tr >
-                                  <td width="410" valign="top">
-                                      <p class="resume" style="line-height: 0">
-                                          <em>
-                                              Leonard Bloomfield Prize in Linguistics
-                                          </em>
-                                      </p>
-                                  </td>
-                                  <td width="150" valign="top">
-                                      <p class="resume" style="line-height: 0">
-                                          <em>Phi Beta Kappa</em>
-                                      </p>
-                                  </td>
-                              </tr>
-                          </tbody>
-                      </table><br>
-                      </div>
-                    </div>
                   </td>
               </tr>
           </tbody>
