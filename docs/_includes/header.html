@@ -209,15 +209,9 @@
       </div>
       <div class="desktop" id="navbardesktop">
        {% if page.title == 'Hillel Steinmetz' %}
-         <a href="{{ site.url }}" class="active">Home</a>
+         <a href="{{ site.url }}" class="active">About Me</a>
        {% else %}
-         <a href="{{ site.url }}">Home</a>
-       {% endif %}
-
-       {% if page.url == "/about.html" %}
-         <a href="/about.html" class="active">About Me</a>
-       {% else %}
-         <a href="/about.html">About Me</a>
+         <a href="{{ site.url }}">About Me</a>
        {% endif %}
 
        {% if page.url == "/resume.html" %}
@@ -245,16 +239,9 @@
           <div id="myDropdown" class="dropdown-content">
             <div class="dropdownwrapper">
              {% if page.title == 'Hillel Steinmetz' %}
-               <a href="{{ site.url }}" class="active">Home</a>
+               <a href="{{ site.url }}" class="active">About Me</a>
              {% else %}
-               <a href="{{ site.url }}">Home</a>
-             {% endif %}
-           </div>
-           <div class="dropdownwrapper">
-             {% if page.url == "/about.html" %}
-               <a href="/about.html" class="active">About Me</a>
-             {% else %}
-               <a href="/about.html">About Me</a>
+               <a href="{{ site.url }}">About Me</a>
              {% endif %}
            </div>
            <div class="dropdownwrapper">
