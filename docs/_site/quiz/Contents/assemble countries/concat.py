@@ -9,7 +9,7 @@ cfile = open("country_region.json", "r")
 reg = json.load(cfile)
 cfile = open("country_cont.json", "r")
 cont = json.load(cfile)
-cfile = open("country_languages_samayo.txt", "r")
+cfile = open("country_languages_samayo.json", "r")
 lang = json.load(cfile)
 
 new = {}
