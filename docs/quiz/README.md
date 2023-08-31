@@ -1,6 +1,6 @@
-# Silly quiz game in order to practice programming.
+# Silly quiz game to learn programming
 
-NOTE (1-30-2022): *I created this project over the course of December 2020. Aside from one or two small fixes, I haven't worked on this project since January 2021. It's rudimentary, but demonstrates my ability to create a product. Maybe I'll come back to it someday!*
+NOTE (8-2023): *I created this project over the course of December 2020. Aside from one or two small fixes, I haven't worked on this project since January 2021. It's rudimentary, but demonstrates my ability to create a product. The quality of the code is... bad. Maybe I'll come back to it someday!*
 
 Country information (countries.txt) taken from [Ian Coleman's CIA World Factbook API](https://github.com/iancoleman/cia_world_factbook_api).
 
