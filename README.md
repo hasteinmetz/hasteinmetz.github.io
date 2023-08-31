@@ -4,6 +4,8 @@ This repository serves as a personal website for Hillel Steinmetz: **[hasteinmet
 
 Please feel free to make use of the HTML/CSS/Jekyll website template I made (with a huge help from [W3 Schools](https://www.w3schools.com)).
 
+> Note (Aug 2023): The code used for the game construction is poorly written. I made this website to get more comfortable programming, and it was the first time I had used Python or Javascript. I haven't gotten around to updating the website's code. Please visit my more recent repos to get a sense of how I write Python programs.
+
 # Licence
 
 The MIT License (MIT)
