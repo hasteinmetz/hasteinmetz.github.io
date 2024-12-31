@@ -1,3 +1,0 @@
-Disallow: /*.pdf
-
-Sitemap: http://hasteinmetz.github.io/sitemap.xml
