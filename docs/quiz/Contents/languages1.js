@@ -1,4 +1,4 @@
-var languages = {
+export var languages = {
     "Kujarg\u00e9 language": {
         "vspeakers": "1000",
         "speakers": "(1,000 cited 1983)[1]",
@@ -21694,8 +21694,8 @@ var languages = {
         "mainfam": "NA"
     }
 }
-var listoflanguages = Object.keys(languages);
-var country_js = {
+export var listoflanguages = Object.keys(languages);
+export var country_js = {
     "Canada": {
         "languages": [
             "Chinese",
