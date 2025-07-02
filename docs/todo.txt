@@ -1,2 +1,0 @@
-- Change font size down
-- Fix mobile button
